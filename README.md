@@ -5,6 +5,10 @@
 
 ## 開啟方式
 
+線上使用：[家醫科疫苗接種速查](https://jamesxxx1997.github.io/vaccine-guide/)。
+由 GitHub Pages 發布 `main` 分支根目錄；`.nojekyll` 讓原始靜態檔（包含底線開頭的來源摘錄）直接提供。
+網站檔案更新推送後，GitHub 會自動重新發布，無需在電腦上啟動服務。
+
 雙擊 `index.html` 可離線使用；請保留整個資料夾（含 `review/`、`sources/`、
 `reference-ui.js`、`reference-ui.css`、`reference-geometry.js`），不要只單獨複製 HTML。
 建議使用下方本機網址，完整 PDF 的頁碼跳轉會較可靠。
