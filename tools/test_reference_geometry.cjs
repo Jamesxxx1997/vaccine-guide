@@ -1,0 +1,20 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const context=vm.createContext({});
+vm.runInContext(fs.readFileSync(path.join(__dirname,'../reference-geometry.js'),'utf8'),context);
+const g=vm.runInContext('ReferenceGeometry',context);
+const clean=x=>JSON.parse(JSON.stringify(x));
+const text='接種疫苗之後至少間隔四週';
+const chars=[...text].map((c,i)=>[10+i*10,40,20+i*10,50,c]);
+const p={w:600,h:800,lines:[[10,40,130,50,text,0],[310,40,430,50,text,1]],chars,
+  words:[[10,40,130,50,text,0],[310,40,430,50,text,1]]};
+assert.deepEqual(clean(g.matches(p,'至少間隔四週',[0,0,200,100])),[[70,40,130,50]]);
+assert.equal(g.matches(p,'123456789').length,0);
+assert.equal(g.matches(p,'沒有出現的原句').length,0);
+assert.equal(g.matches({...p,chars:[]},'至少間隔四週',[0,0,200,100]).length,0,'Do not guess partial-word geometry');
+const c=g.context(p,[[70,40,130,50]]);assert.equal(c.page.w,600);assert(c.height>=250&&c.top>=0&&c.top+c.height<=800);
+const entry={page:1,origin:[100,200],dpi:144,iw:200,ih:100,rects:[[20,30,60,10]],status:'partial'};
+assert.deepEqual(clean(g.legacy({pages:[{...p,page:1}]},entry).rects),[[110,215,140,220]]);
+assert.equal(g.legacy({pages:[{...p,page:1}]},{...entry,status:'gist'}).rects.length,0);
+assert.equal(g.legacy({pages:[]},entry),null);
+console.log('8 geometry checks passed.');

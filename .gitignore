@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+.env
+.env.*
+!.env.example
+# Personal review progress and operational handoff remain local.
+study/
+HANDOFF_CODEX.md
+# Personal textbook extracts are not used by the website and are not republished.
+sources/_text/handbook/
+tmp/

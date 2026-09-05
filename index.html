@@ -1,0 +1,1904 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>家醫科疫苗接種速查</title>
+<style>
+:root{
+  --bg:#f6f7f9; --surface:#fff; --surface-2:#f0f2f5; --line:#dde1e7;
+  --ink:#1a1d21; --ink-2:#4a5058; --ink-3:#767d87;
+  --accent:#1f5fa8; --accent-soft:#e8f0fa;
+  --stop:#b3261e; --stop-soft:#fdecea;
+  --warn:#8a5a00; --warn-soft:#fff4de;
+  --go:#1b6b3a; --go-soft:#e6f4ea;
+  --radius:10px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#14171a; --surface:#1c2024; --surface-2:#23282d; --line:#333a41;
+    --ink:#e8eaed; --ink-2:#b4bac1; --ink-3:#878e96;
+    --accent:#7cb0ea; --accent-soft:#1b2c40;
+    --stop:#f2867d; --stop-soft:#3a1d1b;
+    --warn:#e9b64d; --warn-soft:#3a2f14;
+    --go:#7cc99a; --go-soft:#17301f;
+  }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"PingFang TC","Noto Sans TC","Helvetica Neue",Arial,sans-serif;
+  font-size:15px; line-height:1.65; -webkit-text-size-adjust:100%;
+}
+.wrap{max-width:1120px; margin:0 auto; padding:0 16px 64px}
+
+/* ── header ── */
+header{background:var(--surface); border-bottom:1px solid var(--line); padding:18px 0 0}
+h1{font-size:21px; margin:0 0 4px; letter-spacing:-.01em}
+.sub{color:var(--ink-3); font-size:13px; margin:0 0 14px}
+.disclaimer{
+  background:var(--warn-soft); border:1px solid var(--line); border-left:3px solid var(--warn);
+  color:var(--ink-2); font-size:12.5px; padding:9px 12px; border-radius:6px; margin:0 0 14px;
+}
+
+/* ── tabs ── */
+nav{display:flex; gap:2px; overflow-x:auto; scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav button{
+  flex:0 0 auto; background:none; border:none; border-bottom:2px solid transparent;
+  color:var(--ink-2); font:inherit; font-size:14px; padding:9px 13px; cursor:pointer; white-space:nowrap;
+}
+nav button:hover{color:var(--ink)}
+nav button[aria-selected=true]{color:var(--accent); border-bottom-color:var(--accent); font-weight:600}
+
+/* ── panels ── */
+.panel{display:none; padding-top:22px}
+.panel.on{display:block}
+h2{font-size:17px; margin:26px 0 10px; letter-spacing:-.01em}
+h2:first-child{margin-top:0}
+h3{font-size:14.5px; margin:18px 0 7px; color:var(--ink-2)}
+p{margin:0 0 10px}
+
+.card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:16px; margin:0 0 14px}
+.note{background:var(--accent-soft); border:1px solid var(--line); border-left:3px solid var(--accent); border-radius:6px; padding:10px 13px; font-size:13.5px; margin:0 0 14px; color:var(--ink-2)}
+.note strong{color:var(--ink)}
+
+/* ── screener ── */
+.screener-grid{display:grid; grid-template-columns:300px 1fr; gap:18px; align-items:start}
+@media(max-width:820px){.screener-grid{grid-template-columns:1fr}}
+.sticky{position:sticky; top:12px}
+fieldset{border:none; margin:0 0 14px; padding:0}
+legend{font-size:12px; font-weight:600; color:var(--ink-3); text-transform:uppercase; letter-spacing:.05em; padding:0 0 6px}
+label.chk{display:flex; gap:8px; align-items:flex-start; padding:5px 0; cursor:pointer; font-size:13.5px; color:var(--ink-2)}
+label.chk:hover{color:var(--ink)}
+label.chk input{margin:3px 0 0; flex:0 0 auto; accent-color:var(--accent); width:15px; height:15px}
+.age-row{display:flex; gap:8px; align-items:center; margin:0 0 12px}
+.age-row input[type=number]{
+  width:76px; padding:6px 8px; font:inherit; font-size:14px;
+  background:var(--surface); color:var(--ink); border:1px solid var(--line); border-radius:6px;
+}
+.age-row select{
+  padding:6px 8px; font:inherit; font-size:14px;
+  background:var(--surface); color:var(--ink); border:1px solid var(--line); border-radius:6px;
+}
+button.ghost{
+  background:var(--surface-2); color:var(--ink-2); border:1px solid var(--line);
+  border-radius:6px; padding:6px 11px; font:inherit; font-size:13px; cursor:pointer;
+}
+button.ghost:hover{color:var(--ink); border-color:var(--ink-3)}
+
+/* ── verdict cards ── */
+.tally{display:flex; gap:8px; flex-wrap:wrap; margin:0 0 14px; font-size:13px}
+.tally span{padding:4px 10px; border-radius:20px; border:1px solid var(--line)}
+.t-stop{background:var(--stop-soft); color:var(--stop)}
+.t-warn{background:var(--warn-soft); color:var(--warn)}
+.t-go{background:var(--go-soft); color:var(--go)}
+
+.vax{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); margin:0 0 9px; overflow:hidden}
+.vax.stop{border-left:4px solid var(--stop)}
+.vax.warn{border-left:4px solid var(--warn)}
+.vax.go{border-left:4px solid var(--go)}
+.vax-head{display:flex; gap:10px; align-items:center; padding:11px 14px; cursor:pointer; user-select:none}
+.vax-head:hover{background:var(--surface-2)}
+.badge{flex:0 0 auto; font-size:12px; font-weight:600; padding:2px 9px; border-radius:20px; white-space:nowrap}
+.badge.stop{background:var(--stop-soft); color:var(--stop)}
+.badge.warn{background:var(--warn-soft); color:var(--warn)}
+.badge.go{background:var(--go-soft); color:var(--go)}
+.vax-name{flex:1 1 auto; font-weight:600; font-size:14.5px}
+.vax-name small{display:block; font-weight:400; color:var(--ink-3); font-size:12px}
+.pill{flex:0 0 auto; font-size:11px; color:var(--ink-3); border:1px solid var(--line); border-radius:4px; padding:1px 6px}
+.pill.live{background:var(--warn-soft); color:var(--warn); border-color:transparent}
+.chev{flex:0 0 auto; color:var(--ink-3); font-size:12px; transition:transform .15s}
+.vax.open .chev{transform:rotate(90deg)}
+.vax-body{display:none; padding:0 14px 14px; border-top:1px solid var(--line)}
+.vax.open .vax-body{display:block}
+
+.hit{padding:8px 0; border-bottom:1px dashed var(--line)}
+.hit:last-child{border-bottom:none}
+.hit-tag{font-size:11.5px; font-weight:600; margin-right:6px}
+.hit-tag.stop{color:var(--stop)}
+.hit-tag.warn{color:var(--warn)}
+.hit-tag.info{color:var(--ink-3)}
+
+/* 折疊分類表 */
+details.fold{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); margin:0 0 9px; overflow:hidden}
+details.fold summary{padding:12px 14px; cursor:pointer; font-weight:600; font-size:14.5px; list-style:none; user-select:none}
+details.fold summary::-webkit-details-marker{display:none}
+details.fold summary::after{content:"▶"; float:right; color:var(--ink-3); font-size:12px; transition:transform .15s}
+details.fold[open] summary::after{transform:rotate(90deg)}
+details.fold summary:hover{background:var(--surface-2)}
+.fold-body{padding:4px 14px 14px; border-top:1px solid var(--line); font-size:13.5px; color:var(--ink-2)}
+.fold-body ul{columns:2; column-gap:28px; margin:8px 0 0}
+.fold-body li{break-inside:avoid; margin:0 0 6px}
+@media(max-width:700px){.fold-body ul{columns:1}}
+
+/* 成人時程可展開卡片 */
+.adv-brief{flex:2 1 260px; font-size:13px; color:var(--ink-2); text-align:right}
+@media(max-width:700px){
+  .adv-brief{flex:1 1 100%; text-align:left; margin-top:4px}
+  #adultList .vax-head{flex-wrap:wrap}
+}
+#adultList .vax-body{padding-top:12px}
+#adultList .vax-name{flex:1 1 220px}
+.sero{background:var(--surface-2); border:1px solid var(--line); border-radius:8px; padding:12px 14px; margin:14px 0 4px}
+.sero h3:first-child{margin-top:0}
+a{color:var(--accent)}
+a:hover{text-decoration:none}
+.src a{color:inherit; text-decoration:underline; text-underline-offset:2px}
+.src a:hover{color:var(--accent)}
+.hit-txt{font-size:13.5px; color:var(--ink-2)}
+.src{display:block; font-size:11.5px; color:var(--ink-3); margin-top:3px}
+
+/* ── tables ── */
+.scroller{overflow-x:auto; -webkit-overflow-scrolling:touch; margin:0 0 14px; border:1px solid var(--line); border-radius:var(--radius); background:var(--surface)}
+table{border-collapse:collapse; width:100%; font-size:13.5px; min-width:560px}
+th,td{padding:9px 12px; text-align:left; vertical-align:top; border-bottom:1px solid var(--line)}
+th{background:var(--surface-2); font-weight:600; font-size:12.5px; color:var(--ink-2); position:sticky; top:0}
+tbody tr:last-child td{border-bottom:none}
+td.live{color:var(--warn); font-weight:600; white-space:nowrap}
+td.inact{color:var(--ink-3); white-space:nowrap}
+ul{margin:0 0 10px; padding-left:20px}
+li{margin:0 0 4px}
+code{background:var(--surface-2); padding:1px 5px; border-radius:4px; font-size:12.5px; font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+
+/* ── interval checker ── */
+.iv-row{display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin:0 0 12px}
+.iv-row select{
+  flex:1 1 200px; padding:7px 9px; font:inherit; font-size:14px;
+  background:var(--surface); color:var(--ink); border:1px solid var(--line); border-radius:6px;
+}
+.iv-out{border-radius:8px; padding:12px 14px; font-size:14px; border:1px solid var(--line)}
+.iv-out.go{background:var(--go-soft); color:var(--go)}
+.iv-out.warn{background:var(--warn-soft); color:var(--warn)}
+.iv-out .src{color:inherit; opacity:.75}
+
+.srclist{font-size:13px}
+.srclist td:first-child{font-weight:600; white-space:nowrap}
+.ver{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:12.5px; color:var(--accent)}
+footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); color:var(--ink-3); font-size:12.5px}
+
+@media print{
+  nav,.sticky,footer{display:none}
+  .panel{display:block !important; page-break-before:always}
+  body{background:#fff; color:#000; font-size:11pt}
+  .vax-body{display:block !important}
+}
+
+/* ── 原句摘錄檢視 ── */
+.exq{border:1px solid var(--line);background:var(--surface-2);border-radius:5px;cursor:pointer;
+     font-size:11.5px;padding:0 5px;line-height:1.5;vertical-align:1px}
+.exq:hover{border-color:var(--accent);background:var(--accent-soft)}
+.exwrap{position:relative;display:inline-block;line-height:0}
+.exwrap img{width:100%;height:auto;border:1px solid var(--line);border-radius:6px;background:#fff}
+.exhl{position:absolute;background:rgba(255,200,0,.30);outline:2px solid rgba(230,150,0,.85);border-radius:2px;pointer-events:none}
+#extip{position:fixed;z-index:70;display:none;background:var(--surface);border:1px solid var(--line);
+       border-radius:10px;box-shadow:0 8px 28px rgba(0,0,0,.35);padding:8px;max-width:440px}
+#extip .exmeta{font-size:11.5px;color:var(--ink-3);margin-top:5px}
+#expanel{position:fixed;z-index:60;top:0;right:0;height:100vh;width:min(46vw,720px);
+         background:var(--surface);border-left:1px solid var(--line);box-shadow:-10px 0 34px rgba(0,0,0,.4);
+         transform:translateX(105%);transition:transform .18s;display:flex;flex-direction:column}
+#expanel.on{transform:none}
+#expanel .exhead{display:flex;gap:10px;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line)}
+#expanel .exhead button{border:none;background:none;color:var(--ink-2);font-size:17px;cursor:pointer}
+#expanel .exbody{padding:14px;overflow-y:auto}
+#expanel .exmeta{font-size:12.5px;color:var(--ink-3)}
+@media(max-width:760px){#expanel{width:94vw}}
+</style>
+<link rel="stylesheet" href="reference-ui.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>家醫科疫苗接種速查</h1>
+    <p class="sub">整合衛福部疾管署現行接種指引 · 資料擷取日 2026-08-07 · 頁面版本 <span id="buildTime">—</span></p>
+    <div class="disclaimer">
+      <strong>僅供醫療人員臨床參考。</strong>本頁為疾管署公開文件之整理，非官方發布物。每條規則均標註來源文件與版本，<strong>臨床決策前請以官方原文為準</strong>；公費身分與給付規定可能隨年度計畫調整。
+    </div>
+    <nav id="tabs" role="tablist"></nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+<!-- ═══════════ 篩檢器 ═══════════ -->
+<section class="panel on" id="p-screen" role="tabpanel">
+  <div class="screener-grid">
+    <div class="sticky">
+      <div class="card">
+        <div class="age-row">
+          <label for="age" style="font-size:13px;color:var(--ink-2)">年齡</label>
+          <input type="number" id="age" min="0" max="120" placeholder="—">
+          <select id="ageUnit"><option value="y">歲</option><option value="m">個月</option><option value="w">週</option></select>
+          <button class="ghost" id="reset" style="margin-left:auto">清除</button>
+        </div>
+        <div id="conds"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="tally" id="tally"></div>
+      <div id="results"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 兒童時程 ═══════════ -->
+<section class="panel" id="p-child" role="tabpanel">
+  <h2>接種進度推算</h2>
+  <div class="card">
+    <div class="age-row" style="flex-wrap:wrap">
+      <label for="cBirth" style="font-size:13px;color:var(--ink-2)">出生日期</label>
+      <input type="date" id="cBirth" style="padding:6px 8px;font:inherit;font-size:14px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:6px">
+      <span style="color:var(--ink-3);font-size:13px">或直接輸入</span>
+      <input type="number" id="cMonths" min="0" max="240" placeholder="月齡">
+      <span style="color:var(--ink-3);font-size:13px">個月</span>
+      <button class="ghost" id="cReset" style="margin-left:auto">清除</button>
+    </div>
+  </div>
+  <div id="cOut"></div>
+
+  <h2>我國現行兒童預防接種時程</h2>
+  <p class="sub" style="margin-top:-6px">來源：疾管署《我國現行兒童預防接種時程》<span class="ver">114年1月版</span></p>
+
+  <div class="note" style="border-left-color:var(--go);background:var(--go-soft)">
+    <strong>📅 即將生效：輪狀病毒疫苗 2027-01-01 起納入幼兒公費接種</strong><br>
+    衛福部 115-06-30 公告，併同提供 2 劑型及 3 劑型疫苗。<br>
+    <strong>接種年齡：</strong>「最小為出生滿 6 週，最大不得超過 8 個月」<br>
+    <strong>時程：</strong>2 劑型為出生滿 2、4 個月；3 劑型為出生滿 2、4、6 個月；每劑最短間隔 4 週。<br>
+    <span class="src">來源：衛生福利部新聞稿（建檔 115-06-30）　下表為 114 年 1 月版時程，尚未納入此項</span>
+  </div>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>疫苗</th><th>接種時程</th></tr></thead>
+      <tbody id="childTbl"></tbody>
+    </table>
+  </div>
+  <h3>時程表附註（原文）</h3>
+  <div class="card" style="font-size:13.5px;color:var(--ink-2)">
+    <ol style="padding-left:20px;margin:0">
+      <li>105 年起，卡介苗接種時程由出生滿 24 小時後，調整為<strong>出生滿 5 個月</strong>（建議接種時間為出生滿 5–8 個月）。</li>
+      <li>106 年 5 月 22 日起，改採用細胞培養之日本腦炎活性減毒疫苗，接種時程為出生滿 15 個月接種第 1 劑，間隔 12 個月接種第 2 劑。</li>
+      <li>8 歲（含）以下兒童，初次接種流感疫苗應接種 2 劑，2 劑間隔 4 週。9 歲（含）以上兒童初次接種只需要 1 劑。國小學童校園集中接種時全面施打 1 劑公費疫苗；8 歲（含）以下初次接種者，家長覺需要可於第 1 劑間隔 4 週後自費接種第 2 劑。</li>
+      <li>A 型肝炎疫苗 107 年 1 月起公費實施對象為民國 106 年 1 月 1 日（含）以後出生、年滿 12 個月以上之幼兒。108 年 4 月 8 日起擴及國小六年級（含）以下之低收入戶及中低收入戶兒童。<strong>114 年起幼兒 A 肝疫苗第 1、2 劑時程調整為滿 18 個月、27 個月接種。</strong></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ═══════════ 成人時程 ═══════════ -->
+<section class="panel" id="p-adult" role="tabpanel">
+  <h2>成人預防接種建議時程</h2>
+  <p class="sub" style="margin-top:-6px">來源：<a href="https://www.cdc.gov.tw/Category/Page/MoZgDU5xEilvKbL54nUTEg" target="_blank" rel="noopener">疾管署《成人預防接種建議時程表》</a> <span class="ver">115 年 5 月版</span>　·　點任一列展開完整說明</p>
+  <div class="note">
+    抗體判讀（B 肝 anti-HBs、麻疹／德國麻疹免疫力）已併入對應疫苗列，展開 <strong>B 型肝炎疫苗</strong> 或 <strong>MMR</strong> 即可查看。
+  </div>
+  <div id="adultList"></div>
+
+  <h2>風險族群與旅遊建議評估</h2>
+  <div class="screener-grid">
+    <div>
+      <div class="card">
+        <div class="age-row">
+          <label for="aAge" style="font-size:13px;color:var(--ink-2)">年齡</label>
+          <input type="number" id="aAge" min="0" max="120" placeholder="歲">
+          <label class="chk" style="padding:0;margin-left:8px"><input type="checkbox" id="aIndig"><span>原住民</span></label>
+        </div>
+        <fieldset><legend>IPD 高風險對象</legend><div id="ipdBox"></div></fieldset>
+        <fieldset><legend>性行為與血液暴露風險</legend><div id="sexBox"></div></fieldset>
+        <fieldset><legend>慢性病、職業與居住狀況</legend><div id="chrBox"></div></fieldset>
+      </div>
+    </div>
+    <div id="riskOut"></div>
+  </div>
+
+  <h2>旅遊目的地</h2>
+  <div class="card">
+    <div class="iv-row"><select id="tvCountry"></select></div>
+    <div class="sub" id="tvMeta" style="font-size:12.5px"></div>
+  </div>
+  <div id="tvOut"></div>
+</section>
+
+<!-- ═══════════ 間隔規則 ═══════════ -->
+<section class="panel" id="p-interval" role="tabpanel">
+  <h2>兩劑疫苗間隔檢查</h2>
+  <div class="card">
+    <div class="iv-row">
+      <select id="ivA"></select>
+      <span style="color:var(--ink-3)">＋</span>
+      <select id="ivB"></select>
+    </div>
+    <div class="iv-out go" id="ivOut">請選擇兩種疫苗。</div>
+  </div>
+
+  <h2>疫苗分類：誰是活性減毒、誰是不活化</h2>
+  <p class="sub" style="margin-top:-6px">不同注射式／鼻噴活性減毒疫苗，非同日接種原則上間隔 28 天；口服製劑、卡介苗等例外請見下方。來源：疾管署《各項預防接種間隔時間一覽表》<span class="ver">115.05 版</span>之分類欄</p>
+
+  <details class="fold">
+    <summary>🦠 活性減毒疫苗（8 項）—— 彼此不同時接種原則上要隔 28 天</summary>
+    <div class="fold-body">
+      <ul>
+        <li>卡介苗（BCG）<span class="pill live">例外：可與任何活性減毒疫苗同時或間隔任何時間接種</span></li>
+        <li>水痘疫苗（Varicella）</li>
+        <li>麻疹腮腺炎德國麻疹混合疫苗（MMR）</li>
+        <li>黃熱病疫苗（Yellow fever）</li>
+        <li>輪狀病毒疫苗（Rotavirus）<span class="pill">口服</span></li>
+        <li>口服小兒麻痺疫苗（OPV）<span class="pill">口服 · 國內已無進口</span></li>
+        <li>活性減毒嵌合型日本腦炎疫苗（JE-CV）</li>
+        <li>活性減毒流感疫苗（LAIV）</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>💉 不活化疫苗（21 項）—— 彼此、或與活性減毒之間，可同時或間隔任何時間接種</summary>
+    <div class="fold-body">
+      <ul>
+        <li>B 型肝炎疫苗（HepB）</li>
+        <li>白喉破傷風非細胞性百日咳混合疫苗（DTaP）</li>
+        <li>白喉破傷風非細胞性百日咳及不活化小兒麻痺混合疫苗（DTaP-IPV）</li>
+        <li>減量破傷風白喉非細胞性百日咳混合疫苗（Tdap）</li>
+        <li>減量破傷風白喉非細胞性百日咳及不活化小兒麻痺混合疫苗（Tdap-IPV）</li>
+        <li>白喉破傷風混合疫苗（DT）</li>
+        <li>破傷風減量白喉混合疫苗（Td）</li>
+        <li>注射式小兒麻痺疫苗（IPV）</li>
+        <li>日本腦炎疫苗（JE，不活化劑型）</li>
+        <li>A 型肝炎疫苗（HepA）</li>
+        <li>b 型嗜血桿菌疫苗（Hib）</li>
+        <li>流感疫苗（Influenza，注射式）</li>
+        <li>狂犬病疫苗（Rabies）</li>
+        <li>多醣體流行性腦脊髓膜炎疫苗（MPSV4）</li>
+        <li>結合型流行性腦脊髓膜炎疫苗（MCV4）</li>
+        <li>結合型肺炎鏈球菌疫苗（PCV）</li>
+        <li>多醣體肺炎鏈球菌疫苗（PPV）</li>
+        <li>人類乳突病毒疫苗（HPV）</li>
+        <li>A 型肝炎 B 型肝炎混合疫苗（HepA-HepB）<span class="pill">國內已無進口</span></li>
+        <li>五合一疫苗（DTaP-IPV-Hib）</li>
+        <li>六合一疫苗（DTaP-IPV-HepB-Hib）</li>
+      </ul>
+      <div class="note" style="margin:10px 0 0">
+        <strong>容易搞混的一組：</strong>日本腦炎疫苗兩種劑型分屬兩類——<strong>不活化劑型（Vero cell）在本欄</strong>，<strong>活性減毒嵌合型（JE-CV）在上欄</strong>。流感也是：注射式為不活化、鼻噴式 LAIV 為活性減毒。
+      </div>
+    </div>
+  </details>
+
+  <details class="fold" id="supplementalClasses">
+    <summary data-ref-claim="classification-summary">📋 補充製劑分類與官方依據——霍亂須區分品牌／製劑</summary>
+    <div class="fold-body">
+      <table style="min-width:0">
+        <thead><tr><th>疫苗／製劑</th><th>分類</th><th>官方依據（點字／停留查原文）</th></tr></thead>
+        <tbody>
+          <tr data-ref-claim="class-shingrix"><td>帶狀疱疹疫苗（Shingrix 欣剋疹）</td><td>非活性・重組蛋白</td><td>疾管署成人時程表明列「<strong>非活性基因重組帶狀疱疹疫苗</strong>」。〔S4，PDF 第 5 頁〕</td></tr>
+          <tr data-ref-claim="class-covid"><td>COVID-19 疫苗（莫德納 XFG／Novavax XFG）</td><td>非活性・mRNA／蛋白質次單元</td><td>兩份接種須知分別載明「<strong>單價 mRNA 疫苗</strong>」及「<strong>重組棘蛋白之蛋白質次單元疫苗</strong>」。〔S12／S12N，PDF 第 1 頁〕</td></tr>
+          <tr data-ref-claim="class-rsv"><td>RSV 疫苗（Arexvy／Abrysvo）</td><td>非活性・重組蛋白次單元</td><td>FDA 仿單第 11 節分別載明重組 RSV F 蛋白成分；美國 CDC 分類表亦列 RSV 為 non-live。<strong>不是僅憑編者推測。</strong>〔S13／S14：PDF；S19：官方網頁〕</td></tr>
+          <tr data-ref-claim="class-dukoral"><td>口服霍亂疫苗（Dukoral）</td><td>非活性・不活化</td><td>EMA 仿單直接標示 <strong>Cholera vaccine (inactivated, oral)</strong>。〔S15，PDF 第 2 頁〕</td></tr>
+          <tr data-ref-claim="class-vaxchora"><td>口服霍亂疫苗（Vaxchora／CVD 103-HgR）</td><td>活性減毒・口服</td><td>EMA 仿單明列活性減毒菌株，<strong>不能與 Dukoral 合併歸為不活化</strong>。〔S16，PDF 第 2 頁〕</td></tr>
+        </tbody>
+      </table>
+      <div class="note" style="margin:10px 0 0" data-ref-claim="nonlive-interval">
+        <strong>非活性（non-live）不等於狹義的不活化。</strong>上列 mRNA、重組蛋白亦屬非活性疫苗；不同注射／鼻噴活性疫苗未同日接種時的一般 28 天規則，不能套用到所有口服疫苗。同種疫苗仍須遵守自身劑次間隔。
+      </div>
+      <div class="note warn" style="margin:10px 0 0" data-ref-claim="cholera-policy">
+        <strong>霍亂＋黃熱病：指引差異待核對。</strong>台灣 S2 原表寫「應間隔 3 週以上」，但未指明霍亂製劑。Dukoral 的 EMA 仿單有同時接種黃熱病的研究描述（未研究 Dukoral 抗體反應）；美國 CDC 現行網頁則依有限資料允許 CVD 103-HgR 與黃熱病同時或任意間隔，不能視為所有現行製劑皆已有完整研究。<strong>計算器保留台灣規定及國際證據，不自動裁定哪套規則優先。</strong>〔S2／S15／S17：PDF；S18：官方網頁〕
+      </div>
+    </div>
+  </details>
+
+  <h2>間隔通則</h2>
+  <p class="sub" style="margin-top:-6px">來源：疾管署《各項預防接種間隔時間一覽表》<span class="ver">115.05 版</span></p>
+  <div class="scroller">
+    <table>
+      <thead><tr><th style="min-width:150px">組合</th><th>最短間隔時間</th></tr></thead>
+      <tbody>
+        <tr><td><strong>不活化 ＋ 不活化</strong></td><td>可同時（分開不同部位接種）或間隔任何時間接種。</td></tr>
+        <tr><td><strong>活性減毒 ＋ 活性減毒</strong></td><td>可同時接種；如不同時接種<strong>最少要間隔 28 天</strong>。<br>例外：卡介苗或口服活性減毒疫苗，可與其他活性減毒<em>注射式</em>疫苗同時或間隔任何時間接種。</td></tr>
+        <tr><td><strong>活性減毒 ＋ 不活化</strong></td><td>可同時（分開不同部位接種）或間隔任何時間接種。</td></tr>
+        <tr><td>MMR／水痘／JE-CV／LAIV 彼此之間</td><td>可同時分開不同部位；如不同時接種最少間隔 28 天。<br><strong>若 2 劑間隔少於 28 天，第 2 劑須重打</strong>，且應與前 1 劑（無效第 2 劑）最少間隔 28 天。</td></tr>
+        <tr><td>OPV ＋ 輪狀病毒疫苗</td><td>同為口服者須至少間隔 <strong>2 週</strong>。（國內已無 OPV 進口）</td></tr>
+        <tr><td>黃熱病 ＋ MMR／水痘／JE</td><td>可同時分開不同部位；如不同時接種最少間隔 28 天。</td></tr>
+        <tr data-ref-claim="cholera-policy"><td>霍亂疫苗 ＋ 黃熱病疫苗</td><td>台灣 S2：應間隔 <strong>3 週以上</strong>（未指明製劑）。<br><strong>口服製劑之國際資料有差異，須核對品牌與適用指引</strong>；詳見上方補充分類及原文。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>血液製劑與活性減毒疫苗的間隔</h2>
+  <div class="note">下列間隔<strong>只適用於 MMR、水痘、JE 等活性減毒疫苗</strong>；不活化疫苗不受血液製劑影響。</div>
+  <div class="scroller">
+    <table>
+      <thead><tr><th style="min-width:210px">曾接受的血液製劑</th><th>之後應間隔</th></tr></thead>
+      <tbody>
+        <tr><td>一般肌肉注射免疫球蛋白、HBIG</td><td><strong>3 個月</strong></td></tr>
+        <tr><td>麻疹接觸者之預防性肌肉注射免疫球蛋白</td><td><strong>6 個月以上</strong></td></tr>
+        <tr><td>輸血、靜脈注射血液製品</td><td><strong>6 個月</strong>（Washed RBCs 無須間隔）</td></tr>
+        <tr><td>高劑量靜脈免疫球蛋白（≧1 g/kg）</td><td><strong>11 個月</strong></td></tr>
+        <tr><td>palivizumab</td><td>無須間隔</td></tr>
+        <tr><td colspan="2" style="background:var(--surface-2)"><strong>反向情形：</strong>接種 MMR／水痘／JE 活性減毒疫苗後<strong>至少間隔 2 週</strong>才可接受免疫球蛋白輸液等血液製劑；間隔小於 2 週者應重新補接種，並依所接受的免疫球蛋白按上述間隔（3／6／11 個月）後補種。</td></tr>
+        <tr><td colspan="2">活性減毒流感疫苗（LAIV）與血液製劑之間<strong>無時間間隔限制</strong>，可同時或前後任何時間接種，均視為完成接種。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>最小接種年齡與同種疫苗劑次間隔</h2>
+  <p class="sub" style="margin-top:-6px">來源：疾管署《各項常規疫苗最小接種年齡與最短接種間隔》<span class="ver">114.4 版</span></p>
+  <div class="note">
+    <strong>4 天寬限期：</strong>同種類疫苗（<strong>水痘、MMR、JE 活性減毒除外</strong>）各劑次間，因特殊情況可容許最短接種間隔或最小接種年齡<strong>再提前 4 天</strong>；<strong>提前 5 天（含）以上接種者，該劑視同無效</strong>，須依規範重新安排接種。<br>
+    計算基準：<code>1 週 = 7 天</code>　<code>1 個月 = 30 天</code>　<code>1 年 = 365 天</code>
+  </div>
+  <div class="scroller">
+    <table>
+      <thead><tr><th style="min-width:180px">疫苗</th><th>第 1 劑最小年齡</th><th>1→2 劑</th><th>2→3 劑</th><th>3→4 劑</th></tr></thead>
+      <tbody id="minAgeTbl"></tbody>
+    </table>
+  </div>
+  <div class="card" style="font-size:13px;color:var(--ink-2)">
+    <ul style="margin:0">
+      <li>B 肝第 2、3 劑最短間隔 8 週，且<strong>第 3 劑與第 1 劑應間隔至少 16 週</strong>。</li>
+      <li>五合一第 4 劑如於出生滿 12 個月時即接種，<strong>不適用</strong>再提前 4 天之寬限。</li>
+      <li>PCV13 第 1 劑如於出生滿 7 個月後才開始接種，與第 2 劑間隔可<strong>縮短至 4 週</strong>。</li>
+      <li>水痘、MMR 若未同時接種應至少間隔 28 天，<strong>不能再縮短</strong>；若因故延遲，可與 JE 活性減毒同時分開不同部位接種，否則間隔至少 28 天。</li>
+      <li>因應疫情或須前往麻疹流行地區，MMR 第 1 劑最早可提前於出生滿 6 個月後接種，但<strong>滿 12 個月後仍須按常規完成 2 劑</strong>公費 MMR。</li>
+      <li>五合一第 4 劑若於 4 歲以後才接種，滿 5 歲之 DTaP-IPV／Tdap-IPV 可不再接種。</li>
+      <li>A 型肝炎疫苗補種之劑次與第 1 劑接種時間應至少間隔 6 個月。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════ 禁忌總表 ═══════════ -->
+<section class="panel" id="p-contra" role="tabpanel">
+  <h2>各項常規疫苗接種禁忌與注意事項</h2>
+  <p class="sub" style="margin-top:-6px">來源：疾管署《各項常規疫苗接種禁忌與注意事項》<span class="ver">112.09 版</span></p>
+  <div class="note">
+    <strong>疾管署此表僅涵蓋公費常規疫苗。</strong>帶狀疱疹、RSV、輪狀病毒、六合一、腦膜炎雙球菌已另行查證 <strong>TFDA 中文仿單</strong>補入（下表以「仿單」標示，並附許可證字號）。COVID-19、Mpox、狂犬病、黃熱病仍未取得仿單，禁忌症請自行查閱。<br>
+    <strong>高劑量類固醇定義：</strong>體重 &lt;10 公斤者每天使用 ≧2 mg/kg prednisolone；體重 ≧10 公斤者每天使用 20 mg prednisolone。
+  </div>
+
+  <div class="note" style="border-left-color:var(--stop);background:var(--stop-soft)">
+    <strong>⚠️ 兩份官方文件不一致 — Abrysvo 孕婦接種週數</strong><br>
+    疾管署《成人預防接種建議時程表》115 年 5 月版：孕婦「<strong>懷孕 28–36 週</strong>」<br>
+    Abrysvo 中文仿單（衛部菌疫輸字第 001267 號）：「<strong>懷孕第 24 週至第 36 週</strong>之間」<br>
+    起始週數相差 4 週。本頁兩個數字都保留並標明各自出處，依循何者由臨床自行判斷。
+  </div>
+  <div class="scroller">
+    <table>
+      <thead><tr><th style="min-width:160px">疫苗</th><th style="min-width:230px">接種禁忌</th><th>注意事項</th></tr></thead>
+      <tbody id="contraTbl"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════════ 補種 ═══════════ -->
+<section class="panel" id="p-catchup" role="tabpanel">
+  <h2>補種劑次計算</h2>
+  <p class="sub" style="margin-top:-6px">來源：<a href="https://www.cdc.gov.tw/File/Get/C21MgK68kNl1C4ORnYLhmQ" target="_blank" rel="noopener">疾管署《國小新生入學後預防接種紀錄檢查與補種指引》</a> <span class="ver">107 年 7 月修訂</span></p>
+  <div class="card">
+    <div class="iv-row">
+      <select id="cuVax"></select>
+      <div id="cuDoneWrap" style="display:none">
+        <label style="font-size:13px;color:var(--ink-2)">已完成
+          <select id="cuDone"></select></label>
+      </div>
+      <div id="cuExtra"></div>
+    </div>
+  </div>
+  <div id="cuOut"></div>
+
+  <h2>原則</h2>
+  <div class="card">
+    <p style="margin:0"><strong>從未接種或忘記有無接種各項疫苗者，完成劑次視為 0。</strong>各項疫苗規定的接種時程一般是經研究達到最佳的免疫效果；學齡前幼童如非因接種禁忌或特殊情形延遲接種，<strong>漏打或延遲的疫苗不用從頭接種</strong>，但應儘速在規定的間隔繼續接種未完成的劑次，並可視個案補種之劑次，依各項疫苗可提前接種與間隔的縮短規範酌情調整接種時程。<strong>對於接種情況不清楚的，應視作未接種而重新施打。</strong></p>
+    <span class="src">來源：<a href="https://www.cdc.gov.tw/File/Get/qNin3Z6yrHyHkjPfE3v_sQ" target="_blank" rel="noopener">學齡前幼童疫苗漏打、延遲或接種狀況不明的補種方式</a>　／　<a href="https://www.cdc.gov.tw/File/Get/C21MgK68kNl1C4ORnYLhmQ" target="_blank" rel="noopener">國小新生入學後預防接種紀錄檢查與補種指引</a> 備註 2</span>
+  </div>
+
+  <h2>間隔符號對照（原表備註 1）</h2>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>原表符號</th><th>代表間隔</th></tr></thead>
+      <tbody>
+        <tr><td>⌐→</td><td>間隔 2 週</td></tr>
+        <tr><td>➤（實心粗箭頭）</td><td>間隔 1 個月</td></tr>
+        <tr><td>⇨（空心箭頭）</td><td>間隔 2 個月</td></tr>
+        <tr><td>▮➡（帶柄實心箭頭）</td><td>至少間隔 6 個月</td></tr>
+        <tr><td>➔（細實心箭頭）</td><td>與前 1 劑至少間隔 12 個月</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="note">本工具已把上列符號還原成文字，不需自行對照。原始 PDF 的符號辨識係以 300dpi 放大逐列核對。</div>
+
+  <h2>其他備註（原文）</h2>
+  <div class="card" style="font-size:13.5px;color:var(--ink-2)">
+    <ol style="margin:0;padding-left:20px">
+      <li>接種<strong>五合一或六合一</strong>疫苗之劑次列入計算（小兒麻痺、DTP 欄）；接種<strong>六合一</strong>疫苗之劑次列入計算（B 肝欄）。</li>
+      <li>從未接種或忘記有無接種各項疫苗者，<strong>完成劑次視為 0</strong>。</li>
+      <li>如為 OPV/IPV 及 DTP/DTaP/Tdap <strong>均未完成</strong>而需補種者，本劑應改接種 <strong>DTaP-IPV／Tdap-IPV</strong>。</li>
+      <li>自 106 年 5 月 22 日起改採用細胞培養之日本腦炎活性減毒疫苗，應接種 2 劑，2 劑至少間隔 12 個月。針對完成 3 劑不活化疫苗之幼童，於滿 5 歲至入國小前再接種 1 劑，與前一劑疫苗間隔至少 12 個月。</li>
+      <li>經醫師評估不適合接種活性減毒 JE 疫苗的孩童，衛生局／所有儲備不活化日本腦炎疫苗，可請院所協助申請。</li>
+      <li><strong>DTP/DTaP/Tdap 相關疫苗第 4 劑在 4 歲以後才完成接種，則滿 5 歲應接種之 DTaP-IPV 疫苗可不再接種。</strong></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ═══════════ 來源 ═══════════ -->
+<section class="panel" id="p-src" role="tabpanel">
+  <h2>來源文件與版本</h2>
+  <p>本頁每條規則的引用代碼對應下表。所有檔案已下載存檔於 <code>~/vaccine-guide/sources/</code>，擷取日期 <strong>2026-08-07</strong>。</p>
+  <div class="scroller">
+    <table class="srclist">
+      <thead><tr><th>代碼</th><th>文件名稱（連官方原始檔）</th><th>版本</th><th>發布單位</th><th>本機存檔</th></tr></thead>
+      <tbody id="srcTbl"></tbody>
+    </table>
+  </div>
+  <h2>使用時務必留意</h2>
+  <div class="card" style="font-size:13.5px;color:var(--ink-2)">
+    <ul style="margin:0">
+      <li><strong>禁忌表為 112.09 版（2023-09）</strong>，是本頁最舊的核心文件，且<strong>只涵蓋公費常規疫苗</strong>。自費疫苗（帶狀疱疹、RSV、輪狀病毒、六合一、腦膜炎雙球菌等）的禁忌症須查各該疫苗仿單。</li>
+      <li>疾管署部分疫苗衛教頁的「最後更新日期」停留在 2013–2019 年，政策異動改以<strong>醫界通函</strong>公告，查詢單一疫苗最新規定時請一併檢視通函。</li>
+      <li><strong>HPV 公費政策的主管機關是國民健康署</strong>（hpa.gov.tw），不是疾管署；公費對象與年度異動請以國健署公告為準。</li>
+      <li>公費身分、給付對象、年度接種計畫每年調整，本頁所載為擷取當日狀態。</li>
+    </ul>
+  </div>
+</section>
+
+<footer class="wrap" style="padding-bottom:0">
+  資料整理自衛生福利部疾病管制署公開文件 · 擷取日 2026-08-07 · 本頁非官方發布物，僅供醫療人員參考
+</footer>
+</div>
+
+<script src="review/excerpts.js"></script>
+<script>
+/* ════════════════════════════════════════════════════════
+   原句摘錄檢視（hover 縮圖／click 右側面板）
+   資料由 tools/build_excerpts.py 產生（review/excerpts.js）；
+   檔案不存在時 EXCERPTS 未定義，本區全部靜默停用，頁面照常運作。
+   誠實標示：verbatim=逐字、partial=部分逐字（高亮只畫實際匹配行）、
+   gist=整理句（不畫高亮）、text=文字來源（無 PDF 可裁圖）。
+   ════════════════════════════════════════════════════════ */
+const exEsc = v => String(v).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const EX_ON = (typeof EXCERPTS !== "undefined");
+
+function exKey(vid, s, t){
+  const str = vid + "|" + s + "|" + t;
+  let h = 5381;
+  for(let i = 0; i < str.length; i++){
+    h = (Math.imul(h, 33) ^ str.charCodeAt(i)) >>> 0;
+  }
+  return "e" + h.toString(16).padStart(8, "0");
+}
+
+const EX_STATUS = {
+  verbatim: ["逐字", "go"],
+  partial:  ["部分逐字", "warn"],
+  gist:     ["整理句", "gray"],
+  text:     ["文字來源", "gray"],
+  none:     ["未定位", "gray"],
+};
+
+function exBtn(vid, s, t){
+  if(!EX_ON) return "";
+  const k = exKey(vid, s, t);
+  const e = EXCERPTS[k];
+  if(!e || e.type === "none") return "";
+  return `<button type="button" class="exq" data-ex="${k}" title="查看 PDF 原句">📖</button>`;
+}
+
+function exImgHtml(e, maxW){
+  /* 高亮框用相對百分比定位，縮放後仍貼在原句上 */
+  const rects = (e.rects || []).map(r =>
+    `<i class="exhl" style="left:${(r[0]/e.iw*100).toFixed(2)}%;top:${(r[1]/e.ih*100).toFixed(2)}%;width:${(r[2]/e.iw*100).toFixed(2)}%;height:${(r[3]/e.ih*100).toFixed(2)}%"></i>`).join("");
+  return `<span class="exwrap" style="max-width:${maxW}px"><img src="${e.img}" alt="PDF 原句擷取">${rects}</span>`;
+}
+
+/* ── hover 縮圖 ── */
+let exTipEl = null;
+function exTipShow(btn){
+  const e = EX_ON && EXCERPTS[btn.dataset.ex];
+  if(!e || e.type !== "pdf") return;
+  if(!exTipEl){
+    exTipEl = document.createElement("div");
+    exTipEl.id = "extip";
+    document.body.appendChild(exTipEl);
+  }
+  exTipEl.innerHTML = exImgHtml(e, 420) +
+    `<div class="exmeta">${EX_STATUS[e.status][0]}・p.${e.page}・${exEsc(e.ver)}</div>`;
+  const r = btn.getBoundingClientRect();
+  exTipEl.style.display = "block";
+  /* 先顯示才量得到尺寸；靠右超界就往左貼 */
+  const tw = Math.min(440, window.innerWidth - 24);
+  let left = r.left;
+  if(left + tw > window.innerWidth - 12) left = window.innerWidth - tw - 12;
+  exTipEl.style.left = left + "px";
+  const below = r.bottom + 8, tipH = exTipEl.offsetHeight || 200;
+  exTipEl.style.top = (below + tipH > window.innerHeight - 8 ? Math.max(8, r.top - tipH - 8) : below) + "px";
+}
+function exTipHide(){ if(exTipEl) exTipEl.style.display = "none"; }
+
+/* ── click 右側面板 ── */
+function exPanelOpen(key){
+  const e = EXCERPTS[key];
+  if(!e) return;
+  let p = document.getElementById("expanel");
+  if(!p){
+    p = document.createElement("div");
+    p.id = "expanel";
+    document.body.appendChild(p);
+    p.addEventListener("click", ev => {
+      if(ev.target.dataset.exclose !== undefined) exPanelClose();
+    });
+  }
+  const [stLabel, stCls] = EX_STATUS[e.status || e.type] || EX_STATUS.none;
+  let body;
+  if(e.type === "pdf"){
+    const httpish = location.protocol.startsWith("http");
+    const pdfHref = e.file + (httpish ? ("#page=" + e.page) : "");
+    body = `
+      ${exImgHtml(e, 2000)}
+      <div class="exmeta" style="margin-top:6px">黃框＝本條規則的原句；裁圖中其他文字（含相鄰疫苗列）僅為版面脈絡，非本條內容。</div>
+      ${e.status === "gist" ? `<div class="note warn" style="margin-top:10px"><b>整理句</b>
+        此條為網頁對原文的整理／合併，非單一逐字原句，故不畫高亮。右列擷取為其主要出處區域，請對照原文脈絡判讀。</div>` : ""}
+      ${e.status === "partial" ? `<div class="note" style="margin-top:10px">部分逐字：高亮只畫「實際逐字匹配」的行；未匹配部分多為網頁補充的說明或出處字尾。</div>` : ""}
+      <div class="exmeta" style="margin-top:10px">
+        ${exEsc(e.ver)}　第 ${e.page} 頁　匹配覆蓋率 ${Math.round((e.cov || 0) * 100)}%<br>
+        <a href="${pdfHref}" target="_blank" rel="noopener">開啟完整 PDF${httpish ? "（跳至第 " + e.page + " 頁）" : "（file:// 模式請自行翻到第 " + e.page + " 頁）"}</a>
+      </div>`;
+  } else {
+    body = `<div class="note">此條來源為<b>文字擷錄</b>（${exEsc(e.label || e.src)}），無 PDF 可裁圖。</div>
+      ${e.path ? `<div class="exmeta"><a href="${e.path}" target="_blank" rel="noopener">開啟來源存檔</a></div>` : ""}`;
+  }
+  p.innerHTML = `
+    <div class="exhead">
+      <span class="pill ${stCls === "go" ? "" : ""}" style="border:1px solid var(--line)">${stLabel}</span>
+      <b style="flex:1">原句對照</b>
+      <button type="button" data-exclose title="關閉">✕</button>
+    </div>
+    <div class="exbody">${body}</div>`;
+  p.classList.add("on");
+}
+function exPanelClose(){
+  const p = document.getElementById("expanel");
+  if(p) p.classList.remove("on");
+}
+
+document.addEventListener("mouseover", e => {
+  const b = e.target.closest(".exq");
+  if(b) exTipShow(b);
+});
+document.addEventListener("mouseout", e => {
+  if(e.target.closest(".exq")) exTipHide();
+});
+document.addEventListener("click", e => {
+  const b = e.target.closest(".exq");
+  if(b){
+    e.preventDefault();
+    e.stopPropagation();          /* 不要順手觸發疫苗卡片的展開/收合 */
+    exTipHide();
+    exPanelOpen(b.dataset.ex);
+  }
+});
+document.addEventListener("keydown", e => {
+  if(e.key === "Escape") exPanelClose();
+});
+
+
+/* ════════════════════════════════════════════════════════
+   來源代碼
+   ════════════════════════════════════════════════════════ */
+// u = 官方原始檔／頁面網址；p = 本機存檔相對路徑（存在 sources/ 底下）
+const SRC = {
+  S1:{n:"各項常規疫苗接種禁忌與注意事項", v:"112.09 版", o:"疾管署",
+      u:"https://www.cdc.gov.tw/File/Get/6HX8tpLSrgLfbqervyCpXA", p:"sources/接種指引/疫苗接種禁忌及注意事項.pdf"},
+  S2:{n:"各項預防接種間隔時間一覽表", v:"115.05 版", o:"疾管署",
+      u:"https://www.cdc.gov.tw/File/Get/m_twwaBhrxBvOSp8t7l34g", p:"sources/接種指引/各項預防接種間隔時間一覽表.pdf"},
+  S3:{n:"各項常規疫苗最小接種年齡與最短接種間隔", v:"114.4 版", o:"疾管署",
+      u:"https://www.cdc.gov.tw/File/Get/MGf3GnfN7QVo5QK13LUvwg", p:"sources/接種指引/各項常規疫苗最小接種年齡與最短接種間隔.pdf"},
+  S4:{n:"成人預防接種建議時程表", v:"115 年 5 月版", o:"疾管署",
+      u:"https://www.cdc.gov.tw/Category/Page/MoZgDU5xEilvKbL54nUTEg", p:"sources/時程表/成人預防接種建議時程表.pdf"},
+  S5:{n:"我國現行兒童預防接種時程", v:"114 年 1 月版", o:"疾管署",
+      u:"https://www.cdc.gov.tw/Category/Page/TxRW-x3WzvPhvEtxM628GA", p:"sources/時程表/現行兒童預防接種時程表_中文.pdf"},
+  S6:{n:"依時程完成B肝疫苗接種經檢驗為表面抗體陰性者之建議措施", v:"—", o:"ACIP 預防接種組",
+      u:"https://www.cdc.gov.tw/File/Get/gGFNsPNXnnLm71ZA5V8v2A", p:"sources/通函與判讀/B肝表面抗體陰性者之建議措施.pdf"},
+  S7:{n:"學齡前幼童疫苗漏打、延遲或接種狀況不明的補種方式", v:"—", o:"疾管署",
+      u:"https://www.cdc.gov.tw/File/Get/qNin3Z6yrHyHkjPfE3v_sQ", p:"sources/接種指引/學齡前幼童疫苗漏打延遲或不明的補種方式.pdf"},
+  S8:{n:"國小新生入學後預防接種紀錄檢查與補種指引", v:"107 年 7 月修訂", o:"疾管署",
+      u:"https://www.cdc.gov.tw/File/Get/C21MgK68kNl1C4ORnYLhmQ", p:"sources/接種指引/國小新生入學後預防接種紀錄檢查與補種指引.pdf"},
+  S9:{n:"TFDA 中文仿單（逐張許可證驗證）", v:"擷取 2026-08-07", o:"食品藥物管理署",
+      u:"https://mcp.fda.gov.tw/", p:"sources/仿單/_TFDA仿單摘錄.md"},
+  S10:{n:"衛福部新聞稿：輪狀病毒疫苗納入幼兒公費接種", v:"建檔 115-06-30", o:"衛生福利部",
+      u:"https://www.mohw.gov.tw/cp-16-87058-1.html", p:""},
+  S11:{n:"狂犬病 Q&A（疾管署全球資訊網）", v:"更新 2018-07-27", o:"疾管署",
+      u:"https://www.cdc.gov.tw/Category/QAPage/3xoWx2U2FGpCjF752cmKGA", p:"sources/通函與判讀/狂犬病QA_原始頁面.html"},
+  S12:{n:"COVID-19 疫苗接種須知（莫德納 XFG／Novavax XFG）", v:"2026-07-07", o:"疾管署",
+      u:"https://www.cdc.gov.tw/Category/Page/V_XD8H6OSUpaTIMWgopkNg", p:"sources/各疫苗/COVID19疫苗接種須知_莫德納XFG.pdf"},
+  S12N:{n:"Novavax XFG COVID-19 疫苗接種須知", v:"2026-07-07", o:"疾管署",
+      u:"https://www.cdc.gov.tw/Category/MPage/4P2oowuEp0CoDlob356s8g", p:"sources/各疫苗/COVID19疫苗接種須知_NovavaxXFG.pdf"},
+  S13:{n:"AREXVY — FDA 官方仿單（成分見第 11 節）", v:"修訂 2026-07；下載 2026-09-05", o:"美國 FDA（僅補充分類依據）",
+      u:"https://www.fda.gov/media/167805/download?attachment=", p:"sources/國際官方指引/FDA_Arexvy_2026-07.pdf"},
+  S14:{n:"ABRYSVO — FDA 官方仿單（成分見第 11 節）", v:"修訂 2025-12；下載 2026-09-05", o:"美國 FDA（僅補充分類依據）",
+      u:"https://www.fda.gov/media/168889/download?attachment=", p:"sources/國際官方指引/FDA_Abrysvo_2026.pdf"},
+  S15:{n:"Dukoral — EMA 官方仿單", v:"官網更新 2022-04-06；下載 2026-09-05", o:"歐洲 EMA（製劑分類／交互作用）",
+      u:"https://www.ema.europa.eu/en/documents/product-information/dukoral-epar-product-information_en.pdf", p:"sources/國際官方指引/EMA_Dukoral_2022.pdf"},
+  S16:{n:"Vaxchora — EMA 官方仿單", v:"官網更新 2026-07-10；下載 2026-09-05", o:"歐洲 EMA（製劑分類）",
+      u:"https://www.ema.europa.eu/en/documents/product-information/vaxchora-epar-product-information_en.pdf", p:"sources/國際官方指引/EMA_Vaxchora_2026.pdf"},
+  S17:{n:"Cholera Vaccine: ACIP Recommendations, 2022", v:"2022-09-30；下載 2026-09-05", o:"美國 CDC／ACIP（交互作用證據限制）",
+      u:"https://www.cdc.gov/mmwr/volumes/71/rr/pdfs/rr7102a1-H.pdf", p:"sources/國際官方指引/CDC_Cholera_ACIP_2022.pdf"},
+  S18:{n:"Yellow Fever Vaccine Information for Healthcare Providers", v:"2026-05-12；核對 2026-09-05", o:"美國 CDC（官方網頁，非 PDF）",
+      u:"https://www.cdc.gov/yellow-fever/hcp/vaccine/", p:"", textLabel:"官方網頁短摘錄＋中文整理（非 PDF）",
+      text:"Live attenuated bacterial vaccines\nLimited data suggest oral typhoid vaccine (Ty21a) and oral cholera vaccine (CVD103-HgR)\n\n中文整理：CDC 依有限資料，表示上述口服疫苗可與黃熱病同時接種，或於其前後任意間隔接種。此段為網頁整理；PDF S17 另呈現現行 CVD 103-HgR 合併接種資料不足的限制。"},
+  S19:{n:"Timing and Spacing of Immunobiologics — Table 3-1", v:"2024-07-24；核對 2026-09-05", o:"美國 CDC（官方網頁，非 PDF）",
+      u:"https://www.cdc.gov/vaccines/hcp/imz-best-practices/timing-spacing-immunobiologics.html", p:"", textLabel:"官方網頁分類表整理（非 PDF）",
+      text:"Table 3-1 的 Non-live 分類包含：COVID-19 vaccines (Pfizer, Moderna, Novavax)、Recombinant zoster vaccine (RZV)、Respiratory syncytial virus vaccine (RSV)。\n\n中文整理：non-live 涵蓋不活化、重組／次單元等製劑；並非都屬殺死整體病原的狹義不活化疫苗。不同注射或鼻噴活性疫苗未同日接種時，一般至少間隔 4 週（28 天）；此非同種疫苗之劑次間隔規範。"},
+};
+// 來源標註：文件名連到官方原始檔，版本號連到本機存檔（若有）
+function cite(code){
+  const s=SRC[code]; if(!s) return code;
+  const doc = s.u ? `<a href="${s.u}" target="_blank" rel="noopener">${s.n}</a>` : s.n;
+  const ver = s.p ? `<a href="${s.p}" target="_blank" rel="noopener">${s.v}</a>` : s.v;
+  return `${doc}　${ver}`;
+}
+
+/* ===== TRAVEL_DATA_BEGIN (由 update_travel.py 產生，勿手動編輯) ===== */
+const TRAVEL_META={"updated": "2026-08-07", "countries": 251, "alerts": 792, "universal": ["A型肝炎疫苗", "傷寒疫苗", "狂犬病疫苗", "麻疹、腮腺炎及德國麻疹混合(MMR)疫苗", "黃熱病疫苗"], "blanket_note": "涵蓋超過 200 國的同一警示視為全球性公告", "src_alert": "https://od.cdc.gov.tw/cdc/TCDCTravelAlert.csv", "src_presc": "https://od.cdc.gov.tw/quarantine/TMPrescription.csv"};
+const TRAVEL={"CN":{"n":"中國大陸","en":"China","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"新型A型流感","2022-11-28","安徽省",0],[2,"新型A型流感","2022-11-28","廣東省",0],[2,"新型A型流感","2022-11-28","廣西壯族自治區",0],[2,"新型A型流感","2022-11-28","貴州省",0],[2,"新型A型流感","2022-11-28","湖南省",0],[2,"新型A型流感","2022-11-28","江西省",0],[2,"新型A型流感","2022-11-28","四川省",0],[2,"新型A型流感","2022-11-28","重慶市",0],[2,"新型A型流感","2024-04-15","雲南省",0],[2,"新型A型流感","2024-05-20","福建省",0],[2,"新型A型流感","2024-11-18","湖北省",0],[2,"新型A型流感","2025-04-17","河南省",0],[2,"新型A型流感","2025-05-19","陝西省",0],[2,"新型A型流感","2025-09-16","天津市",0],[2,"新型A型流感","2026-01-20","江蘇省",0],[2,"新型A型流感","2026-07-28","甘肅省",0],[1,"新型A型流感","2022-11-18","山東省",0],[1,"新型A型流感","2022-11-18","北京市",0],[1,"新型A型流感","2022-11-18","海南省",0],[1,"新型A型流感","2022-11-18","河北省",0],[1,"新型A型流感","2022-11-18","黑龍江省",0],[1,"新型A型流感","2022-11-18","吉林省",0],[1,"新型A型流感","2022-11-18","遼寧省",0],[1,"新型A型流感","2022-11-18","內蒙古自治區",0],[1,"新型A型流感","2022-11-18","寧夏回族自治區",0],[1,"新型A型流感","2022-11-18","青海省",0],[1,"新型A型流感","2022-11-18","上海市",0],[1,"新型A型流感","2022-11-18","西藏自治區",0],[1,"新型A型流感","2022-11-18","新疆維吾爾自治區",0],[1,"瘧疾","2023-11-01","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"新型A型流感","2024-01-18","山西省",0],[1,"新型A型流感","2024-08-01","浙江省",0],[1,"麻疹","2024-11-06","",0],[1,"M痘","2025-05-08","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"UG":{"n":"烏干達","en":"Uganda","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[3,"伊波拉病毒感染","2026-05-27","",0],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-04-11","",0],[1,"M痘","2026-02-03","",0],[1,"馬堡病毒出血熱","2026-06-30","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"LA":{"n":"寮國","en":"Lao People's Dem Rep","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2016-03-14","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-10-28","",0],[1,"小兒麻痺症/急性無力肢體麻痺","2026-06-30","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"PK":{"n":"巴基斯坦","en":"Pakistan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"麻疹","2025-04-11","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"霍亂","2025-04-11","",0],[1,"小兒麻痺症/急性無力肢體麻痺","2026-04-28","",0],[1,"瘧疾","2026-06-23","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"MY":{"n":"馬來西亞","en":"Malaysia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2022-04-12","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2024-01-18","",0],[1,"登革熱","2025-03-24","",0],[1,"屈公病","2026-06-16","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"HK":{"n":"香港特別行政區","en":"Hong Kong SAR","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"新型A型流感","2026-06-16","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"VN":{"n":"越南","en":"Vietnam","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"麻疹","2025-02-03","",0],[2,"登革熱","2026-02-03","",0],[1,"茲卡病毒感染症","2022-04-12","",0],[1,"新型A型流感","2022-10-24","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"M痘","2026-06-09","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"CD":{"n":"剛果民主共和國","en":"Congo,Democratic Republic of the","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[3,"伊波拉病毒感染","2026-05-27","",0],[2,"M痘","2024-08-15","",0],[2,"霍亂","2025-10-28","",0],[2,"小兒麻痺症/急性無力肢體麻痺","2026-04-28","",0],[1,"麻疹","2023-11-01","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"TH":{"n":"泰國","en":"Thailand","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"瘧疾","2024-04-29","",0],[1,"茲卡病毒感染症","2024-08-01","",0],[1,"登革熱","2025-03-24","",0],[1,"屈公病","2025-12-12","",0],[1,"M痘","2026-05-12","",0],[1,"麻疹","2026-05-26","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"US":{"n":"美國","en":"USA","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新型A型流感","2022-05-02","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"新型A型流感","2024-04-08","德克薩斯州",0],[1,"新型A型流感","2024-05-27","密西根州",0],[1,"新型A型流感","2024-09-09","密蘇里州",0],[1,"新型A型流感","2024-11-18","奧勒岡州",0],[1,"新型A型流感","2024-12-20","路易斯安納州",0],[1,"新型A型流感","2024-12-23","威斯康辛州",0],[1,"新型A型流感","2024-12-26","愛荷華州",0],[1,"新型A型流感","2025-02-13","內華達州",0],[1,"新型A型流感","2025-02-20","懷俄明州",0],[1,"新型A型流感","2025-02-24","俄亥俄州",0],[1,"麻疹","2025-03-18","",0],[1,"新型A型流感","2025-04-11","華盛頓州",0],[1,"新型A型流感","2025-04-11","科羅拉多州",0],[1,"新型A型流感","2025-07-08","加利福尼亞州",0],[1,"M痘","2026-04-28","",0],[1,"新型A型流感","2026-05-19","內布拉斯加州",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"NG":{"n":"奈及利亞","en":"Nigeria","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"小兒麻痺症/急性無力肢體麻痺","2025-02-03","",0],[2,"瘧疾","2026-02-03","",0],[2,"拉薩熱","2026-04-28","",0],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"霍亂","2024-08-01","",0],[1,"麻疹","2024-08-01","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"BO":{"n":"玻利維亞","en":"Bolivia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"屈公病","2026-04-28","",0],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"登革熱","2025-02-03","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"AU":{"n":"澳大利亞","en":"Australia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["日本腦炎疫苗","黃熱病疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"PH":{"n":"菲律賓","en":"Philippines","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"登革熱","2023-09-15","",0],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"麻疹","2022-11-18","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"屈公病","2024-05-03","",0],[1,"瘧疾","2025-06-30","",0]],"v":["例行性預防接種","日本腦炎疫苗","黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"ZM":{"n":"尚比亞","en":"Zambia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"霍亂","2026-04-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"GT":{"n":"瓜地馬拉","en":"Guatemala","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"麻疹","2026-04-08","",0],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"BD":{"n":"孟加拉","en":"Bangladesh","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"麻疹","2026-04-21","",0],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"新型A型流感","2025-05-19","",0],[1,"屈公病","2025-09-03","",0],[1,"立百病毒感染症","2026-04-02","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"NA":{"n":"納米比亞","en":"Namibia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"瘧疾","2026-04-14","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"SO":{"n":"索馬利亞","en":"Somalia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"麻疹","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"小兒麻痺症/急性無力肢體麻痺","2024-01-18","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"ET":{"n":"衣索比亞","en":"Ethiopia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"瘧疾","2024-04-19","",0],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-10-28","",0],[1,"馬堡病毒出血熱","2025-11-18","",0],[1,"小兒麻痺症/急性無力肢體麻痺","2026-04-28","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"GN":{"n":"幾內亞","en":"Guinea","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"茲卡病毒感染症","2024-08-01","",0],[1,"M痘","2026-04-28","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"SS":{"n":"南蘇丹共和國","en":"South Sudan,Republic of","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2026-04-22","",0],[1,"霍亂","2026-04-28","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"ID":{"n":"印尼","en":"Indonesia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"瘧疾","2025-08-12","",0],[2,"麻疹","2026-02-03","",0],[1,"茲卡病毒感染症","2016-01-19","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"屈公病","2024-08-01","",0],[1,"登革熱","2026-02-03","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"LR":{"n":"賴比瑞亞","en":"Liberia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"M痘","2026-04-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"MG":{"n":"馬達加斯加","en":"Madagascar","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2026-02-03","",0],[1,"瘧疾","2026-02-03","",0],[1,"M痘","2026-04-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"GB":{"n":"英國","en":"United Kingdom of Great Britain and Northern Ireland","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新型A型流感","2022-04-12","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2026-04-22","",0],[1,"M痘","2026-04-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"EC":{"n":"厄瓜多","en":"Ecuador","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"登革熱","2026-04-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"IN":{"n":"印度","en":"India","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"麻疹","2023-11-01","",0],[2,"瘧疾","2024-04-19","",0],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"新型A型流感","2024-06-03","",0],[1,"屈公病","2024-08-01","",0],[1,"M痘","2026-03-31","",0],[1,"立百病毒感染症","2026-04-02","",0],[1,"登革熱","2026-04-28","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"HT":{"n":"海地","en":"Haiti","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"霍亂","2026-04-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"MW":{"n":"馬拉威","en":"Malawi","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"瘧疾","2024-05-21","",0],[1,"霍亂","2026-04-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"SD":{"n":"蘇丹","en":"Sudan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"小兒麻痺症/急性無力肢體麻痺","2026-02-03","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-04-11","",0],[1,"霍亂","2026-04-28","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"YE":{"n":"葉門","en":"Yemen","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"麻疹","2025-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"霍亂","2026-04-28","",0],[1,"小兒麻痺症/急性無力肢體麻痺","2026-04-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"PG":{"n":"巴布亞紐幾內亞","en":"Papua New Guinea","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"小兒麻痺症/急性無力肢體麻痺","2026-04-28","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"SN":{"n":"塞內加爾","en":"Senegal","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"新型A型流感","2026-04-28","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"BR":{"n":"巴西","en":"Brazil","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"登革熱","2023-08-22","",0],[2,"屈公病","2025-10-21","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"M痘","2025-08-04","",0],[1,"茲卡病毒感染症","2026-04-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"CM":{"n":"喀麥隆","en":"Republic of Cameroon","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"麻疹","2026-04-22","",0],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"瘧疾","2024-09-18","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"KE":{"n":"肯亞","en":"Kenya","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2022-04-12","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"瘧疾","2025-02-04","",0],[1,"M痘","2025-08-04","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"SA":{"n":"沙烏地阿拉伯","en":"Saudi Arabia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"中東呼吸症候群冠狀病毒感染症","2022-04-12","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["COVID-19疫苗","例行性預防接種","黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"BF":{"n":"布吉納法索","en":"Burkina Faso","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"登革熱","2025-04-11","",0],[1,"麻疹","2026-04-22","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"NP":{"n":"尼泊爾","en":"Nepal","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2026-04-22","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"BI":{"n":"蒲隆地","en":"Burundi","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"霍亂","2023-11-01","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"M痘","2025-07-08","",0],[1,"麻疹","2026-04-22","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"JP":{"n":"日本","en":"Japan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2026-04-22","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"CF":{"n":"中非共和國","en":"Central African Republic","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2026-04-22","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"KH":{"n":"柬埔寨","en":"Cambodia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"新型A型流感","2025-06-30","",0],[1,"茲卡病毒感染症","2022-04-12","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"登革熱","2025-02-03","",0],[1,"麻疹","2026-02-03","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"GY":{"n":"蓋亞那共和國","en":"Guyana","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"登革熱","2026-03-31","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"KZ":{"n":"哈薩克","en":"Kazakhstan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"麻疹","2026-02-24","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"SR":{"n":"蘇利南","en":"Suriname","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"屈公病","2026-02-24","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"AO":{"n":"安哥拉","en":"Angola","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"小兒麻痺症/急性無力肢體麻痺","2025-07-08","",0],[2,"麻疹","2026-02-03","",0],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"霍亂","2025-07-08","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"MX":{"n":"墨西哥","en":"Mexico","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"麻疹","2026-02-03","",0],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"新型A型流感","2024-06-03","",0],[1,"M痘","2025-07-08","",0],[1,"登革熱","2026-02-03","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"RW":{"n":"盧安達","en":"Rwanda","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"瘧疾","2026-02-03","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"馬堡病毒出血熱","2024-10-07","",0],[1,"麻疹","2025-04-11","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","傷寒疫苗","瘧疾預防用藥"]},"AF":{"n":"阿富汗","en":"Afghanistan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"霍亂","2023-11-01","",0],[2,"小兒麻痺症/急性無力肢體麻痺","2026-02-03","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-10-28","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"CL":{"n":"智利","en":"Chile","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"AR":{"n":"阿根廷","en":"Argentina","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2021-04-09","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"屈公病","2026-02-03","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"MM":{"n":"緬甸","en":"Myanmar","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"TZ":{"n":"坦尚尼亞","en":"Tanzania","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"馬堡病毒出血熱","2023-03-23","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"瘧疾","2025-02-10","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"ZW":{"n":"辛巴威","en":"Zimbabwe","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"瘧疾","2025-08-04","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","傷寒疫苗","瘧疾預防用藥"]},"BJ":{"n":"貝南共和國","en":"Benin,Republic of","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"瘧疾","2025-06-30","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"TD":{"n":"查德","en":"Chad","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"小兒麻痺症/急性無力肢體麻痺","2025-02-03","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"FR":{"n":"法國","en":"France","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2022-04-12","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"CU":{"n":"古巴","en":"Cuba","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2021-04-09","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"屈公病","2025-10-21","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"MA":{"n":"摩洛哥","en":"Morocco","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"MZ":{"n":"莫三比克","en":"Mozambique","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"霍亂","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"TR":{"n":"土耳其","en":"Turkey","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"CI":{"n":"象牙海岸","en":"Cote d'Ivoire","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"瘧疾","2025-07-28","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"IQ":{"n":"伊拉克","en":"Iraq","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"IR":{"n":"伊朗","en":"Iran","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"RE":{"n":"法屬留尼旺島","en":"Réunion","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"MU":{"n":"模里西斯","en":"Mauritius","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"SL":{"n":"獅子山","en":"Sierra Leone","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"瘧疾","2025-02-04","",0],[1,"M痘","2026-02-03","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"MN":{"n":"蒙古","en":"Mongolia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2026-02-03","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"IL":{"n":"以色列","en":"Israel","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-11-18","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"CO":{"n":"哥倫比亞","en":"Colombia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"登革熱","2025-10-28","",0],[1,"M痘","2025-11-04","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"CA":{"n":"加拿大","en":"Canada","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"新型A型流感","2024-11-18","",0],[1,"麻疹","2025-04-11","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"SG":{"n":"新加坡","en":"Singapore","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"茲卡病毒感染症","2023-11-01","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"GH":{"n":"迦納共和國","en":"Ghana","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"新型A型流感","2024-09-23","",0],[1,"M痘","2025-06-27","",0],[1,"麻疹","2025-10-28","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"NE":{"n":"尼日","en":"Niger","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-07-08","",0],[1,"小兒麻痺症/急性無力肢體麻痺","2025-07-08","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"BH":{"n":"巴林王國","en":"Bahrain","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"CG":{"n":"剛果共和國","en":"Congo,Republic of the","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"NL":{"n":"荷蘭","en":"Netherlands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["例行性預防接種","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"GE":{"n":"喬治亞共和國","en":"Georgia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"ML":{"n":"馬利","en":"Republic of Mali","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"茲卡病毒感染症","2024-08-01","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"KG":{"n":"吉爾吉斯","en":"Kyrgyzstan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-10-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"TJ":{"n":"塔吉克","en":"Tajikistan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-10-28","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"AE":{"n":"阿拉伯聯合大公國","en":"United Arab Emirates","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"PA":{"n":"巴拿馬共和國","en":"Panama","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"DO":{"n":"多明尼加","en":"Dominican Rep.","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"MQ":{"n":"法屬馬丁尼克島","en":"Martinique","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":[]},"CR":{"n":"哥斯大黎加","en":"Costa Rica","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"HN":{"n":"宏都拉斯","en":"Honduras","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"NI":{"n":"尼加拉瓜","en":"Nicaragua","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"CV":{"n":"維德角","en":"Cape Verde","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"JM":{"n":"牙買加","en":"Jamaica","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"PY":{"n":"巴拉圭共和國","en":"Paraguay","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"登革熱","2024-11-06","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"TG":{"n":"多哥","en":"Togo","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-07-08","",0],[1,"瘧疾","2025-08-04","",0]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"EG":{"n":"埃及","en":"Egypt","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"KM":{"n":"葛摩聯盟","en":"Union of the Comoros","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"RS":{"n":"塞爾維亞共和國","en":"Serbia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"UZ":{"n":"烏茲別克","en":"Uzbekistan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"GQ":{"n":"赤道幾內亞","en":"Equatorial Guinea","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"BA":{"n":"波士尼亞與赫塞哥維納","en":"Bosnia and Herzegovina","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"AZ":{"n":"亞塞拜然","en":"Azerbaijan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"ZA":{"n":"南非","en":"South Africa","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-04-11","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"UA":{"n":"烏克蘭","en":"Ukraine","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2025-04-11","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"LK":{"n":"斯里蘭卡","en":"Sri Lanka","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"登革熱","2016-08-16","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"茲卡病毒感染症","2024-08-01","",0],[1,"屈公病","2025-04-01","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"DE":{"n":"德國","en":"Germany","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"M痘","2025-03-05","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"ES":{"n":"西班牙","en":"Spain","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[2,"M痘","2025-03-05","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"SB":{"n":"索羅門群島","en":"Solomon Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"瘧疾","2025-03-03","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"PE":{"n":"秘魯","en":"Peru","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1],[1,"登革熱","2024-11-06","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"PT":{"n":"葡萄牙","en":"Portugal","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"BE":{"n":"比利時","en":"Belgium","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"IT":{"n":"義大利","en":"Italy","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"OM":{"n":"阿曼","en":"Oman","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"SE":{"n":"瑞典","en":"Sweden","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗"]},"SY":{"n":"敘利亞","en":"Syria","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"RU":{"n":"俄羅斯","en":"Russian Federation","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2024-11-06","",0]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"RO":{"n":"羅馬尼亞","en":"Romania","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"麻疹","2024-11-06","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"KR":{"n":"韓國","en":"Korea(South Korea)","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"AT":{"n":"奧地利","en":"Austria","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"MR":{"n":"茅利塔尼亞","en":"Mauritania","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"MV":{"n":"馬爾地夫","en":"Maldives","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"茲卡病毒感染症","2023-11-01","",0],[1,"登革熱","2024-05-13","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"GA":{"n":"加彭","en":"Gabon","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"QA":{"n":"卡達","en":"Qatar","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"GF":{"n":"法屬圭亞那","en":"French Guiana","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"GM":{"n":"甘比亞伊斯蘭共和國","en":"Islamic Republic of Gambia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"GW":{"n":"幾內亞比索","en":"Guinea Bissau","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"TT":{"n":"千里達及托巴哥","en":"Trinidad and Tobago","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"VE":{"n":"委內瑞拉","en":"Venezuela","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"IE":{"n":"愛爾蘭共和國","en":"Republic of Ireland","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"PL":{"n":"波蘭","en":"Poland","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"DK":{"n":"丹麥","en":"Denmark","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"CZ":{"n":"捷克","en":"Czech","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["例行性預防接種","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"CH":{"n":"瑞士","en":"Switzerland","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"SV":{"n":"薩爾瓦多","en":"El Salvador","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"GR":{"n":"希臘","en":"Greece","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","瘧疾預防用藥"]},"LB":{"n":"黎巴嫩","en":"Lebanon","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"AL":{"n":"阿爾巴尼亞","en":"Albania","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"DZ":{"n":"阿爾及利亞","en":"Algeria","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"EE":{"n":"愛沙尼亞","en":"Estonia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗"]},"AD":{"n":"安道爾","en":"Andorra","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"AG":{"n":"安地卡及巴布達","en":"Antigua and Barbuda","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"AI":{"n":"安吉拉(英國海外領地)","en":"Anguilla","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"MO":{"n":"澳門特別行政區","en":"Macau SAR","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"CC":{"n":"澳洲科科斯群島","en":"Cocos Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"NF":{"n":"澳洲諾福客島","en":"Norfolk Island","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"CX":{"n":"澳洲聖誕島","en":"Christmas Island","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"BB":{"n":"巴貝多","en":"Barbados","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2022-04-12","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"BS":{"n":"巴哈馬","en":"Bahamas","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"BY":{"n":"白俄羅斯","en":"Belarus","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"BM":{"n":"百慕達(英國海外領地)","en":"Bermuda","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"BG":{"n":"保加利亞","en":"Bulgaria","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"KP":{"n":"北韓","en":"Korea(North Korea)","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"MK":{"n":"北馬其頓共和國","en":"Republic of North Macedonia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"BZ":{"n":"貝里斯","en":"Belize","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"IS":{"n":"冰島","en":"Iceland","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"BW":{"n":"波札那共和國","en":"Botswana","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"PW":{"n":"帛琉","en":"Palau","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1],[1,"茲卡病毒感染症","2023-11-01","",0]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"BT":{"n":"不丹","en":"Bhutan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"FO":{"n":"丹麥 - 法羅群島","en":"Denmark - Faroe Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"GL":{"n":"丹麥 - 格陵蘭島","en":"Denmark - Greenland","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"TL":{"n":"東帝汶","en":"Timor Leste","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"TO":{"n":"東加王國","en":"Tonga","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"DM":{"n":"多米尼克","en":"Dominica (Commonwealth of)","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"ER":{"n":"厄利垂亞","en":"Eritrea","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"PF":{"n":"法屬玻里尼西亞","en":"French Polynesia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"法屬大溪地":{"n":"法屬大溪地","en":"Tahiti","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"GP":{"n":"法屬瓜地洛普島","en":"Guadeloupe","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":[]},"YT":{"n":"法屬馬約特島","en":"Mayotte","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"PM":{"n":"法屬聖皮耶與秘克隆群島","en":"Saint Pierre and Miquelon","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"FJ":{"n":"斐濟","en":"Republic of Fiji","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"FI":{"n":"芬蘭","en":"Finland","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"GD":{"n":"格瑞那達","en":"Grenada","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"AW":{"n":"荷屬阿魯巴","en":"Aruba","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"荷屬波奈":{"n":"荷屬波奈","en":"Bonaire","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"荷屬古拉索":{"n":"荷屬古拉索","en":"Curaçao","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"荷屬沙巴(與荷屬波奈為同行政區)":{"n":"荷屬沙巴(與荷屬波奈為同行政區)","en":"Saba","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"荷屬聖馬丁":{"n":"荷屬聖馬丁","en":"St.Maarten","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"荷屬聖佑達修斯(與荷屬波奈為同行政區)":{"n":"荷屬聖佑達修斯(與荷屬波奈為同行政區)","en":"Sint Eustatius","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"DJ":{"n":"吉布地共和國","en":"Djibouti,Republic of","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"KI":{"n":"吉里巴斯","en":"Kiribati","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"加那利群島":{"n":"加那利群島","en":"Canary Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"VA":{"n":"教廷","en":"Holy See","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"KY":{"n":"開曼群島(英國海外領地)","en":"Cayman Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"XK":{"n":"科索沃共和國","en":"Kosovo","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"KW":{"n":"科威特","en":"Kuwait","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"HR":{"n":"克羅埃西亞","en":"Croatia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"CK":{"n":"庫克群島","en":"Cook Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"LV":{"n":"拉脫維亞","en":"Latvia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"LS":{"n":"賴索托","en":"Lesotho","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"LT":{"n":"立陶宛","en":"Lithuania","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"LY":{"n":"利比亞","en":"State of Libya","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"LI":{"n":"列支敦斯登","en":"Liechtenstein","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"LU":{"n":"盧森堡","en":"Luxembourg","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"馬德拉群島":{"n":"馬德拉群島","en":"Madeira Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"MT":{"n":"馬爾他","en":"Malta","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"馬爾他騎士團":{"n":"馬爾他騎士團","en":"Sovereign Military Order of Malta","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"MH":{"n":"馬紹爾群島共和國","en":"Marshall Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"MP":{"n":"美屬北馬里亞納群島","en":"Northern Mariana Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"PR":{"n":"美屬波多黎各","en":"Puerto Rico","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2023-03-20","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"GU":{"n":"美屬關島","en":"Guam","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"AS":{"n":"美屬薩摩亞","en":"American Samoa","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"美屬威克島":{"n":"美屬威克島","en":"Wake Island","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"VI":{"n":"美屬維京群島","en":"US Virgin Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"ME":{"n":"蒙特內哥羅","en":"Montenegro","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"MS":{"n":"蒙哲臘(英國海外領地)","en":"Montserrat","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"FM":{"n":"密克羅尼西亞聯邦","en":"The Federated States of Micronesia(FSM)","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"MD":{"n":"摩爾多瓦","en":"Moldova","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"MC":{"n":"摩納哥","en":"Monaco","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"NU":{"n":"紐埃","en":"Niue","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"NZ":{"n":"紐西蘭","en":"New Zealand","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"TK":{"n":"紐西蘭托克勞","en":"Tokelau","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"NO":{"n":"挪威","en":"Norway","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"NR":{"n":"諾魯","en":"Nauru","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"葡屬亞速群島":{"n":"葡屬亞速群島","en":"Azores","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"WS":{"n":"薩摩亞","en":"Samoa","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"SC":{"n":"塞席爾","en":"Seychelles","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"CY":{"n":"賽普勒斯","en":"Cyprus","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","瘧疾預防用藥"]},"ST":{"n":"聖多美普林西比","en":"Sao Tome and Principe","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"KN":{"n":"聖克里斯多福及尼維斯","en":"Saint Christopher (St. Kitts) and Nevis","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"LC":{"n":"聖露西亞","en":"Saint Lucia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"SM":{"n":"聖馬利諾","en":"San Marino","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"VC":{"n":"聖文森及格瑞那丁","en":"Saint Vincent and the Grenadines","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"SZ":{"n":"史瓦帝尼王國","en":"Kingdom of Eswatini","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"SK":{"n":"斯洛伐克","en":"Slovakia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"SI":{"n":"斯洛維尼亞","en":"Slovenia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"索馬利蘭共和國":{"n":"索馬利蘭共和國","en":"Republic of Somaliland","a":[[1,"新冠併發重症","2023-11-01","",1]],"v":[]},"TN":{"n":"突尼西亞","en":"Tunisia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"TM":{"n":"土庫曼","en":"Turkmenistan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"TV":{"n":"吐瓦魯","en":"Tuvalu","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"WF":{"n":"瓦利斯群島和富圖那群島","en":"Wallis and Futuna","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"VU":{"n":"萬那杜","en":"Vanuatu","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"BN":{"n":"汶萊","en":"Brunei Darussalam","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["日本腦炎疫苗","黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"UY":{"n":"烏拉圭","en":"Uruguay","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"西撒哈拉":{"n":"西撒哈拉","en":"Western Sahara","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗","瘧疾預防用藥"]},"NC":{"n":"新喀里多尼亞","en":"New Caledonia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"HU":{"n":"匈牙利","en":"Hungary","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"AM":{"n":"亞美尼亞","en":"Armenia","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"FK":{"n":"英屬福克蘭群島","en":"Falkland Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"GS":{"n":"英屬南喬治亞及南三明治群島","en":"South George and South Sandwich Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"PN":{"n":"英屬皮特凱恩群島","en":"Pitcairn Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"TC":{"n":"英屬土克凱可群島","en":"Turks and Caicos","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"VG":{"n":"英屬維京群島","en":"British Virgin Islands","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2020-11-06","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"IO":{"n":"英屬印度洋群島","en":"British Indian Ocean Territory","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"GI":{"n":"英屬直布羅陀","en":"Gibraltar","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]},"JO":{"n":"約旦","en":"Jordan","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","流行性腦脊髓膜炎疫苗","A型肝炎疫苗","狂犬病疫苗","小兒麻痺疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"智利復活島":{"n":"智利復活島","en":"Easter Island","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1],[1,"茲卡病毒感染症","2019-07-08","",0],[1,"新冠併發重症","2023-11-01","",1]],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"巴勒斯坦地區":{"n":"巴勒斯坦地區","en":"","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1]],"v":[]},"SMLL":{"n":"筆索馬利蘭","en":"Jamhuuriyadda Somaliland","a":[[3,"嚴重特殊傳染性肺炎","2020-03-21","",1]],"v":[]},"法屬瓜地洛普":{"n":"法屬瓜地洛普","en":"Guadeloupe","a":[],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"法屬馬丁尼克":{"n":"法屬馬丁尼克","en":"Martinique","a":[],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"法屬聖馬丁":{"n":"法屬聖馬丁","en":"Saint Martin","a":[],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗","傷寒疫苗"]},"法屬聖巴瑟米":{"n":"法屬聖巴瑟米","en":"St.Barthelemy","a":[],"v":["黃熱病疫苗","A型肝炎疫苗","狂犬病疫苗","麻疹、腮腺炎及德國麻疹混合(MMR)疫苗"]}};
+/* ===== TRAVEL_DATA_END ===== */
+
+/* ════════════════════════════════════════════════════════
+   病人狀況（篩檢器輸入）
+   ════════════════════════════════════════════════════════ */
+const CONDS = [
+  {g:"生理狀態", items:[
+    {id:"preg",     t:"懷孕中"},
+    {id:"lactate",  t:"授乳中"},
+    {id:"childbear",t:"育齡婦女（近期可能懷孕）"},
+  ]},
+  {g:"免疫狀態", items:[
+    {id:"immuno",   t:"免疫功能不全（先天/後天、白血病、淋巴癌、化療中、器官移植）"},
+    {id:"steroid",  t:"高劑量類固醇（<10kg：每日 ≧2mg/kg；≧10kg：每日 20mg prednisolone）"},
+    {id:"hiv",      t:"HIV 感染（不論有無症狀）"},
+    {id:"famImmuno",t:"家族有疑似先天性免疫缺失史（如幼年不明原因感染死亡）"},
+    {id:"momHIV",   t:"生母為 HIV 感染者（嬰幼兒）"},
+  ]},
+  {g:"急性狀況與過敏", items:[
+    {id:"fever",    t:"發燒或正患有急性中重度疾病"},
+    {id:"anaphy",   t:"對該疫苗或其成分曾發生嚴重過敏反應"},
+    {id:"eggAllergy",t:"對蛋之蛋白質嚴重過敏"},
+  ]},
+  {g:"過去接種不良反應", items:[
+    {id:"gbs",      t:"接種含破傷風／流感疫苗後 6 週內曾發生 GBS"},
+    {id:"encephalo",t:"接種含百日咳疫苗後 7 天內曾發生腦病變且無其他病因"},
+    {id:"arthus",   t:"曾發生 Arthus 過敏反應（含破傷風類毒素）"},
+    {id:"dtapEvent",t:"先前 DTaP/DTP 後 48 小時內嚴重哭鬧>3hr／虛脫／發燒>40.5℃，或 3 天內痙攣"},
+  ]},
+  {g:"共病", items:[
+    {id:"neuro",    t:"進行性痙攣症或神經系統疾病（病情未穩定）"},
+    {id:"itp",      t:"血小板低下症或血小板缺乏紫斑症病史"},
+    {id:"cardiac",  t:"需藥物治療的心臟衰竭或發紺性心臟病"},
+    {id:"tb",       t:"疑似結核病或疑似結核菌感染（未做 TST／CXR）"},
+    {id:"eczema",   t:"嚴重濕疹或明顯皮膚缺損之皮膚病"},
+    {id:"measlesVZV",t:"近期麻疹或水痘感染（未滿 6 週復原期）"},
+  ]},
+  {g:"近期用藥／處置", items:[
+    {id:"ig3",      t:"3 個月內用過一般肌注免疫球蛋白或 HBIG"},
+    {id:"blood6",   t:"6 個月內輸血或靜脈血液製品／麻疹接觸者預防性 IG"},
+    {id:"ivig11",   t:"11 個月內用過高劑量 IVIG（≧1 g/kg）"},
+    {id:"antiviral",t:"24 小時內用過 acyclovir／famciclovir／valacyclovir"},
+    {id:"live28",   t:"4 週內接種過活性減毒疫苗（非同日）"},
+    {id:"tst",      t:"預計近期接受結核菌素測驗（TST）"},
+  ]},
+  {g:"新生兒", items:[
+    {id:"lbw2000",  t:"出生體重未達 2,000 公克"},
+    {id:"momHBsAg", t:"母親 HBsAg 陽性"},
+  ]},
+];
+
+/* ════════════════════════════════════════════════════════
+   疫苗資料
+   type: live=活性減毒 / inact=不活化
+   rules: {c:條件id 或 函式, lv:"stop"|"warn", t:文字, s:來源代碼}
+   ════════════════════════════════════════════════════════ */
+const FEVER  = {c:"fever",  lv:"warn", t:"發燒或正患有急性中重度疾病者，宜待病情穩定後再接種。", s:"S1"};
+const ANAPHY = {c:"anaphy", lv:"stop", t:"先前接種本疫苗或對本疫苗任何成分曾發生嚴重過敏反應者。", s:"S1"};
+// lv:"info" = 原文列有但無法用勾選條件判定者，恆常顯示且不影響判定結果
+const OTHER_EVAL = {c:()=>true, lv:"info", t:"其他經醫師評估不適合接種者。", s:"S1"};
+// 日本腦炎不活化疫苗條目的原文多了「，不予接種」後綴，不可共用上一條
+const OTHER_EVAL_JE = {c:()=>true, lv:"info", t:"其他經醫師評估不適合接種者，不予接種。", s:"S1"};
+const LIVE28 = {c:"live28", lv:"warn", t:"活性減毒疫苗如未與前一劑活性減毒疫苗同時接種，最少要間隔 28 天。", s:"S2"};
+const IG_RULES = [
+  {c:"ig3",   lv:"warn", t:"曾接受一般肌肉注射免疫球蛋白或 HBIG 者，宜間隔 3 個月後再接種。", s:"S2"},
+  {c:"blood6",lv:"warn", t:"輸過血或接受靜脈血液製品者宜間隔 6 個月；麻疹接觸者曾打預防性肌注 IG 者應間隔 6 個月以上。（Washed RBCs 無須間隔）", s:"S2"},
+  {c:"ivig11",lv:"warn", t:"曾靜脈注射高劑量（≧1 g/kg）免疫球蛋白者，宜間隔 11 個月後再接種。", s:"S2"},
+];
+
+const VAX = [
+{ id:"hepb", n:"B 型肝炎疫苗", en:"Hepatitis B", type:"inact", fund:"公費",
+  sched:"出生 24 小時內儘速、1 個月、6 個月，共 3 劑。成人未具免疫力者 3 劑（0-1-6 個月）。",
+  rules:[ ANAPHY, FEVER,
+    {c:"lbw2000", lv:"warn", t:"出生體重未達 2,000 公克者，出生一個月後或體重超過 2,000 公克即可注射。", s:"S1"},
+    {c:"momHBsAg",lv:"warn", t:"母親為 B 型肝炎 s 抗原陽性之寶寶，應在出生 24 小時內儘速接種 1 劑 B 型肝炎免疫球蛋白（HBIG）。", s:"S1"},
+  ]},
+
+{ id:"bcg", n:"卡介苗", en:"BCG", type:"live", fund:"公費",
+  sched:"出生滿 5 個月接種 1 劑（建議滿 5–8 個月）。",
+  // 卡介苗條目原文無「先前」二字，不可共用 ANAPHY 常數
+  rules:[ {c:"anaphy", lv:"stop", t:"接種本疫苗或對本疫苗任何成分曾發生嚴重過敏反應者。", s:"S1"},
+    FEVER,
+    {c:"live28", lv:"info", t:"可與任何活性減毒疫苗同時接種或間隔任何時間接種。", s:"S2"},
+    {c:"eczema", lv:"stop", t:"嚴重濕疹與有明顯皮膚缺損的皮膚病者，為接種禁忌。", s:"S1"},
+    {c:"immuno", lv:"stop", t:"免疫功能不全者為接種禁忌。", s:"S1"},
+    {c:"hiv",    lv:"stop", t:"人類免疫不全病毒感染者，無論是否有症狀，均為接種禁忌。", s:"S1"},
+    {c:"preg",   lv:"stop", t:"孕婦為接種禁忌。", s:"S1"},
+    {c:"tb",     lv:"warn", t:"疑似結核病人及疑似被結核菌感染者，勿直接接種卡介苗，應先進行結核菌素測驗及胸部 X 光檢查。", s:"S1"},
+    {c:"measlesVZV", lv:"warn", t:"麻疹及水痘感染，待復原期（6 週）後再接種。", s:"S1"},
+    {c:"famImmuno",  lv:"warn", t:"請父母確認父母雙方家人沒有疑似先天性免疫缺失之家族史。", s:"S1"},
+    {c:"momHIV", lv:"warn", t:"生母為愛滋病毒感染者，其嬰幼兒應待追蹤滿 4 個月後，確定未受感染再接種。", s:"S1"},
+    {c:"lbw2000",lv:"warn", t:"提早接種之嬰兒體重應達 2,500 公克以上。", s:"S1"},
+  ],
+  extra:"卡介苗可與任何活性減毒疫苗同時接種或間隔任何時間接種（不受 28 天限制）。〔S2〕"},
+
+{ id:"dtap5", n:"五合一疫苗", en:"DTaP-Hib-IPV", type:"inact", fund:"公費",
+  sched:"2、4、6、18 個月，共 4 劑。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"先前接種白喉、破傷風、百日咳、b 型嗜血桿菌、小兒麻痺相關疫苗或對本疫苗任何成分曾發生嚴重過敏反應者。", s:"S1"},
+    {c:"encephalo", lv:"stop", t:"接種含百日咳疫苗後 7 天內曾發生腦病變，且無其他可解釋病因者。", s:"S1"},
+    {c:a=>a.weeks!==null&&a.weeks<6, lv:"stop", t:"出生未滿 6 週。", s:"S1"},
+    {c:a=>a.years!==null&&a.years>=7, lv:"warn", t:"滿 7 歲以上不適用。", s:"S1"},
+    FEVER,
+    {c:"neuro",  lv:"warn", t:"患有進行性痙攣症或神經系統疾病者，宜於醫師判斷病情已經穩定後才注射疫苗。", s:"S1"},
+    {c:"gbs",    lv:"warn", t:"先前接種含破傷風疫苗後 6 週內曾發生過 GBS 者。", s:"S1"},
+    {c:"arthus", lv:"warn", t:"曾發生 Arthus 過敏反應者，與次劑含破傷風類毒素疫苗應間隔 10 年以上再接種。", s:"S1"},
+    {c:"dtapEvent", lv:"warn", t:"需經專科醫師評估後再接種（先前 DTaP／DTP 後 48 小時內不停嚴重哭鬧超過 3 小時、虛脫或類休克狀態、發燒超過 40.5℃，或接種後 3 天內痙攣且無法以其他原因解釋）。", s:"S1"},
+    {c:"cardiac",lv:"warn", t:"需用藥物治療的心臟衰竭或發紺性心臟病者，需經專科醫師評估後再接種。", s:"S1"},
+  ],
+  extra:"不適宜接種含百日咳疫苗之 6 歲以下幼兒，可改接種白喉破傷風混合疫苗（DT）及不活化小兒麻痺疫苗（IPV）。〔S1〕"},
+
+{ id:"pcv", n:"結合型肺炎鏈球菌疫苗", en:"PCV13／15／20", type:"inact", fund:"公費",
+  sched:"兒童 2、4、12–15 個月共 3 劑。成人見成人時程分頁之銜接原則。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"先前接種本疫苗或對本疫苗任何成分（包括白喉類毒素）曾發生嚴重過敏反應者。", s:"S1"},
+    FEVER,
+    {c:a=>a.weeks!==null&&a.weeks<6, lv:"warn", t:"出生未滿 6 週。", s:"S1"},
+    OTHER_EVAL,
+  ]},
+
+{ id:"flu", n:"流感疫苗", en:"Influenza", type:"inact", fund:"公費",
+  sched:"每年 1 劑。8 歲（含）以下初次接種應 2 劑、間隔 4 週；9 歲以上初次接種 1 劑。",
+  rules:[ ANAPHY, FEVER,
+    {c:a=>a.months!==null&&a.months<6, lv:"warn", t:"出生未滿 6 個月。", s:"S1"},
+    {c:"gbs", lv:"warn", t:"先前接種本疫苗六週內曾發生 GBS（Guillain-Barré syndrome）者。", s:"S1"},
+    OTHER_EVAL,
+  ]},
+
+{ id:"mmr", n:"麻疹腮腺炎德國麻疹混合疫苗", en:"MMR", type:"live", fund:"公費",
+  sched:"兒童 12 個月、滿 5 歲至入國小前共 2 劑。成人 1966 年含以後出生者建議滿 1 歲後有 2 劑紀錄。",
+  rules:[ ANAPHY,
+    {c:"preg",   lv:"stop", t:"孕婦為接種禁忌。", s:"S1"},
+    {c:"immuno", lv:"stop", t:"已知患有嚴重免疫缺失者為接種禁忌（包括嚴重免疫不全的愛滋病毒陽性個案、先天性免疫缺失症與白血病、淋巴癌等惡性腫瘤病人或接受化療、免疫抑制藥物治療者）。", s:"S1"},
+    {c:"steroid",lv:"stop", t:"接受高劑量類固醇治療者為接種禁忌（<10kg：≧2mg/kg/日；≧10kg：20mg/日 prednisolone）。", s:"S1"},
+    FEVER, LIVE28, ...IG_RULES,
+    {c:"itp", lv:"warn", t:"曾有血小板低下症或血小板缺乏紫斑症的疾病史者，宜請醫師評估。", s:"S1"},
+    {c:"tst", lv:"warn", t:"接受結核菌素測驗者，如未於接種前或接種當天接受測驗，應於接種一個月後再接受測驗。", s:"S1"},
+    {c:"childbear", lv:"warn", t:"女性接種後 4 週內應避免懷孕。但疫苗施打後 4 週內發現懷孕，不應被視為中止懷孕之適應症。", s:"S1"},
+    {c:"eggAllergy", lv:"warn", t:"已知對「蛋」之蛋白質有嚴重過敏者，可在門／住診由熟悉處理過敏症狀之醫事人員提供接種，並於接種後留觀 30 分鐘。", s:"S1"},
+  ]},
+
+{ id:"var", n:"水痘疫苗", en:"Varicella", type:"live", fund:"公費",
+  sched:"12 個月接種 1 劑。",
+  rules:[ ANAPHY,
+    {c:"preg",   lv:"stop", t:"孕婦為接種禁忌。", s:"S1"},
+    {c:"immuno", lv:"stop", t:"已知患有嚴重免疫缺失者為接種禁忌（包括嚴重免疫不全的愛滋病毒陽性個案、先天性免疫缺失症與白血病、淋巴癌等惡性腫瘤病人或接受化療、免疫抑制藥物治療者）。", s:"S1"},
+    {c:"steroid",lv:"stop", t:"接受高劑量類固醇治療者為接種禁忌。", s:"S1"},
+    FEVER, LIVE28, ...IG_RULES,
+    {c:"antiviral", lv:"warn", t:"接種前 24 小時內曾接受 acyclovir、famciclovir 或 valacyclovir 者，於接種後間隔 14 天以後再重新開始服用這些藥物。", s:"S1"},
+    {c:"childbear", lv:"warn", t:"女性接種後 4 週內應避免懷孕。", s:"S1"},
+    {c:a=>a.years!==null&&a.years<18, lv:"warn", t:"18 歲以下兒童接種水痘疫苗後 6 週內宜避免使用水楊酸類藥品（salicylates）。", s:"S1"},
+  ],
+  extra:"接種後皮膚出現紅疹者，應避免接觸嚴重免疫不全者。〔S1〕"},
+
+{ id:"hepa", n:"A 型肝炎疫苗", en:"Hepatitis A", type:"inact", fund:"公費／自費",
+  sched:"幼兒滿 18、27 個月共 2 劑（114 年起時程）。成人高風險者 2 劑、間隔 6–12 個月。",
+  rules:[ ANAPHY, FEVER,
+    {c:"preg", lv:"warn", t:"孕婦。", s:"S1"},
+  ]},
+
+{ id:"jelive", n:"日本腦炎活性減毒嵌合型疫苗", en:"JE-CV", type:"live", fund:"公費",
+  sched:"兒童 15 個月第 1 劑，間隔 12 個月第 2 劑。成人有感染之虞且未曾接種或接種史不明者 1 劑。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"對疫苗之任何成分曾有嚴重過敏反應者。", s:"S1"},
+    {c:"immuno", lv:"stop", t:"先天或後天免疫不全者為接種禁忌，包括接受化學治療者。", s:"S1"},
+    {c:"steroid",lv:"stop", t:"先天或後天免疫不全者，包括使用 ≧14 天高劑量全身性皮質類固醇者。", s:"S1"},
+    {c:"steroid",lv:"warn", t:"使用 ≧14 天高劑量全身性皮質類固醇者，可於停止類固醇 ≧28 天之後接種疫苗。", s:"S1"},
+    {c:"hiv",    lv:"stop", t:"感染人類免疫缺陷病毒，不論有無症狀，其免疫功能有缺損者為接種禁忌。", s:"S1"},
+    {c:"preg",   lv:"stop", t:"孕婦為接種禁忌。", s:"S1"},
+    {c:"lactate",lv:"stop", t:"授乳母親為接種禁忌。", s:"S1"},
+    FEVER, LIVE28, ...IG_RULES,
+    {c:"childbear", lv:"warn", t:"育齡婦女在接種疫苗後 4 週內宜避免懷孕。", s:"S1"},
+  ]},
+
+{ id:"jeinact", n:"日本腦炎不活化疫苗", en:"JE (Vero cell)", type:"inact", fund:"自費",
+  sched:"成人有感染之虞者 3 劑：第 1、2 劑間隔 4 週，隔年接種第 3 劑。赴高風險地區可採 0-28 天 2 劑，第 2 劑至少旅遊前一週完成。",
+  rules:[ ANAPHY, FEVER,
+    OTHER_EVAL_JE,
+    {c:"preg", lv:"warn", t:"孕婦。", s:"S1"},
+  ]},
+
+{ id:"dtapipv", n:"DTaP-IPV／Tdap-IPV", en:"四合一", type:"inact", fund:"公費",
+  sched:"滿 5 歲至入國小前 1 劑。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"先前接種白喉破傷風百日咳相關疫苗及小兒麻痺疫苗或對本疫苗任何成分曾發生嚴重過敏反應者。", s:"S1"},
+    {c:"encephalo", lv:"stop", t:"接種含百日咳疫苗後 7 天內曾發生腦病變，且無其他可解釋病因者。", s:"S1"},
+    {c:a=>a.years!==null&&a.years>=13, lv:"warn", t:"滿 13 歲以上不適用 DTaP-IPV。", s:"S1"},
+    FEVER,
+    {c:"neuro",  lv:"warn", t:"患有進行性痙攣症或神經系統疾病者，宜於醫師判斷病情已經穩定後才注射疫苗。", s:"S1"},
+    {c:"gbs",    lv:"warn", t:"先前接種含破傷風疫苗後 6 週內曾發生過 GBS 者。", s:"S1"},
+    {c:"arthus", lv:"warn", t:"曾發生 Arthus 過敏反應者，如果有必要考慮追加含破傷風類毒素疫苗則應間隔 10 年以上。", s:"S1"},
+  ],
+  extra:"不適宜接種本項含百日咳疫苗者，可改接種白喉破傷風混合疫苗（DT／Td）及不活化小兒麻痺疫苗（IPV）。〔S1〕"},
+
+{ id:"tdap", n:"減量破傷風白喉百日咳疫苗", en:"Tdap", type:"inact", fund:"自費／孕婦公費",
+  sched:"建議先完成 1 劑 Tdap，之後每 10 年追加 1 劑。每次懷孕應接種 1 劑（任何孕程可打，建議 27–36 週）。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"先前接種白喉破傷風百日咳相關疫苗或對本疫苗任何成分曾發生嚴重過敏反應者。", s:"S1"},
+    {c:"encephalo", lv:"stop", t:"接種含百日咳疫苗後 7 天內曾發生腦病變，且無其他可解釋病因者。", s:"S1"},
+    FEVER,
+    {c:"neuro",  lv:"warn", t:"患有進行性痙攣症或神經系統疾病者，宜於醫師判斷病情已經穩定後才注射疫苗。", s:"S1"},
+    {c:"gbs",    lv:"warn", t:"先前接種含破傷風疫苗後 6 週內曾發生過 GBS 者。", s:"S1"},
+    {c:"arthus", lv:"warn", t:"曾發生 Arthus 過敏反應者，追加含破傷風類毒素疫苗應間隔 10 年以上。", s:"S1"},
+    {c:"preg",   lv:"warn", t:"孕婦建議接種：不論過去 Tdap 接種史，每次懷孕應接種 1 劑，可在任何孕程接種；為使母親抗體傳遞給嬰兒的效益最大化，建議於懷孕第 27–36 週接種。若懷孕時未接種，則應於生產後立即接種。", s:"S4"},
+  ],
+  extra:"疾管署《各項常規疫苗接種禁忌與注意事項》112.09 版未單列 Tdap 單劑型，上列禁忌係取自該表「白喉破傷風非細胞性百日咳及不活化小兒麻痺混合疫苗（DTaP-IPV／Tdap-IPV）」條目。若考量風險需要，Tdap 與前一次破傷風相關疫苗不需有間隔上的考量，可隨時施打。〔S4〕"},
+
+{ id:"ppv23", n:"23 價肺炎鏈球菌多醣體疫苗", en:"PPV23", type:"inact", fund:"公費",
+  sched:"見成人時程分頁之 PCV／PPV23 銜接原則。",
+  rules:[ ANAPHY, FEVER,
+    {c:a=>a.years!==null&&a.years<2, lv:"warn", t:"本疫苗對 2 歲以下之嬰幼兒無效，故不宜接種。", s:"S1"},
+    OTHER_EVAL,
+  ]},
+
+{ id:"hpv", n:"人類乳突病毒疫苗", en:"HPV", type:"inact", fund:"公費／自費",
+  sched:"19–26 歲成人均建議接種；27–45 歲高感染風險者建議接種。3 劑，依仿單完成。2 價僅適用女性，4 價及 9 價適用男女。",
+  rules:[ ANAPHY,
+    {c:"preg", lv:"stop", t:"孕婦。", s:"S1"},
+    FEVER,
+    {c:"preg", lv:"warn", t:"已懷孕但不知情且接種 HPV 疫苗者，應暫停後續接種，於生產後再接續完成。", s:"S1"},
+  ],
+  extra:"公費國中生 HPV 疫苗的實施對象與年度異動由國民健康署（hpa.gov.tw）主管，非疾管署。"},
+];
+
+/* ── 自費疫苗：不在疾管署 112.09 禁忌表內，禁忌症取自 TFDA 中文仿單 ── */
+const VAX_SELFPAY = [
+{ id:"shingrix", n:"帶狀疱疹疫苗（非活性基因重組）", en:"Shingrix 欣剋疹", type:"inact", fund:"自費",
+  sched:"2 劑，第 2 劑於第 1 劑後 2–6 個月（仿單另載可於 1–2 個月後施打）。50 歲以上成人；18 歲以上免疫不全或功能低下者經醫師評估。曾接種活性減毒帶狀疱疹疫苗者間隔至少 1 年可再接種；曾罹患帶狀疱疹者可於發病 1 年且無症狀後接種。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"對本疫苗的活性成份或任何組成嚴重過敏。（仿單所列唯一禁忌）", s:"S9"},
+    FEVER,
+    {c:a=>a.years!==null&&a.years<18, lv:"warn", t:"仿單適應症為 50 歲（含）以上成人，或 18 歲（含）以上具較高罹患帶狀疱疹風險之成人；未滿 18 歲不在適應症範圍。", s:"S9"},
+  ],
+  extra:"許可證字號：衛部菌疫輸字第 001182 號〔S9〕。疾管署《成人預防接種建議時程表》115 年 5 月版附註 10 明列「18 歲（含）以上免疫不全或免疫功能低下者，可經醫師評估，接種 2 劑帶狀疱疹疫苗」——<strong>免疫不全非本疫苗禁忌</strong>〔S4〕。（「本疫苗為非活性基因重組蛋白」屬品名與適應症之推論，仿單未以此語句說明免疫不全者可接種。）"},
+
+{ id:"rsv", n:"RSV 疫苗", en:"Arexvy 欣剋融／Abrysvo 艾沛兒", type:"inact", fund:"自費",
+  sched:"單劑肌肉注射。Arexvy：60 歲以上成人、50–59 歲高風險者。Abrysvo：60 歲以上成人、18–59 歲高風險者、孕婦。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"對本疫苗的活性成分或任何組成／賦形劑嚴重過敏。（兩張仿單所列唯一禁忌）", s:"S9"},
+    FEVER,
+    {c:"preg", lv:"warn", t:"孕婦僅 Abrysvo 有此適應症，Arexvy 無。⚠️ 接種週數兩來源不一致：疾管署《成人預防接種建議時程表》115 年 5 月版為「懷孕 28–36 週」，Abrysvo 仿單為「懷孕第 24 週至第 36 週」。", s:"S9"},
+  ],
+  extra:"許可證字號：Arexvy 衛部菌疫輸字第 001251 號；Abrysvo 衛部菌疫輸字第 001267 號。疾管署自費建議對象：75 歲以上成人；60–74 歲高危險群（慢性肺、心血管、肝、腎疾病、長照機構住民）；孕婦 28–36 週。〔S4＋S9〕"},
+
+{ id:"rota", n:"輪狀病毒疫苗", en:"RotaTeq 輪達停／Rotarix 羅特律", type:"live", fund:"自費 →2027-01-01 起公費",
+  sched:"口服。RotaTeq 3 劑：第 1 劑 6–12 週齡，後續間隔 4–10 週，第 3 劑不可於 32 週齡之後投予。公費（2027-01-01 起）：最小滿 6 週、最大不得超過 8 個月；2 劑型滿 2、4 個月，3 劑型滿 2、4、6 個月，每劑最短間隔 4 週。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"已知對此疫苗之任何成分有過敏病史者；於接種一劑後出現過敏症狀的嬰兒，不應再接種。", s:"S9"},
+    {c:"immuno", lv:"stop", t:"有嚴重複合型免疫缺乏症（SCID）者為接種禁忌。", s:"S9"},
+    FEVER,
+    {c:a=>a.months!==null&&a.months>8, lv:"stop", t:"公費接種年齡最大不得超過 8 個月；RotaTeq 第 3 劑不可於 32 週齡之後投予。", s:"S10"},
+  ],
+  extra:"許可證字號：RotaTeq 衛署菌疫輸字第 000825 號。Rotarix 凍晶劑型（衛署菌疫輸字第 000826 號）已於 2022-08-25 自請註銷；現行供應為液劑劑型、屬不同許可證，本次<strong>未確認</strong>其字號與仿單內容。〔S9〕"},
+
+{ id:"hexa", n:"六合一疫苗", en:"Hexaxim 哈多星", type:"inact", fund:"自費",
+  sched:"出生 6 週以上嬰幼兒。基礎接種 3 劑、間隔至少 4 週；追加接種與最後基礎接種至少間隔 6 個月。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"先前接種本疫苗後曾發生過敏性休克反應；或對活性成分、任何賦形劑、微量殘留物、任何百日咳疫苗曾發生嚴重過敏性反應。", s:"S9"},
+    {c:"encephalo", lv:"stop", t:"先前接種含百日咳疫苗後 7 天內曾發生腦病變者為接種禁忌。", s:"S9"},
+    {c:a=>a.weeks!==null&&a.weeks<6, lv:"stop", t:"適應症為出生 6 週以上之嬰兒及幼兒。", s:"S9"},
+    FEVER,
+  ],
+  extra:"許可證字號：Hexaxim 衛部菌疫輸字第 001105 號。預防白喉、破傷風、百日咳、B 型肝炎、小兒麻痺及 b 型嗜血桿菌（Hib）。另一款 Infanrix hexa 嬰護寧的許可證本次<strong>未經 TFDA 頁面驗證</strong>。〔S9〕"},
+
+{ id:"mcv4", n:"腦膜炎雙球菌四價接合型疫苗", en:"Menveo 腦寧安", type:"inact", fund:"自費",
+  sched:"1 劑（0.5 mL）肌肉注射。適用幼童 2 歲及以上、青少年與成人（≦55 歲）。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"對本疫苗的活性成份或任何賦形劑會產生過敏反應者禁用。", s:"S9"},
+    FEVER,
+    {c:a=>a.years!==null&&(a.years<2||a.years>55), lv:"warn", t:"仿單適應症年齡為 2 歲及以上至 55 歲（≦55 歲）；超出此範圍不在適應症內。", s:"S9"},
+  ],
+  extra:"許可證字號：衛部菌疫輸字第 000968 號。疾管署建議高危險群自費接種：持續性補體缺損患者、脾臟功能缺損者、HIV 感染者，及居住或往返於流行地區者。B 型腦膜炎雙球菌疫苗（MenB）適用 2 個月以上，依年齡及風險接種 2–3 劑。〔S4＋S9〕"},
+
+{ id:"covid", n:"COVID-19 疫苗", en:"莫德納 XFG（mRNA）／Novavax XFG（蛋白質次單元）", type:"inact", fund:"公費（計畫對象）",
+  sched:"未曾接種：滿 6 個月至 4 歲 2 劑（間隔 4 週以上）、滿 5 歲以上 1 劑（未滿 12 歲僅 Spikevax 適用；mNEXSPIKE 與 Novavax 適用滿 12 歲以上）。曾接種：1 劑，與前 1 劑 COVID-19 疫苗間隔 12 週（84 天）以上。65 歲以上長者、55 歲以上原住民及滿 6 個月以上免疫不全或免疫低下者，建議接種後間隔 6 個月（180 天）以上可再增加接種 1 劑。",
+  rules:[
+    {c:"anaphy", lv:"stop", t:"對於疫苗所含活性物質或賦形劑（成分）有嚴重過敏反應史，或先前接種同廠牌 COVID-19 疫苗劑次曾發生嚴重過敏反應者，不予接種。（莫德納原文：「先前接種 Spikevax 或 mNEXSPIKE 新型冠狀病毒疫苗劑次」；Novavax 原文：「先前接種本項疫苗劑次」——禁忌綁定該廠牌產品。兩份須知之禁忌均僅此一項）", s:"S12"},
+    {c:"fever", lv:"warn", t:"發燒或正患有急性中重度疾病者，宜待病情穩定後再接種。", s:"S12"},
+    {c:"preg", lv:"warn", t:"懷孕婦女可與醫師討論接種疫苗之效益與風險後，評估是否接種。臨床觀察性研究顯示懷孕婦女感染 SARS-CoV-2 可能較一般人容易併發重症。註：「未增加不良懷孕結果」之觀察性資料來自 Spikevax「原病毒株」疫苗（非本季 XFG 株）；現有臨床資料不足以提供孕期使用 mNEXSPIKE 之風險資訊；Novavax 對懷孕婦女接種經驗有限。", s:"S12"},
+    {c:a=>a.months!==null&&a.months<6, lv:"warn", t:"計畫適用對象為滿 6 個月以上（Spikevax）；mNEXSPIKE 與 Novavax 適用滿 12 歲以上。", s:"S12"},
+    {c:()=>true, lv:"info", t:"有發炎性心臟疾病（心肌炎、心包膜炎、心內膜炎）、急性風濕熱、12–29 歲擴張型心肌病變、複雜或嚴重先天性心臟病（包含單心室 Fontan 循環）、急性失代償性心臟衰竭與心臟移植病史者，建議接種前諮詢心臟科或感染科醫師。（本段出自莫德納 mRNA 疫苗須知；Novavax 須知無此段，惟亦載有心肌炎／心包膜炎罕見通報之注意事項）", s:"S12"},
+  ],
+  extra:"接種須知（疾管署 2026-07-07）原文：莫德納 XFG 為「單價 mRNA 疫苗」、Novavax XFG 為「重組棘蛋白之蛋白質次單元疫苗」——均非活性減毒。大多數慢性心血管疾病史患者可接種 mRNA 疫苗，不建議採取額外特別措施。〔S12〕"},
+];
+VAX.push(...VAX_SELFPAY);
+
+/* ── 仍未取得仿單、篩檢器無法判定者 ── */
+const VAX_NOCONTRA = [
+  {n:"M 痘（Mpox）疫苗", sched:"適用 12 歲以上風險族群，2 劑、至少間隔 4 週。公費對象見疾管署規定。", s:"S4"},
+  {n:"狂犬病疫苗",       sched:"不活化疫苗。暴露後預防「依據世界衛生組織(WHO)公布之狂犬病專家諮詢指引建議，狂犬病疫苗由原先 5 劑修訂為 4 劑時程，分別於第 0、3、7、14 天各接種 1 劑」。", s:"S11"},
+  {n:"黃熱病疫苗",       sched:"活性減毒疫苗，旅遊醫學門診提供。台灣 S2 載霍亂與黃熱病應間隔 3 週以上，但未指明製劑；口服製劑之國際資料有差異，請核對「間隔規則」的品牌別原文。", s:"S2", claim:"cholera-policy"},
+];
+
+/* ════════════════════════════════════════════════════════
+   時程表資料
+   ════════════════════════════════════════════════════════ */
+const CHILD = [
+  ["B 型肝炎疫苗 (HepB)", "出生 24hr 內儘速（第 1 劑）→ 1 個月（第 2 劑）→ 6 個月（第 3 劑）"],
+  ["卡介苗 (BCG)", "出生滿 5 個月接種 1 劑（建議 5–8 個月）"],
+  ["五合一疫苗 (DTaP-Hib-IPV)", "2 個月 → 4 個月 → 6 個月 → 18 個月，共 4 劑"],
+  ["13 價結合型肺炎鏈球菌疫苗 (PCV13)", "2 個月 → 4 個月 → 12–15 個月，共 3 劑"],
+  ["水痘疫苗 (Varicella)", "12 個月接種 1 劑"],
+  ["麻疹腮腺炎德國麻疹混合疫苗 (MMR)", "12 個月（第 1 劑）→ 滿 5 歲至入國小前（第 2 劑）"],
+  ["活性減毒嵌合型日本腦炎疫苗 (JE-CV)", "15 個月（第 1 劑）→ 27 個月（第 2 劑，間隔 12 個月）"],
+  ["流感疫苗 (Influenza)", "6 個月以上：初次接種 2 劑（間隔 4 週），之後每年 1 劑"],
+  ["A 型肝炎疫苗 (HepA)", "18 個月（第 1 劑）→ 27 個月（第 2 劑）"],
+  ["白喉破傷風非細胞性百日咳及不活化小兒麻痺混合疫苗 (DTaP-IPV)", "滿 5 歲至入國小前 1 劑"],
+];
+
+// 成人時程：每支疫苗一張可展開卡片。
+// brief = 表格摘要；notes = S4 附註逐條；sero = 抗體判讀（只有 MMR 與 B 肝有）
+const ADULT = [
+{ n:"減量破傷風、白喉、百日咳疫苗", en:"Tdap", brief:"全年齡：接種 1 劑，之後每 10 年追加 1 劑", s:"S4",
+  notes:[
+   "建議應先完成 1 劑的減量破傷風白喉非細胞性百日咳混合疫苗(Tdap)，另建議每 10 年追加接種 1 劑。",
+   "高危險群如<strong>醫療照護人員、孕前婦女、嬰兒照顧者</strong>應優先以 Tdap 疫苗接種 1 劑。",
+   "若考量風險需要，Tdap 與前一次破傷風相關疫苗<strong>不需有間隔上的考量，可隨時施打</strong>。",
+   "不論過去 Tdap 接種史，<strong>每次懷孕應接種 1 劑 Tdap，可在任何孕程接種</strong>；為使母親抗體傳遞給嬰兒的接種效益最大化，建議於<strong>懷孕第 27-36 週</strong>接種；若懷孕時未接種，則應於生產後立即接種。",
+   "對於同時有日本腦炎風險的民眾，可同時接種日本腦炎疫苗及破傷風相關疫苗。"]},
+
+{ n:"麻疹、腮腺炎、德國麻疹混合疫苗", en:"MMR", brief:"2 劑", s:"S4",
+  notes:[
+   "1966 年(含)以後出生一般成人，建議於滿 1 歲後有 <strong>2 劑</strong>麻疹、德國麻疹相關疫苗接種紀錄，且 2 劑至少<strong>間隔 28 天</strong>以上。",
+   "15-49 歲育齡婦女檢具<strong>近 3 個月內德國麻疹抗體陰性證明</strong>者，可<strong>公費</strong>接種 1 劑 MMR 疫苗，且接種疫苗後 4 週內應避免懷孕。",
+   "下列 1966 年(含)以後出生對象若不具免疫力，建議<strong>自費</strong>接(補)種 1 劑 MMR：計畫前往有麻疹或德國麻疹疫情地區者、工作性質會頻繁接觸外國人者、醫療照護工作人員、照護尚未接種第 1 劑 MMR 疫苗嬰幼兒之機構工作人員。"],
+  sero:{ t:"麻疹／德國麻疹免疫力判定",
+    lead:"符合下列<strong>任一</strong>情形者，判斷為具麻疹及德國麻疹免疫力：",
+    items:[
+     "曾經由<strong>實驗室診斷確認感染</strong>麻疹及德國麻疹者。",
+     "出生滿 1 歲後有 <strong>2 劑</strong>含麻疹、德國麻疹疫苗相關接種紀錄（2 劑至少間隔 28 天以上），<strong>且最後一劑疫苗係在 15 年內接種</strong>。",
+     "具有麻疹、德國麻疹<strong>抗體檢驗陽性證明，且檢驗日期距今未滿 5 年</strong>。",
+     "<strong>1965 年(含)以前出生</strong>（參考國人麻疹血清學研究及流行病學資料，1965 年含以前出生之國人具麻疹免疫力，此項判定標準將視最新實證資料滾動檢討並適時調整），且非免疫不全者。"],
+    s:"S4" }},
+
+{ n:"季節性流感疫苗", en:"Influenza", brief:"每年接種 1 劑", s:"S4",
+  notes:[
+   "所有成人均建議<strong>每年接種 1 劑</strong>。",
+   "<strong>公費實施對象：</strong>醫事及衛生防疫相關人員；50 歲以上成人（分 2 階段，第 1 階段為 65 歲以上長者，第 2 階段為 50 至 64 歲無高風險慢性病成人）；55 歲以上原住民。",
+   "安養、長期照顧(服務)等機構之受照顧者及其所屬工作人員。",
+   "滿 6 個月以上至國小入學前幼兒；孕婦；6 個月內嬰兒之父母。",
+   "具有潛在疾病者：19-64 歲高風險慢性病人、<strong>BMI ≧30</strong> 者、罕見疾病患者及重大傷病患者。",
+   "幼兒園托育人員、托育機構專業人員及居家托育人員(保母)。",
+   "國小、國中、高中、高職、五專一至三年級學生；禽畜相關及動物防疫相關人員。",
+   "前述實施對象可能因每年預算及疫情特性有所不同，而隨著年度流感疫苗接種計畫調整。",
+   "<strong>特別建議</strong>每年接種 1 劑者：65 歲以上老人、安養長照機構受照顧者及工作人員、懷孕婦女，以及罹患心肺疾病、糖尿病、腎臟功能不全、血紅素疾患、免疫不全及其他影響呼吸道功能疾病之慢性病等高危險群。"]},
+
+{ n:"新冠疫苗", en:"COVID-19", brief:"依政策建議時程接種 1-2 劑", s:"S4",
+  notes:["因應新型冠狀病毒演變及世界衛生組織疫苗株建議，依政策建議時程接種 1-2 劑，提升對抗主流病毒株之免疫保護力。",
+   "本季（XFG 株）之禁忌與時程已依疾管署 2026-07-07 接種須知收錄於「接種前篩檢」分頁的 COVID-19 卡片。〔S12〕"]},
+
+{ n:"B 型肝炎疫苗", en:"Hepatitis B", brief:"3 劑（0-1-6 個月）", s:"S4",
+  notes:[
+   "已依時程完成 B 型肝炎疫苗接種、經檢驗為表面抗體陰性者的處置見下方「抗體判讀」。",
+   "<strong>高危險群包括：</strong>血液透析病人、器官移植病人、接受血液製劑治療者、免疫不全者；多重性伴侶、注射藥癮者；同住者或性伴侶為帶原者；身心發展遲緩收容機構之住民與工作者；可能接觸血液之醫療衛生等工作者等，應接種疫苗。"],
+  sero:{ t:"B 型肝炎表面抗體（anti-HBs）判讀",
+    lead:"判定陰性的切點為 <strong>anti-HBs &lt; 10 mIU/mL</strong>。接種 B 肝疫苗數年後抗體力價可能降低致血清抗體無法檢出，但<strong>大多數人的細胞性免疫力並未消失</strong>；研究亦顯示慢性帶原率並未增加，因此並非所有抗體陰性者都需要補種。",
+    branch:[
+     {h:"情境 A — 屬 B 型肝炎感染高危險群",
+      items:["可<strong>自費追加 1 劑</strong> B 型肝炎疫苗。",
+             "<strong>1 個月後再抽血檢驗</strong>。",
+             "若 anti-HBs 仍 &lt;10 mIU/mL → 採「<strong>0-1-6 個月</strong>」時程，接續完成第 2、3 劑。",
+             "如經此補種<strong>仍無法產生抗體者，則無需再接種</strong>，但仍應採取 B 肝相關預防措施，並<strong>定期追蹤 HBsAg</strong> 之變化。"]},
+     {h:"情境 B — 非高危險群",
+      items:["<strong>目前尚無須全面再追加 1 劑</strong>。若個案或家屬對此非常擔憂，可自費追加 1 劑，1 個月後再抽血檢驗；若表面抗體仍為陰性（&lt;10 mIU/mL），可諮詢醫學中心內科或兒科之消化科、感染科等相關專科醫師。"]}],
+    s:"S6" }},
+
+{ n:"A 型肝炎疫苗", en:"Hepatitis A", brief:"2 劑，間隔 6-12 個月", s:"S4",
+  notes:["建議接種對象：患有<strong>慢性肝病、血友病、曾經移植肝臟</strong>病人，還有<strong>男同性戀或雙性戀或藥物成癮者</strong>，以及因職業或環境易受感染、<strong>長期居住、工作或往來於流行地區</strong>者。",
+   "2 劑，<strong>兩劑間隔 6-12 個月</strong>。"]},
+
+{ n:"肺炎鏈球菌結合型疫苗", en:"PCV13／15／20", brief:"IPD 高風險 1 劑；55-64 歲原住民 1 劑；65 歲以上 1 劑", s:"S4", pcv:true },
+{ n:"肺炎鏈球菌 23 價多醣體疫苗", en:"PPV23", brief:"IPD 高風險 1 劑；55-64 歲原住民 1 劑；65 歲以上 1 劑", s:"S4", pcv:true },
+
+{ n:"日本腦炎疫苗", en:"JE", brief:"1 或 3 劑（視劑型）", s:"S4",
+  notes:[
+   "<strong>活性減毒嵌合型疫苗：</strong>有感染之虞的成人，若未曾接種日本腦炎疫苗或接種史不明，建議施打 <strong>1 劑</strong>。",
+   "<strong>Vero 細胞培養不活化疫苗：</strong>有感染之虞的成人，若未曾接種或接種史不明，建議施打 <strong>3 劑</strong>，第 1、2 劑間隔 4 週，隔年接種第 3 劑。",
+   "前往感染高風險地區旅遊且無日本腦炎免疫力的民眾可採 <strong>0-28 天兩劑時程</strong>，第 2 劑至少要在<strong>旅遊前一週</strong>前完成；若有持續暴露風險者，隔年接種第 3 劑。",
+   "<strong>高感染風險：</strong>居住、工作場所接近豬舍、其他動物畜舍或病媒蚊孳生地點等高度風險地區者，或至流行地區旅遊者。"]},
+
+{ n:"人類乳突病毒疫苗", en:"HPV", brief:"19-26 歲 3 劑；27-45 歲高風險者 3 劑", s:"S4",
+  notes:["19-26 歲成人均建議接種；<strong>27-45 歲高感染風險者</strong>如免疫功能不全（含括愛滋病毒感染者）及男同性戀建議接種。",
+   "接種劑次 <strong>3 劑</strong>，<strong>2 價僅適用於女性</strong>，4 價及 9 價適用於男性及女性，依仿單建議完成接種，用以預防 HPV 感染引起之子宮頸癌及其他病變。",
+   "公費國中生 HPV 疫苗的實施對象與年度異動由<strong>國民健康署（hpa.gov.tw）</strong>主管，非疾管署。"]},
+
+{ n:"非活性基因重組帶狀疱疹疫苗", en:"Shingrix", brief:"2 劑，間隔 2-6 個月", s:"S4",
+  notes:["以下族群<strong>不論之前是否有水痘或帶狀疱疹病史</strong>，建議接種 2 劑，2 劑間隔 <strong>2-6 個月</strong>，以預防帶狀疱疹及相關併發症（如疱疹後神經痛）。",
+   "<strong>50 歲（含）以上成人。</strong>曾接種過活性減毒帶狀疱疹疫苗者，間隔<strong>至少 1 年</strong>以上可再接種本項疫苗。",
+   "<strong>18 歲（含）以上免疫不全或免疫功能低下者</strong>，可經醫師評估，接種 2 劑帶狀疱疹疫苗。",
+   "<strong>曾經罹患帶狀疱疹者</strong>，可於<strong>發病 1 年且無相關症狀後</strong>，接種本項帶狀疱疹疫苗。",
+   "仿單（衛部菌疫輸字第 001182 號）另載第二劑可於第一劑施打 1-2 個月後施打。〔S9〕"]},
+
+{ n:"流行性腦脊髓膜炎疫苗", en:"MCV4／MenB", brief:"高危險群及赴流行地區者", s:"S4", travel:true,
+  notes:["感染<strong>高危險群建議自費接種</strong>，包括持續性補體缺損患者、脾臟功能缺損者、人類免疫缺乏病毒感染患者，及<strong>居住或往返於流行地區</strong>等對象。",
+   "<strong>MCV4</strong>（血清型 A、C、Y、W135）適用於滿 2 歲以上兒童、青少年與成人（<strong>≦55 歲</strong>），接種 1 劑。",
+   "<strong>MenB</strong>（針對血清型 B）適用於 2 個月以上嬰幼童、青少年與成人，依接種對象年齡及感染風險接種 2-3 劑。"]},
+
+{ n:"M 痘（Mpox）疫苗", en:"Mpox", brief:"具風險行為者接種 2 劑", s:"S4", sexrisk:true,
+  notes:["適用於 <strong>12 歲以上</strong>感染 M 痘之風險族群，須接種 <strong>2 劑，2 劑至少間隔 4 週</strong>。",
+   "<strong>公費暴露前預防（PrEP）對象：</strong>正痘病毒屬之實驗室操作人員；與確診 M 痘個案曾有任何形式性接觸之高風險接觸者（但未曾接種過 PEP 疫苗）；<strong>近 1 年有風險性行為者</strong>（例如多重性伴侶、性交易服務者、於營業場所發生性行為者等）、過去曾罹患性病，或性接觸對象有前述任一情形者；照顧 M 痘確診個案之醫療照護與清消人員，以及協助疑似個案採檢或執行疫苗接種作業人員。",
+   "<strong>暴露後預防（PEP）：</strong>依「M 痘疫情調查及接觸者追蹤指引之接觸者匡列處置原則」所列符合對象。",
+   "凡「<strong>不符合公費</strong>」M 痘疫苗接種資格、經醫師評估確有暴露風險者（在臺有風險行為之無健保身分或居留證外籍人士、欲前往 M 痘疫情流行之高風險國家且可能有暴露風險者等），可至疾管署指定醫療院所<strong>自費</strong>接種。"]},
+
+{ n:"呼吸道細胞融合病毒疫苗", en:"RSV", brief:"孕婦 28-36 週 1 劑；60-74 歲高危險群 1 劑；75 歲以上 1 劑", s:"S4",
+  notes:["建議下列對象如具接種需求，可經醫師評估後<strong>自費</strong>接種 1 劑：",
+   "<strong>75 歲（含）以上成人。</strong>",
+   "<strong>60-74 歲之 RSV 疾病高危險群</strong>，包括有慢性肺病、心臟血管疾病、肝臟、腎臟等慢性疾病、長期照顧機構與其他照顧機構住民。",
+   "<strong>懷孕婦女（懷孕 28-36 週）</strong>，以提供所生嬰兒出生後 6 個月內之被動免疫。",
+   "⚠️ <strong>週數與仿單不一致：</strong>Abrysvo 仿單（衛部菌疫輸字第 001267 號）載「懷孕第 <strong>24</strong> 週至第 36 週之間」，與疾管署的 28-36 週起始差 4 週。〔S9〕"]},
+];
+
+// PCV／PPV23 共用的銜接原則（兩列都展開同一份，避免重複維護）
+const PCV_BRIDGE = {
+  h:"PCV／PPV23 接種銜接原則",
+  lead:"65 歲（含）以上長者、55-64 歲原住民及 19 歲至 64 歲 IPD 高風險對象，可公費提供 1 劑「PCV13 及 1 劑 PPV23」或「1 劑 PCV20」。",
+  items:[
+   "<strong>從未接種過</strong> PCV13/15/20 及 PPV23 者 → 可接種 <strong>1 劑 PCV20</strong>。",
+   "<strong>曾接種 PPV23</strong> 且間隔至少 <strong>1 年</strong>者 → 可接種 1 劑 PCV20。",
+   "<strong>曾接種 PCV13/15</strong> 且間隔至少 <strong>1 年</strong>者 → 應先以 <strong>1 劑 PPV23</strong> 銜接接種。（IPD 高風險對象或 65 歲以上「機構住民」及「洗腎患者」間隔至少 <strong>8 週</strong>）",
+   "如<strong>已接種過 PCV13/15 及 PPV23</strong>，或已接種過 PCV20 → 代表已完整接種肺炎鏈球菌疫苗，無須再接種 PCV20。",
+   "<strong>例外：</strong>19-64 歲 IPD 高風險對象，如於 65 歲前完整接種 PCV13/15 及 PPV23，可於滿 65 歲（含）且與前劑間隔滿（≧）<strong>5 年</strong>後，再追加接種 1 劑 PCV20。"],
+  ipd:["脾臟功能缺損或脾臟切除","先天或後天免疫功能不全","人工耳植入者","腦脊髓液滲漏",
+       "「1 年內」接受免疫抑制劑或放射治療的惡性腫瘤及器官移植者"]
+};
+
+const MINAGE = [
+  ["卡介苗 (BCG)", "出生後", "—", "—", "—"],
+  ["B 型肝炎疫苗 (HepB)", "出生 24hr 內儘速", "4 週", "8 週（且第 1、3 劑應間隔至少 16 週）", "—"],
+  ["五合一 (DTaP-Hib-IPV)", "6 週", "4 週", "4 週", "6 個月（滿 1 歲後）"],
+  ["13 價結合型肺炎鏈球菌 (PCV13)", "6 週", "8 週", "8 週（滿 1 歲後）", "—"],
+  ["水痘疫苗 (Varicella)", "12 個月", "—", "—", "—"],
+  ["麻疹腮腺炎德國麻疹 (MMR)", "12 個月", "4 週", "—", "—"],
+  ["日本腦炎活性減毒 (JE)", "12 個月", "12 個月", "—", "—"],
+  ["日本腦炎不活化 (JE)", "12 個月", "4 週", "6 個月", "6 個月（滿 4 歲後）"],
+  ["DTaP-IPV／Tdap-IPV", "4 歲", "—", "—", "—"],
+  ["A 型肝炎疫苗 (HepA)", "12 個月", "6 個月", "—", "—"],
+];
+
+/* ════════════════════════════════════════════════════════
+   分頁
+   ════════════════════════════════════════════════════════ */
+const TABS = [
+  ["p-screen","接種前篩檢"],["p-child","兒童時程"],["p-adult","成人時程"],
+  ["p-interval","間隔規則"],["p-contra","禁忌總表"],
+  ["p-catchup","補種"],["p-src","來源與版本"],
+];
+const nav = document.getElementById("tabs");
+TABS.forEach(([id,label],i)=>{
+  const b=document.createElement("button");
+  b.textContent=label; b.setAttribute("role","tab"); b.setAttribute("aria-selected", i===0);
+  b.onclick=()=>{
+    document.querySelectorAll(".panel").forEach(p=>p.classList.remove("on"));
+    document.getElementById(id).classList.add("on");
+    [...nav.children].forEach(x=>x.setAttribute("aria-selected", x===b));
+    window.scrollTo({top:0,behavior:"instant"});
+  };
+  nav.appendChild(b);
+});
+
+/* ── 條件勾選欄 ── */
+const condsBox=document.getElementById("conds");
+CONDS.forEach(g=>{
+  const fs=document.createElement("fieldset");
+  fs.innerHTML=`<legend>${g.g}</legend>`;
+  g.items.forEach(it=>{
+    const l=document.createElement("label"); l.className="chk";
+    l.innerHTML=`<input type="checkbox" data-c="${it.id}"><span>${it.t}</span>`;
+    fs.appendChild(l);
+  });
+  condsBox.appendChild(fs);
+});
+
+function getState(){
+  const on={};
+  document.querySelectorAll("#conds input:checked").forEach(i=>on[i.dataset.c]=true);
+  const v=document.getElementById("age").value;
+  const unit=document.getElementById("ageUnit").value;
+  // 換算基準採 S3 附註：1 週=7 天、1 個月=30 天、1 年=365 天
+  let years=null, months=null, weeks=null, days=null;
+  if(v!==""){
+    const n=parseFloat(v);
+    if(!isNaN(n)){
+      if(unit==="y")      days=n*365;
+      else if(unit==="m") days=n*30;
+      else                days=n*7;
+      years=days/365; months=days/30; weeks=days/7;
+    }
+  }
+  return {on, years, months, weeks, days};
+}
+
+function evalVax(vx, st){
+  const hits=[];
+  vx.rules.forEach(r=>{
+    const fire = (typeof r.c==="function") ? r.c(st) : !!st.on[r.c];
+    if(fire) hits.push(r);
+  });
+  let lv="go";
+  if(hits.some(h=>h.lv==="stop")) lv="stop";
+  else if(hits.some(h=>h.lv==="warn")) lv="warn";   // lv:"info" 不影響判定
+  return {lv, hits};
+}
+
+function render(){
+  const st=getState();
+  const box=document.getElementById("results");
+  box.innerHTML="";
+  let c={stop:0,warn:0,go:0};
+
+  VAX.forEach(vx=>{
+    const {lv,hits}=evalVax(vx,st);
+    c[lv]++;
+    const el=document.createElement("div");
+    el.className="vax "+lv;
+    const badge = lv==="stop" ? "禁忌" : lv==="warn" ? "需評估" : "無觸發";
+    el.innerHTML=`
+      <div class="vax-head">
+        <span class="badge ${lv}">${badge}</span>
+        <span class="vax-name">${vx.n}<small>${vx.en} · ${vx.fund}</small></span>
+        <span class="pill ${vx.type==='live'?'live':''}">${vx.type==='live'?'活性減毒':['shingrix','rsv','covid'].includes(vx.id)?'非活性':'不活化'}</span>
+        <span class="chev">▶</span>
+      </div>
+      <div class="vax-body">
+        ${hits.map(h=>`<div class="hit">
+            <span class="hit-tag ${h.lv}">${h.lv==='stop'?'⛔ 禁忌':h.lv==='warn'?'⚠️ 注意':'ℹ️ 原文'}</span>
+            <span class="hit-txt">${h.t}</span>
+            <span class="src">來源：${cite(h.s)}${h.s==="S1"?`　│　列於原文<strong>${h.lv==='stop'?'「接種禁忌」':'「注意事項」'}</strong>欄`:""}　${exBtn(vx.id,h.s,h.t)}</span>
+          </div>`).join("") || `<div class="hit"><span class="hit-txt" style="color:var(--go)">依已勾選條件，未觸發任何禁忌或注意事項。仍請依臨床判斷。</span></div>`}
+        <div class="hit"><span class="hit-txt" style="color:var(--ink-3)"><strong>建議時程：</strong>${vx.sched}</span></div>
+        ${vx.extra?`<div class="hit"><span class="hit-txt" style="color:var(--ink-3)">${vx.extra}</span></div>`:""}
+      </div>`;
+    el.querySelector(".vax-head").onclick=()=>el.classList.toggle("open");
+    if(lv==="stop") el.classList.add("open");
+    box.appendChild(el);
+  });
+
+  // 自費疫苗提示
+  const nc=document.createElement("div");
+  nc.className="note"; nc.style.marginTop="16px";
+  nc.innerHTML=`<strong>下列疫苗不在疾管署禁忌表範圍內，篩檢器無法判定，禁忌症請查仿單：</strong><br>`+
+    VAX_NOCONTRA.map(v=>`<div class="ref-extra-vax" data-source="${v.s}" ${v.claim?`data-ref-claim="${v.claim}"`:''}>・<strong>${v.n}</strong>　${v.sched}<span class="src">來源：${cite(v.s)}</span></div>`).join("");
+  box.appendChild(nc);
+
+  document.getElementById("tally").innerHTML=
+    `<span class="t-stop">⛔ 禁忌 ${c.stop}</span><span class="t-warn">⚠️ 需評估 ${c.warn}</span><span class="t-go">✓ 無觸發 ${c.go}</span>`;
+}
+
+document.getElementById("conds").addEventListener("change",render);
+document.getElementById("age").addEventListener("input",render);
+document.getElementById("ageUnit").addEventListener("change",render);
+document.getElementById("reset").onclick=()=>{
+  document.querySelectorAll("#conds input").forEach(i=>i.checked=false);
+  document.getElementById("age").value=""; render();
+};
+
+/* ── 表格 ── */
+const fill=(id,rows)=>document.getElementById(id).innerHTML=
+  rows.map(r=>`<tr>${r.map((c,i)=>`<td${i===0?' style="font-weight:600"':''}>${c}</td>`).join("")}</tr>`).join("");
+fill("childTbl",CHILD); fill("minAgeTbl",MINAGE);
+
+/* 成人時程：可展開卡片。抗體判讀（sero）與 PCV 銜接原則（pcv）都塞在對應疫苗底下 */
+const ul=a=>`<ul style="margin:0 0 4px">${a.map(i=>`<li>${i}</li>`).join("")}</ul>`;
+document.getElementById("adultList").innerHTML=ADULT.map((v,i)=>{
+  let body="";
+  if(v.notes) body+=ul(v.notes);
+  if(v.pcv){
+    body+=`<h3 style="margin-top:14px">${PCV_BRIDGE.h}</h3><p style="font-size:13.5px;color:var(--ink-2)">${PCV_BRIDGE.lead}</p>`
+        + ul(PCV_BRIDGE.items)
+        + `<h3 style="margin-top:14px">IPD 高風險對象定義</h3>` + ul(PCV_BRIDGE.ipd);
+  }
+  if(v.sero){
+    body+=`<div class="sero"><h3 style="margin-top:0">🧪 ${v.sero.t}</h3>`
+        + `<p style="font-size:13.5px;color:var(--ink-2)">${v.sero.lead}</p>`;
+    if(v.sero.items) body+=ul(v.sero.items);
+    if(v.sero.branch) body+=v.sero.branch.map(b=>
+      `<h3 style="margin-top:12px">${b.h}</h3><ol style="margin:0 0 4px;padding-left:20px">${b.items.map(x=>`<li>${x}</li>`).join("")}</ol>`).join("");
+    body+=`<span class="src">來源：${cite(v.sero.s)}</span></div>`;
+  }
+  body+=`<span class="src" style="margin-top:8px">來源：${cite(v.s)}</span>`;
+  return `<div class="vax" id="vaxAdult${i}">
+    <div class="vax-head">
+      <span class="vax-name">${v.n}<small>${v.en}</small></span>
+      <span class="adv-brief">${v.brief}</span>
+      ${v.sero?'<span class="pill" style="background:var(--accent-soft);color:var(--accent);border-color:transparent">含抗體判讀</span>':''}
+      <span class="chev">▶</span>
+    </div>
+    <div class="vax-body">${body}</div>
+  </div>`;
+}).join("");
+document.querySelectorAll('#adultList .vax-head').forEach(h=>h.onclick=()=>h.parentElement.classList.toggle('open'));
+
+// 依 lv 分欄，對應原文的「接種禁忌」與「注意事項」兩欄。
+// 非 S1 來源（自費疫苗取自 TFDA 仿單）逐條標註出處，避免與疾管署表格混淆。
+document.getElementById("contraTbl").innerHTML=VAX.map(vx=>{
+  const mark=r=>r.s==="S1"?"":`<span style="color:var(--ink-3);font-size:11.5px">〔${r.s}〕</span>`;
+  const li=arr=>arr.length?`<ul style="margin:0;padding-left:16px">${arr.map(r=>`<li>${r.t}${mark(r)}　${exBtn(vx.id,r.s,r.t)}</li>`).join("")}</ul>`:"—";
+  const stop=vx.rules.filter(r=>r.lv==="stop");
+  const note=vx.rules.filter(r=>r.lv==="warn"||r.lv==="info");
+  const selfpay=vx.rules.some(r=>r.s==="S9");
+  return `<tr>
+    <td style="font-weight:600">${vx.n}<br><small style="color:var(--ink-3);font-weight:400">${vx.en}</small>
+        <br><span class="pill ${vx.type==='live'?'live':''}" ${['shingrix','rsv','covid'].includes(vx.id)?`data-ref-claim="class-${vx.id}"`:''}>${vx.type==='live'?'活性減毒':['shingrix','rsv','covid'].includes(vx.id)?'非活性':'不活化'}</span>
+        ${selfpay?`<br><span class="pill" style="background:var(--accent-soft);color:var(--accent);border-color:transparent">仿單</span>`:""}</td>
+    <td>${li(stop)}</td>
+    <td>${li(note)}
+        ${vx.extra?`<div style="margin-top:6px;color:var(--ink-3);font-size:12.5px">${vx.extra}</div>`:""}</td>
+  </tr>`;
+}).join("");
+
+document.getElementById("srcTbl").innerHTML=Object.entries(SRC).map(([k,v])=>
+  `<tr><td>${k}</td>
+     <td>${v.u?`<a href="${v.u}" target="_blank" rel="noopener">${v.n}</a>`:v.n}</td>
+     <td class="ver">${v.v}</td>
+     <td>${v.o}</td>
+     <td>${v.p?`<a href="${v.p}" target="_blank" rel="noopener">開啟存檔</a>`:'<span style="color:var(--ink-3)">—</span>'}</td>
+   </tr>`).join("");
+
+/* ── 間隔檢查器 ── */
+const IV_LIST=[
+  // 輪狀病毒疫苗為口服，須帶 oral 旗標才能正確套用 OPV↔Rotavirus 的 2 週規則
+  // Legacy type "inact" is the broad non-live interval category, not a claim
+  // that mRNA or recombinant protein vaccines are whole-pathogen inactivated.
+  ...VAX.map(v=>({n:v.n+"（"+v.en+"）", type:v.type, id:v.id, oral:v.id==="rota"})),
+  {n:"口服小兒麻痺疫苗（OPV，國內已無進口）", type:"live", id:"opv", oral:true},
+  {n:"黃熱病疫苗（Yellow fever）",   type:"live", id:"yf"},
+  {n:"狂犬病疫苗（Rabies）",         type:"inact", id:"rabies"},
+  {n:"霍亂疫苗（品牌／製劑未確認）", type:"unknown", id:"cholera", family:"cholera", oral:true},
+  {n:"霍亂疫苗（Dukoral，口服不活化）", type:"inact", id:"dukoral", family:"cholera", oral:true},
+  {n:"霍亂疫苗（Vaxchora，口服活性減毒）", type:"live", id:"vaxchora", family:"cholera", oral:true},
+];
+const selA=document.getElementById("ivA"), selB=document.getElementById("ivB");
+[selA,selB].forEach((s,i)=>{
+  s.innerHTML=`<option value="">— 選擇疫苗 ${i===0?"A":"B"} —</option>`+
+    IV_LIST.map((v,ix)=>`<option value="${ix}">${v.n}</option>`).join("");
+  s.onchange=ivCheck;
+});
+function ivCheck(){
+  const out=document.getElementById("ivOut");
+  out.removeAttribute("data-ref-claim");
+  const a=IV_LIST[selA.value], b=IV_LIST[selB.value];
+  if(!a||!b){ out.className="iv-out go"; out.textContent="請選擇兩種疫苗。"; return; }
+  const srcLine=(t)=>`<span class="src">來源：${cite(t)}</span>`;
+  let cls="go", msg="";
+
+  if(a.id===b.id || (a.family==='cholera' && b.family==='cholera')){ out.className="iv-out warn"; out.innerHTML="請選擇兩種<strong>不同</strong>的疫苗。同種疫苗的劑次間隔請見下方「最小接種年齡與同種疫苗劑次間隔」或該製劑仿單；不同霍亂品牌亦不在此推算混打。"; return; }
+
+  const pair=[a.id,b.id].sort().join("|");
+
+  // 製劑不明／指引差異不可由 type 自動裁決；保留台灣規則並呈現原文。
+  const cholera=[a,b].find(v=>v.family==='cholera');
+  if(cholera){
+    out.className="iv-out warn";
+    const other=a===cholera?b:a;
+    out.setAttribute('data-ref-claim',other.id==='yf'?'cholera-policy':cholera.id==='cholera'?'cholera-types':`class-${cholera.id}`);
+    out.innerHTML=other.id==='yf'
+      ? "<strong>霍亂＋黃熱病：指引差異待核對。</strong>台灣 S2 原表：應間隔 3 週以上（未指明霍亂製劑）。Dukoral 仿單與美國 CDC 對口服 CVD 103-HgR 的資料有所不同，且研究有限。請確認品牌及適用指引；本工具不自動判定可同時接種或必須延後。"+srcLine("S2")+srcLine("S15")+srcLine("S17")+srcLine("S18")
+      : "<strong>請核對霍亂製劑與交互作用。</strong>"+(cholera.id==='cholera'?"品牌未確認；Dukoral 為口服不活化，Vaxchora 為口服活性減毒。":"已選擇 "+cholera.n+"。")+"本工具不僅憑口服／活性分類推算其與其他疫苗的間隔，請依品牌仿單及旅遊醫學指引確認。"+srcLine(cholera.id==='vaxchora'?"S16":"S15");
+    return;
+  }
+  // 2 週規則只適用於 OPV ↔ 輪狀病毒（兩支口服「活性減毒」疫苗）。
+  // 不能擴大成所有口服活性疫苗都須間隔 2 週。
+  if(pair==="opv|rota"){
+    out.className="iv-out warn";
+    out.innerHTML="<strong>同為口服的小兒麻痺疫苗與輪狀病毒疫苗須至少間隔 2 週。</strong>"+srcLine("S2");
+    return;
+  }
+
+  if(a.type==="inact" && b.type==="inact"){
+    msg="<strong>可同時接種</strong>（分開不同部位）<strong>或間隔任何時間接種。</strong>"+srcLine("S2");
+  } else if(a.type!==b.type){
+    msg="<strong>可同時接種</strong>（分開不同部位）<strong>或間隔任何時間接種。</strong>此為活性減毒與非活性疫苗（包含不活化、次單元等）的間隔通則。"+srcLine("S2")+srcLine("S19");
+  } else {
+    // 活性減毒 ＋ 活性減毒
+    if(a.id==="bcg"||b.id==="bcg"){
+      msg="<strong>可同時或間隔任何時間接種。</strong>卡介苗可與任何活性減毒疫苗同時接種或間隔任何時間接種。"+srcLine("S2");
+    } else if(a.oral||b.oral){
+      msg="<strong>可同時或間隔任何時間接種。</strong>口服活性減毒疫苗可與活性減毒<em>注射式</em>疫苗同時或間隔任何時間接種（不受 28 天限制）。"+srcLine("S2");
+    } else {
+      cls="warn";
+      msg="<strong>可同時接種</strong>（分開不同部位）<strong>；如不同時接種最少要間隔 28 天。</strong>"+srcLine("S2");
+      if(["mmr","var","jelive"].includes(a.id)&&["mmr","var","jelive"].includes(b.id)){
+        msg+="<div style='margin-top:8px;padding-top:8px;border-top:1px solid currentColor;opacity:.85'>⚠️ 若 2 劑間隔<strong>少於 28 天</strong>，第 2 劑須<strong>重打</strong>，且應與前 1 劑（無效第 2 劑）最少間隔 28 天。此三者<strong>不適用 4 天寬限期</strong>。"+srcLine("S3")+"</div>";
+      }
+    }
+  }
+  out.className="iv-out "+cls;
+  out.innerHTML=msg;
+}
+
+/* ════════════════════════════════════════════════════════
+   兒童接種進度計算器
+   每劑的到期月齡取自 S5《我國現行兒童預防接種時程》114 年 1 月版
+   ════════════════════════════════════════════════════════ */
+const CHILD_DOSES = [
+ {v:"B 型肝炎疫苗", en:"HepB", d:[{n:"第 1 劑", m:0, t:"出生 24hr 內儘速"},{n:"第 2 劑", m:1},{n:"第 3 劑", m:6}]},
+ {v:"卡介苗", en:"BCG", d:[{n:"1 劑", m:5, t:"出生滿 5 個月（建議 5–8 個月）"}]},
+ {v:"五合一疫苗", en:"DTaP-Hib-IPV", d:[{n:"第 1 劑", m:2},{n:"第 2 劑", m:4},{n:"第 3 劑", m:6},{n:"第 4 劑", m:18}]},
+ {v:"13 價結合型肺炎鏈球菌疫苗", en:"PCV13", d:[{n:"第 1 劑", m:2},{n:"第 2 劑", m:4},{n:"第 3 劑", m:12, t:"12–15 個月"}]},
+ {v:"水痘疫苗", en:"Varicella", d:[{n:"1 劑", m:12}]},
+ {v:"麻疹腮腺炎德國麻疹混合疫苗", en:"MMR", d:[{n:"第 1 劑", m:12},{n:"第 2 劑", m:60, t:"滿 5 歲至入國小前"}]},
+ {v:"活性減毒嵌合型日本腦炎疫苗", en:"JE-CV", d:[{n:"第 1 劑", m:15},{n:"第 2 劑", m:27, t:"間隔 12 個月"}]},
+ {v:"A 型肝炎疫苗", en:"HepA", d:[{n:"第 1 劑", m:18},{n:"第 2 劑", m:27}]},
+ {v:"白喉破傷風非細胞性百日咳及不活化小兒麻痺混合疫苗", en:"DTaP-IPV", d:[{n:"1 劑", m:60, t:"滿 5 歲至入國小前"}]},
+];
+
+function childCalc(){
+  const bd=document.getElementById("cBirth").value;
+  const mv=document.getElementById("cMonths").value;
+  const out=document.getElementById("cOut");
+  let months=null, basis="";
+  if(bd){
+    const b=new Date(bd+"T00:00:00"), now=new Date();
+    if(b>now){ out.innerHTML=`<div class="iv-out warn">出生日期不能晚於今天。</div>`; return; }
+    months=(now-b)/(1000*60*60*24*30);        // 依 S3 附註：1 個月 = 30 天
+    basis=`出生日 ${bd}　→　目前約 ${months.toFixed(1)} 個月（${(months/12).toFixed(1)} 歲）`;
+  } else if(mv!==""){
+    months=parseFloat(mv);
+    if(isNaN(months)||months<0){ out.innerHTML=""; return; }
+    basis=`月齡 ${months} 個月（約 ${(months/12).toFixed(1)} 歲）`;
+  } else { out.innerHTML=""; return; }
+
+  const done=[], due=[], future=[];
+  CHILD_DOSES.forEach(v=>v.d.forEach(d=>{
+    const row={v:v.v, en:v.en, n:d.n, m:d.m, t:d.t};
+    if(months>=d.m+1)      done.push(row);        // 已過到期月齡 1 個月以上
+    else if(months>=d.m)   due.push(row);         // 剛到期
+    else                   future.push(row);
+  }));
+  future.sort((a,b)=>a.m-b.m);
+
+  const fmt=r=>`<li><strong>${r.v}</strong> <span style="color:var(--ink-3)">${r.en}</span> — ${r.n}
+    <span style="color:var(--ink-3)">（${r.m===0?"出生":"滿 "+r.m+" 個月"}${r.t?"，"+r.t:""}）</span></li>`;
+  const flu = months>=6
+    ? `<li><strong>流感疫苗</strong> — 滿 6 個月以上：初次接種 2 劑（間隔 4 週），之後<strong>每年 1 劑</strong>。8 歲以下初次接種需 2 劑。</li>`
+    : `<li><strong>流感疫苗</strong> — 未滿 6 個月不予接種，滿 6 個月後開始。</li>`;
+
+  out.innerHTML=`
+    <div class="note" style="margin-bottom:12px">${basis}</div>
+    <div class="card" style="border-left:4px solid var(--go)">
+      <h3 style="margin-top:0;color:var(--go)">✓ 依時程<u>應已完成</u>（${done.length} 劑）</h3>
+      ${done.length?`<ul style="margin:0">${done.map(fmt).join("")}</ul>`:`<p style="margin:0;color:var(--ink-3)">尚無</p>`}
+      <ul style="margin:8px 0 0">${flu}</ul>
+    </div>
+    ${due.length?`<div class="card" style="border-left:4px solid var(--warn)">
+      <h3 style="margin-top:0;color:var(--warn)">→ 剛到期，現在可接種（${due.length} 劑）</h3>
+      <ul style="margin:0">${due.map(fmt).join("")}</ul></div>`:""}
+    <div class="card" style="border-left:4px solid var(--line)">
+      <h3 style="margin-top:0;color:var(--ink-3)">尚未到期（${future.length} 劑）</h3>
+      ${future.length?`<ul style="margin:0">${future.map(fmt).join("")}</ul>`:`<p style="margin:0;color:var(--ink-3)">已全部到期</p>`}
+    </div>
+    <div class="note">
+      本區僅依<strong>年齡</strong>推算「照時程現在應該打到哪裡」，<strong>並非實際接種紀錄</strong>。
+      實際是否已接種請核對兒童健康手冊或 NIIS；若有漏打、延遲或紀錄不明，請見<strong>補種</strong>分頁。
+      <span class="src">來源：${cite("S5")}</span>
+    </div>`;
+}
+
+/* ════════════════════════════════════════════════════════
+   補種計算器
+   全部取自 S8《國小新生入學後預防接種紀錄檢查與補種指引》107 年 7 月修訂
+   間隔符號依該表備註 1 還原為文字
+   ════════════════════════════════════════════════════════ */
+const IV = {w2:"間隔 2 週", m1:"間隔 1 個月", m2:"間隔 2 個月", m6:"至少間隔 6 個月", y1:"與前 1 劑至少間隔 12 個月"};
+
+const CATCHUP = [
+ {id:"bcg", v:"卡介苗（BCG）", pre:1, note:"無接種紀錄者安排補種。",
+  rows:[{done:0, add:1, plan:[["BCG",null]]}]},
+
+ {id:"hepb", v:"B 型肝炎疫苗（HepB）", pre:3, note:"接種六合一疫苗之劑次列入計算。",
+  rows:[{done:0, add:3, plan:[["HepB",null],["HepB","0→1m"],["HepB","→6m"]], raw:"0 → 1m → 6m"},
+        {done:1, add:2, plan:[["HepB",null],["HepB","0→5m"]], raw:"0 → 5m"},
+        {done:2, add:1, plan:[["HepB",null]]}]},
+
+ {id:"polio", v:"小兒麻痺疫苗（OPV／IPV）", pre:4, split:"last",
+  note:"接種五合一或六合一疫苗之劑次列入計算。如 OPV/IPV 及 DTP/DTaP/Tdap 均未完成而需補種者，本劑應改接種 DTaP-IPV／Tdap-IPV。",
+  rows:[{done:0, add:4, plan:[["DTaP-IPV",null],["IPV",IV.m2],["IPV",IV.m2],["IPV",IV.m6]]},
+        {done:1, add:3, last:"<4", plan:[["DTaP-IPV",null],["IPV",IV.m2],["IPV",IV.m6]]},
+        {done:2, add:2, last:"<4", plan:[["DTaP-IPV",null],["IPV",IV.m6]]},
+        {done:3, add:1, last:"<4", plan:[["DTaP-IPV",null]]},
+        {done:1, add:2, last:">=4", plan:[["DTaP-IPV",null],["IPV",IV.m6]]},
+        {done:2, add:1, last:">=4", plan:[["DTaP-IPV",null]]},
+        {done:3, add:1, last:">=4", plan:[["DTaP-IPV",null]]}]},
+
+ {id:"dtap", v:"白喉破傷風百日咳混合疫苗（DTP／DTaP）", pre:4, split:"last",
+  note:"DTP/DTaP/Tdap 相關疫苗第 4 劑在 4 歲以後才完成接種，則滿 5 歲應接種之 DTaP-IPV 疫苗可不再接種。",
+  rows:[{done:0, add:3, plan:[["DTaP-IPV",null],["DTaP-IPV",IV.m2],["Td",IV.m6]]},
+        {done:1, add:3, last:"<4", plan:[["DTaP-IPV",null],["DTaP-IPV",IV.m2],["Td",IV.m6]]},
+        {done:2, add:2, last:"<4", plan:[["DTaP-IPV",null],["Td",IV.m6]]},
+        {done:3, add:1, last:"<4", plan:[["DTaP-IPV",null]]},
+        {done:1, add:2, last:">=4", plan:[["DTaP-IPV",null],["Td",IV.m6]]},
+        {done:2, add:1, last:">=4", plan:[["DTaP-IPV",null]]},
+        {done:3, add:1, last:">=4", plan:[["DTaP-IPV",null]]}]},
+
+ {id:"mmr", v:"麻疹腮腺炎德國麻疹混合疫苗（MMR）", pre:2,
+  rows:[{done:0, add:2, plan:[["MMR",null],["MMR",IV.m1]]},
+        {done:1, add:1, plan:[["MMR",null]]}]},
+
+ {id:"var", v:"水痘疫苗（Varicella）", pre:1, note:"已自然感染過水痘經醫師確診者無須再補種。",
+  rows:[{done:0, add:1, plan:[["Varicella",null]]}]},
+
+ {id:"je", v:"日本腦炎疫苗（JE）", pre:2, split:"jeroute",
+  note:"自 106 年 5 月 22 日起改採用細胞培養之日本腦炎活性減毒疫苗，應接種 2 劑，2 劑至少間隔 12 個月。針對完成 3 劑不活化疫苗之幼童，於滿 5 歲至入國小前再接種 1 劑，與前一劑疫苗間隔至少 12 個月。經醫師評估不適合接種活性減毒 JE 疫苗的孩童，衛生局／所有儲備不活化日本腦炎疫苗，可請院所協助申請。",
+  rows:[{done:0, add:2, route:"inact", plan:[["JE",null],["JE",IV.y1]]},
+        {done:1, add:2, route:"inact", plan:[["JE",IV.w2],["JE",IV.y1]]},
+        {done:2, add:1, route:"inact", plan:[["JE",IV.y1]]},
+        {done:3, add:1, route:"inact", plan:[["JE",IV.y1]]},
+        {done:1, add:1, route:"live",  plan:[["JE",IV.y1]]},
+        {done:0, add:3, route:"unfit", plan:[["JE",null],["JE",IV.m1],["JE",IV.y1]]},
+        {done:1, add:3, route:"unfit", plan:[["JE",null],["JE",IV.m1],["JE",IV.y1]]},
+        {done:2, add:2, route:"unfit", plan:[["JE",IV.m6],["JE",IV.y1]]},
+        {done:3, add:1, route:"unfit", plan:[["JE",IV.y1]]}]},
+
+ {id:"dtapipv", v:"白喉破傷風非細胞性百日咳及不活化小兒麻痺混合疫苗（DTaP-IPV）", pre:1,
+  note:"使用於入學前滿 5 歲以上接種。",
+  rows:[{done:0, add:1, plan:[["DTaP-IPV",null]]}]},
+];
+
+const JE_ROUTE={inact:"已接種<strong>不活化</strong>日本腦炎疫苗者（依建議接續接種活性減毒疫苗，應完成 2 劑）",
+                live:"已接種<strong>活性減毒</strong>疫苗者",
+                unfit:"經評估<strong>不適合接種活性減毒</strong>日本腦炎疫苗者（應完成 4 劑）"};
+
+function catchupCalc(){
+  const vid=document.getElementById("cuVax").value;
+  const out=document.getElementById("cuOut");
+  const extraBox=document.getElementById("cuExtra");
+  const vx=CATCHUP.find(c=>c.id===vid);
+  if(!vx){ out.innerHTML=""; extraBox.innerHTML=""; document.getElementById("cuDoneWrap").style.display="none"; return; }
+
+  // 依疫苗決定要不要多問一個條件
+  let extraHTML="";
+  if(vx.split==="last") extraHTML=`<label style="font-size:13px;color:var(--ink-2)">最近 1 劑接種年齡
+     <select id="cuLast"><option value="<4">＜4 歲</option><option value=">=4">≧4 歲</option></select></label>`;
+  if(vx.split==="jeroute") extraHTML=`<label style="font-size:13px;color:var(--ink-2)">情形
+     <select id="cuRoute"><option value="inact">已接種不活化 JE</option><option value="live">已接種活性減毒 JE</option><option value="unfit">不適合接種活性減毒 JE</option></select></label>`;
+  if(extraBox.dataset.for!==vid){ extraBox.innerHTML=extraHTML; extraBox.dataset.for=vid;
+    extraBox.querySelectorAll("select").forEach(s=>s.onchange=catchupCalc); }
+
+  // 已完成劑次選單
+  const doneSel=document.getElementById("cuDone");
+  document.getElementById("cuDoneWrap").style.display="";
+  const avail=[...new Set(vx.rows.map(r=>r.done))].sort();
+  if(doneSel.dataset.for!==vid){
+    doneSel.innerHTML=avail.map(d=>`<option value="${d}">${d} 劑</option>`).join("");
+    doneSel.dataset.for=vid;
+  }
+  const done=parseInt(doneSel.value);
+  const last=document.getElementById("cuLast")?.value;
+  const route=document.getElementById("cuRoute")?.value;
+
+  let cand=vx.rows.filter(r=>r.done===done);
+  if(vx.split==="last")    cand=cand.filter(r=>!r.last || r.last===last);
+  if(vx.split==="jeroute") cand=cand.filter(r=>r.route===route);
+  const row=cand[0];
+
+  if(!row){
+    out.innerHTML=`<div class="iv-out go">依此表，該組合<strong>無須補種</strong>（或已達學前應完成劑數 ${vx.pre} 劑）。</div>`;
+    return;
+  }
+  const steps=row.plan.map((p,i)=>
+    `<li><strong>${p[0]}</strong>${p[1]?`　<span style="color:var(--warn)">${p[1]}</span>`:(i===0?`　<span style="color:var(--ink-3)">立即接種</span>`:"")}</li>`).join("");
+  out.innerHTML=`
+    <div class="iv-out warn" style="margin-bottom:12px">
+      學前應完成 <strong>${vx.pre}</strong> 劑　·　已完成 <strong>${done}</strong> 劑　→　<strong>尚須補種 ${row.add} 劑</strong>
+      ${row.route?`<div style="margin-top:6px;font-size:13px;opacity:.9">${JE_ROUTE[row.route]}</div>`:""}
+      ${row.last?`<div style="margin-top:6px;font-size:13px;opacity:.9">最近 1 劑 ${row.last==="<4"?"＜4 歲":"≧4 歲"}</div>`:""}
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">補種時程</h3>
+      <ol style="margin:0;padding-left:20px">${steps}</ol>
+      ${row.raw?`<p style="margin:8px 0 0;font-size:12.5px;color:var(--ink-3)">原表時程標示：${row.raw}</p>`:""}
+      ${vx.note?`<p style="margin:10px 0 0;font-size:13px;color:var(--ink-2)"><strong>注意：</strong>${vx.note}</p>`:""}
+      <span class="src">來源：${cite("S8")}</span>
+    </div>`;
+}
+
+/* ════════════════════════════════════════════════════════
+   成人風險評估：IPD 高風險／性行為風險／旅遊目的地
+   ════════════════════════════════════════════════════════ */
+const IPD_ITEMS=[
+ {id:"spleen", t:"脾臟功能缺損或脾臟切除"},
+ {id:"immdef", t:"先天或後天免疫功能不全"},
+ {id:"cochlear", t:"人工耳植入者"},
+ {id:"csf", t:"腦脊髓液滲漏"},
+ {id:"malig", t:"「1 年內」接受免疫抑制劑或放射治療的惡性腫瘤及器官移植者"},
+];
+const SEX_ITEMS=[
+ {id:"multi", t:"多重性伴侶"},
+ {id:"msm", t:"男男性行為者"},
+ {id:"sti", t:"過去曾罹患性病"},
+ {id:"csw", t:"性交易服務者／於營業場所發生性行為"},
+ {id:"pwid", t:"注射藥癮者"},
+ {id:"hivpos", t:"HIV 感染者"},
+ {id:"partner", t:"同住者或性伴侶為 B 肝帶原者"},
+];
+// 慢性病與居住狀況：影響流感公費身分、RSV 60–74 歲高危險群、A 肝與 B 肝建議對象
+const CHRONIC_ITEMS=[
+ {id:"lung",   t:"慢性肺病"},
+ {id:"cvd",    t:"心臟血管疾病"},
+ {id:"liver",  t:"慢性肝病／曾接受肝臟移植"},
+ {id:"renal",  t:"腎臟功能不全"},
+ {id:"dialysis",t:"血液透析"},
+ {id:"dm",     t:"糖尿病"},
+ {id:"ltcf",   t:"長期照顧（服務）機構住民"},
+ {id:"bmi30",  t:"BMI ≧30"},
+ {id:"major",  t:"重大傷病或罕見疾病"},
+ {id:"hemo",   t:"血友病"},
+ {id:"transplant", t:"器官移植"},
+ {id:"hcw",    t:"醫療照護工作人員"},
+ {id:"pregplan", t:"孕前婦女／嬰兒照顧者"},
+];
+
+function riskCalc(){
+  const pick=(box,arr)=>arr.filter(i=>document.querySelector(`#${box} input[data-i="${i.id}"]`)?.checked);
+  const ipd=pick("ipdBox",IPD_ITEMS), sex=pick("sexBox",SEX_ITEMS), chr=pick("chrBox",CHRONIC_ITEMS);
+  const ids=[...ipd,...sex,...chr].map(i=>i.id);
+  const has=(...k)=>k.some(x=>ids.includes(x));
+  const ageRaw=document.getElementById("aAge").value;
+  const age=ageRaw===""?NaN:parseFloat(ageRaw);
+  const indig=document.getElementById("aIndig").checked;
+  const rec=[], why=[];   // why = 已評估但未建議，附原因
+
+  const add=(v,w,h,s)=>rec.push({v,why:w,how:h,s:s||"S4"});
+  const no =(v,r)=>why.push({v, r});
+
+  /* ── 肺炎鏈球菌 ── */
+  if(ipd.length) add("肺炎鏈球菌疫苗（PCV／PPV23）", `符合 IPD 高風險：${ipd.map(i=>i.t).join("、")}`,
+    "19–64 歲 IPD 高風險對象可公費接種。銜接原則見上方「肺炎鏈球菌結合型疫苗」卡片。");
+  if(age>=65) add("肺炎鏈球菌疫苗（PCV／PPV23）","65 歲（含）以上長者","可公費提供 1 劑 PCV13＋1 劑 PPV23，或 1 劑 PCV20。");
+  else if(indig&&age>=55&&age<=64) add("肺炎鏈球菌疫苗（PCV／PPV23）","55–64 歲原住民","可公費接種 1 劑。");
+  else if(!ipd.length&&!isNaN(age)) no("肺炎鏈球菌疫苗","公費對象為 65 歲以上、55–64 歲原住民，或 19–64 歲 IPD 高風險對象；本案均不符。");
+
+  /* ── 流感 ── */
+  const fluWhy=[];
+  if(age>=50) fluWhy.push("50 歲以上成人");
+  if(indig&&age>=55) fluWhy.push("55 歲以上原住民");
+  if(has("ltcf")) fluWhy.push("長期照顧機構受照顧者");
+  if(has("hcw")) fluWhy.push("醫事及衛生防疫相關人員");
+  if(age>=19&&age<=64&&has("lung","cvd","liver","renal","dialysis","dm","bmi30","major","immdef"))
+    fluWhy.push("19–64 歲具潛在疾病者（高風險慢性病、BMI≧30、罕見疾病或重大傷病）");
+  if(fluWhy.length) add("流感疫苗", fluWhy.join("；"), "公費實施對象，每年 1 劑。");
+  else add("流感疫苗","所有成人均建議每年接種 1 劑","本案未落入公費實施對象，仍建議每年自費接種 1 劑。");
+
+  /* ── 帶狀疱疹 ── */
+  if(age>=50) add("帶狀疱疹疫苗（Shingrix）","50 歲（含）以上成人","建議 2 劑，間隔 2–6 個月（自費）。");
+  else if(age>=18&&has("immdef","malig","transplant"))
+    add("帶狀疱疹疫苗（Shingrix）","18 歲以上免疫不全或免疫功能低下者","可經醫師評估接種 2 劑。非活性重組疫苗，免疫不全非其禁忌。");
+  else if(!isNaN(age)) no("帶狀疱疹疫苗","建議對象為 50 歲以上，或 18 歲以上免疫不全／功能低下者；本案不符。");
+
+  /* ── RSV ── */
+  const rsvHigh=has("lung","cvd","liver","renal","dialysis","ltcf");
+  if(age>=75) add("RSV 疫苗","75 歲（含）以上成人","經醫師評估後自費接種 1 劑。");
+  else if(age>=60&&age<=74&&rsvHigh)
+    add("RSV 疫苗",`60–74 歲之 RSV 疾病高危險群：${chr.filter(c=>["lung","cvd","liver","renal","dialysis","ltcf"].includes(c.id)).map(c=>c.t).join("、")}`,"經醫師評估後自費接種 1 劑。");
+  else if(age>=60&&age<=74&&!rsvHigh)
+    no("RSV 疫苗","60–74 歲須另屬 RSV 高危險群（慢性肺病、心血管、肝、腎疾病或長照機構住民）才建議接種；本案未勾選任一項。");
+  else if(!isNaN(age)&&age<60) no("RSV 疫苗","成人建議對象為 75 歲以上、60–74 歲高危險群，或懷孕 28–36 週；本案年齡不符。");
+
+  /* ── Mpox ── */
+  if(has("multi","msm","sti","csw"))
+    add("M 痘（Mpox）疫苗",`具風險性行為：${sex.filter(i=>["multi","msm","sti","csw"].includes(i.id)).map(i=>i.t).join("、")}`,
+      "近 1 年有風險性行為者屬公費暴露前預防（PrEP）對象，2 劑至少間隔 4 週。");
+
+  /* ── A 肝 ── */
+  const hepaWhy=[];
+  if(has("msm","pwid")) hepaWhy.push("男同性戀或雙性戀、藥物成癮者");
+  if(has("liver")) hepaWhy.push("慢性肝病或曾接受肝臟移植");
+  if(has("hemo")) hepaWhy.push("血友病");
+  if(hepaWhy.length) add("A 型肝炎疫苗", hepaWhy.join("；")+"屬建議接種對象", "2 劑，間隔 6–12 個月。");
+
+  /* ── B 肝 ── */
+  const hepbWhy=[];
+  if(has("dialysis")) hepbWhy.push("血液透析病人");
+  if(has("transplant","malig")) hepbWhy.push("器官移植病人");
+  if(has("immdef")) hepbWhy.push("免疫不全者");
+  if(has("multi","pwid","partner")) hepbWhy.push("多重性伴侶／注射藥癮者／同住者或性伴侶為帶原者");
+  if(has("hcw")) hepbWhy.push("可能接觸血液之醫療衛生工作者");
+  if(hepbWhy.length) add("B 型肝炎疫苗", hepbWhy.join("；")+"屬 B 肝感染高危險群",
+    "3 劑（0-1-6 個月）。已完成接種但 anti-HBs 陰性者之處置，見上方 B 型肝炎疫苗卡片的抗體判讀。");
+
+  /* ── HPV：疾管署只建議到 45 歲 ── */
+  if(age>=19&&age<=26) add("HPV 疫苗","19–26 歲成人","均建議接種 3 劑。");
+  else if(age>=27&&age<=45&&has("hivpos","msm","immdef"))
+    add("HPV 疫苗","27–45 歲高感染風險者（免疫功能不全含 HIV 感染者、男同性戀）","建議接種 3 劑。");
+  else if(age>=27&&age<=45)
+    no("HPV 疫苗","27–45 歲僅建議<strong>免疫功能不全（含 HIV 感染者）及男同性戀</strong>接種；其他風險行為（如性交易服務者）在疾管署 HPV 建議中未列為適應症。");
+  else if(age>45)
+    no("HPV 疫苗",`疾管署建議接種年齡為 <strong>19–45 歲</strong>，本案 ${age} 歲已超出建議範圍。`);
+
+  /* ── 腦膜炎雙球菌 ── */
+  const menWhy=[];
+  if(has("hivpos")) menWhy.push("人類免疫缺乏病毒感染患者");
+  if(has("spleen")) menWhy.push("脾臟功能缺損者");
+  if(menWhy.length) add("流行性腦脊髓膜炎疫苗", menWhy.join("；")+"屬高危險群",
+    "建議自費接種。MCV4 適用 2 歲以上至 ≦55 歲，1 劑；MenB 依年齡與風險 2–3 劑。");
+
+  /* ── Tdap ── */
+  if(has("hcw","pregplan")) add("Tdap 疫苗","醫療照護人員、孕前婦女、嬰兒照顧者屬高危險群","應優先以 Tdap 接種 1 劑；之後每 10 年追加 1 劑。");
+
+  /* 合併同疫苗的多個理由 */
+  const merged=[];
+  rec.forEach(r=>{const m=merged.find(x=>x.v===r.v);
+    if(m){ if(!m.why.includes(r.why)) m.why+="；"+r.why; } else merged.push({...r}); });
+  const shown=new Set(merged.map(m=>m.v.replace(/（.*/,"")));
+  const notes=why.filter(w=>!shown.has(w.v.replace(/（.*/,"")));
+
+  const box=document.getElementById("riskOut");
+  let html="";
+  if(merged.length){
+    html+=`<div class="tally"><span class="t-warn">依風險建議評估 ${merged.length} 項</span>`
+        + (notes.length?`<span class="t-go">已評估未建議 ${notes.length} 項</span>`:"")+`</div>`
+      + merged.map(r=>`<div class="vax warn"><div class="vax-head" style="cursor:default">
+          <span class="badge warn">建議</span><span class="vax-name">${r.v}</span></div>
+        <div class="vax-body" style="display:block;border-top:1px solid var(--line);padding-top:10px">
+          <div class="hit"><span class="hit-tag warn">為什麼</span><span class="hit-txt">${r.why}</span></div>
+          <div class="hit"><span class="hit-tag info">怎麼打</span><span class="hit-txt">${r.how}</span>
+            <span class="src">來源：${cite(r.s)}</span></div>
+        </div></div>`).join("");
+  } else if(isNaN(age)&&!ids.length){
+    html+=`<div class="iv-out go">輸入年齡或勾選風險條件後，這裡會列出建議評估的疫苗。</div>`;
+  }
+  if(notes.length){
+    html+=`<div class="vax" id="whyNot"><div class="vax-head">
+        <span class="badge" style="background:var(--surface-2);color:var(--ink-3)">未建議</span>
+        <span class="vax-name">已評估但未建議（${notes.length} 項）<small>點擊看原因</small></span>
+        <span class="chev">▶</span></div>
+      <div class="vax-body">${notes.map(n=>`<div class="hit">
+          <span class="hit-tag info">${n.v}</span><span class="hit-txt">${n.r}</span></div>`).join("")}
+        <span class="src">依據：${cite("S4")}　本區只說明「為何這支疫苗沒有出現在建議清單」，不代表禁忌。</span>
+      </div></div>`;
+  }
+  box.innerHTML=html;
+  const wn=document.getElementById("whyNot");
+  if(wn) wn.querySelector(".vax-head").onclick=()=>wn.classList.toggle("open");
+}
+
+/* ── 旅遊目的地風險 ── */
+function travelInit(){
+  const sel=document.getElementById("tvCountry");
+  if(!sel||!Object.keys(TRAVEL).length) return;
+  const list=Object.entries(TRAVEL).map(([k,v])=>({k, n:v.n, en:v.en}))
+    .sort((a,b)=>a.n.localeCompare(b.n,"zh-Hant"));
+  sel.innerHTML=`<option value="">— 選擇目的地 —</option>`
+    + list.map(c=>`<option value="${c.k}">${c.n}${c.en?"（"+c.en+"）":""}</option>`).join("");
+  sel.onchange=travelCalc;
+  document.getElementById("tvMeta").innerHTML=
+    `資料版本 <strong>${TRAVEL_META.updated}</strong>　·　${TRAVEL_META.countries} 個國家/地區　·　${TRAVEL_META.alerts} 筆現行警示<br>
+     來源：<a href="${TRAVEL_META.src_alert}" target="_blank" rel="noopener">國際旅遊疫情建議等級（每日更新）</a>
+     <a href="${TRAVEL_META.src_presc}" target="_blank" rel="noopener">國際旅遊處方箋（每月更新）</a>
+     以 <code>update_travel.py</code> 重抓即可更新`;
+}
+const LV_NAME={3:"第三級：警告 Warning", 2:"第二級：警示 Alert", 1:"第一級：注意 Watch"};
+const LV_ACT ={3:"避免至當地所有非必要旅遊", 2:"對當地採取加強防護", 1:"提醒遵守當地的一般預防措施"};
+const LV_CLS ={3:"stop", 2:"warn", 1:"warn"};
+
+function travelCalc(){
+  const k=document.getElementById("tvCountry").value;
+  const out=document.getElementById("tvOut");
+  if(!k){ out.innerHTML=""; return; }
+  const c=TRAVEL[k];
+  const uni=new Set(TRAVEL_META.universal);
+  const specific=c.v.filter(v=>!uni.has(v));
+  const routine =c.v.filter(v=> uni.has(v));
+
+  const own=c.a.filter(a=>!a[4]), blanket=c.a.filter(a=>a[4]);
+  const worst=own.length?own[0][0]:0;
+  const line=a=>`<div class="hit">
+      <span class="hit-tag ${LV_CLS[a[0]]}">${a[0]===3?"⛔":"⚠️"} ${LV_NAME[a[0]]}</span>
+      <span class="hit-txt"><strong>${a[1]}</strong>${a[3]?`　<span style="color:var(--ink-3)">（${a[3]}）</span>`:""}
+        <br><span style="color:var(--ink-3);font-size:12.5px">${LV_ACT[a[0]]}　·　生效 ${a[2]}</span></span>
+    </div>`;
+  const alerts = own.length ? own.map(line).join("")
+    : `<div class="hit"><span class="hit-txt" style="color:var(--go)">目前無此目的地特有的旅遊疫情警示。</span></div>`;
+
+  out.innerHTML=`
+    <div class="vax ${worst===3?"stop":worst?"warn":"go"}">
+      <div class="vax-head" style="cursor:default">
+        <span class="badge ${worst===3?"stop":worst?"warn":"go"}">${own.length?own.length+" 項警示":"無警示"}</span>
+        <span class="vax-name">${c.n}<small>${c.en||""}</small></span>
+      </div>
+      <div class="vax-body" style="display:block;border-top:1px solid var(--line);padding-top:10px">${alerts}
+        <span class="src">來源：<a href="${TRAVEL_META.src_alert}" target="_blank" rel="noopener">疾管署國際旅遊疫情建議等級</a>　資料版本 ${TRAVEL_META.updated}</span>
+      </div>
+    </div>
+    ${blanket.length?`<div class="vax" id="blanketBox">
+      <div class="vax-head"><span class="badge" style="background:var(--surface-2);color:var(--ink-3)">全球性</span>
+        <span class="vax-name">全球通用警示（${blanket.length} 項）<small>非此目的地特有，點擊展開</small></span>
+        <span class="chev">▶</span></div>
+      <div class="vax-body">${blanket.map(line).join("")}
+        <div class="note" style="margin:10px 0 0">
+          這些警示在疾管署資料中<strong>涵蓋 200 個以上國家、生效日相同</strong>（例如「嚴重特殊傳染性肺炎」第三級出現在<strong>全部 246 國、生效日一律 2020-03-21</strong>），
+          屬 COVID 初期發布的<strong>一次性全球公告</strong>，資料集中從未標記解除。
+          本工具<strong>不刪除官方資料</strong>，但將其與目的地特有警示分開，避免在 2026 年查任一國家都跳出「避免所有非必要旅遊」而誤導判斷。
+        </div>
+      </div>
+    </div>`:""}
+    ${specific.length?`<div class="card" style="border-left:4px solid var(--warn)">
+      <h3 style="margin-top:0;color:var(--warn)">此目的地<u>特別</u>列出的疫苗／用藥</h3>
+      <ul style="margin:0">${specific.map(v=>`<li><strong>${v}</strong></li>`).join("")}</ul>
+      <p style="margin:8px 0 0;font-size:12.5px;color:var(--ink-3)">這幾項在疾管署資料中<strong>隨目的地而異</strong>，鑑別力較高。</p>
+    </div>`:""}
+    <div class="card">
+      <h3 style="margin-top:0;color:var(--ink-3)">旅遊門診常規討論項目</h3>
+      <ul style="margin:0;color:var(--ink-2)">${routine.map(v=>`<li>${v}</li>`).join("")||"<li>—</li>"}</ul>
+      <div class="note" style="margin:10px 0 0">
+        <strong>為什麼分開列：</strong>疾管署《國際旅遊處方箋》中，黃熱病疫苗列於<strong>全部 246 國</strong>、MMR 242 國、A 型肝炎 240 國、狂犬病 225 國、傷寒 188 國——
+        代表這是「旅遊門診<strong>應評估</strong>的清單」，<strong>不是「該國要求或建議接種」的判斷結果</strong>。
+        是否真的需要接種、有無入境強制規定、幾歲以上適用、哪些地區例外，仍須查該國的
+        <a href="https://www.cdc.gov.tw/InternationalTravel/Index/ZkNLTkRxQ0NyQmc5Rk50dmZZZlI2Zz09" target="_blank" rel="noopener">國際旅遊處方箋</a>頁面。
+      </div>
+      <span class="src">來源：<a href="${TRAVEL_META.src_presc}" target="_blank" rel="noopener">疾管署國際旅遊處方箋開放資料</a>　資料版本 ${TRAVEL_META.updated}</span>
+    </div>`;
+  // 全球性警示卡片預設收合
+  const bb=document.getElementById("blanketBox");
+  if(bb) bb.querySelector(".vax-head").onclick=()=>bb.classList.toggle("open");
+}
+
+/* ── 綁定 ── */
+document.getElementById("cBirth").addEventListener("change",()=>{document.getElementById("cMonths").value="";childCalc();});
+document.getElementById("cMonths").addEventListener("input",()=>{document.getElementById("cBirth").value="";childCalc();});
+document.getElementById("cReset").onclick=()=>{document.getElementById("cBirth").value="";document.getElementById("cMonths").value="";document.getElementById("cOut").innerHTML="";};
+
+document.getElementById("cuVax").innerHTML=`<option value="">— 選擇疫苗 —</option>`+CATCHUP.map(c=>`<option value="${c.id}">${c.v}</option>`).join("");
+document.getElementById("cuVax").onchange=catchupCalc;
+document.getElementById("cuDone").onchange=catchupCalc;
+
+document.getElementById("ipdBox").innerHTML=IPD_ITEMS.map(i=>`<label class="chk"><input type="checkbox" data-i="${i.id}"><span>${i.t}</span></label>`).join("");
+document.getElementById("sexBox").innerHTML=SEX_ITEMS.map(i=>`<label class="chk"><input type="checkbox" data-i="${i.id}"><span>${i.t}</span></label>`).join("");
+document.getElementById("chrBox").innerHTML=CHRONIC_ITEMS.map(i=>`<label class="chk"><input type="checkbox" data-i="${i.id}"><span>${i.t}</span></label>`).join("");
+["ipdBox","sexBox","chrBox"].forEach(id=>document.getElementById(id).addEventListener("change",riskCalc));
+document.getElementById("aAge").addEventListener("input",riskCalc);
+document.getElementById("aIndig").addEventListener("change",riskCalc);
+
+// 顯示這份 index.html 的實際存檔時間，方便判斷是否看到舊快取
+(()=>{ const el=document.getElementById("buildTime");
+  const d=new Date(document.lastModified);
+  el.textContent=isNaN(d)?"未知":`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;
+  el.title="這是 index.html 的存檔時間。若與預期不符，請按 Cmd+Shift+R 強制重新載入。";
+})();
+travelInit(); riskCalc();
+render();
+</script>
+<script src="review/reference-pages.js"></script>
+<script src="reference-geometry.js"></script>
+<script src="reference-ui.js"></script>
+</body>
+</html>

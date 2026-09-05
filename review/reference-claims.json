@@ -1,0 +1,65 @@
+{
+  "hashes": {
+    "S2": "601cdae83086af6d409a99a40772a19fc2b8fc93d1f8a666771455bd460f1160",
+    "S4": "baecc2b1adabcce924d6c228b876e397d4d019ba871749b97ab5441ab2b9426a",
+    "S12": "8891c44f7679c65160f88adb3c9077b42ece8da708f63872be5d80bf68286d11",
+    "S12N": "51f2b38f6ea20aeab101edd0f71aa50f59cd9ed3899029e30b40dd37d23d8217",
+    "S13": "097d3126abaf73240762c100764feea92356235c3876cf5ad08ea5f0c101518f",
+    "S14": "4bed3c1f1eb6a83d734db248ee5d941d22bc1fa6d69a50cae2ff7c651baa5dd7",
+    "S15": "fca975029b060a8f28ecf6c815ebfb35828d104e9e93674c17d30743e990435a",
+    "S16": "360513c11ff53f06016a27f3181490309bf6324803f28da2601371cae37b7ece",
+    "S17": "af2900e5927a8d5aa21e47d0f8b033b04aec6813a7068a1fe0e60bcbbb91c3c7"
+  },
+  "claims": {
+    "class-shingrix": {
+      "note": "分類依疾管署原文；黃框標示核對到的原文字詞，不表示網頁整段都是逐字引文。",
+      "items": [{"source":"S4", "page":5, "quotes":["非活性基因重組帶狀疱疹疫苗"], "label":"疾管署原文分類"}]
+    },
+    "class-covid": {
+      "note": "兩種製劑分開核對，並以 CDC non-live 分類表補充；本區不更新適用對象或劑次建議。",
+      "items": [
+        {"source":"S12", "page":1, "region":[20,170,575,235], "quotes":["單價 mRNA 疫苗"], "label":"莫德納 XFG 成分"},
+        {"source":"S12N", "page":1, "quotes":["重組棘蛋白之蛋白質次單元疫苗"], "label":"Novavax XFG 成分"},
+        {"source":"S19"}
+      ]
+    },
+    "class-rsv": {
+      "note": "FDA 仿單提供重組蛋白成分原文，CDC 網頁提供 non-live 正式分類；不以美國仿單取代台灣適應症或接種時程。",
+      "items": [
+        {"source":"S13", "page":18, "quotes":["recombinant respiratory syncytial virus glycoprotein F stabilized in pre-fusion conformation"], "label":"Arexvy：重組 RSV F 蛋白"},
+        {"source":"S14", "page":22, "quotes":["The antigen component contains recombinant RSV preF A and RSV preF B."], "label":"Abrysvo：重組 RSV preF A／B"},
+        {"source":"S19"}
+      ]
+    },
+    "class-dukoral": {
+      "items": [{"source":"S15", "page":2, "quotes":["Cholera vaccine (inactivated, oral)"], "label":"Dukoral：口服不活化"}]
+    },
+    "class-vaxchora": {
+      "items": [{"source":"S16", "page":2, "quotes":["Vibrio cholerae live, attenuated strain CVD 103-HgR"], "label":"Vaxchora：口服活性減毒"}]
+    },
+    "cholera-types": {
+      "note":"不同口服霍亂製劑有不同分類；尚未確認品牌時不能當成不活化疫苗。",
+      "items":[{"ref":"class-dukoral"},{"ref":"class-vaxchora"}]
+    },
+    "cholera-policy": {
+      "note":"台灣原表未指明霍亂製劑；國際證據有研究限制，並不自動覆蓋台灣指引。PDF 頁碼為檔案頁碼，可能與印刷頁碼不同。",
+      "items":[
+        {"source":"S2", "page":1, "quotes":["霍亂疫苗與黃熱病疫苗應間隔3週以上"], "label":"台灣 S2：3 週（未指明製劑）"},
+        {"source":"S15", "page":4, "quotes":["a yellow fever vaccine was given concomitantly with Dukoral", "The immune responses to Dukoral were not studied."], "label":"Dukoral：同時接種研究及限制", "note":"原文表示未觀察到黃熱病免疫反應的交互影響，但未研究 Dukoral 的免疫反應，不能說成雙向皆已證實無影響。"},
+        {"source":"S17", "page":8, "quotes":["No data are available on concomitant administration of the currently licensed CVD 103-HgR with other vaccines"], "label":"CVD 103-HgR：現行製劑合併接種資料限制"},
+        {"source":"S18"}
+      ]
+    },
+    "nonlive-interval": {
+      "note":"這是分類／間隔通則的整理，並非一段完整逐字引文；黃框僅對應台灣原表實際文字。",
+      "items":[
+        {"source":"S2", "page":1, "quotes":["如不同時接種最少要間隔28天", "口服活性減毒疫苗則可與其他活性減毒注射式疫苗同時或間隔任何時間接種"], "label":"28 天通則與口服例外"},
+        {"source":"S19"}
+      ]
+    },
+    "classification-summary": {
+      "note":"分類須按具體製劑判斷；下列為補充官方證據，並非更改台灣原表內容。",
+      "items":[{"ref":"class-shingrix"},{"ref":"class-covid"},{"ref":"class-rsv"},{"ref":"cholera-types"}]
+    }
+  }
+}
