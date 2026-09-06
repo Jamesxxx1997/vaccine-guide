@@ -239,7 +239,9 @@
         const key=explicit?.refCsv|| (href===TRAVEL_META.src_alert?'alerts':href===TRAVEL_META.src_presc?'prescriptions':
           el.closest('#tvOut .vax')?'alerts':el.closest('#tvOut .card')?'prescriptions':null);
         return {csv:key?[key]:['alerts','prescriptions'],query,
-          csvFilter:{currentCountry:!el.closest('#tvMeta'),disease:explicit?.refDisease,date:explicit?.refDate,
+          csvFilter:{currentCountry:!el.closest('#tvMeta')&&!explicit?.refCountryKey,
+            countryKey:explicit?.refCountryKey,country:TRAVEL[explicit?.refCountryKey]?.n,countryEnglish:TRAVEL[explicit?.refCountryKey]?.en,
+            disease:explicit?.refDisease,date:explicit?.refDate,
             detail:explicit?.refDetail,level:explicit?.refLevel,vaccine:explicit?.refVaccine}};
       }
       const input=el.closest('label')?.querySelector('input'),id=input?.dataset.i;
@@ -274,7 +276,7 @@
       const pending=[];
       while(walker.nextNode()) {
         const node=walker.currentNode,el=node.parentElement;
-        if(!norm(node.textContent)||el.closest('.ref-target,button,select,option,input,textarea,script,style,code'))continue;
+        if(!norm(node.textContent)||el.closest('.ref-target,button,select,option,input,textarea,script,style,code,[data-ref-ui]'))continue;
         pending.push([node,contextFor(el)]);
       }
       pending.forEach(([node,data])=>node.replaceWith(inline(node.textContent,data)));
@@ -495,7 +497,7 @@
     });
     panel.querySelectorAll('[data-ref-page]').forEach(select=>select.onchange=()=>{
       const item=items[+select.dataset.refPage],section=select.closest('.ref-evidence');
-      item.view.page=item.doc.pages[+select.value-1];item.view.top=0;item.view.height=item.view.page.h;item.full=true;
+      item.view.page=item.doc.pages.find(p=>p.page===+select.value);item.view.top=0;item.view.height=item.view.page.h;item.full=true;
       item.view.rects=[];item.view.focus=[];
       section.querySelector('.ref-label').textContent='手動翻頁・未套用原句高亮';
       section.querySelector('.ref-meta').textContent=item.doc.n+' · '+(item.doc.v||'')+' · PDF 第 '+select.value+' 頁';

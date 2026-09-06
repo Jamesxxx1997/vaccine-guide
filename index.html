@@ -288,6 +288,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 <!-- ═══════════ 成人時程 ═══════════ -->
 <section class="panel" id="p-adult" role="tabpanel">
   <h2>成人預防接種建議時程</h2>
+  <p data-ref-ui><a href="#travelSearch">↓ 直接前往旅遊目的地／疫苗查詢</a></p>
   <p class="sub" style="margin-top:-6px">來源：<a href="https://www.cdc.gov.tw/Category/Page/MoZgDU5xEilvKbL54nUTEg" target="_blank" rel="noopener">疾管署《成人預防接種建議時程表》</a> <span class="ver">115 年 5 月版</span>　·　點任一列展開完整說明</p>
   <div class="note">
     抗體判讀（B 肝 anti-HBs、麻疹／德國麻疹免疫力）已併入對應疫苗列，展開 <strong>B 型肝炎疫苗</strong> 或 <strong>MMR</strong> 即可查看。
@@ -311,12 +312,21 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
     <div id="riskOut"></div>
   </div>
 
-  <h2 data-ref-csv="alerts">旅遊目的地</h2>
+  <h2 data-ref-csv="alerts">旅遊目的地與疫情搜尋</h2>
   <div class="card">
-    <div class="iv-row"><select id="tvCountry"></select></div>
+    <div id="travelSearch" data-ref-ui>
+      <form id="travelSearchForm" role="search">
+        <label for="travelQuery">國家／地區或疾病</label>
+        <div class="travel-search-row"><input id="travelQuery" type="search" autocomplete="off" placeholder="例如：莫三比克、Japan、霍亂" aria-controls="travelSearchResults"><button type="submit">搜尋</button><button type="button" id="travelSearchClear">清除</button></div>
+      </form>
+      <p id="travelSearchStatus" role="status" aria-live="polite">輸入國名或疾病，查看對應目的地。</p>
+      <div id="travelSearchResults"></div>
+    </div>
+    <select id="tvCountry" hidden aria-hidden="true" tabindex="-1"></select>
     <div class="sub" id="tvMeta" style="font-size:12.5px"></div>
   </div>
   <div id="tvOut"></div>
+  <div id="travelVaccineDetails"></div>
 </section>
 
 <!-- ═══════════ 間隔規則 ═══════════ -->
@@ -1798,13 +1808,14 @@ function travelInit(){
   const list=Object.entries(TRAVEL).map(([k,v])=>({k, n:v.n, en:v.en}))
     .sort((a,b)=>a.n.localeCompare(b.n,"zh-Hant"));
   sel.innerHTML=`<option value="">— 選擇目的地 —</option>`
-    + list.map(c=>`<option value="${c.k}">${c.n}${c.en?"（"+c.en+"）":""}</option>`).join("");
+    + list.map(c=>`<option value="${exEsc(c.k)}">${exEsc(c.n)}${c.en?"（"+exEsc(c.en)+"）":""}</option>`).join("");
   sel.onchange=travelCalc;
   document.getElementById("tvMeta").innerHTML=
     `資料版本 <strong>${TRAVEL_META.updated}</strong>　·　${TRAVEL_META.countries} 個國家/地區　·　${TRAVEL_META.alerts} 筆現行警示<br>
      來源：<a href="${TRAVEL_META.src_alert}" target="_blank" rel="noopener">國際旅遊疫情建議等級（每日更新）</a>
      <a href="${TRAVEL_META.src_presc}" target="_blank" rel="noopener">國際旅遊處方箋（每月更新）</a>
      以 <code>update_travel.py</code> 重抓即可更新`;
+  if(window.TravelData)window.TravelData.renderMeta();
 }
 const LV_NAME={3:"第三級：警告 Warning", 2:"第二級：警示 Alert", 1:"第一級：注意 Watch"};
 const LV_ACT ={3:"避免至當地所有非必要旅遊", 2:"對當地採取加強防護", 1:"提醒遵守當地的一般預防措施"};
@@ -1813,63 +1824,44 @@ const LV_CLS ={3:"stop", 2:"warn", 1:"warn"};
 function travelCalc(){
   const k=document.getElementById("tvCountry").value;
   const out=document.getElementById("tvOut");
-  if(!k){ out.innerHTML=""; return; }
-  const c=TRAVEL[k];
-  const uni=new Set(TRAVEL_META.universal);
-  const specific=c.v.filter(v=>!uni.has(v));
-  const routine =c.v.filter(v=> uni.has(v));
-
-  const own=c.a.filter(a=>!a[4]), blanket=c.a.filter(a=>a[4]);
-  const worst=own.length?own[0][0]:0;
-  const line=a=>`<div class="hit" data-ref-csv="alerts" data-ref-disease="${exEsc(a[1])}" data-ref-date="${exEsc(a[2])}" data-ref-detail="${exEsc(a[3])}" data-ref-level="${a[0]}">
-      <span class="hit-tag ${LV_CLS[a[0]]}">${a[0]===3?"⛔":"⚠️"} ${LV_NAME[a[0]]}</span>
-      <span class="hit-txt"><strong>${a[1]}</strong>${a[3]?`　<span style="color:var(--ink-3)">（${a[3]}）</span>`:""}
-        <br><span style="color:var(--ink-3);font-size:12.5px">${LV_ACT[a[0]]}　·　生效 ${a[2]}</span></span>
-    </div>`;
-  const alerts = own.length ? own.map(line).join("")
-    : `<div class="hit"><span class="hit-txt" style="color:var(--go)">目前無此目的地特有的旅遊疫情警示。</span></div>`;
-
+  if(!k||!Object.hasOwn(TRAVEL,k)){out.replaceChildren();return;}
+  const c=TRAVEL[k],fresh=!!TRAVEL_META.provenance;
+  const own=c.a.filter(a=>!a[4]||c.isGlobal),blanket=c.isGlobal?[]:c.a.filter(a=>a[4]);
+  const globalRecords=window.TravelData?.current?.global||[];
+  const hasConflict=c.a.some(a=>a[5]?.conflict);
+  const line=(a,key=k,historical=false)=>`<div class="hit" data-ref-csv="alerts" data-ref-country-key="${exEsc(key)}" data-ref-disease="${exEsc(a[1])}" data-ref-date="${exEsc(a[2])}" data-ref-detail="${exEsc(a[3])}" data-ref-level="${exEsc(a[0])}">
+    <span class="hit-tag ${a[0]===3&&!historical?'stop':'warn'}">${historical?'歷史紀錄，非確認現況：':''}${exEsc(a[0]===0?'解除紀錄（與同日警示衝突）':LV_NAME[a[0]]||'等級待核對')}</span>
+    <span class="hit-txt"><strong>${exEsc(a[1])}</strong>${a[3]?`　（${exEsc(a[3])}）`:''}
+    ${a[5]?.conflict?'<br><strong class="travel-conflict">同日原始紀錄有不同等級／解除狀態，請核對官網；本站不裁定何筆優先。</strong>':''}
+    <br>${exEsc(a[5]?.instruction||LV_ACT[a[0]]||'請核對原始公告')} · 生效 ${exEsc(a[2])}</span></div>`;
+  const official='https://www.cdc.gov.tw/InternationalTravel/Index/ZkNLTkRxQ0NyQmc5Rk50dmZZZlI2Zz09?keyword='+encodeURIComponent(c.n);
+  const prescriptionDate=TRAVEL_META.provenance?.prescriptions?.fetchedAt?.slice(0,10)||TRAVEL_META.updated;
   out.innerHTML=`
-    <div class="vax ${worst===3?"stop":worst?"warn":"go"}">
+    <div class="vax warn">
       <div class="vax-head" style="cursor:default">
-        <span class="badge ${worst===3?"stop":worst?"warn":"go"}">${own.length?own.length+" 項警示":"無警示"}</span>
-        <span class="vax-name">${c.n}<small>${c.en||""}</small></span>
+        <span class="badge warn">${hasConflict?'有等級衝突，待核對':c.a.length?c.a.length+' 筆警示／狀態紀錄':'未找到目的地特有紀錄'}</span>
+        <span class="vax-name">${exEsc(c.n)}<small>${exEsc(c.en||'')}</small></span>
       </div>
-      <div class="vax-body" style="display:block;border-top:1px solid var(--line);padding-top:10px">${alerts}
-        <span class="src">來源：<a href="${TRAVEL_META.src_alert}" target="_blank" rel="noopener">疾管署國際旅遊疫情建議等級</a>　資料版本 ${TRAVEL_META.updated}</span>
+      <div class="vax-body" style="display:block;border-top:1px solid var(--line);padding-top:10px">
+        ${own.length?own.map(a=>line(a)).join(''):'<p>此資料中未找到目的地特有的有效警示紀錄，不代表沒有疫情或旅遊風險。請一併核對共通警示及官方最新資訊。</p>'}
+        ${(c.unresolved||[]).length?`<div class="note warn" data-ref-ui>舊名稱的歷史紀錄未找到可安全銜接的現況；以下只供核對，不列為現行警示，也不推定已解除。</div>${c.unresolved.map(a=>line(a,k,true)).join('')}`:''}
+        <span class="src" data-ref-csv="alerts">來源：疾管署完整疫情資料 · 同步日期 ${exEsc(TRAVEL_META.updated)}</span>
       </div>
     </div>
-    ${blanket.length?`<div class="vax" id="blanketBox">
-      <div class="vax-head"><span class="badge" style="background:var(--surface-2);color:var(--ink-3)">全球性</span>
-        <span class="vax-name">全球通用警示（${blanket.length} 項）<small>非此目的地特有，點擊展開</small></span>
-        <span class="chev">▶</span></div>
-      <div class="vax-body">${blanket.map(line).join("")}
-        <div class="note" style="margin:10px 0 0">
-          本頁將同一疾病與等級<strong>涵蓋超過 200 個目的地</strong>的紀錄分開顯示。
-          「全球通用」是本站依資料涵蓋範圍所作的<strong>整理分組，不是 CSV 的原始分類</strong>，也不表示每筆公告同日生效。
-          本工具<strong>不刪除官方原始紀錄</strong>；請點擊各項警示核對目的地、日期、等級及可能存在的同日衝突，並以官方最新資訊為準。
-        </div>
-      </div>
-    </div>`:""}
-    ${specific.length?`<div class="card" style="border-left:4px solid var(--warn)">
-      <h3 style="margin-top:0;color:var(--warn)">此目的地<u>特別</u>列出的疫苗／用藥</h3>
-      <ul style="margin:0">${specific.map(v=>`<li data-ref-csv="prescriptions" data-ref-vaccine="${exEsc(v)}"><strong>${v}</strong></li>`).join("")}</ul>
-      <p style="margin:8px 0 0;font-size:12.5px;color:var(--ink-3)">這幾項在疾管署資料中<strong>隨目的地而異</strong>，鑑別力較高。</p>
-    </div>`:""}
-    <div class="card">
-      <h3 style="margin-top:0;color:var(--ink-3)">旅遊門診常規討論項目</h3>
-      <ul style="margin:0;color:var(--ink-2)">${routine.map(v=>`<li data-ref-csv="prescriptions" data-ref-vaccine="${exEsc(v)}">${v}</li>`).join("")||"<li>—</li>"}</ul>
-      <div class="note" style="margin:10px 0 0">
-        <strong>為什麼分開列：</strong>疾管署《國際旅遊處方箋》中，黃熱病疫苗列於<strong>全部 246 國</strong>、MMR 242 國、A 型肝炎 240 國、狂犬病 225 國、傷寒 188 國——
-        代表這是「旅遊門診<strong>應評估</strong>的清單」，<strong>不是「該國要求或建議接種」的判斷結果</strong>。
-        是否真的需要接種、有無入境強制規定、幾歲以上適用、哪些地區例外，仍須查該國的
-        <a href="https://www.cdc.gov.tw/InternationalTravel/Index/ZkNLTkRxQ0NyQmc5Rk50dmZZZlI2Zz09" target="_blank" rel="noopener">國際旅遊處方箋</a>頁面。
-      </div>
-      <span class="src">來源：<a href="${TRAVEL_META.src_presc}" target="_blank" rel="noopener">疾管署國際旅遊處方箋開放資料</a>　資料版本 ${TRAVEL_META.updated}</span>
+    ${blanket.length?`<div class="vax open" id="blanketBox"><div class="vax-head"><span class="badge warn">另有 ${blanket.length} 筆</span><span class="vax-name">跨多地區的警示紀錄<small>舊存檔的本站分組；不等於官方全球分類</small></span><span class="chev">▼</span></div><div class="vax-body">${blanket.map(a=>line(a)).join('')}</div></div>`:''}
+    ${!c.isGlobal&&globalRecords.length?`<div class="card" data-ref-csv="alerts"><h3>官方明列的全球警示</h3>${globalRecords.map(r=>line(r.alert,r.key)).join('')}</div>`:''}
+    <div class="card" data-ref-csv="prescriptions">
+      <h3>疾管署處方箋列出的疫苗／預防用藥</h3>
+      <p>這是供旅遊門診評估的資料清單，不代表每項都應施打，也不代表該國入境強制要求。點選項目查看施打說明與 PDF。</p>
+      <ul class="travel-vaccine-list">${c.v.map(v=>`<li data-ref-csv="prescriptions" data-ref-vaccine="${exEsc(v)}"><button type="button" class="travel-vaccine-choice" data-travel-vaccine="${exEsc(v)}">${exEsc(v)} → 說明</button> <span class="travel-raw-record">核對此項原始紀錄</span></li>`).join('')||'<li>此資料未提供疫苗項目；不可據此判定不需接種。</li>'}</ul>
+      <a data-ref-ui href="${exEsc(official)}" target="_blank" rel="noopener">查看 ${exEsc(c.n)} 的疾管署官方處方箋 ↗</a>
+      <span class="src">處方箋同步日期 ${exEsc(prescriptionDate)}${fresh?'；來源每月更新':''}</span>
     </div>`;
-  // 全球性警示卡片預設收合
   const bb=document.getElementById("blanketBox");
-  if(bb) bb.querySelector(".vax-head").onclick=()=>bb.classList.toggle("open");
+  if(bb)bb.querySelector(".vax-head").onclick=()=>bb.classList.toggle("open");
+  out.querySelectorAll('[data-travel-vaccine]').forEach(button=>button.onclick=()=>{
+    document.dispatchEvent(new CustomEvent('travel:vaccine',{detail:{key:k,name:button.dataset.travelVaccine}}));
+  });
 }
 
 /* ── 綁定 ── */
@@ -1898,10 +1890,17 @@ travelInit(); riskCalc();
 render();
 </script>
 <script src="review/reference-pages.js"></script>
+<script src="review/travel-reference-pages.js"></script>
 <script src="review/reference-tables.js"></script>
+<script src="review/travel-current.js"></script>
+<script src="review/travel-sync-status.js"></script>
+<script src="travel-data.js"></script>
 <script src="reference-geometry.js"></script>
 <script src="reference-scopes.js"></script>
 <script src="reference-tables.js"></script>
 <script src="reference-ui.js"></script>
+<link rel="stylesheet" href="travel-search.css">
+<script src="travel-search.js"></script>
+<script src="travel-vaccine-guides.js"></script>
 </body>
 </html>

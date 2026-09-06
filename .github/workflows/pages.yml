@@ -1,0 +1,79 @@
+name: Verify, sync CDC travel data, and publish Pages
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/travel/sources/**'
+      - 'review/travel-current.js'
+      - 'review/travel-sync-status.js'
+  workflow_dispatch:
+  schedule:
+    # Daily 08:23 Taiwan time. GitHub may delay or skip scheduled runs.
+    - cron: '23 0 * * *'
+concurrency:
+  group: vaccine-guide-pages
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    outputs:
+      sync_outcome: ${{ steps.sync.outcome }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.23.1'
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Verify reviewed code and stored sources
+        if: github.event_name == 'push'
+        run: npm test
+      - name: Verify parser and failure-retention invariants
+        run: node --test tools/test_travel_sync.mjs
+      - name: Refresh both official datasets (retain last good bundle on failure)
+        id: sync
+        continue-on-error: true
+        run: node tools/sync_travel_data.mjs
+      - name: Verify fresh or retained dataset
+        run: node tools/verify_current_travel.cjs
+      - name: Record source snapshots and update status
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/travel/sources review/travel-current.js review/travel-sync-status.js
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified CDC travel snapshot and sync status'
+            git push origin HEAD:main
+          fi
+      - name: Package public static files only
+        id: package
+        run: node tools/package_pages.mjs
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ steps.package.outputs.path }}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the verified static site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Surface source failure after publishing its visible warning
+        if: needs.build.outputs.sync_outcome == 'failure'
+        run: |
+          echo 'Official sync failed. Last good data and a visible failure warning were deployed.'
+          exit 1

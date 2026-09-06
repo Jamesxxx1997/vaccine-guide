@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "collected_on": "2026-09-06",
+  "purpose": "旅遊疫苗官方 PDF 資料庫；不代表每位旅客均應接種，也不等於台灣核准／供貨或已完成逐句高亮。",
+  "documents": [
+    {
+      "id": "WHO_ITH_Module4_2025",
+      "title": "WHO International travel and health, Module 4: Vaccine-preventable diseases and vaccines",
+      "authority": "WHO",
+      "jurisdiction": "International",
+      "document_version": "2025",
+      "landing_url": "https://www.who.int/publications/i/item/9789240113350",
+      "url": "https://iris.who.int/server/api/core/bitstreams/4dc33e3c-f9ab-4cad-8518-e142a1a6ec19/content",
+      "discovery_note": "WHO public PID API 10665/382550 -> ORIGINAL bundle -> 9789240113350-eng.pdf; legacy bitstream URL now returns DSpace HTML.",
+      "expected_text": "vaccine.preventable diseases",
+      "topics": [
+        "overview",
+        "bcg",
+        "cholera",
+        "covid",
+        "dengue",
+        "tdap",
+        "hepa",
+        "hepb",
+        "hepe",
+        "hib",
+        "hpv",
+        "influenza",
+        "je",
+        "malaria",
+        "mmr",
+        "meningococcal",
+        "mpox",
+        "pneumococcal",
+        "polio",
+        "rabies",
+        "rotavirus",
+        "tbe",
+        "typhoid",
+        "varicella",
+        "yellow-fever"
+      ],
+      "license_note": "CC BY-NC-SA 3.0 IGO; preserve original attribution; redistribution subject to source licence."
+    },
+    {
+      "id": "UK_YellowFever_2024",
+      "title": "Green Book chapter 35: Yellow fever",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "March 2024",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-35-yellow-fever-march-2024.pdf",
+      "expected_text": "yellow fever",
+      "topics": [
+        "yellow-fever"
+      ]
+    },
+    {
+      "id": "UK_Cholera_2024",
+      "title": "Green Book chapter 14: Cholera",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "August 2024",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-14-cholera-august-2024.pdf",
+      "expected_text": "Dukoral",
+      "topics": [
+        "cholera"
+      ]
+    },
+    {
+      "id": "UK_Dengue_2024",
+      "title": "Green Book chapter 15a: Dengue",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "2024-10-08 (PDF chapter header)",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-15a-dengue-october-2024.pdf",
+      "expected_text": "dengue",
+      "topics": [
+        "dengue"
+      ]
+    },
+    {
+      "id": "UK_JapaneseEncephalitis_2024",
+      "title": "Green Book chapter 20: Japanese encephalitis",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "February 2024",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-20-japanese-encephalitis-february-2024.pdf",
+      "expected_text": "Japanese encephalitis",
+      "topics": [
+        "je"
+      ]
+    },
+    {
+      "id": "UK_TickBorneEncephalitis_2026",
+      "title": "Green Book: Tick-borne encephalitis",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "August 2026",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-tick-borne-encephalitis-august-2026.pdf",
+      "expected_text": "encephalitis",
+      "topics": [
+        "tbe"
+      ]
+    },
+    {
+      "id": "UK_Typhoid",
+      "title": "Green Book chapter 33: Typhoid",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "document_version": "2022-02-04 (PDF chapter header; not landing-page update)",
+      "landing_url": "https://www.gov.uk/government/publications/typhoid-the-green-book-chapter-33",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Typhoid",
+      "topics": [
+        "typhoid"
+      ]
+    },
+    {
+      "id": "UK_HepatitisA",
+      "title": "Green Book chapter 17: Hepatitis A",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/hepatitis-a-the-green-book-chapter-17",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Hepatitis A",
+      "topics": [
+        "hepa"
+      ],
+      "document_version": "2024-01-12 (PDF chapter header)"
+    },
+    {
+      "id": "UK_Meningococcal",
+      "title": "Green Book chapter 22: Meningococcal",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/meningococcal-the-green-book-chapter-22",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Meningococcal",
+      "topics": [
+        "meningococcal"
+      ],
+      "document_version": "2025-06-10 (PDF chapter header)"
+    },
+    {
+      "id": "UK_Polio",
+      "title": "Green Book chapter 26: Polio",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/polio-the-green-book-chapter-26",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Polio",
+      "topics": [
+        "polio"
+      ],
+      "document_version": "2025-06-02 (PDF chapter header)"
+    },
+    {
+      "id": "UK_Rabies",
+      "title": "Green Book chapter 27: Rabies",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/rabies-the-green-book-chapter-27",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Rabies",
+      "topics": [
+        "rabies"
+      ],
+      "document_version": "2023-05-19 (PDF chapter header)"
+    },
+    {
+      "id": "UK_Mpox",
+      "title": "Green Book chapter 29: Smallpox and mpox",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/smallpox-and-vaccinia-the-green-book-chapter-29",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "mpox",
+      "topics": [
+        "mpox"
+      ],
+      "document_version": "2025-06-06 (PDF chapter header)"
+    },
+    {
+      "id": "UK_Anthrax",
+      "title": "Green Book chapter 13: Anthrax",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/anthrax-the-green-book-chapter-13",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Anthrax",
+      "topics": [
+        "anthrax"
+      ],
+      "restriction": "職業／特定暴露資料，不是一般出國建議。",
+      "document_version": "February 2017 (PDF chapter header; historical background)"
+    },
+    {
+      "id": "UK_Contraindications",
+      "title": "Green Book chapter 6: Contraindications and special considerations",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/contraindications-and-special-considerations-the-green-book-chapter-6",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "contraindications",
+      "topics": [
+        "overview"
+      ],
+      "document_version": "August 2017 (PDF chapter header; background only)"
+    },
+    {
+      "id": "FDA_Vimkunya",
+      "title": "VIMKUNYA prescribing information",
+      "authority": "FDA",
+      "jurisdiction": "US",
+      "landing_url": "https://www.fda.gov/vaccines-blood-biologics/vimkunya",
+      "url": "https://www.fda.gov/media/185477/download?attachment",
+      "expected_text": "VIMKUNYA",
+      "topics": [
+        "chikungunya"
+      ],
+      "restriction": "不得沿用已過時的美國 IXCHIQ 旅客適用表；台灣供應／核准另查。",
+      "document_version": "Unresolved: original PDF prints Revised: X/XXXX",
+      "version_note": "Downloaded from official FDA product page link. Original revision field is a placeholder; acquisition date must not be presented as the label revision. Preserve the original PDF unchanged."
+    },
+    {
+      "id": "EMA_Ixchiq",
+      "title": "Ixchiq product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "document_version": "product-information entry updated 2026-08-24; overview updated 2026-09-01",
+      "landing_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ixchiq",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/ixchiq-epar-product-information_en.pdf",
+      "expected_text": "Ixchiq",
+      "topics": [
+        "chikungunya"
+      ],
+      "restriction": "僅作歐洲高感染風險對象之產品資料；美國已停用／撤回狀態不得被歐洲核准抵銷。需顯示年長者／共病嚴重不良反應警語，不可與 VIMKUNYA 合併。"
+    },
+    {
+      "id": "FDA_Ticovac",
+      "title": "TICOVAC prescribing information",
+      "authority": "FDA",
+      "jurisdiction": "US",
+      "landing_url": "https://www.fda.gov/vaccines-blood-biologics/ticovac",
+      "url": "https://www.fda.gov/media/151502/download?attachment",
+      "expected_text": "TICOVAC",
+      "topics": [
+        "tbe"
+      ],
+      "document_version": "Unresolved: original PDF prints Revised: M/YYYY",
+      "version_note": "Downloaded from official FDA product page link. Original revision field is a placeholder; acquisition date must not be presented as the label revision. Preserve the original PDF unchanged."
+    },
+    {
+      "id": "FDA_Jynneos",
+      "title": "JYNNEOS prescribing information (refrigerator presentation)",
+      "authority": "FDA",
+      "jurisdiction": "US",
+      "landing_url": "https://www.fda.gov/vaccines-blood-biologics/jynneos",
+      "url": "https://www.fda.gov/media/131078/download?attachment",
+      "expected_text": "JYNNEOS",
+      "topics": [
+        "mpox"
+      ],
+      "restriction": "依接觸風險／適用族群評估，不以國家警示自動判定適應症。",
+      "document_version": "Unresolved: original PDF prints Revised: MM/YYYY",
+      "version_note": "Downloaded from official FDA product page link. Original revision field is a placeholder; acquisition date must not be presented as the label revision. Preserve the original PDF unchanged."
+    },
+    {
+      "id": "EMA_Qdenga",
+      "title": "Qdenga product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "document_version": "product-information entry updated 2026-09-04; not inferred from general page timestamp",
+      "landing_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/qdenga",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/qdenga-epar-product-information_en.pdf",
+      "expected_text": "Qdenga",
+      "topics": [
+        "dengue"
+      ],
+      "restriction": "產品核准、WHO 公衛政策、旅客建議與台灣供應不同；不可互換。"
+    },
+    {
+      "id": "EMA_Ixiaro",
+      "title": "IXIARO product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "landing_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ixiaro",
+      "pdf_pattern": "/en/documents/product-information/.*_en\\.pdf",
+      "expected_text": "IXIARO",
+      "topics": [
+        "je"
+      ],
+      "restriction": "與台灣 JE-CV 活性減毒製劑分開。"
+    },
+    {
+      "id": "EMA_Ervebo",
+      "title": "Ervebo product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "landing_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ervebo",
+      "pdf_pattern": "/en/documents/product-information/.*_en\\.pdf",
+      "expected_text": "Ervebo",
+      "topics": [
+        "ebola"
+      ],
+      "restriction": "Zaire ebolavirus 特定風險／公衛用途；不是所有伊波拉病毒種、也不是一般旅行常規疫苗。"
+    },
+    {
+      "id": "AU_QVax_ProductInformation",
+      "title": "Q-VAX Q fever vaccine and skin test, Australian product information",
+      "authority": "CSL Seqirus official product labelling; cross-checked TGA registration",
+      "jurisdiction": "Australia",
+      "landing_url": "https://www.cslseqirus.com.au/products",
+      "url": "https://labeling.seqirus.com/PI/AU/Q-Vax/EN/Q-Vax-Product-Information.pdf?locale=en-us",
+      "expected_text": "Q.VAX",
+      "topics": [
+        "q-fever"
+      ],
+      "restriction": "限特定職業／動物暴露風險；接種前篩檢不可省略。不是一般旅遊疫苗。",
+      "document_version": "Version 8; 2026-04-09 (PDF date of revision)"
+    },
+    {
+      "id": "WHO_ITH_Module3_Malaria_2024",
+      "title": "WHO International travel and health, Module 3: Malaria",
+      "authority": "WHO",
+      "jurisdiction": "International",
+      "document_version": "2024-11-25",
+      "landing_url": "https://www.who.int/publications/i/item/9789240102286",
+      "url": "https://iris.who.int/server/api/core/bitstreams/6b48bd59-d7b3-4073-a42c-b8a005e4cb1c/content",
+      "discovery_note": "WHO public PID API 10665/379612 -> ORIGINAL bundle -> 9789240102286-eng.pdf.",
+      "expected_text": "Malaria",
+      "topics": [
+        "malaria"
+      ],
+      "restriction": "一般旅客預防用藥／防蚊資料；不能將瘧疾流行區兒童疫苗政策套用到成人旅客。",
+      "license_note": "CC BY-NC-SA 3.0 IGO; preserve original attribution."
+    },
+    {
+      "id": "WHO_Typhoid_Position_2026",
+      "title": "WHO Weekly Epidemiological Record 101(32): Position paper on typhoid vaccines, 2026",
+      "authority": "WHO",
+      "jurisdiction": "International",
+      "document_version": "2026-08-14 (WER issue date; position paper starts PDF page 2)",
+      "landing_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-32/",
+      "url": "https://iris.who.int/server/api/core/bitstreams/776982df-c700-49f8-8874-fe09e3d8166e/content",
+      "expected_text": "typhoid",
+      "topics": [
+        "typhoid"
+      ],
+      "restriction": "TCV、Vi 多醣體、Ty21a 分開；國家免疫計畫和旅客使用不是同一層級建議。"
+    },
+    {
+      "id": "CDC_TBE_ACIP_2023",
+      "title": "Tick-borne encephalitis vaccine: ACIP recommendations, United States, 2023",
+      "authority": "US CDC / ACIP",
+      "jurisdiction": "US",
+      "document_version": "2023-11-10",
+      "landing_url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7205a1.htm",
+      "url": "https://www.cdc.gov/mmwr/volumes/72/rr/pdfs/rr7205a1-H.pdf",
+      "expected_text": "Encephalitis Vaccine",
+      "topics": [
+        "tbe"
+      ]
+    },
+    {
+      "id": "WHO_HepatitisE_SAGE_2024",
+      "title": "Hepatitis E vaccines background paper, SAGE March 2024",
+      "authority": "WHO",
+      "jurisdiction": "International",
+      "document_version": "2024-03-12 (background paper, not final recommendation)",
+      "landing_url": "https://www.who.int/groups/global-advisory-committee-on-vaccine-safety/topics/hepatitis-e-vaccines",
+      "url": "https://cdn.who.int/media/docs/default-source/immunization/sage/2024/march/hepatitis_e_background_paper_sage_mar24.pdf",
+      "expected_text": "hepatitis E",
+      "topics": [
+        "hepe"
+      ],
+      "restriction": "背景論證，不當成最終 SAGE 建議或一般旅客常規接種；孕期資料限制需獨立呈現。"
+    },
+    {
+      "id": "SA_Hajj_HealthRequirements",
+      "title": "Saudi Arabia health requirements for Hajj",
+      "authority": "Saudi Ministry of Health",
+      "jurisdiction": "Saudi Arabia",
+      "document_version": "1447H (2026), verified PDF page 1",
+      "landing_url": "https://www.moh.gov.sa/HealthAwareness/Pilgrims-Health/Documents/Hajj-Health-Requirements-English-language.pdf",
+      "url": "https://www.moh.gov.sa/HealthAwareness/Pilgrims-Health/Documents/Hajj-Health-Requirements-English-language.pdf",
+      "expected_text": "Hajj",
+      "topics": [
+        "meningococcal",
+        "yellow-fever",
+        "polio",
+        "covid",
+        "influenza"
+      ],
+      "restriction": "限 PDF 指定年份／朝覲情境；不代表所有入境者或下一年度要求。"
+    },
+    {
+      "id": "TW_Rabies_PrEP_2026",
+      "title": "疾管署115年3月26日狂犬病暴露前預防接種函（台南市政府公開存檔）",
+      "authority": "Taiwan CDC; official Tainan government host",
+      "jurisdiction": "Taiwan",
+      "document_version": "2026-03-26 / 疾管防字第1150200320號",
+      "landing_url": "https://w3fs.tainan.gov.tw/Download.ashx?n=MTE1RTEwMjgwMzUtMDEucGRm&u=LzAwMi9GUzAxLzE0L3JlbGZpbGUvOTcxNy84ODA3MjcwL2Y1MWQ3OGI3LWFhZGItNDhiNS05YTc1LTNlZmJhY2QyMzMwMy5wZGY%3D",
+      "url": "https://w3fs.tainan.gov.tw/Download.ashx?n=MTE1RTEwMjgwMzUtMDEucGRm&u=LzAwMi9GUzAxLzE0L3JlbGZpbGUvOTcxNy84ODA3MjcwL2Y1MWQ3OGI3LWFhZGItNDhiNS05YTc1LTNlZmJhY2QyMzMwMy5wZGY%3D",
+      "expected_text": "1150200320",
+      "topics": [
+        "rabies"
+      ],
+      "restriction": "旅客暴露期間／免疫狀態與職業暴露條件必須分開；不是暴露後處置指引。"
+    },
+    {
+      "id": "EMA_Dukoral_existing",
+      "title": "Dukoral product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "document_version": "2022; downloaded 2026-09-05",
+      "existing_path": "sources/國際官方指引/EMA_Dukoral_2022.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/dukoral-epar-product-information_en.pdf",
+      "expected_text": "Dukoral",
+      "topics": [
+        "cholera"
+      ],
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "EMA_Vaxchora_existing",
+      "title": "Vaxchora product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "document_version": "2026; downloaded 2026-09-05",
+      "existing_path": "sources/國際官方指引/EMA_Vaxchora_2026.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/vaxchora-epar-product-information_en.pdf",
+      "expected_text": "Vaxchora",
+      "topics": [
+        "cholera"
+      ],
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "CDC_Cholera_ACIP_existing",
+      "title": "Cholera vaccine: ACIP recommendations 2022",
+      "authority": "US CDC / ACIP",
+      "jurisdiction": "US",
+      "document_version": "2022-09-30",
+      "existing_path": "sources/國際官方指引/CDC_Cholera_ACIP_2022.pdf",
+      "url": "https://www.cdc.gov/mmwr/volumes/71/rr/pdfs/rr7102a1-H.pdf",
+      "expected_text": "cholera",
+      "topics": [
+        "cholera"
+      ],
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "TW_AdultSchedule_existing",
+      "title": "成人預防接種建議時程表",
+      "authority": "Taiwan CDC",
+      "jurisdiction": "Taiwan",
+      "document_version": "115年5月",
+      "existing_path": "sources/時程表/成人預防接種建議時程表.pdf",
+      "url": "https://www.cdc.gov.tw/Category/Page/MoZgDU5xEilvKbL54nUTEg",
+      "expected_text": "預防接種",
+      "topics": [
+        "hepa",
+        "hepb",
+        "tdap",
+        "mmr",
+        "influenza",
+        "covid",
+        "varicella",
+        "pneumococcal",
+        "hpv",
+        "zoster",
+        "rsv",
+        "meningococcal",
+        "mpox"
+      ],
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "TW_ChildSchedule_existing",
+      "title": "我國現行兒童預防接種時程表",
+      "authority": "Taiwan CDC",
+      "jurisdiction": "Taiwan",
+      "document_version": "114年1月；輪狀病毒公費新政策另查",
+      "existing_path": "sources/時程表/現行兒童預防接種時程表_中文.pdf",
+      "url": "https://www.cdc.gov.tw/Category/Page/TxRW-x3WzvPhvEtxM628GA",
+      "expected_text": "接種",
+      "topics": [
+        "bcg",
+        "hepa",
+        "hepb",
+        "tdap",
+        "hib",
+        "polio",
+        "je",
+        "mmr",
+        "influenza",
+        "varicella",
+        "pneumococcal"
+      ],
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "TW_Contraindications_existing",
+      "title": "各項常規疫苗接種禁忌與注意事項",
+      "authority": "Taiwan CDC",
+      "jurisdiction": "Taiwan",
+      "document_version": "112年9月；需搭配較新產品與政策資料",
+      "existing_path": "sources/接種指引/疫苗接種禁忌及注意事項.pdf",
+      "url": "https://www.cdc.gov.tw/File/Get/6HX8tpLSrgLfbqervyCpXA",
+      "expected_text": "禁忌",
+      "topics": [
+        "overview"
+      ],
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    }
+  ]
+}

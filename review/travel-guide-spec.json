@@ -1,0 +1,613 @@
+{
+  "note": "人工核對之原文片段定位；中文為整理譯文，不是逐字引文。外國產品／建議不等於台灣核准、供應或公費政策。",
+  "guides": [
+    {
+      "id": "yellow-fever",
+      "title": "黃熱病疫苗",
+      "names": [
+        "黃熱病疫苗"
+      ],
+      "diseases": [
+        "黃熱病"
+      ],
+      "scope": "UK Green Book 2024；Stamaril 製劑及旅客評估。不是依國家警示自動開立接種處方。",
+      "sections": [
+        {
+          "label": "劑量",
+          "text": "初次劑量為重配後 0.5 mL；是否需追加，仍須依特定族群及建議間隔評估。",
+          "source": "UK_YellowFever_2024",
+          "page": 3,
+          "quotes": [
+            "First dose is 0.5ml of reconstituted vaccine.",
+            "Further doses should be given at the recommended intervals if required."
+          ]
+        },
+        {
+          "label": "出發前時間",
+          "text": "前往流行區至少 10 天前接種，以建立保護力並讓需要的接種證明生效。",
+          "source": "UK_YellowFever_2024",
+          "page": 4,
+          "quotes": [
+            "Immunisation should be performed at least ten days prior to travel to an endemic area to allow protective immunity to develop and for the ICVP (if required) to become valid."
+          ]
+        },
+        {
+          "label": "禁忌評估",
+          "text": "須核對禁忌清單，包含未滿 6 個月、先前疫苗／成分嚴重過敏、胸腺相關病史及免疫抑制等。完整限制請看此頁；不能只依這段摘要判定可接種。",
+          "source": "UK_YellowFever_2024",
+          "page": 7,
+          "quotes": [
+            "those aged under six months",
+            "those who have had a confirmed anaphylaxis reaction to a previous dose of yellow fever vaccine",
+            "those who have a history of thymus disorder or thymectomy for any reason",
+            "those who are immunosuppressed as a result of treatment"
+          ]
+        },
+        {
+          "label": "雞蛋過敏的特殊評估",
+          "text": "本英國章節另說明雞蛋過敏可由專科評估；極高感染風險時可能需專業脫敏處理。不可把這段解讀成一般門診可以直接接種。",
+          "source": "UK_YellowFever_2024",
+          "page": 8,
+          "quotes": [
+            "Egg allergy is therefore a relative contraindication to yellow fever vaccination.",
+            "Guidance should be sought from an allergy specialist in individuals with a history of confirmed ongoing allergy to eggs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cholera",
+      "title": "霍亂疫苗：Dukoral 與 Vaxchora 分開看",
+      "names": [
+        "霍亂疫苗",
+        "霍亂",
+        "Dukoral",
+        "Vaxchora"
+      ],
+      "diseases": [
+        "霍亂"
+      ],
+      "scope": "以下為 UK Green Book 2024 的兩種口服製劑；不表示台灣皆可取得，也不因有霍亂警示就必須接種。",
+      "sections": [
+        {
+          "label": "Dukoral 劑次",
+          "text": "6 歲以上：2 劑；2 歲至未滿 6 歲：3 劑。各劑至少相隔 1 週；若兩劑間超過 6 週，該英國指引要求重啟基礎療程。",
+          "source": "UK_Cholera_2024",
+          "page": 4,
+          "quotes": [
+            "Adults and children from six years of age (two doses given orally):",
+            "Children from two to below six years of age (three doses given orally):",
+            "Second dose at least one week later (if more than six weeks have elapsed between doses, the primary immunisation course should be re-started)."
+          ]
+        },
+        {
+          "label": "Vaxchora 劑次與時間",
+          "text": "2 歲以上單次口服；至少在可能暴露前 10 天完成。2 至未滿 6 歲的緩衝液調配方式不同，請核對原表與仿單。",
+          "source": "UK_Cholera_2024",
+          "page": 5,
+          "quotes": [
+            "A single oral dose should be administered at least 10 days prior to potential exposure to V. cholerae O1."
+          ],
+          "region": [
+            0,
+            130,
+            595,
+            250
+          ]
+        },
+        {
+          "label": "禁忌與藥物交互作用",
+          "text": "嚴重過敏、急性腸胃道／發燒疾病須評估。Vaxchora 為活性製劑，免疫抑制者禁用；抗生素及 chloroquine 另有時間限制，請逐項核對原頁。",
+          "source": "UK_Cholera_2024",
+          "page": 8,
+          "quotes": [
+            "Vaccination should be postponed for those suffering from acute gastrointestinal illness or acute febrile illness.",
+            "are immunosuppressed",
+            "have received oral or parenteral antibiotics within 14 days prior to vaccination.",
+            "Administer Vaxchora at least 10 days before beginning antimalarial prophylaxis with chloroquine."
+          ]
+        },
+        {
+          "label": "免疫抑制與孕哺",
+          "text": "不能把 Dukoral 與 Vaxchora 的孕哺、免疫抑制建議互換；此頁列出兩者的不同考量。",
+          "source": "UK_Cholera_2024",
+          "page": 9,
+          "quotes": [
+            "Vaxchora is contraindicated in individuals with immunosuppression.",
+            "If the risk of cholera is high, the inactivated vaccine Dukoral should be considered in these circumstances."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rabies",
+      "title": "狂犬病：旅客暴露前接種",
+      "names": [
+        "狂犬病疫苗"
+      ],
+      "diseases": [],
+      "scope": "旅客劑次優先採台灣疾管署 115/3/26 函；以下不是被動物咬傷後的完整處置流程。",
+      "sections": [
+        {
+          "label": "台灣旅客 PrEP 劑次",
+          "text": "有動物暴露風險或難以取得安全 PEP、且暴露期間 ≤3 年的旅客：免疫正常者第 0、7 天共 2 劑；免疫低下者第 0、7、21 或 28 天共 3 劑。職業暴露另有規定，不能套用此旅客條件。",
+          "source": "TW_Rabies_PrEP_2026",
+          "page": 1,
+          "quotes": [
+            "有暴露狂犬病動物風險或難以取得安全的暴露後預防處置(PEP)且暴露期間≦3年之旅遊者，免疫力正常者接種2劑次(接種時程為第0、7天)，免疫力低下者接種3劑次(接種時程為第0、7、21或28天)。"
+          ],
+          "region": [
+            80,
+            520,
+            540,
+            620
+          ]
+        },
+        {
+          "label": "暴露前接種禁忌",
+          "text": "WHO 旅遊指引列有疫苗成分嚴重過敏的限制；這是暴露前評估，不能拿來自行延誤暴露後就醫。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 46,
+          "quotes": [
+            "Severe allergy to components of the vaccine"
+          ]
+        },
+        {
+          "label": "已打 PrEP，咬傷後仍須就醫",
+          "text": "疑似接觸狂犬病仍需立即就醫評估 PEP；曾完成疫苗接種者，也可能仍需要傷口處理與追加接種。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 48,
+          "quotes": [
+            "A traveller suspected of being in contact with rabies in areas at risk of rabies may require PEP. In this situation, immediate medical advice should be obtained.",
+            "This should be combined with thorough wound treatment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "typhoid",
+      "title": "傷寒疫苗：Vi 與 Ty21a",
+      "names": [
+        "傷寒疫苗"
+      ],
+      "diseases": [],
+      "scope": "以下劑次是英國 Green Book 2022 的 Vi／Ty21a 方案；美國 Ty21a 與其他製劑方案不同。新版 WHO 2026 TCV 文件另附，不能把三者合併。",
+      "sections": [
+        {
+          "label": "英國製劑劑次表",
+          "text": "Vi 注射型：2 歲以上 1 劑 0.5 mL。Ty21a 口服活性型：英國為 5 歲以上，於第 0、2、4 天各 1 粒，共 3 粒。請按實際產品與所在地仿單決定。",
+          "source": "UK_Typhoid",
+          "page": 4,
+          "quotes": [
+            "A single dose of 0.5ml of Vi vaccine is recommended for adults and children over the age of two years.",
+            "The Ty21a capsule is taken on alternate days (the first capsule on day 0, the second capsule on day 2 and the third on day 4)."
+          ]
+        },
+        {
+          "label": "禁忌",
+          "text": "Vi：先前對含 Vi 抗原疫苗全身性嚴重過敏者禁用。Ty21a：免疫抑制、或對其成分／膠囊（含明膠）全身性嚴重過敏者禁用；不能把舊型非 Vi 疫苗反應一律當成 Vi 禁忌。",
+          "source": "UK_Typhoid",
+          "page": 6,
+          "quotes": [
+            "a confirmed anaphylaxis to a Vi antigen-containing vaccine",
+            "who are immunosuppressed",
+            "who have had confirmed anaphylaxis to any component of the Ty21a vaccine"
+          ]
+        },
+        {
+          "label": "抗生素與急性腸胃病",
+          "text": "Ty21a 的抗生素、抗瘧藥時間間隔與急性腸胃道疾病注意事項，請核對原頁；不要直接套用注射型 Vi 的規則。",
+          "source": "UK_Typhoid",
+          "page": 7,
+          "quotes": [
+            "In the event of a gastrointestinal illness, vaccination with the Ty21a vaccine should be postponed until after recovery.",
+            "Ty21a vaccine should not be commenced within three days of completing any antibacterial agents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hepa",
+      "title": "A 型肝炎疫苗",
+      "names": [
+        "A型肝炎疫苗",
+        "A肝疫苗"
+      ],
+      "diseases": [],
+      "scope": "WHO 2025 旅遊指引的國際概述；活性與不活化製劑、國家政策不同。台灣個別時程請再核對成人／兒童時程頁。",
+      "sections": [
+        {
+          "label": "劑次與製劑",
+          "text": "不活化疫苗通常採 2 劑，免疫低下者尤其如此；WHO 另討論健康族群單劑效益。不可把這段當成台灣所有產品都只需要 1 劑。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 25,
+          "quotes": [
+            "A two-dose schedule is usually recommended, particularly for immunocompromised individuals."
+          ]
+        },
+        {
+          "label": "禁忌與行前時間",
+          "text": "先前劑次嚴重過敏是禁忌；第一劑後約 2–4 週建立保護。即使接近出發日，仍可評估接種，不要自行認定已來不及。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 24,
+          "quotes": [
+            "Severe allergic reaction to previous dose",
+            "protection is achieved within 2–4 weeks after the first dose."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mmr",
+      "title": "MMR／含麻疹疫苗",
+      "names": [
+        "麻疹、腮腺炎及德國麻疹混合(MMR)疫苗",
+        "MMR"
+      ],
+      "diseases": [
+        "麻疹",
+        "德國麻疹"
+      ],
+      "scope": "WHO 2025 含麻疹疫苗旅遊章節；幼兒提早接種與日後常規劑次需分開。",
+      "sections": [
+        {
+          "label": "劑次與時間",
+          "text": "WHO 列出 2 劑、至少相隔 4 週，建議出發前至少 15 天接種；幼兒額外提早接種的劑次須另依國家常規時程安排。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 37,
+          "quotes": [
+            "Two subcutaneous doses are administered at an interval of at least 4 weeks.",
+            "WHO recommends that travellers be vaccinated against measles at least 15 days before travel."
+          ]
+        },
+        {
+          "label": "禁忌與暫緩",
+          "text": "成分嚴重過敏、懷孕及符合定義的重度免疫抑制為重要禁忌；高燒或嚴重急性疾病應暫緩。請核對原表完整免疫狀態條件。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 36,
+          "quotes": [
+            "Contraindications for MCVs include a history of anaphylactic reactions or severe allergic reactions to any component of the vaccine, pregnancy and immunosuppression"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "je",
+      "title": "日本腦炎疫苗：先辨認製劑",
+      "names": [
+        "日本腦炎疫苗",
+        "日本腦炎"
+      ],
+      "diseases": [],
+      "scope": "WHO 2025 國際概述；不能將 IXIARO 不活化、活性減毒及台灣 JE-CV 的時程互換。",
+      "sections": [
+        {
+          "label": "暴露風險與劑次",
+          "text": "需依季節、停留時間與戶外活動評估。此 WHO 表列不活化 Vero 細胞製劑基礎 2 劑、相隔 4 週；其他活性製劑方案不同，請核對產品與年齡。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 33,
+          "quotes": [
+            "The primary series requires two intramuscular doses at 4-week intervals",
+            "the risk varies according to season, destination, duration of travel and activities."
+          ]
+        },
+        {
+          "label": "禁忌與懷孕／免疫抑制",
+          "text": "先前劑次過敏反應是禁忌；活性製劑在懷孕、免疫抑制情境須特別避用／評估，不能與不活化疫苗混為一談。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 33,
+          "quotes": [
+            "A hypersensitivity reaction to a previous dose is a contraindication.",
+            "the live attenuated vaccine should not be given to pregnant women or immunocompromised individuals."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meningococcal",
+      "title": "流行性腦脊髓膜炎／腦膜炎雙球菌疫苗",
+      "names": [
+        "流行性腦脊髓膜炎疫苗",
+        "腦膜炎雙球菌",
+        "MenACWY"
+      ],
+      "diseases": [],
+      "scope": "WHO 2025 國際概述；ACWY、B、ACWYX 等產品不互換。朝覲入境另核對指定年度沙烏地規定。",
+      "sections": [
+        {
+          "label": "劑次與出發前時間",
+          "text": "結合型疫苗基礎系列可為 1–3 劑，依產品、年齡及免疫狀態決定；宜在出發前 10–14 天施打。不是所有旅客都只打一劑。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 38,
+          "quotes": [
+            "For conjugate vaccines: primary series of one to three intramuscular doses with subsequent boosters.",
+            "Preferably given 10−14 days before travel"
+          ]
+        },
+        {
+          "label": "禁忌",
+          "text": "疫苗成分曾造成嚴重過敏反應者禁用。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 38,
+          "quotes": [
+            "Severe allergic reaction to vaccine components"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polio",
+      "title": "小兒麻痺疫苗／出入境接種證明",
+      "names": [
+        "小兒麻痺疫苗",
+        "小兒麻痺",
+        "IPV"
+      ],
+      "diseases": [
+        "小兒麻痺症/急性無力肢體麻痺"
+      ],
+      "scope": "WHO 2025 旅遊章節；出入境追加規定隨疫情變動，與常規補種不是同一個規則。",
+      "sections": [
+        {
+          "label": "先完成常規系列",
+          "text": "前往流行地區前，先依本國時程完成符合年齡的基礎接種。已完成系列者是否追加，以及受影響國家居民／長期停留者的離境接種要求，請核對原頁與最新規定。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 45,
+          "quotes": [
+            "people from polio-free countries should ensure that they have completed the age-appropriate polio vaccination series, according to their respective national immunization schedules."
+          ]
+        },
+        {
+          "label": "禁忌與證明",
+          "text": "成分嚴重過敏是禁忌；旅客應攜帶書面接種紀錄，必要時使用國際預防接種證明。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 44,
+          "quotes": [
+            "Severe allergy to vaccine components",
+            "All travellers are advised to carry their written vaccination record"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malaria",
+      "title": "瘧疾預防用藥：不是旅客疫苗",
+      "names": [
+        "瘧疾預防用藥",
+        "瘧疾"
+      ],
+      "diseases": [
+        "瘧疾"
+      ],
+      "scope": "處方箋的這一項是預防用藥，不應列成旅客要打的疫苗。完整用藥禁忌、起迄時間另見 WHO 瘧疾專冊。",
+      "sections": [
+        {
+          "label": "旅客預防方式",
+          "text": "WHO 指出瘧疾疫苗不適用於一般旅客（包含旅行兒童）；應評估預防用藥並做好防蚊。不要把流行區兒童疫苗政策套用到出國旅客。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 36,
+          "quotes": [
+            "The vaccine is not indicated for travellers, including travelling children, who should use chemoprophylaxis and vector control methods to prevent malaria when travelling to endemic settings."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "covid",
+      "title": "COVID-19 疫苗",
+      "names": [
+        "COVID-19疫苗",
+        "新冠疫苗"
+      ],
+      "diseases": [
+        "新冠併發重症",
+        "嚴重特殊傳染性肺炎"
+      ],
+      "scope": "WHO 2025 旅遊概述；本頁不依目的地自動計算 COVID 追加劑次，當期台灣產品與政策請回成人時程核對。",
+      "sections": [
+        {
+          "label": "優先評估與禁忌",
+          "text": "高優先族群（如年長、共病、免疫低下旅客）應優先評估；對成分曾有全身性嚴重過敏反應是禁忌。劑次須依實際產品及當期政策。",
+          "source": "WHO_ITH_Module4_2025",
+          "page": 19,
+          "quotes": [
+            "Travellers in high-priority use groups",
+            "History of anaphylaxis to any component of the vaccine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "routine",
+      "title": "例行性預防接種",
+      "names": [
+        "例行性預防接種"
+      ],
+      "diseases": [],
+      "scope": "這是原始處方箋的總項目，不是一種疫苗。請依年齡、免疫狀態與既往接種紀錄查看本網站成人／兒童時程及補種頁。",
+      "sections": [
+        {
+          "label": "成人時程原表導覽",
+          "text": "開啟台灣疾管署成人時程原表；本連結定位表題，不把整張表視為個人接種處方。",
+          "source": "TW_AdultSchedule_existing",
+          "page": 1,
+          "quotes": [
+            "成人預防接種建議時程表"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dengue",
+      "title": "登革熱：Qdenga（歐洲產品資料）",
+      "names": [
+        "登革熱疫苗",
+        "登革熱",
+        "Qdenga"
+      ],
+      "diseases": [
+        "登革熱"
+      ],
+      "scope": "EMA 產品資料，2026-09-04 更新條目；產品核准不等於所有旅客都適合，須另評估既往感染、目的地風險與國家政策。不是台灣供應／公費聲明。",
+      "sections": [
+        {
+          "label": "產品劑次",
+          "text": "Qdenga 為活性減毒疫苗。歐洲仿單適用 4 歲以上，0、3 個月各 0.5 mL，共 2 劑、皮下注射；不能當成普遍旅客建議。",
+          "source": "EMA_Qdenga",
+          "page": 3,
+          "quotes": [
+            "Individuals from 4 years of age",
+            "Qdenga should be administered as a 0.5 mL dose at a two-dose (0 and 3 months) schedule.",
+            "administered by subcutaneous injection"
+          ]
+        },
+        {
+          "label": "禁忌",
+          "text": "成分／先前劑次過敏、符合仿單定義的免疫缺乏或免疫抑制治療、特定 HIV 免疫狀態、懷孕及哺乳者禁用；請核對完整條件。",
+          "source": "EMA_Qdenga",
+          "page": 3,
+          "quotes": [
+            "Hypersensitivity to the active substances",
+            "Individuals with congenital or acquired immune deficiency",
+            "Pregnant women",
+            "Breast-feeding women"
+          ]
+        },
+        {
+          "label": "重要限制",
+          "text": "接種後仍需防蚊；保護不涵蓋所有接種者／血清型。60 歲以上缺乏資料，共病資料有限；育齡女性接種後至少 1 個月避免懷孕。",
+          "source": "EMA_Qdenga",
+          "page": 4,
+          "quotes": [
+            "There are no data on the use of Qdenga in subjects above 60 years of age and limited data in patients with chronic medical conditions.",
+            "women of childbearing potential should avoid pregnancy for at least one month following vaccination"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chikungunya",
+      "title": "屈公病：VIMKUNYA（美國產品資料）",
+      "names": [
+        "屈公病疫苗",
+        "VIMKUNYA"
+      ],
+      "diseases": [
+        "屈公病"
+      ],
+      "scope": "這是 FDA VIMKUNYA 重組疫苗資料，不能與活性 IXCHIQ 合併。適用於 12 歲以上的美國產品標示，不等於所有疫區旅客都需接種；台灣核准與供應另查。原 PDF 修訂欄仍為 X/XXXX，日期未確認。",
+      "sections": [
+        {
+          "label": "劑次",
+          "text": "VIMKUNYA 單次 0.8 mL 肌肉注射。這是產品劑量，不是依旅遊警示等級自動開立的處方。",
+          "source": "FDA_Vimkunya",
+          "page": 2,
+          "quotes": [
+            "Administer VIMKUNYA as a single 0.8 mL dose.",
+            "Administer VIMKUNYA intramuscularly."
+          ]
+        },
+        {
+          "label": "禁忌",
+          "text": "曾對 VIMKUNYA 成分發生嚴重過敏（如全身性過敏反應）者不得接種。",
+          "source": "FDA_Vimkunya",
+          "page": 2,
+          "quotes": [
+            "Do not administer VIMKUNYA to individuals with a history of a severe allergic reaction"
+          ]
+        },
+        {
+          "label": "注意事項",
+          "text": "免疫低下者可能免疫反應較弱；現場須能處理嚴重過敏，並注意昏厥跌倒風險。",
+          "source": "FDA_Vimkunya",
+          "page": 3,
+          "quotes": [
+            "may have a diminished immune response to VIMKUNYA.",
+            "Appropriate medical treatment must be immediately available",
+            "Syncope (fainting) may occur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mpox",
+      "title": "M 痘：JYNNEOS（美國產品資料）",
+      "names": [
+        "M痘疫苗",
+        "猴痘疫苗",
+        "JYNNEOS"
+      ],
+      "diseases": [
+        "M痘"
+      ],
+      "scope": "FDA JYNNEOS 皮下注射產品資料；原 PDF 修訂日期為 MM/YYYY，未確認。此標示針對 18 歲以上高風險成人；不能僅因目的地有 M 痘警示就判定適合，也不能直接套用皮內注射方案。",
+      "sections": [
+        {
+          "label": "劑次",
+          "text": "此仿單為每劑 0.5 mL 皮下注射，2 劑相隔 4 週。",
+          "source": "FDA_Jynneos",
+          "page": 4,
+          "quotes": [
+            "Administer each 0.5 mL dose of JYNNEOS subcutaneously.",
+            "Administer two doses (0.5 mL each) of JYNNEOS 4 weeks apart."
+          ]
+        },
+        {
+          "label": "嚴重過敏風險評估",
+          "text": "先前劑次或成分嚴重過敏者可能再發生嚴重反應；本仿單要求將過敏風險與疾病風險權衡，而非直接寫成所有情境一律禁打。",
+          "source": "FDA_Jynneos",
+          "page": 4,
+          "quotes": [
+            "The risk for a severe allergic reaction should be weighed against the risk for disease due to smallpox or mpox."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tbe",
+      "title": "蜱媒腦炎：TICOVAC（美國產品資料）",
+      "names": [
+        "蜱媒腦炎",
+        "壁蝨腦炎",
+        "TICOVAC",
+        "TBE"
+      ],
+      "diseases": [],
+      "scope": "FDA TICOVAC 產品資料，與其他 TBE 製劑不可混用。原 PDF 的修訂日期／初次美國核准年份有佔位文字，未當成確定日期。台灣供應與個人戶外暴露風險需另評估。",
+      "sections": [
+        {
+          "label": "劑次表",
+          "text": "基礎系列 3 劑：1–15 歲每劑 0.25 mL、16 歲以上每劑 0.5 mL。第 2 劑依年齡採不同間隔，第 3 劑為第 2 劑後 5–12 個月；請直接核對原表，不使用單一通用間隔。",
+          "source": "FDA_Ticovac",
+          "page": 3,
+          "quotes": [
+            "1 through 15 years of age: each dose 0.25 mL",
+            "16 years of age and older: each dose 0.5 mL",
+            "Primary Vaccination: Three doses",
+            "Primary Vaccination Schedule - TICOVAC"
+          ]
+        },
+        {
+          "label": "完成時間／追加",
+          "text": "至少在可能暴露前 1 週完成基礎系列；若持續或再次暴露，可於完成基礎系列至少 3 年後追加。",
+          "source": "FDA_Ticovac",
+          "page": 3,
+          "quotes": [
+            "Complete the primary immunization series at least 1 week prior to potential exposure",
+            "A booster dose (fourth dose) may be given at least 3 years after completion"
+          ]
+        },
+        {
+          "label": "禁忌與注意",
+          "text": "對成分嚴重過敏者禁用；免疫功能改變者可能免疫反應較弱。",
+          "source": "FDA_Ticovac",
+          "page": 4,
+          "quotes": [
+            "Severe allergic reaction (e.g. anaphylaxis) to any component of TICOVAC",
+            "Some individuals with altered immunocompetence may have reduced immune responses to TICOVAC."
+          ]
+        }
+      ]
+    }
+  ]
+}

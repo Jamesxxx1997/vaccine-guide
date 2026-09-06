@@ -50,7 +50,7 @@ const change=(id,value,event='change')=>{doc.getElementById(id).value=value;doc.
       while(walker.nextNode()){
         const n=walker.currentNode;
         if(!/[a-z0-9\u3400-\u9fff]/i.test(n.textContent))continue;
-        assert(n.parentElement.closest('.ref-target,button,select,option,input,textarea,script,style,code'),
+        assert(n.parentElement.closest('.ref-target,button,select,option,input,textarea,script,style,code,[data-ref-ui]'),
           section.id+' uncovered: '+n.textContent);
       }
     }

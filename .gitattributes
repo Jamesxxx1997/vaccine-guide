@@ -1,0 +1,2 @@
+# Official snapshots are hash-bound original bytes; never normalize line endings.
+/data/travel/sources/*.csv -text

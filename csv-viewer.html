@@ -18,12 +18,16 @@
     </div>
     <h1 id="viewer-title">CSV 完整表格</h1>
     <p>直接查看原始資料快照，無需下載。可在表格內上下左右捲動、搜尋或切換下一批；需要檔案時再選「下載原始 CSV」。</p>
+    <p id="travelViewerStatus" role="status"></p>
   </header>
   <main id="csv-viewer" aria-label="CSV 原始資料視覺化">
     <p role="status">正在載入 CSV 表格…</p>
   </main>
   <noscript>請啟用 JavaScript 以查看互動表格；原始 CSV 仍保存在本站 sources/旅遊/ 目錄。</noscript>
   <script src="review/reference-tables.js"></script>
+  <script src="review/travel-current.js"></script>
+  <script src="review/travel-sync-status.js"></script>
+  <script src="travel-data.js"></script>
   <script src="reference-tables.js"></script>
   <script src="csv-viewer.js"></script>
 </body>

@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
 """
-從疾管署開放資料更新旅遊疫情與旅遊疫苗建議，並直接寫回 index.html。
+從疾管署開放資料更新旅遊資料包；--offline 僅供重現舊 index.html 存檔。
 
 用法：
-    python3 update_travel.py            # 下載最新資料並更新 index.html
+    python3 update_travel.py            # 呼叫 tools/sync_travel_data.mjs，完整 TLS 驗證
     python3 update_travel.py --offline  # 用 sources/旅遊/ 既有 CSV，不重新下載
 
 資料來源（皆為疾管署開放資料，非爬網頁）：
     國際旅遊疫情建議等級  https://od.cdc.gov.tw/cdc/TCDCTravelAlert.csv        （每日更新）
     國際旅遊處方箋        https://od.cdc.gov.tw/quarantine/TMPrescription.csv  （每月更新）
 
-GOTCHA：od.cdc.gov.tw 的憑證鏈不完整（缺中繼憑證），標準 curl/requests 會報
-        "unable to get local issuer certificate"。這裡用 curl -k 取得；
-        若要嚴格驗證，需先補齊中繼憑證到 CA bundle。
+現行更新由 Node 同步器處理來源驗證及原子更新；不使用停用 TLS 驗證的下載方式。
 """
 import csv, io, json, re, subprocess, sys, datetime, pathlib
 
@@ -35,19 +33,6 @@ UNIVERSAL_THRESHOLD = 150
 BLANKET_THRESHOLD = 200
 
 LEVEL_RANK = {"第三級:警告(Warning)": 3, "第二級:警示(Alert)": 2, "第一級:注意(Watch)": 1}
-
-
-def download():
-    CSV_DIR.mkdir(parents=True, exist_ok=True)
-    for name, url in SOURCES.items():
-        dest = CSV_DIR / name
-        print(f"  下載 {name} …", end=" ", flush=True)
-        r = subprocess.run(["curl", "-sSk", "--max-time", "120", "-o", str(dest),
-                            "-w", "%{http_code}", url], capture_output=True, text=True)
-        code = r.stdout.strip()
-        if code != "200" or not dest.exists() or dest.stat().st_size == 0:
-            sys.exit(f"\n✗ 下載失敗（HTTP {code}）：{url}")
-        print(f"HTTP {code}  {dest.stat().st_size//1024} KB")
 
 
 def read_csv(name):
@@ -186,11 +171,12 @@ def write_html(meta, data):
 
 
 if __name__ == "__main__":
-    if "--offline" not in sys.argv:
-        print("下載疾管署開放資料：")
-        download()
-    else:
-        print("離線模式，使用既有 CSV")
+    # Preserve this module only to reproduce the historical 2026-08-07 archive.
+    # Its historical tie handling must not feed new production datasets.
+    if '--offline' not in sys.argv:
+        print('已改用具資料驗證、歷史名稱處理及失敗保留機制的同步程式。')
+        sys.exit(subprocess.run(['node', str(ROOT / 'tools/sync_travel_data.mjs')]).returncode)
+    print("離線模式，使用既有 CSV；此操作只重現歷史存檔")
     snapshot_date = None
     if '--offline' in sys.argv:
         old_meta = re.search(r'const TRAVEL_META=(.*?);', HTML.read_text(encoding='utf-8'))

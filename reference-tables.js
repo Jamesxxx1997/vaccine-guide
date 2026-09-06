@@ -24,7 +24,7 @@ const ReferenceTables=(()=>{
       if(data.disease&&value(table,row,'alert_disease').trim()!==data.disease)return false;
       if(data.date&&!value(table,row,'effective').startsWith(data.date))return false;
       if(data.detail!==undefined&&value(table,row,'areaDetail').trim()!==data.detail)return false;
-      if(data.level&& !value(table,row,'severity_level').startsWith(['','第一級','第二級','第三級'][+data.level]))return false;
+      if(data.level!==undefined&&data.level!==null&&data.level!==''&&!value(table,row,'severity_level').startsWith(['解除','第一級','第二級','第三級'][+data.level]))return false;
       if(data.vaccine&&value(table,row,'疫苗').trim()!==data.vaccine)return false;
       return true;
     });
@@ -42,6 +42,7 @@ const ReferenceTables=(()=>{
     container.classList.add('ref-csv');
     container.innerHTML=`<h3>${esc(table.n)} · CSV 原始資料</h3>
       <div class="ref-meta">資料快照 ${esc(table.v)} · 原檔 ${table.rows.length} 筆${data.country?' · '+esc(data.country):''}</div>
+      ${table.frequency?`<div class="ref-meta">來源更新頻率：${esc(table.frequency)}${table.sourceModified?' · 官方檔案修改時間：'+esc(table.sourceModified):''}；同步日期不等於公告日期。完整原表包含歷史紀錄。</div>`:''}
       ${data.disease&&!matched.length?'<div class="note warn">來源一致性警告：這筆網頁摘要找不到相同目的地、疾病、日期、等級的原始紀錄。請勿把其他地區或等級當成證據；請切換全表核對官方資料。</div>':''}
       ${conflict.length?`<div class="note warn">原檔同日另有不同等級紀錄（資料列 ${conflict.map(r=>r.record).join('、')}）。黃色僅對應網頁顯示等級；本視窗不裁決哪筆公告優先，請查官方最新資料。</div>`:''}
       <div class="ref-csv-controls"><label>範圍 <select aria-label="CSV 顯示範圍"><option value="match">對應紀錄（${matched.length} 筆）</option><option value="all">全部原始資料</option></select></label>

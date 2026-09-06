@@ -1,0 +1,1820 @@
+{
+  "schema_version": 1,
+  "collected_on": "2026-09-06",
+  "note": "PDF archive only; page candidates are text-heading matches, NOT verified quotation coordinates. No clinical rules or website UI changed.",
+  "documents": [
+    {
+      "id": "AU_QVax_ProductInformation",
+      "title": "Q-VAX Q fever vaccine and skin test, Australian product information",
+      "authority": "CSL Seqirus official product labelling; cross-checked TGA registration",
+      "jurisdiction": "Australia",
+      "landing_url": "https://www.cslseqirus.com.au/products",
+      "url": "https://labeling.seqirus.com/PI/AU/Q-Vax/EN/Q-Vax-Product-Information.pdf?locale=en-us",
+      "expected_text": "Q.VAX",
+      "topics": [
+        "q-fever"
+      ],
+      "restriction": "限特定職業／動物暴露風險；接種前篩檢不可省略。不是一般旅遊疫苗。",
+      "path": "sources/旅遊疫苗/2026-09-06/AU_QVax_ProductInformation.pdf",
+      "download_url": "https://labeling.seqirus.com/PI/AU/Q-Vax/EN/Q-Vax-Product-Information.pdf?locale=en-us",
+      "resolved_url": "https://labeling.seqirus.com/PI/AU/Q-Vax/EN/Q-Vax-Product-Information.pdf?locale=en-us",
+      "fetched_at": "2026-09-06T03:27:47.724Z",
+      "inspected_at": "2026-09-06T03:46:31.723Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Tue, 12 May 2026 07:51:39 GMT",
+      "bytes": 305622,
+      "sha256": "0c9de774ad3b8e57a4bb34d7b61c02aebbbaeba2e468e390d514715a075caa50",
+      "pages": 12,
+      "text_characters": 18587,
+      "text_heading_page_candidates": {
+        "schedule": [
+          11
+        ],
+        "contraindications": [
+          3,
+          8
+        ],
+        "precautions": [
+          2,
+          3,
+          4,
+          8,
+          9,
+          10
+        ],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "Version 8; 2026-04-09 (PDF date of revision)"
+    },
+    {
+      "id": "CDC_Cholera_ACIP_existing",
+      "title": "Cholera vaccine: ACIP recommendations 2022",
+      "authority": "US CDC / ACIP",
+      "jurisdiction": "US",
+      "document_version": "2022-09-30",
+      "existing_path": "sources/國際官方指引/CDC_Cholera_ACIP_2022.pdf",
+      "url": "https://www.cdc.gov/mmwr/volumes/71/rr/pdfs/rr7102a1-H.pdf",
+      "expected_text": "cholera",
+      "topics": [
+        "cholera"
+      ],
+      "path": "sources/國際官方指引/CDC_Cholera_ACIP_2022.pdf",
+      "download_url": "https://www.cdc.gov/mmwr/volumes/71/rr/pdfs/rr7102a1-H.pdf",
+      "resolved_url": "https://www.cdc.gov/mmwr/volumes/71/rr/pdfs/rr7102a1-H.pdf",
+      "fetched_at": null,
+      "inspected_at": "2026-09-06T03:46:32.177Z",
+      "content_type": null,
+      "last_modified_header": null,
+      "bytes": 558514,
+      "sha256": "af2900e5927a8d5aa21e47d0f8b033b04aec6813a7068a1fe0e60bcbbb91c3c7",
+      "pages": 12,
+      "text_characters": 69548,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2,
+          5
+        ],
+        "contraindications": [
+          8
+        ],
+        "precautions": [
+          8
+        ],
+        "travel": [
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "CDC_TBE_ACIP_2023",
+      "title": "Tick-borne encephalitis vaccine: ACIP recommendations, United States, 2023",
+      "authority": "US CDC / ACIP",
+      "jurisdiction": "US",
+      "document_version": "2023-11-10",
+      "landing_url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7205a1.htm",
+      "url": "https://www.cdc.gov/mmwr/volumes/72/rr/pdfs/rr7205a1-H.pdf",
+      "expected_text": "Encephalitis Vaccine",
+      "topics": [
+        "tbe"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/CDC_TBE_ACIP_2023.pdf",
+      "download_url": "https://www.cdc.gov/mmwr/volumes/72/rr/pdfs/rr7205a1-H.pdf",
+      "resolved_url": "https://www.cdc.gov/mmwr/volumes/72/rr/pdfs/rr7205a1-H.pdf",
+      "fetched_at": "2026-09-06T03:27:49.371Z",
+      "inspected_at": "2026-09-06T03:46:31.907Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Tue, 23 Apr 2024 21:34:35 GMT",
+      "bytes": 611924,
+      "sha256": "f36ce2b007017163fcdaefcb209a2b1917a481a195e9c9afd266108bbf8574c9",
+      "pages": 32,
+      "text_characters": 219023,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2,
+          11,
+          12,
+          18,
+          19,
+          29
+        ],
+        "contraindications": [
+          2,
+          19
+        ],
+        "precautions": [
+          2,
+          3,
+          10,
+          17,
+          18,
+          19
+        ],
+        "travel": [
+          3,
+          4,
+          8,
+          9,
+          10,
+          16,
+          17,
+          18,
+          19,
+          20,
+          26,
+          27
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "EMA_Dukoral_existing",
+      "title": "Dukoral product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "document_version": "2022; downloaded 2026-09-05",
+      "existing_path": "sources/國際官方指引/EMA_Dukoral_2022.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/dukoral-epar-product-information_en.pdf",
+      "expected_text": "Dukoral",
+      "topics": [
+        "cholera"
+      ],
+      "path": "sources/國際官方指引/EMA_Dukoral_2022.pdf",
+      "download_url": "https://www.ema.europa.eu/en/documents/product-information/dukoral-epar-product-information_en.pdf",
+      "resolved_url": "https://www.ema.europa.eu/en/documents/product-information/dukoral-epar-product-information_en.pdf",
+      "fetched_at": null,
+      "inspected_at": "2026-09-06T03:46:32.091Z",
+      "content_type": null,
+      "last_modified_header": null,
+      "bytes": 604855,
+      "sha256": "fca975029b060a8f28ecf6c815ebfb35828d104e9e93674c17d30743e990435a",
+      "pages": 27,
+      "text_characters": 38797,
+      "text_heading_page_candidates": {
+        "schedule": [
+          3,
+          6,
+          25
+        ],
+        "contraindications": [
+          3
+        ],
+        "precautions": [
+          3,
+          8,
+          15,
+          17,
+          18,
+          23
+        ],
+        "travel": [
+          2
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "EMA_Ervebo",
+      "title": "Ervebo product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "landing_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ervebo",
+      "pdf_pattern": "/en/documents/product-information/.*_en\\.pdf",
+      "expected_text": "Ervebo",
+      "topics": [
+        "ebola"
+      ],
+      "restriction": "Zaire ebolavirus 特定風險／公衛用途；不是所有伊波拉病毒種、也不是一般旅行常規疫苗。",
+      "path": "sources/旅遊疫苗/2026-09-06/EMA_Ervebo.pdf",
+      "download_url": "https://www.ema.europa.eu/en/documents/product-information/ervebo-epar-product-information_en.pdf",
+      "resolved_url": "https://www.ema.europa.eu/en/documents/product-information/ervebo-epar-product-information_en.pdf",
+      "fetched_at": "2026-09-06T03:22:30.351Z",
+      "inspected_at": "2026-09-06T03:46:31.693Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Fri, 16 Jan 2026 15:14:02 GMT",
+      "bytes": 333801,
+      "sha256": "b75e6941e4987f3d1f6dad6beef31b8b8f4b23f697166b6547b7839c27679b30",
+      "pages": 32,
+      "text_characters": 75828,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2
+        ],
+        "contraindications": [
+          3
+        ],
+        "precautions": [
+          3,
+          15,
+          22,
+          26,
+          31
+        ],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "EMA_Ixchiq",
+      "title": "Ixchiq product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "document_version": "product-information entry updated 2026-08-24; overview updated 2026-09-01",
+      "landing_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ixchiq",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/ixchiq-epar-product-information_en.pdf",
+      "expected_text": "Ixchiq",
+      "topics": [
+        "chikungunya"
+      ],
+      "restriction": "僅作歐洲高感染風險對象之產品資料；美國已停用／撤回狀態不得被歐洲核准抵銷。需顯示年長者／共病嚴重不良反應警語，不可與 VIMKUNYA 合併。",
+      "path": "sources/旅遊疫苗/2026-09-06/EMA_Ixchiq.pdf",
+      "download_url": "https://www.ema.europa.eu/en/documents/product-information/ixchiq-epar-product-information_en.pdf",
+      "resolved_url": "https://www.ema.europa.eu/en/documents/product-information/ixchiq-epar-product-information_en.pdf",
+      "fetched_at": "2026-09-06T03:29:43.625Z",
+      "inspected_at": "2026-09-06T03:46:31.492Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Mon, 24 Aug 2026 14:14:16 GMT",
+      "bytes": 474141,
+      "sha256": "c58f57e545ab8372fe939360d5cefa7a1c6e7a2973fbd64c0a67b0807253af91",
+      "pages": 34,
+      "text_characters": 56669,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2
+        ],
+        "contraindications": [
+          3
+        ],
+        "precautions": [
+          3,
+          12,
+          21,
+          26
+        ],
+        "travel": [
+          26
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "EMA_Ixiaro",
+      "title": "IXIARO product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "landing_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ixiaro",
+      "pdf_pattern": "/en/documents/product-information/.*_en\\.pdf",
+      "expected_text": "IXIARO",
+      "topics": [
+        "je"
+      ],
+      "restriction": "與台灣 JE-CV 活性減毒製劑分開。",
+      "path": "sources/旅遊疫苗/2026-09-06/EMA_Ixiaro.pdf",
+      "download_url": "https://www.ema.europa.eu/en/documents/product-information/ixiaro-epar-product-information_en.pdf",
+      "resolved_url": "https://www.ema.europa.eu/en/documents/product-information/ixiaro-epar-product-information_en.pdf",
+      "fetched_at": "2026-09-06T03:22:29.758Z",
+      "inspected_at": "2026-09-06T03:46:31.571Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Fri, 08 May 2026 10:25:17 GMT",
+      "bytes": 430135,
+      "sha256": "71332075b50a86d4e73dcb323ed59ed5191431918b32ec77b77c2a8e46d026db",
+      "pages": 34,
+      "text_characters": 69564,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2,
+          3,
+          5,
+          8,
+          10,
+          11,
+          12,
+          30,
+          31
+        ],
+        "contraindications": [
+          4
+        ],
+        "precautions": [
+          4,
+          17,
+          25,
+          29,
+          30
+        ],
+        "travel": [
+          29
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "EMA_Qdenga",
+      "title": "Qdenga product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "document_version": "product-information entry updated 2026-09-04; not inferred from general page timestamp",
+      "landing_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/qdenga",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/qdenga-epar-product-information_en.pdf",
+      "expected_text": "Qdenga",
+      "topics": [
+        "dengue"
+      ],
+      "restriction": "產品核准、WHO 公衛政策、旅客建議與台灣供應不同；不可互換。",
+      "path": "sources/旅遊疫苗/2026-09-06/EMA_Qdenga.pdf",
+      "download_url": "https://www.ema.europa.eu/en/documents/product-information/qdenga-epar-product-information_en.pdf",
+      "resolved_url": "https://www.ema.europa.eu/en/documents/product-information/qdenga-epar-product-information_en.pdf",
+      "fetched_at": "2026-09-06T03:22:28.833Z",
+      "inspected_at": "2026-09-06T03:46:31.633Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Fri, 04 Sep 2026 14:09:42 GMT",
+      "bytes": 539670,
+      "sha256": "f0e1da92d206a9ab00b8eab81d75d970f8b633f9b7c5ab9ec49d461a2b3745c5",
+      "pages": 49,
+      "text_characters": 106172,
+      "text_heading_page_candidates": {
+        "schedule": [
+          3,
+          34,
+          43
+        ],
+        "contraindications": [
+          3
+        ],
+        "precautions": [
+          4,
+          14,
+          15,
+          24,
+          27,
+          33,
+          34,
+          42,
+          43
+        ],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "EMA_Vaxchora_existing",
+      "title": "Vaxchora product information",
+      "authority": "EMA",
+      "jurisdiction": "EU",
+      "document_version": "2026; downloaded 2026-09-05",
+      "existing_path": "sources/國際官方指引/EMA_Vaxchora_2026.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/vaxchora-epar-product-information_en.pdf",
+      "expected_text": "Vaxchora",
+      "topics": [
+        "cholera"
+      ],
+      "path": "sources/國際官方指引/EMA_Vaxchora_2026.pdf",
+      "download_url": "https://www.ema.europa.eu/en/documents/product-information/vaxchora-epar-product-information_en.pdf",
+      "resolved_url": "https://www.ema.europa.eu/en/documents/product-information/vaxchora-epar-product-information_en.pdf",
+      "fetched_at": null,
+      "inspected_at": "2026-09-06T03:46:32.057Z",
+      "content_type": null,
+      "last_modified_header": null,
+      "bytes": 433282,
+      "sha256": "360513c11ff53f06016a27f3181490309bf6324803f28da2601371cae37b7ece",
+      "pages": 29,
+      "text_characters": 54755,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2
+        ],
+        "contraindications": [
+          3
+        ],
+        "precautions": [
+          3,
+          10,
+          18,
+          22
+        ],
+        "travel": [
+          22,
+          24
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "FDA_Jynneos",
+      "title": "JYNNEOS prescribing information (refrigerator presentation)",
+      "authority": "FDA",
+      "jurisdiction": "US",
+      "landing_url": "https://www.fda.gov/vaccines-blood-biologics/jynneos",
+      "url": "https://www.fda.gov/media/131078/download?attachment",
+      "expected_text": "JYNNEOS",
+      "topics": [
+        "mpox"
+      ],
+      "restriction": "依接觸風險／適用族群評估，不以國家警示自動判定適應症。",
+      "path": "sources/旅遊疫苗/2026-09-06/FDA_Jynneos.pdf",
+      "download_url": "https://www.fda.gov/media/131078/download?attachment",
+      "resolved_url": "https://www.fda.gov/media/131078/download?attachment",
+      "fetched_at": "2026-09-06T03:22:26.966Z",
+      "inspected_at": "2026-09-06T03:46:31.526Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Mon, 12 May 2025 20:07:09 GMT",
+      "bytes": 551465,
+      "sha256": "681de68fe8591826ff479b091497beb3f71caa2edb5f02a25c5a43a243071be6",
+      "pages": 18,
+      "text_characters": 49966,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2,
+          3,
+          4,
+          10,
+          13
+        ],
+        "contraindications": [],
+        "precautions": [
+          2,
+          4
+        ],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "Unresolved: original PDF prints Revised: MM/YYYY",
+      "version_note": "Downloaded from official FDA product page link. Original revision field is a placeholder; acquisition date must not be presented as the label revision. Preserve the original PDF unchanged."
+    },
+    {
+      "id": "FDA_Ticovac",
+      "title": "TICOVAC prescribing information",
+      "authority": "FDA",
+      "jurisdiction": "US",
+      "landing_url": "https://www.fda.gov/vaccines-blood-biologics/ticovac",
+      "url": "https://www.fda.gov/media/151502/download?attachment",
+      "expected_text": "TICOVAC",
+      "topics": [
+        "tbe"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/FDA_Ticovac.pdf",
+      "download_url": "https://www.fda.gov/media/151502/download?attachment",
+      "resolved_url": "https://www.fda.gov/media/151502/download?attachment",
+      "fetched_at": "2026-09-06T03:22:26.773Z",
+      "inspected_at": "2026-09-06T03:46:31.452Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Mon, 16 Aug 2021 17:05:05 GMT",
+      "bytes": 400855,
+      "sha256": "f3088f8545d57abac7dfa8377d0c2281310650e8269e74bac3c1072681608cad",
+      "pages": 13,
+      "text_characters": 38511,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2,
+          3,
+          11,
+          12
+        ],
+        "contraindications": [
+          2,
+          4
+        ],
+        "precautions": [
+          2,
+          4,
+          12
+        ],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "Unresolved: original PDF prints Revised: M/YYYY",
+      "version_note": "Downloaded from official FDA product page link. Original revision field is a placeholder; acquisition date must not be presented as the label revision. Preserve the original PDF unchanged."
+    },
+    {
+      "id": "FDA_Vimkunya",
+      "title": "VIMKUNYA prescribing information",
+      "authority": "FDA",
+      "jurisdiction": "US",
+      "landing_url": "https://www.fda.gov/vaccines-blood-biologics/vimkunya",
+      "url": "https://www.fda.gov/media/185477/download?attachment",
+      "expected_text": "VIMKUNYA",
+      "topics": [
+        "chikungunya"
+      ],
+      "restriction": "不得沿用已過時的美國 IXCHIQ 旅客適用表；台灣供應／核准另查。",
+      "path": "sources/旅遊疫苗/2026-09-06/FDA_Vimkunya.pdf",
+      "download_url": "https://www.fda.gov/media/185477/download?attachment",
+      "resolved_url": "https://www.fda.gov/media/185477/download?attachment",
+      "fetched_at": "2026-09-06T03:22:24.252Z",
+      "inspected_at": "2026-09-06T03:46:31.393Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Mon, 08 Jun 2026 18:01:56 GMT",
+      "bytes": 358971,
+      "sha256": "a2f18b5e70e9719520c45db30ad4fc27b8f260bef0a8ed1904a587ff15190329",
+      "pages": 13,
+      "text_characters": 35190,
+      "text_heading_page_candidates": {
+        "schedule": [
+          1,
+          2
+        ],
+        "contraindications": [
+          1,
+          2
+        ],
+        "precautions": [
+          1,
+          3,
+          13
+        ],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "Unresolved: original PDF prints Revised: X/XXXX",
+      "version_note": "Downloaded from official FDA product page link. Original revision field is a placeholder; acquisition date must not be presented as the label revision. Preserve the original PDF unchanged."
+    },
+    {
+      "id": "SA_Hajj_HealthRequirements",
+      "title": "Saudi Arabia health requirements for Hajj",
+      "authority": "Saudi Ministry of Health",
+      "jurisdiction": "Saudi Arabia",
+      "document_version": "1447H (2026), verified PDF page 1",
+      "landing_url": "https://www.moh.gov.sa/HealthAwareness/Pilgrims-Health/Documents/Hajj-Health-Requirements-English-language.pdf",
+      "url": "https://www.moh.gov.sa/HealthAwareness/Pilgrims-Health/Documents/Hajj-Health-Requirements-English-language.pdf",
+      "expected_text": "Hajj",
+      "topics": [
+        "meningococcal",
+        "yellow-fever",
+        "polio",
+        "covid",
+        "influenza"
+      ],
+      "restriction": "限 PDF 指定年份／朝覲情境；不代表所有入境者或下一年度要求。",
+      "path": "sources/旅遊疫苗/2026-09-06/SA_Hajj_HealthRequirements.pdf",
+      "download_url": "https://www.moh.gov.sa/HealthAwareness/Pilgrims-Health/Documents/Hajj-Health-Requirements-English-language.pdf",
+      "resolved_url": "https://www.moh.gov.sa/HealthAwareness/Pilgrims-Health/Documents/Hajj-Health-Requirements-English-language.pdf",
+      "fetched_at": "2026-09-06T03:22:38.806Z",
+      "inspected_at": "2026-09-06T03:46:31.933Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Mon, 23 Feb 2026 19:15:54 GMT",
+      "bytes": 655915,
+      "sha256": "e1e3d4bc2888bd84d29982cba0ab603bb6b849d4799c3dbabb2963ec6fa643f4",
+      "pages": 5,
+      "text_characters": 15825,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2
+        ],
+        "contraindications": [],
+        "precautions": [],
+        "travel": [
+          1,
+          2,
+          3
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "TW_AdultSchedule_existing",
+      "title": "成人預防接種建議時程表",
+      "authority": "Taiwan CDC",
+      "jurisdiction": "Taiwan",
+      "document_version": "115年5月",
+      "existing_path": "sources/時程表/成人預防接種建議時程表.pdf",
+      "url": "https://www.cdc.gov.tw/Category/Page/MoZgDU5xEilvKbL54nUTEg",
+      "expected_text": "預防接種",
+      "topics": [
+        "hepa",
+        "hepb",
+        "tdap",
+        "mmr",
+        "influenza",
+        "covid",
+        "varicella",
+        "pneumococcal",
+        "hpv",
+        "zoster",
+        "rsv",
+        "meningococcal",
+        "mpox"
+      ],
+      "path": "sources/時程表/成人預防接種建議時程表.pdf",
+      "download_url": "https://www.cdc.gov.tw/Category/Page/MoZgDU5xEilvKbL54nUTEg",
+      "resolved_url": "https://www.cdc.gov.tw/Category/Page/MoZgDU5xEilvKbL54nUTEg",
+      "fetched_at": null,
+      "inspected_at": "2026-09-06T03:46:32.135Z",
+      "content_type": null,
+      "last_modified_header": null,
+      "bytes": 317207,
+      "sha256": "baecc2b1adabcce924d6c228b876e397d4d019ba871749b97ab5441ab2b9426a",
+      "pages": 6,
+      "text_characters": 6333,
+      "text_heading_page_candidates": {
+        "schedule": [
+          5
+        ],
+        "contraindications": [],
+        "precautions": [],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "TW_ChildSchedule_existing",
+      "title": "我國現行兒童預防接種時程表",
+      "authority": "Taiwan CDC",
+      "jurisdiction": "Taiwan",
+      "document_version": "114年1月；輪狀病毒公費新政策另查",
+      "existing_path": "sources/時程表/現行兒童預防接種時程表_中文.pdf",
+      "url": "https://www.cdc.gov.tw/Category/Page/TxRW-x3WzvPhvEtxM628GA",
+      "expected_text": "接種",
+      "topics": [
+        "bcg",
+        "hepa",
+        "hepb",
+        "tdap",
+        "hib",
+        "polio",
+        "je",
+        "mmr",
+        "influenza",
+        "varicella",
+        "pneumococcal"
+      ],
+      "path": "sources/時程表/現行兒童預防接種時程表_中文.pdf",
+      "download_url": "https://www.cdc.gov.tw/Category/Page/TxRW-x3WzvPhvEtxM628GA",
+      "resolved_url": "https://www.cdc.gov.tw/Category/Page/TxRW-x3WzvPhvEtxM628GA",
+      "fetched_at": null,
+      "inspected_at": "2026-09-06T03:46:32.112Z",
+      "content_type": null,
+      "last_modified_header": null,
+      "bytes": 104470,
+      "sha256": "8822516fd4653f3278cf9503fbd4af3567d7d37e9742450f9e64d9a37d55db75",
+      "pages": 1,
+      "text_characters": 2279,
+      "text_heading_page_candidates": {
+        "schedule": [
+          1
+        ],
+        "contraindications": [],
+        "precautions": [],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "TW_Contraindications_existing",
+      "title": "各項常規疫苗接種禁忌與注意事項",
+      "authority": "Taiwan CDC",
+      "jurisdiction": "Taiwan",
+      "document_version": "112年9月；需搭配較新產品與政策資料",
+      "existing_path": "sources/接種指引/疫苗接種禁忌及注意事項.pdf",
+      "url": "https://www.cdc.gov.tw/File/Get/6HX8tpLSrgLfbqervyCpXA",
+      "expected_text": "禁忌",
+      "topics": [
+        "overview"
+      ],
+      "path": "sources/接種指引/疫苗接種禁忌及注意事項.pdf",
+      "download_url": "https://www.cdc.gov.tw/File/Get/6HX8tpLSrgLfbqervyCpXA",
+      "resolved_url": "https://www.cdc.gov.tw/File/Get/6HX8tpLSrgLfbqervyCpXA",
+      "fetched_at": null,
+      "inspected_at": "2026-09-06T03:46:32.201Z",
+      "content_type": null,
+      "last_modified_header": null,
+      "bytes": 200609,
+      "sha256": "d2edf8c80d077b763aa442a4758435a6c0f8f5e9ec0cb260650d3209f857895a",
+      "pages": 6,
+      "text_characters": 8162,
+      "text_heading_page_candidates": {
+        "schedule": [],
+        "contraindications": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "precautions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "provenance_note": "Existing project PDF reused without downloading again; source URL retained for provenance, not proof of a fresh download or current revision."
+    },
+    {
+      "id": "TW_Rabies_PrEP_2026",
+      "title": "疾管署115年3月26日狂犬病暴露前預防接種函（台南市政府公開存檔）",
+      "authority": "Taiwan CDC; official Tainan government host",
+      "jurisdiction": "Taiwan",
+      "document_version": "2026-03-26 / 疾管防字第1150200320號",
+      "landing_url": "https://w3fs.tainan.gov.tw/Download.ashx?n=MTE1RTEwMjgwMzUtMDEucGRm&u=LzAwMi9GUzAxLzE0L3JlbGZpbGUvOTcxNy84ODA3MjcwL2Y1MWQ3OGI3LWFhZGItNDhiNS05YTc1LTNlZmJhY2QyMzMwMy5wZGY%3D",
+      "url": "https://w3fs.tainan.gov.tw/Download.ashx?n=MTE1RTEwMjgwMzUtMDEucGRm&u=LzAwMi9GUzAxLzE0L3JlbGZpbGUvOTcxNy84ODA3MjcwL2Y1MWQ3OGI3LWFhZGItNDhiNS05YTc1LTNlZmJhY2QyMzMwMy5wZGY%3D",
+      "expected_text": "1150200320",
+      "topics": [
+        "rabies"
+      ],
+      "restriction": "旅客暴露期間／免疫狀態與職業暴露條件必須分開；不是暴露後處置指引。",
+      "path": "sources/旅遊疫苗/2026-09-06/TW_Rabies_PrEP_2026.pdf",
+      "download_url": "https://w3fs.tainan.gov.tw/Download.ashx?n=MTE1RTEwMjgwMzUtMDEucGRm&u=LzAwMi9GUzAxLzE0L3JlbGZpbGUvOTcxNy84ODA3MjcwL2Y1MWQ3OGI3LWFhZGItNDhiNS05YTc1LTNlZmJhY2QyMzMwMy5wZGY%3D",
+      "resolved_url": "https://w3fs.tainan.gov.tw/Download.ashx?n=MTE1RTEwMjgwMzUtMDEucGRm&u=LzAwMi9GUzAxLzE0L3JlbGZpbGUvOTcxNy84ODA3MjcwL2Y1MWQ3OGI3LWFhZGItNDhiNS05YTc1LTNlZmJhY2QyMzMwMy5wZGY%3D",
+      "fetched_at": "2026-09-06T03:22:30.767Z",
+      "inspected_at": "2026-09-06T03:46:32.011Z",
+      "content_type": "application/pdf",
+      "last_modified_header": null,
+      "bytes": 242701,
+      "sha256": "75f75c2bed90a9036c148dae97029aded8e05350ceae7bf2e9809be624028cf1",
+      "pages": 2,
+      "text_characters": 1963,
+      "text_heading_page_candidates": {
+        "schedule": [
+          1
+        ],
+        "contraindications": [],
+        "precautions": [],
+        "travel": [
+          1
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "UK_Anthrax",
+      "title": "Green Book chapter 13: Anthrax",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/anthrax-the-green-book-chapter-13",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Anthrax",
+      "topics": [
+        "anthrax"
+      ],
+      "restriction": "職業／特定暴露資料，不是一般出國建議。",
+      "path": "sources/旅遊疫苗/2026-09-06/UK_Anthrax.pdf",
+      "download_url": "https://assets.publishing.service.gov.uk/media/5a7ffd4b40f0b62305b88819/Green_Book_Chapter_13.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5a7ffd4b40f0b62305b88819/Green_Book_Chapter_13.pdf",
+      "fetched_at": "2026-09-06T03:22:26.376Z",
+      "inspected_at": "2026-09-06T03:46:31.419Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Tue, 21 Feb 2017 12:46:12 GMT",
+      "bytes": 230007,
+      "sha256": "1853ba997b6569753d3cd8735a5c183506ee9129310732fed1152f1a42159526",
+      "pages": 10,
+      "text_characters": 22636,
+      "text_heading_page_candidates": {
+        "schedule": [
+          4
+        ],
+        "contraindications": [
+          7
+        ],
+        "precautions": [
+          7
+        ],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "February 2017 (PDF chapter header; historical background)"
+    },
+    {
+      "id": "UK_Cholera_2024",
+      "title": "Green Book chapter 14: Cholera",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "August 2024",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-14-cholera-august-2024.pdf",
+      "expected_text": "Dukoral",
+      "topics": [
+        "cholera"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_Cholera_2024.pdf",
+      "download_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-14-cholera-august-2024.pdf",
+      "resolved_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-14-cholera-august-2024.pdf",
+      "fetched_at": "2026-09-06T03:22:16.826Z",
+      "inspected_at": "2026-09-06T03:46:30.889Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Wed, 31 Jul 2024 22:06:46 GMT",
+      "bytes": 273579,
+      "sha256": "56d725433f2c73c4f4ed9d177889a41428197fbf5055f6ac0d3205d9b2c4d51b",
+      "pages": 11,
+      "text_characters": 32409,
+      "text_heading_page_candidates": {
+        "schedule": [
+          4,
+          5,
+          7
+        ],
+        "contraindications": [
+          2,
+          8
+        ],
+        "precautions": [
+          2,
+          8
+        ],
+        "travel": [
+          1,
+          4,
+          7,
+          11
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "UK_Contraindications",
+      "title": "Green Book chapter 6: Contraindications and special considerations",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/contraindications-and-special-considerations-the-green-book-chapter-6",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "contraindications",
+      "topics": [
+        "overview"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_Contraindications.pdf",
+      "download_url": "https://assets.publishing.service.gov.uk/media/5a82ce28e5274a2e8ab5970f/Greenbook_chapter_6.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5a82ce28e5274a2e8ab5970f/Greenbook_chapter_6.pdf",
+      "fetched_at": "2026-09-06T03:22:25.051Z",
+      "inspected_at": "2026-09-06T03:46:31.366Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Thu, 26 Oct 2017 11:41:04 GMT",
+      "bytes": 58367,
+      "sha256": "4e3fef8588a10e97d0d561c3d03e7f757e5c7ea0a4eaed860e9b323decfadf8c",
+      "pages": 12,
+      "text_characters": 33512,
+      "text_heading_page_candidates": {
+        "schedule": [
+          7,
+          9,
+          10
+        ],
+        "contraindications": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "precautions": [
+          7,
+          10
+        ],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "August 2017 (PDF chapter header; background only)"
+    },
+    {
+      "id": "UK_Dengue_2024",
+      "title": "Green Book chapter 15a: Dengue",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "2024-10-08 (PDF chapter header)",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-15a-dengue-october-2024.pdf",
+      "expected_text": "dengue",
+      "topics": [
+        "dengue"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_Dengue_2024.pdf",
+      "download_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-15a-dengue-october-2024.pdf",
+      "resolved_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-15a-dengue-october-2024.pdf",
+      "fetched_at": "2026-09-06T03:22:18.262Z",
+      "inspected_at": "2026-09-06T03:46:31.106Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Mon, 14 Oct 2024 22:39:43 GMT",
+      "bytes": 223814,
+      "sha256": "c5f827c2855f0178e894168abf397dc39b5f0cca632a0fddb3e9a6fb2ac7e703",
+      "pages": 10,
+      "text_characters": 28968,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2
+        ],
+        "contraindications": [
+          6,
+          8
+        ],
+        "precautions": [
+          3,
+          6,
+          8
+        ],
+        "travel": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          10
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "UK_HepatitisA",
+      "title": "Green Book chapter 17: Hepatitis A",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/hepatitis-a-the-green-book-chapter-17",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Hepatitis A",
+      "topics": [
+        "hepa"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_HepatitisA.pdf",
+      "download_url": "https://assets.publishing.service.gov.uk/media/65a1743269fbd3000d25c075/Greenbook-chapter-17-hepatitis-A-12January24.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65a1743269fbd3000d25c075/Greenbook-chapter-17-hepatitis-A-12January24.pdf",
+      "fetched_at": "2026-09-06T03:22:21.552Z",
+      "inspected_at": "2026-09-06T03:46:31.151Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Fri, 12 Jan 2024 17:17:38 GMT",
+      "bytes": 139771,
+      "sha256": "e35668b0d5cda4fef2a9cadac4b7b62ed740383ce1b641edff2ac9c3258547b0",
+      "pages": 15,
+      "text_characters": 47550,
+      "text_heading_page_candidates": {
+        "schedule": [
+          4,
+          5,
+          9,
+          14
+        ],
+        "contraindications": [
+          6,
+          10
+        ],
+        "precautions": [
+          10
+        ],
+        "travel": [
+          2,
+          4,
+          6,
+          9,
+          10
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "2024-01-12 (PDF chapter header)"
+    },
+    {
+      "id": "UK_JapaneseEncephalitis_2024",
+      "title": "Green Book chapter 20: Japanese encephalitis",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "February 2024",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-20-japanese-encephalitis-february-2024.pdf",
+      "expected_text": "Japanese encephalitis",
+      "topics": [
+        "je"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_JapaneseEncephalitis_2024.pdf",
+      "download_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-20-japanese-encephalitis-february-2024.pdf",
+      "resolved_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-20-japanese-encephalitis-february-2024.pdf",
+      "fetched_at": "2026-09-06T03:22:18.297Z",
+      "inspected_at": "2026-09-06T03:46:31.081Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Fri, 01 Mar 2024 16:44:58 GMT",
+      "bytes": 255967,
+      "sha256": "e4f6c4a57b2e92e8e88fc2dff3c9218373dd3b2117605baa023d24c3edc2c011",
+      "pages": 7,
+      "text_characters": 21541,
+      "text_heading_page_candidates": {
+        "schedule": [
+          2,
+          3,
+          4
+        ],
+        "contraindications": [
+          5,
+          6
+        ],
+        "precautions": [
+          6
+        ],
+        "travel": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "UK_Meningococcal",
+      "title": "Green Book chapter 22: Meningococcal",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/meningococcal-the-green-book-chapter-22",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Meningococcal",
+      "topics": [
+        "meningococcal"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_Meningococcal.pdf",
+      "download_url": "https://assets.publishing.service.gov.uk/media/6849adb83a2aa5ba84d1df71/Meningococcal-green_book_chapter-22-10-6-25.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6849adb83a2aa5ba84d1df71/Meningococcal-green_book_chapter-22-10-6-25.pdf",
+      "fetched_at": "2026-09-06T03:22:21.055Z",
+      "inspected_at": "2026-09-06T03:46:31.224Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Wed, 11 Jun 2025 16:24:24 GMT",
+      "bytes": 261820,
+      "sha256": "d40673cd1a9071e0425a38a2b2e19874d761e1b1af3484b23357a5c5fb35e2f7",
+      "pages": 16,
+      "text_characters": 50378,
+      "text_heading_page_candidates": {
+        "schedule": [
+          1,
+          3,
+          4,
+          6,
+          8,
+          9,
+          10
+        ],
+        "contraindications": [
+          8,
+          9
+        ],
+        "precautions": [
+          9
+        ],
+        "travel": [
+          6,
+          7,
+          8
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "2025-06-10 (PDF chapter header)"
+    },
+    {
+      "id": "UK_Mpox",
+      "title": "Green Book chapter 29: Smallpox and mpox",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/smallpox-and-vaccinia-the-green-book-chapter-29",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "mpox",
+      "topics": [
+        "mpox"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_Mpox.pdf",
+      "download_url": "https://assets.publishing.service.gov.uk/media/68483ced944a600f13bcb899/Green-Book-chapter-29_Smallpox-and-mpox_6June2025.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/68483ced944a600f13bcb899/Green-Book-chapter-29_Smallpox-and-mpox_6June2025.pdf",
+      "fetched_at": "2026-09-06T03:22:23.425Z",
+      "inspected_at": "2026-09-06T03:46:31.309Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Tue, 10 Jun 2025 14:10:53 GMT",
+      "bytes": 277700,
+      "sha256": "dc262658e1b1b112cedd2626d496deb471dd353a307ac4e8cc9a0718673ec85f",
+      "pages": 21,
+      "text_characters": 78369,
+      "text_heading_page_candidates": {
+        "schedule": [
+          8,
+          9,
+          11
+        ],
+        "contraindications": [
+          15
+        ],
+        "precautions": [
+          15
+        ],
+        "travel": [
+          11
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "2025-06-06 (PDF chapter header)"
+    },
+    {
+      "id": "UK_Polio",
+      "title": "Green Book chapter 26: Polio",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/polio-the-green-book-chapter-26",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Polio",
+      "topics": [
+        "polio"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_Polio.pdf",
+      "download_url": "https://assets.publishing.service.gov.uk/media/683da0a5a9b2749a8095e04f/Green-Book-Chapter-26-Polio-updated-02-June-2025.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/683da0a5a9b2749a8095e04f/Green-Book-Chapter-26-Polio-updated-02-June-2025.pdf",
+      "fetched_at": "2026-09-06T03:22:23.461Z",
+      "inspected_at": "2026-09-06T03:46:31.340Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Mon, 02 Jun 2025 13:01:25 GMT",
+      "bytes": 152743,
+      "sha256": "6a47a5c1c6d7c9565e1008a8d0c0a05af14604440e0dcf4f02ef460b7b1fcc05",
+      "pages": 15,
+      "text_characters": 46246,
+      "text_heading_page_candidates": {
+        "schedule": [
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          14
+        ],
+        "contraindications": [
+          9,
+          10,
+          11
+        ],
+        "precautions": [
+          9
+        ],
+        "travel": [
+          3,
+          7,
+          8
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "2025-06-02 (PDF chapter header)"
+    },
+    {
+      "id": "UK_Rabies",
+      "title": "Green Book chapter 27: Rabies",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "landing_url": "https://www.gov.uk/government/publications/rabies-the-green-book-chapter-27",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Rabies",
+      "topics": [
+        "rabies"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_Rabies.pdf",
+      "download_url": "https://assets.publishing.service.gov.uk/media/647073aac38c550012342bea/Rabies-green-book-chapter-27-May-2023.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/647073aac38c550012342bea/Rabies-green-book-chapter-27-May-2023.pdf",
+      "fetched_at": "2026-09-06T03:22:23.247Z",
+      "inspected_at": "2026-09-06T03:46:31.269Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Fri, 26 May 2023 08:54:02 GMT",
+      "bytes": 135447,
+      "sha256": "48845f257c226b3dbf544023cdaa88b875573134215ed66423e6e0e22ec92316",
+      "pages": 15,
+      "text_characters": 46789,
+      "text_heading_page_candidates": {
+        "schedule": [
+          3,
+          5,
+          10
+        ],
+        "contraindications": [
+          11,
+          12
+        ],
+        "precautions": [
+          12
+        ],
+        "travel": [
+          6,
+          13
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass",
+      "document_version": "2023-05-19 (PDF chapter header)"
+    },
+    {
+      "id": "UK_TickBorneEncephalitis_2026",
+      "title": "Green Book: Tick-borne encephalitis",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "August 2026",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-tick-borne-encephalitis-august-2026.pdf",
+      "expected_text": "encephalitis",
+      "topics": [
+        "tbe"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_TickBorneEncephalitis_2026.pdf",
+      "download_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-tick-borne-encephalitis-august-2026.pdf",
+      "resolved_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-tick-borne-encephalitis-august-2026.pdf",
+      "fetched_at": "2026-09-06T03:22:19.223Z",
+      "inspected_at": "2026-09-06T03:46:31.055Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Fri, 31 Jul 2026 14:20:35 GMT",
+      "bytes": 215733,
+      "sha256": "79d1d794b827c1a585dea09d231ac03149e897b4383b7442872c2fc088e83f06",
+      "pages": 9,
+      "text_characters": 24520,
+      "text_heading_page_candidates": {
+        "schedule": [
+          3,
+          4
+        ],
+        "contraindications": [
+          5
+        ],
+        "precautions": [
+          6
+        ],
+        "travel": [
+          3,
+          4,
+          5
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "UK_Typhoid",
+      "title": "Green Book chapter 33: Typhoid",
+      "authority": "UKHSA",
+      "jurisdiction": "UK",
+      "document_version": "2022-02-04 (PDF chapter header; not landing-page update)",
+      "landing_url": "https://www.gov.uk/government/publications/typhoid-the-green-book-chapter-33",
+      "pdf_pattern": "assets.publishing.service.gov.uk.*\\.pdf",
+      "expected_text": "Typhoid",
+      "topics": [
+        "typhoid"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_Typhoid.pdf",
+      "download_url": "https://assets.publishing.service.gov.uk/media/6200fd088fa8f538921d1edf/Greenbook-chapter-33-4Feb22.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6200fd088fa8f538921d1edf/Greenbook-chapter-33-4Feb22.pdf",
+      "fetched_at": "2026-09-06T03:22:21.503Z",
+      "inspected_at": "2026-09-06T03:46:31.190Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Mon, 07 Feb 2022 11:05:44 GMT",
+      "bytes": 109386,
+      "sha256": "742809a743c217fc8213161326107bb30bdb3f7e338d035db04f75a4e316196d",
+      "pages": 11,
+      "text_characters": 29994,
+      "text_heading_page_candidates": {
+        "schedule": [
+          4,
+          5
+        ],
+        "contraindications": [
+          6,
+          7
+        ],
+        "precautions": [
+          6,
+          7
+        ],
+        "travel": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          10
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "UK_YellowFever_2024",
+      "title": "Green Book chapter 35: Yellow fever",
+      "authority": "UKHSA / NaTHNaC",
+      "jurisdiction": "UK",
+      "document_version": "March 2024",
+      "landing_url": "https://travelhealthpro.org.uk/factsheets/the-green-book-travel-chapters",
+      "url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-35-yellow-fever-march-2024.pdf",
+      "expected_text": "yellow fever",
+      "topics": [
+        "yellow-fever"
+      ],
+      "path": "sources/旅遊疫苗/2026-09-06/UK_YellowFever_2024.pdf",
+      "download_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-35-yellow-fever-march-2024.pdf",
+      "resolved_url": "https://travelhealthpro.org.uk/media_lib/mlib-uploads/full/the-green-book-chapter-35-yellow-fever-march-2024.pdf",
+      "fetched_at": "2026-09-06T03:22:16.790Z",
+      "inspected_at": "2026-09-06T03:46:30.855Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Fri, 01 Mar 2024 09:41:38 GMT",
+      "bytes": 285209,
+      "sha256": "b7a9bc3781cd616c567664e4dba7c507184dd803c38e2c3e2cc3780297b43471",
+      "pages": 15,
+      "text_characters": 49325,
+      "text_heading_page_candidates": {
+        "schedule": [
+          3,
+          15
+        ],
+        "contraindications": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          10,
+          12,
+          15
+        ],
+        "precautions": [
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "travel": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          12
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "WHO_HepatitisE_SAGE_2024",
+      "title": "Hepatitis E vaccines background paper, SAGE March 2024",
+      "authority": "WHO",
+      "jurisdiction": "International",
+      "document_version": "2024-03-12 (background paper, not final recommendation)",
+      "landing_url": "https://www.who.int/groups/global-advisory-committee-on-vaccine-safety/topics/hepatitis-e-vaccines",
+      "url": "https://cdn.who.int/media/docs/default-source/immunization/sage/2024/march/hepatitis_e_background_paper_sage_mar24.pdf",
+      "expected_text": "hepatitis E",
+      "topics": [
+        "hepe"
+      ],
+      "restriction": "背景論證，不當成最終 SAGE 建議或一般旅客常規接種；孕期資料限制需獨立呈現。",
+      "path": "sources/旅遊疫苗/2026-09-06/WHO_HepatitisE_SAGE_2024.pdf",
+      "download_url": "https://cdn.who.int/media/docs/default-source/immunization/sage/2024/march/hepatitis_e_background_paper_sage_mar24.pdf",
+      "resolved_url": "https://cdn.who.int/media/docs/default-source/immunization/sage/2024/march/hepatitis_e_background_paper_sage_mar24.pdf",
+      "fetched_at": "2026-09-06T03:22:32.038Z",
+      "inspected_at": "2026-09-06T03:46:31.991Z",
+      "content_type": "application/pdf",
+      "last_modified_header": "Wed, 02 Sep 2026 04:56:08 GMT",
+      "bytes": 1214853,
+      "sha256": "eb389aa851251fdedc8825c4ae17d6f27f519ca49091fa0119ef048a1dfbde2d",
+      "pages": 37,
+      "text_characters": 122458,
+      "text_heading_page_candidates": {
+        "schedule": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          21,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "contraindications": [],
+        "precautions": [],
+        "travel": []
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "WHO_ITH_Module3_Malaria_2024",
+      "title": "WHO International travel and health, Module 3: Malaria",
+      "authority": "WHO",
+      "jurisdiction": "International",
+      "document_version": "2024-11-25",
+      "landing_url": "https://www.who.int/publications/i/item/9789240102286",
+      "url": "https://iris.who.int/server/api/core/bitstreams/6b48bd59-d7b3-4073-a42c-b8a005e4cb1c/content",
+      "discovery_note": "WHO public PID API 10665/379612 -> ORIGINAL bundle -> 9789240102286-eng.pdf.",
+      "expected_text": "Malaria",
+      "topics": [
+        "malaria"
+      ],
+      "restriction": "一般旅客預防用藥／防蚊資料；不能將瘧疾流行區兒童疫苗政策套用到成人旅客。",
+      "license_note": "CC BY-NC-SA 3.0 IGO; preserve original attribution.",
+      "path": "sources/旅遊疫苗/2026-09-06/WHO_ITH_Module3_Malaria_2024.pdf",
+      "download_url": "https://iris.who.int/server/api/core/bitstreams/6b48bd59-d7b3-4073-a42c-b8a005e4cb1c/content",
+      "resolved_url": "https://iris.who.int/server/api/core/bitstreams/6b48bd59-d7b3-4073-a42c-b8a005e4cb1c/content",
+      "fetched_at": "2026-09-06T03:27:51.166Z",
+      "inspected_at": "2026-09-06T03:46:31.818Z",
+      "content_type": "application/pdf;charset=UTF-8",
+      "last_modified_header": "Fri, 19 Sep 2025 02:15:51 GMT",
+      "bytes": 3116669,
+      "sha256": "60bb87d2e9967ce2a15f1fa4b480d370c2d2b1b780f6aa3d7e11d9ebadee63de",
+      "pages": 36,
+      "text_characters": 105303,
+      "text_heading_page_candidates": {
+        "schedule": [
+          16,
+          17,
+          19,
+          20,
+          24,
+          25,
+          26,
+          27,
+          28,
+          31
+        ],
+        "contraindications": [
+          19,
+          20,
+          21,
+          25,
+          26,
+          27
+        ],
+        "precautions": [
+          4,
+          5,
+          6,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          27
+        ],
+        "travel": [
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          23,
+          24,
+          25,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "WHO_ITH_Module4_2025",
+      "title": "WHO International travel and health, Module 4: Vaccine-preventable diseases and vaccines",
+      "authority": "WHO",
+      "jurisdiction": "International",
+      "document_version": "2025",
+      "landing_url": "https://www.who.int/publications/i/item/9789240113350",
+      "url": "https://iris.who.int/server/api/core/bitstreams/4dc33e3c-f9ab-4cad-8518-e142a1a6ec19/content",
+      "discovery_note": "WHO public PID API 10665/382550 -> ORIGINAL bundle -> 9789240113350-eng.pdf; legacy bitstream URL now returns DSpace HTML.",
+      "expected_text": "vaccine.preventable diseases",
+      "topics": [
+        "overview",
+        "bcg",
+        "cholera",
+        "covid",
+        "dengue",
+        "tdap",
+        "hepa",
+        "hepb",
+        "hepe",
+        "hib",
+        "hpv",
+        "influenza",
+        "je",
+        "malaria",
+        "mmr",
+        "meningococcal",
+        "mpox",
+        "pneumococcal",
+        "polio",
+        "rabies",
+        "rotavirus",
+        "tbe",
+        "typhoid",
+        "varicella",
+        "yellow-fever"
+      ],
+      "license_note": "CC BY-NC-SA 3.0 IGO; preserve original attribution; redistribution subject to source licence.",
+      "path": "sources/旅遊疫苗/2026-09-06/WHO_ITH_Module4_2025.pdf",
+      "download_url": "https://iris.who.int/server/api/core/bitstreams/4dc33e3c-f9ab-4cad-8518-e142a1a6ec19/content",
+      "resolved_url": "https://iris.who.int/server/api/core/bitstreams/4dc33e3c-f9ab-4cad-8518-e142a1a6ec19/content",
+      "fetched_at": "2026-09-06T03:27:44.702Z",
+      "inspected_at": "2026-09-06T03:46:31.020Z",
+      "content_type": "application/pdf;charset=UTF-8",
+      "last_modified_header": "Thu, 18 Sep 2025 21:34:12 GMT",
+      "bytes": 3088554,
+      "sha256": "6f4265b50b37c95568298fcb338f56781febe436e77c1093716aaf93156d6957",
+      "pages": 72,
+      "text_characters": 280042,
+      "text_heading_page_candidates": {
+        "schedule": [
+          5,
+          11,
+          12,
+          13,
+          14,
+          21,
+          23,
+          24,
+          25,
+          26,
+          29,
+          30,
+          33,
+          34,
+          35,
+          37,
+          38,
+          39,
+          43,
+          44,
+          45,
+          47,
+          49,
+          51,
+          63,
+          66
+        ],
+        "contraindications": [
+          5,
+          17,
+          18,
+          19,
+          21,
+          22,
+          24,
+          26,
+          27,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          36,
+          38,
+          40,
+          42,
+          43,
+          44,
+          46,
+          48,
+          51,
+          52,
+          53,
+          55,
+          56,
+          57,
+          58,
+          59,
+          68,
+          69,
+          70
+        ],
+        "precautions": [
+          4,
+          6,
+          11,
+          14,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          33,
+          34,
+          35,
+          37,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          46,
+          48,
+          51,
+          52,
+          53,
+          55,
+          56,
+          57,
+          58,
+          59,
+          63
+        ],
+        "travel": [
+          5,
+          6,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          51,
+          52,
+          53,
+          55,
+          56,
+          57,
+          58,
+          59,
+          61,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    },
+    {
+      "id": "WHO_Typhoid_Position_2026",
+      "title": "WHO Weekly Epidemiological Record 101(32): Position paper on typhoid vaccines, 2026",
+      "authority": "WHO",
+      "jurisdiction": "International",
+      "document_version": "2026-08-14 (WER issue date; position paper starts PDF page 2)",
+      "landing_url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-32/",
+      "url": "https://iris.who.int/server/api/core/bitstreams/776982df-c700-49f8-8874-fe09e3d8166e/content",
+      "expected_text": "typhoid",
+      "topics": [
+        "typhoid"
+      ],
+      "restriction": "TCV、Vi 多醣體、Ty21a 分開；國家免疫計畫和旅客使用不是同一層級建議。",
+      "path": "sources/旅遊疫苗/2026-09-06/WHO_Typhoid_Position_2026.pdf",
+      "download_url": "https://iris.who.int/server/api/core/bitstreams/776982df-c700-49f8-8874-fe09e3d8166e/content",
+      "resolved_url": "https://iris.who.int/server/api/core/bitstreams/776982df-c700-49f8-8874-fe09e3d8166e/content",
+      "fetched_at": "2026-09-06T03:27:50.127Z",
+      "inspected_at": "2026-09-06T03:46:31.760Z",
+      "content_type": "application/pdf;charset=UTF-8",
+      "last_modified_header": "Fri, 14 Aug 2026 11:48:12 GMT",
+      "bytes": 1023274,
+      "sha256": "4d527aaa71bcb0290346aba4d7ba833894c74c79dfcca453780b6d68b64e91cb",
+      "pages": 16,
+      "text_characters": 92002,
+      "text_heading_page_candidates": {
+        "schedule": [
+          6,
+          8,
+          10,
+          11,
+          13,
+          14,
+          16
+        ],
+        "contraindications": [
+          15
+        ],
+        "precautions": [
+          15
+        ],
+        "travel": [
+          7,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      "reference_status": "source_pdf_only_not_quote_verified",
+      "validation": "pdf_signature_pdfinfo_text_topic_pass"
+    }
+  ],
+  "failures": []
+}

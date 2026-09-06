@@ -1,0 +1,27 @@
+#tvCountry[hidden] { display:none !important; }
+#travelSearchForm label { display:block; margin-bottom:.5rem; font-weight:650; }
+.travel-search-row { display:flex; gap:.6rem; flex-wrap:wrap; }
+.travel-search-row input { flex:1 1 18rem; min-width:0; padding:.8rem; font-size:1rem; }
+.travel-search-row button { padding:.6rem 1rem; font-size:1rem; }
+#travelSearchStatus { color:var(--ink-2); font-size:.9rem; }
+.travel-search-list { padding:0; margin:1rem 0; list-style:none; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr)); gap:.5rem; }
+.travel-search-result { width:100%; height:100%; text-align:left; border:1px solid var(--line); background:var(--bg-2,#1c2227); padding:.85rem 1rem; border-radius:.65rem; color:var(--ink); cursor:pointer; }
+.travel-search-result:hover,.travel-search-result:focus-visible { border-color:var(--blue,#80b8ed); outline:2px solid var(--blue,#80b8ed); outline-offset:1px; }
+.travel-search-result strong { display:block; font-size:1rem; }
+.travel-search-result small { display:block; font-size:.88rem; margin-top:.35rem; color:var(--ink-2); }
+.travel-source-state { border-left:3px solid var(--warn,#e9b949); padding:.7rem .9rem; margin:.9rem 0; font-size:.9rem; line-height:1.6; }
+.travel-source-state.good { border-color:var(--go,#85cca9); }
+.travel-source-links { display:flex; flex-wrap:wrap; gap:.5rem 1rem; margin:.5rem 0; }
+.travel-conflict { color:var(--warn,#e9b949); }
+.travel-vaccine-list { display:grid; gap:.8rem; padding-left:1.2rem; }
+.travel-vaccine-choice { font:inherit; padding:.55rem .8rem; color:var(--accent); background:var(--surface-2); border:1px solid var(--line); border-radius:8px; cursor:pointer; }
+.travel-vaccine-choice:hover,.travel-vaccine-choice:focus-visible { border-color:var(--accent); outline:2px solid var(--accent); outline-offset:2px; }
+.travel-raw-record { font-size:.88rem; }
+#travelVaccineDetails {scroll-margin-top:24px}
+.travel-guide-options {display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.travel-guide-options button {text-align:left;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:9px 12px;cursor:pointer;font:inherit}
+.travel-guide-options button:hover {border-color:var(--accent);color:var(--accent)}
+.travel-guide-open {margin-top:20px;border-top:1px solid var(--line);padding-top:14px}
+.travel-guide-section {padding:12px;border-left:3px solid var(--accent);background:var(--surface);line-height:1.7}
+.travel-guides details {margin-top:14px}
+.travel-guides li {margin:10px 0;overflow-wrap:anywhere}

@@ -130,11 +130,11 @@ function checkPDFGeometry(items){for(const {view:v} of items){if(!v)continue;for
   const travel=win.eval('TRAVEL');
   assert.equal(tables.get('alerts').v,win.eval('TRAVEL_META.updated'),'Preview and summary snapshot dates differ');
   assert(!travel.GP);assert(travel['GP::guadeloupe']);assert(travel['GP::saint martin']);assert(travel['GP::st.barthelemy']);
-  assert.equal(travel['GP::guadeloupe'].a.find(a=>a[1]==='茲卡病毒感染症')[2],'2019-07-08');
-  assert.equal(travel['GP::saint martin'].a.find(a=>a[1]==='茲卡病毒感染症')[2],'2020-11-06');
-  for(const key of ['BR','DE','ES']){
+  // Live dates/levels may legitimately change. Verify every current conflict
+  // against its raw rows; historical fixed-date regressions live in core tests.
+  for(const key of Object.keys(travel).filter(k=>travel[k].a.some(a=>a[5]?.conflict))){
     const country=travel[key],table=tables.get('alerts');
-    const alert=country.a.find(a=>a[1]===(key==='BR'?'屈公病':'M痘'));assert(alert);
+    const alert=country.a.find(a=>a[5]?.conflict);assert(alert);
     const filter={countryKey:key,country:country.n,countryEnglish:country.en,level:alert[0],disease:alert[1],date:alert[2],detail:alert[3]};
     const match=tables.select(table,filter),related=tables.select(table,{...filter,level:undefined});
     assert(related.length>match.length,'Expected conflicting source levels '+key);

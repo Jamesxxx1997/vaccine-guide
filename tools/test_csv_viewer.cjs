@@ -2,10 +2,15 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const {JSDOM,VirtualConsole}=require('jsdom');
 const root=path.resolve(__dirname,'..');
-function load(url){
+function load(url,options={}){
   const errors=[],logs=new VirtualConsole();logs.on('jsdomError',e=>errors.push(e.message));
   const dom=new JSDOM(fs.readFileSync(path.join(root,'csv-viewer.html'),'utf8'),{url,runScripts:'outside-only',virtualConsole:logs});
-  for(const script of dom.window.document.scripts)vm.runInContext(fs.readFileSync(path.join(root,script.getAttribute('src')),'utf8'),dom.getInternalVMContext());
+  for(const script of dom.window.document.scripts){
+    const src=script.getAttribute('src');
+    if(options.missingCurrent&&src==='review/travel-current.js')continue;
+    if(src==='travel-data.js'&&options.corruptCurrent)dom.window.eval('TRAVEL_CURRENT.schemaVersion=-1');
+    vm.runInContext(fs.readFileSync(path.join(root,src),'utf8'),dom.getInternalVMContext());
+  }
   return {dom,win:dom.window,doc:dom.window.document,errors};
 }
 let checks=0;
@@ -52,6 +57,20 @@ for(const key of ['__proto__','constructor','missing','https://evil.example/file
 {
   const attack='<img src=x onerror="window.bad=true">',env=load('file:///Users/example/vaccine-guide/csv-viewer.html?table=prescriptions&country='+encodeURIComponent(attack));
   assert(env.doc.querySelector('table'));assert(!env.doc.querySelector('img'));assert(env.doc.body.textContent.includes(attack));assert(!env.win.bad);
+  assert.equal(env.errors.length,0);env.dom.window.close();checks++;
+}
+for(const option of ['missingCurrent','corruptCurrent']){
+  const env=load('https://jamesxxx1997.github.io/vaccine-guide/csv-viewer.html',{[option]:true});
+  assert(env.doc.querySelector('#csv-viewer [role="alert"]'));assert(!env.doc.querySelector('table'));
+  assert(env.doc.getElementById('travelViewerStatus').textContent.includes('未通過檢查'));
+  assert.equal(env.errors.length,0);env.dom.window.close();checks++;
+}
+{
+  const env=load('https://jamesxxx1997.github.io/vaccine-guide/csv-viewer.html');
+  env.win.eval("TRAVEL_SYNC_STATUS.outcome='failed'");env.win.TravelData.renderMeta();
+  assert(env.doc.getElementById('travelViewerStatus').textContent.includes('更新失敗'));assert(env.doc.querySelector('table'));
+  env.win.eval("TRAVEL_SYNC_STATUS.outcome='success';TRAVEL_CURRENT.meta.succeededAt='2020-01-01T00:00:00Z'");
+  env.win.TravelData.renderMeta();assert(env.doc.getElementById('travelViewerStatus').textContent.includes('36 小時'));
   assert.equal(env.errors.length,0);env.dom.window.close();checks++;
 }
 console.log(`PASS ${checks} CSV fullpage/actual-preview-link regression groups`);

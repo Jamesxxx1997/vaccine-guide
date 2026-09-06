@@ -6,8 +6,8 @@
 ## 開啟方式
 
 線上使用：[家醫科疫苗接種速查](https://jamesxxx1997.github.io/vaccine-guide/)。
-由 GitHub Pages 發布 `main` 分支根目錄；`.nojekyll` 讓原始靜態檔（包含底線開頭的來源摘錄）直接提供。
-網站檔案更新推送後，GitHub 會自動重新發布，無需在電腦上啟動服務。
+由 GitHub Actions 驗證、同步資料，再把明確允許的靜態檔案發布至 GitHub Pages；不發布交接文件、開發依賴或私密設定。
+網站程式推送、手動執行工作流程及每日排程均可重新發布，無需在電腦上啟動服務。
 
 雙擊 `index.html` 可離線使用；請保留整個資料夾（含 `review/`、`sources/`、
 `reference-ui.js`、`reference-ui.css`、`reference-geometry.js`、`reference-scopes.js`、`reference-tables.js`），不要只單獨複製 HTML。
@@ -64,10 +64,13 @@ cd ~/vaccine-guide && python3 tools/serve.py 8899
 S12N 為 Novavax 須知；S13–S17 為新增 FDA／EMA／CDC 官方 PDF，S18–S19 為 CDC 官方網頁。
 國際文件僅補充分類與證據差異，不自動取代台灣適應症或接種政策。詳見 [補充分類查核紀錄](review/classification_review.md)。
 
+2026-09-06 新增 [旅遊疫苗官方 PDF 資料庫](sources/旅遊疫苗/2026-09-06/README.md)：28 份新 PDF 加 6 份既有來源，共 34 份、653 頁，涵蓋常見旅遊、常規免疫檢視及特殊暴露主題。
+其中已整理 16 組疫苗／預防用藥導覽、38 段來源片段及 31 頁真實 PDF 預覽，接入 hover 高亮及點字側欄。這不表示整個資料庫均已逐句核對，也不會自動新增臨床禁忌判斷規則。
+
 ## 使用時務必留意
 
 - **S1 為 112.09 版（2023-09）**，是核心文件中最舊的一份，且**只涵蓋公費常規疫苗**。
-- **COVID-19 已收錄**（依疾管署 2026-07-07 莫德納 XFG／Novavax XFG 接種須知，S12）。Mpox、狂犬病、黃熱病的禁忌症仍**未收錄**，請自行查閱。
+- **COVID-19 已收錄**（依疾管署 2026-07-07 莫德納 XFG／Novavax XFG 接種須知，S12）。Mpox、狂犬病、黃熱病的禁忌症仍**未納入前台判斷規則**；旅遊疫苗資料庫已有相關 PDF，使用時仍需核對原文。
 - 疾管署部分疫苗衛教頁「最後更新」停在 2013–2019 年，政策異動改以**醫界通函**公告。
 - **HPV 公費政策主管機關是國民健康署**（hpa.gov.tw），不是疾管署。
 - **已知兩份官方文件不一致**：Abrysvo 孕婦接種週數，疾管署為 28–36 週、仿單為 24–36 週。本工具兩者並陳。
@@ -87,47 +90,45 @@ cdc.gov.tw 的 `/File/Get/<id>` 是 HTML 殼層，真檔在 `/Uploads/files/<uui
 
 下載紀錄在 `sources/_download_log.tsv`。
 
-### `update_travel.py` — 旅遊疫情與旅遊疫苗資料更新
+### 旅遊搜尋、每日同步與原始資料核對
 
 ```bash
-python3 update_travel.py            # 下載最新開放資料並寫回 index.html
-python3 update_travel.py --offline  # 用既有 CSV 重建，不重新下載
+node tools/sync_travel_data.mjs     # 完整驗證兩份官方資料後，更新現行資料包
+node tools/verify_current_travel.cjs # 逐筆核對來源雜湊、原始字串及摘要身分
+python3 update_travel.py            # 相容入口：呼叫上方同步器
+python3 update_travel.py --offline  # 僅重現舊 2026-08-07 存檔；不取代現行資料包
 ```
 
 資料來自疾管署**開放資料**（非爬網頁）：
 
 | 資料集 | 網址 | 更新頻率 |
 |---|---|---|
-| 國際旅遊疫情建議等級 | `https://od.cdc.gov.tw/cdc/TCDCTravelAlert.csv` | 每日 |
+| 國際旅遊疫情建議等級（完整 CSV，含歷史／解除） | `https://www.cdc.gov.tw/CountryEpidLevel/ExportCSV?fileName=TCDCTravelAlertAll.csv&type=0` | 每日 |
 | 國際旅遊處方箋 | `https://od.cdc.gov.tw/quarantine/TMPrescription.csv` | 每月 |
 
-**為什麼不是即時抓取：**單檔 HTML 以 `file://` 開啟時，瀏覽器 CORS 政策會擋掉對
-cdc.gov.tw 的請求。因此改採「腳本抓取 → 烘進頁面」，頁面上標示資料版本日期。
-若日後部署到 GitHub Pages，可用 GitHub Action 每日執行此腳本自動更新。
+在「成人時程 → 旅遊目的地」輸入中文／英文國名、疾病或處方箋項目，按 Enter／搜尋；選擇目的地後，可查看警示原始 CSV、開啟疫苗說明及 PDF 原句。没有警示紀錄不等於没有風險，處方箋列出的項目也不等於入境強制接種。
 
-離線重建保留原資料日期，不改原始 CSV；兩種更新方式都會同步重建 `review/reference-tables.js`。
+**不是每次查詢即時向疾管署取回結果。** 疾管署頁面設定 `frame-ancestors`／`X-Frame-Options` 限制外站嵌入，資料也未允許本站瀏覽器跨來源讀取。本站不繞過限制，改由現有 GitHub Actions 每日台灣時間 08:23 同步，再發布可搜尋資料；GitHub 排程可能延遲或略過，因此畫面顯示實際成功時間。每份資料另標官方更新頻率、回應的 Last-Modified（若有）及公告生效日期，三者不混用。需要官方此刻結果時另開疾管署頁面。
 
-#### 這支腳本處理的資料陷阱
+每日工作流程先驗證解析器，完整下載並驗證兩份資料，再產生不可變原始 CSV（檔名含 SHA-256）及單一 `review/travel-current.js`。任一來源失敗保留上一份完整資料包，發布醒目失敗狀態，不把空資料當成沒有風險；超過 36 小時未成功則標示過期。只有明確允許的靜態檔案會被打包上線。主頁、hover、側欄與完整 CSV viewer 均使用同一資料包。
 
-1. **憑證鏈不完整**：`od.cdc.gov.tw` 缺中繼憑證，標準 curl 會報
-   `unable to get local issuer certificate`，需 `-k`。
-2. **「解除」是獨立記錄**，不是把原警示刪掉。若只是把「解除」列濾掉，已解除的舊警示會永遠留著
-   （實測：泰國 M 痘 2022 年第二級警示實際已於 2026-04-28 解除，卻仍被當成現行）。
-   正確做法是同一（國家, 疾病, 細分區域）取最新一筆，若最新為「解除」則整組不顯示。
-   本次快照重建排除 301 組已解除警示。
-3. **高覆蓋率分組不等於原始公告分類**：同疾病與等級涵蓋超過 200 個目的地者，本站另區收合呈現。
-   不表示全部紀錄同日生效，也不代表警示已失效。原始 CSV 保留全部資料供核對。
-4. **ISO 代碼不一定唯一對應目的地**：原檔 GP 同時用於瓜地洛普、聖馬丁及聖巴瑟米，不能直接合併。
-   現在拆開不同英文名稱的目的地；疫苗處方只合併中文名稱或唯一的相同英文名稱。
-5. **同日不同等級**：沿用原摘要的同日排序，但 CSV 視窗列出衝突，黃列只匹配網頁所示等級。
-   不由本工具裁定哪筆公告有效，使用前仍應核對官方最新資料。
+資料處理界線：
 
-2026-09-06 依原 2026-08-07 快照重建：249 個目的地、798 筆摘要警示、1,381 個疫苗／用藥對應。
-原始 2,447 筆警示與 5,095 筆處方均未修改。
+1. 同一目的地／疾病／細分地區取最新公告日期；最新為「解除」時不當成現行警示。同日不同等級全部保留並顯示衝突，不依列順序裁決。
+2. 完整 CSV 包含歷史資料，不能換成近 30 天／近兩年端點；沒有出現在短期資料中不能推定已解除。
+3. ISO 代碼可能共用（例如 GP），不同目的地分開，無法唯一辨認的名稱不強制合併。
+4. 「嚴重特殊傳染性肺炎」與「新冠併發重症」依官方更名做精確疾病身分對照，原始字串不變。沒有能對應的新名稱目的地公告者列入「歷史／現行狀態待核對」，不展示成已確認的現行第三級警告，也不捏造解除。
+5. 全球警示只採原檔真的標為全球的紀錄，不以涵蓋國家數推定。所有外部文字都經 HTML 轉義；不執行 CSV 儲存格內容。
+6. TLS 保持憑證及主機驗證。遇官方伺服器漏送中繼憑證時，只補入已驗雜湊、有效期及受信任根簽章的正確中繼憑證，**不使用 `-k` 或停用 TLS 驗證**。
 
-同理，疫苗建議欄位中黃熱病列於全部 246 國、MMR 242、A 肝 240、狂犬病 225、傷寒 188 ——
-這是「旅遊門診**應評估**的清單」而非「該國要求接種」。頁面將其與真正隨目的地變動的項目
-（瘧疾 110 國、小兒麻痺 67、腦膜炎 34、日本腦炎 24）分開呈現。
+旅遊 PDF 導覽由 `review/travel-guide-spec.json` 與人工核對的 `review/travel-guide-hashes.json` 建置：
+
+```bash
+python3 tools/build_travel_references.py
+node tools/test_travel_search.cjs
+```
+
+來源雜湊改變或原文定位不唯一就停止建置。中文整理／翻譯不標為逐字；黃框僅代表真正定位的來源片段。完整原檔、產品、版本及適用地區均保留，國外政策不自動取代台灣規範。
 
 ## 開發陷阱：不要用 `ad` 開頭的元素 id
 
@@ -218,7 +219,7 @@ python3 -m unittest discover -s tools -p 'test_verify_excerpts.py' -v
 - 網頁公告／仿單整理摘錄依原型別顯示，沒有 PDF 的項目不冒充 PDF。
 - 旅遊文字的 hover 是可上下左右捲動的 CSV 小視窗，可搜尋、切換全表及原檔欄序；點字固定於側欄。切換目的地會清除過期側欄。
 - 「查看完整 CSV 表格」會開啟 `csv-viewer.html` 互動表格頁，不直接開原始 CSV 檔。保留目前目的地／疾病的核對條件，預設顯示全表並定位至第一筆對應紀錄所在批次；另有明確的「下載原始 CSV」。
-- 可直接查看 [疫情警示完整表格](https://jamesxxx1997.github.io/vaccine-guide/csv-viewer.html?table=alerts) 或 [旅遊處方箋完整表格](https://jamesxxx1997.github.io/vaccine-guide/csv-viewer.html?table=prescriptions)。兩者均使用原始本機快照，無須先下載，也不會自行抓取更新資料。
+- 可直接查看 [疫情警示完整表格](https://jamesxxx1997.github.io/vaccine-guide/csv-viewer.html?table=alerts) 或 [旅遊處方箋完整表格](https://jamesxxx1997.github.io/vaccine-guide/csv-viewer.html?table=prescriptions)。兩者使用每日同步後的同一份已驗證快照，直接呈現表格，不先跳下載；離線使用則保留下載時的版本。
 
 新增程式：`reference-ui.js`、`reference-ui.css`、`reference-geometry.js`；來源索引：`review/reference-pages.js`，
 由 `python3 tools/build_reference_pages.py` 建置。原始 `sources/` 不會被改寫。
