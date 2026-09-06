@@ -1,0 +1,17 @@
+:root{color-scheme:light dark;--bg:#f6f7f9;--surface:#fff;--surface-2:#f0f2f5;--line:#dde1e7;--ink:#1a1d21;--ink-2:#4a5058;--ink-3:#626975;--accent:#1f5fa8;--accent-soft:#e8f0fa;--warn:#8a5a00}
+@media(prefers-color-scheme:dark){:root{--bg:#14171a;--surface:#1c2024;--surface-2:#23282d;--line:#333a41;--ink:#e8eaed;--ink-2:#b4bac1;--ink-3:#a3aab4;--accent:#7cb0ea;--accent-soft:#1b2c40;--warn:#e9b64d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 "PingFang TC","Noto Sans TC",Arial,sans-serif}
+header,main{padding:16px 24px;min-width:0}
+header{border-bottom:1px solid var(--line);background:var(--surface)}
+h1{font-size:22px;margin:16px 0 6px}p{margin:6px 0;color:var(--ink-2)}
+a{color:var(--accent);text-underline-offset:3px}
+.viewer-nav,nav{display:flex;gap:18px;flex-wrap:wrap}.viewer-nav{justify-content:space-between}
+[aria-current=page]{font-weight:700;text-decoration-thickness:2px}
+.csv-viewer-page .ref-csv-scroll{height:60vh;min-height:220px;max-height:none}
+.csv-viewer-page .ref-csv-scroll td,.csv-viewer-page .ref-csv-scroll th{font-size:13px}
+.note{padding:10px 14px;border:1px solid var(--line);border-left:3px solid var(--warn);border-radius:6px;margin:12px 0}
+.ref-csv-controls input{width:220px;max-width:100%}
+button,select,input{font:inherit}button,a,input,select,.ref-csv-scroll{outline-offset:3px}
+.ref-actions{gap:20px}
+@media(max-width:600px){header,main{padding:14px 12px}h1{font-size:19px}.viewer-nav,nav{gap:12px}.ref-csv-controls{gap:8px}.csv-viewer-page .ref-csv-scroll{height:55vh}}

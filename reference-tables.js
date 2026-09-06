@@ -1,6 +1,15 @@
 /* Read-only source CSVs. Values remain strings; HTML and formulas never execute. */
 const ReferenceTables=(()=>{
-  const get=key=>typeof REFERENCE_TABLES==='undefined'?null:REFERENCE_TABLES[key];
+  const get=key=>typeof REFERENCE_TABLES==='undefined'||!Object.prototype.hasOwnProperty.call(REFERENCE_TABLES,key)?null:REFERENCE_TABLES[key];
+  const esc=text=>String(text??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const filterKeys=['countryKey','country','countryEnglish','disease','date','detail','level','vaccine'];
+  function viewerURL(table,data={}){
+    const key=typeof REFERENCE_TABLES==='undefined'?null:Object.keys(REFERENCE_TABLES).find(k=>REFERENCE_TABLES[k]===table);
+    if(!key)return null;
+    const params=new URLSearchParams({table:key});
+    for(const name of filterKeys)if(data[name]!==undefined&&data[name]!==null)params.set(name,String(data[name]));
+    return 'csv-viewer.html?'+params.toString();
+  }
   const value=(table,row,header)=>row.values[table.headers.indexOf(header)]||'';
   function select(table,data){
     return table.rows.filter(row=>{
@@ -20,13 +29,14 @@ const ReferenceTables=(()=>{
       return true;
     });
   }
-  function mount(container,table,data,{compact=false}={}){
-    const esc=exEsc, matched=select(table,data), matchedIDs=new Set(matched.map(r=>r.record));
-    let only=!!(data.country||data.disease||data.vaccine),term='',page=0,keyColumns=true;
+  function mount(container,table,data,{compact=false,fullPage=false}={}){
+    const matched=select(table,data), matchedIDs=new Set(matched.map(r=>r.record));
+    const size=40,hasFilter=!!(data.country||data.countryKey||data.disease||data.vaccine);
+    let only=hasFilter&&!fullPage,term='',page=fullPage&&hasFilter&&matched.length?Math.floor(table.rows.indexOf(matched[0])/size):0,keyColumns=true;
     const preferred=table.headers.includes('areaDesc')?
       ['areaDesc','alert_disease','severity_level','effective','instruction','areaDetail']:
       ['國名(中)','疫苗','主類別','次類別','疾病','警示日期'];
-    const size=40;
+    const preview=viewerURL(table,data);
     const related=data.disease?select(table,{...data,level:undefined}):[];
     const conflict=related.filter(r=>!matchedIDs.has(r.record));
     container.classList.add('ref-csv');
@@ -40,7 +50,7 @@ const ReferenceTables=(()=>{
       <div class="ref-csv-scroll" tabindex="0" role="region" aria-label="可上下左右捲動的 CSV 原始表格"><table><thead><tr><th scope="col">資料列號</th>${table.headers.map(h=>`<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody></tbody></table></div>
       <div class="ref-csv-controls"><button type="button" data-csv-prev>上一批</button><span class="ref-csv-count" aria-live="polite"></span><button type="button" data-csv-next>下一批</button></div>
       <div class="ref-meta">黄色列為目前文字對應紀錄。資料列號不含標頭；全表保留歷史及解除警示。網站的分組／統計不是原始欄位。</div>
-      <div class="ref-actions"><a href="${esc(table.p)}" target="_blank" rel="noopener">開啟本次 CSV 快照 ↗</a><a href="${esc(table.u)}" target="_blank" rel="noopener">官方最新 CSV ↗</a></div>`;
+      <div class="ref-actions">${preview&&!fullPage?`<a data-csv-preview href="${esc(preview)}" target="_blank" rel="noopener">查看完整 CSV 表格 ↗</a>`:''}<a href="${esc(table.p)}" download="${esc(table.p.split('/').pop())}">下載原始 CSV</a><a href="${esc(table.u)}" target="_blank" rel="noopener">官方最新 CSV（下載） ↗</a></div>`;
     const scope=container.querySelector('select'),input=container.querySelector('input'),viewport=container.querySelector('.ref-csv-scroll');
     scope.value=only?'match':'all';
     const draw=()=>{
@@ -49,7 +59,7 @@ const ReferenceTables=(()=>{
       const batch=filtered.slice(page*size,(page+1)*size);
       const headers=keyColumns?[...preferred,...table.headers.filter(h=>!preferred.includes(h))]:table.headers;
       container.querySelector('thead tr').innerHTML='<th scope="col">資料列號</th>'+headers.map(h=>`<th scope="col">${esc(h)}</th>`).join('');
-      container.querySelector('tbody').innerHTML=batch.length?batch.map(row=>`<tr data-csv-record="${row.record}" class="${only||matchedIDs.has(row.record)&&data.country?'ref-csv-match':''}"><th scope="row">${row.record}</th>${headers.map(h=>`<td>${esc(value(table,row,h))}</td>`).join('')}</tr>`).join(''):
+      container.querySelector('tbody').innerHTML=batch.length?batch.map(row=>`<tr data-csv-record="${row.record}" class="${hasFilter&&matchedIDs.has(row.record)?'ref-csv-match':''}"><th scope="row">${row.record}</th>${headers.map(h=>`<td>${esc(value(table,row,h))}</td>`).join('')}</tr>`).join(''):
         `<tr><td colspan="${table.headers.length+1}">沒有符合的原始紀錄。可切換「全部原始資料」核對；不代表目前沒有旅遊風險。</td></tr>`;
       container.querySelector('.ref-csv-count').textContent=`${filtered.length? page*size+1:0}–${Math.min((page+1)*size,filtered.length)} / ${filtered.length} 筆`;
       container.querySelector('[data-csv-prev]').disabled=page===0;
@@ -64,5 +74,5 @@ const ReferenceTables=(()=>{
     if(compact)container.classList.add('ref-csv-compact');
     draw();
   }
-  return {get,select,mount};
+  return {get,select,mount,viewerURL,filterKeys};
 })();

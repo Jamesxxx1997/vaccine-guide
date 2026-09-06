@@ -217,6 +217,8 @@ python3 -m unittest discover -s tools -p 'test_verify_excerpts.py' -v
 - 含間隔或孕週的成人摘要優先預覽對應附註，再提供第一頁時程表；最小年齡逐格定位，補種控制標籤與結果同步換列。
 - 網頁公告／仿單整理摘錄依原型別顯示，沒有 PDF 的項目不冒充 PDF。
 - 旅遊文字的 hover 是可上下左右捲動的 CSV 小視窗，可搜尋、切換全表及原檔欄序；點字固定於側欄。切換目的地會清除過期側欄。
+- 「查看完整 CSV 表格」會開啟 `csv-viewer.html` 互動表格頁，不直接開原始 CSV 檔。保留目前目的地／疾病的核對條件，預設顯示全表並定位至第一筆對應紀錄所在批次；另有明確的「下載原始 CSV」。
+- 可直接查看 [疫情警示完整表格](https://jamesxxx1997.github.io/vaccine-guide/csv-viewer.html?table=alerts) 或 [旅遊處方箋完整表格](https://jamesxxx1997.github.io/vaccine-guide/csv-viewer.html?table=prescriptions)。兩者均使用原始本機快照，無須先下載，也不會自行抓取更新資料。
 
 新增程式：`reference-ui.js`、`reference-ui.css`、`reference-geometry.js`；來源索引：`review/reference-pages.js`，
 由 `python3 tools/build_reference_pages.py` 建置。原始 `sources/` 不會被改寫。
@@ -232,6 +234,8 @@ python3 tools/test_verify_excerpts.py
 python3 tools/verify_excerpts.py
 python3 tools/test_travel_rebuild.py
 ```
+
+快照入口回歸：`tools/test_csv_viewer.cjs` 隨 `npm test` 執行，檢查實際預覽連結的目的頁、兩份表格、查詢條件、搜尋／分頁、原始欄序與明確下載連結；不是只測懸浮窗。
 
 另需安裝 Poppler。`build_reference_pages.py` 使用 pdfplumber 的實際字元座標；
 人工原文片段與 SHA-256 鎖定於 `review/reference-claims.json`。來源換版時必須重新核對，不能直接改雜湊放行。

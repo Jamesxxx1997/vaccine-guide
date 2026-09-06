@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Taiwan vaccine quick reference with traceable source previews",
-  "scripts": {"test": "node tools/test_reference_geometry.cjs && node tools/test_reference_ui.cjs && node tools/test_reference_coverage.cjs"},
+  "scripts": {"test": "node tools/test_reference_geometry.cjs && node tools/test_csv_viewer.cjs && node tools/test_reference_ui.cjs && node tools/test_reference_coverage.cjs"},
   "devDependencies": {"jsdom": "30.0.1"},
   "engines": {"node": "^22.22.2 || ^24.15.0 || >=26.0.0"}
 }

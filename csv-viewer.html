@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSV 完整表格｜疫苗速查</title>
+  <link rel="stylesheet" href="reference-ui.css">
+  <link rel="stylesheet" href="csv-viewer.css">
+</head>
+<body class="csv-viewer-page">
+  <header>
+    <div class="viewer-nav">
+      <a href="index.html">← 疫苗速查</a>
+      <nav aria-label="CSV 資料集">
+        <a href="csv-viewer.html?table=alerts" data-table="alerts">疫情警示 CSV</a>
+        <a href="csv-viewer.html?table=prescriptions" data-table="prescriptions">旅遊處方箋 CSV</a>
+      </nav>
+    </div>
+    <h1 id="viewer-title">CSV 完整表格</h1>
+    <p>直接查看原始資料快照，無需下載。可在表格內上下左右捲動、搜尋或切換下一批；需要檔案時再選「下載原始 CSV」。</p>
+  </header>
+  <main id="csv-viewer" aria-label="CSV 原始資料視覺化">
+    <p role="status">正在載入 CSV 表格…</p>
+  </main>
+  <noscript>請啟用 JavaScript 以查看互動表格；原始 CSV 仍保存在本站 sources/旅遊/ 目錄。</noscript>
+  <script src="review/reference-tables.js"></script>
+  <script src="reference-tables.js"></script>
+  <script src="csv-viewer.js"></script>
+</body>
+</html>
