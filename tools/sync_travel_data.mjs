@@ -33,15 +33,30 @@ async function download(url){
   if(!['www.cdc.gov.tw','od.cdc.gov.tw'].includes(host)||!url.startsWith('https://'))throw Error('Unapproved source URL');
   const ca=host==='od.cdc.gov.tw'?[...rootCertificates,await chain()]:undefined;
   return await new Promise((resolve,reject)=>{
-    const request=https.get(url,{ca,rejectUnauthorized:true,timeout:25000},response=>{
+    const request=https.get(url,{ca,rejectUnauthorized:true,family:4,timeout:45000},response=>{
       if(response.statusCode!==200){response.resume();reject(Error('Official source HTTP '+response.statusCode));return;}
       const chunks=[];let size=0;
       response.on('data',b=>{size+=b.length;if(size>12*1024*1024){request.destroy(Error('Official source exceeds size limit'));return;}chunks.push(b);});
       response.on('error',reject);
       response.on('end',()=>resolve({bytes:Buffer.concat(chunks),contentType:response.headers['content-type']||'',modified:response.headers['last-modified']||null}));
     });
+    const deadline=setTimeout(()=>request.destroy(Error('Official source total deadline exceeded')),60000);
+    request.once('close',()=>clearTimeout(deadline));
     request.on('timeout',()=>request.destroy(Error('Official source timed out')));request.on('error',reject);
   });
+}
+// Both alert URLs are official complete-history exports, not rolling-window feeds.
+export async function downloadOfficial(url,{request=download,wait=ms=>new Promise(r=>setTimeout(r,ms))}={}){
+  if(!Object.values(sources).some(s=>s.url===url))throw Error('Unapproved dataset URL');
+  const candidates=url===sources.alerts.url?[url,'https://od.cdc.gov.tw/cdc/TCDCTravelAlert.csv']:[url];
+  let last;
+  for(const candidate of candidates){
+    for(let attempt=1;attempt<=2;attempt++){
+      try{return {...await request(candidate),url:candidate};}
+      catch(e){last=e;console.warn(`Official download ${new URL(candidate).hostname} attempt ${attempt}/2 failed: ${e.message}`);if(attempt<2)await wait(1500);}
+    }
+  }
+  throw last;
 }
 async function atomic(file,text){
   const temporary=file+'.'+randomUUID()+'.tmp';
@@ -51,7 +66,7 @@ async function atomic(file,text){
 async function immutable(file,bytes){
   try{await fs.writeFile(file,bytes,{flag:'wx'});}catch(e){if(e.code!=='EEXIST')throw e;if(hash(await fs.readFile(file))!==hash(bytes))throw Error('Immutable source collision');}
 }
-export async function syncTravel({outRoot=root,downloadSource=download,now=()=>new Date().toISOString()}={}){
+export async function syncTravel({outRoot=root,downloadSource=downloadOfficial,now=()=>new Date().toISOString()}={}){
 const sourceDir=path.join(outRoot,'data/travel/sources'),review=path.join(outRoot,'review');
 const attemptedAt=now();
 await fs.mkdir(sourceDir,{recursive:true});await fs.mkdir(review,{recursive:true});
@@ -66,14 +81,15 @@ try{
     if(table.rows.length<100)throw Error(key+': implausibly small official dataset');
     const sha256=hash(got.bytes),relative='data/travel/sources/'+key+'-'+sha256+'.csv';
     const fetchedAt=now();
-    provenance[key]={url:source.url,sha256,fetchedAt,sourceModified:got.modified,frequency:source.frequency,records:table.rows.length,path:relative};
-    tables[key]={...table,n:source.n,p:relative,u:source.url,v:fetchedAt.slice(0,10),sha256,sourceModified:got.modified,frequency:source.frequency};
+    const actualUrl=got.url||source.url;
+    provenance[key]={url:actualUrl,sha256,fetchedAt,sourceModified:got.modified,frequency:source.frequency,records:table.rows.length,path:relative};
+    tables[key]={...table,n:source.n,p:relative,u:actualUrl,v:fetchedAt.slice(0,10),sha256,sourceModified:got.modified,frequency:source.frequency};
     raws[key]=got.bytes;
   }
   const built=core.build(tables),succeededAt=now();
   const bundle={schemaVersion:1,meta:{updated:succeededAt.slice(0,10),succeededAt,mode:'scheduled-snapshot',countries:Object.values(built.countries).filter(c=>!c.isGlobal).length,
     alerts:Object.values(built.countries).reduce((n,c)=>n+c.a.length,0),universal:[],blanket_note:'只將來源明列的全球紀錄另區呈現，不按涵蓋國家數推論。',
-    src_alert:sources.alerts.url,src_presc:sources.prescriptions.url,latestEffective:built.latestEffective,conflictGroups:built.conflictGroups,provenance},
+    src_alert:provenance.alerts.url,src_presc:provenance.prescriptions.url,latestEffective:built.latestEffective,conflictGroups:built.conflictGroups,provenance},
     countries:built.countries,global:built.global,tables};
   for(const [key,bytes] of Object.entries(raws))await immutable(path.join(outRoot,provenance[key].path),bytes);
   const json=JSON.stringify(bundle).replace(/</g,'\\u003c').replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029');

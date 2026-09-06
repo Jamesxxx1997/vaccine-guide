@@ -5,11 +5,22 @@ import os from 'node:os';
 import path from 'node:path';
 import vm from 'node:vm';
 import {createRequire} from 'node:module';
-import {syncTravel} from './sync_travel_data.mjs';
+import {syncTravel,downloadOfficial} from './sync_travel_data.mjs';
 const require=createRequire(import.meta.url),core=require('../travel-data-core.js');
 const table=objects=>({headers:Object.keys(objects[0]),rows:objects.map((x,i)=>({record:i+1,values:Object.values(x)}))});
 const a=(extra={})=>({effective:'2026-09-01',severity_level:'第一級:注意(Watch)',alert_disease:'測試疾病',areaDesc:'甲',areaDesc_EN:'A',ISO3166:'AA',areaDetail:'',instruction:'注意',...extra});
 const presc=()=>table([{'國名(中)':'甲','國名(英)':'A','疫苗':'test'}]);
+test('bounded official retries preserve actual provenance and use only complete official alternatives',async()=>{
+  const url='https://www.cdc.gov.tw/CountryEpidLevel/ExportCSV?fileName=TCDCTravelAlertAll.csv&type=0';
+  const calls=[],waits=[];
+  const result=await downloadOfficial(url,{request:async u=>{calls.push(u);if(calls.length<3)throw Error('timeout');return {bytes:Buffer.from('original'),modified:null};},wait:async ms=>waits.push(ms)});
+  assert.deepEqual(calls,[url,url,'https://od.cdc.gov.tw/cdc/TCDCTravelAlert.csv']);
+  assert.equal(result.url,calls[2]);assert.deepEqual(result.bytes,Buffer.from('original'));assert.deepEqual(waits,[1500]);
+  let count=0;
+  await assert.rejects(downloadOfficial(url,{request:async()=>{count++;throw Error('offline');},wait:async()=>{}}),/offline/);
+  assert.equal(count,4);
+  await assert.rejects(downloadOfficial('https://untrusted.example/data.csv'),/Unapproved/);
+});
 test('strict CSV parser preserves quoted newlines, commas, leading zero and HTML as strings',()=>{
   const t=core.parseCSV('\uFEFFa,b\r\n"01","<img>,x\n""quote"""\r\n');
   assert.deepEqual(t.rows[0].values,['01','<img>,x\n"quote"']);
