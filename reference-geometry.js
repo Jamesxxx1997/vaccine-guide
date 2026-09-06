@@ -15,8 +15,11 @@ const ReferenceGeometry = (() => {
     const q=norm(query), rects=[];
     if(!q)return rects;
     for(const [lineId,line] of page.lines.entries()) {
-      if(!inside(line,bounds))continue;
-      const t=norm(line[4]);if(!t)continue;
+      // Poppler can combine two table columns in one line. Scope WORDS first,
+      // otherwise a correct row/column pin can still highlight its neighbour.
+      const words=(page.words||[]).filter(w=>w[5]===lineId&&inside(w,bounds));
+      if(!words.length)continue;
+      const t=words.map(w=>norm(w[4])).join('');if(!t)continue;
       // Collect maximal continuous fragments, not isolated numbers or shared jargon.
       const ranges=[];
       for(let start=0;start<t.length;start++) {
@@ -28,7 +31,7 @@ const ReferenceGeometry = (() => {
       }
       if(!ranges.length)continue;
       // True character coordinates where available (no uniform-width approximation).
-      const chars=(page.chars||[]).filter(c=>c[0]>=line[0]-1&&c[2]<=line[2]+1&&
+      const chars=(page.chars||[]).filter(c=>inside(c,bounds)&&c[0]>=words[0][0]-1&&c[2]<=words[words.length-1][2]+1&&
         (c[1]+c[3])/2>=line[1]-2&&(c[1]+c[3])/2<=line[3]+2).sort((a,b)=>a[0]-b[0]);
       const stream=chars.map(c=>norm(c[4])).join('');
       if(stream===t) {
@@ -38,7 +41,7 @@ const ReferenceGeometry = (() => {
       } else {
         // Without glyph geometry, only mark complete words entirely inside a match.
         let offset=0;
-        for(const w of (page.words||[]).filter(w=>w[5]===lineId)) {
+        for(const w of words) {
           const end=offset+norm(w[4]).length;
           if(end>offset&&ranges.some(([s,e])=>offset>=s&&end<=e))rects.push(w.slice(0,4));offset=end;
         }

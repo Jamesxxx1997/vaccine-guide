@@ -118,7 +118,7 @@ def build():
         # quote-review/anchor_engine.py's XML-control-character safeguard.
         xml = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', xml)
         pages = ET.fromstring(xml).findall('.//h:page', NS)
-        glyph_pdf = pdfplumber.open(ROOT / file) if key in glyph_pages or key in ['S2','S3','S4','S5','S6','S7','S8'] else None
+        glyph_pdf = pdfplumber.open(ROOT / file)
         doc['pages'] = []
         for number, page in enumerate(pages, 1):
             target = OUT / f'{key}-{doc["sha256"][:10]}-{number}.jpg'
@@ -150,7 +150,7 @@ def build():
             doc['pages'].append(dict(page=number, w=float(page.attrib['width']),
                                      h=float(page.attrib['height']), iw=iw, ih=ih,
                                      img=str(target.relative_to(ROOT)), lines=lines, words=words))
-            if glyph_pdf and (key in ['S2','S3','S4','S5','S6','S7','S8'] or number in glyph_pages.get(key, set())):
+            if glyph_pdf:
                 doc['pages'][-1]['chars'] = [[round(c[a],2) for a in ('x0','top','x1','bottom')]+[c['text']]
                                             for c in glyph_pdf.pages[number-1].chars if c['text'].strip()]
         if glyph_pdf:

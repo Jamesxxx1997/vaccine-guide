@@ -10,7 +10,7 @@
 網站檔案更新推送後，GitHub 會自動重新發布，無需在電腦上啟動服務。
 
 雙擊 `index.html` 可離線使用；請保留整個資料夾（含 `review/`、`sources/`、
-`reference-ui.js`、`reference-ui.css`、`reference-geometry.js`），不要只單獨複製 HTML。
+`reference-ui.js`、`reference-ui.css`、`reference-geometry.js`、`reference-scopes.js`、`reference-tables.js`），不要只單獨複製 HTML。
 建議使用下方本機網址，完整 PDF 的頁碼跳轉會較可靠。
 
 若要用瀏覽器自動化測試（Chrome 擴充功能打不開 `file://`）：
@@ -105,18 +105,25 @@ python3 update_travel.py --offline  # 用既有 CSV 重建，不重新下載
 cdc.gov.tw 的請求。因此改採「腳本抓取 → 烘進頁面」，頁面上標示資料版本日期。
 若日後部署到 GitHub Pages，可用 GitHub Action 每日執行此腳本自動更新。
 
-#### 這支腳本處理的三個資料陷阱
+離線重建保留原資料日期，不改原始 CSV；兩種更新方式都會同步重建 `review/reference-tables.js`。
+
+#### 這支腳本處理的資料陷阱
 
 1. **憑證鏈不完整**：`od.cdc.gov.tw` 缺中繼憑證，標準 curl 會報
    `unable to get local issuer certificate`，需 `-k`。
 2. **「解除」是獨立記錄**，不是把原警示刪掉。若只是把「解除」列濾掉，已解除的舊警示會永遠留著
    （實測：泰國 M 痘 2022 年第二級警示實際已於 2026-04-28 解除，卻仍被當成現行）。
    正確做法是同一（國家, 疾病, 細分區域）取最新一筆，若最新為「解除」則整組不顯示。
-   目前排除 300 組已解除警示。
-3. **全球性公告混在逐國資料裡**：「嚴重特殊傳染性肺炎」第三級出現在**全部 246 國、生效日一律
-   2020-03-21**（COVID 初期全球警示，資料集中從未標記解除），「新冠併發重症」245 國。
-   照原樣顯示會讓 2026 年查日本也跳出「避免所有非必要旅遊」。腳本不刪除官方資料，
-   改標記為 blanket，前端分區收合呈現並說明原因。
+   本次快照重建排除 301 組已解除警示。
+3. **高覆蓋率分組不等於原始公告分類**：同疾病與等級涵蓋超過 200 個目的地者，本站另區收合呈現。
+   不表示全部紀錄同日生效，也不代表警示已失效。原始 CSV 保留全部資料供核對。
+4. **ISO 代碼不一定唯一對應目的地**：原檔 GP 同時用於瓜地洛普、聖馬丁及聖巴瑟米，不能直接合併。
+   現在拆開不同英文名稱的目的地；疫苗處方只合併中文名稱或唯一的相同英文名稱。
+5. **同日不同等級**：沿用原摘要的同日排序，但 CSV 視窗列出衝突，黃列只匹配網頁所示等級。
+   不由本工具裁定哪筆公告有效，使用前仍應核對官方最新資料。
+
+2026-09-06 依原 2026-08-07 快照重建：249 個目的地、798 筆摘要警示、1,381 個疫苗／用藥對應。
+原始 2,447 筆警示與 5,095 筆處方均未修改。
 
 同理，疫苗建議欄位中黃熱病列於全部 246 國、MMR 242、A 肝 240、狂犬病 225、傷寒 188 ——
 這是「旅遊門診**應評估**的清單」而非「該國要求接種」。頁面將其與真正隨目的地變動的項目
@@ -207,7 +214,9 @@ python3 -m unittest discover -s tools -p 'test_verify_excerpts.py' -v
 - 既有核對過的規則保留分級；成人等其他頁面也高亮實際匹配字詞，但不把整理文字標為整句逐字。
 - 預覽為「整頁定位小圖＋原頁全寬的上下文區域」。黃框為字詞，藍框為位置，不自動放大窄句裁圖。
 - 成人 14 列固定到正確疫苗列；抗體說明另定位到相關段落。手動翻頁清除舊框並同步更新連結。
+- 含間隔或孕週的成人摘要優先預覽對應附註，再提供第一頁時程表；最小年齡逐格定位，補種控制標籤與結果同步換列。
 - 網頁公告／仿單整理摘錄依原型別顯示，沒有 PDF 的項目不冒充 PDF。
+- 旅遊文字的 hover 是可上下左右捲動的 CSV 小視窗，可搜尋、切換全表及原檔欄序；點字固定於側欄。切換目的地會清除過期側欄。
 
 新增程式：`reference-ui.js`、`reference-ui.css`、`reference-geometry.js`；來源索引：`review/reference-pages.js`，
 由 `python3 tools/build_reference_pages.py` 建置。原始 `sources/` 不會被改寫。
@@ -221,11 +230,16 @@ python3 -m pip install -r requirements.txt
 python3 tools/build_reference_pages.py
 python3 tools/test_verify_excerpts.py
 python3 tools/verify_excerpts.py
+python3 tools/test_travel_rebuild.py
 ```
 
 另需安裝 Poppler。`build_reference_pages.py` 使用 pdfplumber 的實際字元座標；
 人工原文片段與 SHA-256 鎖定於 `review/reference-claims.json`。來源換版時必須重新核對，不能直接改雜湊放行。
 互動測試涵蓋 23 組、幾何 8 項、舊引文回歸 8 項；124 條原規則分級未更動。
+`npm test` 另遍歷全頁欄位、條件與計算分支、676 組有序間隔選擇、31 個補種分支及所有旅遊摘要對應，
+核對兩份 CSV 每一個原始值。`tools/audit_reference_targets.cjs` 可輸出全頁來源清冊；
+沒有黃框的介面標籤、空格、整理句及非 PDF 來源須另列，不算逐字通過。
+本輪全頁清冊、五項 verifier 發現與修復複驗：見 [2026-09-06 全頁覆核紀錄](review/reference_audit_2026-09-06.md)。
 機械驗證仍有 4 個人工覆核提示，歷史說明見 `review/round3_review.md`；測試通過不等於臨床全面認證。
 
 公開儲存庫不包含個人 `study/` 進度、交接文件、未用於網站的教科書摘錄、暫存或憑證。原始 PDF／網頁及其衍生預覽的權利與來源標示均歸各自權利人；本專案未對第三方內容授予額外授權。

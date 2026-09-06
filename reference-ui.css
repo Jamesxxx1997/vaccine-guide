@@ -1,5 +1,19 @@
 /* Direct reference checking: content, not only the book icon. */
 .ref-target{cursor:help;text-decoration-line:underline;text-decoration-style:dotted;text-decoration-color:var(--accent);text-underline-offset:4px;text-decoration-thickness:1px}
+.ref-csv{min-width:0}.ref-csv h3{margin:4px 0 8px}.ref-csv-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0}
+.ref-csv-controls input{max-width:180px;min-width:80px}.ref-csv-controls label{font-size:12px}
+.ref-csv-controls input,.ref-csv-controls select,.ref-csv-controls button{background:var(--surface-2);color:var(--ink);border:1px solid var(--line);border-radius:5px;padding:5px 7px;font:inherit}
+.ref-csv-controls button:disabled{opacity:.4;cursor:default}
+.ref-csv-warning{color:var(--warn);border-left:3px solid var(--warn);padding:6px 10px;font-size:12px;margin:8px 0}
+.ref-csv .note.warn{border-left-color:var(--warn);background:#ffcc4012}
+.ref-csv-scroll{max-height:420px;overflow:auto;overscroll-behavior:contain;border:1px solid var(--line);border-radius:5px;background:var(--surface)}
+.ref-csv-scroll table{width:max-content;min-width:100%;font-size:12px;border-collapse:separate;border-spacing:0}
+.ref-csv-scroll td,.ref-csv-scroll th{min-width:85px;max-width:260px;padding:7px 10px;white-space:pre-wrap;overflow-wrap:anywhere;vertical-align:top;border-bottom:1px solid var(--line);border-right:1px solid var(--line)}
+.ref-csv-scroll thead th{position:sticky;top:0;background:var(--surface-2);z-index:2;color:var(--ink)}
+.ref-csv-scroll tr>th:first-child{position:sticky;left:0;min-width:55px;background:var(--surface-2);z-index:1}
+.ref-csv-scroll thead th:first-child{z-index:3}.ref-csv-match td{background:#ffcc4025}.ref-csv-match th{color:#f4cb65}
+.ref-csv-compact .ref-csv-scroll{max-height:230px}.ref-csv-compact .ref-meta{font-size:11px}
+#reference-tip:has(.ref-csv){width:min(820px,calc(100vw - 24px));max-height:min(570px,80vh)}
 .ref-target:hover,.ref-target:focus-visible{background:var(--accent-soft);color:var(--accent);outline:2px solid transparent;border-radius:3px}
 .ref-target:focus-visible{outline-color:var(--accent)}
 .ref-selected{background:var(--accent-soft);color:var(--accent)}
@@ -41,7 +55,7 @@
 .ref-full img{display:block;width:100%;background:white;border-radius:5px}
 @media(min-width:1150px){body.reference-open>header,body.reference-open>.wrap{width:calc(100% - min(760px,48vw));margin-left:0;margin-right:0}body.reference-open .screener-grid{grid-template-columns:240px minmax(0,1fr)}}
 @media(min-width:761px) and (max-width:1149px){#reference-panel{width:min(680px,80vw)}}
-@media(max-width:760px){#reference-panel{width:94vw}.ref-panel-body{padding:12px}.ref-target{scroll-margin:100px}.vax-head{flex-wrap:wrap}.vax-name{min-width:45%}.age-row{flex-wrap:wrap}.age-row input{min-width:55px}}
+@media(max-width:760px){body.reference-open{overflow-x:hidden}#reference-panel{width:94vw}.ref-panel-body{padding:12px}.ref-target{scroll-margin:100px}.vax-head{flex-wrap:wrap}.vax-name{min-width:45%}.age-row{flex-wrap:wrap}.age-row input{min-width:55px}}
 @media(max-width:480px){.ref-preview{grid-template-columns:92px minmax(0,1fr);gap:8px}.ref-preview .ref-overview{width:92px}}
 @media(prefers-reduced-motion:reduce){#reference-panel{scroll-behavior:auto}}
 @media print{#reference-panel,#reference-tip,.reference-help{display:none!important}.ref-target{text-decoration:none}}

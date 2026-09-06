@@ -54,9 +54,29 @@ def read_csv(name):
     return list(csv.DictReader(io.StringIO((CSV_DIR / name).read_text(encoding="utf-8-sig"))))
 
 
-def build():
+def country_identity(name, english):
+    # Dataset ISO fields are not globally unique (GP also appears on records
+    # for Saint Martin and Saint Barthélemy). Never merge destinations by ISO.
+    return (english or name).strip().casefold()
+
+
+def build(snapshot_date=None):
     alerts = read_csv("TCDCTravelAlert.csv")
     presc  = read_csv("TMPrescription.csv")
+    iso_destinations = {}
+    for a in alerts:
+        code = a['ISO3166'].strip()
+        if code:
+            iso_destinations.setdefault(code, set()).add(country_identity(a['areaDesc'], a['areaDesc_EN']))
+
+    def alert_key(a):
+        name, english, code = a['areaDesc'].strip(), a['areaDesc_EN'].strip(), a['ISO3166'].strip()
+        if not code:
+            return name
+        if len(iso_destinations[code]) == 1:
+            return code
+        # Application key, not a replacement official ISO code.
+        return code + '::' + country_identity(name, english)
 
     # ── 疫情警示 ──
     # ★ 關鍵：「解除」是獨立的一筆記錄，不是把原記錄刪掉。
@@ -68,7 +88,7 @@ def build():
         name = a["areaDesc"].strip()
         if not name:
             continue
-        key = (a["ISO3166"] or "").strip() or name
+        key = alert_key(a)
         grp = (key, a["alert_disease"].strip(), (a.get("areaDetail") or "").strip())
         date = a["effective"][:10]
         lv = a["severity_level"].strip()
@@ -77,11 +97,8 @@ def build():
         if prev is None or date > prev[0] or (date == prev[0] and lv not in LEVEL_RANK):
             latest[grp] = (date, lv, name, a["areaDesc_EN"].strip())
 
-    # ★ 全球性警示：某(等級,疾病)組合若涵蓋幾乎所有國家，代表它是一次性全球公告而非該目的地特有。
-    #   實測：「嚴重特殊傳染性肺炎」第三級出現在全部 246 國、生效日一律 2020-03-21（COVID 初期
-    #   全球警示，資料集中從未標記解除）；「新冠併發重症」第一級 245 國。若照原樣顯示，
-    #   2026 年查日本會跳出「第三級：避免所有非必要旅遊」，明顯誤導。
-    #   處理方式：不刪除（那是官方資料），改標記為 blanket，由前端分區呈現。
+    # 本站整理分組，非來源欄位：覆蓋 >200 目的地者另區呈現，保留所有日期與等級。
+    # 高覆蓋率不代表所有紀錄同日發布，也不能用來判定警示已失效。
     active = {g: v for g, v in latest.items() if v[1] in LEVEL_RANK}
     lifted = len(latest) - len(active)
     disease_cov = {}
@@ -111,6 +128,10 @@ def build():
     universal = {v for v, c in coverage.items() if len(c) > UNIVERSAL_THRESHOLD}
 
     name_to_key = {r["n"]: k for k, r in by_country.items()}
+    english_to_keys = {}
+    for k, r in by_country.items():
+        if r['en']:
+            english_to_keys.setdefault(country_identity(r['n'], r['en']), set()).add(k)
     for p in presc:
         v = p["疫苗"].strip()
         if not v:
@@ -118,9 +139,16 @@ def build():
         cn = p["國名(中)"].strip()
         key = name_to_key.get(cn)
         if key is None:
+            # Explicit same English destination name is a safe spelling alias;
+            # require a unique candidate, never an ambiguous ISO-only match.
+            candidates = english_to_keys.get(country_identity(cn, p['國名(英)']), set())
+            if len(candidates) == 1:
+                key = next(iter(candidates))
+        if key is None:
             key = cn
             by_country[key] = {"n": cn, "en": p["國名(英)"].strip(), "a": [], "v": []}
-            name_to_key[cn] = key
+            english_to_keys.setdefault(country_identity(cn, p['國名(英)']), set()).add(key)
+        name_to_key[cn] = key
         rec = by_country[key]
         if not rec["en"]:
             rec["en"] = p["國名(英)"].strip()
@@ -132,11 +160,11 @@ def build():
         rec["a"].sort(key=lambda x: -x[0])
 
     meta = {
-        "updated": datetime.date.today().isoformat(),
+        "updated": snapshot_date or datetime.date.today().isoformat(),
         "countries": len(by_country),
         "alerts": sum(len(r["a"]) for r in by_country.values()),
         "universal": sorted(universal),
-        "blanket_note": "涵蓋超過 %d 國的同一警示視為全球性公告" % BLANKET_THRESHOLD,
+        "blanket_note": "本站將同疾病與等級覆蓋超過 %d 個目的地者分組；不是原始公告分類" % BLANKET_THRESHOLD,
         "src_alert": SOURCES["TCDCTravelAlert.csv"],
         "src_presc": SOURCES["TMPrescription.csv"],
     }
@@ -163,8 +191,15 @@ if __name__ == "__main__":
         download()
     else:
         print("離線模式，使用既有 CSV")
-    meta, data = build()
+    snapshot_date = None
+    if '--offline' in sys.argv:
+        old_meta = re.search(r'const TRAVEL_META=(.*?);', HTML.read_text(encoding='utf-8'))
+        if not old_meta:
+            sys.exit('Offline rebuild requires the existing snapshot date')
+        snapshot_date = json.loads(old_meta.group(1))['updated']
+    meta, data = build(snapshot_date)
     print(f"  國家/地區 {meta['countries']}　現行警示 {meta['alerts']} 筆")
     print(f"  視為旅遊常規（>{UNIVERSAL_THRESHOLD} 國通列）：{'、'.join(meta['universal'])}")
     write_html(meta, data)
+    subprocess.run([sys.executable, str(ROOT / 'tools/build_reference_tables.py')], check=True)
     print("完成。")
