@@ -1,0 +1,24 @@
+name: Read-only official travel connectivity check
+on:
+  workflow_dispatch:
+permissions: {}
+jobs:
+  connectivity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Resolve official hosts
+        run: |
+          getent ahostsv4 www.cdc.gov.tw
+          getent ahostsv4 od.cdc.gov.tw
+          getent ahostsv4 data.cdc.gov.tw
+      - name: Check HTTPS connection stages without disabling certificate validation
+        shell: bash
+        run: |
+          for url in \
+            'https://www.cdc.gov.tw/CountryEpidLevel/ExportCSV?fileName=TCDCTravelAlertAll.csv&type=0' \
+            'https://od.cdc.gov.tw/quarantine/TMPrescription.csv' \
+            'https://data.cdc.gov.tw/api/3/action/package_show?id=tmprescription'; do
+            echo "Checking official endpoint: $url"
+            curl -4 -sS --connect-timeout 10 --max-time 20 -o /dev/null -w 'http=%{http_code} ip=%{remote_ip} connect=%{time_connect} tls=%{time_appconnect} total=%{time_total}\n' "$url" || true
+          done
