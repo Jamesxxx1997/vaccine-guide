@@ -20,6 +20,7 @@
       .sort((a,b)=>Number(b.exact)-Number(a.exact)||Number(b.country)-Number(a.country)||a.c.n.localeCompare(b.c.n,'zh-Hant'));
   }
   function clearSelection() {
+    document.dispatchEvent(new CustomEvent('travel:clear'));
     selection.value='';travelCalc();
     document.getElementById('travelVaccineDetails').replaceChildren();
   }

@@ -1,10 +1,11 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const {JSDOM,VirtualConsole}=require('jsdom');
-module.exports=function setup(){
+module.exports=function setup({beforeScripts}={}){
   const root=path.resolve(__dirname,'..'),errors=[];
   const logs=new VirtualConsole();logs.on('jsdomError',e=>errors.push(e.message));
   const dom=new JSDOM(fs.readFileSync(path.join(root,'index.html'),'utf8'),{
     url:'http://localhost:8899/index.html',runScripts:'outside-only',pretendToBeVisual:true,virtualConsole:logs});
+  beforeScripts?.(dom.window);
   for(const script of dom.window.document.scripts){
     const src=script.getAttribute('src');
     let code=src?fs.readFileSync(path.join(root,src),'utf8'):script.textContent;

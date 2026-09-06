@@ -309,12 +309,46 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
         <fieldset><legend>慢性病、職業與居住狀況</legend><div id="chrBox"></div></fieldset>
       </div>
     </div>
-    <div id="riskOut"></div>
+    <div>
+      <div id="riskOut"></div>
+      <section id="travelAssessment" class="travel-assessment" data-ref-ui aria-labelledby="travelAssessmentTitle">
+        <h2 id="travelAssessmentTitle">依旅遊地區建議評估</h2>
+        <p>選擇目的地後，在這裡核對疫情依據與相關疫苗／預防措施。</p>
+        <a href="#travelSearch">前往目的地搜尋 ↓</a>
+        <div id="travelAssessmentStatus" role="status"></div>
+        <div id="travelAssessmentCountries"></div>
+        <div id="travelAssessmentCards"></div>
+      </section>
+    </div>
   </div>
 
   <h2 data-ref-csv="alerts">旅遊目的地與疫情搜尋</h2>
   <div class="card">
     <div id="travelSearch" data-ref-ui>
+      <div id="travelCompare" class="travel-compare" data-ref-ui>
+        <div class="travel-mode-buttons" role="group" aria-label="旅遊搜尋版本">
+          <button type="button" data-travel-mode="snapshot" aria-pressed="true">每日快照</button>
+          <button type="button" data-travel-mode="live" aria-pressed="false">A · 即時代查</button>
+          <button type="button" data-travel-mode="proxy" aria-pressed="false">B · 官方畫面代理</button>
+        </div>
+        <p id="travelServiceState" class="sub" role="status">即時試用模式需要另外的查詢服務；每日快照不受影響。</p>
+        <button type="button" id="travelReconnect" hidden>重新連線試用服務</button>
+        <div id="travelLivePanel" hidden>
+          <p id="travelModeHelp"></p>
+          <form id="travelLiveForm" role="search">
+            <label for="travelLiveQuery">即時查詢國家／地區或疾病（請勿輸入個資）</label>
+            <div class="travel-search-row"><input id="travelLiveQuery" type="search" maxlength="100" autocomplete="off" placeholder="例如：莫三比克、霍亂"><button id="travelLiveSubmit" type="submit">向疾管署搜尋</button></div>
+          </form>
+          <p id="travelLiveStatus" role="status" aria-live="polite"></p>
+          <p class="sub">查詢當下取得官方結果，不代表公告今天發布；沒有命中不等於沒有疫情。疫苗 PDF 說明仍為本站已註明版本的整理。</p>
+          <div id="travelLiveResults"></div>
+          <div id="travelProxyPanel" hidden>
+            <p>非官方轉送試用：保留官方旅遊搜尋頁面，搜尋與換頁可在框內操作；其他連結另開官網。尚未宣稱整個疾管署網站都可代理。</p>
+            <div id="travelProxyFrameHost"></div>
+          </div>
+          <p><a href="https://www.cdc.gov.tw/InternationalEpidemicLevel/Index/NlUwZUNvckRWQ09CbDJkRVFjaExjUT09" target="_blank" rel="noopener noreferrer">另開疾管署原始搜尋頁 ↗</a></p>
+        </div>
+      </div>
       <form id="travelSearchForm" role="search">
         <label for="travelQuery">國家／地區或疾病</label>
         <div class="travel-search-row"><input id="travelQuery" type="search" autocomplete="off" placeholder="例如：莫三比克、Japan、霍亂" aria-controls="travelSearchResults"><button type="submit">搜尋</button><button type="button" id="travelSearchClear">清除</button></div>
@@ -326,7 +360,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
     <div class="sub" id="tvMeta" style="font-size:12.5px"></div>
   </div>
   <div id="tvOut"></div>
-  <div id="travelVaccineDetails"></div>
+  <div id="travelVaccineDetails" data-ref-ui></div>
 </section>
 
 <!-- ═══════════ 間隔規則 ═══════════ -->
@@ -1901,6 +1935,9 @@ render();
 <script src="reference-ui.js"></script>
 <link rel="stylesheet" href="travel-search.css">
 <script src="travel-search.js"></script>
+<script src="travel-live.js"></script>
+<script src="travel-assessment.js"></script>
 <script src="travel-vaccine-guides.js"></script>
+<script src="vaccine-search.js"></script>
 </body>
 </html>

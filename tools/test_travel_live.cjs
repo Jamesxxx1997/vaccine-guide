@@ -1,0 +1,36 @@
+const assert=require('node:assert/strict');
+let nextResponse,called=[];
+const {dom,win,doc,errors}=require('./reference_test_env.cjs')({beforeScripts:w=>{
+  w.AbortController=AbortController;w.AbortSignal=AbortSignal;
+  w.fetch=async(url,options)=>{called.push({url,options});if(url.endsWith('/api/health'))return {ok:true,json:async()=>({ok:true,scope:'local-trial'})};return nextResponse(url,options);};
+}});
+const tick=()=>new Promise(r=>setTimeout(r,30));
+const input=doc.getElementById('travelLiveQuery');
+const result=query=>({ok:true,json:async()=>({query,fetchedAt:new Date().toISOString(),rows:[{country:'莫三比克',disease:'霍亂',level:'第一級',date:'2023/03/20',region:'',url:'https://www.cdc.gov.tw/InternationalTravel/Index/test'}]})});
+(async()=>{
+  await tick();assert(win.TravelLive.state.ready);win.TravelLive.select('live');assert(doc.getElementById('tvOut').hidden);assert(doc.getElementById('tvMeta').hidden);
+  input.value='莫三比克';nextResponse=async()=>result(input.value);await win.TravelLive.submit();
+  assert(doc.getElementById('travelLiveResults').textContent.includes('2023/03/20'));assert.equal(called.at(-1).options.body,'{"query":"莫三比克"}');assert.equal(called.at(-1).options.credentials,'omit');
+  doc.querySelector('.travel-live-card button').click();await tick();assert(doc.querySelector('[data-guide="cholera"]'));
+  doc.querySelector('[data-guide="cholera"]').click();await tick();assert(doc.querySelector('[data-ref-claim="travel-guide-cholera-0"]'));assert(doc.getElementById('travelVaccineDetails').textContent.includes('本次官方即時搜尋'));
+  let resolve;nextResponse=()=>new Promise(r=>resolve=r);const pending=win.TravelLive.submit();win.TravelLive.select('snapshot');resolve(result('莫三比克'));await pending;
+  assert.equal(doc.getElementById('travelLiveResults').textContent,'');assert(!doc.getElementById('tvOut').hidden);
+  win.TravelLive.select('live');nextResponse=async()=>{throw Error('offline');};await win.TravelLive.submit();assert(doc.getElementById('travelLiveStatus').textContent.includes('未使用舊資料替代'));
+  nextResponse=async()=>({ok:true,json:async()=>({query:'not same',rows:[]})});await win.TravelLive.submit();assert(!doc.querySelector('.travel-live-card'));
+  win.TravelLive.select('proxy');await win.TravelLive.submit();const frame=doc.querySelector('#travelProxyFrameHost iframe');assert(frame);assert(frame.src.startsWith('http://localhost:8901/'));
+  assert(!frame.getAttribute('sandbox').includes('allow-top-navigation'));const before=doc.getElementById('travelLiveStatus').textContent;
+  win.dispatchEvent(new win.MessageEvent('message',{origin:'https://evil.test',source:frame.contentWindow,data:{type:'vaccine-cdc-proxy',phase:'results',elapsedMs:1,count:9}}));assert.equal(doc.getElementById('travelLiveStatus').textContent,before);
+  const message=data=>win.dispatchEvent(new win.MessageEvent('message',{origin:'http://localhost:8901',source:frame.contentWindow,data:{type:'vaccine-cdc-proxy',...data}}));
+  const payload={version:1,query:'莫三比克',rows:[{country:'莫三比克',disease:'霍亂',level:'第一級',date:'2023/03/20',region:'',url:'https://www.cdc.gov.tw/InternationalTravel/Index/test'}],count:1,fetchedAt:'2026-09-06T08:00:00Z'};
+  message({phase:'search-start',sequence:1,query:'莫三比克'});
+  message({phase:'results',sequence:1,query:'莫三比克',result:payload,count:1,elapsedMs:50});assert.equal(win.TravelAssessment.state.selected,'莫三比克');
+  message({phase:'query-changed',sequence:2});assert.equal(win.TravelAssessment.state.selected,'');
+  message({phase:'results',sequence:1,query:'莫三比克',result:payload,count:1,elapsedMs:50});assert.equal(win.TravelAssessment.state.selected,'');
+  message({phase:'search-start',sequence:3,query:'日本'});
+  message({phase:'results',sequence:3,query:'日本',result:payload,count:1,elapsedMs:50});assert.equal(win.TravelAssessment.state.selected,'');assert(doc.getElementById('travelLiveStatus').textContent.includes('無法完整核對'));
+  message({phase:'error',sequence:3});message({phase:'page-loaded',elapsedMs:100});assert(doc.getElementById('travelLiveStatus').textContent.includes('代理搜尋失敗'));
+  input.dispatchEvent(new win.Event('input'));assert(!doc.querySelector('iframe'));assert.equal(doc.getElementById('travelVaccineDetails').textContent,'');
+  const normal=win.fetch;win.fetch=async()=>{throw Error('not started');};await doc.getElementById('travelReconnect').onclick();assert(!win.TravelLive.state.ready);assert(doc.getElementById('travelLiveSubmit').disabled);
+  win.fetch=normal;await doc.getElementById('travelReconnect').onclick();assert(win.TravelLive.state.ready);assert(!doc.getElementById('travelLiveSubmit').disabled);
+  assert.equal(errors.length,0,errors.join('\n'));console.log('PASS A/B trial: live source/PDF, race, failure, isolation, and no clinical data transmission.');dom.window.close();
+})().catch(e=>{console.error(e);dom.window.close();process.exitCode=1;});

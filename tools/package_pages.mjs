@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
 const output=await fs.mkdtemp(path.join(os.tmpdir(),'vaccine-pages-'));
-const files=['index.html','csv-viewer.html','csv-viewer.js','csv-viewer.css','reference-ui.js','reference-ui.css','reference-geometry.js','reference-scopes.js','reference-tables.js','travel-data.js','travel-search.js','travel-search.css','travel-vaccine-guides.js','.nojekyll'];
+const files=['index.html','csv-viewer.html','csv-viewer.js','csv-viewer.css','reference-ui.js','reference-ui.css','reference-geometry.js','reference-scopes.js','reference-tables.js','travel-data.js','travel-search.js','travel-live.js','travel-search.css','travel-vaccine-guides.js','travel-assessment.js','vaccine-search.js','.nojekyll'];
 for(const f of files)await fs.copyFile(f,path.join(output,f));
 async function copyDir(dir,filter){
   for(const entry of await fs.readdir(dir,{withFileTypes:true})){

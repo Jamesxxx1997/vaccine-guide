@@ -452,15 +452,21 @@
     tip.hidden=false;positionTip(target);
   }
   function positionTip(target) {
+    tip.style.maxHeight='';
     const r=target.getBoundingClientRect(), w=tip.offsetWidth,h=tip.offsetHeight;
     tip.style.left=Math.max(12,Math.min(r.left,innerWidth-w-12))+'px';
-    const below=r.bottom+10;
-    tip.style.top=Math.max(12,below+h<innerHeight-12?below:r.top-h-10)+'px';
+    const below=Math.max(0,innerHeight-12-r.bottom-10),above=Math.max(0,r.top-10-12);
+    const useBelow=below>=h||below>=above,space=useBelow?below:above;
+    // A tall CSV preview must not cover its own click target. If the target
+    // occupies the entire viewport, keep click/Enter available instead.
+    if(space<60){tip.hidden=true;return;}
+    const height=Math.min(h,space);tip.style.maxHeight=height+'px';
+    tip.style.top=(useBelow?r.bottom+10:r.top-height-10)+'px';
   }
-  function closePanel() {
+  function closePanel(restore=true) {
     panel.hidden=true;document.body.classList.remove('reference-open');clearTip();
     document.querySelectorAll('.ref-selected').forEach(el=>el.classList.remove('ref-selected'));
-    restoringFocus=true;if(opener?.isConnected)opener.focus({preventScroll:true});restoringFocus=false;
+    restoringFocus=true;if(restore&&opener?.isConnected)opener.focus({preventScroll:true});restoringFocus=false;
   }
   function openPanel(target) {
     const data=refs.get(target);if(!data)return;
@@ -539,6 +545,20 @@
   window.addEventListener('scroll',e=>{if(!tip.contains(e.target))clearTip();},true);window.addEventListener('resize',clearTip);
   const observer=new MutationObserver(()=>{clearTip();if(!panel.hidden)closePanel();wire();});
   wire();
+  // Shared presentation entry points; evidence and source grading remain private.
+  window.ReferenceUI=Object.freeze({
+    bind,
+    clear(){clearTip();if(!panel.hidden)closePanel(false);exPanelClose();exTipHide();},
+    vaccine(id,query){return {sources:vaxSources(id),childRow:id,purpose:'schedule',query,
+      note:'時程可能綜合不同年齡與製劑；請分別核對適用來源。'};},
+    vaccineExtra(id,query){return id==='hpv'?hpvPolicy():{sources:[...new Set([...query.matchAll(/S\d+N?/g)].map(m=>m[0]))].filter(k=>docs[k]),
+      adultNote:adultNotes[adultById[id]],query,note:'產品限制與整理說明；不同文件分開核對，不視為整句逐字引文。'};},
+    adult(index,query,{brief=false,sero=false}={}){const v=ADULT[index];
+      const explicit=[...query.matchAll(/〔([^〕]+)〕/g)].flatMap(m=>[...m[1].matchAll(/S\d+N?/g)].map(s=>s[0])).filter(k=>docs[k]);
+      return {
+      sources:explicit.length?[...new Set(explicit)]:[sero&&v.sero?v.sero.s:v.s],adultNote:adultNotes[index],adultRow:brief?index:undefined,
+      adultBrief:brief,sero,query};}
+  });
   const help=document.createElement('p');help.className='reference-help';
   help.innerHTML='查來源：<b>點文字</b> → 右側原文；停留 → 整頁定位＋懸浮預覽。黃框＝匹配原文字詞，藍框＝位置；整理句不等於逐字引文。';
   document.getElementById('tabs').after(help);
