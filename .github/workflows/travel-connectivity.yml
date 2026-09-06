@@ -4,14 +4,13 @@ on:
 permissions: {}
 jobs:
   connectivity:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     timeout-minutes: 3
     steps:
       - name: Resolve official hosts
         run: |
-          getent ahostsv4 www.cdc.gov.tw
-          getent ahostsv4 od.cdc.gov.tw
-          getent ahostsv4 data.cdc.gov.tw
+          node -e 'const dns=require("node:dns").promises;(async()=>{for(const h of ["www.cdc.gov.tw","od.cdc.gov.tw","data.cdc.gov.tw"])console.log(h,await dns.lookup(h,{all:true,family:4}))})().catch(e=>{console.error(e.message);process.exitCode=1})'
+          command -v gtar || true
       - name: Check HTTPS connection stages without disabling certificate validation
         shell: bash
         run: |
