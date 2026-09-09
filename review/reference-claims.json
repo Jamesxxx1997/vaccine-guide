@@ -1,5 +1,6 @@
 {
   "hashes": {
+    "S20": "4d700717ea4026f1f2f4566efec7f5e755a9531b9e21419ac1605edbd363e924",
     "S2": "601cdae83086af6d409a99a40772a19fc2b8fc93d1f8a666771455bd460f1160",
     "S3": "87968428ff606fcf8bbf4993d258b8d7bef8a35457de99f0ac9bf7b51ce25563",
     "S4": "baecc2b1adabcce924d6c228b876e397d4d019ba871749b97ab5441ab2b9426a",
@@ -14,6 +15,208 @@
     "S17": "af2900e5927a8d5aa21e47d0f8b033b04aec6813a7068a1fe0e60bcbbb91c3c7"
   },
   "claims": {
+  "shingrix-dose": {
+    "items": [
+      {
+        "source": "S20",
+        "page": 2,
+        "quotes": [
+          "初次接種時程共包含兩劑，每劑0.5毫升；第二劑於第一劑施打2至6個月後施打。",
+          "Shingrix僅供肌肉注射，理想的注射部位是三角肌。"
+        ],
+        "label": "初次接種：兩劑、劑量、間隔與途徑"
+      }
+    ]
+  },
+  "shingrix-short": {
+    "note": "短時程的適用對象和劑次句一起高亮；本頁是中文整理，不把短時程推為所有成人通用。",
+    "items": [
+      {
+      "source": "S20",
+      "page": 2,
+      "region": [105,193,540,244],
+        "quotes": [
+          "對免疫功能缺乏、免疫功能受到抑制或因已知疾病或治療而可能使免疫功能受到抑制的人，以及可因較短的疫苗接種時程而獲益的人，第二劑可於第一劑施打1至2個月後施打"
+        ],
+        "label": "1–2 個月：必須合併閱讀的適用條件"
+      }
+    ]
+  },
+  "shingrix-indication": {
+    "note": "適應症跨 PDF 第 1–2 頁；懸浮先預覽第一段，點開後可核對兩頁。年齡提示是介面整理，不是第 4 節禁忌。",
+    "items": [
+      {
+        "source": "S20",
+        "page": 1,
+        "quotes": [
+          "50歲(含)以上的成人"
+        ],
+        "label": "適應症第 1 部分（續文在下一頁）"
+      },
+      {
+        "source": "S20",
+        "page": 2,
+        "quotes": [
+          "18歲(含)以上且具有罹患帶狀疱疹風險較高的成人"
+        ],
+        "label": "適應症續文：18 歲以上須較高風險"
+      }
+    ]
+  },
+  "shingrix-schedule": {
+    "note": "時程為整理；各段原文分頁核對，hover 先顯示劑量段，點開可看完整條件。",
+    "items": [
+      {
+        "ref": "shingrix-dose"
+      },
+      {
+        "ref": "shingrix-short"
+      },
+      {
+        "ref": "shingrix-indication"
+      }
+    ]
+  },
+  "shingrix-allergy": {
+    "items": [
+      {
+        "source": "S20",
+        "page": 2,
+        "quotes": [
+          "對本疫苗的活性成份或任何組成嚴重過敏"
+        ],
+        "label": "第 4 節：禁忌"
+      }
+    ]
+  },
+  "shingrix-fever": {
+    "items": [
+      {
+      "source": "S20",
+      "page": 3,
+      "glyphRows": true,
+        "quotes": [
+          "罹患急性嚴重發熱性疾病的病人應延後接種Shingrix。但不須因出現輕微的感染現象(如感冒)而延後接種。"
+        ],
+        "label": "延後接種的嚴重程度；輕微感染例外"
+      }
+    ]
+  },
+  "shingrix-pregnancy": {
+    "items": [
+      {
+      "source": "S20",
+      "page": 3,
+      "glyphRows": true,
+        "quotes": [
+          "目前並無任何懷孕婦女使用Shingrix方面的資料。",
+          "已知懷孕的婦女應避免接種Shingrix疫苗。"
+        ],
+        "label": "懷孕：無人體資料、應避免接種"
+      }
+    ]
+  },
+  "shingrix-lactation": {
+    "items": [
+      {
+      "source": "S20",
+      "page": 3,
+      "glyphRows": true,
+        "quotes": [
+          "目前尚未研究母親在施打Shingrix後，對接受母乳哺育之嬰兒的影響。"
+        ],
+        "label": "哺乳：資料限制"
+      }
+    ]
+  },
+  "shingrix-bleeding": {
+    "items": [
+      {
+      "source": "S20",
+      "page": 3,
+      "glyphRows": true,
+        "quotes": [
+        "切勿以血管內、皮內或皮下注射的方式施打本疫苗。",
+          "對患有血小板減少症或任何凝血功能障礙的病人施打Shingrix時應謹慎，因為這些病人在接受肌肉注射之後可能會發生出血的現象。"
+        ],
+        "label": "肌注出血注意；不可改用皮下注射"
+      }
+    ]
+  },
+  "shingrix-immunity": {
+    "note": "疾管署接種對象與本頁提醒分開判讀；這些原文沒有提供本介面的化療／抗 CD20 等個別治療時間判定。",
+    "items": [
+      {
+        "source": "S4",
+        "page": 5,
+        "quotes": [
+          "18歲（含）以上免疫不全或免疫功能低下者，可經醫師評估，接種2劑帶狀疱疹疫苗。"
+        ],
+        "label": "台灣疾管署附註 10(2)：可經評估接種"
+      },
+      {
+        "ref": "shingrix-allergy"
+      }
+    ]
+  },
+  "shingrix-history": {
+    "items": [
+      {
+        "source": "S4",
+        "page": 5,
+        "quotes": [
+          "50歲（含）以上成人。曾接種過活性減毒帶狀疱疹疫苗者，間隔至少1年以上可再接種本項帶狀疱疹疫苗。",
+          "曾經罹患帶狀疱疹者，可於發病1年且無相關症狀後，接種本項帶狀疱疹疫苗。"
+        ],
+        "label": "台灣疾管署附註 10：既往接種／發病後的一年規則"
+      }
+    ]
+  },
+  "shingrix-booster": {
+    "items": [
+      {
+        "source": "S20",
+        "page": 2,
+        "quotes": [
+          "施打追加劑量的必要性尚未確立。",
+          "Shingrix並不適用於預防原發性水痘感染。"
+        ],
+        "label": "追加劑未知；不是水痘預防用途"
+      }
+    ]
+  },
+  "shingrix-product": {
+    "note": "產品及台灣建議為不同來源，點開逐段核對；黃色只標原文字詞。GBS 為警語，不被編成自動禁忌。",
+    "items": [
+      {
+        "source": "S20",
+        "page": 1,
+        "quotes": [
+          "衛部菌疫輸字第001182號",
+          "非活性基因重組疫苗"
+        ],
+        "label": "台灣許可證與製劑分類"
+      },
+      {
+        "ref": "shingrix-booster"
+      },
+      {
+      "source": "S20",
+      "page": 3,
+      "glyphRows": true,
+        "quotes": [
+          "在接種Shingrix疫苗後已觀察到罹患格林-巴利症候群(Guillain-Barre syndrome, GBS)的風險增加。"
+        ],
+        "label": "GBS 風險警語"
+      },
+      {
+        "ref": "shingrix-history"
+      },
+      {
+        "ref": "shingrix-immunity"
+      }
+    ]
+  },
     "class-shingrix": {
       "note": "分類依疾管署原文；黃框標示核對到的原文字詞，不表示網頁整段都是逐字引文。",
       "items": [{"source":"S4", "page":5, "quotes":["非活性基因重組帶狀疱疹疫苗"], "label":"疾管署原文分類"}]

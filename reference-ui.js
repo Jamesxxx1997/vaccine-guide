@@ -83,9 +83,9 @@
     observer.disconnect();
     document.querySelectorAll('#conds label').forEach(label=>{
       const id=label.querySelector('input').dataset.c;
-      const rules=VAX.flatMap(v=>v.rules.filter(r=>r.c===id).map(r=>({key:exKey(v.id,r.s,r.t),name:v.n})))
-        .filter(r=>EXCERPTS[r.key]);
-      rules.sort((a,b)=>(EXCERPTS[a.key].status==='verbatim'?-1:0)-(EXCERPTS[b.key].status==='verbatim'?-1:0));
+      const rules=VAX.flatMap(v=>v.rules.filter(r=>r.c===id).map(r=>({key:exKey(v.id,r.s,r.t),claim:r.claim,name:v.n})))
+        .filter(r=>r.claim&&claims[r.claim]||EXCERPTS[r.key]);
+      rules.sort((a,b)=>(EXCERPTS[a.key]?.status==='verbatim'?-1:0)-(EXCERPTS[b.key]?.status==='verbatim'?-1:0));
       bind(label.querySelector('span'),{exacts:rules,query:label.textContent,note:'以下列出這項篩檢條件所連結的各疫苗規則。條件名稱為介面摘要；請逐支核對適用範圍。'});
     });
     document.querySelectorAll('[data-ref-claim]').forEach(el=>{
@@ -404,7 +404,8 @@
     return parts.sort((a,b)=>score(query,b)-score(query,a))[0].slice(0,7000);
   }
   function evidence(data) {
-    if(data.exacts)return data.exacts.flatMap(entry=>evidence({exact:entry.key})).map((item,i)=>({...item,label:data.exacts[i].name+' · 對應篩檢規則'}));
+    if(data.exacts)return data.exacts.flatMap(entry=>evidence(entry.claim?{claim:entry.claim}:{exact:entry.key})
+      .map(item=>({...item,label:entry.name+' · 對應篩檢規則'+(item.label?' · '+item.label:'')})));
     if(data.csv){
       const filter={...data.csvFilter};
       if(filter.currentCountry){filter.countryKey=document.getElementById('tvCountry').value;filter.country=TRAVEL[filter.countryKey]?.n;filter.countryEnglish=TRAVEL[filter.countryKey]?.en;}
@@ -441,11 +442,12 @@
   const clearTip=()=>{clearTimeout(hoverTimer);clearTimeout(hideTimer);tip.hidden=true;activeTarget=null;};
   function showTip(target) {
     const data=refs.get(target);if(!data)return;
-    const item=evidence(data)[0];if(!item)return;
+    const items=evidence(data),item=items[0];if(!item)return;
     activeTarget=target;
     tip.innerHTML=item.table?'<div class="ref-csv-mount"></div>':item.view?`<div class="ref-preview">${overviewHtml(item.view)}<div class="ref-preview-context">${cropHtml(item.view)}</div></div><div class="ref-meta">${esc(item.label||item.doc.n)} · 第 ${item.view.page.page} 頁 · ${esc(viewLabel(item.view))}</div>`:
       item.exact?exImgHtml(item.exact,Math.min(460,item.exact.iw*72/(item.exact.dpi||150)))+`<div class="ref-meta">${esc(EX_STATUS[item.exact.status]?.[0]||'原文')} · 第 ${item.exact.page} 頁</div>`:
       `<span class="ref-label">${esc(item.doc.textLabel||'網頁／文字來源，無 PDF 縮圖')}</span><div class="ref-text">${esc(textExcerpt(item.doc,data.query).slice(0,650)||'此項沒有本機原文摘錄；點擊查看來源連結。')}</div>`;
+    if(items.length>1)tip.innerHTML+=`<div class="ref-meta">目前預覽第 1／${items.length} 段；點文字查看全部原文及適用條件。</div>`;
     tip.innerHTML+='<div class="ref-meta">點文字固定於右側查閱 · Esc 關閉預覽</div>';
     if(item.table)ReferenceTables.mount(tip.querySelector('.ref-csv-mount'),item.table,item.filter,{compact:true});
     tip.setAttribute('role',item.table?'dialog':'tooltip');
@@ -549,15 +551,15 @@
   window.ReferenceUI=Object.freeze({
     bind,
     clear(){clearTip();if(!panel.hidden)closePanel(false);exPanelClose();exTipHide();},
-    vaccine(id,query){return {sources:vaxSources(id),childRow:id,purpose:'schedule',query,
+    vaccine(id,query){return {claim:VAX.find(v=>v.id===id)?.scheduleClaim,sources:vaxSources(id),childRow:id,purpose:'schedule',query,
       note:'時程可能綜合不同年齡與製劑；請分別核對適用來源。'};},
-    vaccineExtra(id,query){return id==='hpv'?hpvPolicy():{sources:[...new Set([...query.matchAll(/S\d+N?/g)].map(m=>m[0]))].filter(k=>docs[k]),
+    vaccineExtra(id,query){return id==='hpv'?hpvPolicy():{claim:VAX.find(v=>v.id===id)?.extraClaim,sources:[...new Set([...query.matchAll(/S\d+N?/g)].map(m=>m[0]))].filter(k=>docs[k]),
       adultNote:adultNotes[adultById[id]],query,note:'產品限制與整理說明；不同文件分開核對，不視為整句逐字引文。'};},
-    adult(index,query,{brief=false,sero=false}={}){const v=ADULT[index];
+    adult(index,query,{brief=false,sero=false,claim}={}){const v=ADULT[index];
       const explicit=[...query.matchAll(/〔([^〕]+)〕/g)].flatMap(m=>[...m[1].matchAll(/S\d+N?/g)].map(s=>s[0])).filter(k=>docs[k]);
       return {
       sources:explicit.length?[...new Set(explicit)]:[sero&&v.sero?v.sero.s:v.s],adultNote:adultNotes[index],adultRow:brief?index:undefined,
-      adultBrief:brief,sero,query};}
+      adultBrief:brief,sero,claim,query};}
   });
   const help=document.createElement('p');help.className='reference-help';
   help.innerHTML='查來源：<b>點文字</b> → 右側原文；停留 → 整頁定位＋懸浮預覽。黃框＝匹配原文字詞，藍框＝位置；整理句不等於逐字引文。';

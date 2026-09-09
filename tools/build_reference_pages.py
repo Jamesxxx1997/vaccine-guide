@@ -27,7 +27,37 @@ def normalize(text):
     return re.sub(r'[^a-z0-9\u3400-\u9fff]', '', unicodedata.normalize('NFKC', text).lower())
 
 
-def anchor_quote(page, quote, region=None):
+def word_positions(page, word, glyph_rows=False):
+    """Map actual glyphs, never split a tall word box into estimated letters.
+
+    Some PDFs have a font descriptor whose Poppler bbox spans adjacent lines.
+    Opt-in row recovery requires one exact normalized glyph row; ambiguity or
+    unavailable glyph geometry fails closed, instead of highlighting a tall box.
+    """
+    token = normalize(word[4])
+    glyphs = [c for c in page.get('chars', []) if
+              word[0]-1 <= (c[0]+c[2])/2 <= word[2]+1 and
+              word[1]-2 <= (c[1]+c[3])/2 <= word[3]+2]
+    glyphs.sort(key=lambda c:c[0])
+    if not glyph_rows and ''.join(normalize(c[4]) for c in glyphs) == token:
+        return [c for c in glyphs for _ in normalize(c[4])]
+    if glyph_rows and token:
+        rows = []
+        for char in sorted(glyphs, key=lambda c:((c[1]+c[3])/2,c[0])):
+            center = (char[1]+char[3])/2
+            if rows and abs(center-rows[-1][0]) < 2:
+                rows[-1][1].append(char)
+            else:
+                rows.append((center,[char]))
+        matches = [sorted(row,key=lambda c:c[0]) for _,row in rows
+                   if ''.join(normalize(c[4]) for c in sorted(row,key=lambda c:c[0])) == token]
+        if len(matches) != 1:
+            raise ValueError('Expected one exact glyph row: ' + word[4])
+        return [c for c in matches[0] for _ in normalize(c[4])]
+    return [word] * len(token)
+
+
+def anchor_quote(page, quote, region=None, glyph_rows=False):
     """Exact normalized matches only, never fuzzy or cross-column matching."""
     needle = normalize(quote)
     matches = []
@@ -41,13 +71,7 @@ def anchor_quote(page, quote, region=None):
         for word in words:
             token = normalize(word[4])
             stream += token
-            glyphs = [c for c in page.get('chars', []) if
-                      word[0]-1 <= (c[0]+c[2])/2 <= word[2]+1 and
-                      word[1]-2 <= (c[1]+c[3])/2 <= word[3]+2]
-            glyphs.sort(key=lambda c:c[0])
-            glyph_text = ''.join(normalize(c[4]) for c in glyphs)
-            positions += ([c for c in glyphs for _ in normalize(c[4])]
-                          if glyph_text == token else [word] * len(token))
+            positions += [(word, offset) for offset in range(len(token))]
         start = stream.find(needle)
         if start < 0:
             continue
@@ -55,8 +79,11 @@ def anchor_quote(page, quote, region=None):
             raise ValueError('Ambiguous quotation: ' + quote)
         selected = positions[start:start + len(needle)]
         rects = []
-        for word in selected:
-            rect = word[:4]
+        mapped = {}
+        for word, offset in selected:
+            if id(word) not in mapped:
+                mapped[id(word)] = word_positions(page, word, glyph_rows)
+            rect = mapped[id(word)][offset][:4]
             if not rects or rects[-1] != rect:
                 rects.append(rect)
         matches.append(rects)
@@ -83,7 +110,7 @@ def build_claims(sources, spec):
             if 'page' in item:
                 doc = sources[item['source']]
                 page = doc['pages'][item['page'] - 1]
-                item['rects'] = [r for q in item['quotes'] for r in anchor_quote(page, q, item.get('region'))]
+                item['rects'] = [r for q in item['quotes'] for r in anchor_quote(page, q, item.get('region'), item.get('glyphRows', False))]
                 item['sha256'] = doc['sha256']
             items.append(item)
         result[key] = dict(note=entry.get('note', ''), items=items)

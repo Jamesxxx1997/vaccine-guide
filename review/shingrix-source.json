@@ -1,0 +1,24 @@
+{
+  "source": "S20",
+  "file": "sources/仿單/Shingrix_TFDA_2026-04-23.pdf",
+  "sha256": "4d700717ea4026f1f2f4566efec7f5e755a9531b9e21419ac1605edbd363e924",
+  "bytes": 8514430,
+  "pages": 16,
+  "license": "衛部菌疫輸字第001182號",
+  "tfdaVersionDate": "2026-04-23",
+  "manufacturerVersion": "GDSv13",
+  "manufacturerIssueDate": "2025-04-03",
+  "receivedDate": "2026-09-09",
+  "acquisition": "User supplied original PDF exported from the TFDA platform; not downloaded automatically and not an HTML printout created by this project.",
+  "officialUrl": "https://mcp.fda.gov.tw/im_detail_1/衛部菌疫輸字第001182號",
+  "preservation": "Copied unchanged; PDF export metadata timestamps are not the label revision date.",
+  "relatedTaiwanSchedule": {
+    "source": "S4",
+    "version": "115年5月版",
+    "page": 5,
+    "section": "附註10",
+    "sha256": "baecc2b1adabcce924d6c228b876e397d4d019ba871749b97ab5441ab2b9426a"
+  },
+  "retiredLegacyRuleKeys": ["e66d56e2c", "ea272981a", "e952fc4d0"],
+  "legacyPolicy": "Old EXCERPTS records and evidence grades remain unchanged for historical review; active Shingrix rules now use version-pinned S20/S4 claims. S9 remains a historical text extract for other products, not the current Shingrix label."
+}

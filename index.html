@@ -589,7 +589,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 <!-- ═══════════ 來源 ═══════════ -->
 <section class="panel" id="p-src" role="tabpanel">
   <h2>來源文件與版本</h2>
-  <p>本頁每條規則的引用代碼對應下表。所有檔案已下載存檔於 <code>~/vaccine-guide/sources/</code>，擷取日期 <strong>2026-08-07</strong>。</p>
+  <p>本頁每條規則的引用代碼對應下表。核心資料擷取日為 <strong>2026-08-07</strong>；後續新增來源各自註明官方版本與收錄日期，請以下表為準。Shingrix 現行原始仿單為 S20，S9 僅保留歷史文字摘錄。</p>
   <div class="scroller">
     <table class="srclist">
       <thead><tr><th>代碼</th><th>文件名稱（連官方原始檔）</th><th>版本</th><th>發布單位</th><th>本機存檔</th></tr></thead>
@@ -794,6 +794,8 @@ const SRC = {
   S19:{n:"Timing and Spacing of Immunobiologics — Table 3-1", v:"2024-07-24；核對 2026-09-05", o:"美國 CDC（官方網頁，非 PDF）",
       u:"https://www.cdc.gov/vaccines/hcp/imz-best-practices/timing-spacing-immunobiologics.html", p:"", textLabel:"官方網頁分類表整理（非 PDF）",
       text:"Table 3-1 的 Non-live 分類包含：COVID-19 vaccines (Pfizer, Moderna, Novavax)、Recombinant zoster vaccine (RZV)、Respiratory syncytial virus vaccine (RSV)。\n\n中文整理：non-live 涵蓋不活化、重組／次單元等製劑；並非都屬殺死整體病原的狹義不活化疫苗。不同注射或鼻噴活性疫苗未同日接種時，一般至少間隔 4 週（28 天）；此非同種疫苗之劑次間隔規範。"},
+  S20:{n:"欣剋疹帶狀疱疹疫苗 Shingrix — TFDA 中文仿單", v:"版本 2026-04-23；GDSv13（2025-04-03）；收錄 2026-09-09", o:"TFDA／GSK",
+      u:"https://mcp.fda.gov.tw/im_detail_1/衛部菌疫輸字第001182號", p:"sources/仿單/Shingrix_TFDA_2026-04-23.pdf"},
 };
 // 來源標註：文件名連到官方原始檔，版本號連到本機存檔（若有）
 function cite(code){
@@ -1033,13 +1035,19 @@ const VAX = [
 /* ── 自費疫苗：不在疾管署 112.09 禁忌表內，禁忌症取自 TFDA 中文仿單 ── */
 const VAX_SELFPAY = [
 { id:"shingrix", n:"帶狀疱疹疫苗（非活性基因重組）", en:"Shingrix 欣剋疹", type:"inact", fund:"自費",
-  sched:"2 劑，第 2 劑於第 1 劑後 2–6 個月（仿單另載可於 1–2 個月後施打）。50 歲以上成人；18 歲以上免疫不全或功能低下者經醫師評估。曾接種活性減毒帶狀疱疹疫苗者間隔至少 1 年可再接種；曾罹患帶狀疱疹者可於發病 1 年且無症狀後接種。",
+  sched:"2 劑，每劑 0.5 mL，肌肉注射；第 2 劑於第 1 劑後 2–6 個月。適用於 50 歲（含）以上成人，或 18 歲（含）以上具有較高帶狀疱疹風險的成人。仿單另列：免疫功能缺乏、受到抑制或因已知疾病／治療而可能受到抑制的人，以及可因較短時程而獲益的人，第 2 劑可於第 1 劑後 1–2 個月施打；非所有成人通用的短時程。",
+  scheduleClaim:"shingrix-schedule", extraClaim:"shingrix-product",
   rules:[
-    {c:"anaphy", lv:"stop", t:"對本疫苗的活性成份或任何組成嚴重過敏。（仿單所列唯一禁忌）", s:"S9"},
-    FEVER,
-    {c:a=>a.years!==null&&a.years<18, lv:"warn", t:"仿單適應症為 50 歲（含）以上成人，或 18 歲（含）以上具較高罹患帶狀疱疹風險之成人；未滿 18 歲不在適應症範圍。", s:"S9"},
+    {c:"anaphy", lv:"stop", t:"對本疫苗的活性成份或任何組成嚴重過敏。（仿單第 4 節禁忌）", s:"S20", claim:"shingrix-allergy"},
+    {c:"fever", lv:"warn", t:"急性嚴重發熱性疾病應延後接種；不須因輕微感染（如感冒）而延後。此勾選項較廣，仍須核對嚴重程度。", s:"S20", claim:"shingrix-fever"},
+    {c:"preg", lv:"warn", t:"孕婦：已知懷孕的婦女應避免接種 Shingrix；目前無懷孕婦女使用資料。（特殊族群警語，未列於第 4 節禁忌）", s:"S20", claim:"shingrix-pregnancy"},
+    {c:"lactate", lv:"warn", t:"哺乳：尚未研究接種後對母乳哺育嬰兒的影響，須個別評估；不能解讀為已證實安全或必須停乳。", s:"S20", claim:"shingrix-lactation"},
+    {c:"itp", lv:"warn", t:"血小板減少症或凝血功能障礙者肌肉注射後可能出血，施打時應謹慎；不是自動禁忌，也不可因此改為皮下注射。", s:"S20", claim:"shingrix-bleeding"},
+    {c:a=>a.years!==null&&a.years<18, lv:"warn", t:"未滿 18 歲不在仿單適應症範圍；此為年齡適用提醒，不是仿單第 4 節禁忌。", s:"S20", claim:"shingrix-indication"},
+    {c:a=>a.years!==null&&a.years>=18&&a.years<50, lv:"warn", t:"18–49 歲須確認是否符合較高帶狀疱疹風險的適應症；不是所有 18 歲以上成人一律適用。", s:"S20", claim:"shingrix-indication"},
+    {c:"immuno", lv:"info", t:"免疫不全本身不是本疫苗禁忌；疾管署列 18 歲（含）以上免疫不全或功能低下者可經醫師評估接種。這不代表治療中可立即接種；本階段尚未提供治療前後時機判定。", s:"S4", claim:"shingrix-immunity"},
   ],
-  extra:"許可證字號：衛部菌疫輸字第 001182 號〔S9〕。疾管署《成人預防接種建議時程表》115 年 5 月版附註 10 明列「18 歲（含）以上免疫不全或免疫功能低下者，可經醫師評估，接種 2 劑帶狀疱疹疫苗」——<strong>免疫不全非本疫苗禁忌</strong>〔S4〕。（「本疫苗為非活性基因重組蛋白」屬品名與適應症之推論，仿單未以此語句說明免疫不全者可接種。）"},
+  extra:"許可證：衛部菌疫輸字第 001182 號。非活性基因重組疫苗；追加劑的必要性尚未確立，並非預防原發性水痘感染。仿單警示接種後觀察到 GBS 風險增加，但未將 GBS 病史列為自動禁忌。〔S20〕<br>台灣疾管署附註 10：50 歲（含）以上且曾接種活性減毒帶狀疱疹疫苗者，間隔至少 1 年可再接種；曾罹患帶狀疱疹者，可於發病 1 年且無相關症狀後接種。免疫不全者可經醫師評估，非本疫苗自動禁忌；治療時機另須評估。〔S4〕"},
 
 { id:"rsv", n:"RSV 疫苗", en:"Arexvy 欣剋融／Abrysvo 艾沛兒", type:"inact", fund:"自費",
   sched:"單劑肌肉注射。Arexvy：60 歲以上成人、50–59 歲高風險者。Abrysvo：60 歲以上成人、18–59 歲高風險者、孕婦。",
@@ -1196,7 +1204,10 @@ const ADULT = [
    "<strong>50 歲（含）以上成人。</strong>曾接種過活性減毒帶狀疱疹疫苗者，間隔<strong>至少 1 年</strong>以上可再接種本項疫苗。",
    "<strong>18 歲（含）以上免疫不全或免疫功能低下者</strong>，可經醫師評估，接種 2 劑帶狀疱疹疫苗。",
    "<strong>曾經罹患帶狀疱疹者</strong>，可於<strong>發病 1 年且無相關症狀後</strong>，接種本項帶狀疱疹疫苗。",
-   "仿單（衛部菌疫輸字第 001182 號）另載第二劑可於第一劑施打 1-2 個月後施打。〔S9〕"]},
+   "Shingrix 初次接種共 2 劑，每劑 <strong>0.5 mL，肌肉注射</strong>，第 2 劑於第 1 劑後 2–6 個月。〔S20〕",
+   "<strong>短時程有適用條件：</strong>免疫功能缺乏、受到抑制或因已知疾病／治療而可能受到抑制的人，以及可因較短時程而獲益的人，第 2 劑可於第 1 劑後 <strong>1–2 個月</strong>施打；並非所有成人通用。〔S20〕",
+   "<strong>追加劑的必要性尚未確立</strong>；不能解讀成終身不需追加。Shingrix 並非用於預防原發性水痘感染。〔S20〕"],
+  noteClaims:[null,null,"shingrix-immunity","shingrix-history","shingrix-dose","shingrix-short","shingrix-booster"]},
 
 { n:"流行性腦脊髓膜炎疫苗", en:"MCV4／MenB", brief:"高危險群及赴流行地區者", s:"S4", travel:true,
   notes:["感染<strong>高危險群建議自費接種</strong>，包括持續性補體缺損患者、脾臟功能缺損者、人類免疫缺乏病毒感染患者，及<strong>居住或往返於流行地區</strong>等對象。",
@@ -1331,11 +1342,11 @@ function render(){
       <div class="vax-body">
         ${hits.map(h=>`<div class="hit">
             <span class="hit-tag ${h.lv}">${h.lv==='stop'?'⛔ 禁忌':h.lv==='warn'?'⚠️ 注意':'ℹ️ 原文'}</span>
-            <span class="hit-txt">${h.t}</span>
+            <span class="hit-txt" ${h.claim?`data-ref-claim="${h.claim}"`:''}>${h.t}</span>
             <span class="src">來源：${cite(h.s)}${h.s==="S1"?`　│　列於原文<strong>${h.lv==='stop'?'「接種禁忌」':'「注意事項」'}</strong>欄`:""}　${exBtn(vx.id,h.s,h.t)}</span>
           </div>`).join("") || `<div class="hit"><span class="hit-txt" style="color:var(--go)">依已勾選條件，未觸發任何禁忌或注意事項。仍請依臨床判斷。</span></div>`}
-        <div class="hit"><span class="hit-txt" style="color:var(--ink-3)"><strong>建議時程：</strong>${vx.sched}</span></div>
-        ${vx.extra?`<div class="hit"><span class="hit-txt" style="color:var(--ink-3)">${vx.extra}</span></div>`:""}
+        <div class="hit"><span class="hit-txt" ${vx.scheduleClaim?`data-ref-claim="${vx.scheduleClaim}"`:''} style="color:var(--ink-3)"><strong>建議時程：</strong>${vx.sched}</span></div>
+        ${vx.extra?`<div class="hit"><span class="hit-txt" ${vx.extraClaim?`data-ref-claim="${vx.extraClaim}"`:''} style="color:var(--ink-3)">${vx.extra}</span></div>`:""}
       </div>`;
     el.querySelector(".vax-head").onclick=()=>el.classList.toggle("open");
     if(lv==="stop") el.classList.add("open");
@@ -1368,10 +1379,10 @@ const fill=(id,rows)=>document.getElementById(id).innerHTML=
 fill("childTbl",CHILD); fill("minAgeTbl",MINAGE);
 
 /* 成人時程：可展開卡片。抗體判讀（sero）與 PCV 銜接原則（pcv）都塞在對應疫苗底下 */
-const ul=a=>`<ul style="margin:0 0 4px">${a.map(i=>`<li>${i}</li>`).join("")}</ul>`;
+const ul=(a,claims=[])=>`<ul style="margin:0 0 4px">${a.map((text,i)=>`<li ${claims[i]?`data-ref-claim="${claims[i]}"`:''}>${text}</li>`).join("")}</ul>`;
 document.getElementById("adultList").innerHTML=ADULT.map((v,i)=>{
   let body="";
-  if(v.notes) body+=ul(v.notes);
+  if(v.notes) body+=ul(v.notes,v.noteClaims);
   if(v.pcv){
     body+=`<h3 style="margin-top:14px">${PCV_BRIDGE.h}</h3><p style="font-size:13.5px;color:var(--ink-2)">${PCV_BRIDGE.lead}</p>`
         + ul(PCV_BRIDGE.items)
@@ -1402,17 +1413,17 @@ document.querySelectorAll('#adultList .vax-head').forEach(h=>h.onclick=()=>h.par
 // 非 S1 來源（自費疫苗取自 TFDA 仿單）逐條標註出處，避免與疾管署表格混淆。
 document.getElementById("contraTbl").innerHTML=VAX.map(vx=>{
   const mark=r=>r.s==="S1"?"":`<span style="color:var(--ink-3);font-size:11.5px">〔${r.s}〕</span>`;
-  const li=arr=>arr.length?`<ul style="margin:0;padding-left:16px">${arr.map(r=>`<li>${r.t}${mark(r)}　${exBtn(vx.id,r.s,r.t)}</li>`).join("")}</ul>`:"—";
+  const li=arr=>arr.length?`<ul style="margin:0;padding-left:16px">${arr.map(r=>`<li ${r.claim?`data-ref-claim="${r.claim}"`:''}>${r.t}${mark(r)}　${exBtn(vx.id,r.s,r.t)}</li>`).join("")}</ul>`:"—";
   const stop=vx.rules.filter(r=>r.lv==="stop");
   const note=vx.rules.filter(r=>r.lv==="warn"||r.lv==="info");
-  const selfpay=vx.rules.some(r=>r.s==="S9");
+  const selfpay=vx.rules.some(r=>["S9","S20"].includes(r.s));
   return `<tr>
     <td style="font-weight:600">${vx.n}<br><small style="color:var(--ink-3);font-weight:400">${vx.en}</small>
         <br><span class="pill ${vx.type==='live'?'live':''}" ${['shingrix','rsv','covid'].includes(vx.id)?`data-ref-claim="class-${vx.id}"`:''}>${vx.type==='live'?'活性減毒':['shingrix','rsv','covid'].includes(vx.id)?'非活性':'不活化'}</span>
         ${selfpay?`<br><span class="pill" style="background:var(--accent-soft);color:var(--accent);border-color:transparent">仿單</span>`:""}</td>
     <td>${li(stop)}</td>
     <td>${li(note)}
-        ${vx.extra?`<div style="margin-top:6px;color:var(--ink-3);font-size:12.5px">${vx.extra}</div>`:""}</td>
+        ${vx.extra?`<div ${vx.extraClaim?`data-ref-claim="${vx.extraClaim}"`:''} style="margin-top:6px;color:var(--ink-3);font-size:12.5px">${vx.extra}</div>`:""}</td>
   </tr>`;
 }).join("");
 

@@ -107,15 +107,19 @@ const change=(id,value,event='change')=>{doc.getElementById(id).value=value;doc.
     change('ivA','0');change('ivB','1');await wait(20);
     click(doc.querySelector('#ivOut'));assert(sources()[0].includes('S2-'));close();
   });
-  await test('All 124 rule keys remain accessible through rule text',()=>{
+  const retiredShingrixKeys=['e66d56e2c','ea272981a','e952fc4d0']; // Replaced by S20/S4 claim anchors, not regraded.
+  await test('121 active legacy rules remain accessible; three Shingrix records stay archived unchanged',()=>{
     const keys=new Set();
     for(const book of doc.querySelectorAll('#contraTbl .exq')){
       assert(book.closest('li').classList.contains('ref-target'));keys.add(book.dataset.ex);
     }
-    assert.equal(keys.size,124);
+    assert.equal(keys.size,121);
+    assert.equal(Object.keys(win.eval('EXCERPTS')).length,124);
+    assert.deepEqual(Object.keys(win.eval('EXCERPTS')).filter(k=>!keys.has(k)).sort(),retiredShingrixKeys.slice().sort());
   });
   await test('Exact, partial, gist and text statuses are not upgraded',()=>{
     for(const [key,e] of Object.entries(win.eval('EXCERPTS'))){
+      if(retiredShingrixKeys.includes(key))continue;
       const book=doc.querySelector(`#contraTbl [data-ex="${key}"]`);click(book.closest('li'));
       assert(!panel().hidden);
       if(e.status==='gist')assert.equal(panel().querySelectorAll('.exhl,.ref-highlight').length,0,key);

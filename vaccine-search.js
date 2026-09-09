@@ -14,14 +14,14 @@
     sections:g.sections.map(s=>({label:s.label,text:s.text,ref:{claim:s.claim}}))});
   for(const v of VAX){
     const sections=[{label:'接種時程',text:plain(v.sched),ref:ReferenceUI.vaccine(v.id,v.n+' 接種時程 '+plain(v.sched))}];
-    for(const r of v.rules){const key=exKey(v.id,r.s,r.t);sections.push({label:{stop:'接種禁忌',warn:'注意事項／需評估',info:'其他接種說明'}[r.lv]||'接種說明',severity:r.lv,text:plain(r.t),ref:EXCERPTS[key]?{exact:key}:{sources:[r.s],query:plain(r.t),note:'本條尚未建立逐字摘錄；請核對完整來源。'}});}
+    for(const r of v.rules){const key=exKey(v.id,r.s,r.t);sections.push({label:{stop:'接種禁忌',warn:'注意事項／需評估',info:'其他接種說明'}[r.lv]||'接種說明',severity:r.lv,text:plain(r.t),ref:r.claim?{claim:r.claim}:EXCERPTS[key]?{exact:key}:{sources:[r.s],query:plain(r.t),note:'本條尚未建立逐字摘錄；請核對完整來源。'}});}
     const caveat=v.extra?{label:'產品限制與補充說明',text:plain(v.extra),ref:ReferenceUI.vaccineExtra(v.id,plain(v.extra))}:null;
     if(caveat)sections.push(caveat);
     entries.push({id:'vax:'+v.id,title:v.n,category:'接種前篩檢資料',aliases:[v.en,...extraAliases(v)],sections,caveat});
   }
   ADULT.forEach((v,i)=>{
     const section=(text,label='接種說明',options={})=>({label,text:plain(text),ref:ReferenceUI.adult(i,plain(text),options)});
-    const notes=(v.notes||[]).map(text=>section(text));
+    const notes=(v.notes||[]).map((text,n)=>section(text,'接種說明',{claim:v.noteClaims?.[n]}));
     const sections=[{label:'時程摘要',text:plain(v.brief),ref:ReferenceUI.adult(i,plain(v.brief),{brief:true})},
       ...notes];
     // Keep authored qualifying blocks with a stand-alone search hit. These

@@ -13,7 +13,7 @@ const result=(query,rows)=>({version:1,query,rows,count:rows.length,fetchedAt:'2
   query('ZZZ-unmatched');assert(doc.getElementById('reference-panel').hidden);assert(!doc.querySelector('.vaccine-search-result'));
   query('MMR');assert(win.VaccineSearch.find('MMR').some(r=>r.entry.id==='adult:1'));assert(win.VaccineSearch.find('B 型肝炎').some(r=>r.entry.id==='vax:hepb'));
   query('Vaxchora');assert(doc.querySelector('#vaccineSearchResults .ref-target').textContent.startsWith('Vaxchora 劑次'));
-  for(const [q,source] of [['RSV 24','S9'],['Shingrix 1-2','S9'],['XFG','S12']]){
+  for(const [q,source] of [['RSV 24','S9'],['Shingrix 1-2','S20'],['XFG','S12']]){
     const result=win.VaccineSearch.find(q).find(r=>r.entry.id.startsWith('adult:'));assert(result,q);
     assert(result.matches.some(s=>s.ref.sources.includes(source)),q);
   }
