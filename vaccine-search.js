@@ -1,7 +1,10 @@
 /* Search the authored registry, not rendered patient results or whole PDFs. */
 (() => {
   'use strict';
-  const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[\s\p{P}]/gu,'');
+  // Search-only spelling normalization; never alter source quotes or PDF glyphs.
+  const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/皰/g,'疱').replace(/[\s\p{P}]/gu,'');
+  const zosterAliases=['帶狀皰疹','皮蛇','欣剋疹','欣克疹','Shingrix','RZV','shingles','herpes zoster'];
+  const extraAliases=v=>v.id==='shingrix'||v.en==='Shingrix'?zosterAliases:[];
   const plain=html=>{const t=document.createElement('template');t.innerHTML=html||'';return t.content.textContent.trim();};
   const node=(tag,text,cls)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;};
   const button=(text,fn)=>{const b=node('button',text);b.type='button';b.onclick=fn;return b;};
@@ -14,7 +17,7 @@
     for(const r of v.rules){const key=exKey(v.id,r.s,r.t);sections.push({label:{stop:'接種禁忌',warn:'注意事項／需評估',info:'其他接種說明'}[r.lv]||'接種說明',severity:r.lv,text:plain(r.t),ref:EXCERPTS[key]?{exact:key}:{sources:[r.s],query:plain(r.t),note:'本條尚未建立逐字摘錄；請核對完整來源。'}});}
     const caveat=v.extra?{label:'產品限制與補充說明',text:plain(v.extra),ref:ReferenceUI.vaccineExtra(v.id,plain(v.extra))}:null;
     if(caveat)sections.push(caveat);
-    entries.push({id:'vax:'+v.id,title:v.n,category:'接種前篩檢資料',aliases:[v.en],sections,caveat});
+    entries.push({id:'vax:'+v.id,title:v.n,category:'接種前篩檢資料',aliases:[v.en,...extraAliases(v)],sections,caveat});
   }
   ADULT.forEach((v,i)=>{
     const section=(text,label='接種說明',options={})=>({label,text:plain(text),ref:ReferenceUI.adult(i,plain(text),options)});
@@ -50,7 +53,7 @@
         items.forEach((s,j)=>context(s,[...prerequisites,lead,...items.slice(0,j)]));sections.push(...items);
       }
     }
-    entries.push({id:'adult:'+i,title:v.n,category:'成人時程',aliases:[v.en],sections});
+    entries.push({id:'adult:'+i,title:v.n,category:'成人時程',aliases:[v.en,...extraAliases(v)],sections});
   });
   function find(query){
     const terms=String(query||'').trim().split(/\s+/).map(norm).filter(Boolean);if(!terms.length)return [];
@@ -88,13 +91,53 @@
       }
       if(s){const p=node('p',s.label+'：'+s.text,'vaccine-search-excerpt');ReferenceUI.bind(p,s.ref);card.append(p);}
       if(r.entry.caveat&&s!==r.entry.caveat){const p=node('p',r.entry.caveat.label+'：'+r.entry.caveat.text,'vaccine-search-caveat');ReferenceUI.bind(p,r.entry.caveat.ref);card.append(p);}
-      card.append(button('展開劑次／禁忌與原文',()=>open(r.entry)));results.append(card);
+      const actions=node('div',undefined,'travel-search-row');
+      actions.append(button('展開劑次／禁忌與原文',()=>open(r.entry)));
+      if(!r.entry.guide)actions.append(button('前往'+(r.entry.id.startsWith('vax:')?'接種前篩檢':'成人時程')+'原卡片',()=>reveal(r.entry)));
+      card.append(actions);
+      results.append(card);
     }
     if(found.length>limit)results.append(button('顯示更多疫苗資料',()=>{limit+=8;draw();}));
   }
   input.addEventListener('input',()=>{limit=8;detail.replaceChildren();draw();});
   root.querySelector('form').onsubmit=e=>{e.preventDefault();draw();};
   root.querySelector('#vaccineSearchClear').onclick=()=>{input.value='';detail.replaceChildren();draw();input.focus();};
+  // Keep cards in the original DOM order: reference bindings use these indices.
+  // Hiding is presentation only; clinical state and tally always include all VAX.
+  const filters=[];
+  function addListFilter({id,label,list,items,before}){
+    const box=node('div',undefined,'card vaccine-list-filter');box.dataset.refUi='';
+    const field=node('input');field.type='search';field.id=id;field.autocomplete='off';field.maxLength=100;
+    field.placeholder='例如：皰疹、皮蛇、Shingrix';field.setAttribute('aria-controls',list.id);
+    const caption=node('label',label);caption.htmlFor=id;
+    const row=node('div',undefined,'travel-search-row'),count=node('p',undefined,'sub');count.setAttribute('role','status');
+    const refresh=()=>{
+      const terms=field.value.trim().split(/\s+/).map(norm).filter(Boolean);
+      const cards=[...list.querySelectorAll(':scope > .vax')];let visible=0;
+      cards.forEach((card,i)=>{const v=items[i];if(!v)return;
+        const heading=norm([v.n,v.en,...extraAliases(v)].join(' '));
+        card.hidden=!terms.every(t=>heading.includes(t));if(!card.hidden)visible++;
+      });
+      count.textContent=`顯示 ${visible}／${items.length} 項。僅篩選疫苗名稱，不改變病人條件或接種判定。`+
+        (list.id==='results'?' 下方統計仍涵蓋全部疫苗；列表外未建立篩檢規則的提示會保留。':'')+
+        (!visible?' 查無名稱不代表不存在該疫苗；可用上方「疫苗與原文搜尋」查更多已整理內容。':'');
+    };
+    const clear=button('顯示全部',()=>{field.value='';refresh();field.focus();});
+    field.addEventListener('input',()=>{ReferenceUI.clear();refresh();});
+    row.append(field,clear);box.append(caption,row,count);before.before(box);
+    filters.push({field,list,items,refresh});refresh();
+  }
+  addListFilter({id:'screenVaccineQuery',label:'在接種前篩檢找疫苗',list:document.getElementById('results'),items:VAX,before:document.getElementById('tally')});
+  addListFilter({id:'adultVaccineQuery',label:'在成人時程找疫苗',list:document.getElementById('adultList'),items:ADULT,before:document.getElementById('adultList')});
+  function reveal(entry){
+    ReferenceUI.clear();const screen=entry.id.startsWith('vax:');
+    const filter=filters[screen?0:1],index=screen?VAX.findIndex(v=>'vax:'+v.id===entry.id):Number(entry.id.split(':')[1]);
+    const tab=Array.from(document.getElementById('tabs').children)[screen?0:2];tab.click();
+    filter.field.value='';filter.refresh();
+    const card=filter.list.querySelectorAll(':scope > .vax')[index];if(!card)return;
+    card.classList.add('open');card.setAttribute('tabindex','-1');card.focus({preventScroll:true});card.scrollIntoView?.({block:'center'});
+  }
+  window.VaccineListFilters=Object.freeze({refresh(){filters.forEach(f=>f.refresh());}});
   window.VaccineSearch=Object.freeze({find,open,get count(){return entries.length;}});
   draw();
 })();

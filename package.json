@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Taiwan vaccine quick reference with traceable source previews",
-  "scripts": {"test": "node tools/test_reference_geometry.cjs && node tools/test_csv_viewer.cjs && node tools/test_reference_ui.cjs && node tools/test_reference_coverage.cjs && node --test tools/test_travel_sync.mjs && node tools/test_travel_search.cjs && node --test tools/test_cdc_relay.mjs && node tools/test_travel_live.cjs && node tools/test_travel_workspace.cjs", "sync:travel":"node tools/sync_travel_data.mjs", "start:travel":"node backend/server.mjs"},
+  "scripts": {"test": "node tools/test_reference_geometry.cjs && node tools/test_csv_viewer.cjs && node tools/test_reference_ui.cjs && node tools/test_reference_coverage.cjs && node --test tools/test_travel_sync.mjs && node tools/test_travel_search.cjs && node --test tools/test_cdc_relay.mjs && node tools/test_travel_live.cjs && node tools/test_travel_workspace.cjs && node tools/test_vaccine_discovery.cjs", "sync:travel":"node tools/sync_travel_data.mjs", "start:travel":"node backend/server.mjs"},
   "devDependencies": {"jsdom": "30.0.1"},
   "engines": {"node": "^22.22.2 || ^24.15.0 || >=26.0.0"}
 }
