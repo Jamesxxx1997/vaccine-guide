@@ -9,5 +9,5 @@ const VAX = eval(seg + '\nVAX');
 const out = [];
 for (const v of VAX)
   for (const r of v.rules)
-    out.push({ vid: v.id, vname: v.n, ven: v.en, lv: r.lv, s: r.s, t: r.t });
+    out.push({ vid: v.id, vname: v.n, ven: v.en, lv: r.lv, s: r.s, t: r.t, claim: r.claim || null });
 console.log(JSON.stringify(out, null, 1));

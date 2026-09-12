@@ -113,6 +113,8 @@ def text_evidence(rule, rows):
 
 def verify(args):
     rules = json.loads(subprocess.check_output(["node", str(ROOT / "tools/export_rules.mjs")], text=True))
+    # claim 規則由 reference-claims 系統追溯（test_reference_coverage 驗），此處只驗 EXCERPTS 轄區
+    rules = [r for r in rules if not r.get("claim")]
     raw = (ROOT / "review/excerpts.js").read_text()
     excerpts = json.loads(raw.split("const EXCERPTS=", 1)[1].strip().removesuffix(";"))
     errors, review_notes, details = [], [], []

@@ -422,12 +422,20 @@ def main():
                 raise ValueError(f"來源已變更，請先重新核對 source_area 的原文範圍：{path}")
     excerpts = {}
     report = ["# 原句對照建置報告", "",
-              f"規則總數 {len(RULES)}", "",
+              f"規則總數 {len(RULES) - sum(1 for r in RULES if r.get(chr(99)+chr(108)+chr(97)+chr(105)+chr(109)))}", "",
               "| # | 疫苗 | 來源 | 狀態 | 覆蓋率 | 頁 | 規則文字（前40字） |",
               "|---|---|---|---|---|---|---|"]
     stats = defaultdict(int)
+    claim_skipped: list = []
 
     for i, r in enumerate(RULES):
+        if r.get("claim"):
+            # 帶 claim 的規則走 reference-claims 系統（宣告式逐字引句＋glyph 定位，
+            # build_reference_pages.py 負責）。報告維持「只描述 EXCERPTS 轄區」的契約
+            # （test_verify_excerpts 逐列比對），claim 條數另以敘述行註記。
+            claim_skipped.append(r)
+            continue
+        row_i = i - len(claim_skipped)   # 報告列編號＝EXCERPTS 轄區內序號（verify 端同步過濾後比對）
         key = f"e{djb2(r['vid'] + '|' + r['s'] + '|' + r['t']):08x}"
         rule_n = norm(strip_web_suffix(r["t"]))
         src = r["s"]
@@ -436,7 +444,7 @@ def main():
             path, label = TEXT_SRC[src]
             excerpts[key] = {"type": "text", "src": src, "label": label, "path": path}
             stats["text"] += 1
-            report.append(f"| {i} | {r['vid']} | {src} | text | — | — | {r['t'][:40]} |")
+            report.append(f"| {row_i} | {r['vid']} | {src} | text | — | — | {r['t'][:40]} |")
             continue
 
         trials = S12_PDFS if src == "S12" else [SRC_PDF[src]]
@@ -451,7 +459,7 @@ def main():
         if best is None:
             excerpts[key] = {"type": "none", "src": src}
             stats["none"] += 1
-            report.append(f"| {i} | {r['vid']} | {src} | **NONE** | 0 | — | {r['t'][:40]} |")
+            report.append(f"| {row_i} | {r['vid']} | {src} | **NONE** | 0 | — | {r['t'][:40]} |")
             continue
 
         pdf_rel, ver, page_idx, cov, cl, from_fallback = best
@@ -491,12 +499,13 @@ def main():
             "origin": list(origin), "dpi": DPI,
             "rects": rel_rects if st != "gist" else [],
         }
-        report.append(f"| {i} | {r['vid']} | {src} | {st} | {cov:.2f} | p.{page_idx+1} | {r['t'][:40]} |")
+        report.append(f"| {row_i} | {r['vid']} | {src} | {st} | {cov:.2f} | p.{page_idx+1} | {r['t'][:40]} |")
 
     with open(os.path.join(ROOT, "review", "excerpts.js"), "w", encoding="utf-8") as f:
         f.write("/* 由 tools/build_excerpts.py 產生——勿手改。file:// 下 fetch JSON 被擋，故用 script 載入 */\n")
         f.write("const EXCERPTS=" + json.dumps(excerpts, ensure_ascii=False) + ";\n")
     report.insert(2, f"狀態統計：{dict(stats)}")
+    report.insert(3, f"（另有 {len(claim_skipped)} 條帶 claim 規則由 reference-claims 系統追溯，不在本報告範圍）")
     with open(os.path.join(ROOT, "review", "match_report.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(report) + "\n")
     print("完成", dict(stats))
