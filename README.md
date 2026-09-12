@@ -178,13 +178,21 @@ ad1 → block   ad3 → none   ad6 → none    ad9 → block
 | 整理句 | 網頁對原文的整理／合併，**不畫高亮**（不製造假的逐字對應），只給出處區域 |
 | 文字來源 | 來源是網頁擷錄（TFDA 仿單摘錄等），無 PDF 可裁圖 |
 
-重建管線（改了規則文字後要重跑）：
+**追溯規格（2026-09-12 定案）見 [review/REFERENCE_TRACING_SPEC.md](review/REFERENCE_TRACING_SPEC.md)**：
+追溯終點必須是原件（官方 PDF 或官方網頁的列印 PDF）的頁面影像＋定位框；本站轉錄文字不算證據；
+官方網頁用 `tools/print_web_source.mjs` 列印（疾管署 Q&A 加 `--expand "全部展開"`）；帶 `claim:` 的規則走
+reference-claims（glyph 定位），其餘走下方 legacy 管線；每批內容走完「建置→機械→目視→獨立 verifier→使用者」五階才 merge。
+
+重建管線（改了規則文字後要重跑；系統 python3 沒有 pdfplumber，用 uv）：
 
 ```bash
+PY="uv run --python 3.12 --with pdfplumber>=0.11,<0.12 --with Pillow>=10,<13 python"   # zsh 請整串照打，變數不會分詞
+$PY tools/build_reference_pages.py               # claim 路線：全頁渲染＋glyph 定位，定位失敗即停
 node tools/export_rules.mjs > /tmp/rules.json
-python3 tools/build_excerpts.py /tmp/rules.json   # 產 review/excerpts.js + img/ + match_report.md
-python3 tools/verify_excerpts.py                 # 反查框內 PDF 文字，任一硬性錯誤回傳非零
-python3 -m unittest discover -s tools -p 'test_verify_excerpts.py' -v
+$PY tools/build_excerpts.py /tmp/rules.json       # legacy：產 review/excerpts.js + img/ + match_report.md
+$PY tools/verify_excerpts.py                      # 反查框內 PDF 文字，任一硬性錯誤回傳非零
+$PY -m unittest discover -s tools -p 'test_*.py'
+npm test                                          # 含 coverage、reference_ui、postinfection_quotes
 ```
 
 驗證器從現行 `index.html` 重新取規則，並執行前端的鍵值函式，避免舊快照或改字漏重建。
@@ -213,6 +221,9 @@ python3 -m unittest discover -s tools -p 'test_verify_excerpts.py' -v
 - **第一輪：FAIL，6 項嚴重** — 四個「注意事項」欄項目被誤標為禁忌；一處引文加了原文沒有的字句；一處引錯來源；類固醇的日本腦炎專屬門檻被全域套用。
 - **第二輪：11 項修正確認落地，另發現 3 項** — 日本腦炎類固醇規則把兩欄合併；一處自行加註；一處共用文案漏後綴。另指出狂犬病 Q&A 未存檔導致來源無法重現（已補存）。
 - **第三輪：PASS** — 全部 **88 條** S1 規則以字元縮排位置逐條實測欄位歸屬，一致 88 / 不一致 0。
+- **2026-09-12 感染後接種間隔批次（S21–S25、總表、shingrix／var／flu／covid 新條）**：verifier R1 PASS（3 項措辭修正落地）；
+  使用者否決「本站轉錄當 reference」後改為官方網頁列印 PDF 走 glyph 定位；verifier R2 PASS 7/7
+  （列印稿逐句＝線上原頁、SHA 三方一致、高亮裁圖正中、無轉錄殘留、工具無 DOM 改寫、npm test／verify／unittest 全綠）。
 
 ## 免責
 
