@@ -403,6 +403,15 @@
     const parts=doc.text.split(/\n(?=## )/);
     return parts.sort((a,b)=>score(query,b)-score(query,a))[0].slice(0,7000);
   }
+  // 網頁存檔的文字片段錨點（#:~:text=）：Chrome／Edge／Safari 開啟存檔時自動捲到並高亮引句。
+  // 逗號、連字號、& 為片段語法保留字元須另編碼；>120 字改「起,迄」範圍式。與 index.html 的 exFrag 同規則。
+  const fragEnc=s=>encodeURIComponent(s).replace(/[-,&]/g,c=>'%'+c.charCodeAt(0).toString(16).toUpperCase());
+  function refFrag(quotes){
+    const trim=s=>s.replace(/^[\s「『（(]+|[\s。．.,，；;：:」』）)]+$/g,'');
+    const parts=(quotes||[]).map(q=>{q=trim(String(q));if(!q)return '';
+      return q.length<=120?fragEnc(q):fragEnc(trim(q.slice(0,24)))+','+fragEnc(trim(q.slice(-24)));}).filter(Boolean);
+    return parts.length?'#:~:text='+parts.join('&text='):'';
+  }
   function evidence(data) {
     if(data.exacts)return data.exacts.flatMap(entry=>evidence(entry.claim?{claim:entry.claim}:{exact:entry.key})
       .map(item=>({...item,label:entry.name+' · 對應篩檢規則'+(item.label?' · '+item.label:'')})));
@@ -421,7 +430,7 @@
       const doc=docs[item.source];
       if(!doc)return null;
       const page=doc.pages?.find(p=>p.page===item.page);
-      return {doc,label:item.label,note:item.note,view:page&&doc.sha256===item.sha256?
+      return {doc,label:item.label,note:item.note,quotes:item.quotes,view:page&&doc.sha256===item.sha256?
         geometry.context(page,geometry.merge(item.rects),{verified:true}):null};
     }).filter(Boolean);
     if(data.external)return [{doc:data.external,view:null}];
@@ -480,7 +489,7 @@
       if(item.table)return `<section class="ref-evidence ref-csv-mount" data-csv-item="${i}"></section>`;
       if(item.exact&&!item.view){const e=item.exact;return `<section class="ref-evidence"><span class="ref-label">${esc(EX_STATUS[e.status]?.[0]||'原文')}</span>${exImgHtml(e,Math.min(600,e.iw*72/(e.dpi||150)))}<p class="ref-meta">原始裁圖；未建立整頁座標。第 ${e.page} 頁</p><a href="${esc(e.file)}#page=${e.page}" target="_blank" rel="noopener">開啟完整 PDF</a></section>`;}
       const {doc,view}=item;
-      return `<section class="ref-evidence" data-item="${i}"><span class="ref-label">${esc(view?viewLabel(view):doc.textLabel||'網頁／文字來源')}</span><h3>${esc(item.label||doc.n)}</h3><div class="ref-meta">${esc(doc.n)} · ${esc(doc.v||'')} ${view?' · PDF 第 '+view.page.page+' 頁':''}</div>${item.note?`<div class="note">${esc(item.note)}</div>`:''}${view?`${overviewHtml(view)}<div class="ref-view">${cropHtml(view)}</div><div class="ref-actions"><button type="button" data-ref-full="${i}">查看完整頁面</button><a class="ref-pdf-link" href="${esc(doc.p)}#page=${view.page.page}" target="_blank" rel="noopener">開啟 PDF ↗</a></div><label class="ref-page-nav">來源頁碼 <select data-ref-page="${i}" aria-label="${esc(doc.n)}來源頁碼">${doc.pages.map(p=>`<option value="${p.page}" ${p.page===view.page.page?'selected':''}>第 ${p.page} 頁</option>`).join('')}</select></label><p class="ref-meta">${item.exact?.status==='gist'?'本條為整理／合併句，不畫逐字高亮。':'黃框只標匹配原文字詞，不表示整段整理或推算已獲原文支持；藍色列框僅供定位。'} ${item.exact?.status==='partial'?'未高亮部分並非逐字對應。':''}預設保留原頁寬度與鄰近段落，不放大窄裁圖。</p>`:`<div class="ref-text">${esc(textExcerpt(doc,data.query)||'此來源尚無本機文字摘錄，請開啟原始頁面核對。')}</div><div class="ref-actions">${doc.u?`<a href="${esc(doc.u)}" target="_blank" rel="noopener">開啟官方原始頁面 ↗</a>`:''}${doc.p?`<a href="${esc(doc.p)}" target="_blank" rel="noopener">開啟本機來源存檔 ↗</a>`:''}</div>`}</section>`;
+      return `<section class="ref-evidence" data-item="${i}"><span class="ref-label">${esc(view?viewLabel(view):doc.textLabel||'網頁／文字來源')}</span><h3>${esc(item.label||doc.n)}</h3><div class="ref-meta">${esc(doc.n)} · ${esc(doc.v||'')} ${view?' · PDF 第 '+view.page.page+' 頁':''}</div>${item.note?`<div class="note">${esc(item.note)}</div>`:''}${view?`${overviewHtml(view)}<div class="ref-view">${cropHtml(view)}</div><div class="ref-actions"><button type="button" data-ref-full="${i}">查看完整頁面</button><a class="ref-pdf-link" href="${esc(doc.p)}#page=${view.page.page}" target="_blank" rel="noopener">開啟 PDF ↗</a>${doc.print&&doc.u?`<a href="${esc(doc.u)}${refFrag(item.quotes)}" target="_blank" rel="noopener" title="瀏覽器文字片段：該句在頁面上可見時會自動捲到並高亮；收合在手風琴內的答案須自行展開">開啟官方線上頁面（嘗試跳至原句）↗</a>`:''}</div><label class="ref-page-nav">來源頁碼 <select data-ref-page="${i}" aria-label="${esc(doc.n)}來源頁碼">${doc.pages.map(p=>`<option value="${p.page}" ${p.page===view.page.page?'selected':''}>第 ${p.page} 頁</option>`).join('')}</select></label><p class="ref-meta">${item.exact?.status==='gist'?'本條為整理／合併句，不畫逐字高亮。':'黃框只標匹配原文字詞，不表示整段整理或推算已獲原文支持；藍色列框僅供定位。'} ${item.exact?.status==='partial'?'未高亮部分並非逐字對應。':''}預設保留原頁寬度與鄰近段落，不放大窄裁圖。</p>`:`<div class="ref-text">${esc(textExcerpt(doc,data.query)||'此來源尚無本機文字摘錄，請開啟原始頁面核對。')}</div><div class="ref-actions">${doc.u?`<a href="${esc(doc.u)}" target="_blank" rel="noopener">開啟官方原始頁面 ↗</a>`:''}${doc.p?`<a href="${esc(doc.p)}${refFrag(item.quotes)}" target="_blank" rel="noopener">開啟本機來源存檔${(item.quotes||[]).length?'（自動跳至原句並高亮）':''} ↗</a>`:''}</div>`}</section>`;
     }).join('')}</div>`;
     panel.hidden=false;document.body.classList.add('reference-open');
     panel.querySelectorAll('[data-csv-item]').forEach(el=>{

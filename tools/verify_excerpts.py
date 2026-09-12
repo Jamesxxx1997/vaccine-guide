@@ -55,6 +55,7 @@ def normalized(text):
     return re.sub(r"[^0-9A-Za-z一-鿿㐀-䶿]", "", unicodedata.normalize("NFKC", text))
 
 
+
 def rule_text(text):
     # 網頁加的分類後綴不應拿 PDF 表頭來填補；與前端顯示的原規則分開記錄。
     return normalized(re.sub(r"(?:，?(?:均|皆)?為接種禁忌|，?列為注意事項|，?不予接種)。?$", "", text))
@@ -113,6 +114,8 @@ def text_evidence(rule, rows):
 
 def verify(args):
     rules = json.loads(subprocess.check_output(["node", str(ROOT / "tools/export_rules.mjs")], text=True))
+    # claim 規則由 reference-claims 系統追溯（test_reference_coverage 驗），此處只驗 EXCERPTS 轄區
+    rules = [r for r in rules if not r.get("claim")]
     raw = (ROOT / "review/excerpts.js").read_text()
     excerpts = json.loads(raw.split("const EXCERPTS=", 1)[1].strip().removesuffix(";"))
     errors, review_notes, details = [], [], []

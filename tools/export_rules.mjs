@@ -1,4 +1,4 @@
-// 從 index.html 匯出全部規則（vid/vname/lv/s/t）→ stdout JSON
+// 從 index.html 匯出全部規則（vid/vname/lv/s/t/claim）→ stdout JSON
 // 用法：node tools/export_rules.mjs > /tmp/rules.json
 import fs from 'fs';
 const js = fs.readFileSync(new URL('../index.html', import.meta.url), 'utf8')
@@ -9,5 +9,5 @@ const VAX = eval(seg + '\nVAX');
 const out = [];
 for (const v of VAX)
   for (const r of v.rules)
-    out.push({ vid: v.id, vname: v.n, ven: v.en, lv: r.lv, s: r.s, t: r.t });
+    out.push({ vid: v.id, vname: v.n, ven: v.en, lv: r.lv, s: r.s, t: r.t, claim: r.claim || null });
 console.log(JSON.stringify(out, null, 1));
