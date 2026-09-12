@@ -219,7 +219,7 @@
     ]
   },
     "shingrix-prior-episode": {
-      "note": "疾管署一年規則與仿單試驗證據併陳；官方文件未針對「復發後」另訂專屬間隔。",
+      "note": "疾管署一年規則與仿單試驗證據併陳；本站對照 S4／S20 查無「復發後」專屬間隔（非官方明文區分）。",
       "items": [
         {"ref": "shingrix-history"},
         {"source": "S20", "page": 10, "glyphRows": true,
