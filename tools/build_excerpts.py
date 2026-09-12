@@ -54,6 +54,11 @@ TEXT_SRC = {
     "S9":  ("sources/仿單/_TFDA仿單摘錄.md", "TFDA 中文仿單摘錄（擷取 2026-08-07）"),
     "S10": ("", "衛福部新聞稿（建檔 115-06-30）"),
     "S11": ("sources/通函與判讀/狂犬病QA_原始頁面.html", "疾管署狂犬病 Q&A（2018-07-27）"),
+    # 感染後間隔批次（2026-09-12）：官方 Q&A／指引網頁存檔，規則帶 q（逐字引句）時逐字對存檔驗證
+    "S21": ("sources/感染後間隔/COVID19疫苗接種注意事項QA_原始頁面.html", "疾管署 COVID-19 疫苗 Q&A：接種注意事項（Q3.1 更新 2025-09-26；存檔 2026-09-12）"),
+    "S22": ("sources/感染後間隔/流感與流感疫苗簡介QA_原始頁面.html", "疾管署流感與流感疫苗簡介 Q&A（更新 2026-08-14；存檔 2026-09-12）"),
+    "S23": ("sources/感染後間隔/CDC通則_接種禁忌與注意事項_原始頁面.html", "CDC General Best Practice Guidelines：Contraindications and Precautions（網頁 2024-07-25；存檔 2026-09-12；同段亦見原 PDF p.52）"),
+    "S25": ("sources/感染後間隔/MpoxQA_原始頁面.html", "疾管署 M痘 Q&A（Q28 更新 2025-05-22；存檔 2026-09-12）"),
 }
 
 # S1 版面固定（112.09 版 6 頁、每頁 2-3 支疫苗）——直接釘頁碼。
@@ -157,6 +162,21 @@ def norm(s: str) -> str:
     """匹配用正規化：NFKC、去空白、去標點——只留 CJK/字母/數字。"""
     s = unicodedata.normalize("NFKC", s)
     return re.sub(r"[^0-9A-Za-z一-鿿㐀-䶿]", "", s)
+
+
+_TEXT_CACHE: dict[str, str] = {}
+
+def text_source_norm(path_rel: str) -> str:
+    """文字來源存檔正規化全文（HTML 去 script/style/標籤、解實體）；供逐字引句驗證。"""
+    if path_rel not in _TEXT_CACHE:
+        import html as _html
+        raw = open(os.path.join(ROOT, path_rel), encoding="utf-8", errors="replace").read()
+        if path_rel.lower().endswith((".html", ".htm")):
+            raw = re.sub(r"<script.*?</script>|<style.*?</style>", "", raw, flags=re.S | re.I)
+            raw = re.sub(r"<[^>]+>", "", raw)
+            raw = _html.unescape(raw)
+        _TEXT_CACHE[path_rel] = norm(raw)
+    return _TEXT_CACHE[path_rel]
 
 
 def djb2(s: str) -> int:
@@ -443,8 +463,21 @@ def main():
         if src in TEXT_SRC:
             path, label = TEXT_SRC[src]
             excerpts[key] = {"type": "text", "src": src, "label": label, "path": path}
+            note = ""
+            if r.get("q"):
+                # 文字來源的逐字引句：正規化後必須整句出現在存檔裡，否則整個 build 失敗——
+                # 網頁來源沒有裁圖高亮可對照，引句本身就是唯一可核對的證據，不能容許「大概有」。
+                quotes = r["q"] if isinstance(r["q"], list) else [r["q"]]
+                if not path:
+                    sys.exit(f"✗ {r['vid']} {src} 帶 q 但來源無存檔路徑，無法驗證引句")
+                full = text_source_norm(path)
+                for q in quotes:
+                    if norm(q) not in full:
+                        sys.exit(f"✗ 引句不在存檔中（{src} {path}）：{q[:60]}")
+                excerpts[key]["quotes"] = quotes
+                note = f"（引句 {len(quotes)} 條已逐字驗證）"
             stats["text"] += 1
-            report.append(f"| {row_i} | {r['vid']} | {src} | text | — | — | {r['t'][:40]} |")
+            report.append(f"| {row_i} | {r['vid']} | {src} | text | — | — | {r['t'][:40]}{note} |")
             continue
 
         trials = S12_PDFS if src == "S12" else [SRC_PDF[src]]

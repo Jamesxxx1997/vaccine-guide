@@ -208,6 +208,9 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 #expanel .exhead button{border:none;background:none;color:var(--ink-2);font-size:17px;cursor:pointer}
 #expanel .exbody{padding:14px;overflow-y:auto}
 #expanel .exmeta{font-size:12.5px;color:var(--ink-3)}
+#expanel .exquote{margin:6px 0;padding:8px 10px;border-left:3px solid #e6b800;background:var(--surface-2);font-size:13px;line-height:1.55}
+#postinfTbl q{display:block;quotes:"「" "」";margin:2px 0;padding:4px 8px;border-left:3px solid #e6b800;background:var(--surface-2);font-size:12.5px;line-height:1.5}
+#postinfTbl q + q{margin-top:6px}
 @media(max-width:760px){#expanel{width:94vw}}
 </style>
 <link rel="stylesheet" href="reference-ui.css">
@@ -471,6 +474,24 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
     </table>
   </div>
 
+  <h2>感染後（含一般感冒）多久可以接種</h2>
+  <p class="sub" style="margin-top:-6px">民眾最常問的一題。「中文整理」為本站彙整；「原句摘錄」逐字取自出處存檔（tools/test_postinfection_quotes.cjs 逐句對存檔比對；PDF 來源列可點開原文高亮）。</p>
+  <div class="scroller">
+    <table id="postinfTbl">
+      <thead><tr><th style="min-width:150px">情境</th><th style="min-width:240px">中文整理</th><th style="min-width:280px">原句摘錄（逐字）</th><th style="min-width:110px">出處</th></tr></thead>
+      <tbody>
+        <tr data-ref-claim="postinf-general-cdc"><td><strong>通則：任何感染／感冒之後</strong></td><td>中重度急性病（不論是否發燒）是<strong>所有疫苗</strong>的「注意事項」：延後到急性病改善就可接種。輕症（如一般感冒）接種的安全性與效力已有文獻證實，不必延後。<strong>官方沒有任何「感染後須等 N 天」的通用天數。</strong></td><td><q>The presence of a moderate or severe acute illness with or without a fever is a precaution to administration of all vaccines</q><q>The safety and efficacy of vaccinating persons who have mild illnesses have been documented</q><q>persons with moderate or severe acute illness should be vaccinated as soon as the acute illness has improved</q></td><td>S23（CDC 通則；原 PDF 第 52 頁同段）</td></tr>
+        <tr data-ref-claim="postinf-flu-qa"><td><strong>一般感冒 → 流感疫苗</strong></td><td>輕微上呼吸道症狀者可安心接種；發燒或急性中重度疾病者，待病情穩定後再接種（篩檢器「發燒」條）。</td><td><q>除此以外包括食物過敏、輕微上呼吸道症狀者，均可安心接種流感疫苗。</q></td><td>S22（疾管署流感 Q&amp;A）</td></tr>
+        <tr data-ref-claim="postinf-flu-qa"><td><strong>得過流感 → 流感疫苗</strong></td><td>台灣官方<strong>沒有</strong>「感染流感後間隔 N 天」的規定（疾管署流感 Q&amp;A 全部子頁、115 年度計畫與接種須知均查無，2026-09-12）。得過仍建議接種當季疫苗：病毒株每年變異、保護力一般不超過 1 年；急性期依上列通則處理。</td><td><q>由於流感病毒極易產生變異，幾乎每年流行的病毒株都會稍有不同，疫苗對不同抗原型之病毒保護效果會明顯降低，即使病毒未發生變異，疫苗成分相同，接種4-6個月後保護效果即可能下降，保護力一般不超過1年，因此建議每年均須接種1次，是全球一致性的作法。</q></td><td>S22</td></tr>
+        <tr data-ref-claim="flu-acip-annual-precaution"><td><strong>得過流感 → 流感疫苗（國際）</strong></td><td>ACIP 2025–26：6 個月以上無禁忌者每年常規接種；中重度急性病為一般性注意事項。其禁忌／注意事項表（Table 2、3）<strong>未列</strong>「近期曾感染流感」。</td><td><q>Routine annual influenza vaccination is recommended for all persons aged ≥6 months without a contraindication to vaccination to protect against influenza and its complications.</q><q>Moderate or severe acute illness with or without fever is a general precaution for vaccination (46).</q></td><td>S24（ACIP MMWR 2025-26，第 6／5 頁）</td></tr>
+        <tr data-ref-claim="postinf-covid-qa"><td><strong>確診 COVID-19 → COVID-19 疫苗</strong></td><td>自發病日（無症狀感染者自確診日）起 <strong>12 週（84 天）</strong>且無急性症狀後接種。⚠️ 與「與前 1 劑疫苗間隔 12 週（84 天）」是兩條不同規則，數字相同勿混淆。此句自 2022–23 年沿用至今；頁面 2025-09-26 更新後仍維持。</td><td><q>建議確診者可自發病日起或確診日（無症狀感染者）起12週（84天）且無急性症狀後，接種COVID-19疫苗。</q></td><td>S21（疾管署 COVID-19 Q&amp;A Q3.1）</td></tr>
+        <tr data-ref-claim="shingrix-prior-episode"><td><strong>皮蛇（帶狀疱疹）發作／復發 → Shingrix</strong></td><td>發病 1 年且無相關症狀後接種；官方未針對「復發」另訂間隔。仿單試驗：有既往病史者接種後復發病例未增加。</td><td><q>曾經罹患帶狀疱疹者，可於發病1年且無相關症狀後，接種本項帶狀疱疹疫苗。</q><q>在有帶狀疱疹既往病史的受試者中，接種Shingrix疫苗並不會使帶狀疱疹復發病例增加</q></td><td>S4 第 5 頁／S20 第 10 頁</td></tr>
+        <tr data-ref-claim="varicella-natural-infection"><td><strong>得過水痘 → 水痘疫苗</strong></td><td>經醫師確診曾自然感染者，無須再接（補）種。</td><td><q>已自然感染過水痘經醫師確診者</q><q>無須再接補種</q></td><td>S8 第 1 頁</td></tr>
+        <tr data-ref-claim="postinf-mpox-qa"><td><strong>得過 M 痘 → M 痘疫苗</strong></td><td>痊癒後身體產生免疫力，疾管署建議毋需再接種。</td><td><q>感染M痘痊癒後，身體將會產生免疫力，減少再次感染M痘的機會，建議毋需再接種M痘疫苗。</q></td><td>S25（疾管署 M痘 Q&amp;A Q28）</td></tr>
+      </tbody>
+    </table>
+  </div>
+
   <h2>血液製劑與活性減毒疫苗的間隔</h2>
   <div class="note">下列間隔<strong>只適用於 MMR、水痘、JE 等活性減毒疫苗</strong>；不活化疫苗不受血液製劑影響。</div>
   <div class="scroller">
@@ -709,7 +730,10 @@ function exPanelOpen(key){
         <a href="${pdfHref}" target="_blank" rel="noopener">開啟完整 PDF${httpish ? "（跳至第 " + e.page + " 頁）" : "（file:// 模式請自行翻到第 " + e.page + " 頁）"}</a>
       </div>`;
   } else {
+    /* 文字來源帶逐字引句時整句顯示；build_excerpts 與 verify_excerpts 都已對本機存檔逐字比對過 */
+    const quotes = (e.quotes || []).map(q => `<blockquote class="exquote">${exEsc(q)}</blockquote>`).join("");
     body = `<div class="note">此條來源為<b>文字擷錄</b>（${exEsc(e.label || e.src)}），無 PDF 可裁圖。</div>
+      ${quotes ? `<div class="exmeta" style="margin-top:8px">逐字引句（建置與驗證均已對本機存檔逐字比對）：</div>${quotes}` : ""}
       ${e.path ? `<div class="exmeta"><a href="${e.path}" target="_blank" rel="noopener">開啟來源存檔</a></div>` : ""}`;
   }
   p.innerHTML = `
@@ -796,6 +820,22 @@ const SRC = {
       text:"Table 3-1 的 Non-live 分類包含：COVID-19 vaccines (Pfizer, Moderna, Novavax)、Recombinant zoster vaccine (RZV)、Respiratory syncytial virus vaccine (RSV)。\n\n中文整理：non-live 涵蓋不活化、重組／次單元等製劑；並非都屬殺死整體病原的狹義不活化疫苗。不同注射或鼻噴活性疫苗未同日接種時，一般至少間隔 4 週（28 天）；此非同種疫苗之劑次間隔規範。"},
   S20:{n:"欣剋疹帶狀疱疹疫苗 Shingrix — TFDA 中文仿單", v:"版本 2026-04-23；GDSv13（2025-04-03）；收錄 2026-09-09", o:"TFDA／GSK",
       u:"https://mcp.fda.gov.tw/im_detail_1/衛部菌疫輸字第001182號", p:"sources/仿單/Shingrix_TFDA_2026-04-23.pdf"},
+  /* 感染後接種間隔批次（2026-09-12）：官方 Q&A／指引網頁以原始 HTML 存檔，規則以 q 逐字引句對存檔驗證；
+     S23 原 PDF（197 頁）亦存於 sources/感染後間隔/，同段文字以網頁版追溯以免整本渲染 */
+  S21:{n:"COVID-19 疫苗 Q&A：3. 接種注意事項（Q3.1 確診後多久可接種）", v:"Q3.1 更新 2025-09-26；Q3.4 更新 2026-09-10；存檔 2026-09-12", o:"疾管署（官方網頁，非 PDF）",
+      u:"https://www.cdc.gov.tw/Category/QAPage/QLYITNGQSveCa-Rt2jTygg", p:"sources/感染後間隔/COVID19疫苗接種注意事項QA_原始頁面.html", textLabel:"官方網頁逐字摘錄＋中文整理（非 PDF）",
+      text:"Q3.1 如感染確診COVID-19，在確診後須間隔多久才可接種COVID-19疫苗?\n建議確診者可自發病日起或確診日（無症狀感染者）起12週（84天）且無急性症狀後，接種COVID-19疫苗。\n（最後更新日期 2025/9/26）\n\n中文整理：確診後以發病日（無症狀者以確診日）起算 12 週（84 天），且已無急性症狀，再接種。這與接種計畫「與前 1 劑 COVID-19 疫苗間隔 12 週（84 天）以上」是兩條不同規則，數字相同勿混淆。本句自 2022–23 年沿用至今，2026-09-12 核對現行頁面仍相同。"},
+  S22:{n:"流感與流感疫苗簡介 Q&A（接種禁忌症／為何每年都要接種）", v:"更新 2026-08-07／2026-08-14；存檔 2026-09-12", o:"疾管署（官方網頁，非 PDF）",
+      u:"https://www.cdc.gov.tw/Category/QAPage/D1uGZc4_eZUpZogGNQxEzA", p:"sources/感染後間隔/流感與流感疫苗簡介QA_原始頁面.html", textLabel:"官方網頁逐字摘錄＋中文整理（非 PDF）",
+      text:"Q：哪些人不適合接種流感疫苗（接種禁忌症）？（節錄）\n除此以外包括食物過敏、輕微上呼吸道症狀者，均可安心接種流感疫苗。\n（最後更新日期 2026/8/7）\n\nQ：為何每年都要接種流感疫苗？\n由於流感病毒極易產生變異，幾乎每年流行的病毒株都會稍有不同，疫苗對不同抗原型之病毒保護效果會明顯降低，即使病毒未發生變異，疫苗成分相同，接種4-6個月後保護效果即可能下降，保護力一般不超過1年，因此建議每年均須接種1次，是全球一致性的作法。\n（最後更新日期 2026/8/14）\n\n中文整理：輕微上呼吸道症狀（一般感冒）不是流感疫苗的延後理由；疾管署流感 Q&A 全部子頁、115 年度流感疫苗接種計畫全文與接種須知（2026-09-12 查證）均無「感染流感後須間隔 N 天」的規定，得過流感者仍建議接種當季疫苗。急性期（發燒或急性中重度疾病）依通則待病情穩定後再接種。"},
+  S23:{n:"General Best Practice Guidelines for Immunization：Contraindications and Precautions（急性病通則）", v:"網頁 2024-07-25；原 PDF（Kroger 等；工作小組 2023-01）第 52 頁同段；存檔 2026-09-12", o:"美國 CDC（官方網頁；原 PDF 存 sources/感染後間隔/，SHA256 0e701421…）",
+      u:"https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html", p:"sources/感染後間隔/CDC通則_接種禁忌與注意事項_原始頁面.html", textLabel:"官方網頁逐字摘錄＋中文整理（非 PDF；原 PDF 第 52 頁同段）",
+      text:"The presence of a moderate or severe acute illness with or without a fever is a precaution to administration of all vaccines (Table 4-1). The decision to administer or delay vaccination because of a current or recent acute illness depends on the severity of symptoms and etiology of the condition. The safety and efficacy of vaccinating persons who have mild illnesses have been documented⁸ ⁹ ¹⁰ ¹¹. Vaccination should be deferred for persons with a moderate or severe acute illness. This precaution avoids causing diagnostic confusion between manifestations of the underlying illness and possible adverse effects of vaccination or superimposing adverse effects of the vaccine on the underlying illness. After they are screened for contraindications, persons with moderate or severe acute illness should be vaccinated as soon as the acute illness has improved.\n（上標數字為網頁參考文獻編號；原 PDF 同段寫作 (8-11)）\n\n中文整理：中重度急性病（不論是否發燒）是所有疫苗的「注意事項（precaution）」，不是禁忌；延後的目的是避免疾病症狀與疫苗不良反應混淆。輕症接種的安全性與效力已有文獻證實。急性病改善後即可接種——沒有任何通用的「感染後須等 N 天」。此為美國 CDC 通則，台灣疾管署對應句為「發燒或正患有急性中重度疾病者，宜待病情穩定後再接種」。"},
+  S24:{n:"Prevention and Control of Seasonal Influenza with Vaccines: ACIP Recommendations — 2025–26 Season（MMWR 74(32)）", v:"2025-08-28；下載 2026-09-12", o:"美國 CDC／ACIP",
+      u:"https://www.cdc.gov/mmwr/volumes/74/wr/pdfs/mm7432a2-H.pdf", p:"sources/感染後間隔/ACIP流感疫苗建議_MMWR2025-26.pdf"},
+  S25:{n:"M痘 Q&A（Q28 感染痊癒後是否需再接種）", v:"更新 2025-05-22；存檔 2026-09-12", o:"疾管署（官方網頁，非 PDF）",
+      u:"https://www.cdc.gov.tw/Category/QAPage/sLiifBkhrsiwCL3ilaUlcg", p:"sources/感染後間隔/MpoxQA_原始頁面.html", textLabel:"官方網頁逐字摘錄＋中文整理（非 PDF）",
+      text:"Q28：我不小心感染M痘，痊癒後還需再接種M痘疫苗嗎?\n感染M痘痊癒後，身體將會產生免疫力，減少再次感染M痘的機會，建議毋需再接種M痘疫苗。\n（最後更新日期 2025/5/22）\n\n中文整理：曾感染 M 痘且已痊癒者，疾管署建議不需再接種 M 痘疫苗。本站 M 痘疫苗尚無仿單禁忌資料，篩檢器不判定。"},
 };
 // 來源標註：文件名連到官方原始檔，版本號連到本機存檔（若有）
 function cite(code){
@@ -934,6 +974,10 @@ const VAX = [
     {c:a=>a.months!==null&&a.months<6, lv:"warn", t:"出生未滿 6 個月。", s:"S1"},
     {c:"gbs", lv:"warn", t:"先前接種本疫苗六週內曾發生 GBS（Guillain-Barré syndrome）者。", s:"S1"},
     OTHER_EVAL,
+    {c:()=>true, lv:"info", t:"感冒／得過流感後何時可打：輕微上呼吸道症狀者可安心接種；台灣官方無「感染流感後須間隔 N 天」規定，發燒或急性中重度疾病者待病情穩定後再接種即可。得過流感仍建議接種當季疫苗——病毒株每年變異、保護力一般不超過 1 年。", s:"S22",
+      q:["除此以外包括食物過敏、輕微上呼吸道症狀者，均可安心接種流感疫苗。",
+         "由於流感病毒極易產生變異，幾乎每年流行的病毒株都會稍有不同，疫苗對不同抗原型之病毒保護效果會明顯降低，即使病毒未發生變異，疫苗成分相同，接種4-6個月後保護效果即可能下降，保護力一般不超過1年，因此建議每年均須接種1次，是全球一致性的作法。"]},
+    {c:()=>true, lv:"info", t:"ACIP 2025–26：6 個月以上無禁忌者每年常規接種；中重度急性病（不論有無發燒）為一般性注意事項，改善後即可接種。其禁忌／注意事項表未列「近期曾感染流感」。", s:"S24", claim:"flu-acip-annual-precaution"},
   ]},
 
 { id:"mmr", n:"麻疹腮腺炎德國麻疹混合疫苗", en:"MMR", type:"live", fund:"公費",
@@ -1097,6 +1141,8 @@ const VAX_SELFPAY = [
     {c:"preg", lv:"warn", t:"懷孕婦女可與醫師討論接種疫苗之效益與風險後，評估是否接種。臨床觀察性研究顯示懷孕婦女感染 SARS-CoV-2 可能較一般人容易併發重症。註：「未增加不良懷孕結果」之觀察性資料來自 Spikevax「原病毒株」疫苗（非本季 XFG 株）；現有臨床資料不足以提供孕期使用 mNEXSPIKE 之風險資訊；Novavax 對懷孕婦女接種經驗有限。", s:"S12"},
     {c:a=>a.months!==null&&a.months<6, lv:"warn", t:"計畫適用對象為滿 6 個月以上（Spikevax）；mNEXSPIKE 與 Novavax 適用滿 12 歲以上。", s:"S12"},
     {c:()=>true, lv:"info", t:"有發炎性心臟疾病（心肌炎、心包膜炎、心內膜炎）、急性風濕熱、12–29 歲擴張型心肌病變、複雜或嚴重先天性心臟病（包含單心室 Fontan 循環）、急性失代償性心臟衰竭與心臟移植病史者，建議接種前諮詢心臟科或感染科醫師。（本段出自莫德納 mRNA 疫苗須知；Novavax 須知無此段，惟亦載有心肌炎／心包膜炎罕見通報之注意事項）", s:"S12"},
+    {c:()=>true, lv:"info", t:"確診 COVID-19 後：自發病日（無症狀感染者自確診日）起 12 週（84 天）且無急性症狀後再接種。這與「與前 1 劑疫苗間隔 12 週（84 天）」是兩條不同規則，數字相同勿混淆。", s:"S21",
+      q:"建議確診者可自發病日起或確診日（無症狀感染者）起12週（84天）且無急性症狀後，接種COVID-19疫苗。"},
   ],
   extra:"接種須知（疾管署 2026-07-07）原文：莫德納 XFG 為「單價 mRNA 疫苗」、Novavax XFG 為「重組棘蛋白之蛋白質次單元疫苗」——均非活性減毒。大多數慢性心血管疾病史患者可接種 mRNA 疫苗，不建議採取額外特別措施。〔S12〕"},
 ];
@@ -1104,7 +1150,7 @@ VAX.push(...VAX_SELFPAY);
 
 /* ── 仍未取得仿單、篩檢器無法判定者 ── */
 const VAX_NOCONTRA = [
-  {n:"M 痘（Mpox）疫苗", sched:"適用 12 歲以上風險族群，2 劑、至少間隔 4 週。公費對象見疾管署規定。", s:"S4"},
+  {n:"M 痘（Mpox）疫苗", sched:"適用 12 歲以上風險族群，2 劑、至少間隔 4 週。公費對象見疾管署規定。感染 M 痘痊癒後身體將產生免疫力，疾管署建議毋需再接種〔S25，Q28〕。", s:"S4"},
   {n:"狂犬病疫苗",       sched:"不活化疫苗。暴露後預防「依據世界衛生組織(WHO)公布之狂犬病專家諮詢指引建議，狂犬病疫苗由原先 5 劑修訂為 4 劑時程，分別於第 0、3、7、14 天各接種 1 劑」。", s:"S11"},
   {n:"黃熱病疫苗",       sched:"活性減毒疫苗，旅遊醫學門診提供。台灣 S2 載霍亂與黃熱病應間隔 3 週以上，但未指明製劑；口服製劑之國際資料有差異，請核對「間隔規則」的品牌別原文。", s:"S2", claim:"cholera-policy"},
 ];
