@@ -643,6 +643,20 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
    gist=整理句（不畫高亮）、text=文字來源（無 PDF 可裁圖）。
    ════════════════════════════════════════════════════════ */
 const exEsc = v => String(v).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+/* 文字片段錨點（#:~:text=）：開啟存檔網頁時，Chrome／Edge／Safari 會自動捲到並高亮引句。
+   逗號、連字號、& 是片段語法保留字元須另行編碼；超過 120 字的長句改用「起,迄」範圍式（各取頭尾 24 字），
+   頭尾去掉標點與引號。實測（2026-09-12 Chrome）：短片段與範圍式都能定位到疾管署 Q&A 存檔的原句。 */
+const exFragEnc = s => encodeURIComponent(s).replace(/[-,&]/g, c => "%" + c.charCodeAt(0).toString(16).toUpperCase());
+function exFrag(quotes){
+  const trim = s => s.replace(/^[\s「『（(]+|[\s。．.,，；;：:」』）)]+$/g, "");
+  const parts = (quotes || []).map(q => {
+    q = trim(String(q));
+    if(!q) return "";
+    if(q.length <= 120) return exFragEnc(q);
+    return exFragEnc(trim(q.slice(0, 24))) + "," + exFragEnc(trim(q.slice(-24)));
+  }).filter(Boolean);
+  return parts.length ? "#:~:text=" + parts.join("&text=") : "";
+}
 const EX_ON = (typeof EXCERPTS !== "undefined");
 
 function exKey(vid, s, t){
@@ -734,7 +748,7 @@ function exPanelOpen(key){
     const quotes = (e.quotes || []).map(q => `<blockquote class="exquote">${exEsc(q)}</blockquote>`).join("");
     body = `<div class="note">此條來源為<b>文字擷錄</b>（${exEsc(e.label || e.src)}），無 PDF 可裁圖。</div>
       ${quotes ? `<div class="exmeta" style="margin-top:8px">逐字引句（建置與驗證均已對本機存檔逐字比對）：</div>${quotes}` : ""}
-      ${e.path ? `<div class="exmeta"><a href="${e.path}" target="_blank" rel="noopener">開啟來源存檔</a></div>` : ""}`;
+      ${e.path ? `<div class="exmeta"><a href="${e.path}${exFrag(e.quotes)}" target="_blank" rel="noopener">開啟來源存檔${(e.quotes || []).length ? "（自動跳至原句並高亮）" : ""}</a></div>` : ""}`;
   }
   p.innerHTML = `
     <div class="exhead">

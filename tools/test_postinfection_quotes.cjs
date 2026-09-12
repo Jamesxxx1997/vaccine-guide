@@ -48,7 +48,10 @@ for(const tr of rows){
       if(it.page)return false;
       const src=SRC[it.source];assert(src,'SRC registered: '+it.source);
       assert(src.text&&src.p,'web source carries text + archive: '+it.source);
-      return norm(src.text).includes(n)&&fileText(src.p).includes(n);
+      // 網頁 item 的 quotes 供「開啟存檔跳至原句」的文字片段錨點使用：每句都要在 SRC.text 與存檔裡
+      assert((it.quotes||[]).length,'web item carries quotes for text-fragment links: '+claim);
+      for(const c of it.quotes)assert(norm(src.text).includes(norm(c))&&fileText(src.p).includes(norm(c)),`item quote not verbatim in ${it.source}: ${c.slice(0,40)}`);
+      return it.quotes.some(c=>norm(c).includes(n))&&norm(src.text).includes(n)&&fileText(src.p).includes(n);
     });
     assert(pdfHit||webHit,`quote not verified for ${claim}: ${q.slice(0,40)}`);checked++;
   }
