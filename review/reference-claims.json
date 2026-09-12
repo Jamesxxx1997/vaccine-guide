@@ -217,6 +217,22 @@
       }
     ]
   },
+    "shingrix-prior-episode": {
+      "note": "疾管署一年規則與仿單試驗證據併陳；官方文件未針對「復發後」另訂專屬間隔。",
+      "items": [
+        {"ref": "shingrix-history"},
+        {"source": "S20", "page": 10, "glyphRows": true,
+         "quotes": ["在有帶狀疱疹既往病史的受試者中，接種Shingrix疫苗並不會使帶狀疱疹復發病例增加"],
+         "label": "仿單 Zoster-062 試驗：有既往病史者接種後復發病例未增加"}
+      ]
+    },
+    "varicella-natural-infection": {
+      "items": [
+        {"source": "S8", "page": 1, "glyphRows": true,
+         "quotes": ["已自然感染過水痘經醫師確診者", "無須再接補種"],
+         "label": "國小新生補種指引：自然感染經醫師確診者無須再補種"}
+      ]
+    },
     "class-shingrix": {
       "note": "分類依疾管署原文；黃框標示核對到的原文字詞，不表示網頁整段都是逐字引文。",
       "items": [{"source":"S4", "page":5, "quotes":["非活性基因重組帶狀疱疹疫苗"], "label":"疾管署原文分類"}]

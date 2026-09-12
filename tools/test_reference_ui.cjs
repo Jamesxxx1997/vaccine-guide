@@ -107,15 +107,19 @@ const change=(id,value,event='change')=>{doc.getElementById(id).value=value;doc.
     change('ivA','0');change('ivB','1');await wait(20);
     click(doc.querySelector('#ivOut'));assert(sources()[0].includes('S2-'));close();
   });
-  const retiredShingrixKeys=['e66d56e2c','ea272981a','e952fc4d0']; // Replaced by S20/S4 claim anchors, not regraded.
-  await test('121 active legacy rules remain accessible; three Shingrix records stay archived unchanged',()=>{
+  // Replaced by S20/S4 claim anchors. Since the claim-aware rebuild (2026-09-12),
+  // excerpts.js is regenerated strictly from live rules, so these retired records
+  // are pruned from the generated file; their frozen gradings stay in git history
+  // (last present in the pre-rebuild review/excerpts.js before commit 401d8f2).
+  const retiredShingrixKeys=['e66d56e2c','ea272981a','e952fc4d0'];
+  await test('121 active legacy rules remain accessible; retired Shingrix keys are pruned, not regraded',()=>{
     const keys=new Set();
     for(const book of doc.querySelectorAll('#contraTbl .exq')){
       assert(book.closest('li').classList.contains('ref-target'));keys.add(book.dataset.ex);
     }
     assert.equal(keys.size,121);
-    assert.equal(Object.keys(win.eval('EXCERPTS')).length,124);
-    assert.deepEqual(Object.keys(win.eval('EXCERPTS')).filter(k=>!keys.has(k)).sort(),retiredShingrixKeys.slice().sort());
+    assert.equal(Object.keys(win.eval('EXCERPTS')).length,121);
+    for(const k of retiredShingrixKeys)assert(!(k in win.eval('EXCERPTS')),k+' must stay retired');
   });
   await test('Exact, partial, gist and text statuses are not upgraded',()=>{
     for(const [key,e] of Object.entries(win.eval('EXCERPTS'))){

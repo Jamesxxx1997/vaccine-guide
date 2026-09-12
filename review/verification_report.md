@@ -19,7 +19,7 @@ e1af0a5fc covid 框 1：框中文字僅 57% 對應規則，需人工確認
 
 ## 本次輸入指紋（SHA-256）
 
-- `index.html`：`53e563d6033cf0beae6fdcc4efb5c38f09d8855b1a950da6e83c696ea4c05448`
+- `index.html`：`136e143a4a9c1d802df9fda2d008dd91c4a51b6762be8693292c5ea4c407f913`
 - `review/excerpts.js`：`31c756429846aa13f8fb6a58357d56a52d164a78c01cd4275a0f98a40da1dbcd`
 - `sources/接種指引/疫苗接種禁忌及注意事項.pdf`：`d2edf8c80d077b763aa442a4758435a6c0f8f5e9ec0cb260650d3209f857895a`
 - `sources/接種指引/各項預防接種間隔時間一覽表.pdf`：`601cdae83086af6d409a99a40772a19fc2b8fc93d1f8a666771455bd460f1160`

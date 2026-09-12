@@ -1,7 +1,7 @@
 # 原句對照建置報告
 
 狀態統計：{'verbatim': 93, 'partial': 9, 'gist': 9, 'text': 10}
-（另有 8 條帶 claim 規則由 reference-claims 系統追溯，不在本報告範圍）
+（另有 10 條帶 claim 規則由 reference-claims 系統追溯，不在本報告範圍）
 規則總數 121
 
 | # | 疫苗 | 來源 | 狀態 | 覆蓋率 | 頁 | 規則文字（前40字） |
