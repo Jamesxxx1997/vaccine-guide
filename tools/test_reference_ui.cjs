@@ -112,14 +112,15 @@ const change=(id,value,event='change')=>{doc.getElementById(id).value=value;doc.
   // are pruned from the generated file; their frozen gradings stay in git history
   // (last present in the pre-rebuild review/excerpts.js before commit 401d8f2).
   const retiredShingrixKeys=['e66d56e2c','ea272981a','e952fc4d0'];
-  // 123 = 121 legacy PDF/text rules + 2 quote-verified text rules added 2026-09-12 (covid S21, flu S22).
-  await test('123 active legacy rules remain accessible; retired Shingrix keys are pruned, not regraded',()=>{
+  // 121 legacy rules; every rule added on/after 2026-09-12 carries a claim (printed-PDF or original-PDF anchors)
+  // and therefore lives outside EXCERPTS.
+  await test('121 active legacy rules remain accessible; retired Shingrix keys are pruned, not regraded',()=>{
     const keys=new Set();
     for(const book of doc.querySelectorAll('#contraTbl .exq')){
       assert(book.closest('li').classList.contains('ref-target'));keys.add(book.dataset.ex);
     }
-    assert.equal(keys.size,123);
-    assert.equal(Object.keys(win.eval('EXCERPTS')).length,123);
+    assert.equal(keys.size,121);
+    assert.equal(Object.keys(win.eval('EXCERPTS')).length,121);
     for(const k of retiredShingrixKeys)assert(!(k in win.eval('EXCERPTS')),k+' must stay retired');
   });
   await test('Exact, partial, gist and text statuses are not upgraded',()=>{

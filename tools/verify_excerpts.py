@@ -55,21 +55,6 @@ def normalized(text):
     return re.sub(r"[^0-9A-Za-z一-鿿㐀-䶿]", "", unicodedata.normalize("NFKC", text))
 
 
-_TEXT_SOURCE_CACHE = {}
-
-def text_source_normalized(path):
-    """文字來源存檔（HTML/MD）的正規化全文；HTML 去 script/style/標籤並解實體。"""
-    key = str(path)
-    if key not in _TEXT_SOURCE_CACHE:
-        import html as _html
-        raw = path.read_text(encoding="utf-8", errors="replace")
-        if key.lower().endswith((".html", ".htm")):
-            raw = re.sub(r"<script.*?</script>|<style.*?</style>", "", raw, flags=re.S | re.I)
-            raw = re.sub(r"<[^>]+>", "", raw)
-            raw = _html.unescape(raw)
-        _TEXT_SOURCE_CACHE[key] = normalized(raw)
-    return _TEXT_SOURCE_CACHE[key]
-
 
 def rule_text(text):
     # 網頁加的分類後綴不應拿 PDF 表頭來填補；與前端顯示的原規則分開記錄。
@@ -183,16 +168,6 @@ console.log(JSON.stringify(new Function(fn + '; return ' +
             check(bool(e.get("label")), f"{label} 文字來源無標籤")
             if e.get("path"):
                 check((ROOT / e["path"]).is_file(), f"{label} 文字來源存檔不存在")
-            # 帶引句的文字來源：用本檔自己的正規化重新比對存檔（不信任 build 端的結論）
-            rule_q = rule.get("q")
-            rule_quotes = rule_q if isinstance(rule_q, list) else ([rule_q] if rule_q else [])
-            check(list(e.get("quotes") or []) == rule_quotes, f"{label} 引句與規則不一致")
-            if rule_quotes:
-                check(bool(e.get("path")) and (ROOT / e["path"]).is_file(), f"{label} 帶引句但無存檔")
-                if e.get("path") and (ROOT / e["path"]).is_file():
-                    full = text_source_normalized(ROOT / e["path"])
-                    for q in rule_quotes:
-                        check(normalized(q) in full, f"{label} 引句不在存檔：{q[:40]}")
             details.append((key, rule, e, None, [], []))
             continue
         if e["type"] != "pdf":

@@ -208,7 +208,6 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 #expanel .exhead button{border:none;background:none;color:var(--ink-2);font-size:17px;cursor:pointer}
 #expanel .exbody{padding:14px;overflow-y:auto}
 #expanel .exmeta{font-size:12.5px;color:var(--ink-3)}
-#expanel .exquote{margin:6px 0;padding:8px 10px;border-left:3px solid #e6b800;background:var(--surface-2);font-size:13px;line-height:1.55}
 #postinfTbl q{display:block;quotes:"「" "」";margin:2px 0;padding:4px 8px;border-left:3px solid #e6b800;background:var(--surface-2);font-size:12.5px;line-height:1.5}
 #postinfTbl q + q{margin-top:6px}
 @media(max-width:760px){#expanel{width:94vw}}
@@ -475,7 +474,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
   </div>
 
   <h2>感染後（含一般感冒）多久可以接種</h2>
-  <p class="sub" style="margin-top:-6px">民眾最常問的一題。「中文整理」為本站彙整；「原句摘錄」逐字取自出處存檔（tools/test_postinfection_quotes.cjs 逐句對存檔比對；PDF 來源列可點開原文高亮）。</p>
+  <p class="sub" style="margin-top:-6px">民眾最常問的一題。「中文整理」為本站彙整；「原句摘錄」逐字取自出處原件（官方 PDF，或官方網頁的列印 PDF）；點任一格可開右側面板看原件裁圖與黃框高亮（tools/test_postinfection_quotes.cjs 逐句比對）。</p>
   <div class="scroller">
     <table id="postinfTbl">
       <thead><tr><th style="min-width:150px">情境</th><th style="min-width:240px">中文整理</th><th style="min-width:280px">原句摘錄（逐字）</th><th style="min-width:110px">出處</th></tr></thead>
@@ -643,20 +642,6 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
    gist=整理句（不畫高亮）、text=文字來源（無 PDF 可裁圖）。
    ════════════════════════════════════════════════════════ */
 const exEsc = v => String(v).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-/* 文字片段錨點（#:~:text=）：開啟存檔網頁時，Chrome／Edge／Safari 會自動捲到並高亮引句。
-   逗號、連字號、& 是片段語法保留字元須另行編碼；超過 120 字的長句改用「起,迄」範圍式（各取頭尾 24 字），
-   頭尾去掉標點與引號。實測（2026-09-12 Chrome）：短片段與範圍式都能定位到疾管署 Q&A 存檔的原句。 */
-const exFragEnc = s => encodeURIComponent(s).replace(/[-,&]/g, c => "%" + c.charCodeAt(0).toString(16).toUpperCase());
-function exFrag(quotes){
-  const trim = s => s.replace(/^[\s「『（(]+|[\s。．.,，；;：:」』）)]+$/g, "");
-  const parts = (quotes || []).map(q => {
-    q = trim(String(q));
-    if(!q) return "";
-    if(q.length <= 120) return exFragEnc(q);
-    return exFragEnc(trim(q.slice(0, 24))) + "," + exFragEnc(trim(q.slice(-24)));
-  }).filter(Boolean);
-  return parts.length ? "#:~:text=" + parts.join("&text=") : "";
-}
 const EX_ON = (typeof EXCERPTS !== "undefined");
 
 function exKey(vid, s, t){
@@ -744,11 +729,8 @@ function exPanelOpen(key){
         <a href="${pdfHref}" target="_blank" rel="noopener">開啟完整 PDF${httpish ? "（跳至第 " + e.page + " 頁）" : "（file:// 模式請自行翻到第 " + e.page + " 頁）"}</a>
       </div>`;
   } else {
-    /* 文字來源帶逐字引句時整句顯示；build_excerpts 與 verify_excerpts 都已對本機存檔逐字比對過 */
-    const quotes = (e.quotes || []).map(q => `<blockquote class="exquote">${exEsc(q)}</blockquote>`).join("");
     body = `<div class="note">此條來源為<b>文字擷錄</b>（${exEsc(e.label || e.src)}），無 PDF 可裁圖。</div>
-      ${quotes ? `<div class="exmeta" style="margin-top:8px">逐字引句（建置與驗證均已對本機存檔逐字比對）：</div>${quotes}` : ""}
-      ${e.path ? `<div class="exmeta"><a href="${e.path}${exFrag(e.quotes)}" target="_blank" rel="noopener">開啟來源存檔${(e.quotes || []).length ? "（自動跳至原句並高亮）" : ""}</a></div>` : ""}`;
+      ${e.path ? `<div class="exmeta"><a href="${e.path}" target="_blank" rel="noopener">開啟來源存檔</a></div>` : ""}`;
   }
   p.innerHTML = `
     <div class="exhead">
@@ -834,22 +816,19 @@ const SRC = {
       text:"Table 3-1 的 Non-live 分類包含：COVID-19 vaccines (Pfizer, Moderna, Novavax)、Recombinant zoster vaccine (RZV)、Respiratory syncytial virus vaccine (RSV)。\n\n中文整理：non-live 涵蓋不活化、重組／次單元等製劑；並非都屬殺死整體病原的狹義不活化疫苗。不同注射或鼻噴活性疫苗未同日接種時，一般至少間隔 4 週（28 天）；此非同種疫苗之劑次間隔規範。"},
   S20:{n:"欣剋疹帶狀疱疹疫苗 Shingrix — TFDA 中文仿單", v:"版本 2026-04-23；GDSv13（2025-04-03）；收錄 2026-09-09", o:"TFDA／GSK",
       u:"https://mcp.fda.gov.tw/im_detail_1/衛部菌疫輸字第001182號", p:"sources/仿單/Shingrix_TFDA_2026-04-23.pdf"},
-  /* 感染後接種間隔批次（2026-09-12）：官方 Q&A／指引網頁以原始 HTML 存檔，規則以 q 逐字引句對存檔驗證；
-     S23 原 PDF（197 頁）亦存於 sources/感染後間隔/，同段文字以網頁版追溯以免整本渲染 */
-  S21:{n:"COVID-19 疫苗 Q&A：3. 接種注意事項（Q3.1 確診後多久可接種）", v:"Q3.1 更新 2025-09-26；存檔 2026-09-12（同頁其他題目更新至 2026-09-10，本站未引用其內容）", o:"疾管署（官方網頁，非 PDF）",
-      u:"https://www.cdc.gov.tw/Category/QAPage/QLYITNGQSveCa-Rt2jTygg", p:"sources/感染後間隔/COVID19疫苗接種注意事項QA_原始頁面.html", textLabel:"官方網頁逐字摘錄＋中文整理（非 PDF）",
-      text:"Q3.1 如感染確診COVID-19，在確診後須間隔多久才可接種COVID-19疫苗?\n建議確診者可自發病日起或確診日（無症狀感染者）起12週（84天）且無急性症狀後，接種COVID-19疫苗。\n（最後更新日期 2025/9/26）\n\n中文整理：確診後以發病日（無症狀者以確診日）起算 12 週（84 天），且已無急性症狀，再接種。這與接種計畫「與前 1 劑 COVID-19 疫苗間隔 12 週（84 天）以上」是兩條不同規則，數字相同勿混淆。本句自 2022–23 年沿用至今，2026-09-12 核對現行頁面仍相同。"},
-  S22:{n:"流感與流感疫苗簡介 Q&A（接種禁忌症／為何每年都要接種）", v:"更新 2026-08-07／2026-08-14；存檔 2026-09-12", o:"疾管署（官方網頁，非 PDF）",
-      u:"https://www.cdc.gov.tw/Category/QAPage/D1uGZc4_eZUpZogGNQxEzA", p:"sources/感染後間隔/流感與流感疫苗簡介QA_原始頁面.html", textLabel:"官方網頁逐字摘錄＋中文整理（非 PDF）",
-      text:"Q：哪些人不適合接種流感疫苗（接種禁忌症）？（節錄）\n除此以外包括食物過敏、輕微上呼吸道症狀者，均可安心接種流感疫苗。\n（最後更新日期 2026/8/7）\n\nQ：為何每年都要接種流感疫苗？\n由於流感病毒極易產生變異，幾乎每年流行的病毒株都會稍有不同，疫苗對不同抗原型之病毒保護效果會明顯降低，即使病毒未發生變異，疫苗成分相同，接種4-6個月後保護效果即可能下降，保護力一般不超過1年，因此建議每年均須接種1次，是全球一致性的作法。\n（最後更新日期 2026/8/14）\n\n中文整理：輕微上呼吸道症狀（一般感冒）不是流感疫苗的延後理由；疾管署流感 Q&A 全部子頁、115 年度流感疫苗接種計畫全文與接種須知（2026-09-12 查證）均無「感染流感後須間隔 N 天」的規定，得過流感者仍建議接種當季疫苗。急性期（發燒或急性中重度疾病）依通則待病情穩定後再接種。"},
-  S23:{n:"General Best Practice Guidelines for Immunization：Contraindications and Precautions（急性病通則）", v:"網頁 2024-07-25；原 PDF（Kroger 等；工作小組 2023-01）第 52 頁同段；存檔 2026-09-12", o:"美國 CDC（官方網頁；原 PDF 存 sources/感染後間隔/，SHA256 0e701421…）",
-      u:"https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html", p:"sources/感染後間隔/CDC通則_接種禁忌與注意事項_原始頁面.html", textLabel:"官方網頁逐字摘錄＋中文整理（非 PDF；原 PDF 第 52 頁同段）",
-      text:"The presence of a moderate or severe acute illness with or without a fever is a precaution to administration of all vaccines (Table 4-1). The decision to administer or delay vaccination because of a current or recent acute illness depends on the severity of symptoms and etiology of the condition. The safety and efficacy of vaccinating persons who have mild illnesses have been documented⁸ ⁹ ¹⁰ ¹¹. Vaccination should be deferred for persons with a moderate or severe acute illness. This precaution avoids causing diagnostic confusion between manifestations of the underlying illness and possible adverse effects of vaccination or superimposing adverse effects of the vaccine on the underlying illness. After they are screened for contraindications, persons with moderate or severe acute illness should be vaccinated as soon as the acute illness has improved.\n（上標數字為網頁參考文獻編號；原 PDF 同段寫作 (8-11)）\n\n中文整理：中重度急性病（不論是否發燒）是所有疫苗的「注意事項（precaution）」，不是禁忌；延後的目的是避免疾病症狀與疫苗不良反應混淆。輕症接種的安全性與效力已有文獻證實。急性病改善後即可接種——沒有任何通用的「感染後須等 N 天」。此為美國 CDC 通則，台灣疾管署對應句為「發燒或正患有急性中重度疾病者，宜待病情穩定後再接種」。"},
+  /* 感染後接種間隔批次（2026-09-12）：官方網頁用 tools/print_web_source.mjs 列印成 PDF（Chrome 頁尾自帶網址＋列印日期），
+     作為 reference 追溯原件走 glyph 定位；同日抓的原始 HTML 另存 sources/感染後間隔/*_原始頁面.html 供比對。
+     S23 原 PDF（197 頁）亦存於 sources/感染後間隔/，同段以網頁列印版追溯以免整本渲染 */
+  S21:{n:"COVID-19 疫苗 Q&A：3. 接種注意事項（Q3.1 確診後多久可接種）", v:"Q3.1 更新 2025-09-26；網頁列印 2026-09-12（已展開全部題目）", o:"疾管署（官方網頁列印版）", print:true,
+      u:"https://www.cdc.gov.tw/Category/QAPage/QLYITNGQSveCa-Rt2jTygg", p:"sources/感染後間隔/S21_COVID19疫苗QA_接種注意事項_網頁列印_2026-09-12.pdf"},
+  S22:{n:"流感與流感疫苗簡介 Q&A（接種禁忌症／為何每年都要接種）", v:"更新 2026-08-07／2026-08-14；網頁列印 2026-09-12（已展開全部題目）", o:"疾管署（官方網頁列印版）", print:true,
+      u:"https://www.cdc.gov.tw/Category/QAPage/D1uGZc4_eZUpZogGNQxEzA", p:"sources/感染後間隔/S22_流感與流感疫苗簡介QA_網頁列印_2026-09-12.pdf"},
+  S23:{n:"General Best Practice Guidelines for Immunization：Contraindications and Precautions（急性病通則）", v:"網頁 2024-07-25；網頁列印 2026-09-12；原 PDF（Kroger 等；工作小組 2023-01）第 52 頁同段", o:"美國 CDC（官方網頁列印版；原 PDF 存 sources/感染後間隔/，SHA256 0e701421…）", print:true,
+      u:"https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html", p:"sources/感染後間隔/S23_CDC_GeneralBestPractices_Contraindications_網頁列印_2026-09-12.pdf"},
   S24:{n:"Prevention and Control of Seasonal Influenza with Vaccines: ACIP Recommendations — 2025–26 Season（MMWR 74(32)）", v:"2025-08-28；下載 2026-09-12", o:"美國 CDC／ACIP",
       u:"https://www.cdc.gov/mmwr/volumes/74/wr/pdfs/mm7432a2-H.pdf", p:"sources/感染後間隔/ACIP流感疫苗建議_MMWR2025-26.pdf"},
-  S25:{n:"M痘 Q&A（Q28 感染痊癒後是否需再接種）", v:"更新 2025-05-22；存檔 2026-09-12", o:"疾管署（官方網頁，非 PDF）",
-      u:"https://www.cdc.gov.tw/Category/QAPage/sLiifBkhrsiwCL3ilaUlcg", p:"sources/感染後間隔/MpoxQA_原始頁面.html", textLabel:"官方網頁逐字摘錄＋中文整理（非 PDF）",
-      text:"Q28：我不小心感染M痘，痊癒後還需再接種M痘疫苗嗎?\n感染M痘痊癒後，身體將會產生免疫力，減少再次感染M痘的機會，建議毋需再接種M痘疫苗。\n（最後更新日期 2025/5/22）\n\n中文整理：曾感染 M 痘且已痊癒者，疾管署建議不需再接種 M 痘疫苗。本站 M 痘疫苗尚無仿單禁忌資料，篩檢器不判定。"},
+  S25:{n:"M痘 Q&A（Q28 感染痊癒後是否需再接種）", v:"更新 2025-05-22；網頁列印 2026-09-12（已展開全部題目）", o:"疾管署（官方網頁列印版）", print:true,
+      u:"https://www.cdc.gov.tw/Category/QAPage/sLiifBkhrsiwCL3ilaUlcg", p:"sources/感染後間隔/S25_M痘QA_網頁列印_2026-09-12.pdf"},
 };
 // 來源標註：文件名連到官方原始檔，版本號連到本機存檔（若有）
 function cite(code){
@@ -988,9 +967,7 @@ const VAX = [
     {c:a=>a.months!==null&&a.months<6, lv:"warn", t:"出生未滿 6 個月。", s:"S1"},
     {c:"gbs", lv:"warn", t:"先前接種本疫苗六週內曾發生 GBS（Guillain-Barré syndrome）者。", s:"S1"},
     OTHER_EVAL,
-    {c:()=>true, lv:"info", t:"感冒／得過流感後何時可打：輕微上呼吸道症狀者可安心接種；台灣官方查無「感染流感後須間隔 N 天」規定（2026-09-12 查證），發燒或急性中重度疾病者待病情穩定後再接種即可。得過流感者仍在「每年接種 1 次」的建議範圍內（病毒株每年變異、保護力一般不超過 1 年）；官方未針對「得過者」另設專門問答，此為本站對照結論。", s:"S22",
-      q:["除此以外包括食物過敏、輕微上呼吸道症狀者，均可安心接種流感疫苗。",
-         "由於流感病毒極易產生變異，幾乎每年流行的病毒株都會稍有不同，疫苗對不同抗原型之病毒保護效果會明顯降低，即使病毒未發生變異，疫苗成分相同，接種4-6個月後保護效果即可能下降，保護力一般不超過1年，因此建議每年均須接種1次，是全球一致性的作法。"]},
+    {c:()=>true, lv:"info", t:"感冒／得過流感後何時可打：輕微上呼吸道症狀者可安心接種；台灣官方查無「感染流感後須間隔 N 天」規定（2026-09-12 查證），發燒或急性中重度疾病者待病情穩定後再接種即可。得過流感者仍在「每年接種 1 次」的建議範圍內（病毒株每年變異、保護力一般不超過 1 年）；官方未針對「得過者」另設專門問答，此為本站對照結論。", s:"S22", claim:"postinf-flu-qa"},
     {c:()=>true, lv:"info", t:"ACIP 2025–26：6 個月以上無禁忌者每年常規接種；中重度急性病（不論有無發燒）為一般性注意事項，改善後即可接種。其禁忌／注意事項表未列「近期曾感染流感」。", s:"S24", claim:"flu-acip-annual-precaution"},
   ]},
 
@@ -1155,8 +1132,7 @@ const VAX_SELFPAY = [
     {c:"preg", lv:"warn", t:"懷孕婦女可與醫師討論接種疫苗之效益與風險後，評估是否接種。臨床觀察性研究顯示懷孕婦女感染 SARS-CoV-2 可能較一般人容易併發重症。註：「未增加不良懷孕結果」之觀察性資料來自 Spikevax「原病毒株」疫苗（非本季 XFG 株）；現有臨床資料不足以提供孕期使用 mNEXSPIKE 之風險資訊；Novavax 對懷孕婦女接種經驗有限。", s:"S12"},
     {c:a=>a.months!==null&&a.months<6, lv:"warn", t:"計畫適用對象為滿 6 個月以上（Spikevax）；mNEXSPIKE 與 Novavax 適用滿 12 歲以上。", s:"S12"},
     {c:()=>true, lv:"info", t:"有發炎性心臟疾病（心肌炎、心包膜炎、心內膜炎）、急性風濕熱、12–29 歲擴張型心肌病變、複雜或嚴重先天性心臟病（包含單心室 Fontan 循環）、急性失代償性心臟衰竭與心臟移植病史者，建議接種前諮詢心臟科或感染科醫師。（本段出自莫德納 mRNA 疫苗須知；Novavax 須知無此段，惟亦載有心肌炎／心包膜炎罕見通報之注意事項）", s:"S12"},
-    {c:()=>true, lv:"info", t:"確診 COVID-19 後：自發病日（無症狀感染者自確診日）起 12 週（84 天）且無急性症狀後再接種。這與「與前 1 劑疫苗間隔 12 週（84 天）」是兩條不同規則，數字相同勿混淆。", s:"S21",
-      q:"建議確診者可自發病日起或確診日（無症狀感染者）起12週（84天）且無急性症狀後，接種COVID-19疫苗。"},
+    {c:()=>true, lv:"info", t:"確診 COVID-19 後：自發病日（無症狀感染者自確診日）起 12 週（84 天）且無急性症狀後再接種。這與「與前 1 劑疫苗間隔 12 週（84 天）」是兩條不同規則，數字相同勿混淆。", s:"S21", claim:"postinf-covid-qa"},
   ],
   extra:"接種須知（疾管署 2026-07-07）原文：莫德納 XFG 為「單價 mRNA 疫苗」、Novavax XFG 為「重組棘蛋白之蛋白質次單元疫苗」——均非活性減毒。大多數慢性心血管疾病史患者可接種 mRNA 疫苗，不建議採取額外特別措施。〔S12〕"},
 ];

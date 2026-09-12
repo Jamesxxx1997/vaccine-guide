@@ -5,6 +5,10 @@
     "S3": "87968428ff606fcf8bbf4993d258b8d7bef8a35457de99f0ac9bf7b51ce25563",
     "S4": "baecc2b1adabcce924d6c228b876e397d4d019ba871749b97ab5441ab2b9426a",
     "S24": "ba7119a5f11fbc9b39d19021ebbc7fe385ddfee0267740b9f99ba6e42d3850c6",
+    "S21": "6ffc681fd1e314660a74bebf4cc20d1329e2554adc77d3b1a0432071289074b4",
+    "S22": "e2eacc2f15ebf893244429b7205a3b5ee58dc4d36a3e5f173588368dbfcec7f6",
+    "S23": "cfef9a00394d17c0e5b9ad8173d0ce9f53d8b3e1a17f09f53ca5b9c645218dfe",
+    "S25": "b50c6c8801cc02c8b5cc8c8ff68227b4f0f4c9974ef985ddb7459e628dc09503",
     "S5": "8822516fd4653f3278cf9503fbd4af3567d7d37e9742450f9e64d9a37d55db75",
     "S8": "8bdef52aeff9943e8791bd8e1586d73bf64e4baa569e58c9ff219d7fcc00a6f1",
     "S12": "8891c44f7679c65160f88adb3c9077b42ece8da708f63872be5d80bf68286d11",
@@ -228,25 +232,25 @@
       ]
     },
     "postinf-general-cdc": {
-      "note": "美國 CDC 通則網頁逐字段落（原 PDF 第 52 頁同段，PDF 197 頁存 sources/感染後間隔/ 未整本渲染）；中文整理與原文分開列於來源摘錄。",
-      "items": [{"source": "S23", "label": "CDC General Best Practices：急性病為所有疫苗的注意事項；改善後即接種",
+      "note": "美國 CDC 通則網頁列印版（2026-09-12）；原 PDF 第 52 頁同段（197 頁原件存 sources/感染後間隔/，未整本渲染）。",
+      "items": [{"source": "S23", "page": 2, "glyphRows": true, "label": "CDC General Best Practices：急性病為所有疫苗的注意事項；改善後即接種",
         "quotes": ["The presence of a moderate or severe acute illness with or without a fever is a precaution to administration of all vaccines",
                    "The safety and efficacy of vaccinating persons who have mild illnesses have been documented",
                    "persons with moderate or severe acute illness should be vaccinated as soon as the acute illness has improved"]}]
     },
     "postinf-flu-qa": {
       "note": "疾管署流感 Q&A 兩題逐字；台灣官方無「感染流感後間隔 N 天」規定（2026-09-12 查證），此為查無聲明而非引句。",
-      "items": [{"source": "S22", "label": "疾管署流感 Q&A：輕微上呼吸道症狀可接種；為何每年都要接種",
+      "items": [{"source": "S22", "page": 3, "glyphRows": true, "label": "疾管署流感 Q&A：輕微上呼吸道症狀可接種；為何每年都要接種",
         "quotes": ["除此以外包括食物過敏、輕微上呼吸道症狀者，均可安心接種流感疫苗。",
                    "由於流感病毒極易產生變異，幾乎每年流行的病毒株都會稍有不同，疫苗對不同抗原型之病毒保護效果會明顯降低，即使病毒未發生變異，疫苗成分相同，接種4-6個月後保護效果即可能下降，保護力一般不超過1年，因此建議每年均須接種1次，是全球一致性的作法。"]}]
     },
     "postinf-covid-qa": {
       "note": "與接種計畫的劑次間隔 12 週（84 天）數字相同、規則不同。",
-      "items": [{"source": "S21", "label": "疾管署 COVID-19 Q&A Q3.1：確診後 12 週（84 天）且無急性症狀",
+      "items": [{"source": "S21", "page": 1, "glyphRows": true, "label": "疾管署 COVID-19 Q&A Q3.1：確診後 12 週（84 天）且無急性症狀",
         "quotes": ["建議確診者可自發病日起或確診日（無症狀感染者）起12週（84天）且無急性症狀後，接種COVID-19疫苗。"]}]
     },
     "postinf-mpox-qa": {
-      "items": [{"source": "S25", "label": "疾管署 M痘 Q&A Q28：痊癒後毋需再接種",
+      "items": [{"source": "S25", "page": 16, "glyphRows": true, "label": "疾管署 M痘 Q&A Q28：痊癒後毋需再接種",
         "quotes": ["感染M痘痊癒後，身體將會產生免疫力，減少再次感染M痘的機會，建議毋需再接種M痘疫苗。"]}]
     },
     "flu-acip-annual-precaution": {
