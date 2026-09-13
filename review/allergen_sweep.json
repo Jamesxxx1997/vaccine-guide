@@ -1,0 +1,2258 @@
+{
+ "S20": {
+  "product": "Shingrix 欣剋疹帶狀疱疹疫苗",
+  "source": "S20",
+  "pdf": "sources/仿單/Shingrix_TFDA_2026-04-23.pdf",
+  "pages": 16,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [
+     {
+      "page": 15,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "驗資料參見藥效藥理特性。13包裝及儲存13.1包裝1劑粉末,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。1劑懸液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃"
+     },
+     {
+      "page": 15,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。1劑懸液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。Shingrix有1小瓶粉末加1小瓶懸液的包裝,或10"
+     }
+    ],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel"
+    ],
+    "hits": [
+     {
+      "page": 1,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "-231性狀1.1有效成分及含量帶狀疱疹疫苗(非活性基因重組疫苗,使用AS01B佐劑)。泡製之後,每劑(0.5毫升)含有50微克gE抗原1(使用AS01B佐劑2)。"
+     },
+     {
+      "page": 1,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "01B佐劑)。泡製之後,每劑(0.5毫升)含有50微克gE抗原1(使用AS01B佐劑2)。1源自水痘帶狀疱疹病毒(VaricellaZosterVirus,VZV)"
+     },
+     {
+      "page": 1,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "是利用DNA重組技術在中國倉鼠卵巢細胞中製造而得。2葛蘭素史克公司的專利AS01佐劑系統係由植物萃取物QuillajasaponariaMolina,Bfracti"
+     },
+     {
+      "page": 3,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "接或間接的影響。7交互作用與其他疫苗併用Shingrix可與季節性流感疫苗(不含佐劑)、23價肺炎鏈球菌多醣體疫苗(23-valentpneumococcalpol"
+     },
+     {
+      "page": 3,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "2019,COVID-19)mRNA疫苗或呼吸道融合病毒(RSV)疫苗(重組且含佐劑)同時施打(參見藥效藥理特性)。P.3"
+     },
+     {
+      "page": 5,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "料不足。10藥理特性10.1作用機轉藉由結合VZV特有抗原(gE)以及AS01B佐劑系統,Shingrix的設計可針對對於水痘帶狀疱疹病毒已有預存免疫力的人,誘發其"
+     },
+     {
+      "page": 5,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "淋巴結中聚集並活化,進而促使具gE特異性的CD4+T細胞和抗體生成。AS01B的佐劑作用是來自包含在微脂粒載體中的MPL與QS-21之間的交互作用結果。10.2藥效"
+     },
+     {
+      "page": 13,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "月接種兩劑Shingrix,並於接種第一劑時合併或不合併接種季節性流感疫苗(不含佐劑)P.13"
+     },
+     {
+      "page": 14,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "株)(N=539;Zoster-091)或呼吸道融合病毒(RSV)疫苗(重組且含佐劑)(N=530;RSVOA=ADJ-020)。將Shingrix與流感疫苗、23"
+     },
+     {
+      "page": 14,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "VID-19mRNA-1273加強劑疫苗和呼吸道融合病毒(RSV)疫苗(重組且含佐劑)同時施打後的疫苗反應率(抗gE抗體)分別為95.8%(95%CI:93.3;9"
+     }
+    ],
+    "dismissed": null
+   }
+  }
+ },
+ "S27": {
+  "product": "VAQTA 唯德不活化A型肝炎疫苗",
+  "source": "S27",
+  "pdf": "sources/仿單/A型肝炎疫苗_唯德不活化A型肝炎疫苗VAQTA(默沙東)_TFDA_2023-03-22.pdf",
+  "pages": 16,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "tween",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S28": {
+  "product": "Engerix-B 安在時B型肝炎疫苗",
+  "source": "S28",
+  "pdf": "sources/仿單/B肝_Engerix-B_TFDA_2022-05-05.pdf",
+  "pages": 1,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S29": {
+  "product": "Tetraxim(范德瑞巴斯德四合一疫苗)",
+  "source": "S29",
+  "pdf": "sources/仿單/DTaP-IPV疫苗_Tetraxim_TFDA_2016-02-19_許可證已註銷仍為現行專案進口品項仿單.pdf",
+  "pages": 2,
+  "cells": {
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 2,
+      "term": "phenoxyethanol",
+      "pattern": "phenoxyethanol",
+      "context": "ium (without phenol red), formaldehyde, phenoxyethanol,⏎ethanol and water for injections.⏎Hank"
+     },
+     {
+      "page": 2,
+      "term": "phenoxyethanol",
+      "pattern": "phenoxyethanol",
+      "context": "ksmedium(withoutphenolred),formaldehyde,phenoxyethanol,ethanolandwaterforinjections.Hanks培養基(H"
+     },
+     {
+      "page": 2,
+      "term": "phenol",
+      "pattern": "phenol",
+      "context": "形劑⏎⏎與吸附劑相關者,見章節2。⏎Hanks medium (without phenol red), formaldehyde, phenoxyethanol,⏎eth"
+     },
+     {
+      "page": 2,
+      "term": "phenol",
+      "pattern": "phenol",
+      "context": "特性6.1賦形劑與吸附劑相關者,見章節2。Hanksmedium(withoutphenolred),formaldehyde,phenoxyethanol,ethanol"
+     }
+    ],
+    "dismissed": null
+   },
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "tween",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S30": {
+  "product": "Gardasil 9 嘉喜9",
+  "source": "S30",
+  "pdf": "sources/仿單/HPV疫苗_Gardasil9_TFDA_2022-08-11.pdf",
+  "pages": 24,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S31": {
+  "product": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗",
+  "source": "S31",
+  "pdf": "sources/仿單/MMR疫苗_麻疹腮腺炎德國麻疹混合疫苗M-M-RII(默沙東)_TFDA_2022-11-22.pdf",
+  "pages": 10,
+  "cells": {
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "tween",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S32": {
+  "product": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗",
+  "source": "S32",
+  "pdf": "sources/仿單/PCV_Prevenar13_TFDA_2022-10-05.pdf",
+  "pages": 35,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 24,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": "感染率相似;血清型19F的感染率則有顯著減少的現象。在此試驗中,曾經記錄到對一些抗生素為非易感性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據"
+     },
+     {
+      "page": 24,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": "性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據血清型及抗生素,此減少範圍介於34%到62%之間。沛兒肺炎鏈球菌七價結合型疫苗在嬰兒與幼童的"
+     }
+    ],
+    "dismissed": "「抗生素」出現在肺炎鏈球菌抗藥性／血清型討論，非成分"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S33": {
+  "product": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗）",
+  "source": "S33",
+  "pdf": "sources/仿單/PPV23_Pneumovax23_TFDA_2023-03-15.pdf",
+  "pages": 3,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 1,
+      "term": "erythromycin",
+      "pattern": "erythromycin",
+      "context": "性。許多對 penicillin 產生抗藥性的肺炎鏈球菌⏎亦會對其他抗生素(如 erythromycin, trimethoprim-sulfamethoxazole 和廣效⏎性的 c"
+     },
+     {
+      "page": 1,
+      "term": "erythromycin",
+      "pattern": "erythromycin",
+      "context": "產生抗藥性。許多對penicillin產生抗藥性的肺炎鏈球菌亦會對其他抗生素(如erythromycin,trimethoprim-sulfamethoxazole和廣效性的cepha"
+     },
+     {
+      "page": 1,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": "生在因先天性損傷、頭顱破裂或進行神經手術造成慢性腦脊髓液外溢的病人身上。即使使用抗生素來有效的控制細菌,侵犯性的肺炎鏈球菌性疾病(如菌血症或腦膜炎)和肺炎仍會引起高的"
+     },
+     {
+      "page": 1,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": "illin產生抗藥性。許多對penicillin產生抗藥性的肺炎鏈球菌亦會對其他抗生素(如erythromycin,trimethoprim-sulfamethoxa"
+     },
+     {
+      "page": 1,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": "症的機率較一些其他人種(如黑人、阿拉斯加原住民、美洲印地安人)低。即使採取適當的抗生素療法及密切的醫療照顧,成人因罹患肺炎鏈球菌性菌血症所造成的死亡率為15-20%,"
+     },
+     {
+      "page": 2,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": "停注射本疫苗會有更高的危險時才能使用本品。對於需要以penicillin(或其他抗生素)來預防肺炎鏈球菌感染的病患,在注射PNEUMOVAX23後,不應停止使用此預防"
+     },
+     {
+      "page": 2,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": "預防肺炎鏈球菌感染的病患,在注射PNEUMOVAX23後,不應停止使用此預防性的抗生素。PNEUMOVAX23可能對因先天性損傷、頭顱破裂或進行神經手術造成慢性腦脊髓"
+     },
+     {
+      "page": 3,
+      "term": "抗菌劑",
+      "pattern": "抗菌劑",
+      "context": "過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及不含保存劑、抗菌劑及清潔劑的針筒從藥瓶內抽取0.5mL。預充疫苗針筒其他在臨床試驗及上市後的使用經"
+     }
+    ],
+    "dismissed": "「抗生素／erythromycin／抗菌劑」皆為抗藥性、預防性治療與針筒說明語境，非成分"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "tween",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 1,
+      "term": "保存劑",
+      "pattern": "保存劑",
+      "context": "量中含有23種細菌莢膜多醣體,每種莢膜多醣體各25μg,溶於含有0.25%酚作為保存劑之等張生理食鹽水中。表一PNEUMOVAX23內所含之23種肺炎鏈球菌莢膜型命名"
+     },
+     {
+      "page": 1,
+      "term": "酚",
+      "pattern": "(?<![酚])酚(?![酞])",
+      "context": "mL劑量中含有23種細菌莢膜多醣體,每種莢膜多醣體各25μg,溶於含有0.25%酚作為保存劑之等張生理食鹽水中。表一PNEUMOVAX23內所含之23種肺炎鏈球菌"
+     },
+     {
+      "page": 3,
+      "term": "保存劑",
+      "pattern": "保存劑",
+      "context": "46°F)。本疫苗可直接使用不需稀釋或混合。本疫苗含有0.25%Phenol作為保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及不含保存劑"
+     },
+     {
+      "page": 3,
+      "term": "保存劑",
+      "pattern": "保存劑",
+      "context": "保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及不含保存劑、抗菌劑及清潔劑的針筒從藥瓶內抽取0.5mL。預充疫苗針筒其他在臨床試驗及上市後"
+     },
+     {
+      "page": 3,
+      "term": "Phenol",
+      "pattern": "phenol",
+      "context": " (36-46°F)。本疫苗可直接使用不需稀釋或混合。本疫⏎苗含有 0.25% Phenol 作為保存劑。過期後必須丟棄,不可再用。⏎⏎單一劑量或多劑量小瓶⏎必須使用滅菌後"
+     },
+     {
+      "page": 3,
+      "term": "Phenol",
+      "pattern": "phenol",
+      "context": "-8°C(36-46°F)。本疫苗可直接使用不需稀釋或混合。本疫苗含有0.25%Phenol作為保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及"
+     }
+    ],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S36": {
+  "product": "Adacel(安打星三合一補追疫苗)",
+  "source": "S36",
+  "pdf": "sources/仿單/Tdap疫苗_Adacel_TFDA_2021-05-25.pdf",
+  "pages": 2,
+  "cells": {
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 1,
+      "term": "phenoxyethanol",
+      "pattern": "phenoxyethanol",
+      "context": "luminium phosphate)(佐劑)⏎1.5 毫克⏎二苯氧基乙醇(2-phenoxyethanol)⏎0.6%(v/v)⏎製造過程殘留物⏎甲醛(formaldehyde)及戊二醛"
+     },
+     {
+      "page": 1,
+      "term": "phenoxyethanol",
+      "pattern": "phenoxyethanol",
+      "context": "酸鋁(aluminiumphosphate)(佐劑)1.5毫克二苯氧基乙醇(2-phenoxyethanol)0.6%(v/v)製造過程殘留物甲醛(formaldehyde)及戊二醛(gl"
+     }
+    ],
+    "dismissed": null
+   },
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 2,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": ".U.肌肉注射。5.必要時應以擴創術清理傷口,並使用metronidazole等抗生素。應確實了解病人是否已完成基礎預防接種。若病人曾完成破傷風的基礎預防接種且其傷口"
+     }
+    ],
+    "dismissed": "傷口處置「metronidazole 等抗生素」，非疫苗成分"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "tween",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S37": {
+  "product": "Boostrix",
+  "source": "S37",
+  "pdf": "sources/仿單/Tdap疫苗_Boostrix_TFDA_2020-09-29.pdf",
+  "pages": 2,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S38": {
+  "product": "Hexaxim(哈多星)",
+  "source": "S38",
+  "pdf": "sources/仿單/六合一_Hexaxim_TFDA_2021-12-01.pdf",
+  "pages": 13,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "tween",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S39": {
+  "product": "Infanrix hexa(嬰護寧)",
+  "source": "S39",
+  "pdf": "sources/仿單/六合一_Infanrix-hexa_TFDA_2021-07-01.pdf",
+  "pages": 14,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S41": {
+  "product": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
+  "source": "S41",
+  "pdf": "sources/仿單/日本腦炎疫苗_禦日腦活性減毒疫苗Imojev(賽諾菲)_TFDA_2023-09-19.pdf",
+  "pages": 12,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [
+     {
+      "page": 11,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "瓶中(第I類玻璃),每個玻璃小瓶都附有一個瓶塞(鹵化丁基(halo-butyl)橡膠)及鋁質套環、一支注射器(聚丙烯)及兩支針頭(不銹鋼)。每個包裝皆含有1瓶粉末、"
+     },
+     {
+      "page": 11,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "(第I類玻璃)內含4次劑量的粉末,附有一個瓶塞(鹵化丁基(halo-butyl)橡膠)及一個鋁質套環。每盒10支裝。每個玻璃小瓶(第I類玻璃)內含4次劑量的稀釋劑,"
+     },
+     {
+      "page": 11,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "第I類玻璃)內含4次劑量的稀釋劑,附有一個瓶塞(鹵化丁基(halo-butyl)橡膠)及一個鋁質套環。每盒10支裝。6.6丟棄及其他處理的注意事項凍晶疫苗應為呈現白"
+     }
+    ],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "tween",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S43": {
+  "product": "Fluarix Tetra 伏適流四價流感疫苗",
+  "source": "S43",
+  "pdf": "sources/仿單/流感疫苗_伏適流四價流感疫苗FluarixTetra(GSK)_TFDA_2022-09-02.pdf",
+  "pages": 11,
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S44": {
+  "product": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗",
+  "source": "S44",
+  "pdf": "sources/仿單/流感疫苗_安定伏裂解型四價流感疫苗AdimFlu-S(QIS)(國光生技)_TFDA_2021-09-07.pdf",
+  "pages": 2,
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S45": {
+  "product": "Vaxigrip Tetra 菲流達四價流感疫苗",
+  "source": "S45",
+  "pdf": "sources/仿單/流感疫苗_菲流達四價流感疫苗VaxigripTetra(賽諾菲)_TFDA_2022-05-26.pdf",
+  "pages": 11,
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "tween",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S46": {
+  "product": "Bexsero B 型腦膜炎雙球菌疫苗",
+  "source": "S46",
+  "pdf": "sources/仿單/腦膜炎雙球菌疫苗_Bexsero_TFDA_2021-06-01.pdf",
+  "pages": 20,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "tween",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S48": {
+  "product": "RotaTeq(輪達停)",
+  "source": "S48",
+  "pdf": "sources/仿單/輪狀病毒疫苗_RotaTeq_TFDA_2020-09-18.pdf",
+  "pages": 13,
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "hen\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 13,
+      "term": "hen",
+      "pattern": "hen\\b",
+      "context": "c code. J Infect Dis 1998;177:13-7.⏎3. Chen KT, Chen PY, Tang RB, Huang YF, Lee, PI"
+     },
+     {
+      "page": 13,
+      "term": "hen",
+      "pattern": "hen\\b",
+      "context": " Infect Dis 1998;177:13-7.⏎3. Chen KT, Chen PY, Tang RB, Huang YF, Lee, PI, Yang, J"
+     },
+     {
+      "page": 13,
+      "term": "hen",
+      "pattern": "hen\\b",
+      "context": " Tang RB, Huang YF, Lee, PI, Yang, JY, Chen HY, Bresee J, Hummelman E, and Glass R."
+     }
+    ],
+    "dismissed": "命中「hen」＝參考文獻作者姓 Chen"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ }
+}

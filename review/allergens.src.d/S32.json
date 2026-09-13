@@ -1,23 +1,82 @@
 {
-  "vaccine": "pcv", "product": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗", "source": "S32",
-  "components": [
-    {"page": 1, "label": "有效成分（莢膜多醣體＋鋁佐劑）", "quote": "每 0.5 mL 的沛兒肺炎鏈球菌十三價結合型疫苗中，含有： 血清型 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F 與 23F 之肺炎鏈球菌的莢膜多醣體 各 2.2μg 血清型 6B 的肺炎鏈球菌莢膜多醣體 4.4μg 這些莢膜多醣體均與白喉 CRM 197 蛋白質載體接合，吸附於磷酸鋁上。"},
-    {"page": 1, "label": "賦形劑", "quote": "Sodium Chloride Succinic Acid Polysorbate 80 Water for Injection"},
-    {"page": 35, "label": "包裝（不含乳膠）", "quote": "每支注射劑含有 0.5 mL 懸浮注射液，預先充填於附有注射推管（不含乳膠成分 的氯丁基橡膠）的注射針筒（Type I glass）內。"}
-  ],
-  "allergens": [
-    {"key": "egg", "status": "未載明"},
-    {"key": "gelatin", "status": "未載明"},
-    {"key": "neomycin", "status": "未載明"},
-    {"key": "other_antibiotics", "status": "未載明"},
-    {"key": "yeast", "status": "未載明"},
-    {"key": "latex", "status": "無", "page": 35, "quote": "每支注射劑含有 0.5 mL 懸浮注射液，預先充填於附有注射推管（不含乳膠成分 的氯丁基橡膠）的注射針筒（Type I glass）內。"},
-    {"key": "peg_polysorbate", "status": "有", "page": 1, "quote": "Sodium Chloride Succinic Acid Polysorbate 80 Water for Injection"},
-    {"key": "formaldehyde", "status": "未載明"},
-    {"key": "thimerosal", "status": "未載明"},
-    {"key": "aluminium", "status": "有", "page": 1, "quote": "這些莢膜多醣體均與白喉 CRM 197 蛋白質載體接合，吸附於磷酸鋁上。"}
-  ],
-  "warnings": [
-    {"label": "禁忌", "page": 5, "quote": "對此疫苗任一成分或賦形劑過敏或對白喉類毒素過敏的人，均禁止使用沛兒肺炎 鏈球菌十三價結合型疫苗。(賦形劑成分參見第 1.2 節)"}
-  ]
+ "vaccine": "pcv",
+ "product": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗",
+ "source": "S32",
+ "components": [
+  {
+   "page": 1,
+   "label": "有效成分（莢膜多醣體＋鋁佐劑）",
+   "quote": "每 0.5 mL 的沛兒肺炎鏈球菌十三價結合型疫苗中，含有： 血清型 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F 與 23F 之肺炎鏈球菌的莢膜多醣體 各 2.2μg 血清型 6B 的肺炎鏈球菌莢膜多醣體 4.4μg 這些莢膜多醣體均與白喉 CRM 197 蛋白質載體接合，吸附於磷酸鋁上。"
+  },
+  {
+   "page": 1,
+   "label": "賦形劑",
+   "quote": "Sodium Chloride Succinic Acid Polysorbate 80 Water for Injection"
+  },
+  {
+   "page": 35,
+   "label": "包裝（不含乳膠）",
+   "quote": "每支注射劑含有 0.5 mL 懸浮注射液，預先充填於附有注射推管（不含乳膠成分 的氯丁基橡膠）的注射針筒（Type I glass）內。"
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 35,
+   "quote": "每支注射劑含有 0.5 mL 懸浮注射液，預先充填於附有注射推管（不含乳膠成分 的氯丁基橡膠）的注射針筒（Type I glass）內。"
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "有",
+   "page": 1,
+   "quote": "Sodium Chloride Succinic Acid Polysorbate 80 Water for Injection"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "未載明"
+  },
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 1,
+   "quote": "這些莢膜多醣體均與白喉 CRM 197 蛋白質載體接合，吸附於磷酸鋁上。"
+  }
+ ],
+ "warnings": [
+  {
+   "label": "禁忌",
+   "page": 5,
+   "quote": "對此疫苗任一成分或賦形劑過敏或對白喉類毒素過敏的人，均禁止使用沛兒肺炎 鏈球菌十三價結合型疫苗。(賦形劑成分參見第 1.2 節)"
+  }
+ ],
+ "sweep": {
+  "dismissed": {
+   "other_antibiotics": "「抗生素」出現在肺炎鏈球菌抗藥性／血清型討論，非成分"
+  }
+ }
 }

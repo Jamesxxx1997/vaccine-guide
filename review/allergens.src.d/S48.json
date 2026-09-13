@@ -3,24 +3,85 @@
  "product": "RotaTeq(輪達停)",
  "source": "S48",
  "components": [
-  {"page": 1, "label": "成分（安定劑溶液，1/2）", "quote": "這些基因重組株成分係懸浮於經過緩衝的安定劑溶液中。每劑疫苗均含有蔗糖、檸檬酸鈉、單水合磷酸二氫鈉、氫氧化鈉、"},
-  {"page": 1, "label": "成分（安定劑溶液，2/2）", "quote": "聚山梨醇酯80、細胞培養基以及微量的牛胚胎血清。本疫苗不含任何防腐劑或thimerosal。"},
-  {"page": 1, "label": "細胞培養基質", "quote": "這些基因重組株是在未添加抗黴菌劑的情況下，利用標準細胞培養技術，於Vero細胞中繁殖而得。"}
+  {
+   "page": 1,
+   "label": "成分（安定劑溶液，1/2）",
+   "quote": "這些基因重組株成分係懸浮於經過緩衝的安定劑溶液中。每劑疫苗均含有蔗糖、檸檬酸鈉、單水合磷酸二氫鈉、氫氧化鈉、"
+  },
+  {
+   "page": 1,
+   "label": "成分（安定劑溶液，2/2）",
+   "quote": "聚山梨醇酯80、細胞培養基以及微量的牛胚胎血清。本疫苗不含任何防腐劑或thimerosal。"
+  },
+  {
+   "page": 1,
+   "label": "細胞培養基質",
+   "quote": "這些基因重組株是在未添加抗黴菌劑的情況下，利用標準細胞培養技術，於Vero細胞中繁殖而得。"
+  }
  ],
  "allergens": [
-  {"key": "egg", "status": "未載明"},
-  {"key": "gelatin", "status": "未載明"},
-  {"key": "neomycin", "status": "未載明"},
-  {"key": "other_antibiotics", "status": "未載明"},
-  {"key": "yeast", "status": "未載明"},
-  {"key": "latex", "status": "無", "page": 12, "quote": "每劑疫苗都以一個不含乳膠成分(latex)之塑膠製的可擠壓投藥軟管供應，該軟管頂端並附有一個可轉下的帽蓋，可直接口"},
-  {"key": "peg_polysorbate", "status": "有", "page": 1, "quote": "聚山梨醇酯80、細胞培養基以及微量的牛胚胎血清。"},
-  {"key": "formaldehyde", "status": "未載明"},
-  {"key": "thimerosal", "status": "無", "page": 1, "quote": "本疫苗不含任何防腐劑或thimerosal。"},
-  {"key": "aluminium", "status": "未載明"}
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 12,
+   "quote": "每劑疫苗都以一個不含乳膠成分(latex)之塑膠製的可擠壓投藥軟管供應，該軟管頂端並附有一個可轉下的帽蓋，可直接口"
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "有",
+   "page": 1,
+   "quote": "聚山梨醇酯80、細胞培養基以及微量的牛胚胎血清。"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "無",
+   "page": 1,
+   "quote": "本疫苗不含任何防腐劑或thimerosal。"
+  },
+  {
+   "key": "aluminium",
+   "status": "未載明"
+  }
  ],
  "warnings": [
-  {"label": "過敏禁忌", "page": 8, "quote": "已知對此疫苗之任何成分有過敏病史者。"},
-  {"label": "接種後過敏不應再接種", "page": 8, "quote": "於接種一劑RotaTeq後出現過敏症狀的嬰兒，不應再接種RotaTeq。"}
- ]
+  {
+   "label": "過敏禁忌",
+   "page": 8,
+   "quote": "已知對此疫苗之任何成分有過敏病史者。"
+  },
+  {
+   "label": "接種後過敏不應再接種",
+   "page": 8,
+   "quote": "於接種一劑RotaTeq後出現過敏症狀的嬰兒，不應再接種RotaTeq。"
+  }
+ ],
+ "sweep": {
+  "dismissed": {
+   "egg": "命中「hen」＝參考文獻作者姓 Chen"
+  }
+ }
 }

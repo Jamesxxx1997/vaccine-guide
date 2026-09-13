@@ -130,6 +130,19 @@
     }
    ]
   },
+  "al:S20:latex:related": {
+   "items": [
+    {
+     "source": "S20",
+     "page": 15,
+     "glyphRows": true,
+     "quotes": [
+      "1劑粉末，盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。"
+     ],
+     "label": "Shingrix 欣剋疹帶狀疱疹疫苗 · 乳膠（針筒／瓶塞）：未載明（相關原句）"
+    }
+   ]
+  },
   "al:S20:peg_polysorbate": {
    "items": [
     {
@@ -140,6 +153,19 @@
       "Polysorbate 80"
      ],
      "label": "Shingrix 欣剋疹帶狀疱疹疫苗 · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S20:aluminium:related": {
+   "items": [
+    {
+     "source": "S20",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "帶狀疱疹疫苗(非活性基因重組疫苗，使用AS01B佐劑)。"
+     ],
+     "label": "Shingrix 欣剋疹帶狀疱疹疫苗 · 鋁佐劑：未載明（相關原句）"
     }
    ]
   },
@@ -211,6 +237,19 @@
       "mcg 的去氧核糖核酸 (DNA)，小於 10 -4 mcg 之牛血清白蛋白，和小於 0.8 mcg 的甲醛。其他化學殘餘物(含"
      ],
      "label": "VAQTA 唯德不活化A型肝炎疫苗 · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S27:thimerosal": {
+   "items": [
+    {
+     "source": "S27",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "高度純化且不含防腐劑之 A 型肝"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 硫柳汞：無"
     }
    ]
   },
@@ -559,6 +598,19 @@
       "吸附於二水氫氧化鋁（Aluminium hydroxide, dihydrate） 0.3 mg Al"
      ],
      "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S29:thimerosal:related": {
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "Hanks medium (without phenol red), formaldehyde, phenoxyethanol,"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 硫柳汞：未載明（相關原句）"
     }
    ]
   },
@@ -1014,6 +1066,19 @@
     }
    ]
   },
+  "al:S33:thimerosal:related": {
+   "items": [
+    {
+     "source": "S33",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "0.25%酚作為保存劑之等張生理食鹽水中。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 硫柳汞：未載明（相關原句）"
+    }
+   ]
+  },
   "al:S33:warn:0": {
    "items": [
     {
@@ -1115,6 +1180,19 @@
       "ADACEL®容器密封物不含膠乳(latex)（天然橡膠）。"
      ],
      "label": "Adacel(安打星三合一補追疫苗) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S36:thimerosal:related": {
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "二苯氧基乙醇(2-phenoxyethanol)"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 硫柳汞：未載明（相關原句）"
     }
    ]
   },
@@ -1866,6 +1944,19 @@
       "注射用水(Water for injections)"
      ],
      "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 賦形劑（稀釋劑）"
+    }
+   ]
+  },
+  "al:S41:latex:related": {
+   "items": [
+    {
+     "source": "S41",
+     "page": 11,
+     "glyphRows": true,
+     "quotes": [
+      "瓶塞（鹵化丁基 (halo-butyl) 橡膠）及鋁質套環、一支注射器（聚丙烯）及兩支針頭（不銹鋼）。"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 乳膠（針筒／瓶塞）：未載明（相關原句）"
     }
    ]
   },

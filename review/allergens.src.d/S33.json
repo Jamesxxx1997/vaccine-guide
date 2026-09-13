@@ -1,22 +1,76 @@
 {
-  "vaccine": "ppv23", "product": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗）", "source": "S33",
-  "components": [
-    {"page": 1, "label": "成分（莢膜多醣體＋酚保存劑）", "quote": "PNEUMOVAX 23 的製造方法是根據美國默克藥廠研發出的方法。每 0.5 mL 劑量中含有 23 種細菌莢膜多醣體，每種莢膜多醣體各 25 µg，溶於含有 0.25%酚作為保存劑之等張生理食鹽水中。"}
-  ],
-  "allergens": [
-    {"key": "egg", "status": "未載明"},
-    {"key": "gelatin", "status": "未載明"},
-    {"key": "neomycin", "status": "未載明"},
-    {"key": "other_antibiotics", "status": "未載明"},
-    {"key": "yeast", "status": "未載明"},
-    {"key": "latex", "status": "未載明"},
-    {"key": "peg_polysorbate", "status": "未載明"},
-    {"key": "formaldehyde", "status": "未載明"},
-    {"key": "thimerosal", "status": "未載明"},
-    {"key": "aluminium", "status": "未載明"}
-  ],
-  "warnings": [
-    {"label": "禁忌", "page": 2, "quote": "不可用於對本疫苗內任何成份過敏者。若對疫苗內的任何成份發生急性過 敏反應時，應馬上進行緊急處置。"},
-    {"label": "酚類保存劑", "page": 1, "quote": "溶於含有 0.25%酚作為保存劑之等張生理食鹽水中。"}
-  ]
+ "vaccine": "ppv23",
+ "product": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗）",
+ "source": "S33",
+ "components": [
+  {
+   "page": 1,
+   "label": "成分（莢膜多醣體＋酚保存劑）",
+   "quote": "PNEUMOVAX 23 的製造方法是根據美國默克藥廠研發出的方法。每 0.5 mL 劑量中含有 23 種細菌莢膜多醣體，每種莢膜多醣體各 25 µg，溶於含有 0.25%酚作為保存劑之等張生理食鹽水中。"
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "未載明"
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "未載明"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "未載明",
+   "related": {
+    "page": 1,
+    "quote": "0.25%酚作為保存劑之等張生理食鹽水中。",
+    "note": "保存劑為酚（phenol）0.25%；未提硫柳汞"
+   }
+  },
+  {
+   "key": "aluminium",
+   "status": "未載明"
+  }
+ ],
+ "warnings": [
+  {
+   "label": "禁忌",
+   "page": 2,
+   "quote": "不可用於對本疫苗內任何成份過敏者。若對疫苗內的任何成份發生急性過 敏反應時，應馬上進行緊急處置。"
+  },
+  {
+   "label": "酚類保存劑",
+   "page": 1,
+   "quote": "溶於含有 0.25%酚作為保存劑之等張生理食鹽水中。"
+  }
+ ],
+ "sweep": {
+  "dismissed": {
+   "other_antibiotics": "「抗生素／erythromycin／抗菌劑」皆為抗藥性、預防性治療與針筒說明語境，非成分"
+  }
+ }
 }

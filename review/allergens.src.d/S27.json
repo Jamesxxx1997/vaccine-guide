@@ -1,86 +1,89 @@
 {
-  "vaccine": "hepa",
-  "product": "VAQTA 唯德不活化A型肝炎疫苗",
-  "source": "S27",
-  "components": [
-    {
-      "page": 1,
-      "label": "成分",
-      "region": [
-        0,
-        216,
-        570,
-        386
-      ],
-      "quote": "VAQTA®(不活化A型肝炎疫苗)是一種由培養在人類MRC-5雙倍體纖維母細胞內之Ａ型肝炎病毒(hepatitisAvirus;HAV)衍生而得的高度純化不活化全病毒疫苗。本品含有一種不活化病毒，是由業經證實的一減毒病毒株經一系列進一步的繼代(serialpassage)後衍生而得。此病毒經成長，採集並由MERCK研究實驗室運用物理及高效液相層析儀(HPLC)技術高度純化之後再經formalin將其不活化再吸附於非晶型之羥基磷酸鋁硫酸鹽(amorphousaluminumhydroxyphosphatesulfate)而成。1mL之疫苗含有約50單位(units;U)高度純化且不含防腐劑之A型肝炎病毒抗原。在目前分析方法所能測量之範圍，50U的VAQTA含有小於0.1mcg之非病毒蛋白質，小於4x10-6mcg的去氧核糖核酸(DNA)，小於10-4mcg之牛血清白蛋白，和小於0.8mcg的甲醛。其他化學殘餘物(含neomycin)小於10ppb。"
-    }
-  ],
-  "allergens": [
-    {
-      "key": "egg",
-      "status": "未載明"
-    },
-    {
-      "key": "gelatin",
-      "status": "未載明"
-    },
-    {
-      "key": "neomycin",
-      "status": "有",
-      "page": 1,
-      "quote": "neomycin)小於 10 ppb。"
-    },
-    {
-      "key": "other_antibiotics",
-      "status": "未載明"
-    },
-    {
-      "key": "yeast",
-      "status": "未載明"
-    },
-    {
-      "key": "latex",
-      "status": "有",
-      "page": 8,
-      "quote": "疫苗小瓶之瓶塞、注射針筒之栓塞以及針頭蓋含有乾燥天然乳膠樹脂，可能造成過敏反應，對乳膠敏感的患者"
-    },
-    {
-      "key": "peg_polysorbate",
-      "status": "未載明"
-    },
-    {
-      "key": "formaldehyde",
-      "status": "有",
-      "page": 1,
-      "quote": "mcg 的去氧核糖核酸 (DNA)，小於 10 -4 mcg 之牛血清白蛋白，和小於 0.8 mcg 的甲醛。其他化學殘餘物(含"
-    },
-    {
-      "key": "thimerosal",
-      "status": "未載明"
-    },
-    {
-      "key": "aluminium",
-      "status": "有",
-      "page": 1,
-      "quote": "aluminum hydroxyphosphate sulfate)而成。1 mL 之疫苗含有約 50 單位 (units; U) 高度純化且不含防腐劑之 A 型肝"
-    }
-  ],
-  "warnings": [
-    {
-      "label": "禁忌",
-      "page": 7,
-      "region": [
-        0,
-        715,
-        570,
-        758
-      ],
-      "quote": "對本產品任何成份有過敏反應者禁用本疫苗(請參考說明)。先前曾對A型肝炎疫苗或任一疫苗成分產生嚴重反應者不可使用A型肝炎疫苗。"
-    },
-    {
-      "label": "乳膠警語",
-      "page": 8,
-      "quote": "疫苗小瓶之瓶塞、注射針筒之栓塞以及針頭蓋含有乾燥天然乳膠樹脂，可能造成過敏反應，對乳膠敏感的患者"
-    }
-  ]
+ "vaccine": "hepa",
+ "product": "VAQTA 唯德不活化A型肝炎疫苗",
+ "source": "S27",
+ "components": [
+  {
+   "page": 1,
+   "label": "成分",
+   "region": [
+    0,
+    216,
+    570,
+    386
+   ],
+   "quote": "VAQTA®(不活化A型肝炎疫苗)是一種由培養在人類MRC-5雙倍體纖維母細胞內之Ａ型肝炎病毒(hepatitisAvirus;HAV)衍生而得的高度純化不活化全病毒疫苗。本品含有一種不活化病毒，是由業經證實的一減毒病毒株經一系列進一步的繼代(serialpassage)後衍生而得。此病毒經成長，採集並由MERCK研究實驗室運用物理及高效液相層析儀(HPLC)技術高度純化之後再經formalin將其不活化再吸附於非晶型之羥基磷酸鋁硫酸鹽(amorphousaluminumhydroxyphosphatesulfate)而成。1mL之疫苗含有約50單位(units;U)高度純化且不含防腐劑之A型肝炎病毒抗原。在目前分析方法所能測量之範圍，50U的VAQTA含有小於0.1mcg之非病毒蛋白質，小於4x10-6mcg的去氧核糖核酸(DNA)，小於10-4mcg之牛血清白蛋白，和小於0.8mcg的甲醛。其他化學殘餘物(含neomycin)小於10ppb。"
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "有",
+   "page": 1,
+   "quote": "neomycin)小於 10 ppb。"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "有",
+   "page": 8,
+   "quote": "疫苗小瓶之瓶塞、注射針筒之栓塞以及針頭蓋含有乾燥天然乳膠樹脂，可能造成過敏反應，對乳膠敏感的患者"
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "未載明"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "有",
+   "page": 1,
+   "quote": "mcg 的去氧核糖核酸 (DNA)，小於 10 -4 mcg 之牛血清白蛋白，和小於 0.8 mcg 的甲醛。其他化學殘餘物(含"
+  },
+  {
+   "key": "thimerosal",
+   "status": "無",
+   "page": 1,
+   "quote": "高度純化且不含防腐劑之 A 型肝",
+   "note": "原句只說「不含防腐劑」，未點名硫柳汞"
+  },
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 1,
+   "quote": "aluminum hydroxyphosphate sulfate)而成。1 mL 之疫苗含有約 50 單位 (units; U) 高度純化且不含防腐劑之 A 型肝"
+  }
+ ],
+ "warnings": [
+  {
+   "label": "禁忌",
+   "page": 7,
+   "region": [
+    0,
+    715,
+    570,
+    758
+   ],
+   "quote": "對本產品任何成份有過敏反應者禁用本疫苗(請參考說明)。先前曾對A型肝炎疫苗或任一疫苗成分產生嚴重反應者不可使用A型肝炎疫苗。"
+  },
+  {
+   "label": "乳膠警語",
+   "page": 8,
+   "quote": "疫苗小瓶之瓶塞、注射針筒之栓塞以及針頭蓋含有乾燥天然乳膠樹脂，可能造成過敏反應，對乳膠敏感的患者"
+  }
+ ]
 }

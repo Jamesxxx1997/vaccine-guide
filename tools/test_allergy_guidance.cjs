@@ -26,12 +26,14 @@ for(const [id,c] of Object.entries(claims)){
 const q=root.querySelector('.allergy-rule[data-allergy-rule="egg-mmr"] q');q.dispatchEvent(new win.MouseEvent('click',{bubbles:true,cancelable:true}));
 // 仿單成分資料（若已產生）
 const data=win.eval('typeof ALLERGENS!=="undefined"?ALLERGENS:null');
-let cells=0;
+let cells=0,related=0;
 if(data&&data.products.length){
   const table=doc.getElementById('allergenMatrix');assert(table,'matrix rendered');
   for(const td of table.querySelectorAll('tbody td')){
     if(td.classList.contains('allergy-yes')||td.classList.contains('allergy-no')){assert(td.classList.contains('ref-target'),'有／無 cell bound');cells++;}
-    else if(td.classList.contains('allergy-na'))assert(!td.classList.contains('ref-target'),'未載明 cell not bound');
+    else if(td.classList.contains('allergy-na')){assert(!td.classList.contains('ref-target'),'未載明 cell itself not bound');
+      const rel=td.querySelector('q.allergy-related');if(rel){assert(rel.classList.contains('ref-target'),'related quote bound');const found=Object.values(claims).some(c=>c.items.some(it=>it.page&&it.rects&&it.rects.length&&it.quotes.includes(rel.textContent)));assert(found,'related quote is glyph-anchored: '+rel.textContent.slice(0,30));related++;}
+      else assert(td.querySelector('.allergy-swept'),'未載明 cell carries a sweep record');}
   }
   const p0=data.products[0];const res=win.AllergyGuidance.evaluate('product:'+p0.id,p0.id);
   assert(res.querySelector('.allergy-rule[data-allergy-rule="same"]'),'same-vaccine verdict shown');
@@ -41,5 +43,5 @@ if(data&&data.products.length){
 setTimeout(()=>{
   const panel=doc.getElementById('reference-panel');
   assert(panel.querySelectorAll('.ref-highlight').length>0,'clicking a guideline quote shows glyph highlights');
-  console.log(`PASS allergy guidance: ${rules.length} rules, ${marks} claim marks, ${quotes} anchored quotes; ${data?data.products.length:0} labelled products, ${cells} bound allergen cells.`);
+  console.log(`PASS allergy guidance: ${rules.length} rules, ${marks} claim marks, ${quotes} anchored quotes; ${data?data.products.length:0} labelled products, ${cells} bound allergen cells, ${related} related-sentence cells; every 未載明 cell swept.`);
 },300);

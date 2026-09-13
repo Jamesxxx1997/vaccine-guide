@@ -3,28 +3,103 @@
  "product": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
  "source": "S41",
  "components": [
-  {"page": 10, "label": "賦形劑（粉末）", "quote": "甘露醇(Mannitol)"},
-  {"page": 10, "label": "賦形劑（粉末）", "quote": "單水乳糖(Lactose monhydrate)"},
-  {"page": 10, "label": "賦形劑（粉末）", "quote": "麩胺酸 (Glutamic acid)"},
-  {"page": 10, "label": "賦形劑（粉末）", "quote": "氫氧化鉀(Potassium hydroxide)"},
-  {"page": 10, "label": "賦形劑（粉末）", "quote": "組胺酸(Histidine)"},
-  {"page": 10, "label": "賦形劑（粉末）", "quote": "人類血清白蛋白(Human Serum Albumin)"},
-  {"page": 10, "label": "賦形劑（稀釋劑）", "quote": "氯化鈉(Sodium chloride)"},
-  {"page": 10, "label": "賦形劑（稀釋劑）", "quote": "注射用水(Water for injections)"}
+  {
+   "page": 10,
+   "label": "賦形劑（粉末）",
+   "quote": "甘露醇(Mannitol)"
+  },
+  {
+   "page": 10,
+   "label": "賦形劑（粉末）",
+   "quote": "單水乳糖(Lactose monhydrate)"
+  },
+  {
+   "page": 10,
+   "label": "賦形劑（粉末）",
+   "quote": "麩胺酸 (Glutamic acid)"
+  },
+  {
+   "page": 10,
+   "label": "賦形劑（粉末）",
+   "quote": "氫氧化鉀(Potassium hydroxide)"
+  },
+  {
+   "page": 10,
+   "label": "賦形劑（粉末）",
+   "quote": "組胺酸(Histidine)"
+  },
+  {
+   "page": 10,
+   "label": "賦形劑（粉末）",
+   "quote": "人類血清白蛋白(Human Serum Albumin)"
+  },
+  {
+   "page": 10,
+   "label": "賦形劑（稀釋劑）",
+   "quote": "氯化鈉(Sodium chloride)"
+  },
+  {
+   "page": 10,
+   "label": "賦形劑（稀釋劑）",
+   "quote": "注射用水(Water for injections)"
+  }
  ],
  "allergens": [
-  {"key": "egg", "status": "未載明"},
-  {"key": "gelatin", "status": "未載明"},
-  {"key": "neomycin", "status": "未載明"},
-  {"key": "other_antibiotics", "status": "未載明"},
-  {"key": "yeast", "status": "未載明"},
-  {"key": "latex", "status": "未載明"},
-  {"key": "peg_polysorbate", "status": "未載明"},
-  {"key": "formaldehyde", "status": "未載明"},
-  {"key": "thimerosal", "status": "無", "page": 10, "quote": "無添加佐劑或抗菌防腐劑"},
-  {"key": "aluminium", "status": "無", "page": 10, "quote": "無添加佐劑或抗菌防腐劑"}
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "未載明",
+   "related": {
+    "page": 11,
+    "quote": "瓶塞（鹵化丁基 (halo-butyl) 橡膠）及鋁質套環、一支注射器（聚丙烯）及兩支針頭（不銹鋼）。",
+    "note": "瓶塞為鹵化丁基橡膠（合成橡膠），仿單未提天然乳膠"
+   }
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "未載明"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "無",
+   "page": 10,
+   "quote": "無添加佐劑或抗菌防腐劑"
+  },
+  {
+   "key": "aluminium",
+   "status": "無",
+   "page": 10,
+   "quote": "無添加佐劑或抗菌防腐劑"
+  }
  ],
  "warnings": [
-  {"label": "過敏禁忌", "page": 2, "quote": "對疫苗之任何成分曾有嚴重過敏反應，或之前接種本疫苗或接種與本疫苗含有相同成分或組成\n的疫苗後曾出現嚴重過敏反應者或有嚴重過敏病史，不應接種 IMOJEV® 。"}
+  {
+   "label": "過敏禁忌",
+   "page": 2,
+   "quote": "對疫苗之任何成分曾有嚴重過敏反應，或之前接種本疫苗或接種與本疫苗含有相同成分或組成\n的疫苗後曾出現嚴重過敏反應者或有嚴重過敏病史，不應接種 IMOJEV® 。"
+  }
  ]
 }

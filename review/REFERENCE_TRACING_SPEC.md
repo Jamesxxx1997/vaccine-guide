@@ -46,5 +46,7 @@ build_excerpts／verify_excerpts 都會跳過帶 `claim` 的規則；`test_refer
 ## 紀錄
 - 2026-09-05：legacy 摘錄層＋三輪對抗審查（見 README「驗證紀錄」）。
 - 2026-09-09：Codex 建 reference-claims 系統（Shingrix S20）。
+- 2026-09-13（續）：「未載明」規則——每個未載明格子必須經 `tools/sweep_allergens.py` 用寬同義詞（中英文、化學名、商品名）掃整份 PDF：0 命中才算仿單沒寫；
+  命中要判讀成 related（相關原句：瓶塞材質、保存劑、佐劑種類，一樣做 claim 可點開）或在分片 sweep.dismissed 記假陽性理由；產生器拒絕沒掃過或沒判讀的未載明。
 - 2026-09-13：副作用（%＋定性）與過敏與成分批次；17 份仿單分片（S27–S48）＋S20；產生器 build_adverse_effects／build_allergens；三組 fresh-context verifier 分區驗證；commit 3069407。
 - 2026-09-12：感染後接種間隔批次；S21–S25；verifier R1 PASS（措辭修正）→ 使用者否決轉錄式 reference → 網頁列印 PDF 路線 → verifier R2 PASS 7/7 → merge 80c3a27 並部署。

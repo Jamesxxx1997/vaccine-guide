@@ -73,6 +73,15 @@
    "status": "有",
    "page": 1,
    "quote": "吸附於二水氫氧化鋁（Aluminium hydroxide, dihydrate） 0.3 mg Al"
+  },
+  {
+   "key": "thimerosal",
+   "status": "未載明",
+   "related": {
+    "page": 2,
+    "quote": "Hanks medium (without phenol red), formaldehyde, phenoxyethanol,",
+    "note": "賦形劑列 phenoxyethanol（苯氧基乙醇，保存劑）；未列硫柳汞"
+   }
   }
  ],
  "warnings": [

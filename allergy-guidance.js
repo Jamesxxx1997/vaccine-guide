@@ -119,12 +119,16 @@
     const wrap=node('div',undefined,'scroller'),table=node('table');table.id='allergenMatrix';const thead=node('thead'),hr=node('tr');hr.append(node('th','產品'));for(const k of keys)hr.append(node('th',k.label));thead.append(hr);table.append(thead);
     const tbody=node('tbody');
     for(const p of products){const tr=node('tr');tr.dataset.allergyProduct=p.id;tr.append(node('td',p.product));
-      for(const k of keys){const a=productAllergen(p,k.key);const td=node('td',a?a.status:'未載明','allergy-'+(a?.status==='有'?'yes':a?.status==='無'?'no':'na'));if(a?.claim)bind(td,a.claim,a.text);
+      for(const k of keys){const a=productAllergen(p,k.key);const td=node('td',a?a.status:'未載明','allergy-'+(a?.status==='有'?'yes':a?.status==='無'?'no':'na'));
+        if(a?.claim&&!a.related)bind(td,a.claim,a.text);
         // 分片的 note＝仿單同句的但書（例：Bexsero 針筒未檢出乳膠，但用於乳膠敏感者安全性未確立）；「無」不能單獨顯示
         if(a?.note&&a.status!=='未載明'){td.append(node('small','※ '+a.note,'allergy-note'));td.title=a.note;}
+        // 未載明：有相關原句（瓶塞材質／保存劑／佐劑種類）就以 claim 顯示，可點開原件；否則標示全文掃描結果
+        if(a?.status==='未載明'&&a.related){const q=node('q',a.text,'adverse-quote allergy-related');bind(q,a.claim,a.text);const sm=node('small',(a.note?'※ '+a.note+' ':'')+'相關原句：','allergy-note');sm.append(q);td.append(sm);}
+        else if(a?.status==='未載明'&&a.sweep){td.title=`全文掃描 ${a.sweep.patterns} 個同義詞：${a.sweep.hits} 命中${a.sweep.dismissed?'（判為假陽性：'+a.sweep.dismissed+'）':''}（${a.sweep.date}）`;td.append(node('small',a.sweep.hits?'已掃・命中為假陽性':'已掃・0 命中','allergy-note allergy-swept'));}
         tr.append(td);}
       tbody.append(tr);}
-    table.append(tbody);wrap.append(table);matrix.append(wrap,node('p','「未載明」＝仿單成分／警語段沒有寫，不代表不含。','sub'));
+    table.append(tbody);wrap.append(table);matrix.append(wrap,node('p','「未載明」＝仿單全文用同義詞掃過（中英文、化學名、商品名）沒有提到，不代表不含；格子上「已掃」滑鼠停留可看掃描紀錄，「相關原句」是仿單提到瓶塞材質／保存劑／佐劑種類的句子，點了開原件。','sub'));
   } else matrix.append(node('p','尚無仿單成分資料。','sub'));
   root.append(matrix);
 
