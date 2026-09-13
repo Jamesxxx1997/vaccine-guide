@@ -35,7 +35,7 @@ build_excerpts／verify_excerpts 都會跳過帶 `claim` 的規則；`test_refer
 1. `uv run --python 3.12 --with 'pdfplumber>=0.11,<0.12' --with 'Pillow>=10,<13' python tools/build_reference_pages.py`（定位失敗即停）
 2. `node tools/export_rules.mjs > /tmp/rules.json && uv run … python tools/build_excerpts.py /tmp/rules.json && uv run … python tools/verify_excerpts.py`（exit 0）
 3. `uv run … python -m unittest discover -s tools -p 'test_*.py'`；`npm test`（含 coverage、reference_ui、postinfection_quotes）
-4. 目視：從 `review/reference-pages.js` 取 rects 畫回 `review/pages/*.jpg` 裁圖，眼睛確認框正中原句
+4. 目視：`tools/crop_claims.py --out DIR --source Sxx [--prefix ae:] [--sample N] [--ids …]`（rects 畫回 `review/pages/*.jpg` 的紅框裁圖），眼睛確認框正中原句、沒框到鄰欄數字
 5. fresh-context verifier（做的人不自驗）：獨立抽字比對、curl 重抓線上頁面核對引句與更新日期、shasum 三方一致、重畫裁圖、讀工具碼確認無 DOM 改寫、破壞測試（改壞引句→建置必須失敗）、實跑全部測試
 6. 使用者 `python3 tools/serve.py 8899` 本機看（不用 file://）；點頭才 merge main／push（Pages 從 main 部署；工作流程紅燈可能是旅遊同步失敗的設計提醒，看 log 尾段）
 - 「查無」結論附查證範圍清冊，措辭「本站對照查無」，不寫成官方明文。
@@ -46,4 +46,5 @@ build_excerpts／verify_excerpts 都會跳過帶 `claim` 的規則；`test_refer
 ## 紀錄
 - 2026-09-05：legacy 摘錄層＋三輪對抗審查（見 README「驗證紀錄」）。
 - 2026-09-09：Codex 建 reference-claims 系統（Shingrix S20）。
+- 2026-09-13：副作用（%＋定性）與過敏與成分批次；17 份仿單分片（S27–S48）＋S20；產生器 build_adverse_effects／build_allergens；三組 fresh-context verifier 分區驗證；commit 3069407。
 - 2026-09-12：感染後接種間隔批次；S21–S25；verifier R1 PASS（措辭修正）→ 使用者否決轉錄式 reference → 網頁列印 PDF 路線 → verifier R2 PASS 7/7 → merge 80c3a27 並部署。

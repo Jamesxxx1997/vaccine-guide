@@ -90,6 +90,7 @@
     if(!st||st.status==='未載明'){out.append(node('p',`${bProd.product} 的仿單未載明「${keys.find(x=>x.key===key)?.label||key}」；無法據仿單判定，請查成分段與原件。`));}
     else if(st.status==='無'){const p=node('p');p.append(node('span','仿單載明不含','allergy-verdict ok'),' ',bind(node('q',st.text,'adverse-quote'),st.claim,st.text));out.append(p);}
     else {const p=node('p');p.append(node('span','仿單載明含有','allergy-verdict warn'),' ',bind(node('q',st.text,'adverse-quote'),st.claim,st.text));out.append(p);}
+    if(st.note)out.append(node('p','※ '+st.note,'sub allergy-note'));   // 仿單同句的但書一起顯示
     let rid=KEY_RULE[key];
     if(key==='egg')rid=bProd.vaccine==='flu'?'egg-flu':bProd.vaccine==='mmr'?'egg-mmr':null;
     if(rid)out.append(ruleCard(ruleById(rid)));
@@ -118,7 +119,10 @@
     const wrap=node('div',undefined,'scroller'),table=node('table');table.id='allergenMatrix';const thead=node('thead'),hr=node('tr');hr.append(node('th','產品'));for(const k of keys)hr.append(node('th',k.label));thead.append(hr);table.append(thead);
     const tbody=node('tbody');
     for(const p of products){const tr=node('tr');tr.dataset.allergyProduct=p.id;tr.append(node('td',p.product));
-      for(const k of keys){const a=productAllergen(p,k.key);const td=node('td',a?a.status:'未載明','allergy-'+(a?.status==='有'?'yes':a?.status==='無'?'no':'na'));if(a?.claim)bind(td,a.claim,a.text);tr.append(td);}
+      for(const k of keys){const a=productAllergen(p,k.key);const td=node('td',a?a.status:'未載明','allergy-'+(a?.status==='有'?'yes':a?.status==='無'?'no':'na'));if(a?.claim)bind(td,a.claim,a.text);
+        // 分片的 note＝仿單同句的但書（例：Bexsero 針筒未檢出乳膠，但用於乳膠敏感者安全性未確立）；「無」不能單獨顯示
+        if(a?.note&&a.status!=='未載明'){td.append(node('small','※ '+a.note,'allergy-note'));td.title=a.note;}
+        tr.append(td);}
       tbody.append(tr);}
     table.append(tbody);wrap.append(table);matrix.append(wrap,node('p','「未載明」＝仿單成分／警語段沒有寫，不代表不含。','sub'));
   } else matrix.append(node('p','尚無仿單成分資料。','sub'));
