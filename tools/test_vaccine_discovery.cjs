@@ -52,7 +52,7 @@ const visible=id=>Array.from(doc.querySelectorAll(`#${id} > .vax`)).filter(el=>!
     assert(preg[0].keywords.includes('孕婦'),'condition reported in keywords');
     const egg=win.VaccineSearch.find('蛋過敏可以打流感疫苗嗎');
     const eggFlu=egg.find(r=>r.entry.id==='vax:flu');assert(eggFlu&&eggFlu.matches[0]&&/雞蛋過敏者可安心/.test(eggFlu.matches[0].text),'egg allergy section selected: '+(eggFlu&&eggFlu.matches[0]&&eggFlu.matches[0].text.slice(0,30)));
-    assert(egg[0].entry.id==='vax:flu','flu card with the egg answer ranks first');
+    assert(egg[0].entry.id==='vax:flu'||egg[0].entry.id==='allergy:egg-flu','flu card or the 蛋過敏→流感 guideline rule ranks first: '+egg[0].entry.id);
     assert(eggFlu.matches[0].ref&&eggFlu.matches[0].ref.claim==='flu-egg-allergy-qa','egg answer opens its claim');
     assert(!ids('HSV').includes('vax:shingrix'),'HSV still not zoster');
   }

@@ -112,6 +112,37 @@
       aliases:[...(POSTINF_KEYWORDS[claim]||[]),...POSTINF_GENERIC],
       sections:[{label:'中文整理（本站彙整）',text:cells[1],ref},{label:'原句摘錄（逐字，點字看原件）',text:quotes.join('　'),ref},{label:'出處',text:cells[3],ref}]});
   });
+  // 副作用（review/adverse-effects.js）：每個原件表格一個條目，列＝段落（綁 claim 可開原件）
+  const ADVERSE_GENERIC=['副作用','不良反應','會不會','會發燒','發燒','紅腫','痠痛','疼痛','腫','頭痛','疲倦','過敏反應','反應','多少','機率','比例','％','%'];
+  if(typeof ADVERSE_EFFECTS!=='undefined'&&ADVERSE_EFFECTS?.tables){
+    for(const t of ADVERSE_EFFECTS.tables){
+      const v=VAX.find(x=>x.id===t.vaccine);
+      const sections=t.rows.map(r=>t.kind==='percent'?{label:r.reaction,text:t.columns.map((c,i)=>c+'：'+r.values[i]).join('；'),ref:{claim:r.claim}}
+        :t.kind==='freq'?{label:r.label,text:r.text,ref:{claim:r.claim}}:{label:r.label||'說明',text:(r.summary?r.summary+'　原句：':'')+r.text,ref:{claim:r.claim}});
+      entries.push({id:'ae:'+t.id,adverse:t,title:t.product+'：'+(t.title||'副作用'),category:'副作用（原件表格）',
+        aliases:[...(v?[v.n,v.en,...extraAliases(v)]:[t.vaccine]),...t.rows.map(r=>r.reaction||r.label||'').filter(Boolean),...ADVERSE_GENERIC],sections});
+    }
+  }
+  // 過敏與成分：指引判讀（allergy-guidance.js）＋各產品過敏原（review/allergens.js）
+  const ALLERGY_GENERIC=['過敏','過敏反應','蛋過敏','雞蛋','明膠','乳膠','酵母','neomycin','抗生素','PEG','polysorbate','皮膚測試','成分','賦形劑','可以打','能打','anaphylaxis'];
+  if(window.AllergyGuidance?.rulesData){
+    for(const r of AllergyGuidance.rulesData){
+      const quotes=r.claims.flatMap(c=>(typeof REFERENCE_CLAIMS!=='undefined'&&REFERENCE_CLAIMS[c]?.items||[]).flatMap(it=>(it.quotes||[]).map(q=>({q,c}))));
+      entries.push({id:'allergy:'+r.id,allergyRule:r.id,title:r.title+'（'+r.verdict+'）',category:'過敏與成分（指引判讀）',
+        aliases:[...ALLERGY_GENERIC,...(/流感/.test(r.title)?fluAliases:[]),...(/MMR/.test(r.title)?ALIASES.mmr:[]),...(/黃熱病/.test(r.title)?['黃熱病','Stamaril']:[]),...(/COVID|mRNA/.test(r.title)?covidAliases:[])],
+        sections:[{label:'判讀（本站整理）',text:r.text,ref:{claim:r.claims[0]}},...quotes.map(x=>({label:'指引原句',text:x.q,ref:{claim:x.c}}))]});
+    }
+  }
+  if(typeof ALLERGENS!=='undefined'&&ALLERGENS?.products){
+    for(const p of ALLERGENS.products){
+      const v=VAX.find(x=>x.id===p.vaccine);
+      const sections=[...(p.components||[]).map(c=>({label:c.label,text:c.text,ref:{claim:c.claim}})),
+        ...(p.allergens||[]).filter(a=>a.claim).map(a=>({label:a.label+'：'+a.status,text:a.text,ref:{claim:a.claim}})),
+        ...(p.warnings||[]).map(w=>({label:w.label,text:w.text,ref:{claim:w.claim}}))];
+      if(sections.length)entries.push({id:'allergen:'+p.id,allergenProduct:p.id,title:p.product+'：成分與過敏原（仿單）',category:'過敏與成分（仿單原句）',
+        aliases:[p.product,...(v?[v.n,v.en,...extraAliases(v)]:[]),...ALLERGY_GENERIC,...(p.allergens||[]).filter(a=>a.status==='有').map(a=>a.label)],sections});
+    }
+  }
   // 關鍵字模式：整句問題不會是任何條目的子字串，改成反向比對「哪些別名出現在問題裡」，
   // 依命中別名總長度排序（疾病名＋「多久」比只有疾病名分數高）。只在逐詞比對沒有結果時啟用。
   function keywordFind(query){
@@ -119,13 +150,18 @@
     const usable=a=>a.length>=(/^[\x00-\x7f]+$/.test(a)?3:2);
     return entries.map(e=>{
       const hits=[...new Set([e.title,...e.aliases].map(norm).filter(a=>usable(a)&&q.includes(a)))];
-      const specific=hits.filter(h=>!POSTINF_GENERIC.map(norm).includes(h));
+      const GENERIC_ALL=[...POSTINF_GENERIC,...ADVERSE_GENERIC,...ALLERGY_GENERIC].map(norm);
+      const specific=hits.filter(h=>!GENERIC_ALL.includes(h));
       if(!hits.length||(e.postinfRow!==undefined&&!specific.length&&!hits.some(h=>/感染|確診|痊癒|康復|得過/.test(h))))return null;
       // 疾病名（specific）加倍計分；總表列若同時命中疾病名與「多久／可以打」類問句字眼，再加分，
       // 讓「感冒可以打流感疫苗嗎」排在總表列而不是疫苗名稱卡（疫苗名卡仍在結果內）。
       const generic=hits.filter(h=>!specific.includes(h));
       const timing=hits.filter(h=>POSTINF_TIMING.map(norm).includes(h));
-      const score=hits.reduce((n,h)=>n+h.length*(specific.includes(h)?2:1),0)+(e.postinfRow!==undefined?(specific.length&&timing.length?7:1):0);
+      const topical=e.adverse?ADVERSE_GENERIC:(e.allergyRule||e.allergenProduct)?ALLERGY_GENERIC:[];
+      const topicHit=hits.some(h=>topical.map(norm).includes(h));
+      const score=hits.reduce((n,h)=>n+h.length*(specific.includes(h)?2:1),0)
+        +(e.postinfRow!==undefined?(specific.length&&timing.length?7:1):0)
+        +((e.adverse||e.allergyRule||e.allergenProduct)?(specific.length&&topicHit?7:(topicHit?2:0)):0);
       // 問句提到的病人條件（懷孕、蛋過敏…）→ 優先顯示含該條件用詞的規則段落
       const matchedSyn=CONDITION_SYNONYMS.filter(([,syn])=>syn.some(w=>q.includes(norm(w))));
       const conditions=matchedSyn.map(([canon])=>canon);
@@ -184,6 +220,8 @@
       const actions=node('div',undefined,'travel-search-row');
       actions.append(button('展開劑次／禁忌與原文',()=>open(r.entry)));
       if(r.entry.postinfRow!==undefined)actions.append(button('前往間隔規則總表',()=>revealPostinf(r.entry)));
+      else if(r.entry.adverse)actions.append(button('前往副作用分頁',()=>{ReferenceUI.clear();Array.from(document.getElementById('tabs').children).find(t=>/副作用/.test(t.textContent))?.click();window.AdverseEffects?.show(r.entry.adverse.vaccine);document.getElementById('adverseRoot')?.scrollIntoView?.({block:'start'});}));
+      else if(r.entry.allergyRule||r.entry.allergenProduct)actions.append(button('前往過敏與成分分頁',()=>{ReferenceUI.clear();Array.from(document.getElementById('tabs').children).find(t=>/過敏/.test(t.textContent))?.click();const el=r.entry.allergyRule?document.querySelector(`.allergy-rule[data-allergy-rule="${r.entry.allergyRule}"]`):document.querySelector(`#allergenMatrix tr[data-allergy-product="${r.entry.allergenProduct}"]`);el?.scrollIntoView?.({block:'center'});}));
       else if(!r.entry.guide)actions.append(button('前往'+(r.entry.id.startsWith('vax:')?'接種前篩檢':'成人時程')+'原卡片',()=>reveal(r.entry)));
       card.append(actions);
       results.append(card);

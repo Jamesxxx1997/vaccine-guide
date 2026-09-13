@@ -6,7 +6,9 @@ const query=text=>{input.value=text;input.dispatchEvent(new win.Event('input'));
 const row=(country,disease='霍亂',extra={})=>({country,disease,level:'第一級:注意(Watch)',region:'',date:'2023/03/20',url:'https://www.cdc.gov.tw/InternationalTravel/Index/test',...extra});
 const result=(query,rows)=>({version:1,query,rows,count:rows.length,fetchedAt:'2026-09-06T08:00:00.000Z'});
 (async()=>{
-  assert.equal(win.VaccineSearch.count,58); // 16 guides + 20 screener cards + 14 adult entries + 8 感染後接種間隔總表列（2026-09-13）
+  // 16 guides + 20 screener cards + 14 adult entries + 8 感染後接種間隔總表列 + 副作用原件表格 + 過敏指引判讀 + 有引句的仿單成分產品（資料驅動，數量隨產生器輸出變）
+  const expectedEntries=16+20+14+8+win.eval('ADVERSE_EFFECTS.tables.length')+win.AllergyGuidance.rulesData.length+win.eval('ALLERGENS.products.filter(p=>(p.components||[]).length||(p.warnings||[]).length||(p.allergens||[]).some(a=>a.claim)).length');
+  assert.equal(win.VaccineSearch.count,expectedEntries);
   query('Ｄｕｋｏｒａｌ');assert(doc.querySelector('[data-search-entry="guide:cholera"]'));
   let target=doc.querySelector('#vaccineSearchResults .ref-target');
   target.click();assert(!doc.getElementById('reference-panel').hidden);assert(doc.querySelector('#reference-panel .ref-highlight'));assert(doc.querySelector('#reference-panel .ref-pdf-link').href.endsWith('#page=4'));

@@ -138,6 +138,12 @@ def build_freq(table, words, width):
 
 def build_notes(table, words, width):
     rows, claims = [], {}
+    # 中文整理（summary）裡的任何百分比／數值，都必須出現在本表某條引句裡——沒有原句的數字不准出現在頁面上
+    all_quotes = ''.join(r['quote'] for r in table['rows'])
+    for r in table['rows']:
+        for num in re.findall(r'\d+(?:\.\d+)?\s*%', r.get('summary', '')):
+            if num.replace(' ', '') not in all_quotes.replace(' ', ''):
+                raise SystemExit(f'✗ {table["id"]}：中文整理含未引用原句的數值「{num}」（{r.get("label","")}）——請補引句或刪掉數字')
     for i, r in enumerate(table['rows']):
         cid = f'ae:{table["id"]}:{i}'
         claims[cid] = dict(note=table.get('note', ''), items=[dict(source=table['source'], page=table['page'], glyphRows=True,

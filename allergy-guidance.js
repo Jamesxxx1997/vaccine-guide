@@ -136,5 +136,5 @@
       comp.append(det);}
     root.append(comp);
   }
-  window.AllergyGuidance=Object.freeze({rules:RULES.map(r=>r.id),products:products.map(p=>p.id),evaluate(a,b){selA.value=a;selB.value=b;run();return result;}});
+  window.AllergyGuidance=Object.freeze({rules:RULES.map(r=>r.id),rulesData:RULES.map(r=>({id:r.id,title:r.title,verdict:r.verdict,text:r.text,claims:r.claims.slice()})),products:products.map(p=>p.id),evaluate(a,b){selA.value=a;selB.value=b;run();return result;}});
 })();
