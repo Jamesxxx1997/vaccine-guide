@@ -140,3 +140,7 @@ Tetraxim、Pentaxim 兩支在原指定的六個機關（EMA/MHRA/HPRA/TGA/Medsaf
 3. 賽諾菲在加拿大以不同品牌名（Quadracel/Pediacel）銷售同成分產品，但品名、DIN、監理档案均不同，不能直接充當 Tetraxim/Pentaxim 的官方仿單來源。
 
 若要補齊這兩支，需要使用者授權以下其一：(a) 手動完成 HSA 新加坡的 CAPTCHA 驗證並提供搜尋結果連結；(b) 同意擴大機關範圍至歐盟個別國家核准機關（丹麥/波蘭/義大利等）；(c) 接受 Health Canada 的 Quadracel/Pediacel 作為同成分替代來源（本次已下載但未列入正式 manifest）。
+
+## 補記（2026-09-14）：Pentaxim 已由使用者自 HSA 取得
+- 使用者在 HSA Register of Therapeutic Products（需解 CAPTCHA）搜尋 PENTAXIM 下載 package insert，轉存為 `五合一_Pentaxim_HSA_2025-09.pdf`（11 頁、2,855 字、文件標題 Pentaxim PI_v01_September 2025、Sanofi-aventis Singapore）。sha256 與登記見 `_manifest_C.json`，來源 key S93。
+- Tetraxim 在 HSA 亦未找到（使用者搜尋結果只有 Pentaxim）。

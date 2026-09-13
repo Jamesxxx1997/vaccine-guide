@@ -8080,5 +8080,134 @@
     "dismissed": null
    }
   }
+ },
+ "S93": {
+  "product": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe)",
+  "source": "S93",
+  "pdf": "sources/國際仿單/五合一_Pentaxim_HSA_2025-09.pdf",
+  "pages": 11,
+  "date": "2026-09-14",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 9,
+      "term": "Phenoxyethanol",
+      "pattern": "phenoxyethanol",
+      "context": "de (for pH adjustment)⏎•⏎Formaldehyde⏎•⏎Phenoxyethanol⏎•⏎Ethanol, anhydrous⏎•⏎Water for inject"
+     },
+     {
+      "page": 9,
+      "term": "Phenoxyethanol",
+      "pattern": "phenoxyethanol",
+      "context": "hydroxide(forpHadjustment)•Formaldehyde•Phenoxyethanol•Ethanol,anhydrous•Waterforinjections.Ha"
+     },
+     {
+      "page": 9,
+      "term": "phenol",
+      "pattern": "phenol",
+      "context": " injection:⏎•⏎Hanks’ Medium 199 without phenol red⏎•⏎Glacial acetic acid and/or sodium"
+     },
+     {
+      "page": 9,
+      "term": "phenol",
+      "pattern": "phenol",
+      "context": "sionforinjection:•Hanks’Medium199withoutphenolred•Glacialaceticacidand/orsodiumhydroxi"
+     }
+    ],
+    "dismissed": "sweep 命中的 4 處都是字串「phenol」出現在 Phenoxyethanol／phenol red 之中，非硫柳汞（thimerosal/thiomersal/mercury）相關字樣；仿單全文無 thimerosal、thiomersal、mercury 字樣，判為假陽性，已用 phenoxyethanol 作 related 註記"
+   }
+  }
  }
 }

@@ -7315,6 +7315,214 @@
      "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 過敏反應警語（含蛋／雞蛋蛋白、抗生素殘留）"
     }
    ]
+  },
+  "al:S93:comp:0": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "PENTAXIM may contain traces of glutaraldehyde, neomycin, streptomycin and polymyxin B"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Composition"
+    }
+   ]
+  },
+  "al:S93:comp:1": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Adsorbed on hydrated aluminium hydroxide.......................................................0.3 mg of Al 3+"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Composition（佐劑）"
+    }
+   ]
+  },
+  "al:S93:comp:2": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Formaldehyde"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Excipients 6.1（懸浮液）"
+    }
+   ]
+  },
+  "al:S93:comp:3": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Phenoxyethanol"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Excipients 6.1（懸浮液）"
+    }
+   ]
+  },
+  "al:S93:comp:4": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Hanks’ Medium 199 without phenol red"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Excipients 6.1（懸浮液）"
+    }
+   ]
+  },
+  "al:S93:comp:5": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Ethanol, anhydrous"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Excipients 6.1（懸浮液）"
+    }
+   ]
+  },
+  "al:S93:comp:6": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Sucrose"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Excipients 6.1（粉末）"
+    }
+   ]
+  },
+  "al:S93:comp:7": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Trometamol"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Excipients 6.1（粉末）"
+    }
+   ]
+  },
+  "al:S93:neomycin": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "PENTAXIM may contain traces of glutaraldehyde, neomycin, streptomycin and polymyxin B"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S93:other_antibiotics": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "PENTAXIM may contain traces of glutaraldehyde, neomycin, streptomycin and polymyxin B"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+    }
+   ]
+  },
+  "al:S93:latex:related": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Powder in vial (type I glass) fitted with a stopper (chlorobutyl) + 0.5 mL of suspension in pre-"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · 乳膠（針筒／瓶塞）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S93:formaldehyde": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Formaldehyde"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S93:thimerosal:related": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Phenoxyethanol"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · 硫柳汞：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S93:aluminium": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Adsorbed on hydrated aluminium hydroxide.......................................................0.3 mg of Al 3+"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S93:warn:0": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "to any of the excipients listed in section 6.1,"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Contraindications 4.3"
+    }
+   ]
+  },
+  "al:S93:warn:1": {
+   "items": [
+    {
+     "source": "S93",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "glutaraldehyde, neomycin, streptomycin, or polymyxin B (used during"
+     ],
+     "label": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe) · Contraindications 4.3（微量殘留物）"
+    }
+   ]
   }
  }
 }

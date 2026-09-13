@@ -429,5 +429,12 @@
   "path": "sources/國際仿單/狂犬病疫苗_Rabipur_MHRA_2026-05.pdf",
   "pages": "claims",
   "agency": "MHRA"
+ },
+ "S93": {
+  "cat": "dtap5",
+  "prod": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe)",
+  "path": "sources/國際仿單/五合一_Pentaxim_HSA_2025-09.pdf",
+  "pages": "claims",
+  "agency": "HSA"
  }
 }

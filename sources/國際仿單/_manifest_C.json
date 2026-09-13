@@ -1,0 +1,56 @@
+[
+ {
+  "slug": "pentaxim-hsa",
+  "vaccine": "dtap5",
+  "product": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe)",
+  "agency": "HSA",
+  "url": "（使用者於 HSA Register of Therapeutic Products 解 CAPTCHA 後手動下載，2026-09-14）",
+  "landing": "https://eservice.hsa.gov.sg/prism/common/enquirepublic/SearchDRBProduct.do?action=load",
+  "path": "sources/國際仿單/五合一_Pentaxim_HSA_2025-09.pdf",
+  "revised": "2025-09（文件標題 Pentaxim PI_v01_September 2025；8 DATE OF REVISION OF THE TEXT 見末頁）",
+  "downloaded": "2026-09-14",
+  "sha256": "d8f08b4fd326bc5965de1a35890fc52e79a13ce5231ad8a75fdbbcadb397496b",
+  "pages": 11,
+  "words": 2855,
+  "sections": {
+   "composition": [
+    1
+   ],
+   "excipients": [
+    1,
+    9
+   ],
+   "contraindications": [
+    2
+   ],
+   "latex": [],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [
+    1,
+    2
+   ],
+   "other_antibiotics": [
+    1,
+    2
+   ],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [
+    1,
+    2,
+    8,
+    9
+   ],
+   "thimerosal": [
+    9
+   ],
+   "aluminium": [
+    1
+   ]
+  },
+  "copySource": "hsa (manual download by user after CAPTCHA)",
+  "notes": "Sanofi-aventis Singapore Pte Ltd 的 SmPC 格式 package insert；Tetraxim 仍未取得。",
+  "source": "S93"
+ }
+]

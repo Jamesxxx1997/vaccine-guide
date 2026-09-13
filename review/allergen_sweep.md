@@ -767,3 +767,15 @@
 ### formaldehyde：0 命中
 ### thimerosal：0 命中
 ### aluminium：0 命中
+
+## S93 Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe)（五合一_Pentaxim_HSA_2025-09.pdf，11 頁；掃描 2026-09-14）
+### egg：0 命中
+### gelatin：0 命中
+### yeast：0 命中
+### latex：0 命中
+### peg_polysorbate：0 命中
+### thimerosal：4 命中（分片已判為假陽性：sweep 命中的 4 處都是字串「phenol」出現在 Phenoxyethanol／phenol red 之中，非硫柳汞（thimerosal/thiomersal/mercury）相關字樣；仿單全文無 thimerosal、thiomersal、mercury 字樣，判為假陽性，已用 phenoxyethanol 作 related 註記）
+- p.9「Phenoxyethanol」…de (for pH adjustment)⏎•⏎Formaldehyde⏎•⏎Phenoxyethanol⏎•⏎Ethanol, anhydrous⏎•⏎Water for inject…
+- p.9「Phenoxyethanol」…hydroxide(forpHadjustment)•Formaldehyde•Phenoxyethanol•Ethanol,anhydrous•Waterforinjections.Ha…
+- p.9「phenol」… injection:⏎•⏎Hanks’ Medium 199 without phenol red⏎•⏎Glacial acetic acid and/or sodium…
+- p.9「phenol」…sionforinjection:•Hanks’Medium199withoutphenolred•Glacialaceticacidand/orsodiumhydroxi…

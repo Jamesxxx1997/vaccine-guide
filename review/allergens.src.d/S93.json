@@ -1,0 +1,34 @@
+{
+ "vaccine": "dtap5",
+ "product": "Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe)",
+ "source": "S93",
+ "origin": "HSA",
+ "lang": "en",
+ "components": [
+  {"page": 1, "label": "Composition", "quote": "PENTAXIM may contain traces of glutaraldehyde, neomycin, streptomycin and polymyxin B"},
+  {"page": 1, "label": "Composition（佐劑）", "quote": "Adsorbed on hydrated aluminium hydroxide.......................................................0.3 mg of Al 3+"},
+  {"page": 9, "label": "Excipients 6.1（懸浮液）", "quote": "Formaldehyde"},
+  {"page": 9, "label": "Excipients 6.1（懸浮液）", "quote": "Phenoxyethanol"},
+  {"page": 9, "label": "Excipients 6.1（懸浮液）", "quote": "Hanks’ Medium 199 without phenol red"},
+  {"page": 9, "label": "Excipients 6.1（懸浮液）", "quote": "Ethanol, anhydrous"},
+  {"page": 9, "label": "Excipients 6.1（粉末）", "quote": "Sucrose"},
+  {"page": 9, "label": "Excipients 6.1（粉末）", "quote": "Trometamol"}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 1, "quote": "PENTAXIM may contain traces of glutaraldehyde, neomycin, streptomycin and polymyxin B"},
+  {"key": "other_antibiotics", "status": "有", "page": 1, "quote": "PENTAXIM may contain traces of glutaraldehyde, neomycin, streptomycin and polymyxin B", "note": "streptomycin 與 polymyxin B 微量殘留"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明", "related": {"page": 10, "quote": "Powder in vial (type I glass) fitted with a stopper (chlorobutyl) + 0.5 mL of suspension in pre-", "note": "瓶塞為 chlorobutyl／預填針筒活塞為 bromobutyl 或 chlorobutyl（鹵化丁基橡膠），非天然乳膠，但仿單未明文聲明「不含乳膠」，故列未載明並附此相關原句"}},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "有", "page": 9, "quote": "Formaldehyde", "note": "列於 6.1 懸浮液賦形劑；p.8 另載「detoxified by formaldehyde」用於類毒素去毒製程"},
+  {"key": "thimerosal", "status": "未載明", "related": {"page": 9, "quote": "Phenoxyethanol", "note": "懸浮液保存劑為 phenoxyethanol，非硫柳汞（thimerosal）；仿單未提及硫柳汞"}},
+  {"key": "aluminium", "status": "有", "page": 1, "quote": "Adsorbed on hydrated aluminium hydroxide.......................................................0.3 mg of Al 3+"}
+ ],
+ "warnings": [
+  {"label": "Contraindications 4.3", "page": 2, "quote": "to any of the excipients listed in section 6.1,"},
+  {"label": "Contraindications 4.3（微量殘留物）", "page": 2, "quote": "glutaraldehyde, neomycin, streptomycin, or polymyxin B (used during"}
+ ],
+ "sweep": {"dismissed": {"thimerosal": "sweep 命中的 4 處都是字串「phenol」出現在 Phenoxyethanol／phenol red 之中，非硫柳汞（thimerosal/thiomersal/mercury）相關字樣；仿單全文無 thimerosal、thiomersal、mercury 字樣，判為假陽性，已用 phenoxyethanol 作 related 註記"}}
+}
