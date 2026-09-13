@@ -6,7 +6,7 @@
   const local=['localhost','127.0.0.1'].includes(location.hostname)&&location.protocol==='http:';
   // 公開後端（Cloud Run asia-east1）的固定網址：部署後填入並 commit；只在正式站網域生效。
   // No arbitrary URL setting or untrusted query-string backend override.
-  const PUBLIC_SERVICE='';
+  const PUBLIC_SERVICE='https://vaccine-cdc-relay-mf2uneq2fa-de.a.run.app';   // Cloud Run asia-east1，2026-09-13 部署
   const PUBLIC_SITE_HOSTS=['jamesxxx1997.github.io'];
   const service=local?'http://'+location.hostname+':8901':(PUBLIC_SERVICE&&PUBLIC_SITE_HOSTS.includes(location.hostname)&&location.protocol==='https:'?PUBLIC_SERVICE:null);
   const isPublic=Boolean(service)&&!local;

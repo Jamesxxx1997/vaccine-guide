@@ -1,0 +1,20 @@
+# gcloud run deploy --source 上傳時排除（否則會把 65MB 的 review/pages、40MB 的 sources 都傳上去）
+.gcloudignore
+.git
+.gitignore
+node_modules
+review/pages
+review/img
+review/*.js
+img
+sources
+data
+study
+*.md
+*.html
+*.css
+csv-viewer.js
+reference-*.js
+travel-live.js
+tools
+.github
