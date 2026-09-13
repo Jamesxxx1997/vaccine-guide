@@ -1,0 +1,156 @@
+{
+ "product": "Stamaril (Yellow fever vaccine, live)",
+ "source": "S89",
+ "pdf": "sources/國際仿單/黃熱病疫苗_Stamaril_MHRA_2025-01.pdf",
+ "pages": 16,
+ "date": "2026-09-13",
+ "cells": {
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [
+    {
+     "page": 14,
+     "term": "aluminium",
+     "pattern": "aluminium",
+     "context": "opper (chlorobutyl) and a flip-off cap⏎(aluminium) + 0.5 ml of solvent in a pre-filled sy"
+    },
+    {
+     "page": 14,
+     "term": "aluminium",
+     "pattern": "aluminium",
+     "context": "ithastopper(chlorobutyl)andaflip-offcap(aluminium)+0.5mlofsolventinapre-filledsyringe(typ"
+    }
+   ],
+   "dismissed": null
+  }
+ }
+}

@@ -2,7 +2,7 @@
 """
 過敏與成分 → 可追溯資料。每份仿單一個分片 review/allergens.src.d/<key>.json：
 {
-  "vaccine":"hepb", "product":"Engerix-B 安在時", "source":"S26",
+  "vaccine":"hepb", "product":"Engerix-B 安在時", "source":"S26", "origin":"TFDA"（國際仿單寫 FDA／EMA／MHRA／TGA…，"lang":"en"）,
   "components":[{"page":1,"quote":"…成分段逐字（一行或一段，可多條）…","label":"成分"}],
   "allergens":[
     {"key":"yeast","status":"有","page":1,"quote":"…仿單逐字句…"},
@@ -14,6 +14,8 @@
 allergen key 固定：egg, gelatin, neomycin, other_antibiotics, yeast, latex, peg_polysorbate, formaldehyde, thimerosal, aluminium。
 status「有」「無」必須附 quote（逐字，可被定位器在該頁找到且唯一）；「未載明」不得附 quote（沒有原句就不能宣稱），
 但可附 "related":{"page":…,"quote":"…","note":"…"}＝仿單裡的相關原句（瓶塞材質、保存劑種類、佐劑種類），一樣做成 claim 顯示。
+判讀慣例：「有」限於疫苗本身的成分／殘留（配方、製程殘留量、包裝材質）；只講上游培養基（例：載體蛋白 CRM197 培養於
+yeast extract medium）或對照疫苗品名（Adjuvanted）的句子不算「有」，放 related 並加 note。
 每個未載明格子都必須經過 tools/sweep_allergens.py 全文掃描：0 命中才算「仿單沒寫」；有命中必須判讀成 related 或在分片
 "sweep":{"dismissed":{"<key>":"理由"}} 記為假陽性，否則產生器拒絕。
 輸出：review/allergen-claims.json（claims，key al:…）、review/allergens.js（前端）。找不到／不唯一 → 由 build_reference_pages 定位時失敗。
@@ -36,16 +38,16 @@ STATUSES = {'有', '無', '未載明'}
 def main():
     check_only = Path(sys.argv[2]).resolve() if len(sys.argv) >= 3 and sys.argv[1] == '--check' else None
     products, claims = [], {}
-    sweep_path = ROOT / 'review/allergen_sweep.json'
-    sweep = json.loads(sweep_path.read_text(encoding='utf-8')) if sweep_path.exists() else {}
-    sweep_date = (ROOT / 'review/allergen_sweep.md').read_text(encoding='utf-8').split('掃描日期：')[1][:10] if (ROOT / 'review/allergen_sweep.md').exists() else ''
+    sweep = {f.stem: json.loads(f.read_text(encoding='utf-8')) for f in (ROOT / 'review/allergen_sweep.d').glob('*.json')} if (ROOT / 'review/allergen_sweep.d').is_dir() else {}
     for frag in ([check_only] if check_only else sorted(SRC_DIR.glob('*.json'))):
         d = json.loads(frag.read_text(encoding='utf-8'))
         for req in ('vaccine', 'product', 'source'):
             if req not in d:
                 raise SystemExit(f'✗ {frag.name} 缺 {req}')
         pid = frag.stem
-        prod = dict(id=pid, vaccine=d['vaccine'], product=d['product'], source=d['source'], components=[], allergens=[], warnings=[], note=d.get('note', ''))
+        # origin＝仿單來源機關（TFDA 預設；國際仿單寫 FDA/EMA/MHRA/TGA…），vaccineName＝站上 VAX 沒有此疫苗 id 時的顯示名（傷寒、M痘）
+        prod = dict(id=pid, vaccine=d['vaccine'], product=d['product'], source=d['source'], origin=d.get('origin', 'TFDA'), lang=d.get('lang', 'zh'),
+                    vaccineName=d.get('vaccineName', ''), components=[], allergens=[], warnings=[], note=d.get('note', ''))
         for i, c in enumerate(d.get('components', [])):
             cid = f'al:{pid}:comp:{i}'
             claims[cid] = dict(items=[dict(source=d['source'], page=c['page'], glyphRows=True, quotes=[c['quote']], label=f'{d["product"]} · {c.get("label", "成分")}', **({'region': c['region']} if c.get('region') else {}))])
@@ -93,7 +95,7 @@ def main():
             n = len(c.get('hits', []))
             if n and not dismissed.get(a['key']) and not a.get('related'):
                 raise SystemExit(f'✗ {frag.name}：{a["key"]} 全文掃描有 {n} 個候選命中尚未判讀（related 或 sweep.dismissed）')
-            a['sweep'] = dict(hits=n, patterns=len(c.get('patterns', [])), dismissed=dismissed.get(a['key'], ''), date=sweep_date)
+            a['sweep'] = dict(hits=n, patterns=len(c.get('patterns', [])), dismissed=dismissed.get(a['key'], ''), date=(sweep.get(pid) or {}).get('date', ''))
         for i, w in enumerate(d.get('warnings', [])):
             cid = f'al:{pid}:warn:{i}'
             claims[cid] = dict(items=[dict(source=d['source'], page=w['page'], glyphRows=True, quotes=[w['quote']], label=f'{d["product"]} · {w.get("label", "警語")}', **({'region': w['region']} if w.get('region') else {}))])

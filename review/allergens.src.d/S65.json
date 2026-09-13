@@ -1,0 +1,31 @@
+{
+ "vaccine": "tdap",
+ "product": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)",
+ "source": "S65",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 13, "label": "Description／成分", "quote": "Adacel is a sterile isotonic injectable suspension of tetanus and diphtheria toxoids and pertussis antigens adsorbed on aluminum phosphate, for intramuscular use."},
+  {"page": 13, "label": "Description／成分", "quote": "Other ingredients per 0.5 mL dose include 1.5 mg aluminum phosphate (0.33 mg aluminum) as the adjuvant, ≤5 mcg residual formaldehyde, <50 ng residual glutaraldehyde and 3.3 mg (0.6% v/v) 2-phenoxyethanol (not as a preservative)."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 23, "quote": "Syringe, without needle, single-dose – NDC 49281-400-89 (not made with natural rubber latex);"},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "有", "page": 13, "quote": "≤5 mcg residual formaldehyde"},
+  {"key": "thimerosal", "status": "無", "page": 13, "quote": "Adacel does not contain a preservative."},
+  {"key": "aluminium", "status": "有", "page": 13, "quote": "1.5 mg aluminum phosphate (0.33 mg aluminum) as the adjuvant"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 3, "quote": "A severe allergic reaction (e.g., anaphylaxis) after a previous dose of any tetanus toxoid, diphtheria toxoid or pertussis containing vaccine or any other component of this vaccine is a contraindication to administration of Adacel."},
+  {"label": "Latex", "page": 23, "quote": "package of 5 vials; NDC 49281-400-05. The vial\nstopper is not made with natural rubber latex."}
+ ],
+ "sweep": {"date": "2026-09-13", "dismissed": {
+  "egg": "命中詞'hen'/'embryo'皆為'when'字尾或'embryo-fetal'（動物生殖毒性研究用語），與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白",
+  "peg_polysorbate": "命中詞'tween'皆為'between'字尾，與 polysorbate 80/Tween 無關，仿單全文未提 polysorbate/PEG"
+ }}
+}

@@ -1,0 +1,129 @@
+{
+ "product": "Vaxigrip Tetra 菲流達四價流感疫苗",
+ "source": "S45",
+ "pdf": "sources/仿單/流感疫苗_菲流達四價流感疫苗VaxigripTetra(賽諾菲)_TFDA_2022-05-26.pdf",
+ "pages": 11,
+ "date": "2026-09-13",
+ "cells": {
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "vaccine": "typhoid",
+ "vaccineName": "傷寒疫苗（Typhim Vi）",
+ "product": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine)",
+ "source": "S80",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 1, "label": "Description", "quote": "Typhim Vi®, Typhoid Vi Polysaccharide Vaccine, produced by Sanofi Winthrop Industrie , for intramuscular use, is a sterile solution containing the cell surface Vi polysaccharide extracted from Salmonella enterica serovar Typhi, S typhi Ty2 strain."},
+  {"page": 1, "label": "Description", "quote": "Casein derived raw materials are used early in manufacturing during the fermentation process."},
+  {"page": 1, "label": "Description", "quote": "Each 0.5 mL dose may contain residual amounts of formaldehyde (not more than 100 mcg) used for the inactivation of the bacterial culture."},
+  {"page": 1, "label": "Description", "quote": "Phenol, 0.25%, is added as a preservative. The vaccine contains residual polydimethylsiloxane or fatty-acid ester-based antifoam."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 1, "quote": "The vial stopper and the plunger stopper of the syringe are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "有", "page": 1, "quote": "Each 0.5 mL dose may contain residual amounts of formaldehyde (not more than 100 mcg) used for the inactivation of the bacterial culture."},
+  {"key": "thimerosal", "status": "未載明", "related": {"page": 1, "quote": "Phenol, 0.25%, is added as a preservative. The vaccine contains residual polydimethylsiloxane or fatty-acid ester-based antifoam.", "note": "防腐劑為酚（phenol）非硫柳汞；仿單未提及 thimerosal／mercury 字樣"}},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 5, "quote": "Typhim Vi vaccine is contraindicated in patients with a history of hypersensitivity to any component of this vaccine."}
+ ],
+ "sweep": {"dismissed": {"other_antibiotics": "全文掃描『antibiotic』4 個命中：p.1 談傷寒『抗生素前時代（pre-antibiotic era）』死亡率之背景敘述，p.7 為 DRUG INTERACTIONS 段落警語（併用抗生素／抗瘧藥可能影響免疫反應），均非本疫苗成分"}}
+}

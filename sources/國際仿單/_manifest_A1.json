@@ -1,0 +1,603 @@
+[
+ {
+  "slug": "shingrix-fda",
+  "vaccine": "shingrix",
+  "product": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/108597/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/shingrix",
+  "path": "sources/國際仿單/帶狀疱疹_Shingrix_FDA_2026-02.pdf",
+  "revised": "2026-02",
+  "downloaded": "2026-09-13",
+  "sha256": "a1e692a7599c7dcbae2b5ba138e3fa8d52914be17254bc4eece8ba18d4b462f5",
+  "pages": 27,
+  "words": 10676,
+  "sections": {
+   "description": [
+    2,
+    16
+   ],
+   "contraindications": [
+    2,
+    5
+   ],
+   "latex": [
+    17
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    17
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "GSK; two-component (antigen + AS01B adjuvant) vaccine.",
+  "source": "S58"
+ },
+ {
+  "slug": "vaqta-fda",
+  "vaccine": "hepa",
+  "product": "VAQTA (Hepatitis A Vaccine, Inactivated)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/74519/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/vaqta",
+  "path": "sources/國際仿單/A型肝炎_VAQTA_FDA_2020-10.pdf",
+  "revised": "2020-10",
+  "downloaded": "2026-09-13",
+  "sha256": "a9c2035b948fd49de7e74390d801d11192c6a73ecd3a8b133159773e42ca7651",
+  "pages": 18,
+  "words": 9252,
+  "sections": {
+   "description": [
+    2,
+    12
+   ],
+   "contraindications": [
+    2,
+    3
+   ],
+   "latex": [
+    2,
+    4
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [
+    2,
+    3,
+    12
+   ],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [
+    12
+   ],
+   "thimerosal": [],
+   "aluminum": [
+    8,
+    12
+   ]
+  },
+  "copySource": "fda",
+  "notes": "Merck. PDF text literally prints 'Revised: XX/20XX' (unfilled template placeholder in FDA-hosted PI, confirmed genuine, not a fetch artifact). Used PDF CreationDate (2020-10-26) as the effective revision reference instead.",
+  "source": "S59"
+ },
+ {
+  "slug": "engerix-b-fda",
+  "vaccine": "hepb",
+  "product": "Engerix-B (Hepatitis B Vaccine Recombinant)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/119403/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/engerix-b",
+  "path": "sources/國際仿單/B型肝炎_Engerix-B_FDA_2026-05.pdf",
+  "revised": "2026-05",
+  "downloaded": "2026-09-13",
+  "sha256": "cf4973a2a350ba20966ea46ce7e88e84bbeb7265f06dc957d4ef125590d22aae",
+  "pages": 14,
+  "words": 5627,
+  "sections": {
+   "description": [
+    1,
+    9
+   ],
+   "contraindications": [
+    1,
+    4
+   ],
+   "latex": [
+    9,
+    13
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [
+    1,
+    4,
+    9,
+    13
+   ],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": [
+    2,
+    9
+   ]
+  },
+  "copySource": "fda",
+  "notes": "GSK. Distinct from PREHEVBRIO/HEPLISAV-B (other GSK/Dynavax hep B products).",
+  "source": "S60"
+ },
+ {
+  "slug": "gardasil9-fda",
+  "vaccine": "hpv",
+  "product": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/90064/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/gardasil-9",
+  "path": "sources/國際仿單/人類乳突病毒_Gardasil9_FDA_2025-03.pdf",
+  "revised": "2025-03",
+  "downloaded": "2026-09-13",
+  "sha256": "792a7fd733e8d82eb3b1cce5aec39199c9e2c087b33f34ad8b21505b844c2e4c",
+  "pages": 27,
+  "words": 14894,
+  "sections": {
+   "description": [
+    3,
+    13
+   ],
+   "contraindications": [
+    2,
+    4
+   ],
+   "latex": [],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [
+    2,
+    4,
+    13
+   ],
+   "polysorbate_peg": [
+    13
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": [
+    13,
+    14
+   ]
+  },
+  "copySource": "fda",
+  "notes": "Merck. Distinct from original Gardasil (4-valent, different product).",
+  "source": "S61"
+ },
+ {
+  "slug": "mmr-ii-fda",
+  "vaccine": "mmr",
+  "product": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/75191/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/measles-mumps-and-rubella-virus-vaccine-live",
+  "path": "sources/國際仿單/麻疹腮腺炎德國麻疹_MMR-II_FDA_2025-11.pdf",
+  "revised": "2025-11",
+  "downloaded": "2026-09-13",
+  "sha256": "8bad583620887c34664e853c69498849d5121621b96f675acfe3e10ddb52ca5e",
+  "pages": 12,
+  "words": 5717,
+  "sections": {
+   "description": [
+    2,
+    8
+   ],
+   "contraindications": [
+    2,
+    4
+   ],
+   "latex": [],
+   "egg": [
+    2,
+    4
+   ],
+   "gelatin": [
+    4,
+    8,
+    10
+   ],
+   "neomycin": [
+    4,
+    8
+   ],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "Merck.",
+  "source": "S62"
+ },
+ {
+  "slug": "prevnar13-fda",
+  "vaccine": "pcv",
+  "product": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein])",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/files/bioinformatics%20tools/published/Package-Insert---Prevnar-13.pdf",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/prevnar-13 (this slug now 404s / redirects; product appears delisted from FDA's current 'Vaccines Licensed for Use' index, likely superseded by Prevnar 20; PDF retrieved from FDA's bioinformatics tools archive path instead)",
+  "path": "sources/國際仿單/肺炎鏈球菌13價_Prevnar13_FDA_2017-XX.pdf",
+  "revised": "2017 (literal 'X/2017' printed in PDF Highlights box - unfilled template placeholder, confirmed genuine in FDA-hosted copy)",
+  "downloaded": "2026-09-13",
+  "sha256": "b6eefbb2a36f3d0e70f07ac56319cbedf328007070145f4b6aa8b0de29045058",
+  "pages": 43,
+  "words": 17517,
+  "sections": {
+   "description": [
+    2,
+    24
+   ],
+   "contraindications": [
+    2,
+    5
+   ],
+   "latex": [
+    25,
+    43
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [
+    25
+   ],
+   "polysorbate_peg": [
+    25
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": [
+    25
+   ]
+  },
+  "copySource": "fda",
+  "notes": "Pfizer. FDA landing page for Prevnar 13 specifically could not be relocated (site now promotes Prevnar 20); PDF pulled from a stable fda.gov/files archive path and verified as genuine Prevnar 13 PI via content (13-valent, CRM197 carrier) and header. DailyMed also hosts a copy re-labeled by repackager 'A-S Medication Solutions' if independent cross-check needed: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e8c6b638-c22f-4c20-ba40-b9d5e85c9541",
+  "source": "S63"
+ },
+ {
+  "slug": "pneumovax23-fda",
+  "vaccine": "ppv23",
+  "product": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/80547/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/pneumovax-23-pneumococcal-vaccine-polyvalent",
+  "path": "sources/國際仿單/肺炎鏈球菌23價_Pneumovax23_FDA_2021-04.pdf",
+  "revised": "2021-04",
+  "downloaded": "2026-09-13",
+  "sha256": "fb4a5d26bc568d9483635340971df58da7b204a4adefa7de26e5c8053ff816ca",
+  "pages": 12,
+  "words": 4995,
+  "sections": {
+   "description": [
+    2,
+    9
+   ],
+   "contraindications": [
+    2,
+    3
+   ],
+   "latex": [
+    9,
+    11
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [
+    2,
+    4
+   ],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "Merck.",
+  "source": "S64"
+ },
+ {
+  "slug": "adacel-fda",
+  "vaccine": "tdap",
+  "product": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/119862/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/adacel",
+  "path": "sources/國際仿單/破傷風白喉百日咳成人_Adacel_FDA_2026-08.pdf",
+  "revised": "2026-08",
+  "downloaded": "2026-09-13",
+  "sha256": "2263d9b46aa447b153e4747da16fb2dae4397eac50094fe0c3e68493b61e5ffd",
+  "pages": 23,
+  "words": 10070,
+  "sections": {
+   "description": [
+    1,
+    13
+   ],
+   "contraindications": [
+    1,
+    3
+   ],
+   "latex": [
+    23
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [
+    13
+   ],
+   "thimerosal": [],
+   "aluminum": [
+    13
+   ]
+  },
+  "copySource": "fda",
+  "notes": "Sanofi. Revised date (8/2026) is very recent relative to download date (2026-09-13) - confirmed genuine via PDF text, not a placeholder artifact.",
+  "source": "S65"
+ },
+ {
+  "slug": "boostrix-fda",
+  "vaccine": "tdap",
+  "product": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/124002/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/boostrix",
+  "path": "sources/國際仿單/破傷風白喉百日咳成人_Boostrix_FDA_2026-05.pdf",
+  "revised": "2026-05",
+  "downloaded": "2026-09-13",
+  "sha256": "ed9e623b4081f008875a63099d8d0a3ae8bb26a7a4ade9e1d37dcc5c2337ac40",
+  "pages": 36,
+  "words": 12602,
+  "sections": {
+   "description": [
+    2,
+    18
+   ],
+   "contraindications": [
+    2,
+    4
+   ],
+   "latex": [
+    19,
+    35
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    19
+   ],
+   "formaldehyde": [
+    18,
+    19
+   ],
+   "thimerosal": [],
+   "aluminum": [
+    6,
+    15,
+    19
+   ]
+  },
+  "copySource": "fda",
+  "notes": "GSK.",
+  "source": "S66"
+ },
+ {
+  "slug": "fluarix-quadrivalent-fda",
+  "vaccine": "flu",
+  "product": "Fluarix Quadrivalent (Influenza Vaccine)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/79278/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/fluarix-quadrivalent",
+  "path": "sources/國際仿單/流感四價_FluarixQuadrivalent_FDA_2023-07.pdf",
+  "revised": "2023-07",
+  "downloaded": "2026-09-13",
+  "sha256": "16d70019a29165025b7b46e2502de3b1287951821a8a7f1ff244dab6ec82f0f4",
+  "pages": 30,
+  "words": 9312,
+  "sections": {
+   "description": [
+    2,
+    17
+   ],
+   "contraindications": [
+    2,
+    4
+   ],
+   "latex": [
+    17
+   ],
+   "egg": [
+    2,
+    4,
+    17
+   ],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [
+    17
+   ],
+   "yeast": [],
+   "polysorbate_peg": [
+    17
+   ],
+   "formaldehyde": [
+    17
+   ],
+   "thimerosal": [
+    17
+   ],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "GSK. This is the season-agnostic base FDA label; FDA does not reissue a new PI PDF each flu season for strain composition (updated via separate supplement).",
+  "source": "S67"
+ },
+ {
+  "slug": "bexsero-fda",
+  "vaccine": "mcv4",
+  "product": "Bexsero (Meningococcal Group B Vaccine)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/90996/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/bexsero",
+  "path": "sources/國際仿單/腦膜炎球菌B_Bexsero_FDA_2024-08.pdf",
+  "revised": "2024-08",
+  "downloaded": "2026-09-13",
+  "sha256": "039683292ffe98fd5097e9bbb2093c8874ab7890e3618ebe8a48089d80b55d17",
+  "pages": 16,
+  "words": 5253,
+  "sections": {
+   "description": [
+    2,
+    9
+   ],
+   "contraindications": [
+    2,
+    3
+   ],
+   "latex": [
+    10,
+    15
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [
+    10
+   ],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": [
+    5,
+    9,
+    10
+   ]
+  },
+  "copySource": "fda",
+  "notes": "GSK. VAX id mapped to 'mcv4' per task instruction, though Bexsero is a meningococcal group B (not conjugate ACWY) vaccine - flagging this mapping as specified by task, not clinically equivalent to a MenACWY conjugate.",
+  "source": "S68"
+ },
+ {
+  "slug": "rotateq-fda",
+  "vaccine": "rota",
+  "product": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/75718/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/rotateq",
+  "path": "sources/國際仿單/輪狀病毒_RotaTeq_FDA_2026-05.pdf",
+  "revised": "2026-05",
+  "downloaded": "2026-09-13",
+  "sha256": "2adfb2635e3e1efa9a6087e31cffb26dd290f339bcf67ce03f4f308b245348d0",
+  "pages": 15,
+  "words": 6755,
+  "sections": {
+   "description": [
+    2,
+    10
+   ],
+   "contraindications": [
+    2,
+    5
+   ],
+   "latex": [
+    11,
+    14
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    11
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "Merck. Caution: fda.gov/media/151563/download is an FDA internal review document, NOT the PI - do not confuse.",
+  "source": "S69"
+ },
+ {
+  "slug": "havrix-fda",
+  "vaccine": "hepa",
+  "product": "Havrix (Hepatitis A Vaccine, Inactivated)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/119388/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/havrix",
+  "path": "sources/國際仿單/A型肝炎_Havrix_FDA_2026-05.pdf",
+  "revised": "2026-05",
+  "downloaded": "2026-09-13",
+  "sha256": "499e6d6435446d1550915b4da5ed320f1d784369aefafcd5bcc556e404384073",
+  "pages": 14,
+  "words": 5267,
+  "sections": {
+   "description": [
+    2,
+    9
+   ],
+   "contraindications": [
+    2,
+    3
+   ],
+   "latex": [
+    9,
+    14
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [
+    2,
+    3,
+    9
+   ],
+   "other_antibiotics": [
+    9
+   ],
+   "yeast": [],
+   "polysorbate_peg": [
+    9
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": [
+    9
+   ]
+  },
+  "copySource": "fda",
+  "notes": "GSK.",
+  "source": "S70"
+ }
+]

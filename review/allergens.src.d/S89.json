@@ -1,0 +1,41 @@
+{
+ "vaccine": "yf",
+ "product": "Stamaril (Yellow fever vaccine, live)",
+ "source": "S89",
+ "origin": "MHRA",
+ "lang": "en",
+ "components": [
+  {"page": 1, "label": "Composition", "quote": "Yellow fever virus1 17D-204 strain (live, attenuated) .................................... not less than 1000 IU"},
+  {"page": 1, "label": "Composition", "quote": "produced in specified pathogen-free chick embryos"},
+  {"page": 1, "label": "Excipients with known effects", "quote": "This product contains approximately 8 mg of sorbitol (E420) per dose."},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Lactose"},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Sorbitol E420"},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "L-Histidine hydrochloride"},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "L-Alanine"},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "L-Alanine\n      Sodium chloride"},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Potassium chloride"},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Disodium phosphate dihydrate"},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Potassium dihydrogen phosphate"},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Calcium chloride"},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Magnesium sulphate"},
+  {"page": 13, "label": "List of excipients (Solvent)", "quote": "Sodium chloride\n      Water for injections"},
+  {"page": 13, "label": "List of excipients (Solvent)", "quote": "Water for injections"},
+  {"page": 14, "label": "Nature and contents of container", "quote": "Powder in vial (type I glass), with a stopper (chlorobutyl) and a flip-off cap\n      (aluminium) + 0.5 ml of solvent in a pre-filled syringe (type I glass), with a\n      plunger-stopper (halobutyl), and an attached needle and needle-shield (natural\n      rubber or polyisoprene) – pack size of 1, 10 or 20."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "有", "page": 4, "quote": "Hypersensitivity to the active substance or to any of the excipients listed in Section\n      6.1 or to eggs or chicken proteins."},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "有", "page": 7, "quote": "The tip caps of the prefilled syringes contain a natural rubber latex derivative,\n      which may cause allergic reactions in latex sensitive individuals."},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "未載明"},
+  {"key": "aluminium", "status": "未載明", "related": {"page": 14, "quote": "Powder in vial (type I glass), with a stopper (chlorobutyl) and a flip-off cap\n      (aluminium) + 0.5 ml of solvent in a pre-filled syringe (type I glass), with a\n      plunger-stopper (halobutyl), and an attached needle and needle-shield (natural\n      rubber or polyisoprene) – pack size of 1, 10 or 20.", "note": "此鋁為藥瓶 flip-off cap（瓶蓋）材質，屬容器包裝材料，非疫苗佐劑／配方成分；6.1 賦形劑清單與 2. 組成皆未列鋁化合物，故不算「有」"}}
+ ],
+ "warnings": [
+  {"label": "禁忌（蛋／雞蛋蛋白過敏）", "page": 4, "quote": "Hypersensitivity to the active substance or to any of the excipients listed in Section\n      6.1 or to eggs or chicken proteins."},
+  {"label": "乳膠警語", "page": 7, "quote": "The tip caps of the prefilled syringes contain a natural rubber latex derivative,\n      which may cause allergic reactions in latex sensitive individuals."}
+ ]
+}

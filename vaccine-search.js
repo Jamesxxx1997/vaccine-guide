@@ -141,7 +141,8 @@
       const sections=[...(p.components||[]).map(c=>({label:c.label,text:c.text,ref:{claim:c.claim}})),
         ...(p.allergens||[]).filter(a=>a.claim).map(a=>({label:a.label+'：'+a.status,text:a.text,ref:{claim:a.claim}})),
         ...(p.warnings||[]).map(w=>({label:w.label,text:w.text,ref:{claim:w.claim}}))];
-      if(sections.length)entries.push({id:'allergen:'+p.id,allergenProduct:p.id,title:p.product+'：成分與過敏原（仿單）',category:'過敏與成分（仿單原句）',
+      const originName=({TFDA:'台灣 TFDA',FDA:'美國 FDA',EMA:'歐盟 EMA',MHRA:'英國 MHRA',HPRA:'愛爾蘭 HPRA',TGA:'澳洲 TGA',Medsafe:'紐西蘭 Medsafe',HSA:'新加坡 HSA'})[p.origin]||'台灣 TFDA';
+      if(sections.length)entries.push({id:'allergen:'+p.id,allergenProduct:p.id,title:p.product+'：成分與過敏原（'+originName+' 仿單）',category:'過敏與成分（仿單原句）',
         aliases:[p.product,...(v?[v.n,v.en,...extraAliases(v)]:[]),...ALLERGY_GENERIC,...(p.allergens||[]).filter(a=>a.status==='有').map(a=>a.label)],sections});
     }
   }

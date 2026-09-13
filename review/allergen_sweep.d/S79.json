@@ -1,0 +1,78 @@
+{
+ "product": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula",
+ "source": "S79",
+ "pdf": "sources/國際仿單/流感_Flucelvax_trivalent_FDA_2026-07.pdf",
+ "pages": 21,
+ "date": "2026-09-13",
+ "cells": {
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

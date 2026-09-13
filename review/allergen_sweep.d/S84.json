@@ -1,0 +1,880 @@
+{
+ "product": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula",
+ "source": "S84",
+ "pdf": "sources/國際仿單/新冠_Nuvaxovid_FDA_2026-08.pdf",
+ "pages": 47,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [
+    {
+     "page": 31,
+     "term": "Embryo",
+     "pattern": "embryo",
+     "context": "ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant women infected with"
+    },
+    {
+     "page": 31,
+     "term": "Embryo",
+     "pattern": "embryo",
+     "context": "erationsDisease-AssociatedMaternaland/orEmbryo/FetalRiskPregnantwomeninfectedwithSARS-"
+    }
+   ],
+   "dismissed": "全文掃描『embryo』2 個命中皆為 p.31 8.1 Pregnancy 段落標題『Disease-Associated Maternal and/or Embryo/Fetal Risk』，與雞蛋成分無關"
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [
+    {
+     "page": 18,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": "tion. The cellulitis resolved⏎following antibiotic and steroid treatment. The muscle edema"
+    },
+    {
+     "page": 18,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": "ccination.Thecellulitisresolvedfollowingantibioticandsteroidtreatment.Themuscleedemawasnot"
+    }
+   ],
+   "dismissed": "全文掃描『antibiotic』2 個命中皆為 p.18 ADVERSE REACTIONS 不良反應敘述（蜂窩性組織炎經抗生素與類固醇治療後緩解），非本疫苗成分"
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "VAXOVID.⏎NUVAXOVIDTM (COVID-19 Vaccine, Adjuvanted) injectable⏎suspension, for intramusc"
+    },
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ous dose of a Novavax COVID-19 Vaccine,⏎Adjuvanted. (4)⏎⏎------------------------------A"
+    },
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "nistration⏎of Novavax COVID-19 Vaccine, Adjuvanted. (5.2)⏎⏎Revised: 8/2026⏎⏎FULL PRESCRI"
+    },
+    {
+     "page": 3,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "vious dose of Novavax⏎COVID-19 Vaccine, Adjuvanted.⏎⏎2⏎⏎\f"
+    },
+    {
+     "page": 3,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ngapreviousdoseofNovavaxCOVID-19Vaccine,Adjuvanted.2"
+    },
+    {
+     "page": 4,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "nistration of Novavax COVID-19 Vaccine, Adjuvanted [see Adverse⏎Reactions (6)].⏎The Cent"
+    },
+    {
+     "page": 4,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "r doses) with Novavax COVID-19 Vaccine,⏎Adjuvanted or with another COVID-19 vaccine manu"
+    },
+    {
+     "page": 4,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "gadministrationofNovavaxCOVID-19Vaccine,Adjuvanted[seeAdverseReactions(6)].TheCentersfor"
+    },
+    {
+     "page": 5,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ge and⏎older⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎Primary Seri"
+    },
+    {
+     "page": 5,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ries⏎⏎26,106⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎1st Booster⏎"
+    },
+    {
+     "page": 5,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "⏎⏎13,353‡, §⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎Primary Seri"
+    },
+    {
+     "page": 6,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "der (Part 2)⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎2nd Booster⏎"
+    },
+    {
+     "page": 6,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ooster⏎⏎259¶⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted (20232024 Formula) ẻ⏎⏎Single Dose⏎⏎33"
+    },
+    {
+     "page": 6,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "uthorized as Novavax⏎⏎COVID-19 Vaccine, Adjuvanted (Original monovalent).⏎⏎‡ Booster dos"
+    },
+    {
+     "page": 7,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "oster dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) were injection "
+    },
+    {
+     "page": 7,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "f any dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) were injection "
+    },
+    {
+     "page": 7,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "lts⏎Safety of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) was assessed in"
+    },
+    {
+     "page": 8,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "eries dose of⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent). Additional sup"
+    },
+    {
+     "page": 8,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "binant spike (rS) protein and Matrix-M® adjuvant but manufactured by a different⏎process"
+    },
+    {
+     "page": 8,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "⏎process than Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent).⏎Study 1 was a "
+    },
+    {
+     "page": 9,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "and Dose 2) ‡⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+    },
+    {
+     "page": 9,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "t,Dose1andDose2)‡NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=16,041"
+    },
+    {
+     "page": 10,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+    },
+    {
+     "page": 10,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ipants in the Novavax COVID-19 Vaccine, Adjuvanted⏎⏎(Original monovalent) group and 7,96"
+    },
+    {
+     "page": 10,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=16,041"
+    },
+    {
+     "page": 11,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "and Dose 2) ‡⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original⏎Monovalent)⏎Dose 1⏎Dose 2⏎N"
+    },
+    {
+     "page": 11,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "t,Dose1andDose2)‡NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=2,293N"
+    },
+    {
+     "page": 12,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Event⏎⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original⏎Monovalent)⏎Dose 1⏎Dose 2⏎N"
+    },
+    {
+     "page": 12,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ipants in the Novavax COVID-19 Vaccine, Adjuvanted⏎⏎(Original monovalent) group and 1,13"
+    },
+    {
+     "page": 12,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ants received Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent) and 9,847 parti"
+    },
+    {
+     "page": 13,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Vaccine, Adjuvanted (Original monovalent) in the pre-cros"
+    },
+    {
+     "page": 13,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " two doses of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) in the⏎post-cro"
+    },
+    {
+     "page": 13,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "imilar in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group (11.8%) a"
+    },
+    {
+     "page": 14,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "⏎who received Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), and 4 (0.04%)⏎"
+    },
+    {
+     "page": 14,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ipants in the Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) arm and 2 (0.02"
+    },
+    {
+     "page": 14,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ipants in⏎the Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) arm and 0 parti"
+    },
+    {
+     "page": 15,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "cipants after⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) and a total of "
+    },
+    {
+     "page": 15,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ter Dose 1 of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) which resolved "
+    },
+    {
+     "page": 15,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "and one of the Novavax COVID19 Vaccine, Adjuvanted (Original monovalent) recipients had "
+    },
+    {
+     "page": 16,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "alysis Set) ‡⏎Novavax COVID-19 Vaccine, Adjuvanted (Original Monovalent)⏎Booster⏎Partici"
+    },
+    {
+     "page": 16,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "fetyAnalysisSet)‡NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)BoosterParticipant"
+    },
+    {
+     "page": 17,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted (Original Monovalent)⏎Booster⏎Partici"
+    },
+    {
+     "page": 17,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "EventNovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)BoosterParticipant"
+    },
+    {
+     "page": 18,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ants received Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent). Of the partici"
+    },
+    {
+     "page": 18,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "oster dose of⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent).⏎One serious ev"
+    },
+    {
+     "page": 18,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted; however,⏎clinical features were also"
+    },
+    {
+     "page": 19,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": " recombinant spike protein and Matrix-M adjuvant, manufactured by a different process⏎th"
+    },
+    {
+     "page": 19,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " process⏎than Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) evaluated in St"
+    },
+    {
+     "page": 19,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " process than Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) evaluated in St"
+    },
+    {
+     "page": 20,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ipants in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group, 286 part"
+    },
+    {
+     "page": 20,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "micron BA.1), Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), and Bivalent⏎V"
+    },
+    {
+     "page": 20,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " 1.5%) in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group, and 4 pa"
+    },
+    {
+     "page": 21,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "cination with⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), the Monovalent"
+    },
+    {
+     "page": 21,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " 4.0%) in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group, and 3 pa"
+    },
+    {
+     "page": 21,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ngvaccinationwithNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent),theMonovalentVacc"
+    },
+    {
+     "page": 22,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "The safety of Novavax COVID-19 Vaccine, Adjuvanted (2023-2024 Formula) administered as a"
+    },
+    {
+     "page": 22,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "cination with Novavax COVID-19 Vaccine, Adjuvanted (2023-2024 Formula) in COVID-19⏎vacci"
+    },
+    {
+     "page": 22,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "gβ⏎Any Grade⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(2023-2024 Formula)⏎Single Dose⏎N=338"
+    },
+    {
+     "page": 23,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(2023-2024 Formula)⏎Single Dose⏎N=338"
+    },
+    {
+     "page": 23,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "EventNovavaxCOVID-19Vaccine,Adjuvanted(2023-2024Formula)SingleDoseN=338n(%)S"
+    },
+    {
+     "page": 24,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "cination with⏎Novavax COVID-19 Vaccine, Adjuvanted (2023-2024 Formula) through end of st"
+    },
+    {
+     "page": 24,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Age⏎Safety of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) in adolescents "
+    },
+    {
+     "page": 24,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "eries dose of Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent).⏎2-Dose Series "
+    },
+    {
+     "page": 25,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " each dose of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent)⏎or placebo in p"
+    },
+    {
+     "page": 25,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "and Dose 2) ‡⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+    },
+    {
+     "page": 25,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "llowingeachdoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)orplaceboinpartici"
+    },
+    {
+     "page": 26,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+    },
+    {
+     "page": 26,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ipants in the Novavax COVID-19 Vaccine, Adjuvanted (Original⏎⏎monovalent) group and 726 "
+    },
+    {
+     "page": 26,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=1,448N"
+    },
+    {
+     "page": 27,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ants⏎received Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) and 745 partici"
+    },
+    {
+     "page": 27,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ants received Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) and 1,354 recei"
+    },
+    {
+     "page": 27,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " two doses of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) in the⏎pre-cros"
+    },
+    {
+     "page": 28,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "oster dose of⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) using an electr"
+    },
+    {
+     "page": 28,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Set) ‡⏎Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(Original Monovalent) Booster⏎N=1,256"
+    },
+    {
+     "page": 28,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "gtheboosterdoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)usinganelectronicd"
+    },
+    {
+     "page": 29,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(Original Monovalent) Booster⏎N=1,256"
+    },
+    {
+     "page": 29,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "EventNovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)BoosterN=1,256n(%)"
+    },
+    {
+     "page": 30,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ants received Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent). Of the partici"
+    },
+    {
+     "page": 30,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent), with no report"
+    },
+    {
+     "page": 30,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "zation use of Novavax⏎COVID-19 Vaccine, Adjuvanted. Because these reactions are reported"
+    },
+    {
+     "page": 31,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "e protein and one-fifth the⏎quantity of adjuvant and formulation buffer inactive ingredi"
+    },
+    {
+     "page": 31,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "s included in Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) on four occasio"
+    },
+    {
+     "page": 31,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "tein (5 mcg), one-fifth the quantity of adjuvant (10 mcg), and⏎inactive ingredients whic"
+    },
+    {
+     "page": 32,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "cination with⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), 12.6% (n=2,480"
+    },
+    {
+     "page": 32,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "oster dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) (n=13,353), 15."
+    },
+    {
+     "page": 32,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "SCRIPTION⏎⏎NUVAXOVID (COVID-19 Vaccine, Adjuvanted) is a colorless to slightly yellow, c"
+    },
+    {
+     "page": 33,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "randomized to⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) or placebo (nor"
+    },
+    {
+     "page": 33,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "s)andrandomizedtoNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)orplacebo(normalsa"
+    },
+    {
+     "page": 34,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) or placebo 21 d"
+    },
+    {
+     "page": 34,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "21) of either Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) (n=17,184) or⏎p"
+    },
+    {
+     "page": 34,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " who received Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent) and those who r"
+    },
+    {
+     "page": 35,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "e efficacy of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) to prevent⏎PCR-"
+    },
+    {
+     "page": 35,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " had received⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), compared with "
+    },
+    {
+     "page": 35,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "nalysis Set )⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Mean⏎Incidence⏎"
+    },
+    {
+     "page": 36,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) in vaccine-expe"
+    },
+    {
+     "page": 36,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ays apart) of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) in the initial "
+    },
+    {
+     "page": 36,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "sofaboosterdoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)invaccine-experien"
+    },
+    {
+     "page": 37,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "econd dose of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) relative to the"
+    },
+    {
+     "page": 37,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ingle dose of Novavax COVID-19 Vaccine, Adjuvanted (20232024 Formula). The primary immun"
+    },
+    {
+     "page": 37,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ertheseconddoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)relativetothetimeo"
+    },
+    {
+     "page": 38,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ingle Dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (2023-2024 Formula) in Vaccine-naïve "
+    },
+    {
+     "page": 38,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "fteraSingleDoseofNovavaxCOVID-19Vaccine,Adjuvanted(2023-2024Formula)inVaccine-naïveParti"
+    },
+    {
+     "page": 39,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "randomized to Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) or placebo (nor"
+    },
+    {
+     "page": 39,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " two doses of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) or placebo 21 d"
+    },
+    {
+     "page": 39,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "psandrandomizedtoNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)orplacebo(normalsa"
+    },
+    {
+     "page": 40,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "e efficacy of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) to prevent PCR-"
+    },
+    {
+     "page": 40,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " who received Novavax⏎COVID-19 Vaccine, Adjuvanted (Original monovalent). One moderate a"
+    },
+    {
+     "page": 40,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "e12.TheefficacyofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)topreventPCR-confi"
+    },
+    {
+     "page": 41,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Analysis Set)⏎Novavax COVID-19 Vaccine, Adjuvanted⏎Placebo⏎(Original Monovalent)⏎Mean⏎Me"
+    },
+    {
+     "page": 41,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) in vaccine-expe"
+    },
+    {
+     "page": 41,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "P-EFFAnalysisSet)NovavaxCOVID-19Vaccine,AdjuvantedPlacebo(OriginalMonovalent)MeanMeanSub"
+    },
+    {
+     "page": 42,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ays apart) of Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) in the initial "
+    },
+    {
+     "page": 42,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "econd dose of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) was > 0.67 and "
+    },
+    {
+     "page": 42,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "5mL21daysapart)ofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)intheinitialvaccin"
+    },
+    {
+     "page": 44,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "IDTM (Noo-VAX-o-vid)⏎(COVID-19 Vaccine, Adjuvanted)⏎(2026-2027 Formula)⏎This summary is "
+    },
+    {
+     "page": 44,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "f NUVAXOVID or Novavax COVID19 Vaccine, Adjuvanted⏎•⏎⏎a severe allergic reaction to any "
+    },
+    {
+     "page": 44,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "AXOVIDTM(Noo-VAX-o-vid)(COVID-19Vaccine,Adjuvanted)(2026-2027Formula)Thissummaryisnotint"
+    },
+    {
+     "page": 45,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " NUVAXOVID or⏎Novavax COVID-19 Vaccine, Adjuvanted. The chance of having this occur is v"
+    },
+    {
+     "page": 45,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ceivedNUVAXOVIDorNovavaxCOVID-19Vaccine,Adjuvanted.Thechanceofhavingthisoccurisverylow.Y"
+    },
+    {
+     "page": 46,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "to moths and butterflies) and Matrix-M® adjuvant containing saponins derived from⏎the so"
+    },
+    {
+     "page": 46,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "elatedtomothsandbutterflies)andMatrix-M®adjuvantcontainingsaponinsderivedfromthesoapbark"
+    }
+   ],
+   "dismissed": "全文掃描『adjuvant』121 個命中：本品全名為『NUVAXOVID (COVID-19 Vaccine, Adjuvanted)』，全文反覆出現的是產品名稱與『Matrix-M adjuvant』（皂樹皂苷佐劑），與鋁鹽佐劑無關，已於本格 related 附 p.32 Matrix-M 成分原句"
+  }
+ }
+}

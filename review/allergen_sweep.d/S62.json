@@ -1,0 +1,107 @@
+{
+ "product": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live)",
+ "source": "S62",
+ "pdf": "sources/國際仿單/麻疹腮腺炎德國麻疹_MMR-II_FDA_2025-11.pdf",
+ "pages": 12,
+ "date": "2026-09-13",
+ "cells": {
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": "命中詞皆為 between 字尾子字串（儲存溫度區間、劑量間隔），非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG"
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

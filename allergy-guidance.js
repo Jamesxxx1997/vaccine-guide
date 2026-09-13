@@ -12,7 +12,13 @@
   const marks=(ids)=>{const sup=node('sup',undefined,'ref-marks');ids.forEach((c,i)=>{const m=node('a','['+(i+1)+']','ref-mark');m.href='#';m.title=(claims[c]?.items?.[0]?.label)||c;m.onclick=e=>e.preventDefault();bind(m,c,'');sup.append(i?' ':'',m);});return sup;};
   const quotesOf=id=>(claims[id]?.items||[]).flatMap(it=>(it.quotes||[]).map(q=>({q,src:it.source,page:it.page,label:it.label})));
   const srcLabel=key=>{const s=((typeof SRC!=='undefined'&&SRC)||{})[key];return s?`${key}｜${s.n}`:key;};
-  const vaccineName=id=>{const v=((typeof VAX!=='undefined'&&VAX)||[]).find(x=>x.id===id);return v?v.n:id;};
+  const vaccineName=id=>{const v=((typeof VAX!=='undefined'&&VAX)||[]).find(x=>x.id===id);if(v)return v.n;const p=(typeof ALLERGENS!=='undefined'?ALLERGENS.products:[]).find(x=>x.vaccine===id&&x.vaccineName);return p?p.vaccineName:(EXTRA_VACCINE_NAMES[id]||id);};
+  const EXTRA_VACCINE_NAMES={menb:'腦膜炎雙球菌 B 型疫苗（Bexsero）',typhoid:'傷寒疫苗（Typhim Vi）',mpox:'M痘疫苗（Jynneos）'};   // 站上 VAX 沒有卡片的疫苗
+  // 仿單來源機關徽章：TFDA（台灣中文仿單）／FDA／EMA／MHRA／TGA…；同一支疫苗的列在矩陣裡相鄰，台灣仿單在前
+  const originLabel=o=>({TFDA:'台灣 TFDA',FDA:'美國 FDA',EMA:'歐盟 EMA',MHRA:'英國 MHRA',HPRA:'愛爾蘭 HPRA',TGA:'澳洲 TGA',Medsafe:'紐西蘭 Medsafe',HSA:'新加坡 HSA',emc:'英國 emc'})[o]||o||'台灣 TFDA';
+  const badge=p=>{const b=node('span',originLabel(p.origin),'origin-badge origin-'+((p.origin||'TFDA').toLowerCase()));b.title=(p.origin==='TFDA'||!p.origin)?'台灣食藥署核准中文仿單':'原廠英文仿單（'+originLabel(p.origin)+'）';return b;};
+  const productTitle=p=>p.product+'｜'+originLabel(p.origin);
+  const ordered=list=>{const rank=p=>(p.origin==='TFDA'||!p.origin)?0:1;const vids=[...new Set(list.map(p=>p.vaccine))];return vids.flatMap(v=>list.filter(p=>p.vaccine===v).sort((a,b)=>rank(a)-rank(b)));};
 
   // ── 指引判讀（中文整理＝本站；每條 claims 為逐字原句） ──
   const RULES=[
@@ -105,9 +111,9 @@
   const row=node('div',undefined,'travel-search-row');
   const selA=node('select'),selB=node('select');selA.id='allergyA';selB.id='allergyB';
   const optA0=node('option','A：對什麼過敏？');optA0.value='';selA.append(optA0);
-  const gProd=node('optgroup');gProd.label='對某支疫苗過敏';for(const p of products){const o=node('option',p.product);o.value='product:'+p.id;gProd.append(o);}if(products.length)selA.append(gProd);
+  const gProd=node('optgroup');gProd.label='對某支疫苗過敏';for(const p of ordered(products)){const o=node('option',productTitle(p));o.value='product:'+p.id;gProd.append(o);}if(products.length)selA.append(gProd);
   const gKey=node('optgroup');gKey.label='對某種成分／過敏原過敏';for(const k of keys){const o=node('option',k.label);o.value='key:'+k.key;gKey.append(o);}if(keys.length)selA.append(gKey);
-  const optB0=node('option','B：想接種的疫苗');optB0.value='';selB.append(optB0);for(const p of products){const o=node('option',p.product+'（'+vaccineName(p.vaccine)+'）');o.value=p.id;selB.append(o);}
+  const optB0=node('option','B：想接種的疫苗');optB0.value='';selB.append(optB0);for(const p of ordered(products)){const o=node('option',productTitle(p)+'（'+vaccineName(p.vaccine)+'）');o.value=p.id;selB.append(o);}
   const result=node('div');result.id='allergyResult';
   const run=()=>{result.replaceChildren();if(window.ReferenceUI)ReferenceUI.clear();if(selA.value&&selB.value)result.append(verdictFor(selA.value,selB.value));};
   selA.onchange=run;selB.onchange=run;row.append(selA,selB);tool.append(row,result);
@@ -118,7 +124,7 @@
   if(products.length){
     const wrap=node('div',undefined,'scroller'),table=node('table');table.id='allergenMatrix';const thead=node('thead'),hr=node('tr');hr.append(node('th','產品'));for(const k of keys)hr.append(node('th',k.label));thead.append(hr);table.append(thead);
     const tbody=node('tbody');
-    for(const p of products){const tr=node('tr');tr.dataset.allergyProduct=p.id;tr.append(node('td',p.product));
+    for(const p of ordered(products)){const tr=node('tr');tr.dataset.allergyProduct=p.id;tr.dataset.origin=p.origin||'TFDA';const th=node('td');th.append(node('div',p.product),badge(p));tr.append(th);
       for(const k of keys){const a=productAllergen(p,k.key);const td=node('td',a?a.status:'未載明','allergy-'+(a?.status==='有'?'yes':a?.status==='無'?'no':'na'));
         if(a?.claim&&!a.related)bind(td,a.claim,a.text);
         // 分片的 note＝仿單同句的但書（例：Bexsero 針筒未檢出乳膠，但用於乳膠敏感者安全性未確立）；「無」不能單獨顯示
@@ -138,7 +144,7 @@
 
   if(products.length){
     const comp=node('section',undefined,'card');comp.dataset.refUi='';comp.append(node('h3','各產品成分段與過敏警語（仿單逐字）'));
-    for(const p of products){const det=node('details');det.append(node('summary',p.product+'（'+vaccineName(p.vaccine)+'）'));
+    for(const p of ordered(products)){const det=node('details');det.append(node('summary',productTitle(p)+'（'+vaccineName(p.vaccine)+'）'));
       for(const c of p.components||[]){const q=node('q',c.text,'adverse-quote');bind(q,c.claim,c.text);const d=node('div');d.append(node('b',c.label+'：'),q);det.append(d);}
       for(const w of p.warnings||[]){const q=node('q',w.text,'adverse-quote');bind(q,w.claim,w.text);const d=node('div');d.append(node('b',w.label+'：'),q);det.append(d);}
       comp.append(det);}

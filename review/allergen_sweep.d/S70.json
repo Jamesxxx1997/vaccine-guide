@@ -1,0 +1,97 @@
+{
+ "product": "Havrix (Hepatitis A Vaccine)",
+ "source": "S70",
+ "pdf": "sources/國際仿單/A型肝炎_Havrix_FDA_2026-05.pdf",
+ "pages": 14,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": "命中詞'hen'皆為'when'字尾，與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白（病毒株於 MRC-5 人類二倍體細胞繁殖）"
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [
+    {
+     "page": 9,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": " more than 40 ng/mL), an aminoglycoside antibiotic included in the cell growth media.⏎HAVR"
+    },
+    {
+     "page": 9,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": "ate(notmorethan40ng/mL),anaminoglycosideantibioticincludedinthecellgrowthmedia.HAVRIXisfor"
+    }
+   ],
+   "dismissed": "命中詞'antibiotic'出自描述 neomycin sulfate 本身（'an aminoglycoside antibiotic'），已列於 neomycin key，非額外的其他抗生素"
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "vaccine": "pcv",
+ "product": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein])",
+ "source": "S63",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {
+   "page": 24,
+   "label": "Description",
+   "quote": "Prevnar 13, Pneumococcal 13-valent Conjugate Vaccine (Diphtheria CRM197 Protein) is a sterile suspension of saccharides of the capsular antigens of Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F, individually linked to non-toxic diphtheria CRM197 protein."
+  },
+  {
+   "page": 25,
+   "label": "Description",
+   "quote": "CRM197 is a nontoxic variant of diphtheria toxin isolated from cultures of Corynebacterium diphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium."
+  },
+  {
+   "page": 25,
+   "label": "Description",
+   "quote": "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of each of Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F saccharides, 4.4 μg of 6B saccharides, 34 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg succinate buffer and 125 μg aluminum as aluminum phosphate adjuvant."
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明",
+   "related": {
+    "page": 25,
+    "quote": "CRM197 is a nontoxic variant of diphtheria toxin isolated from cultures of Corynebacterium diphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium.",
+    "note": "原句講的是載體蛋白 CRM197 的培養基含 yeast extract，仿單未寫疫苗本身含酵母蛋白殘留；與台灣仿單列同一判讀"
+   }
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 25,
+   "quote": "The tip cap and rubber plunger of the prefilled syringe are not made with natural rubber latex."
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "有",
+   "page": 25,
+   "quote": "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of each of Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F saccharides, 4.4 μg of 6B saccharides, 34 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg succinate buffer and 125 μg aluminum as aluminum phosphate adjuvant."
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "未載明"
+  },
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 25,
+   "quote": "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of each of Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F saccharides, 4.4 μg of 6B saccharides, 34 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg succinate buffer and 125 μg aluminum as aluminum phosphate adjuvant."
+  }
+ ],
+ "warnings": [
+  {
+   "label": "Contraindications",
+   "page": 5,
+   "quote": "Severe allergic reaction (e.g., anaphylaxis) to any component of Prevnar 13 or any diphtheria toxoid-containing vaccine [see Description (11)]."
+  },
+  {
+   "label": "Latex",
+   "page": 25,
+   "quote": "The tip cap and rubber plunger of the prefilled syringe are not made with natural rubber latex."
+  }
+ ]
+}

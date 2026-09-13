@@ -1,0 +1,28 @@
+{
+ "vaccine": "mmr",
+ "product": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live)",
+ "source": "S62",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 8, "label": "Description", "quote": "M-M-R II vaccine is a sterile lyophilized preparation of (1) Measles Virus Vaccine Live, an attenuated line of measles virus, derived from Enders' attenuated Edmonston strain and propagated in chick embryo cell culture; (2) Mumps Virus Vaccine Live, the Jeryl Lynn™ (B level) strain of mumps virus propagated in chick embryo cell culture; and (3) Rubella Virus Vaccine Live, the Wistar RA 27/3 strain of live attenuated rubella virus propagated in WI-38 human diploid lung fibroblasts."},
+  {"page": 8, "label": "Description", "quote": "Each dose is calculated to contain sorbitol (14.5 mg), sucrose (1.9 mg), hydrolyzed gelatin (14.5 mg), recombinant human albumin (≤0.3 mg), fetal bovine serum (<1 ppm), approximately 25 mcg of neomycin and other buffer and media ingredients."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "有", "page": 8, "quote": "derived from Enders' attenuated Edmonston strain and propagated in chick embryo cell culture; (2) Mumps Virus Vaccine Live, the Jeryl Lynn™ (B level) strain of mumps virus propagated in chick embryo cell culture"},
+  {"key": "gelatin", "status": "有", "page": 8, "quote": "hydrolyzed gelatin (14.5 mg)"},
+  {"key": "neomycin", "status": "有", "page": 8, "quote": "approximately 25 mcg of neomycin"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明"},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 8, "quote": "The product contains no preservative."},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Contraindications 4.1 Hypersensitivity", "page": 4, "quote": "Do not administer M-M-R II vaccine to individuals with a history of hypersensitivity to any component of the vaccine (including gelatin) {3} or who have experienced a hypersensitivity reaction following administration of a previous dose of M-M-R II vaccine or any other measles, mumps and rubella-containing vaccine."},
+  {"label": "Egg 過敏警語 5.2", "page": 4, "quote": "Individuals with a history of anaphylactic, anaphylactoid, or other immediate reactions (e.g., hives, swelling of the mouth and throat, difficulty breathing, hypotension, or shock) subsequent to egg ingestion may be at an enhanced risk of immediate-type hypersensitivity reactions after receiving M-M-R II vaccine."}
+ ],
+ "sweep": {"dismissed": {"peg_polysorbate": "命中詞皆為 between 字尾子字串（儲存溫度區間、劑量間隔），非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG"}}
+}

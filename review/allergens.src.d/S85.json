@@ -1,0 +1,35 @@
+{
+ "vaccine": "hexa",
+ "product": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib)",
+ "source": "S85",
+ "origin": "EMA",
+ "lang": "en",
+ "components": [
+  {"page": 2, "label": "組成", "quote": "The vaccine may contain traces of glutaraldehyde, formaldehyde, neomycin, streptomycin and"},
+  {"page": 2, "label": "佐劑", "quote": "Adsorbed on aluminium hydroxide, hydrated (0.6 mg Al3+)"},
+  {"page": 2, "label": "組成（B型肝炎表面抗原生產宿主）", "quote": "Produced in yeast Hansenula polymorpha cells by recombinant DNA technology"},
+  {"page": 16, "label": "賦形劑 6.1", "quote": "Disodium hydrogen phosphate"},
+  {"page": 16, "label": "賦形劑 6.1", "quote": "Potassium dihydrogen phosphate"},
+  {"page": 16, "label": "賦形劑 6.1", "quote": "Trometamol"},
+  {"page": 16, "label": "賦形劑 6.1", "quote": "Sucrose"},
+  {"page": 16, "label": "賦形劑 6.1", "quote": "Essential amino acids including L-phenylalanine"},
+  {"page": 16, "label": "賦形劑 6.1", "quote": "Sodium hydroxide, acetic acid or hydrochloric acid (for pH adjustment)"},
+  {"page": 16, "label": "賦形劑 6.1", "quote": "Water for injections."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 2, "quote": "The vaccine may contain traces of glutaraldehyde, formaldehyde, neomycin, streptomycin and"},
+  {"key": "other_antibiotics", "status": "有", "page": 2, "quote": "The vaccine may contain traces of glutaraldehyde, formaldehyde, neomycin, streptomycin and"},
+  {"key": "yeast", "status": "有", "page": 2, "quote": "Produced in yeast Hansenula polymorpha cells by recombinant DNA technology"},
+  {"key": "latex", "status": "未載明", "related": {"page": 17, "quote": "0.5 mL of suspension in pre-filled syringe (type I glass) equipped with a plunger stopper (halobutyl)", "note": "預填針筒瓶塞材質為 halobutyl（鹵化丁基橡膠），非天然乳膠，但仿單未明文聲明「不含乳膠」，故列未載明並附此相關原句"}},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "有", "page": 2, "quote": "The vaccine may contain traces of glutaraldehyde, formaldehyde, neomycin, streptomycin and"},
+  {"key": "thimerosal", "status": "未載明"},
+  {"key": "aluminium", "status": "有", "page": 2, "quote": "Adsorbed on aluminium hydroxide, hydrated (0.6 mg Al3+)"}
+ ],
+ "warnings": [
+  {"label": "過敏禁忌 4.3", "page": 4, "quote": "History of an anaphylactic reaction after a previous administration of Hexyon."},
+  {"label": "過敏禁忌 4.3（賦形劑與微量殘留物）", "page": 4, "quote": "Hypersensitivity to the active substances, to any of the excipients listed in section 6.1, to trace"}
+ ]
+}

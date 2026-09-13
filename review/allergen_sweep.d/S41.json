@@ -1,0 +1,155 @@
+{
+ "product": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
+ "source": "S41",
+ "pdf": "sources/仿單/日本腦炎疫苗_禦日腦活性減毒疫苗Imojev(賽諾菲)_TFDA_2023-09-19.pdf",
+ "pages": 12,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [
+    {
+     "page": 11,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "瓶中(第I類玻璃),每個玻璃小瓶都附有一個瓶塞(鹵化丁基(halo-butyl)橡膠)及鋁質套環、一支注射器(聚丙烯)及兩支針頭(不銹鋼)。每個包裝皆含有1瓶粉末、"
+    },
+    {
+     "page": 11,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "(第I類玻璃)內含4次劑量的粉末,附有一個瓶塞(鹵化丁基(halo-butyl)橡膠)及一個鋁質套環。每盒10支裝。每個玻璃小瓶(第I類玻璃)內含4次劑量的稀釋劑,"
+    },
+    {
+     "page": 11,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "第I類玻璃)內含4次劑量的稀釋劑,附有一個瓶塞(鹵化丁基(halo-butyl)橡膠)及一個鋁質套環。每盒10支裝。6.6丟棄及其他處理的注意事項凍晶疫苗應為呈現白"
+    }
+   ],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

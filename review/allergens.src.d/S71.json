@@ -1,0 +1,28 @@
+{
+ "vaccine": "var",
+ "product": "Varivax (Varicella Virus Vaccine Live)",
+ "source": "S71",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 13, "label": "Description／成分", "quote": "This live, attenuated varicella\nvaccine is a lyophilized preparation containing sucrose, phosphate, glutamate, and\nprocessed gelatin as stabilizers."},
+  {"page": 13, "label": "Description／成分", "quote": "Each approximately 0.5 mL dose\nalso contains approximately 24 mg of sucrose, 12.0 mg hydrolyzed gelatin, 3.1 mg of\nsodium chloride, 0.5 mg of monosodium L-glutamate, 0.44 mg of sodium phosphate\ndibasic, 0.08 mg of potassium phosphate monobasic, and 0.08 mg of potassium\nchloride."},
+  {"page": 14, "label": "Description／成分", "quote": "and protein and trace quantities of sodium phosphate monobasic, EDTA, neomycin and\nfetal bovine serum. The product contains no preservative."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "有", "page": 13, "quote": "processed\ngelatin as stabilizers", "note": "與 12.0 mg hydrolyzed gelatin 同段"},
+  {"key": "neomycin", "status": "有", "page": 14, "quote": "and protein and trace quantities of sodium phosphate monobasic, EDTA, neomycin and\nfetal bovine serum."},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明"},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 14, "quote": "The product contains no preservative."},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "sweep": {"dismissed": {"egg": "命中皆為 'embryonic'（human embryonic lung cell cultures，非雞胚）與 'chickenpox'（水痘病名，字面命中 chick 但與蛋／雞胚無關），非蛋類過敏原"}},
+ "warnings": [
+  {"label": "Contraindications", "page": 5, "quote": "Do not administer VARIVAX to individuals with a history of anaphylactic or severe allergic\nreaction to any component of the vaccine (including neomycin and gelatin) or to a\nprevious dose of a varicella-containing vaccine."}
+ ]
+}

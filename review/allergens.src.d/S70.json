@@ -1,0 +1,32 @@
+{
+ "vaccine": "hepa",
+ "product": "Havrix (Hepatitis A Vaccine)",
+ "source": "S70",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 9, "label": "Description／成分", "quote": "HAVRIX (Hepatitis A Vaccine) is a sterile, injectable suspension of inactivated virus for intramuscular use."},
+  {"page": 9, "label": "Description／成分", "quote": "Each 1 mL adult dose of vaccine contains 1440 EL.U. of viral antigen, adsorbed on 0.5 mg of aluminum as\naluminum hydroxide."},
+  {"page": 9, "label": "Description／成分", "quote": "HAVRIX contains the following excipients: Amino acid supplement (0.3% w/v) in a phosphate-buffered saline\nsolution and polysorbate 20 (0.05 mg/mL). From the manufacturing process, HAVRIX also contains residual\nMRC-5 cellular proteins (not more than 5 mcg/mL), formalin (not more than 0.1 mg/mL), and neomycin sulfate\n(not more than 40 ng/mL), an aminoglycoside antibiotic included in the cell growth media."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 9, "quote": "neomycin sulfate\n(not more than 40 ng/mL)"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 9, "quote": "The tip cap and rubber plunger stopper of the prefilled syringe are\nnot made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "有", "page": 9, "quote": "polysorbate 20 (0.05 mg/mL)"},
+  {"key": "formaldehyde", "status": "有", "page": 9, "quote": "formalin (not more than 0.1 mg/mL)"},
+  {"key": "thimerosal", "status": "無", "page": 9, "quote": "HAVRIX is formulated without preservatives."},
+  {"key": "aluminium", "status": "有", "page": 9, "quote": "0.5 mg of aluminum as\naluminum hydroxide"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 3, "quote": "Severe allergic reaction (e.g., anaphylaxis) after a previous dose of any hepatitis A-containing vaccine, or to any\ncomponent of HAVRIX, including neomycin, is a contraindication to administration of HAVRIX"},
+  {"label": "Latex", "page": 9, "quote": "The tip cap and rubber plunger stopper of the prefilled syringe are\nnot made with natural rubber latex."}
+ ],
+ "sweep": {"date": "2026-09-13", "dismissed": {
+  "egg": "命中詞'hen'皆為'when'字尾，與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白（病毒株於 MRC-5 人類二倍體細胞繁殖）",
+  "other_antibiotics": "命中詞'antibiotic'出自描述 neomycin sulfate 本身（'an aminoglycoside antibiotic'），已列於 neomycin key，非額外的其他抗生素"
+ }}
+}

@@ -1,0 +1,251 @@
+{
+ "product": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted)",
+ "source": "S58",
+ "pdf": "sources/國際仿單/帶狀疱疹_Shingrix_FDA_2026-02.pdf",
+ "pages": 27,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [
+    {
+     "page": 2,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "vention of primary varicella infection⏎(chickenpox).⏎⏎-------------------------------"
+    },
+    {
+     "page": 2,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "orpreventionofprimaryvaricellainfection(chickenpox).-------------------------------AD"
+    },
+    {
+     "page": 3,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "vention of primary varicella infection (chickenpox).⏎DOSAGE AND ADMINISTRATION⏎⏎For i"
+    },
+    {
+     "page": 3,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "orpreventionofprimaryvaricellainfection(chickenpox).DOSAGEANDADMINISTRATIONForintramu"
+    },
+    {
+     "page": 16,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "vention of primary varicella infection (chickenpox).⏎8.5⏎⏎Geriatric Use⏎⏎Adults Aged "
+    },
+    {
+     "page": 16,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "orpreventionofprimaryvaricellainfection(chickenpox).8.5GeriatricUseAdultsAged60Yearsa"
+    }
+   ],
+   "dismissed": "命中皆為 chickenpox／hen(when/then 字尾) 子字串，非蛋成分提及；Shingrix gE 抗原為 CHO 細胞培養，仿單未提蛋"
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "⏎⏎SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) injectable⏎suspension, for intramusc"
+    },
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ized gE Antigen⏎Component and a vial of Adjuvant Suspension Component. Reconstitute the⏎"
+    },
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ophilized gE Antigen Component with the Adjuvant Suspension⏎Component to form SHINGRIX p"
+    },
+    {
+     "page": 3,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ized gE Antigen Component and a vial of Adjuvant⏎Suspension Component. Reconstitute the "
+    },
+    {
+     "page": 3,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ophilized gE Antigen Component with the Adjuvant Suspension⏎Component to form SHINGRIX p"
+    },
+    {
+     "page": 3,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ile white powder) with the accompanying Adjuvant⏎Suspension Component (an opalescent, co"
+    },
+    {
+     "page": 4,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ire⏎contents of the vial⏎containing the⏎Adjuvant Suspension⏎Component (liquid) by⏎slight"
+    },
+    {
+     "page": 4,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "wtheentirecontentsofthevialcontainingtheAdjuvantSuspensionComponent(liquid)byslightlytil"
+    },
+    {
+     "page": 15,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "rats administered SHINGRIX or the AS01B adjuvant⏎alone prior to mating, during gestation"
+    },
+    {
+     "page": 15,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "were administered SHINGRIX or the AS01B⏎adjuvant alone by intramuscular injection 28 and"
+    },
+    {
+     "page": 15,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "femaleratsadministeredSHINGRIXortheAS01Badjuvantalonepriortomating,duringgestation,anddu"
+    },
+    {
+     "page": 16,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "⏎⏎SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) is a sterile injectable suspension f"
+    },
+    {
+     "page": 16,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "inant varicella zoster virus gE antigen adjuvanted with AS01B.⏎The vial and vial present"
+    },
+    {
+     "page": 16,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "se with⏎the accompanying vial of AS01B (Adjuvant Suspension Component) to form SHINGRIX."
+    },
+    {
+     "page": 25,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "econstituted with a single-dose vial of Adjuvant Suspension⏎Component (liquid) (packaged"
+    },
+    {
+     "page": 25,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ustbereconstitutedwithasingle-dosevialofAdjuvantSuspensionComponent(liquid)(packagedwith"
+    },
+    {
+     "page": 26,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " SHINGRIX⏎Components⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili"
+    },
+    {
+     "page": 26,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "on⏎Lyophilized gE Antigen Component and Adjuvant Suspension Component vials:⏎•⏎⏎Store re"
+    },
+    {
+     "page": 26,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "tionforSHINGRIXComponentsCartonNDCNumberAdjuvantSuspensionComponent(liquid)LyophilizedgE"
+    }
+   ],
+   "dismissed": "命中皆為 Adjuvant/adjuvant 子字串，AS01B 佐劑組成（MPL+QS-21 脂質體）已列為 related，仿單未另提鋁鹽"
+  }
+ }
+}

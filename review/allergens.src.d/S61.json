@@ -1,0 +1,28 @@
+{
+ "vaccine": "hpv",
+ "product": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant)",
+ "source": "S61",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 13, "label": "Description", "quote": "GARDASIL 9, Human Papillomavirus 9-valent Vaccine, Recombinant, is a non-infectious recombinant 9-valent vaccine prepared from the purified virus-like particles (VLPs) of the major capsid (L1) protein of HPV Types 6, 11, 16, 18, 31, 33, 45, 52, and 58."},
+  {"page": 13, "label": "Description", "quote": "The L1 proteins are produced by separate fermentations using recombinant Saccharomyces cerevisiae and self-assembled into VLPs."},
+  {"page": 13, "label": "Description", "quote": "The purified VLPs are adsorbed on preformed aluminum-containing adjuvant (Amorphous Aluminum Hydroxyphosphate Sulfate or AAHS)."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "無", "page": 13, "quote": "The product does not contain a preservative or antibiotics."},
+  {"key": "yeast", "status": "有", "page": 13, "quote": "Each 0.5-mL dose of the vaccine also contains approximately 500 mcg of aluminum (provided as AAHS), 9.56 mg of sodium chloride, 0.78 mg of L-histidine, 50 mcg of polysorbate 80, 35 mcg of sodium borate, <7 mcg yeast protein, and water for injection."},
+  {"key": "latex", "status": "未載明"},
+  {"key": "peg_polysorbate", "status": "有", "page": 13, "quote": "Each 0.5-mL dose of the vaccine also contains approximately 500 mcg of aluminum (provided as AAHS), 9.56 mg of sodium chloride, 0.78 mg of L-histidine, 50 mcg of polysorbate 80, 35 mcg of sodium borate, <7 mcg yeast protein, and water for injection."},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 13, "quote": "The product does not contain a preservative or antibiotics."},
+  {"key": "aluminium", "status": "有", "page": 13, "quote": "Each 0.5-mL dose of the vaccine also contains approximately 500 mcg of aluminum (provided as AAHS), 9.56 mg of sodium chloride, 0.78 mg of L-histidine, 50 mcg of polysorbate 80, 35 mcg of sodium borate, <7 mcg yeast protein, and water for injection."}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 4, "quote": "Hypersensitivity, including severe allergic reactions to yeast (a vaccine component), or after a previous dose of GARDASIL 9 or GARDASIL [see Description (11)]."}
+ ],
+ "sweep": {"dismissed": {"egg": "命中詞皆為 when 字尾子字串，非蛋成分提及；Gardasil 9 為 Saccharomyces cerevisiae（酵母）表現系統，仿單未提蛋"}}
+}

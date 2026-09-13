@@ -1,0 +1,38 @@
+{
+ "vaccine": "var",
+ "product": "Varilrix (varicella vaccine, live)",
+ "source": "S91",
+ "origin": "MHRA",
+ "lang": "en",
+ "components": [
+  {"page": 1, "label": "Composition", "quote": "Varicella virus1 Oka strain (live, attenuated) not less than 103.3 PFU2"},
+  {"page": 1, "label": "Composition", "quote": "This vaccine contains a trace amount of neomycin (see section 4.3)."},
+  {"page": 1, "label": "Excipients with known effect", "quote": "The vaccine contains 6 mg of sorbitol per dose."},
+  {"page": 1, "label": "Excipients with known effect", "quote": "The vaccine contains 331 micrograms of phenylalanine per dose (see section 4.4)."},
+  {"page": 12, "label": "6.1 List of excipients (Powder)", "quote": "Amino acids (containing phenylalanine)"},
+  {"page": 12, "label": "6.1 List of excipients (Powder)", "quote": "Lactose anhydrous"},
+  {"page": 12, "label": "6.1 List of excipients (Powder)", "quote": "Sorbitol (E 420)"},
+  {"page": 12, "label": "6.1 List of excipients (Powder)", "quote": "Mannitol (E 421)"},
+  {"page": 12, "label": "6.1 List of excipients (Solvent)", "quote": "Water for injections."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 1, "quote": "This vaccine contains a trace amount of neomycin (see section 4.3)."},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明", "related": {"page": 13, "quote": "Powder in a single-dose glass vial (type I glass) with a stopper (bromobutyl rubber).", "note": "瓶塞／針筒活塞材質為 bromobutyl rubber（合成橡膠），非天然乳膠(latex)；仿單未就 latex 過敏另作聲明"}},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "未載明"},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "sweep": {"dismissed": {
+   "egg": "全文掃描6個「chick」命中皆為 chickenpox（水痘疾病名）字串誤命中，與蛋／卵白蛋白無關",
+   "latex": "全文掃描3個「rubber」命中皆為 p.13 瓶塞/活塞材質 bromobutyl rubber（合成丁基橡膠）之重複擷取，非天然乳膠(latex)，已列為 related"
+ }},
+ "warnings": [
+  {"label": "過敏禁忌", "page": 3, "quote": "Hypersensitivity to the active substance or to any of the excipients listed in section 6.1\nor to neomycin. However, a history of contact dermatitis to neomycin is not a\ncontraindication."},
+  {"label": "免疫缺陷禁忌", "page": 3, "quote": "Varilrix is contraindicated in individuals with severe humoral or cellular (primary or\nacquired) immunodeficiency such as (see also section 4.4.):"}
+ ]
+}

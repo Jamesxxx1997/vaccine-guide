@@ -1,0 +1,213 @@
+{
+ "product": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine)",
+ "source": "S80",
+ "pdf": "sources/國際仿單/傷寒_TyphimVi_FDA_2026-06.pdf",
+ "pages": 19,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [
+    {
+     "page": 1,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": " be approximately 10% to 20% in the pre-antibiotic era. (1)⏎(2) (3) During the period of 1"
+    },
+    {
+     "page": 1,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": "portedtobeapproximately10%to20%inthepre-antibioticera.(1)(2)(3)Duringtheperiodof1983to1991"
+    },
+    {
+     "page": 7,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": " Typhim Vi vaccine and drugs (including⏎antibiotics and antimalarial drugs), immune globul"
+    },
+    {
+     "page": 7,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": "ntuseofTyphimVivaccineanddrugs(includingantibioticsandantimalarialdrugs),immuneglobulinsor"
+    }
+   ],
+   "dismissed": "全文掃描『antibiotic』4 個命中：p.1 談傷寒『抗生素前時代（pre-antibiotic era）』死亡率之背景敘述，p.7 為 DRUG INTERACTIONS 段落警語（併用抗生素／抗瘧藥可能影響免疫反應），均非本疫苗成分"
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [
+    {
+     "page": 1,
+     "term": "preservative",
+     "pattern": "preservative",
+     "context": "l⏎content. Phenol, 0.25%, is added as a preservative. The vaccine contains residual⏎polydime"
+    },
+    {
+     "page": 1,
+     "term": "preservative",
+     "pattern": "preservative",
+     "context": "dO-acetylcontent.Phenol,0.25%,isaddedasapreservative.Thevaccinecontainsresidualpolydimethyls"
+    },
+    {
+     "page": 1,
+     "term": "Phenol",
+     "pattern": "phenol",
+     "context": "by molecular size and O-acetyl⏎content. Phenol, 0.25%, is added as a preservative. The"
+    },
+    {
+     "page": 1,
+     "term": "Phenol",
+     "pattern": "phenol",
+     "context": "sessedbymolecularsizeandO-acetylcontent.Phenol,0.25%,isaddedasapreservative.Thevaccine"
+    },
+    {
+     "page": 19,
+     "term": "PHENOL",
+     "pattern": "phenol",
+     "context": "(UNII: 5QWK665956)⏎⏎0.023 mg in 0.5 mL⏎⏎PHENOL (UNII: 339NCG44TV)⏎⏎1.25 mg in 0.5 mL⏎⏎"
+    },
+    {
+     "page": 19,
+     "term": "PHENOL",
+     "pattern": "phenol",
+     "context": "DIHYDRATE(UNII:5QWK665956)0.023mgin0.5mLPHENOL(UNII:339NCG44TV)1.25mgin0.5mLWATER(UNII"
+    }
+   ],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

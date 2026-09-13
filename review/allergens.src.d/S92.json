@@ -1,0 +1,34 @@
+{
+ "vaccine": "rabies",
+ "product": "Rabipur (Rabies Vaccine Inactivated, PCECV)",
+ "source": "S92",
+ "origin": "MHRA",
+ "lang": "en",
+ "components": [
+  {"page": 1, "label": "組成", "quote": "This vaccine contains residues of chicken proteins (e.g., ovalbumin), human serum"},
+  {"page": 1, "label": "組成", "quote": "albumin, and may contain traces of neomycin, chlortetracycline and amphotericin B."},
+  {"page": 10, "label": "賦形劑 6.1（凍晶粉劑）", "quote": "Trometamol"},
+  {"page": 10, "label": "賦形劑 6.1（凍晶粉劑）", "quote": "Sodium chloride"},
+  {"page": 10, "label": "賦形劑 6.1（凍晶粉劑）", "quote": "Disodium edetate"},
+  {"page": 10, "label": "賦形劑 6.1（凍晶粉劑）", "quote": "Potassium-L-glutamate"},
+  {"page": 10, "label": "賦形劑 6.1（凍晶粉劑）", "quote": "Polygeline"},
+  {"page": 10, "label": "賦形劑 6.1（凍晶粉劑）", "quote": "Sucrose"},
+  {"page": 10, "label": "賦形劑 6.1（溶劑）", "quote": "Water for injection"}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "有", "page": 1, "quote": "This vaccine contains residues of chicken proteins (e.g., ovalbumin), human serum"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 1, "quote": "albumin, and may contain traces of neomycin, chlortetracycline and amphotericin B."},
+  {"key": "other_antibiotics", "status": "有", "page": 1, "quote": "albumin, and may contain traces of neomycin, chlortetracycline and amphotericin B.", "related": {"page": 5, "quote": "may contain traces of antibiotics (see", "note": "4.4 節重申：可能含微量抗生素殘留（呼應第2節的 neomycin、chlortetracycline、amphotericin B）"}},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明", "related": {"page": 11, "quote": "1 vial (type I glass) of freeze-dried vaccine with stopper (chlorobutyl or bromobutyl)", "note": "瓶塞／針筒材質為 chlorobutyl、bromobutyl 橡膠或 polypropylene，未提及 latex（乳膠）"}},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "未載明"},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "禁忌", "page": 5, "quote": "History of a severe hypersensitivity reaction to the active substance, to any of the"},
+  {"label": "過敏反應警語（含蛋／雞蛋蛋白、抗生素殘留）", "page": 5, "quote": "contains the excipient polygeline, residues of chicken proteins (e.g.,"}
+ ]
+}

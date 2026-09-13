@@ -1,0 +1,28 @@
+{
+ "vaccine": "mpox",
+ "vaccineName": "M痘疫苗（Jynneos）",
+ "product": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation",
+ "source": "S81",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 12, "label": "Description", "quote": "JYNNEOS is a live vaccine produced from the strain Modified Vaccinia Ankara-Bavarian Nordic (MVA-BN), an attenuated, non-replicating orthopoxvirus. MVA-BN is grown in primary Chicken Embryo Fibroblast (CEF) cells suspended in a serum-free medium containing no material of direct animal origin, harvested from the CEF cells, purified and concentrated by several Tangential Flow Filtration (TFF) steps including benzonase digestion."},
+  {"page": 13, "label": "Description", "quote": "and may contain residual amounts of host-cell DNA (≤20 mcg), protein (≤500 mcg), benzonase (≤0.0025 mcg), gentamicin (≤0.400 mcg), and ciprofloxacin (≤0.005 mcg)."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明", "related": {"page": 12, "quote": "MVA-BN is grown in primary Chicken Embryo Fibroblast (CEF) cells suspended in a serum-free medium containing no material of direct animal origin, harvested from the CEF cells, purified and concentrated by several Tangential Flow Filtration (TFF) steps including benzonase digestion.", "note": "以雞胚纖維母細胞（CEF）培養病毒株，非雞蛋（胚卵）培養；仿單未提及卵白蛋白／egg protein 殘留，故仍列未載明，附此製程原句供對照"}},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "有", "page": 13, "quote": "and may contain residual amounts of host-cell DNA (≤20 mcg), protein (≤500 mcg), benzonase (≤0.0025 mcg), gentamicin (≤0.400 mcg), and ciprofloxacin (≤0.005 mcg).", "note": "殘留 gentamicin（胺基糖苷類）與 ciprofloxacin（氟喹諾酮類），非 neomycin"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 13, "quote": "JYNNEOS is formulated without preservatives. The vial stoppers are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 13, "quote": "JYNNEOS is formulated without preservatives. The vial stoppers are not made with natural rubber latex.", "note": "無防腐劑，故不含硫柳汞"},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Severe Allergic Reactions", "page": 4, "quote": "Persons who experienced a severe allergic reaction following a previous dose of JYNNEOS or following exposure to any component of JYNNEOS may be at increased risk for severe allergic reactions after JYNNEOS."}
+ ],
+ "sweep": {"dismissed": {"egg": "全文掃描『embryo/chick』6 個命中：p.11 為 8.1 Pregnancy 段落『embryo-fetal and post-natal development』生殖毒理學敘述（與雞蛋無關）；p.12 的 Chicken Embryo Fibroblast (CEF) 已判讀為 related 附於本格"}}
+}

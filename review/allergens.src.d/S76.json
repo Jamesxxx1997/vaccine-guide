@@ -1,0 +1,102 @@
+{
+ "vaccine": "rsv",
+ "product": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)",
+ "source": "S76",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {
+   "page": 18,
+   "label": "Description／成分",
+   "quote": "The RSVPreF3 antigen is expressed by culturing genetically engineered Chinese Hamster Ovary cells in media\ncontaining no antibiotics or animal-derived proteins."
+  },
+  {
+   "page": 18,
+   "label": "Description／成分",
+   "quote": "The AS01E adjuvant is composed of 3-O-desacyl-4’-monophosphoryl lipid A (MPL) from Salmonella\nminnesota and QS-21, a saponin purified from plant extract Quillaja saponaria Molina, combined in a\nliposomal formulation."
+  },
+  {
+   "page": 18,
+   "label": "Description／成分",
+   "quote": "After reconstitution of the vial and vial presentation, each 0.5 mL dose is formulated to contain 120 mcg of the\nrecombinant RSVPreF3 antigen, 25 mcg of MPL, and 25 mcg of QS-21. Each dose also contains 14.7 mg of\nTrehalose, 4.4 mg of sodium chloride, 0.83 mg of potassium dihydrogen phosphate, 0.26 mg of dipotassium\nphosphate, 0.18 mg of polysorbate 80, 0.15 mg of disodium phosphate anhydrous, 0.5 mg of DOPC, and\n0.125 mg of cholesterol."
+  },
+  {
+   "page": 19,
+   "label": "Description／成分",
+   "quote": "AREXVY contains no preservative."
+  },
+  {
+   "page": 19,
+   "label": "Description／成分",
+   "quote": "The stopper of the vial containing Lyophilized Antigen Component or Adjuvant Suspension Component and the\ntip cap and plunger stopper of the prefilled syringe containing Adjuvant Suspension Component are not made\nwith natural rubber latex."
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "無",
+   "page": 18,
+   "quote": "The RSVPreF3 antigen is expressed by culturing genetically engineered Chinese Hamster Ovary cells in media\ncontaining no antibiotics or animal-derived proteins."
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 19,
+   "quote": "The stopper of the vial containing Lyophilized Antigen Component or Adjuvant Suspension Component and the\ntip cap and plunger stopper of the prefilled syringe containing Adjuvant Suspension Component are not made\nwith natural rubber latex."
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "有",
+   "page": 18,
+   "quote": "After reconstitution of the vial and vial presentation, each 0.5 mL dose is formulated to contain 120 mcg of the\nrecombinant RSVPreF3 antigen, 25 mcg of MPL, and 25 mcg of QS-21. Each dose also contains 14.7 mg of\nTrehalose, 4.4 mg of sodium chloride, 0.83 mg of potassium dihydrogen phosphate, 0.26 mg of dipotassium\nphosphate, 0.18 mg of polysorbate 80, 0.15 mg of disodium phosphate anhydrous, 0.5 mg of DOPC, and\n0.125 mg of cholesterol."
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "無",
+   "page": 19,
+   "quote": "AREXVY contains no preservative."
+  },
+  {
+   "key": "aluminium",
+   "status": "未載明",
+   "related": {
+    "page": 18,
+    "quote": "The AS01E adjuvant is composed of 3-O-desacyl-4’-monophosphoryl lipid A (MPL) from Salmonella\nminnesota and QS-21, a saponin purified from plant extract Quillaja saponaria Molina, combined in a\nliposomal formulation.",
+    "note": "佐劑為 AS01E（MPL＋QS-21 脂質體），Description 未列任何鋁鹽"
+   }
+  }
+ ],
+ "sweep": {
+  "dismissed": {
+   "egg": "唯一命中為 'embryo-fetal'（動物生殖毒理學用詞，如 embryo-fetal development），與蛋／雞胚無關",
+   "aluminium": "命中皆為 'Adjuvant'／'adjuvanted'／'unadjuvanted' 泛指本品 AS01E 佐劑系統或他廠佐劑流感疫苗，本品佐劑組成已於 Description 明載為 MPL＋QS-21 脂質體，非鋁鹽"
+  }
+ },
+ "warnings": [
+  {
+   "label": "Contraindications",
+   "page": 5,
+   "quote": "Do not administer AREXVY to anyone with a history of a severe allergic reaction (e.g., anaphylaxis) to any\ncomponent of AREXVY [see Description (11)]."
+  }
+ ]
+}

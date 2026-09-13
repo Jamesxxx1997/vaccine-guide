@@ -1,0 +1,31 @@
+{
+ "vaccine": "flu",
+ "product": "Fluarix Quadrivalent (Influenza Vaccine)",
+ "source": "S67",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 17, "label": "Description／成分", "quote": "FLUARIX QUADRIVALENT is prepared from influenza viruses\npropagated in embryonated chicken eggs."},
+  {"page": 17, "label": "Description／成分", "quote": "FLUARIX QUADRIVALENT is formulated without preservatives. FLUARIX QUADRIVALENT does\nnot contain thimerosal. Each 0.5-mL dose also contains octoxynol-10 (TRITON X-100) 0.115 mg, α-\ntocopheryl hydrogen succinate 0.135 mg, and polysorbate 80 (Tween 80) 0.550 mg."},
+  {"page": 17, "label": "Description／成分", "quote": "Each dose may\nalso contain residual amounts of hydrocortisone 0.0015 mcg, gentamicin sulfate 0.15 mcg, ovalbumin\n0.050 mcg, formaldehyde 5 mcg, and sodium deoxycholate 65 mcg from the manufacturing process."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "有", "page": 17, "quote": "ovalbumin\n0.050 mcg"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "有", "page": 17, "quote": "gentamicin sulfate 0.15 mcg", "note": "gentamicin，非 neomycin"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 17, "quote": "The tip caps and plungers of the prefilled syringes of FLUARIX QUADRIVALENT are not made with\nnatural rubber latex."},
+  {"key": "peg_polysorbate", "status": "有", "page": 17, "quote": "polysorbate 80 (Tween 80) 0.550 mg"},
+  {"key": "formaldehyde", "status": "有", "page": 17, "quote": "formaldehyde 5 mcg"},
+  {"key": "thimerosal", "status": "無", "page": 17, "quote": "FLUARIX QUADRIVALENT does\nnot contain thimerosal."},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 4, "quote": "Do not administer FLUARIX QUADRIVALENT to anyone with a history of severe allergic reactions\n(e.g., anaphylaxis) to any component of the vaccine, including egg protein, or following a previous\nadministration of any influenza vaccine"},
+  {"label": "Latex", "page": 17, "quote": "The tip caps and plungers of the prefilled syringes of FLUARIX QUADRIVALENT are not made with\nnatural rubber latex."}
+ ],
+ "sweep": {"date": "2026-09-13", "dismissed": {
+  "aluminium": "命中詞'Adjuvanted'皆指共同施打對照之 SHINGRIX（Zoster Vaccine Recombinant, Adjuvanted）的品名，非 Fluarix Quadrivalent 本身含佐劑；Description 段明確未提鋁或任何佐劑成分"
+ }}
+}

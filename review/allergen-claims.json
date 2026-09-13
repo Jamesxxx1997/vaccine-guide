@@ -2544,6 +2544,4777 @@
      "label": "RotaTeq(輪達停) · 接種後過敏不應再接種"
     }
    ]
+  },
+  "al:S58:comp:0": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) is a sterile injectable suspension for intramuscular use that contains recombinant varicella zoster virus gE antigen adjuvanted with AS01B."
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · Description"
+    }
+   ]
+  },
+  "al:S58:comp:1": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "The gE antigen is obtained by culturing genetically engineered Chinese Hamster Ovary cells, which carry a truncated gE gene, in media containing amino acids, with no albumin, antibiotics, or animal-derived proteins."
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · Description"
+    }
+   ]
+  },
+  "al:S58:comp:2": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5-mL dose is formulated to contain 50 mcg of the recombinant gE antigen, 50 mcg of MPL, and 50 mcg of QS-21."
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · Description"
+    }
+   ]
+  },
+  "al:S58:other_antibiotics": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "The gE antigen is obtained by culturing genetically engineered Chinese Hamster Ovary cells, which carry a truncated gE gene, in media containing amino acids, with no albumin, antibiotics, or animal-derived proteins."
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：無"
+    }
+   ]
+  },
+  "al:S58:latex": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "In the vial and vial presentation, the vial stoppers are not made with natural rubber latex."
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S58:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "0.08 mg of polysorbate 80"
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S58:thimerosal": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "SHINGRIX does not contain preservatives."
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S58:aluminium:related": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "The AS01B adjuvant is composed of 3-O-desacyl-4’-monophosphoryl lipid A (MPL) derived from Salmonella minnesota and QS-21, a saponin purified from Quillaja saponaria Molina plant extract, and is combined in a liposomal"
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · 鋁佐劑：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S58:warn:0": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer SHINGRIX to anyone with a history of a severe allergic reaction (e.g., anaphylaxis) to any component of the vaccine or after a previous dose of SHINGRIX [see Description (11)]."
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · Contraindications"
+    }
+   ]
+  },
+  "al:S58:warn:1": {
+   "items": [
+    {
+     "source": "S58",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "In the prefilled syringe presentation, the tip cap and rubber plunger stopper are not made with natural rubber latex."
+     ],
+     "label": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted) · Latex"
+    }
+   ]
+  },
+  "al:S59:comp:0": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "VAQTA is an inactivated whole virus vaccine derived from hepatitis A virus grown in cell culture in human MRC-5 diploid fibroblasts."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · Description"
+    }
+   ]
+  },
+  "al:S59:comp:1": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "The virus is grown, harvested, purified by a combination of physical and high performance liquid chromatographic techniques developed at the Merck Research Laboratories, formalin inactivated, and then adsorbed onto amorphous aluminum hydroxyphosphate sulfate."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · Description"
+    }
+   ]
+  },
+  "al:S59:comp:2": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "Within the limits of current assay variability, the 50U dose of VAQTA contains less than 0.1 mcg of non-viral protein, less than 4 x 10–6 mcg of DNA, less than 10–4 mcg of bovine albumin, and less than 0.8 mcg of formaldehyde."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · Description"
+    }
+   ]
+  },
+  "al:S59:neomycin": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "Other process chemical residuals are less than 10 parts per billion (ppb), including neomycin."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S59:latex": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "The vial stopper and the syringe plunger stopper and tip cap contain dry natural latex rubber that may cause allergic reactions in latex-sensitive individuals [see How Supplied/Storage and Handling (16)]."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · 乳膠（針筒／瓶塞）：有"
+    }
+   ]
+  },
+  "al:S59:formaldehyde": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "Within the limits of current assay variability, the 50U dose of VAQTA contains less than 0.1 mcg of non-viral protein, less than 4 x 10–6 mcg of DNA, less than 10–4 mcg of bovine albumin, and less than 0.8 mcg of formaldehyde."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S59:thimerosal": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "One milliliter of the vaccine contains approximately 50U of hepatitis A virus antigen, which is purified and formulated without a preservative."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S59:aluminium": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "Each 1-mL adult dose contains 50U of hepatitis A virus antigen and adsorbed onto approximately 0.45 mg of aluminum provided as amorphous aluminum hydroxyphosphate sulfate, and 70 mcg of sodium borate as a pH stabilizer, in 0.9% sodium chloride."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S59:warn:0": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer VAQTA to individuals with a history of immediate and/or severe allergic or hypersensitivity reactions (e.g., anaphylaxis) after a previous dose of any hepatitis A vaccine, or to individuals who have had an anaphylactic reaction to any component of VAQTA, including neomycin [see Description (11)]."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · Contraindications"
+    }
+   ]
+  },
+  "al:S59:warn:1": {
+   "items": [
+    {
+     "source": "S59",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "The vial stopper and the syringe plunger stopper and tip cap contain dry natural latex rubber that may cause allergic reactions in latex-sensitive individuals [see How Supplied/Storage and Handling (16)]."
+     ],
+     "label": "VAQTA (Hepatitis A Vaccine, Inactivated) · Latex"
+    }
+   ]
+  },
+  "al:S60:comp:0": {
+   "items": [
+    {
+     "source": "S60",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "ENGERIX-B [Hepatitis B Vaccine (Recombinant)] is a sterile, injectable suspension of noninfectious HBsAg for intramuscular use."
+     ],
+     "label": "Engerix-B (Hepatitis B Vaccine Recombinant) · Description"
+    }
+   ]
+  },
+  "al:S60:comp:1": {
+   "items": [
+    {
+     "source": "S60",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "It contains purified surface antigen of the virus obtained by culturing genetically engineered Saccharomyces cerevisiae cells, which carry the surface antigen gene of the hepatitis B virus."
+     ],
+     "label": "Engerix-B (Hepatitis B Vaccine Recombinant) · Description"
+    }
+   ]
+  },
+  "al:S60:comp:2": {
+   "items": [
+    {
+     "source": "S60",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The HBsAg expressed in the cells is purified by several physicochemical steps and formulated as a suspension of the antigen adsorbed on aluminum hydroxide."
+     ],
+     "label": "Engerix-B (Hepatitis B Vaccine Recombinant) · Description"
+    }
+   ]
+  },
+  "al:S60:yeast": {
+   "items": [
+    {
+     "source": "S60",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The procedures used to manufacture ENGERIX-B result in a product that contains no more than 5% yeast protein."
+     ],
+     "label": "Engerix-B (Hepatitis B Vaccine Recombinant) · 酵母：有"
+    }
+   ]
+  },
+  "al:S60:latex": {
+   "items": [
+    {
+     "source": "S60",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and rubber plunger stopper of the prefilled syringe are not made with natural rubber latex."
+     ],
+     "label": "Engerix-B (Hepatitis B Vaccine Recombinant) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S60:thimerosal": {
+   "items": [
+    {
+     "source": "S60",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "ENGERIX-B is formulated without preservatives."
+     ],
+     "label": "Engerix-B (Hepatitis B Vaccine Recombinant) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S60:aluminium": {
+   "items": [
+    {
+     "source": "S60",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Each 1 mL adult dose contains 20 mcg of HBsAg adsorbed on 0.5 mg aluminum as aluminum hydroxide."
+     ],
+     "label": "Engerix-B (Hepatitis B Vaccine Recombinant) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S60:warn:0": {
+   "items": [
+    {
+     "source": "S60",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Severe allergic reaction (e.g., anaphylaxis) after a previous dose of any hepatitis B-containing vaccine, or to any component of ENGERIX-B, including yeast, is a contraindication to administration of ENGERIX-B [see Description (11)]."
+     ],
+     "label": "Engerix-B (Hepatitis B Vaccine Recombinant) · Contraindications"
+    }
+   ]
+  },
+  "al:S60:warn:1": {
+   "items": [
+    {
+     "source": "S60",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The vial stoppers are not made with natural rubber latex."
+     ],
+     "label": "Engerix-B (Hepatitis B Vaccine Recombinant) · Latex"
+    }
+   ]
+  },
+  "al:S61:comp:0": {
+   "items": [
+    {
+     "source": "S61",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "GARDASIL 9, Human Papillomavirus 9-valent Vaccine, Recombinant, is a non-infectious recombinant 9-valent vaccine prepared from the purified virus-like particles (VLPs) of the major capsid (L1) protein of HPV Types 6, 11, 16, 18, 31, 33, 45, 52, and 58."
+     ],
+     "label": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant) · Description"
+    }
+   ]
+  },
+  "al:S61:comp:1": {
+   "items": [
+    {
+     "source": "S61",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "The L1 proteins are produced by separate fermentations using recombinant Saccharomyces cerevisiae and self-assembled into VLPs."
+     ],
+     "label": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant) · Description"
+    }
+   ]
+  },
+  "al:S61:comp:2": {
+   "items": [
+    {
+     "source": "S61",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "The purified VLPs are adsorbed on preformed aluminum-containing adjuvant (Amorphous Aluminum Hydroxyphosphate Sulfate or AAHS)."
+     ],
+     "label": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant) · Description"
+    }
+   ]
+  },
+  "al:S61:other_antibiotics": {
+   "items": [
+    {
+     "source": "S61",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "The product does not contain a preservative or antibiotics."
+     ],
+     "label": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：無"
+    }
+   ]
+  },
+  "al:S61:yeast": {
+   "items": [
+    {
+     "source": "S61",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5-mL dose of the vaccine also contains approximately 500 mcg of aluminum (provided as AAHS), 9.56 mg of sodium chloride, 0.78 mg of L-histidine, 50 mcg of polysorbate 80, 35 mcg of sodium borate, <7 mcg yeast protein, and water for injection."
+     ],
+     "label": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant) · 酵母：有"
+    }
+   ]
+  },
+  "al:S61:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S61",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5-mL dose of the vaccine also contains approximately 500 mcg of aluminum (provided as AAHS), 9.56 mg of sodium chloride, 0.78 mg of L-histidine, 50 mcg of polysorbate 80, 35 mcg of sodium borate, <7 mcg yeast protein, and water for injection."
+     ],
+     "label": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S61:thimerosal": {
+   "items": [
+    {
+     "source": "S61",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "The product does not contain a preservative or antibiotics."
+     ],
+     "label": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S61:aluminium": {
+   "items": [
+    {
+     "source": "S61",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5-mL dose of the vaccine also contains approximately 500 mcg of aluminum (provided as AAHS), 9.56 mg of sodium chloride, 0.78 mg of L-histidine, 50 mcg of polysorbate 80, 35 mcg of sodium borate, <7 mcg yeast protein, and water for injection."
+     ],
+     "label": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S61:warn:0": {
+   "items": [
+    {
+     "source": "S61",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Hypersensitivity, including severe allergic reactions to yeast (a vaccine component), or after a previous dose of GARDASIL 9 or GARDASIL [see Description (11)]."
+     ],
+     "label": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant) · Contraindications"
+    }
+   ]
+  },
+  "al:S62:comp:0": {
+   "items": [
+    {
+     "source": "S62",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "M-M-R II vaccine is a sterile lyophilized preparation of (1) Measles Virus Vaccine Live, an attenuated line of measles virus, derived from Enders' attenuated Edmonston strain and propagated in chick embryo cell culture; (2) Mumps Virus Vaccine Live, the Jeryl Lynn™ (B level) strain of mumps virus propagated in chick embryo cell culture; and (3) Rubella Virus Vaccine Live, the Wistar RA 27/3 strain of live attenuated rubella virus propagated in WI-38 human diploid lung fibroblasts."
+     ],
+     "label": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live) · Description"
+    }
+   ]
+  },
+  "al:S62:comp:1": {
+   "items": [
+    {
+     "source": "S62",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose is calculated to contain sorbitol (14.5 mg), sucrose (1.9 mg), hydrolyzed gelatin (14.5 mg), recombinant human albumin (≤0.3 mg), fetal bovine serum (<1 ppm), approximately 25 mcg of neomycin and other buffer and media ingredients."
+     ],
+     "label": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live) · Description"
+    }
+   ]
+  },
+  "al:S62:egg": {
+   "items": [
+    {
+     "source": "S62",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "derived from Enders' attenuated Edmonston strain and propagated in chick embryo cell culture; (2) Mumps Virus Vaccine Live, the Jeryl Lynn™ (B level) strain of mumps virus propagated in chick embryo cell culture"
+     ],
+     "label": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live) · 蛋（卵白蛋白／雞胚）：有"
+    }
+   ]
+  },
+  "al:S62:gelatin": {
+   "items": [
+    {
+     "source": "S62",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "hydrolyzed gelatin (14.5 mg)"
+     ],
+     "label": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live) · 明膠：有"
+    }
+   ]
+  },
+  "al:S62:neomycin": {
+   "items": [
+    {
+     "source": "S62",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "approximately 25 mcg of neomycin"
+     ],
+     "label": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S62:thimerosal": {
+   "items": [
+    {
+     "source": "S62",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "The product contains no preservative."
+     ],
+     "label": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S62:warn:0": {
+   "items": [
+    {
+     "source": "S62",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer M-M-R II vaccine to individuals with a history of hypersensitivity to any component of the vaccine (including gelatin) {3} or who have experienced a hypersensitivity reaction following administration of a previous dose of M-M-R II vaccine or any other measles, mumps and rubella-containing vaccine."
+     ],
+     "label": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live) · Contraindications 4.1 Hypersensitivity"
+    }
+   ]
+  },
+  "al:S62:warn:1": {
+   "items": [
+    {
+     "source": "S62",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Individuals with a history of anaphylactic, anaphylactoid, or other immediate reactions (e.g., hives, swelling of the mouth and throat, difficulty breathing, hypotension, or shock) subsequent to egg ingestion may be at an enhanced risk of immediate-type hypersensitivity reactions after receiving M-M-R II vaccine."
+     ],
+     "label": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live) · Egg 過敏警語 5.2"
+    }
+   ]
+  },
+  "al:S63:comp:0": {
+   "items": [
+    {
+     "source": "S63",
+     "page": 24,
+     "glyphRows": true,
+     "quotes": [
+      "Prevnar 13, Pneumococcal 13-valent Conjugate Vaccine (Diphtheria CRM197 Protein) is a sterile suspension of saccharides of the capsular antigens of Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F, individually linked to non-toxic diphtheria CRM197 protein."
+     ],
+     "label": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein]) · Description"
+    }
+   ]
+  },
+  "al:S63:comp:1": {
+   "items": [
+    {
+     "source": "S63",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "CRM197 is a nontoxic variant of diphtheria toxin isolated from cultures of Corynebacterium diphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium."
+     ],
+     "label": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein]) · Description"
+    }
+   ]
+  },
+  "al:S63:comp:2": {
+   "items": [
+    {
+     "source": "S63",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of each of Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F saccharides, 4.4 μg of 6B saccharides, 34 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg succinate buffer and 125 μg aluminum as aluminum phosphate adjuvant."
+     ],
+     "label": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein]) · Description"
+    }
+   ]
+  },
+  "al:S63:yeast:related": {
+   "items": [
+    {
+     "source": "S63",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "CRM197 is a nontoxic variant of diphtheria toxin isolated from cultures of Corynebacterium diphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium."
+     ],
+     "label": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein]) · 酵母：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S63:latex": {
+   "items": [
+    {
+     "source": "S63",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and rubber plunger of the prefilled syringe are not made with natural rubber latex."
+     ],
+     "label": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein]) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S63:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S63",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of each of Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F saccharides, 4.4 μg of 6B saccharides, 34 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg succinate buffer and 125 μg aluminum as aluminum phosphate adjuvant."
+     ],
+     "label": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein]) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S63:aluminium": {
+   "items": [
+    {
+     "source": "S63",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of each of Streptococcus pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F saccharides, 4.4 μg of 6B saccharides, 34 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg succinate buffer and 125 μg aluminum as aluminum phosphate adjuvant."
+     ],
+     "label": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein]) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S63:warn:0": {
+   "items": [
+    {
+     "source": "S63",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Severe allergic reaction (e.g., anaphylaxis) to any component of Prevnar 13 or any diphtheria toxoid-containing vaccine [see Description (11)]."
+     ],
+     "label": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein]) · Contraindications"
+    }
+   ]
+  },
+  "al:S63:warn:1": {
+   "items": [
+    {
+     "source": "S63",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and rubber plunger of the prefilled syringe are not made with natural rubber latex."
+     ],
+     "label": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein]) · Latex"
+    }
+   ]
+  },
+  "al:S64:comp:0": {
+   "items": [
+    {
+     "source": "S64",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "PNEUMOVAX 23 (Pneumococcal Vaccine Polyvalent) is a sterile, liquid vaccine consisting of a mixture of purified capsular polysaccharides from Streptococcus pneumoniae types (1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19F, 19A, 20, 22F, 23F, and 33F)."
+     ],
+     "label": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent) · Description"
+    }
+   ]
+  },
+  "al:S64:comp:1": {
+   "items": [
+    {
+     "source": "S64",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5-mL dose of vaccine contains 25 micrograms of each polysaccharide type in isotonic saline solution containing 0.25% phenol as a preservative."
+     ],
+     "label": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent) · Description"
+    }
+   ]
+  },
+  "al:S64:latex": {
+   "items": [
+    {
+     "source": "S64",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The vial stoppers, syringe plunger stopper and syringe tip cap are not made with natural rubber latex."
+     ],
+     "label": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S64:thimerosal:related": {
+   "items": [
+    {
+     "source": "S64",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5-mL dose of vaccine contains 25 micrograms of each polysaccharide type in isotonic saline solution containing 0.25% phenol as a preservative."
+     ],
+     "label": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent) · 硫柳汞：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S64:warn:0": {
+   "items": [
+    {
+     "source": "S64",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer PNEUMOVAX 23 to individuals with a history of anaphylactic/anaphylactoid or severe allergic reaction to any component of the vaccine. [See Description (11).]"
+     ],
+     "label": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent) · Contraindications 4.1 Hypersensitivity"
+    }
+   ]
+  },
+  "al:S64:warn:1": {
+   "items": [
+    {
+     "source": "S64",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The vial stoppers, syringe plunger stopper and syringe tip cap are not made with natural rubber latex."
+     ],
+     "label": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent) · Latex"
+    }
+   ]
+  },
+  "al:S65:comp:0": {
+   "items": [
+    {
+     "source": "S65",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Adacel is a sterile isotonic injectable suspension of tetanus and diphtheria toxoids and pertussis antigens adsorbed on aluminum phosphate, for intramuscular use."
+     ],
+     "label": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed) · Description／成分"
+    }
+   ]
+  },
+  "al:S65:comp:1": {
+   "items": [
+    {
+     "source": "S65",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Other ingredients per 0.5 mL dose include 1.5 mg aluminum phosphate (0.33 mg aluminum) as the adjuvant, ≤5 mcg residual formaldehyde, <50 ng residual glutaraldehyde and 3.3 mg (0.6% v/v) 2-phenoxyethanol (not as a preservative)."
+     ],
+     "label": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed) · Description／成分"
+    }
+   ]
+  },
+  "al:S65:latex": {
+   "items": [
+    {
+     "source": "S65",
+     "page": 23,
+     "glyphRows": true,
+     "quotes": [
+      "Syringe, without needle, single-dose – NDC 49281-400-89 (not made with natural rubber latex);"
+     ],
+     "label": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S65:formaldehyde": {
+   "items": [
+    {
+     "source": "S65",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "≤5 mcg residual formaldehyde"
+     ],
+     "label": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S65:thimerosal": {
+   "items": [
+    {
+     "source": "S65",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Adacel does not contain a preservative."
+     ],
+     "label": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S65:aluminium": {
+   "items": [
+    {
+     "source": "S65",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "1.5 mg aluminum phosphate (0.33 mg aluminum) as the adjuvant"
+     ],
+     "label": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S65:warn:0": {
+   "items": [
+    {
+     "source": "S65",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "A severe allergic reaction (e.g., anaphylaxis) after a previous dose of any tetanus toxoid, diphtheria toxoid or pertussis containing vaccine or any other component of this vaccine is a contraindication to administration of Adacel."
+     ],
+     "label": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed) · Contraindications"
+    }
+   ]
+  },
+  "al:S65:warn:1": {
+   "items": [
+    {
+     "source": "S65",
+     "page": 23,
+     "glyphRows": true,
+     "quotes": [
+      "package of 5 vials; NDC 49281-400-05. The vial\nstopper is not made with natural rubber latex."
+     ],
+     "label": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed) · Latex"
+    }
+   ]
+  },
+  "al:S66:comp:0": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 18,
+     "glyphRows": true,
+     "quotes": [
+      "BOOSTRIX (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) is a\nnoninfectious, sterile, injectable suspension for intramuscular use."
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · Description／成分"
+    }
+   ]
+  },
+  "al:S66:comp:1": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose contains aluminum hydroxide as adjuvant (formulated to contain 0.3 mg aluminum) and\n4.4 mg of sodium chloride."
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · Description／成分"
+    }
+   ]
+  },
+  "al:S66:comp:2": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose also contains ≤100 mcg of\nresidual formaldehyde and ≤100 mcg of polysorbate 80 (Tween 80)."
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · Description／成分"
+    }
+   ]
+  },
+  "al:S66:latex": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and rubber plunger stopper of the prefilled\nsyringe are not made with natural rubber latex."
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S66:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "≤100 mcg of polysorbate 80 (Tween 80)"
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S66:formaldehyde": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "≤100 mcg of\nresidual formaldehyde"
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S66:thimerosal": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "BOOSTRIX is formulated without preservatives."
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S66:aluminium": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose contains aluminum hydroxide as adjuvant (formulated to contain 0.3 mg aluminum)"
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S66:warn:0": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "BOOSTRIX is contraindicated in individuals with a known history of severe allergic reaction (e.g.,\nanaphylaxis) to any component of BOOSTRIX or after a previous dose of any tetanus toxoid-, diphtheria\ntoxoid-, or pertussis antigen-containing vaccine"
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · Contraindications"
+    }
+   ]
+  },
+  "al:S66:warn:1": {
+   "items": [
+    {
+     "source": "S66",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "The vial stoppers are not made with natural rubber latex."
+     ],
+     "label": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) · Latex"
+    }
+   ]
+  },
+  "al:S67:comp:0": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "FLUARIX QUADRIVALENT is prepared from influenza viruses\npropagated in embryonated chicken eggs."
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S67:comp:1": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "FLUARIX QUADRIVALENT is formulated without preservatives. FLUARIX QUADRIVALENT does\nnot contain thimerosal. Each 0.5-mL dose also contains octoxynol-10 (TRITON X-100) 0.115 mg, α-\ntocopheryl hydrogen succinate 0.135 mg, and polysorbate 80 (Tween 80) 0.550 mg."
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S67:comp:2": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose may\nalso contain residual amounts of hydrocortisone 0.0015 mcg, gentamicin sulfate 0.15 mcg, ovalbumin\n0.050 mcg, formaldehyde 5 mcg, and sodium deoxycholate 65 mcg from the manufacturing process."
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S67:egg": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "ovalbumin\n0.050 mcg"
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · 蛋（卵白蛋白／雞胚）：有"
+    }
+   ]
+  },
+  "al:S67:other_antibiotics": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "gentamicin sulfate 0.15 mcg"
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+    }
+   ]
+  },
+  "al:S67:latex": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "The tip caps and plungers of the prefilled syringes of FLUARIX QUADRIVALENT are not made with\nnatural rubber latex."
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S67:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "polysorbate 80 (Tween 80) 0.550 mg"
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S67:formaldehyde": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "formaldehyde 5 mcg"
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S67:thimerosal": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "FLUARIX QUADRIVALENT does\nnot contain thimerosal."
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S67:warn:0": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer FLUARIX QUADRIVALENT to anyone with a history of severe allergic reactions\n(e.g., anaphylaxis) to any component of the vaccine, including egg protein, or following a previous\nadministration of any influenza vaccine"
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · Contraindications"
+    }
+   ]
+  },
+  "al:S67:warn:1": {
+   "items": [
+    {
+     "source": "S67",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "The tip caps and plungers of the prefilled syringes of FLUARIX QUADRIVALENT are not made with\nnatural rubber latex."
+     ],
+     "label": "Fluarix Quadrivalent (Influenza Vaccine) · Latex"
+    }
+   ]
+  },
+  "al:S68:comp:0": {
+   "items": [
+    {
+     "source": "S68",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "BEXSERO (Meningococcal Group B Vaccine) is a sterile, white, opalescent, injectable\nsuspension for intramuscular use."
+     ],
+     "label": "Bexsero (Meningococcal Group B Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S68:comp:1": {
+   "items": [
+    {
+     "source": "S68",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "50 mcg each of recombinant proteins Neisserial adhesin A (NadA), Neisserial Heparin Binding\nAntigen (NHBA), and factor H binding protein (fHbp), and 25 mcg of Outer Membrane Vesicles\n(OMV), 1.5 mg aluminum hydroxide (0.519 mg of Al3+), 3.125 mg sodium chloride, 0.776 mg\nhistidine, and 10 mg sucrose at pH 6.4 to 6.7."
+     ],
+     "label": "Bexsero (Meningococcal Group B Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S68:comp:2": {
+   "items": [
+    {
+     "source": "S68",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose contains less than 0.01 mcg kanamycin (by calculation)."
+     ],
+     "label": "Bexsero (Meningococcal Group B Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S68:other_antibiotics": {
+   "items": [
+    {
+     "source": "S68",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose contains less than 0.01 mcg kanamycin (by calculation)."
+     ],
+     "label": "Bexsero (Meningococcal Group B Vaccine) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+    }
+   ]
+  },
+  "al:S68:latex": {
+   "items": [
+    {
+     "source": "S68",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and rubber plunger stopper of the prefilled syringe are not made with natural rubber\nlatex."
+     ],
+     "label": "Bexsero (Meningococcal Group B Vaccine) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S68:aluminium": {
+   "items": [
+    {
+     "source": "S68",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "1.5 mg aluminum hydroxide (0.519 mg of Al3+)"
+     ],
+     "label": "Bexsero (Meningococcal Group B Vaccine) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S68:warn:0": {
+   "items": [
+    {
+     "source": "S68",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer BEXSERO to individuals with a history of a severe allergic reaction (e.g.,\nanaphylaxis) to any component of BEXSERO or after a previous dose of BEXSERO"
+     ],
+     "label": "Bexsero (Meningococcal Group B Vaccine) · Contraindications"
+    }
+   ]
+  },
+  "al:S68:warn:1": {
+   "items": [
+    {
+     "source": "S68",
+     "page": 15,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and rubber plunger stopper of the prefilled syringe are not made with natural rubber\nlatex."
+     ],
+     "label": "Bexsero (Meningococcal Group B Vaccine) · Latex"
+    }
+   ]
+  },
+  "al:S69:comp:0": {
+   "items": [
+    {
+     "source": "S69",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "RotaTeq is a live, oral pentavalent vaccine that contains 5 live reassortant rotaviruses."
+     ],
+     "label": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent) · Description／成分"
+    }
+   ]
+  },
+  "al:S69:comp:1": {
+   "items": [
+    {
+     "source": "S69",
+     "page": 11,
+     "glyphRows": true,
+     "quotes": [
+      "Each vaccine dose contains sucrose,\nsodium citrate, sodium phosphate monobasic monohydrate, sodium hydroxide, polysorbate 80, cell culture\nmedia, and trace amounts of fetal bovine serum. RotaTeq contains no preservatives."
+     ],
+     "label": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent) · Description／成分"
+    }
+   ]
+  },
+  "al:S69:latex": {
+   "items": [
+    {
+     "source": "S69",
+     "page": 11,
+     "glyphRows": true,
+     "quotes": [
+      "The ampule\nand the plastic tube and cap do not contain latex."
+     ],
+     "label": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S69:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S69",
+     "page": 11,
+     "glyphRows": true,
+     "quotes": [
+      "polysorbate 80"
+     ],
+     "label": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S69:thimerosal": {
+   "items": [
+    {
+     "source": "S69",
+     "page": 11,
+     "glyphRows": true,
+     "quotes": [
+      "RotaTeq contains no preservatives."
+     ],
+     "label": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S69:warn:0": {
+   "items": [
+    {
+     "source": "S69",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "RotaTeq is contraindicated in infants with a demonstrated history of hypersensitivity to any component\nof the vaccine."
+     ],
+     "label": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent) · Contraindications"
+    }
+   ]
+  },
+  "al:S69:warn:1": {
+   "items": [
+    {
+     "source": "S69",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "The ampule, and the plastic tube and cap do not contain latex."
+     ],
+     "label": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent) · Latex"
+    }
+   ]
+  },
+  "al:S70:comp:0": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "HAVRIX (Hepatitis A Vaccine) is a sterile, injectable suspension of inactivated virus for intramuscular use."
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S70:comp:1": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "Each 1 mL adult dose of vaccine contains 1440 EL.U. of viral antigen, adsorbed on 0.5 mg of aluminum as\naluminum hydroxide."
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S70:comp:2": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "HAVRIX contains the following excipients: Amino acid supplement (0.3% w/v) in a phosphate-buffered saline\nsolution and polysorbate 20 (0.05 mg/mL). From the manufacturing process, HAVRIX also contains residual\nMRC-5 cellular proteins (not more than 5 mcg/mL), formalin (not more than 0.1 mg/mL), and neomycin sulfate\n(not more than 40 ng/mL), an aminoglycoside antibiotic included in the cell growth media."
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S70:neomycin": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "neomycin sulfate\n(not more than 40 ng/mL)"
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S70:latex": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and rubber plunger stopper of the prefilled syringe are\nnot made with natural rubber latex."
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S70:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "polysorbate 20 (0.05 mg/mL)"
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S70:formaldehyde": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "formalin (not more than 0.1 mg/mL)"
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S70:thimerosal": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "HAVRIX is formulated without preservatives."
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S70:aluminium": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "0.5 mg of aluminum as\naluminum hydroxide"
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S70:warn:0": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Severe allergic reaction (e.g., anaphylaxis) after a previous dose of any hepatitis A-containing vaccine, or to any\ncomponent of HAVRIX, including neomycin, is a contraindication to administration of HAVRIX"
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · Contraindications"
+    }
+   ]
+  },
+  "al:S70:warn:1": {
+   "items": [
+    {
+     "source": "S70",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and rubber plunger stopper of the prefilled syringe are\nnot made with natural rubber latex."
+     ],
+     "label": "Havrix (Hepatitis A Vaccine) · Latex"
+    }
+   ]
+  },
+  "al:S71:comp:0": {
+   "items": [
+    {
+     "source": "S71",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "This live, attenuated varicella\nvaccine is a lyophilized preparation containing sucrose, phosphate, glutamate, and\nprocessed gelatin as stabilizers."
+     ],
+     "label": "Varivax (Varicella Virus Vaccine Live) · Description／成分"
+    }
+   ]
+  },
+  "al:S71:comp:1": {
+   "items": [
+    {
+     "source": "S71",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Each approximately 0.5 mL dose\nalso contains approximately 24 mg of sucrose, 12.0 mg hydrolyzed gelatin, 3.1 mg of\nsodium chloride, 0.5 mg of monosodium L-glutamate, 0.44 mg of sodium phosphate\ndibasic, 0.08 mg of potassium phosphate monobasic, and 0.08 mg of potassium\nchloride."
+     ],
+     "label": "Varivax (Varicella Virus Vaccine Live) · Description／成分"
+    }
+   ]
+  },
+  "al:S71:comp:2": {
+   "items": [
+    {
+     "source": "S71",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "and protein and trace quantities of sodium phosphate monobasic, EDTA, neomycin and\nfetal bovine serum. The product contains no preservative."
+     ],
+     "label": "Varivax (Varicella Virus Vaccine Live) · Description／成分"
+    }
+   ]
+  },
+  "al:S71:gelatin": {
+   "items": [
+    {
+     "source": "S71",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "processed\ngelatin as stabilizers"
+     ],
+     "label": "Varivax (Varicella Virus Vaccine Live) · 明膠：有"
+    }
+   ]
+  },
+  "al:S71:neomycin": {
+   "items": [
+    {
+     "source": "S71",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "and protein and trace quantities of sodium phosphate monobasic, EDTA, neomycin and\nfetal bovine serum."
+     ],
+     "label": "Varivax (Varicella Virus Vaccine Live) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S71:thimerosal": {
+   "items": [
+    {
+     "source": "S71",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "The product contains no preservative."
+     ],
+     "label": "Varivax (Varicella Virus Vaccine Live) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S71:warn:0": {
+   "items": [
+    {
+     "source": "S71",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer VARIVAX to individuals with a history of anaphylactic or severe allergic\nreaction to any component of the vaccine (including neomycin and gelatin) or to a\nprevious dose of a varicella-containing vaccine."
+     ],
+     "label": "Varivax (Varicella Virus Vaccine Live) · Contraindications"
+    }
+   ]
+  },
+  "al:S72:comp:0": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "N. meningitidis strains A, C, Y,\nand W-135 are each cultured and grown on Franz Complete medium and treated with\nformaldehyde."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S72:comp:1": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "C. diphtheriae is cultured and grown on CY medium\ncontaining yeast extracts and amino acids."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S72:comp:2": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine contains no preservative or adjuvant."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S72:comp:3": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "Residual formaldehyde per\ndose is estimated to be not more than 0.30 mcg."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S72:comp:4": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "The container closures (synthetic rubber stoppers) are not made with natural rubber latex."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S72:yeast": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "C. diphtheriae is cultured and grown on CY medium\ncontaining yeast extracts and amino acids."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · 酵母：有"
+    }
+   ]
+  },
+  "al:S72:latex": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "The container closures (synthetic rubber stoppers) are not made with natural rubber latex."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S72:formaldehyde": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "N. meningitidis strains A, C, Y,\nand W-135 are each cultured and grown on Franz Complete medium and treated with\nformaldehyde."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S72:thimerosal": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine contains no preservative or adjuvant."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S72:aluminium": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 25,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine contains no preservative or adjuvant."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · 鋁佐劑：無"
+    }
+   ]
+  },
+  "al:S72:warn:0": {
+   "items": [
+    {
+     "source": "S72",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer MENVEO to individuals with a severe allergic reaction (e.g., anaphylaxis) to\na previous dose of MENVEO, to any component of this vaccine, or to any other diphtheria\ntoxoid-containing vaccine."
+     ],
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · Contraindications"
+    }
+   ]
+  },
+  "al:S73:comp:0": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "Each\nS. pneumoniae serotype is grown in media containing yeast extract, dextrose, salts and soy peptone."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S73:comp:1": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "The final vaccine is prepared by blending the fifteen glycoconjugates\nwith aluminum phosphate adjuvant in a final buffer containing histidine, polysorbate 20 and sodium chloride."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S73:comp:2": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose contains 2.0 mcg each of S. pneumoniae polysaccharide serotypes 1, 3, 4, 5, 6A, 7F,\n9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F, and 4.0 mcg of polysaccharide serotype 6B, 30 mcg of CRM197\ncarrier protein, 1.55 mg L-histidine, 1 mg of polysorbate 20, 4.50 mg sodium chloride, and 125 mcg of\naluminum as aluminum phosphate adjuvant."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S73:comp:3": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "VAXNEUVANCE does not contain any preservatives."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S73:comp:4": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and plunger stopper of the prefilled syringe are not made with natural rubber latex."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S73:yeast:related": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "Each\nS. pneumoniae serotype is grown in media containing yeast extract, dextrose, salts and soy peptone."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · 酵母：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S73:latex": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and plunger stopper of the prefilled syringe are not made with natural rubber latex."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S73:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose contains 2.0 mcg each of S. pneumoniae polysaccharide serotypes 1, 3, 4, 5, 6A, 7F,\n9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F, and 4.0 mcg of polysaccharide serotype 6B, 30 mcg of CRM197\ncarrier protein, 1.55 mg L-histidine, 1 mg of polysorbate 20, 4.50 mg sodium chloride, and 125 mcg of\naluminum as aluminum phosphate adjuvant."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S73:thimerosal": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "VAXNEUVANCE does not contain any preservatives."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S73:aluminium": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "The final vaccine is prepared by blending the fifteen glycoconjugates\nwith aluminum phosphate adjuvant in a final buffer containing histidine, polysorbate 20 and sodium chloride."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S73:warn:0": {
+   "items": [
+    {
+     "source": "S73",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer VAXNEUVANCE to individuals with a severe allergic reaction (e.g., anaphylaxis) to any\ncomponent of VAXNEUVANCE or to diphtheria toxoid."
+     ],
+     "label": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine) · Contraindications"
+    }
+   ]
+  },
+  "al:S74:comp:0": {
+   "items": [
+    {
+     "source": "S74",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Each serotype is grown in soy\npeptone broth."
+     ],
+     "label": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20] · Description／成分"
+    }
+   ]
+  },
+  "al:S74:comp:1": {
+   "items": [
+    {
+     "source": "S74",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "CRM197 is a non-toxic variant of diphtheria toxin isolated from cultures of Corynebacterium\ndiphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium or in a chemically-\ndefined medium."
+     ],
+     "label": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20] · Description／成分"
+    }
+   ]
+  },
+  "al:S74:comp:2": {
+   "items": [
+    {
+     "source": "S74",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of\neach of S. pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F,\n33F saccharides, 4.4 μg of 6B saccharides, 51 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg\nsuccinate buffer, 4.4 mg sodium chloride, and 125 μg aluminum as aluminum phosphate adjuvant."
+     ],
+     "label": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20] · Description／成分"
+    }
+   ]
+  },
+  "al:S74:comp:3": {
+   "items": [
+    {
+     "source": "S74",
+     "page": 32,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and plunger stopper of the pre-filled syringe are not made with natural rubber latex."
+     ],
+     "label": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20] · How Supplied"
+    }
+   ]
+  },
+  "al:S74:yeast:related": {
+   "items": [
+    {
+     "source": "S74",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "CRM197 is a non-toxic variant of diphtheria toxin isolated from cultures of Corynebacterium\ndiphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium or in a chemically-\ndefined medium."
+     ],
+     "label": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20] · 酵母：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S74:latex": {
+   "items": [
+    {
+     "source": "S74",
+     "page": 32,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and plunger stopper of the pre-filled syringe are not made with natural rubber latex."
+     ],
+     "label": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20] · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S74:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S74",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of\neach of S. pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F,\n33F saccharides, 4.4 μg of 6B saccharides, 51 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg\nsuccinate buffer, 4.4 mg sodium chloride, and 125 μg aluminum as aluminum phosphate adjuvant."
+     ],
+     "label": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20] · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S74:aluminium": {
+   "items": [
+    {
+     "source": "S74",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of\neach of S. pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F,\n33F saccharides, 4.4 μg of 6B saccharides, 51 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg\nsuccinate buffer, 4.4 mg sodium chloride, and 125 μg aluminum as aluminum phosphate adjuvant."
+     ],
+     "label": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20] · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S74:warn:0": {
+   "items": [
+    {
+     "source": "S74",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer Prevnar 20 to individuals with a severe allergic reaction (e.g., anaphylaxis) to any component\nof Prevnar 20 or to diphtheria toxoid [see Description (11)]."
+     ],
+     "label": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20] · Contraindications"
+    }
+   ]
+  },
+  "al:S75:comp:0": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "PRIORIX contains the Schwarz strain of live attenuated measles virus, the RIT 4385 strain of live attenuated\nmumps virus (derived from the Jeryl Lynn strain), both propagated in chick-embryo fibroblasts from\nembryonated eggs of specific pathogen-free flocks and the Wistar RA 27/3 strain of live attenuated rubella virus\npropagated in MRC-5 human diploid cells."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · Description／成分"
+    }
+   ]
+  },
+  "al:S75:comp:1": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose may also contain residual amounts of neomycin sulphate (≤25 mcg), ovalbumin (≤60 ng),\nand bovine serum albumin (≤50 ng), from the manufacturing process."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · Description／成分"
+    }
+   ]
+  },
+  "al:S75:comp:2": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "PRIORIX contains no preservative."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · Description／成分"
+    }
+   ]
+  },
+  "al:S75:comp:3": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "The stopper of the vial containing Lyophilized Antigen Component, Live and the tip cap and rubber plunger\nstopper of the prefilled syringe containing Sterile Water Diluent Component are not made with natural rubber\nlatex."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · Description／成分"
+    }
+   ]
+  },
+  "al:S75:egg": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose may also contain residual amounts of neomycin sulphate (≤25 mcg), ovalbumin (≤60 ng),\nand bovine serum albumin (≤50 ng), from the manufacturing process."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · 蛋（卵白蛋白／雞胚）：有"
+    }
+   ]
+  },
+  "al:S75:neomycin": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose may also contain residual amounts of neomycin sulphate (≤25 mcg), ovalbumin (≤60 ng),\nand bovine serum albumin (≤50 ng), from the manufacturing process."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · Neomycin：有"
+    }
+   ]
+  },
+  "al:S75:other_antibiotics:related": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "media free from antibiotics and albumin."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · 其他抗生素（kanamycin、polymyxin、gentamicin…）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S75:latex": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "The stopper of the vial containing Lyophilized Antigen Component, Live and the tip cap and rubber plunger\nstopper of the prefilled syringe containing Sterile Water Diluent Component are not made with natural rubber\nlatex."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S75:thimerosal": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "PRIORIX contains no preservative."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S75:warn:0": {
+   "items": [
+    {
+     "source": "S75",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer PRIORIX to individuals with a history of severe allergic reactions (e.g., anaphylaxis) to any\ncomponent of the vaccine or after a previous dose of any measles, mumps, and rubella virus-containing vaccine\n[see Description (11)]."
+     ],
+     "label": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022 · Contraindications"
+    }
+   ]
+  },
+  "al:S76:comp:0": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 18,
+     "glyphRows": true,
+     "quotes": [
+      "The RSVPreF3 antigen is expressed by culturing genetically engineered Chinese Hamster Ovary cells in media\ncontaining no antibiotics or animal-derived proteins."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · Description／成分"
+    }
+   ]
+  },
+  "al:S76:comp:1": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 18,
+     "glyphRows": true,
+     "quotes": [
+      "The AS01E adjuvant is composed of 3-O-desacyl-4’-monophosphoryl lipid A (MPL) from Salmonella\nminnesota and QS-21, a saponin purified from plant extract Quillaja saponaria Molina, combined in a\nliposomal formulation."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · Description／成分"
+    }
+   ]
+  },
+  "al:S76:comp:2": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 18,
+     "glyphRows": true,
+     "quotes": [
+      "After reconstitution of the vial and vial presentation, each 0.5 mL dose is formulated to contain 120 mcg of the\nrecombinant RSVPreF3 antigen, 25 mcg of MPL, and 25 mcg of QS-21. Each dose also contains 14.7 mg of\nTrehalose, 4.4 mg of sodium chloride, 0.83 mg of potassium dihydrogen phosphate, 0.26 mg of dipotassium\nphosphate, 0.18 mg of polysorbate 80, 0.15 mg of disodium phosphate anhydrous, 0.5 mg of DOPC, and\n0.125 mg of cholesterol."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · Description／成分"
+    }
+   ]
+  },
+  "al:S76:comp:3": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "AREXVY contains no preservative."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · Description／成分"
+    }
+   ]
+  },
+  "al:S76:comp:4": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "The stopper of the vial containing Lyophilized Antigen Component or Adjuvant Suspension Component and the\ntip cap and plunger stopper of the prefilled syringe containing Adjuvant Suspension Component are not made\nwith natural rubber latex."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · Description／成分"
+    }
+   ]
+  },
+  "al:S76:other_antibiotics": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 18,
+     "glyphRows": true,
+     "quotes": [
+      "The RSVPreF3 antigen is expressed by culturing genetically engineered Chinese Hamster Ovary cells in media\ncontaining no antibiotics or animal-derived proteins."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：無"
+    }
+   ]
+  },
+  "al:S76:latex": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "The stopper of the vial containing Lyophilized Antigen Component or Adjuvant Suspension Component and the\ntip cap and plunger stopper of the prefilled syringe containing Adjuvant Suspension Component are not made\nwith natural rubber latex."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S76:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 18,
+     "glyphRows": true,
+     "quotes": [
+      "After reconstitution of the vial and vial presentation, each 0.5 mL dose is formulated to contain 120 mcg of the\nrecombinant RSVPreF3 antigen, 25 mcg of MPL, and 25 mcg of QS-21. Each dose also contains 14.7 mg of\nTrehalose, 4.4 mg of sodium chloride, 0.83 mg of potassium dihydrogen phosphate, 0.26 mg of dipotassium\nphosphate, 0.18 mg of polysorbate 80, 0.15 mg of disodium phosphate anhydrous, 0.5 mg of DOPC, and\n0.125 mg of cholesterol."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S76:thimerosal": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "AREXVY contains no preservative."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S76:aluminium:related": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 18,
+     "glyphRows": true,
+     "quotes": [
+      "The AS01E adjuvant is composed of 3-O-desacyl-4’-monophosphoryl lipid A (MPL) from Salmonella\nminnesota and QS-21, a saponin purified from plant extract Quillaja saponaria Molina, combined in a\nliposomal formulation."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · 鋁佐劑：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S76:warn:0": {
+   "items": [
+    {
+     "source": "S76",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer AREXVY to anyone with a history of a severe allergic reaction (e.g., anaphylaxis) to any\ncomponent of AREXVY [see Description (11)]."
+     ],
+     "label": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted) · Contraindications"
+    }
+   ]
+  },
+  "al:S77:comp:0": {
+   "items": [
+    {
+     "source": "S77",
+     "page": 22,
+     "glyphRows": true,
+     "quotes": [
+      "The RSV preF A and RSV preF B recombinant proteins are expressed in genetically engineered Chinese\nHamster Ovary cell lines grown in suspension culture using chemically-defined media, without antibiotics or\nanimal-derived components."
+     ],
+     "label": "Abrysvo (Respiratory Syncytial Virus Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S77:comp:1": {
+   "items": [
+    {
+     "source": "S77",
+     "page": 22,
+     "glyphRows": true,
+     "quotes": [
+      "After reconstitution, a single dose of ABRYSVO is formulated to contain 120 mcg of RSV stabilized prefusion\nF proteins (60 mcg RSV preF A and 60 mcg RSV preF B) per 0.5 mL. ABRYSVO also contains the following\nbuffer ingredients: 0.11 mg tromethamine, 1.04 mg tromethamine hydrochloride, 11.3 mg sucrose, 22.5 mg\nmannitol, 0.08 mg polysorbate 80, and 1.1 mg sodium chloride per 0.5 mL."
+     ],
+     "label": "Abrysvo (Respiratory Syncytial Virus Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S77:comp:2": {
+   "items": [
+    {
+     "source": "S77",
+     "page": 22,
+     "glyphRows": true,
+     "quotes": [
+      "ABRYSVO contains no preservatives."
+     ],
+     "label": "Abrysvo (Respiratory Syncytial Virus Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S77:comp:3": {
+   "items": [
+    {
+     "source": "S77",
+     "page": 22,
+     "glyphRows": true,
+     "quotes": [
+      "The Act-O-Vial stoppers, vial stoppers and tip cap and rubber plunger of the prefilled syringe are not made with\nnatural rubber latex."
+     ],
+     "label": "Abrysvo (Respiratory Syncytial Virus Vaccine) · Description／成分"
+    }
+   ]
+  },
+  "al:S77:other_antibiotics": {
+   "items": [
+    {
+     "source": "S77",
+     "page": 22,
+     "glyphRows": true,
+     "quotes": [
+      "The RSV preF A and RSV preF B recombinant proteins are expressed in genetically engineered Chinese\nHamster Ovary cell lines grown in suspension culture using chemically-defined media, without antibiotics or\nanimal-derived components."
+     ],
+     "label": "Abrysvo (Respiratory Syncytial Virus Vaccine) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：無"
+    }
+   ]
+  },
+  "al:S77:latex": {
+   "items": [
+    {
+     "source": "S77",
+     "page": 22,
+     "glyphRows": true,
+     "quotes": [
+      "The Act-O-Vial stoppers, vial stoppers and tip cap and rubber plunger of the prefilled syringe are not made with\nnatural rubber latex."
+     ],
+     "label": "Abrysvo (Respiratory Syncytial Virus Vaccine) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S77:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S77",
+     "page": 22,
+     "glyphRows": true,
+     "quotes": [
+      "After reconstitution, a single dose of ABRYSVO is formulated to contain 120 mcg of RSV stabilized prefusion\nF proteins (60 mcg RSV preF A and 60 mcg RSV preF B) per 0.5 mL. ABRYSVO also contains the following\nbuffer ingredients: 0.11 mg tromethamine, 1.04 mg tromethamine hydrochloride, 11.3 mg sucrose, 22.5 mg\nmannitol, 0.08 mg polysorbate 80, and 1.1 mg sodium chloride per 0.5 mL."
+     ],
+     "label": "Abrysvo (Respiratory Syncytial Virus Vaccine) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S77:thimerosal": {
+   "items": [
+    {
+     "source": "S77",
+     "page": 22,
+     "glyphRows": true,
+     "quotes": [
+      "ABRYSVO contains no preservatives."
+     ],
+     "label": "Abrysvo (Respiratory Syncytial Virus Vaccine) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S77:warn:0": {
+   "items": [
+    {
+     "source": "S77",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer ABRYSVO to individuals with a history of a severe allergic reaction (e.g., anaphylaxis) to\nany component of ABRYSVO [see Description (11)]."
+     ],
+     "label": "Abrysvo (Respiratory Syncytial Virus Vaccine) · Contraindications"
+    }
+   ]
+  },
+  "al:S78:comp:0": {
+   "items": [
+    {
+     "source": "S78",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX QUADRIVALENT (Influenza Vaccine) is a subunit influenza vaccine manufactured using cell derived candidate vaccine viruses (CVV) that are propagated in Madin Darby Canine Kidney (MDCK) cells, a continuous cell line."
+     ],
+     "label": "Flucelvax Quadrivalent (Influenza Vaccine) · Description"
+    }
+   ]
+  },
+  "al:S78:comp:1": {
+   "items": [
+    {
+     "source": "S78",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose of FLUCELVAX QUADRIVALENT may contain residual amounts of MDCK cell protein (≤ 25.2 mcg), protein other than HA (≤ 240 mcg), MDCK cell DNA (≤ 10 ng), polysorbate 80 (≤ 1500 mcg), cetyltrimethylammonium bromide (≤ 18 mcg), and β-propiolactone (< 0.5 mcg), which are used in the manufacturing process."
+     ],
+     "label": "Flucelvax Quadrivalent (Influenza Vaccine) · Description"
+    }
+   ]
+  },
+  "al:S78:egg": {
+   "items": [
+    {
+     "source": "S78",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX QUADRIVALENT contains no egg protein or antibiotics."
+     ],
+     "label": "Flucelvax Quadrivalent (Influenza Vaccine) · 蛋（卵白蛋白／雞胚）：無"
+    }
+   ]
+  },
+  "al:S78:other_antibiotics": {
+   "items": [
+    {
+     "source": "S78",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX QUADRIVALENT contains no egg protein or antibiotics."
+     ],
+     "label": "Flucelvax Quadrivalent (Influenza Vaccine) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：無"
+    }
+   ]
+  },
+  "al:S78:yeast:related": {
+   "items": [
+    {
+     "source": "S78",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX QUADRIVALENT (Influenza Vaccine) is a subunit influenza vaccine manufactured using cell derived candidate vaccine viruses (CVV) that are propagated in Madin Darby Canine Kidney (MDCK) cells, a continuous cell line."
+     ],
+     "label": "Flucelvax Quadrivalent (Influenza Vaccine) · 酵母：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S78:latex": {
+   "items": [
+    {
+     "source": "S78",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "The tip caps and plungers of the pre-filled syringes and the multi-dose vial stopper are not made with natural rubber latex."
+     ],
+     "label": "Flucelvax Quadrivalent (Influenza Vaccine) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S78:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S78",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose of FLUCELVAX QUADRIVALENT may contain residual amounts of MDCK cell protein (≤ 25.2 mcg), protein other than HA (≤ 240 mcg), MDCK cell DNA (≤ 10 ng), polysorbate 80 (≤ 1500 mcg), cetyltrimethylammonium bromide (≤ 18 mcg), and β-propiolactone (< 0.5 mcg), which are used in the manufacturing process."
+     ],
+     "label": "Flucelvax Quadrivalent (Influenza Vaccine) · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S78:thimerosal": {
+   "items": [
+    {
+     "source": "S78",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX QUADRIVALENT 5 mL multi-dose vials contain thimerosal, a mercury derivative, added as a preservative."
+     ],
+     "label": "Flucelvax Quadrivalent (Influenza Vaccine) · 硫柳汞：有"
+    }
+   ]
+  },
+  "al:S78:warn:0": {
+   "items": [
+    {
+     "source": "S78",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer FLUCELVAX QUADRIVALENT to anyone with a history of severe allergic reaction (e.g. anaphylaxis) to any component of the vaccine [see Description (11)]."
+     ],
+     "label": "Flucelvax Quadrivalent (Influenza Vaccine) · Contraindications"
+    }
+   ]
+  },
+  "al:S79:comp:0": {
+   "items": [
+    {
+     "source": "S79",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX (Influenza Vaccine) is a trivalent subunit influenza vaccine manufactured using cell derived candidate vaccine viruses (CVV) that are propagated in Madin Darby Canine Kidney (MDCK) cells, a continuous cell line."
+     ],
+     "label": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S79:comp:1": {
+   "items": [
+    {
+     "source": "S79",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose of FLUCELVAX may contain residual amounts of MDCK cell protein (≤ 21.6 mcg), protein other than HA (≤ 225 mcg), MDCK cell DNA (≤ 10 ng), polysorbate 80 (≤ 1125 mcg), cetyltrimethylammonium bromide (≤ 13.5 mcg), and β-propiolactone (< 0.5 mcg), which are used in the manufacturing process."
+     ],
+     "label": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S79:egg": {
+   "items": [
+    {
+     "source": "S79",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX contains no egg protein or antibiotics."
+     ],
+     "label": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula · 蛋（卵白蛋白／雞胚）：無"
+    }
+   ]
+  },
+  "al:S79:other_antibiotics": {
+   "items": [
+    {
+     "source": "S79",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX contains no egg protein or antibiotics."
+     ],
+     "label": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula · 其他抗生素（kanamycin、polymyxin、gentamicin…）：無"
+    }
+   ]
+  },
+  "al:S79:yeast:related": {
+   "items": [
+    {
+     "source": "S79",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX (Influenza Vaccine) is a trivalent subunit influenza vaccine manufactured using cell derived candidate vaccine viruses (CVV) that are propagated in Madin Darby Canine Kidney (MDCK) cells, a continuous cell line."
+     ],
+     "label": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula · 酵母：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S79:latex": {
+   "items": [
+    {
+     "source": "S79",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "The tip caps and plungers of the pre-filled syringes and the multi-dose vial stopper are not made with natural rubber latex."
+     ],
+     "label": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S79:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S79",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose of FLUCELVAX may contain residual amounts of MDCK cell protein (≤ 21.6 mcg), protein other than HA (≤ 225 mcg), MDCK cell DNA (≤ 10 ng), polysorbate 80 (≤ 1125 mcg), cetyltrimethylammonium bromide (≤ 13.5 mcg), and β-propiolactone (< 0.5 mcg), which are used in the manufacturing process."
+     ],
+     "label": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S79:thimerosal": {
+   "items": [
+    {
+     "source": "S79",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "FLUCELVAX 5 mL multi-dose vials contain thimerosal, a mercury derivative, added as a preservative."
+     ],
+     "label": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula · 硫柳汞：有"
+    }
+   ]
+  },
+  "al:S79:warn:0": {
+   "items": [
+    {
+     "source": "S79",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer FLUCELVAX to anyone with a history of a severe allergic reaction (e.g., anaphylaxis) to any component of the vaccine [see Description (11)]."
+     ],
+     "label": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula · Contraindications"
+    }
+   ]
+  },
+  "al:S80:comp:0": {
+   "items": [
+    {
+     "source": "S80",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Typhim Vi®, Typhoid Vi Polysaccharide Vaccine, produced by Sanofi Winthrop Industrie , for intramuscular use, is a sterile solution containing the cell surface Vi polysaccharide extracted from Salmonella enterica serovar Typhi, S typhi Ty2 strain."
+     ],
+     "label": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine) · Description"
+    }
+   ]
+  },
+  "al:S80:comp:1": {
+   "items": [
+    {
+     "source": "S80",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Casein derived raw materials are used early in manufacturing during the fermentation process."
+     ],
+     "label": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine) · Description"
+    }
+   ]
+  },
+  "al:S80:comp:2": {
+   "items": [
+    {
+     "source": "S80",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose may contain residual amounts of formaldehyde (not more than 100 mcg) used for the inactivation of the bacterial culture."
+     ],
+     "label": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine) · Description"
+    }
+   ]
+  },
+  "al:S80:comp:3": {
+   "items": [
+    {
+     "source": "S80",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Phenol, 0.25%, is added as a preservative. The vaccine contains residual polydimethylsiloxane or fatty-acid ester-based antifoam."
+     ],
+     "label": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine) · Description"
+    }
+   ]
+  },
+  "al:S80:latex": {
+   "items": [
+    {
+     "source": "S80",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "The vial stopper and the plunger stopper of the syringe are not made with natural rubber latex."
+     ],
+     "label": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine) · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S80:formaldehyde": {
+   "items": [
+    {
+     "source": "S80",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose may contain residual amounts of formaldehyde (not more than 100 mcg) used for the inactivation of the bacterial culture."
+     ],
+     "label": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S80:thimerosal:related": {
+   "items": [
+    {
+     "source": "S80",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Phenol, 0.25%, is added as a preservative. The vaccine contains residual polydimethylsiloxane or fatty-acid ester-based antifoam."
+     ],
+     "label": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine) · 硫柳汞：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S80:warn:0": {
+   "items": [
+    {
+     "source": "S80",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Typhim Vi vaccine is contraindicated in patients with a history of hypersensitivity to any component of this vaccine."
+     ],
+     "label": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine) · Contraindications"
+    }
+   ]
+  },
+  "al:S81:comp:0": {
+   "items": [
+    {
+     "source": "S81",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "JYNNEOS is a live vaccine produced from the strain Modified Vaccinia Ankara-Bavarian Nordic (MVA-BN), an attenuated, non-replicating orthopoxvirus. MVA-BN is grown in primary Chicken Embryo Fibroblast (CEF) cells suspended in a serum-free medium containing no material of direct animal origin, harvested from the CEF cells, purified and concentrated by several Tangential Flow Filtration (TFF) steps including benzonase digestion."
+     ],
+     "label": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation · Description"
+    }
+   ]
+  },
+  "al:S81:comp:1": {
+   "items": [
+    {
+     "source": "S81",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "and may contain residual amounts of host-cell DNA (≤20 mcg), protein (≤500 mcg), benzonase (≤0.0025 mcg), gentamicin (≤0.400 mcg), and ciprofloxacin (≤0.005 mcg)."
+     ],
+     "label": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation · Description"
+    }
+   ]
+  },
+  "al:S81:egg:related": {
+   "items": [
+    {
+     "source": "S81",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "MVA-BN is grown in primary Chicken Embryo Fibroblast (CEF) cells suspended in a serum-free medium containing no material of direct animal origin, harvested from the CEF cells, purified and concentrated by several Tangential Flow Filtration (TFF) steps including benzonase digestion."
+     ],
+     "label": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation · 蛋（卵白蛋白／雞胚）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S81:other_antibiotics": {
+   "items": [
+    {
+     "source": "S81",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "and may contain residual amounts of host-cell DNA (≤20 mcg), protein (≤500 mcg), benzonase (≤0.0025 mcg), gentamicin (≤0.400 mcg), and ciprofloxacin (≤0.005 mcg)."
+     ],
+     "label": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+    }
+   ]
+  },
+  "al:S81:latex": {
+   "items": [
+    {
+     "source": "S81",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "JYNNEOS is formulated without preservatives. The vial stoppers are not made with natural rubber latex."
+     ],
+     "label": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S81:thimerosal": {
+   "items": [
+    {
+     "source": "S81",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "JYNNEOS is formulated without preservatives. The vial stoppers are not made with natural rubber latex."
+     ],
+     "label": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S81:warn:0": {
+   "items": [
+    {
+     "source": "S81",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Persons who experienced a severe allergic reaction following a previous dose of JYNNEOS or following exposure to any component of JYNNEOS may be at increased risk for severe allergic reactions after JYNNEOS."
+     ],
+     "label": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation · Severe Allergic Reactions"
+    }
+   ]
+  },
+  "al:S82:comp:0": {
+   "items": [
+    {
+     "source": "S82",
+     "page": 51,
+     "glyphRows": true,
+     "quotes": [
+      "SPIKEVAX (COVID-19 Vaccine, mRNA) is a sterile white to off-white injectable suspension for intramuscular use."
+     ],
+     "label": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S82:comp:1": {
+   "items": [
+    {
+     "source": "S82",
+     "page": 51,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose of SPIKEVAX (2026-2027 Formula) contains 50 mcg nucleoside-modified messenger RNA (mRNA) encoding the pre-fusion stabilized spike glycoprotein (S) of the SARS-CoV-2 JN.1-descendent variant XFG. Each dose also contains the following ingredients: a total lipid content of 1.01 mg (SM-102, polyethylene glycol [PEG] 2000 dimyristoyl glycerol [DMG], cholesterol, and 1,2-distearoyl-sn-glycero-3-phosphocholine [DSPC]), 0.25 mg tromethamine, 1.2 mg tromethamine hydrochloride, 0.021 mg acetic acid, 0.10 mg sodium acetate trihydrate, and 43.5 mg sucrose."
+     ],
+     "label": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S82:latex": {
+   "items": [
+    {
+     "source": "S82",
+     "page": 51,
+     "glyphRows": true,
+     "quotes": [
+      "The rubber tip cap and plunger used for the single-dose syringes are not made with natural rubber latex."
+     ],
+     "label": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S82:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S82",
+     "page": 51,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose also contains the following ingredients: a total lipid content of 1.01 mg (SM-102, polyethylene glycol [PEG] 2000 dimyristoyl glycerol [DMG], cholesterol, and 1,2-distearoyl-sn-glycero-3-phosphocholine [DSPC]), 0.25 mg tromethamine, 1.2 mg tromethamine hydrochloride, 0.021 mg acetic acid, 0.10 mg sodium acetate trihydrate, and 43.5 mg sucrose."
+     ],
+     "label": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S82:thimerosal": {
+   "items": [
+    {
+     "source": "S82",
+     "page": 51,
+     "glyphRows": true,
+     "quotes": [
+      "SPIKEVAX does not contain a preservative."
+     ],
+     "label": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S82:warn:0": {
+   "items": [
+    {
+     "source": "S82",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer SPIKEVAX to individuals with a known history of severe allergic reaction (e.g., anaphylaxis) to any component of SPIKEVAX [see Description (11)] or to individuals who had a severe allergic reaction (e.g., anaphylaxis) following a previous dose of a Moderna COVID-19 vaccine."
+     ],
+     "label": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula · Contraindications"
+    }
+   ]
+  },
+  "al:S83:comp:0": {
+   "items": [
+    {
+     "source": "S83",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "MNEXSPIKE (COVID-19 Vaccine, mRNA) is a sterile white to off-white injectable suspension for intramuscular use."
+     ],
+     "label": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S83:comp:1": {
+   "items": [
+    {
+     "source": "S83",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.2 mL dose of MNEXSPIKE (2026-2027 Formula) contains 10 mcg nucleoside-modified messenger RNA (mRNA) encoding the N-terminal domain (NTD) and receptor-binding domain (RBD) of the spike glycoprotein (S) of the SARS-CoV-2 JN.1-descendent variant XFG. Each dose also contains the following ingredients: a total lipid content of 0.2 mg (SM-102, polyethylene glycol [PEG] 2000 dimyristoyl glycerol [DMG], cholesterol, and 1,2-distearoyl-sn-glycero-3-phosphocholine [DSPC]), 0.09 mg tromethamine, 0.51 mg tromethamine hydrochloride, and 17 mg sucrose."
+     ],
+     "label": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S83:latex": {
+   "items": [
+    {
+     "source": "S83",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "The rubber tip cap and plunger used for the single-dose syringes are not made with natural rubber latex."
+     ],
+     "label": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S83:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S83",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Each dose also contains the following ingredients: a total lipid content of 0.2 mg (SM-102, polyethylene glycol [PEG] 2000 dimyristoyl glycerol [DMG], cholesterol, and 1,2-distearoyl-sn-glycero-3-phosphocholine [DSPC]), 0.09 mg tromethamine, 0.51 mg tromethamine hydrochloride, and 17 mg sucrose."
+     ],
+     "label": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S83:thimerosal": {
+   "items": [
+    {
+     "source": "S83",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "MNEXSPIKE does not contain a preservative."
+     ],
+     "label": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S83:warn:0": {
+   "items": [
+    {
+     "source": "S83",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer MNEXSPIKE to individuals with a known history of severe allergic reaction (e.g., anaphylaxis) to any component of MNEXSPIKE [see Description (11)] or to individuals who had a severe allergic reaction (e.g., anaphylaxis) following a previous dose of SPIKEVAX (COVID-19 Vaccine, mRNA) or any Moderna COVID-19 vaccine authorized for emergency use."
+     ],
+     "label": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula · Contraindications"
+    }
+   ]
+  },
+  "al:S84:comp:0": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 32,
+     "glyphRows": true,
+     "quotes": [
+      "NUVAXOVID (COVID-19 Vaccine, Adjuvanted) is a colorless to slightly yellow, clear to mildly opalescent sterile suspension for intramuscular use that is free from visible particles."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S84:comp:1": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 32,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose of NUVAXOVID (2026-2027 Formula) contains 5 mcg of recombinant spike glycoprotein (rS) of the SARS-CoV-2 JN.1-descendent variant XFG and 50 mcg Matrix-M adjuvant. The Matrix-M adjuvant is composed of Fraction-A (42.5 mcg) and Fraction-C (7.5 mcg) of saponin extracts from the soapbark tree, Quillaja saponaria Molina."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S84:comp:2": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 32,
+     "glyphRows": true,
+     "quotes": [
+      "The rS protein is produced by recombinant DNA technology using a baculovirus expression system in the Sf9 insect cell line that is derived from the Spodoptera frugiperda species."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S84:comp:3": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 33,
+     "glyphRows": true,
+     "quotes": [
+      "(0.445 mg), sodium chloride (8.766 mg), polysorbate 80 (0.050 mg), and Water for Injection."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · Description"
+    }
+   ]
+  },
+  "al:S84:yeast:related": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 32,
+     "glyphRows": true,
+     "quotes": [
+      "The rS protein is produced by recombinant DNA technology using a baculovirus expression system in the Sf9 insect cell line that is derived from the Spodoptera frugiperda species."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · 酵母：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S84:latex": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 33,
+     "glyphRows": true,
+     "quotes": [
+      "The syringe tip cap and plunger stopper are not made with natural rubber latex."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S84:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 33,
+     "glyphRows": true,
+     "quotes": [
+      "(0.445 mg), sodium chloride (8.766 mg), polysorbate 80 (0.050 mg), and Water for Injection."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S84:thimerosal": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 33,
+     "glyphRows": true,
+     "quotes": [
+      "NUVAXOVID does not contain a preservative."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S84:aluminium:related": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 32,
+     "glyphRows": true,
+     "quotes": [
+      "Each 0.5 mL dose of NUVAXOVID (2026-2027 Formula) contains 5 mcg of recombinant spike glycoprotein (rS) of the SARS-CoV-2 JN.1-descendent variant XFG and 50 mcg Matrix-M adjuvant. The Matrix-M adjuvant is composed of Fraction-A (42.5 mcg) and Fraction-C (7.5 mcg) of saponin extracts from the soapbark tree, Quillaja saponaria Molina."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · 鋁佐劑：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S84:warn:0": {
+   "items": [
+    {
+     "source": "S84",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Do not administer NUVAXOVID to individuals with a known history of severe allergic reaction (e.g., anaphylaxis) to any component of NUVAXOVID [see Description (11)] or to individuals who had a severe allergic reaction (e.g., anaphylaxis) following a previous dose of Novavax COVID-19 Vaccine, Adjuvanted."
+     ],
+     "label": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula · Contraindications"
+    }
+   ]
+  },
+  "al:S85:comp:0": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine may contain traces of glutaraldehyde, formaldehyde, neomycin, streptomycin and"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 組成"
+    }
+   ]
+  },
+  "al:S85:comp:1": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "Adsorbed on aluminium hydroxide, hydrated (0.6 mg Al3+)"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 佐劑"
+    }
+   ]
+  },
+  "al:S85:comp:2": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "Produced in yeast Hansenula polymorpha cells by recombinant DNA technology"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 組成（B型肝炎表面抗原生產宿主）"
+    }
+   ]
+  },
+  "al:S85:comp:3": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "Disodium hydrogen phosphate"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 賦形劑 6.1"
+    }
+   ]
+  },
+  "al:S85:comp:4": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "Potassium dihydrogen phosphate"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 賦形劑 6.1"
+    }
+   ]
+  },
+  "al:S85:comp:5": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "Trometamol"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 賦形劑 6.1"
+    }
+   ]
+  },
+  "al:S85:comp:6": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "Sucrose"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 賦形劑 6.1"
+    }
+   ]
+  },
+  "al:S85:comp:7": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "Essential amino acids including L-phenylalanine"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 賦形劑 6.1"
+    }
+   ]
+  },
+  "al:S85:comp:8": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "Sodium hydroxide, acetic acid or hydrochloric acid (for pH adjustment)"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 賦形劑 6.1"
+    }
+   ]
+  },
+  "al:S85:comp:9": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "Water for injections."
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 賦形劑 6.1"
+    }
+   ]
+  },
+  "al:S85:neomycin": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine may contain traces of glutaraldehyde, formaldehyde, neomycin, streptomycin and"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S85:other_antibiotics": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine may contain traces of glutaraldehyde, formaldehyde, neomycin, streptomycin and"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+    }
+   ]
+  },
+  "al:S85:yeast": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "Produced in yeast Hansenula polymorpha cells by recombinant DNA technology"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 酵母：有"
+    }
+   ]
+  },
+  "al:S85:latex:related": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 17,
+     "glyphRows": true,
+     "quotes": [
+      "0.5 mL of suspension in pre-filled syringe (type I glass) equipped with a plunger stopper (halobutyl)"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 乳膠（針筒／瓶塞）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S85:formaldehyde": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine may contain traces of glutaraldehyde, formaldehyde, neomycin, streptomycin and"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S85:aluminium": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "Adsorbed on aluminium hydroxide, hydrated (0.6 mg Al3+)"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S85:warn:0": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "History of an anaphylactic reaction after a previous administration of Hexyon."
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 過敏禁忌 4.3"
+    }
+   ]
+  },
+  "al:S85:warn:1": {
+   "items": [
+    {
+     "source": "S85",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Hypersensitivity to the active substances, to any of the excipients listed in section 6.1, to trace"
+     ],
+     "label": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib) · 過敏禁忌 4.3（賦形劑與微量殘留物）"
+    }
+   ]
+  },
+  "al:S86:comp:0": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "Hepatitis B surface antigen (HBs)2,3"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 組成"
+    }
+   ]
+  },
+  "al:S86:comp:1": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "adsorbed on aluminium hydroxide, hydrated (Al(OH)3)                     0.5 milligrams Al3+"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 組成"
+    }
+   ]
+  },
+  "al:S86:comp:2": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "produced in yeast cells (Saccharomyces cerevisiae) by recombinant DNA technology"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 組成"
+    }
+   ]
+  },
+  "al:S86:comp:3": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "adsorbed on aluminium phosphate (AlPO4)                                0.32 milligrams Al3+"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 組成"
+    }
+   ]
+  },
+  "al:S86:comp:4": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine may contain traces of formaldehyde, neomycin and polymyxin which\nare used during the manufacturing process (see section 4.3)."
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 組成"
+    }
+   ]
+  },
+  "al:S86:comp:5": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Lactose anhydrous"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 賦形劑（6.1）"
+    }
+   ]
+  },
+  "al:S86:comp:6": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Sodium chloride (NaCl)"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 賦形劑（6.1）"
+    }
+   ]
+  },
+  "al:S86:comp:7": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Medium 199 (as stabilizer containing amino acids (including phenylalanine), mineral salts (including\nsodium and potassium), vitamins (including para-aminobenzoic acid) and other substances)"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 賦形劑（6.1）"
+    }
+   ]
+  },
+  "al:S86:comp:8": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Water for injections"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 賦形劑（6.1）"
+    }
+   ]
+  },
+  "al:S86:neomycin": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine may contain traces of formaldehyde, neomycin and polymyxin which\nare used during the manufacturing process (see section 4.3)."
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S86:other_antibiotics": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine may contain traces of formaldehyde, neomycin and polymyxin which\nare used during the manufacturing process (see section 4.3)."
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+    }
+   ]
+  },
+  "al:S86:yeast": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "produced in yeast cells (Saccharomyces cerevisiae) by recombinant DNA technology"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 酵母：有"
+    }
+   ]
+  },
+  "al:S86:latex:related": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 15,
+     "glyphRows": true,
+     "quotes": [
+      "The tip cap and rubber plunger stopper of the pre-filled syringe and the stopper of the vial are made with\nsynthetic rubber."
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 乳膠（針筒／瓶塞）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S86:formaldehyde": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine may contain traces of formaldehyde, neomycin and polymyxin which\nare used during the manufacturing process (see section 4.3)."
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S86:aluminium": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "adsorbed on aluminium hydroxide, hydrated (Al(OH)3)                     0.5 milligrams Al3+"
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 鋁佐劑：有"
+    }
+   ]
+  },
+  "al:S86:warn:0": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Hypersensitivity to the active substances or to any of the excipients listed in section 6.1, or\nformaldehyde, neomycin and polymyxin."
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 禁忌（4.3）"
+    }
+   ]
+  },
+  "al:S86:warn:1": {
+   "items": [
+    {
+     "source": "S86",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Infanrix hexa is contraindicated if the infant or toddlers has experienced an encephalopathy of unknown\naetiology, occurring within 7 days following previous vaccination with pertussis containing vaccine."
+     ],
+     "label": "Infanrix hexa (DTPa-HBV-IPV/Hib) · 禁忌－腦病變（4.3）"
+    }
+   ]
+  },
+  "al:S87:comp:0": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Live, attenuated, recombinant Japanese encephalitis virus*: 4.0 - 5.8 log PFU**"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · Active ingredient"
+    }
+   ]
+  },
+  "al:S87:comp:1": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "* Propagated in Vero cells"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · Active ingredient"
+    }
+   ]
+  },
+  "al:S87:comp:2": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Mannitol"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · List of excipients"
+    }
+   ]
+  },
+  "al:S87:comp:3": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Lactose monohydrate"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · List of excipients"
+    }
+   ]
+  },
+  "al:S87:comp:4": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Glutamic acid"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · List of excipients"
+    }
+   ]
+  },
+  "al:S87:comp:5": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Potassium hydroxide"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · List of excipients"
+    }
+   ]
+  },
+  "al:S87:comp:6": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 19,
+     "glyphRows": true,
+     "quotes": [
+      "Histidine"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · List of excipients"
+    }
+   ]
+  },
+  "al:S87:comp:7": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 20,
+     "glyphRows": true,
+     "quotes": [
+      "Human Serum Albumin"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · List of excipients"
+    }
+   ]
+  },
+  "al:S87:comp:8": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 20,
+     "glyphRows": true,
+     "quotes": [
+      "Sodium chloride"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · List of excipients"
+    }
+   ]
+  },
+  "al:S87:comp:9": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 20,
+     "glyphRows": true,
+     "quotes": [
+      "Water for injections"
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · List of excipients"
+    }
+   ]
+  },
+  "al:S87:comp:10": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 20,
+     "glyphRows": true,
+     "quotes": [
+      "No adjuvant or antimicrobial preservative is added."
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · No adjuvant/preservative"
+    }
+   ]
+  },
+  "al:S87:thimerosal": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 20,
+     "glyphRows": true,
+     "quotes": [
+      "No adjuvant or antimicrobial preservative is added."
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S87:aluminium": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 20,
+     "glyphRows": true,
+     "quotes": [
+      "No adjuvant or antimicrobial preservative is added."
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · 鋁佐劑：無"
+    }
+   ]
+  },
+  "al:S87:warn:0": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Imojev should not be administered to anyone with a history of severe allergic reaction to any\ncomponent of the vaccine or after previous administration of the vaccine or a vaccine\ncontaining the same components or constituents."
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · 禁忌"
+    }
+   ]
+  },
+  "al:S87:warn:1": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Congenital or acquired immune deficiency impairing cellular immunity, including\nimmunosuppressive therapies such as chemotherapy, high doses of systemic corticosteroids\ngiven for 14 days or more."
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · 禁忌－免疫缺陷"
+    }
+   ]
+  },
+  "al:S87:warn:2": {
+   "items": [
+    {
+     "source": "S87",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Imojev must not be administered to pregnant women (see Section 4.6 Fertility, pregnancy and\nlactation - Use in pregnancy)."
+     ],
+     "label": "Imojev (Japanese encephalitis vaccine, live, attenuated) · 禁忌－懷孕／哺乳"
+    }
+   ]
+  },
+  "al:S88:comp:0": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Quadrivalent Influenza Vaccine (split virion, inactivated) may contain traces of eggs, such as ovalbumin, and of neomycin, formaldehyde and octoxinol-9, which are used during the manufacturing process (see Section 4.3)."
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 組成"
+    }
+   ]
+  },
+  "al:S88:comp:1": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "propagated in fertilised hens' eggs from healthy chicken flocks"
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 組成（雞蛋來源）"
+    }
+   ]
+  },
+  "al:S88:comp:2": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Sodium chloride"
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 賦形劑（緩衝溶液）"
+    }
+   ]
+  },
+  "al:S88:comp:3": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Potassium chloride"
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 賦形劑（緩衝溶液）"
+    }
+   ]
+  },
+  "al:S88:comp:4": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Disodium phosphate dihydrate"
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 賦形劑（緩衝溶液）"
+    }
+   ]
+  },
+  "al:S88:comp:5": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Potassium dihydrogen phosphate"
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 賦形劑（緩衝溶液）"
+    }
+   ]
+  },
+  "al:S88:comp:6": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Water for injections"
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 賦形劑（緩衝溶液）"
+    }
+   ]
+  },
+  "al:S88:egg": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Quadrivalent Influenza Vaccine (split virion, inactivated) may contain traces of eggs, such as ovalbumin, and of neomycin, formaldehyde and octoxinol-9, which are used during the manufacturing process (see Section 4.3)."
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 蛋（卵白蛋白／雞胚）：有"
+    }
+   ]
+  },
+  "al:S88:neomycin": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Quadrivalent Influenza Vaccine (split virion, inactivated) may contain traces of eggs, such as ovalbumin, and of neomycin, formaldehyde and octoxinol-9, which are used during the manufacturing process (see Section 4.3)."
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S88:formaldehyde": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Quadrivalent Influenza Vaccine (split virion, inactivated) may contain traces of eggs, such as ovalbumin, and of neomycin, formaldehyde and octoxinol-9, which are used during the manufacturing process (see Section 4.3)."
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 福馬林／甲醛殘留：有"
+    }
+   ]
+  },
+  "al:S88:thimerosal:related": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "approximately 5,000 pregnant women received Inactivated Influenza Vaccine (Split Virion) BP (trivalent influenza thiomersal-free vaccine) and approximately"
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 硫柳汞：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S88:warn:0": {
+   "items": [
+    {
+     "source": "S88",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "Hypersensitivity to the active substances, to any of the excipients listed in section 6.1 or to any component that may be present as traces such as eggs (ovalbumin, chicken proteins), neomycin, formaldehyde and octoxinol-9."
+     ],
+     "label": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated) · 過敏禁忌"
+    }
+   ]
+  },
+  "al:S89:comp:0": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Yellow fever virus1 17D-204 strain (live, attenuated) .................................... not less than 1000 IU"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · Composition"
+    }
+   ]
+  },
+  "al:S89:comp:1": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "produced in specified pathogen-free chick embryos"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · Composition"
+    }
+   ]
+  },
+  "al:S89:comp:2": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "This product contains approximately 8 mg of sorbitol (E420) per dose."
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · Excipients with known effects"
+    }
+   ]
+  },
+  "al:S89:comp:3": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Lactose"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:4": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Sorbitol E420"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:5": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "L-Histidine hydrochloride"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:6": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "L-Alanine"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:7": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "L-Alanine\n      Sodium chloride"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:8": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Potassium chloride"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:9": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Disodium phosphate dihydrate"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:10": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Potassium dihydrogen phosphate"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:11": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Calcium chloride"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:12": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Magnesium sulphate"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S89:comp:13": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Sodium chloride\n      Water for injections"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Solvent)"
+    }
+   ]
+  },
+  "al:S89:comp:14": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Water for injections"
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · List of excipients (Solvent)"
+    }
+   ]
+  },
+  "al:S89:comp:15": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Powder in vial (type I glass), with a stopper (chlorobutyl) and a flip-off cap\n      (aluminium) + 0.5 ml of solvent in a pre-filled syringe (type I glass), with a\n      plunger-stopper (halobutyl), and an attached needle and needle-shield (natural\n      rubber or polyisoprene) – pack size of 1, 10 or 20."
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · Nature and contents of container"
+    }
+   ]
+  },
+  "al:S89:egg": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Hypersensitivity to the active substance or to any of the excipients listed in Section\n      6.1 or to eggs or chicken proteins."
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · 蛋（卵白蛋白／雞胚）：有"
+    }
+   ]
+  },
+  "al:S89:latex": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "The tip caps of the prefilled syringes contain a natural rubber latex derivative,\n      which may cause allergic reactions in latex sensitive individuals."
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · 乳膠（針筒／瓶塞）：有"
+    }
+   ]
+  },
+  "al:S89:aluminium:related": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "Powder in vial (type I glass), with a stopper (chlorobutyl) and a flip-off cap\n      (aluminium) + 0.5 ml of solvent in a pre-filled syringe (type I glass), with a\n      plunger-stopper (halobutyl), and an attached needle and needle-shield (natural\n      rubber or polyisoprene) – pack size of 1, 10 or 20."
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · 鋁佐劑：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S89:warn:0": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Hypersensitivity to the active substance or to any of the excipients listed in Section\n      6.1 or to eggs or chicken proteins."
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · 禁忌（蛋／雞蛋蛋白過敏）"
+    }
+   ]
+  },
+  "al:S89:warn:1": {
+   "items": [
+    {
+     "source": "S89",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "The tip caps of the prefilled syringes contain a natural rubber latex derivative,\n      which may cause allergic reactions in latex sensitive individuals."
+     ],
+     "label": "Stamaril (Yellow fever vaccine, live) · 乳膠警語"
+    }
+   ]
+  },
+  "al:S90:comp:0": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Rabies virusa, WISTAR Rabies PM/WI38 1503-3M strain (inactivated)........................3.25 IUb"
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · Composition"
+    }
+   ]
+  },
+  "al:S90:comp:1": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Phenylalanine .......................................................................................... 4.1 micrograms"
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · Excipient with known effect"
+    }
+   ]
+  },
+  "al:S90:comp:2": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Verorab may contain traces of polymyxin B, streptomycin and neomycin, used\n    in the manufacturing process (see section 4.3)."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · Composition"
+    }
+   ]
+  },
+  "al:S90:comp:3": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Maltose."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S90:comp:4": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "20% human albumin solution."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S90:comp:5": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Basal Medium Eagle: mixture of mineral salts (including potassium), vitamins,\n          dextrose and amino acids (including L-phenylalanine)."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S90:comp:6": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Hydrochloric acid and sodium hydroxide for pH adjustment."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S90:comp:7": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Sodium chloride."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · List of excipients (Solvent)"
+    }
+   ]
+  },
+  "al:S90:neomycin": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Verorab may contain traces of polymyxin B, streptomycin and neomycin, used\n    in the manufacturing process (see section 4.3)."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S90:other_antibiotics": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Hypersensitivity to the active substance(s) or to any of the excipients listed in\n        section 6.1, to polymyxin B, to streptomycin, to neomycin or to any antibiotic of the\n        same class to a previous administration or to any vaccine containing the same\n        components."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+    }
+   ]
+  },
+  "al:S90:latex": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "The tip caps of the prefilled syringes without attached needle contain a natural rubber\nlatex derivative, which may cause severe allergic reactions in latex sensitive\nindividuals."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · 乳膠（針筒／瓶塞）：有"
+    }
+   ]
+  },
+  "al:S90:warn:0": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Hypersensitivity to the active substance(s) or to any of the excipients listed in\n        section 6.1, to polymyxin B, to streptomycin, to neomycin or to any antibiotic of the\n        same class to a previous administration or to any vaccine containing the same\n        components."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · Contraindications"
+    }
+   ]
+  },
+  "al:S90:warn:1": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "Use with caution in people with known allergies to polymyxin B, to streptomycin, to\nneomycin (present as traces in the vaccine) or to any antibiotic of the same class."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · Special warning (antibiotic allergy)"
+    }
+   ]
+  },
+  "al:S90:warn:2": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "The tip caps of the prefilled syringes without attached needle contain a natural rubber\nlatex derivative, which may cause severe allergic reactions in latex sensitive\nindividuals."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · Latex warning"
+    }
+   ]
+  },
+  "al:S90:warn:3": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 14,
+     "glyphRows": true,
+     "quotes": [
+      "The tip caps of the prefilled syringes without attached needle contain a natural rubber\nlatex derivative."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · Latex (packaging description)"
+    }
+   ]
+  },
+  "al:S90:warn:4": {
+   "items": [
+    {
+     "source": "S90",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "Verorab contains 4.1 micrograms phenylalanine per 0.5 mL-dose which is equivalent\nto 0.068 microgram/kg for a 60 kg person. Phenylalanine may be harmful for people\nwith phenylketonuria (PKU), a rare genetic disorder in which phenylalanine builds up\nbecause the body cannot remove it properly."
+     ],
+     "label": "Verorab (Rabies vaccine, inactivated, Vero cell-derived) · Phenylalanine warning"
+    }
+   ]
+  },
+  "al:S91:comp:0": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "Varicella virus1 Oka strain (live, attenuated) not less than 103.3 PFU2"
+     ],
+     "label": "Varilrix (varicella vaccine, live) · Composition"
+    }
+   ]
+  },
+  "al:S91:comp:1": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "This vaccine contains a trace amount of neomycin (see section 4.3)."
+     ],
+     "label": "Varilrix (varicella vaccine, live) · Composition"
+    }
+   ]
+  },
+  "al:S91:comp:2": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine contains 6 mg of sorbitol per dose."
+     ],
+     "label": "Varilrix (varicella vaccine, live) · Excipients with known effect"
+    }
+   ]
+  },
+  "al:S91:comp:3": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "The vaccine contains 331 micrograms of phenylalanine per dose (see section 4.4)."
+     ],
+     "label": "Varilrix (varicella vaccine, live) · Excipients with known effect"
+    }
+   ]
+  },
+  "al:S91:comp:4": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "Amino acids (containing phenylalanine)"
+     ],
+     "label": "Varilrix (varicella vaccine, live) · 6.1 List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S91:comp:5": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "Lactose anhydrous"
+     ],
+     "label": "Varilrix (varicella vaccine, live) · 6.1 List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S91:comp:6": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "Sorbitol (E 420)"
+     ],
+     "label": "Varilrix (varicella vaccine, live) · 6.1 List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S91:comp:7": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "Mannitol (E 421)"
+     ],
+     "label": "Varilrix (varicella vaccine, live) · 6.1 List of excipients (Powder)"
+    }
+   ]
+  },
+  "al:S91:comp:8": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "Water for injections."
+     ],
+     "label": "Varilrix (varicella vaccine, live) · 6.1 List of excipients (Solvent)"
+    }
+   ]
+  },
+  "al:S91:neomycin": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "This vaccine contains a trace amount of neomycin (see section 4.3)."
+     ],
+     "label": "Varilrix (varicella vaccine, live) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S91:latex:related": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "Powder in a single-dose glass vial (type I glass) with a stopper (bromobutyl rubber)."
+     ],
+     "label": "Varilrix (varicella vaccine, live) · 乳膠（針筒／瓶塞）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S91:warn:0": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Hypersensitivity to the active substance or to any of the excipients listed in section 6.1\nor to neomycin. However, a history of contact dermatitis to neomycin is not a\ncontraindication."
+     ],
+     "label": "Varilrix (varicella vaccine, live) · 過敏禁忌"
+    }
+   ]
+  },
+  "al:S91:warn:1": {
+   "items": [
+    {
+     "source": "S91",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Varilrix is contraindicated in individuals with severe humoral or cellular (primary or\nacquired) immunodeficiency such as (see also section 4.4.):"
+     ],
+     "label": "Varilrix (varicella vaccine, live) · 免疫缺陷禁忌"
+    }
+   ]
+  },
+  "al:S92:comp:0": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "This vaccine contains residues of chicken proteins (e.g., ovalbumin), human serum"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 組成"
+    }
+   ]
+  },
+  "al:S92:comp:1": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "albumin, and may contain traces of neomycin, chlortetracycline and amphotericin B."
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 組成"
+    }
+   ]
+  },
+  "al:S92:comp:2": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Trometamol"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 賦形劑 6.1（凍晶粉劑）"
+    }
+   ]
+  },
+  "al:S92:comp:3": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Sodium chloride"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 賦形劑 6.1（凍晶粉劑）"
+    }
+   ]
+  },
+  "al:S92:comp:4": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Disodium edetate"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 賦形劑 6.1（凍晶粉劑）"
+    }
+   ]
+  },
+  "al:S92:comp:5": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Potassium-L-glutamate"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 賦形劑 6.1（凍晶粉劑）"
+    }
+   ]
+  },
+  "al:S92:comp:6": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Polygeline"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 賦形劑 6.1（凍晶粉劑）"
+    }
+   ]
+  },
+  "al:S92:comp:7": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Sucrose"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 賦形劑 6.1（凍晶粉劑）"
+    }
+   ]
+  },
+  "al:S92:comp:8": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "Water for injection"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 賦形劑 6.1（溶劑）"
+    }
+   ]
+  },
+  "al:S92:egg": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "This vaccine contains residues of chicken proteins (e.g., ovalbumin), human serum"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 蛋（卵白蛋白／雞胚）：有"
+    }
+   ]
+  },
+  "al:S92:neomycin": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "albumin, and may contain traces of neomycin, chlortetracycline and amphotericin B."
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · Neomycin：有"
+    }
+   ]
+  },
+  "al:S92:other_antibiotics": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "albumin, and may contain traces of neomycin, chlortetracycline and amphotericin B."
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+    }
+   ]
+  },
+  "al:S92:latex:related": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 11,
+     "glyphRows": true,
+     "quotes": [
+      "1 vial (type I glass) of freeze-dried vaccine with stopper (chlorobutyl or bromobutyl)"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 乳膠（針筒／瓶塞）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S92:warn:0": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "History of a severe hypersensitivity reaction to the active substance, to any of the"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 禁忌"
+    }
+   ]
+  },
+  "al:S92:warn:1": {
+   "items": [
+    {
+     "source": "S92",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "contains the excipient polygeline, residues of chicken proteins (e.g.,"
+     ],
+     "label": "Rabipur (Rabies Vaccine Inactivated, PCECV) · 過敏反應警語（含蛋／雞蛋蛋白、抗生素殘留）"
+    }
+   ]
   }
  }
 }

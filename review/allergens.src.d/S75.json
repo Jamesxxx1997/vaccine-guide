@@ -1,0 +1,28 @@
+{
+ "vaccine": "mmr",
+ "product": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022",
+ "source": "S75",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 12, "label": "Description／成分", "quote": "PRIORIX contains the Schwarz strain of live attenuated measles virus, the RIT 4385 strain of live attenuated\nmumps virus (derived from the Jeryl Lynn strain), both propagated in chick-embryo fibroblasts from\nembryonated eggs of specific pathogen-free flocks and the Wistar RA 27/3 strain of live attenuated rubella virus\npropagated in MRC-5 human diploid cells."},
+  {"page": 13, "label": "Description／成分", "quote": "Each dose may also contain residual amounts of neomycin sulphate (≤25 mcg), ovalbumin (≤60 ng),\nand bovine serum albumin (≤50 ng), from the manufacturing process."},
+  {"page": 13, "label": "Description／成分", "quote": "PRIORIX contains no preservative."},
+  {"page": 13, "label": "Description／成分", "quote": "The stopper of the vial containing Lyophilized Antigen Component, Live and the tip cap and rubber plunger\nstopper of the prefilled syringe containing Sterile Water Diluent Component are not made with natural rubber\nlatex."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "有", "page": 13, "quote": "Each dose may also contain residual amounts of neomycin sulphate (≤25 mcg), ovalbumin (≤60 ng),\nand bovine serum albumin (≤50 ng), from the manufacturing process.", "note": "麻疹／腮腺炎株於雞胚纖維母細胞培養（p.12），故殘留卵白蛋白 ovalbumin ≤60 ng"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 13, "quote": "Each dose may also contain residual amounts of neomycin sulphate (≤25 mcg), ovalbumin (≤60 ng),\nand bovine serum albumin (≤50 ng), from the manufacturing process."},
+  {"key": "other_antibiotics", "status": "未載明", "related": {"page": 13, "quote": "media free from antibiotics and albumin.", "note": "指病毒株於多次清洗後，最終穩定化步驟所用培養基不含（其他）抗生素與白蛋白；仿單另載殘留 neomycin sulphate（見 neomycin 欄），未進一步列明是否含其他抗生素"}},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 13, "quote": "The stopper of the vial containing Lyophilized Antigen Component, Live and the tip cap and rubber plunger\nstopper of the prefilled syringe containing Sterile Water Diluent Component are not made with natural rubber\nlatex."},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 13, "quote": "PRIORIX contains no preservative."},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 5, "quote": "Do not administer PRIORIX to individuals with a history of severe allergic reactions (e.g., anaphylaxis) to any\ncomponent of the vaccine or after a previous dose of any measles, mumps, and rubella virus-containing vaccine\n[see Description (11)]."}
+ ]
+}

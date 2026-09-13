@@ -1,0 +1,30 @@
+{
+ "vaccine": "rota",
+ "product": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent)",
+ "source": "S69",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 10, "label": "Description／成分", "quote": "RotaTeq is a live, oral pentavalent vaccine that contains 5 live reassortant rotaviruses."},
+  {"page": 11, "label": "Description／成分", "quote": "Each vaccine dose contains sucrose,\nsodium citrate, sodium phosphate monobasic monohydrate, sodium hydroxide, polysorbate 80, cell culture\nmedia, and trace amounts of fetal bovine serum. RotaTeq contains no preservatives."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 11, "quote": "The ampule\nand the plastic tube and cap do not contain latex."},
+  {"key": "peg_polysorbate", "status": "有", "page": 11, "quote": "polysorbate 80"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 11, "quote": "RotaTeq contains no preservatives."},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 5, "quote": "RotaTeq is contraindicated in infants with a demonstrated history of hypersensitivity to any component\nof the vaccine."},
+  {"label": "Latex", "page": 14, "quote": "The ampule, and the plastic tube and cap do not contain latex."}
+ ],
+ "sweep": {"date": "2026-09-13", "dismissed": {
+  "egg": "命中詞'hen'皆為'when'字尾，與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白（培養基為 Vero 細胞非雞胚）"
+ }}
+}

@@ -1,0 +1,29 @@
+{
+ "vaccine": "shingrix",
+ "product": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted)",
+ "source": "S58",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 16, "label": "Description", "quote": "SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) is a sterile injectable suspension for intramuscular use that contains recombinant varicella zoster virus gE antigen adjuvanted with AS01B."},
+  {"page": 16, "label": "Description", "quote": "The gE antigen is obtained by culturing genetically engineered Chinese Hamster Ovary cells, which carry a truncated gE gene, in media containing amino acids, with no albumin, antibiotics, or animal-derived proteins."},
+  {"page": 17, "label": "Description", "quote": "Each 0.5-mL dose is formulated to contain 50 mcg of the recombinant gE antigen, 50 mcg of MPL, and 50 mcg of QS-21."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "無", "page": 16, "quote": "The gE antigen is obtained by culturing genetically engineered Chinese Hamster Ovary cells, which carry a truncated gE gene, in media containing amino acids, with no albumin, antibiotics, or animal-derived proteins."},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 17, "quote": "In the vial and vial presentation, the vial stoppers are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "有", "page": 17, "quote": "0.08 mg of polysorbate 80"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 17, "quote": "SHINGRIX does not contain preservatives."},
+  {"key": "aluminium", "status": "未載明", "related": {"page": 16, "quote": "The AS01B adjuvant is composed of 3-O-desacyl-4’-monophosphoryl lipid A (MPL) derived from Salmonella minnesota and QS-21, a saponin purified from Quillaja saponaria Molina plant extract, and is combined in a liposomal", "note": "AS01B 佐劑為 MPL＋QS-21 脂質體，非鋁鹽；仿單未明文寫「不含鋁」，故列未載明並附佐劑組成原句（句子跨頁 16→17，quote 截至頁 16 末行）"}}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 5, "quote": "Do not administer SHINGRIX to anyone with a history of a severe allergic reaction (e.g., anaphylaxis) to any component of the vaccine or after a previous dose of SHINGRIX [see Description (11)]."},
+  {"label": "Latex", "page": 17, "quote": "In the prefilled syringe presentation, the tip cap and rubber plunger stopper are not made with natural rubber latex."}
+ ],
+ "sweep": {"dismissed": {"egg": "命中皆為 chickenpox／hen(when/then 字尾) 子字串，非蛋成分提及；Shingrix gE 抗原為 CHO 細胞培養，仿單未提蛋", "aluminium": "命中皆為 Adjuvant/adjuvant 子字串，AS01B 佐劑組成（MPL+QS-21 脂質體）已列為 related，仿單未另提鋁鹽"}}
+}

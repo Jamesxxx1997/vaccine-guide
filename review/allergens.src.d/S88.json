@@ -1,0 +1,31 @@
+{
+ "vaccine": "flu",
+ "product": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated)",
+ "source": "S88",
+ "origin": "HPRA",
+ "lang": "en",
+ "components": [
+  {"page": 1, "label": "組成", "quote": "Quadrivalent Influenza Vaccine (split virion, inactivated) may contain traces of eggs, such as ovalbumin, and of neomycin, formaldehyde and octoxinol-9, which are used during the manufacturing process (see Section 4.3)."},
+  {"page": 1, "label": "組成（雞蛋來源）", "quote": "propagated in fertilised hens' eggs from healthy chicken flocks"},
+  {"page": 14, "label": "賦形劑（緩衝溶液）", "quote": "Sodium chloride"},
+  {"page": 14, "label": "賦形劑（緩衝溶液）", "quote": "Potassium chloride"},
+  {"page": 14, "label": "賦形劑（緩衝溶液）", "quote": "Disodium phosphate dihydrate"},
+  {"page": 14, "label": "賦形劑（緩衝溶液）", "quote": "Potassium dihydrogen phosphate"},
+  {"page": 14, "label": "賦形劑（緩衝溶液）", "quote": "Water for injections"}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "有", "page": 1, "quote": "Quadrivalent Influenza Vaccine (split virion, inactivated) may contain traces of eggs, such as ovalbumin, and of neomycin, formaldehyde and octoxinol-9, which are used during the manufacturing process (see Section 4.3)."},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 1, "quote": "Quadrivalent Influenza Vaccine (split virion, inactivated) may contain traces of eggs, such as ovalbumin, and of neomycin, formaldehyde and octoxinol-9, which are used during the manufacturing process (see Section 4.3)."},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明"},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "有", "page": 1, "quote": "Quadrivalent Influenza Vaccine (split virion, inactivated) may contain traces of eggs, such as ovalbumin, and of neomycin, formaldehyde and octoxinol-9, which are used during the manufacturing process (see Section 4.3)."},
+  {"key": "thimerosal", "status": "未載明", "related": {"page": 9, "quote": "approximately 5,000 pregnant women received Inactivated Influenza Vaccine (Split Virion) BP (trivalent influenza thiomersal-free vaccine) and approximately", "note": "此句描述的是臨床試驗中使用的三價比較疫苗 Inactivated Influenza Vaccine (Split Virion) BP 之歷史劑型為 thiomersal-free，並非針對本品 Quadrivalent Influenza Vaccine (Vaxigrip Tetra) 自身組成的敘述；第3、9、10頁的三處「thiomersal-free」皆屬同一脈絡（懷孕婦女／嬰兒被動保護之臨床試驗背景說明），仿單第2章組成與第6.1節賦形劑均未提及thimerosal/thiomersal，故本品本身狀態未載明。"}},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "過敏禁忌", "page": 2, "quote": "Hypersensitivity to the active substances, to any of the excipients listed in section 6.1 or to any component that may be present as traces such as eggs (ovalbumin, chicken proteins), neomycin, formaldehyde and octoxinol-9."}
+ ]
+}

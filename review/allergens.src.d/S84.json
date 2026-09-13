@@ -1,0 +1,33 @@
+{
+ "vaccine": "covid",
+ "product": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula",
+ "source": "S84",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 32, "label": "Description", "quote": "NUVAXOVID (COVID-19 Vaccine, Adjuvanted) is a colorless to slightly yellow, clear to mildly opalescent sterile suspension for intramuscular use that is free from visible particles."},
+  {"page": 32, "label": "Description", "quote": "Each 0.5 mL dose of NUVAXOVID (2026-2027 Formula) contains 5 mcg of recombinant spike glycoprotein (rS) of the SARS-CoV-2 JN.1-descendent variant XFG and 50 mcg Matrix-M adjuvant. The Matrix-M adjuvant is composed of Fraction-A (42.5 mcg) and Fraction-C (7.5 mcg) of saponin extracts from the soapbark tree, Quillaja saponaria Molina."},
+  {"page": 32, "label": "Description", "quote": "The rS protein is produced by recombinant DNA technology using a baculovirus expression system in the Sf9 insect cell line that is derived from the Spodoptera frugiperda species."},
+  {"page": 33, "label": "Description", "quote": "(0.445 mg), sodium chloride (8.766 mg), polysorbate 80 (0.050 mg), and Water for Injection."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明", "related": {"page": 32, "quote": "The rS protein is produced by recombinant DNA technology using a baculovirus expression system in the Sf9 insect cell line that is derived from the Spodoptera frugiperda species.", "note": "抗原以桿狀病毒／Sf9 昆蟲細胞系統生產，非酵母（yeast）表現系統；仿單未提及酵母字樣"}},
+  {"key": "latex", "status": "無", "page": 33, "quote": "The syringe tip cap and plunger stopper are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "有", "page": 33, "quote": "(0.445 mg), sodium chloride (8.766 mg), polysorbate 80 (0.050 mg), and Water for Injection.", "note": "polysorbate 80，非 PEG（本品為佐劑蛋白疫苗，非脂質奈米顆粒 mRNA 疫苗）"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 33, "quote": "NUVAXOVID does not contain a preservative."},
+  {"key": "aluminium", "status": "未載明", "related": {"page": 32, "quote": "Each 0.5 mL dose of NUVAXOVID (2026-2027 Formula) contains 5 mcg of recombinant spike glycoprotein (rS) of the SARS-CoV-2 JN.1-descendent variant XFG and 50 mcg Matrix-M adjuvant. The Matrix-M adjuvant is composed of Fraction-A (42.5 mcg) and Fraction-C (7.5 mcg) of saponin extracts from the soapbark tree, Quillaja saponaria Molina.", "note": "佐劑為皂樹皂苷 Matrix-M，非鋁鹽佐劑；仿單未提及 aluminum/aluminium 字樣"}}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 3, "quote": "Do not administer NUVAXOVID to individuals with a known history of severe allergic reaction (e.g., anaphylaxis) to any component of NUVAXOVID [see Description (11)] or to individuals who had a severe allergic reaction (e.g., anaphylaxis) following a previous dose of Novavax COVID-19 Vaccine, Adjuvanted."}
+ ],
+ "sweep": {"dismissed": {
+  "egg": "全文掃描『embryo』2 個命中皆為 p.31 8.1 Pregnancy 段落標題『Disease-Associated Maternal and/or Embryo/Fetal Risk』，與雞蛋成分無關",
+  "other_antibiotics": "全文掃描『antibiotic』2 個命中皆為 p.18 ADVERSE REACTIONS 不良反應敘述（蜂窩性組織炎經抗生素與類固醇治療後緩解），非本疫苗成分",
+  "aluminium": "全文掃描『adjuvant』121 個命中：本品全名為『NUVAXOVID (COVID-19 Vaccine, Adjuvanted)』，全文反覆出現的是產品名稱與『Matrix-M adjuvant』（皂樹皂苷佐劑），與鋁鹽佐劑無關，已於本格 related 附 p.32 Matrix-M 成分原句"
+ }}
+}

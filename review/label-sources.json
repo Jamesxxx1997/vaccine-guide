@@ -184,5 +184,250 @@
   "prod": "ASCIA_vaccination_egg_allergic_individual_2026.pdf",
   "path": "sources/過敏指引/ASCIA_vaccination_egg_allergic_individual_2026.pdf",
   "pages": "9"
+ },
+ "S58": {
+  "cat": "shingrix",
+  "prod": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted)",
+  "path": "sources/國際仿單/帶狀疱疹_Shingrix_FDA_2026-02.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S59": {
+  "cat": "hepa",
+  "prod": "VAQTA (Hepatitis A Vaccine, Inactivated)",
+  "path": "sources/國際仿單/A型肝炎_VAQTA_FDA_2020-10.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S60": {
+  "cat": "hepb",
+  "prod": "Engerix-B (Hepatitis B Vaccine Recombinant)",
+  "path": "sources/國際仿單/B型肝炎_Engerix-B_FDA_2026-05.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S61": {
+  "cat": "hpv",
+  "prod": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant)",
+  "path": "sources/國際仿單/人類乳突病毒_Gardasil9_FDA_2025-03.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S62": {
+  "cat": "mmr",
+  "prod": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live)",
+  "path": "sources/國際仿單/麻疹腮腺炎德國麻疹_MMR-II_FDA_2025-11.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S63": {
+  "cat": "pcv",
+  "prod": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein])",
+  "path": "sources/國際仿單/肺炎鏈球菌13價_Prevnar13_FDA_2017-XX.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S64": {
+  "cat": "ppv23",
+  "prod": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent)",
+  "path": "sources/國際仿單/肺炎鏈球菌23價_Pneumovax23_FDA_2021-04.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S65": {
+  "cat": "tdap",
+  "prod": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)",
+  "path": "sources/國際仿單/破傷風白喉百日咳成人_Adacel_FDA_2026-08.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S66": {
+  "cat": "tdap",
+  "prod": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)",
+  "path": "sources/國際仿單/破傷風白喉百日咳成人_Boostrix_FDA_2026-05.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S67": {
+  "cat": "flu",
+  "prod": "Fluarix Quadrivalent (Influenza Vaccine)",
+  "path": "sources/國際仿單/流感四價_FluarixQuadrivalent_FDA_2023-07.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S68": {
+  "cat": "mcv4",
+  "prod": "Bexsero (Meningococcal Group B Vaccine)",
+  "path": "sources/國際仿單/腦膜炎球菌B_Bexsero_FDA_2024-08.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S69": {
+  "cat": "rota",
+  "prod": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent)",
+  "path": "sources/國際仿單/輪狀病毒_RotaTeq_FDA_2026-05.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S70": {
+  "cat": "hepa",
+  "prod": "Havrix (Hepatitis A Vaccine, Inactivated)",
+  "path": "sources/國際仿單/A型肝炎_Havrix_FDA_2026-05.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S71": {
+  "cat": "var",
+  "prod": "Varivax (Varicella Virus Vaccine Live)",
+  "path": "sources/國際仿單/水痘_Varivax_FDA_2026-08.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S72": {
+  "cat": "mcv4",
+  "prod": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)",
+  "path": "sources/國際仿單/腦膜炎_Menveo_FDA_2025-03.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S73": {
+  "cat": "pcv",
+  "prod": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine)",
+  "path": "sources/國際仿單/肺炎鏈球菌_Vaxneuvance_V15_FDA_2026-06.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S74": {
+  "cat": "pcv",
+  "prod": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20]",
+  "path": "sources/國際仿單/肺炎鏈球菌_Prevnar20_V20_FDA_2023-04.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S75": {
+  "cat": "mmr",
+  "prod": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022",
+  "path": "sources/國際仿單/麻疹腮腺炎德國麻疹_Priorix_FDA_2026-03.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S76": {
+  "cat": "rsv",
+  "prod": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)",
+  "path": "sources/國際仿單/呼吸道融合病毒_Arexvy_FDA_2026-07.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S77": {
+  "cat": "rsv",
+  "prod": "Abrysvo (Respiratory Syncytial Virus Vaccine)",
+  "path": "sources/國際仿單/呼吸道融合病毒_Abrysvo_FDA_2025-12.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S78": {
+  "cat": "flu",
+  "prod": "Flucelvax Quadrivalent (Influenza Vaccine) [Taiwan: Flucelvax Tetra]",
+  "path": "sources/國際仿單/流感_FlucelvaxQuadrivalent_FDA_2026-03.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S79": {
+  "cat": "flu",
+  "prod": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula - SUPPLEMENTARY entry",
+  "path": "sources/國際仿單/流感_Flucelvax_trivalent_FDA_2026-07.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S80": {
+  "cat": "typhoid",
+  "prod": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine)",
+  "path": "sources/國際仿單/傷寒_TyphimVi_FDA_2026-06.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S81": {
+  "cat": "mpox",
+  "prod": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation",
+  "path": "sources/國際仿單/天花猴痘_Jynneos_FDA_2025-03.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S82": {
+  "cat": "covid",
+  "prod": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+  "path": "sources/國際仿單/新冠_Spikevax_FDA_2026-08.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S83": {
+  "cat": "covid",
+  "prod": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+  "path": "sources/國際仿單/新冠_mNEXSPIKE_FDA_2026-08.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S84": {
+  "cat": "covid",
+  "prod": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula - US BLA",
+  "path": "sources/國際仿單/新冠_Nuvaxovid_FDA_2026-08.pdf",
+  "pages": "claims",
+  "agency": "FDA"
+ },
+ "S85": {
+  "cat": "hexa",
+  "prod": "Hexyon (Hexaxim), suspension for injection in pre-filled syringe — DTaP-IPV-HB-Hib",
+  "path": "sources/國際仿單/六合一_Hexyon(Hexaxim)_EMA_2026-08.pdf",
+  "pages": "claims",
+  "agency": "EMA"
+ },
+ "S86": {
+  "cat": "hexa",
+  "prod": "Infanrix hexa, powder and suspension for suspension for injection — DTPa-HBV-IPV/Hib",
+  "path": "sources/國際仿單/六合一_Infanrix-hexa_EMA_2026-02.pdf",
+  "pages": "claims",
+  "agency": "EMA"
+ },
+ "S87": {
+  "cat": "jelive",
+  "prod": "Imojev (Japanese encephalitis virus vaccine, live, attenuated)",
+  "path": "sources/國際仿單/日本腦炎疫苗_Imojev_TGA_2023-03.pdf",
+  "pages": "claims",
+  "agency": "TGA"
+ },
+ "S88": {
+  "cat": "flu",
+  "prod": "Quadrivalent Influenza Vaccine (split virion, inactivated) — HPRA登記名稱，即Vaxigrip Tetra，Sanofi Winthrop Industrie，PA23458/010/001",
+  "path": "sources/國際仿單/流感疫苗_VaxigripTetra_HPRA_2025-06.pdf",
+  "pages": "claims",
+  "agency": "HPRA"
+ },
+ "S89": {
+  "cat": "yf",
+  "prod": "STAMARIL, powder and solvent for suspension for injection in pre-filled syringe (Yellow fever vaccine, live) — PL 23228/0005",
+  "path": "sources/國際仿單/黃熱病疫苗_Stamaril_MHRA_2025-01.pdf",
+  "pages": "claims",
+  "agency": "MHRA"
+ },
+ "S90": {
+  "cat": "rabies",
+  "prod": "Verorab, powder and solvent for suspension for injection (Rabies vaccine, inactivated, Vero cell-derived) — PLGB 23228/0001",
+  "path": "sources/國際仿單/狂犬病疫苗_Verorab_MHRA_2026-01.pdf",
+  "pages": "claims",
+  "agency": "MHRA"
+ },
+ "S91": {
+  "cat": "var",
+  "prod": "Varilrix 10^3.3 PFU/0.5mL Powder and Solvent for Solution for Injection — PL 10592/0121",
+  "path": "sources/國際仿單/水痘疫苗_Varilrix_MHRA_2026-08.pdf",
+  "pages": "claims",
+  "agency": "MHRA"
+ },
+ "S92": {
+  "cat": "rabies",
+  "prod": "Rabipur (Rabies Vaccine Inactivated) Powder and Solvent for Solution for Injection in Pre-filled Syringe — PL 40365/0004",
+  "path": "sources/國際仿單/狂犬病疫苗_Rabipur_MHRA_2026-05.pdf",
+  "pages": "claims",
+  "agency": "MHRA"
  }
 }

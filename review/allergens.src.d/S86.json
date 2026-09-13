@@ -1,0 +1,34 @@
+{
+ "vaccine": "hexa",
+ "product": "Infanrix hexa (DTPa-HBV-IPV/Hib)",
+ "source": "S86",
+ "origin": "EMA",
+ "lang": "en",
+ "components": [
+  {"page": 2, "label": "組成", "quote": "Hepatitis B surface antigen (HBs)2,3"},
+  {"page": 2, "label": "組成", "quote": "adsorbed on aluminium hydroxide, hydrated (Al(OH)3)                     0.5 milligrams Al3+"},
+  {"page": 2, "label": "組成", "quote": "produced in yeast cells (Saccharomyces cerevisiae) by recombinant DNA technology"},
+  {"page": 2, "label": "組成", "quote": "adsorbed on aluminium phosphate (AlPO4)                                0.32 milligrams Al3+"},
+  {"page": 2, "label": "組成", "quote": "The vaccine may contain traces of formaldehyde, neomycin and polymyxin which\nare used during the manufacturing process (see section 4.3)."},
+  {"page": 14, "label": "賦形劑（6.1）", "quote": "Lactose anhydrous"},
+  {"page": 14, "label": "賦形劑（6.1）", "quote": "Sodium chloride (NaCl)"},
+  {"page": 14, "label": "賦形劑（6.1）", "quote": "Medium 199 (as stabilizer containing amino acids (including phenylalanine), mineral salts (including\nsodium and potassium), vitamins (including para-aminobenzoic acid) and other substances)"},
+  {"page": 14, "label": "賦形劑（6.1）", "quote": "Water for injections"}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 2, "quote": "The vaccine may contain traces of formaldehyde, neomycin and polymyxin which\nare used during the manufacturing process (see section 4.3)."},
+  {"key": "other_antibiotics", "status": "有", "page": 2, "quote": "The vaccine may contain traces of formaldehyde, neomycin and polymyxin which\nare used during the manufacturing process (see section 4.3).", "note": "polymyxin（未特別標示 B型）；本品未見 streptomycin"},
+  {"key": "yeast", "status": "有", "page": 2, "quote": "produced in yeast cells (Saccharomyces cerevisiae) by recombinant DNA technology"},
+  {"key": "latex", "status": "未載明", "related": {"page": 15, "quote": "The tip cap and rubber plunger stopper of the pre-filled syringe and the stopper of the vial are made with\nsynthetic rubber.", "note": "瓶塞／針筒活塞頭為合成橡膠（synthetic rubber），非天然乳膠；仿單未明確排除乳膠故標未載明"}},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "有", "page": 2, "quote": "The vaccine may contain traces of formaldehyde, neomycin and polymyxin which\nare used during the manufacturing process (see section 4.3)."},
+  {"key": "thimerosal", "status": "未載明"},
+  {"key": "aluminium", "status": "有", "page": 2, "quote": "adsorbed on aluminium hydroxide, hydrated (Al(OH)3)                     0.5 milligrams Al3+"}
+ ],
+ "warnings": [
+  {"label": "禁忌（4.3）", "page": 4, "quote": "Hypersensitivity to the active substances or to any of the excipients listed in section 6.1, or\nformaldehyde, neomycin and polymyxin."},
+  {"label": "禁忌－腦病變（4.3）", "page": 4, "quote": "Infanrix hexa is contraindicated if the infant or toddlers has experienced an encephalopathy of unknown\naetiology, occurring within 7 days following previous vaccination with pertussis containing vaccine."}
+ ]
+}

@@ -1,0 +1,261 @@
+{
+ "product": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗）",
+ "source": "S33",
+ "pdf": "sources/仿單/PPV23_Pneumovax23_TFDA_2023-03-15.pdf",
+ "pages": 3,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [
+    {
+     "page": 1,
+     "term": "erythromycin",
+     "pattern": "erythromycin",
+     "context": "性。許多對 penicillin 產生抗藥性的肺炎鏈球菌⏎亦會對其他抗生素(如 erythromycin, trimethoprim-sulfamethoxazole 和廣效⏎性的 c"
+    },
+    {
+     "page": 1,
+     "term": "erythromycin",
+     "pattern": "erythromycin",
+     "context": "產生抗藥性。許多對penicillin產生抗藥性的肺炎鏈球菌亦會對其他抗生素(如erythromycin,trimethoprim-sulfamethoxazole和廣效性的cepha"
+    },
+    {
+     "page": 1,
+     "term": "抗生素",
+     "pattern": "抗生素",
+     "context": "生在因先天性損傷、頭顱破裂或進行神經手術造成慢性腦脊髓液外溢的病人身上。即使使用抗生素來有效的控制細菌,侵犯性的肺炎鏈球菌性疾病(如菌血症或腦膜炎)和肺炎仍會引起高的"
+    },
+    {
+     "page": 1,
+     "term": "抗生素",
+     "pattern": "抗生素",
+     "context": "illin產生抗藥性。許多對penicillin產生抗藥性的肺炎鏈球菌亦會對其他抗生素(如erythromycin,trimethoprim-sulfamethoxa"
+    },
+    {
+     "page": 1,
+     "term": "抗生素",
+     "pattern": "抗生素",
+     "context": "症的機率較一些其他人種(如黑人、阿拉斯加原住民、美洲印地安人)低。即使採取適當的抗生素療法及密切的醫療照顧,成人因罹患肺炎鏈球菌性菌血症所造成的死亡率為15-20%,"
+    },
+    {
+     "page": 2,
+     "term": "抗生素",
+     "pattern": "抗生素",
+     "context": "停注射本疫苗會有更高的危險時才能使用本品。對於需要以penicillin(或其他抗生素)來預防肺炎鏈球菌感染的病患,在注射PNEUMOVAX23後,不應停止使用此預防"
+    },
+    {
+     "page": 2,
+     "term": "抗生素",
+     "pattern": "抗生素",
+     "context": "預防肺炎鏈球菌感染的病患,在注射PNEUMOVAX23後,不應停止使用此預防性的抗生素。PNEUMOVAX23可能對因先天性損傷、頭顱破裂或進行神經手術造成慢性腦脊髓"
+    },
+    {
+     "page": 3,
+     "term": "抗菌劑",
+     "pattern": "抗菌劑",
+     "context": "過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及不含保存劑、抗菌劑及清潔劑的針筒從藥瓶內抽取0.5mL。預充疫苗針筒其他在臨床試驗及上市後的使用經"
+    }
+   ],
+   "dismissed": "「抗生素／erythromycin／抗菌劑」皆為抗藥性、預防性治療與針筒說明語境，非成分"
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [
+    {
+     "page": 1,
+     "term": "保存劑",
+     "pattern": "保存劑",
+     "context": "量中含有23種細菌莢膜多醣體,每種莢膜多醣體各25μg,溶於含有0.25%酚作為保存劑之等張生理食鹽水中。表一PNEUMOVAX23內所含之23種肺炎鏈球菌莢膜型命名"
+    },
+    {
+     "page": 1,
+     "term": "酚",
+     "pattern": "(?<![酚])酚(?![酞])",
+     "context": "mL劑量中含有23種細菌莢膜多醣體,每種莢膜多醣體各25μg,溶於含有0.25%酚作為保存劑之等張生理食鹽水中。表一PNEUMOVAX23內所含之23種肺炎鏈球菌"
+    },
+    {
+     "page": 3,
+     "term": "保存劑",
+     "pattern": "保存劑",
+     "context": "46°F)。本疫苗可直接使用不需稀釋或混合。本疫苗含有0.25%Phenol作為保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及不含保存劑"
+    },
+    {
+     "page": 3,
+     "term": "保存劑",
+     "pattern": "保存劑",
+     "context": "保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及不含保存劑、抗菌劑及清潔劑的針筒從藥瓶內抽取0.5mL。預充疫苗針筒其他在臨床試驗及上市後"
+    },
+    {
+     "page": 3,
+     "term": "Phenol",
+     "pattern": "phenol",
+     "context": " (36-46°F)。本疫苗可直接使用不需稀釋或混合。本疫⏎苗含有 0.25% Phenol 作為保存劑。過期後必須丟棄,不可再用。⏎⏎單一劑量或多劑量小瓶⏎必須使用滅菌後"
+    },
+    {
+     "page": 3,
+     "term": "Phenol",
+     "pattern": "phenol",
+     "context": "-8°C(36-46°F)。本疫苗可直接使用不需稀釋或混合。本疫苗含有0.25%Phenol作為保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及"
+    }
+   ],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

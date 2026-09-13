@@ -1,0 +1,244 @@
+{
+ "product": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent)",
+ "source": "S64",
+ "pdf": "sources/國際仿單/肺炎鏈球菌23價_Pneumovax23_FDA_2021-04.pdf",
+ "pages": 12,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [
+    {
+     "page": 2,
+     "term": "Antibiotic",
+     "pattern": "antibiotic",
+     "context": "scular or⏎Pulmonary Function⏎5.3 Use of Antibiotic Prophylaxis⏎5.4 Persons with Altered Im"
+    },
+    {
+     "page": 2,
+     "term": "Antibiotic",
+     "pattern": "antibiotic",
+     "context": "ardiovascularorPulmonaryFunction5.3UseofAntibioticProphylaxis5.4PersonswithAlteredImmunoco"
+    },
+    {
+     "page": 4,
+     "term": "Antibiotic",
+     "pattern": "antibiotic",
+     "context": "5.3⏎⏎Use of Antibiotic Prophylaxis⏎This vaccine does not repla"
+    },
+    {
+     "page": 4,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": "place the need for penicillin (or other antibiotic) prophylaxis against⏎pneumococcal infec"
+    },
+    {
+     "page": 4,
+     "term": "antibiotic",
+     "pattern": "antibiotic",
+     "context": "tients who require penicillin (or other antibiotic) prophylaxis against⏎pneumococcal infec"
+    }
+   ],
+   "dismissed": "「Use of Antibiotic Prophylaxis」段（5.3）講的是接種後仍需維持之臨床抗生素預防性投藥，非疫苗成分或製程殘留"
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [
+    {
+     "page": 3,
+     "term": "preservative",
+     "pattern": "preservative",
+     "context": "ng a sterile needle and syringe free of preservatives, antiseptics,⏎and detergents.⏎Single-D"
+    },
+    {
+     "page": 3,
+     "term": "preservative",
+     "pattern": "preservative",
+     "context": "evialusingasterileneedleandsyringefreeofpreservatives,antiseptics,anddetergents.Single-Dose,"
+    },
+    {
+     "page": 4,
+     "term": "phenol",
+     "pattern": "phenol",
+     "context": "wed by placebo (saline containing 0.25% phenol), or placebo followed by PNEUMOVAX 23, "
+    },
+    {
+     "page": 4,
+     "term": "phenol",
+     "pattern": "phenol",
+     "context": "3followedbyplacebo(salinecontaining0.25%phenol),orplacebofollowedbyPNEUMOVAX23,at30-da"
+    },
+    {
+     "page": 9,
+     "term": "preservative",
+     "pattern": "preservative",
+     "context": "e solution containing 0.25% phenol as a preservative. The vaccine⏎is used directly as suppli"
+    },
+    {
+     "page": 9,
+     "term": "preservative",
+     "pattern": "preservative",
+     "context": "icsalinesolutioncontaining0.25%phenolasapreservative.Thevaccineisuseddirectlyassupplied.Nodi"
+    },
+    {
+     "page": 9,
+     "term": "phenol",
+     "pattern": "phenol",
+     "context": "otonic saline solution containing 0.25% phenol as a preservative. The vaccine⏎is used "
+    },
+    {
+     "page": 9,
+     "term": "phenol",
+     "pattern": "phenol",
+     "context": "einisotonicsalinesolutioncontaining0.25%phenolasapreservative.Thevaccineisuseddirectly"
+    }
+   ],
+   "dismissed": "phenol 相關命中已列為 related；另一命中「free of preservatives, antiseptics, and detergents」是抽藥用針筒須無防腐劑殘留的給藥說明，非疫苗本身成分"
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

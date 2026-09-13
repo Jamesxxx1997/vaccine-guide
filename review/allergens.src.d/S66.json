@@ -1,0 +1,31 @@
+{
+ "vaccine": "tdap",
+ "product": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed)",
+ "source": "S66",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 18, "label": "Description／成分", "quote": "BOOSTRIX (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed) is a\nnoninfectious, sterile, injectable suspension for intramuscular use."},
+  {"page": 19, "label": "Description／成分", "quote": "Each 0.5 mL dose contains aluminum hydroxide as adjuvant (formulated to contain 0.3 mg aluminum) and\n4.4 mg of sodium chloride."},
+  {"page": 19, "label": "Description／成分", "quote": "Each dose also contains ≤100 mcg of\nresidual formaldehyde and ≤100 mcg of polysorbate 80 (Tween 80)."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 19, "quote": "The tip cap and rubber plunger stopper of the prefilled\nsyringe are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "有", "page": 19, "quote": "≤100 mcg of polysorbate 80 (Tween 80)"},
+  {"key": "formaldehyde", "status": "有", "page": 19, "quote": "≤100 mcg of\nresidual formaldehyde"},
+  {"key": "thimerosal", "status": "無", "page": 19, "quote": "BOOSTRIX is formulated without preservatives."},
+  {"key": "aluminium", "status": "有", "page": 19, "quote": "Each 0.5 mL dose contains aluminum hydroxide as adjuvant (formulated to contain 0.3 mg aluminum)"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 4, "quote": "BOOSTRIX is contraindicated in individuals with a known history of severe allergic reaction (e.g.,\nanaphylaxis) to any component of BOOSTRIX or after a previous dose of any tetanus toxoid-, diphtheria\ntoxoid-, or pertussis antigen-containing vaccine"},
+  {"label": "Latex", "page": 19, "quote": "The vial stoppers are not made with natural rubber latex."}
+ ],
+ "sweep": {"date": "2026-09-13", "dismissed": {
+  "egg": "命中詞'hen'/'embryo'皆為'when'字尾或'embryo-fetal'（動物生殖毒性研究用語），與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白"
+ }}
+}

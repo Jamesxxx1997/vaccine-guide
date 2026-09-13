@@ -1,0 +1,596 @@
+[
+ {
+  "slug": "varivax-fda",
+  "vaccine": "var",
+  "product": "Varivax (Varicella Virus Vaccine Live)",
+  "agency": "FDA",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=524cf052-e90e-4595-af0a-608edbe9bd31&type=pdf",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/varivax-refrigerated-and-frozen-formulations",
+  "path": "sources/國際仿單/水痘_Varivax_FDA_2026-08.pdf",
+  "revised": "2026-08",
+  "downloaded": "2026-09-13",
+  "sha256": "2adc48aac7c1552f4e281f949d9d3fff9227927012231a90b3bd0f1964920f7a",
+  "pages": 31,
+  "words": 9732,
+  "sections": {
+   "description": [
+    13
+   ],
+   "contraindications": [
+    5
+   ],
+   "latex": [],
+   "egg": [],
+   "gelatin": [
+    1,
+    5,
+    13,
+    22,
+    23,
+    24,
+    29,
+    30
+   ],
+   "neomycin": [
+    1,
+    5,
+    14,
+    22,
+    23,
+    24,
+    25,
+    27,
+    29,
+    30
+   ],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "dailymed",
+  "notes": "DailyMed copy used because it is NEWER than the FDA-hosted PDF: DailyMed SPL (setid 524cf052-e90e-4595-af0a-608edbe9bd31, label page https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=524cf052-e90e-4595-af0a-608edbe9bd31, published 2026-08-17, effectiveTime 2026-08-06) Highlights read 'Revised: 8/2026'. FDA-hosted Package Insert (Refrigerator) https://www.fda.gov/media/76000/download is 'Revised: 08/2023' (16 pp, sha256 788b7b753f..., latest approval letter posted on FDA page = 2023-08-21) and was downloaded, verified and then discarded as superseded. DailyMed PDF is an NIH rendering of the SPL: no 508 cover, Highlights start on p.1; also includes Patient Information (p.22+) and carton/PRINCIPAL DISPLAY PANEL pages (p.25+), which is why gelatin/neomycin hits appear on many pages. Section 4 CONTRAINDICATIONS body starts p.5 (Highlights heading p.1, TOC p.2); Section 11 DESCRIPTION body p.13 (TOC p.3). Term counts: {\"gelatin\": 9, \"neomycin\": 10}.",
+  "source": "S71"
+ },
+ {
+  "slug": "menveo-fda",
+  "vaccine": "mcv4",
+  "product": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/78514/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/menveo",
+  "path": "sources/國際仿單/腦膜炎_Menveo_FDA_2025-03.pdf",
+  "revised": "2025-03",
+  "downloaded": "2026-09-13",
+  "sha256": "764d2512f2ed6a66db119bd92282bab626eda792c130455cf5332f2ac042fb79",
+  "pages": 38,
+  "words": 12128,
+  "sections": {
+   "description": [
+    25
+   ],
+   "contraindications": [
+    5
+   ],
+   "latex": [
+    25,
+    36
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [
+    25
+   ],
+   "polysorbate_peg": [],
+   "formaldehyde": [
+    25
+   ],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. The FDA-hosted PDF's footer literally reads 'Revised: xx/202x' and RECENT MAJOR CHANGES 'xx/xxxx' (unfilled template placeholders baked into the file). Revision month 2025-03 established from: DailyMed SPL (setid 2dc730d5-55fd-4e98-8c8a-daa7d8f872b0, version 19, effectiveTime 2025-03-31) whose Highlights read 'Revised: 3/2025'; FDA landing page's most recent approval letter 2025-03-31; PDF ModDate 2025-05-09. Section 11 DESCRIPTION body p.25 (TOC p.2); Section 4 CONTRAINDICATIONS body p.5 (TOC p.2). Term counts: {\"latex\": 3, \"yeast\": 1, \"formaldehyde\": 2}.",
+  "source": "S72"
+ },
+ {
+  "slug": "vaxneuvance-fda",
+  "vaccine": "pcv",
+  "product": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/150819/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/vaxneuvance",
+  "path": "sources/國際仿單/肺炎鏈球菌_Vaxneuvance_V15_FDA_2026-06.pdf",
+  "revised": "2026-06",
+  "downloaded": "2026-09-13",
+  "sha256": "bbc6a114c02ef7fb3a7072a761ddbe40593190f08ce5c125754df790a0014724",
+  "pages": 24,
+  "words": 10390,
+  "sections": {
+   "description": [
+    17
+   ],
+   "contraindications": [
+    4
+   ],
+   "latex": [
+    17,
+    24
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [
+    17
+   ],
+   "polysorbate_peg": [
+    17
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": [
+    17
+   ]
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. 'Revised: 06/2026' in footer; DailyMed SPL effectiveTime 2026-06-17 agrees. Section 11 DESCRIPTION body p.17 (TOC p.2); Section 4 CONTRAINDICATIONS body p.4 (TOC p.2). Term counts: {\"latex\": 2, \"yeast\": 1, \"polysorbate_peg\": 2, \"aluminum\": 3}.",
+  "source": "S73"
+ },
+ {
+  "slug": "prevnar20-fda",
+  "vaccine": "pcv",
+  "product": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20]",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/149987/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/prevnar-20",
+  "path": "sources/國際仿單/肺炎鏈球菌_Prevnar20_V20_FDA_2023-04.pdf",
+  "revised": "2023-04",
+  "downloaded": "2026-09-13",
+  "sha256": "aca2251f6f21c8a8798187afec04b38eb6d83c270c9d2244a675a22af3729921",
+  "pages": 33,
+  "words": 16003,
+  "sections": {
+   "description": [
+    19
+   ],
+   "contraindications": [
+    5
+   ],
+   "latex": [
+    32
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [
+    19
+   ],
+   "polysorbate_peg": [
+    19
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": [
+    19
+   ]
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. The FDA-hosted PDF's footer literally reads 'Revised: XX/202X' and RECENT MAJOR CHANGES 'XX/YYYY' (unfilled placeholders baked into the file). Revision month 2023-04 established from: DailyMed SPL (setid d4e2cf51-e6a8-4103-bb1d-6120c6474ff8) Highlights 'Revised: 4/2023'; FDA approval letter 2023-04-27; PDF ModDate 2023-04-28. DailyMed's SPL effectiveTime 2026-07-24 / 'Revised: 7/2026' applies only to its carton/PRINCIPAL DISPLAY PANEL section (p.34 of the DailyMed rendering), not to the PI text - text diff vs FDA copy shows only layout re-flow. Section 11 DESCRIPTION body p.19 (TOC p.2); Section 4 CONTRAINDICATIONS body p.5 (TOC p.2). Term counts: {\"latex\": 1, \"yeast\": 1, \"polysorbate_peg\": 1, \"aluminum\": 2}.",
+  "source": "S74"
+ },
+ {
+  "slug": "priorix-fda",
+  "vaccine": "mmr",
+  "product": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/189623/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/priorix",
+  "path": "sources/國際仿單/麻疹腮腺炎德國麻疹_Priorix_FDA_2026-03.pdf",
+  "revised": "2026-03",
+  "downloaded": "2026-09-13",
+  "sha256": "437c3194c5848df2a3bd9410e8488cb9c07d839975a62609bb2505dfe0f53d21",
+  "pages": 20,
+  "words": 6601,
+  "sections": {
+   "description": [
+    12
+   ],
+   "contraindications": [
+    5
+   ],
+   "latex": [
+    2,
+    13,
+    19
+   ],
+   "egg": [
+    12,
+    13
+   ],
+   "gelatin": [],
+   "neomycin": [
+    12,
+    13
+   ],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. Landing page is under /vaccines-blood-biologics/priorix (no /vaccines/ segment). 'Revised: 3/2026' (FDA labeling amendment letter 2026-03-27); newer than DailyMed SPL (effectiveTime 2025-11-14). Section 11 DESCRIPTION body p.12 (TOC p.2); Section 4 CONTRAINDICATIONS body p.5 (TOC p.2). Term counts: {\"latex\": 3, \"egg\": 2, \"neomycin\": 2}.",
+  "source": "S75"
+ },
+ {
+  "slug": "arexvy-fda",
+  "vaccine": "rsv",
+  "product": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/167805/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/arexvy",
+  "path": "sources/國際仿單/呼吸道融合病毒_Arexvy_FDA_2026-07.pdf",
+  "revised": "2026-07",
+  "downloaded": "2026-09-13",
+  "sha256": "097d3126abaf73240762c100764feea92356235c3876cf5ad08ea5f0c101518f",
+  "pages": 29,
+  "words": 10977,
+  "sections": {
+   "description": [
+    18
+   ],
+   "contraindications": [
+    5
+   ],
+   "latex": [
+    19
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    18,
+    19
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. Landing page under /vaccines-blood-biologics/arexvy. 'Revised: 7/2026'; DailyMed SPL effectiveTime 2026-07-27 agrees. Section 11 DESCRIPTION body p.18 (TOC p.2); Section 4 CONTRAINDICATIONS body p.5 (TOC p.2). Term counts: {\"latex\": 1, \"polysorbate_peg\": 2}.",
+  "source": "S76"
+ },
+ {
+  "slug": "abrysvo-fda",
+  "vaccine": "rsv",
+  "product": "Abrysvo (Respiratory Syncytial Virus Vaccine)",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/168889/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/abrysvo",
+  "path": "sources/國際仿單/呼吸道融合病毒_Abrysvo_FDA_2025-12.pdf",
+  "revised": "2025-12",
+  "downloaded": "2026-09-13",
+  "sha256": "4bed3c1f1eb6a83d734db248ee5d941d22bc1fa6d69a50cae2ff7c651baa5dd7",
+  "pages": 30,
+  "words": 11881,
+  "sections": {
+   "description": [
+    22
+   ],
+   "contraindications": [
+    6
+   ],
+   "latex": [
+    22,
+    29
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    22
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. Landing page under /vaccines-blood-biologics/abrysvo. 'Revised: 12/2025' (FDA approval letter 2025-12-19). DailyMed SPL effectiveTime 2026-07-14 checked: its Highlights also read 'Revised: 12/2025' (packaging-only SPL update), so the FDA copy is current. Section 11 DESCRIPTION body p.22 (TOC p.2); Section 4 CONTRAINDICATIONS body p.6 (TOC p.2). Term counts: {\"latex\": 2, \"polysorbate_peg\": 1}.",
+  "source": "S77"
+ },
+ {
+  "slug": "flucelvax-quadrivalent-fda",
+  "vaccine": "flu",
+  "product": "Flucelvax Quadrivalent (Influenza Vaccine) [Taiwan: Flucelvax Tetra]",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/115862/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/flucelvax-quadrivalent",
+  "path": "sources/國際仿單/流感_FlucelvaxQuadrivalent_FDA_2026-03.pdf",
+  "revised": "2026-03",
+  "downloaded": "2026-09-13",
+  "sha256": "64f88efcb0f276476a2769c5a52e0e113078303dc207675b8af71f0ee4fd605c",
+  "pages": 21,
+  "words": 8581,
+  "sections": {
+   "description": [
+    12
+   ],
+   "contraindications": [
+    3
+   ],
+   "latex": [
+    13
+   ],
+   "egg": [
+    13
+   ],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    13
+   ],
+   "formaldehyde": [],
+   "thimerosal": [
+    13
+   ],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. PRIMARY flu entry: matches the quadrivalent Taiwan product. FDA still hosts and maintains this label ('Revised: 03/2026', joint 2026-03-23 approval letter for Flucelvax and Flucelvax Quadrivalent; Febrile Seizures W&P update) but its Highlights header still prints '2023-2024 Formula' and the product no longer appears on DailyMed (US market moved to the trivalent FLUCELVAX from the 2024-25 season). The current trivalent US label is provided as a supplementary entry (slug flucelvax-trivalent-fda). Section 11 DESCRIPTION body p.12 (TOC p.2); Section 4 CONTRAINDICATIONS body p.3 (TOC p.2). Term counts: {\"latex\": 1, \"egg\": 1, \"polysorbate_peg\": 1, \"thimerosal\": 1}.",
+  "source": "S78"
+ },
+ {
+  "slug": "flucelvax-trivalent-fda",
+  "vaccine": "flu",
+  "product": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula - SUPPLEMENTARY entry",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/85322/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/flucelvax",
+  "path": "sources/國際仿單/流感_Flucelvax_trivalent_FDA_2026-07.pdf",
+  "revised": "2026-07",
+  "downloaded": "2026-09-13",
+  "sha256": "6849bba092d2da47ffcf3cb3726adb135369847a50120d8494b27c5e127e7f80",
+  "pages": 21,
+  "words": 8089,
+  "sections": {
+   "description": [
+    13
+   ],
+   "contraindications": [
+    3
+   ],
+   "latex": [
+    14
+   ],
+   "egg": [
+    14,
+    17,
+    18,
+    19
+   ],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    14
+   ],
+   "formaldehyde": [],
+   "thimerosal": [
+    14
+   ],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. SUPPLEMENTARY (14th) entry, not one of the 13 requested products: this is what the CURRENT US Flucelvax label is now called (trivalent; 'Revised: 7/2026'; '2026-2027 Formula'; FDA approval letter 2026-07-01; DailyMed SPL effectiveTime 2026-08-31). Included because the task asked for 'whatever the current Flucelvax label is now called'; drop it if only the quadrivalent match to Flucelvax Tetra is wanted. Section 11 DESCRIPTION body p.13 (TOC p.2); Section 4 CONTRAINDICATIONS body p.3 (TOC p.2). Term counts: {\"latex\": 1, \"egg\": 4, \"polysorbate_peg\": 1, \"thimerosal\": 1}.",
+  "source": "S79"
+ },
+ {
+  "slug": "typhim-vi-fda",
+  "vaccine": "typhoid",
+  "product": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine)",
+  "agency": "FDA",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/getFile.cfm?setid=ad1fbe7f-2995-45dd-92f3-7baccaab85d9&type=pdf",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/typhim-vi",
+  "path": "sources/國際仿單/傷寒_TyphimVi_FDA_2026-06.pdf",
+  "revised": "2026-06",
+  "downloaded": "2026-09-13",
+  "sha256": "325a8264ba8eebca1be3d4ad7bde542351fdf3a3d4513688c66a7424717939e3",
+  "pages": 19,
+  "words": 5196,
+  "sections": {
+   "description": [
+    1
+   ],
+   "contraindications": [
+    5
+   ],
+   "latex": [
+    1
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [
+    1
+   ],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "dailymed",
+  "notes": "DailyMed copy used because it is NEWER than the FDA-hosted PDF: DailyMed SPL (setid ad1fbe7f-2995-45dd-92f3-7baccaab85d9, label page https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ad1fbe7f-2995-45dd-92f3-7baccaab85d9, published 2026-08-03, effectiveTime 2026-07-30, labeler Sanofi Vaccines US Inc.) reads 'Product Information as of June 2026' (p.14) and 'Revised: 7/2026' on the carton section (p.19). FDA-hosted Package Insert https://www.fda.gov/media/75993/download is 'Product Information as of March 2020' (17 pp, sha256 20b50e13da..., only approval letter posted = 2020-03-20) and was downloaded, verified and then discarded as superseded. Legacy (non-PLR) label format: no HIGHLIGHTS section and no numbered sections; the first-page check was done on the product name (TYPHIM VI). DESCRIPTION heading p.1; CONTRAINDICATIONS heading p.5. DailyMed rendering has no 508 cover; PRINCIPAL DISPLAY PANEL pages p.14-19. Term counts: {\"latex\": 1, \"formaldehyde\": 1}.",
+  "source": "S80"
+ },
+ {
+  "slug": "jynneos-fda",
+  "vaccine": "mpox",
+  "product": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/131078/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/jynneos",
+  "path": "sources/國際仿單/天花猴痘_Jynneos_FDA_2025-03.pdf",
+  "revised": "2025-03",
+  "downloaded": "2026-09-13",
+  "sha256": "681de68fe8591826ff479b091497beb3f71caa2edb5f02a25c5a43a243071be6",
+  "pages": 18,
+  "words": 6121,
+  "sections": {
+   "description": [
+    12
+   ],
+   "contraindications": [],
+   "latex": [
+    13
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [
+    13
+   ],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. Landing page under /vaccines-blood-biologics/jynneos. FDA posts two presentations: Refrigerator (media/131078, used here) and Frozen (media/186359, not downloaded). The FDA-hosted PDF's footer literally reads 'Revised: MM/YYYY' and RECENT MAJOR CHANGES 'MM/YYYY' (unfilled placeholders). Revision month 2025-03 established from: DailyMed SPLs (setids b115e2e7-c24d-4306-b26c-8696ac61c9f7 and d3a52eba-83d2-4fd1-8db5-dd04bcb1ba9d, both effectiveTime 2025-03-31) whose Highlights read 'Revised: 3/2025'; FDA approval letter 2025-03-31; PDF ModDate 2025-05-08. This label has NO Section 4 CONTRAINDICATIONS at all (table of contents runs 3 -> 5; zero occurrences of 'contraindic' in the text), so contraindications is recorded as []. Section 11 DESCRIPTION body p.12 (TOC p.2). other_antibiotics hit = gentamicin (p.13). Term counts: {\"latex\": 1, \"other_antibiotics\": 1}.",
+  "source": "S81"
+ },
+ {
+  "slug": "spikevax-fda",
+  "vaccine": "covid",
+  "product": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/155675/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/spikevax",
+  "path": "sources/國際仿單/新冠_Spikevax_FDA_2026-08.pdf",
+  "revised": "2026-08",
+  "downloaded": "2026-09-13",
+  "sha256": "9af99b0f9ab05a9a39094be75aee5997b22a0df70b1beae23a290c55b2ea1835",
+  "pages": 79,
+  "words": 32781,
+  "sections": {
+   "description": [
+    51
+   ],
+   "contraindications": [
+    6
+   ],
+   "latex": [
+    51
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    51
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. Landing page under /vaccines-blood-biologics/spikevax. BLA Prescribing Information (HIGHLIGHTS OF PRESCRIBING INFORMATION), not an EUA fact sheet. NOTE: the task asked for the 2025-2026 formulation, but as of 2026-09-13 the FDA already serves the '2026-2027 Formula' label ('Revised: 8/2026'; DailyMed SPL effectiveTime 2026-08-17) at the same media URL - this is the current one; the 2025-2026 label is superseded and no longer at this URL. Section 11 DESCRIPTION body p.51 (TOC p.3); Section 4 CONTRAINDICATIONS body p.6 (TOC p.2). Term counts: {\"latex\": 1, \"polysorbate_peg\": 4}.",
+  "source": "S82"
+ },
+ {
+  "slug": "mnexspike-fda",
+  "vaccine": "covid",
+  "product": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/186738/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/mnexspike",
+  "path": "sources/國際仿單/新冠_mNEXSPIKE_FDA_2026-08.pdf",
+  "revised": "2026-08",
+  "downloaded": "2026-09-13",
+  "sha256": "c7c650b4447bdebfe4b560f0ef88d308d57f81972886369e038b32499196ac6e",
+  "pages": 32,
+  "words": 11504,
+  "sections": {
+   "description": [
+    19
+   ],
+   "contraindications": [
+    3
+   ],
+   "latex": [
+    19
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    18,
+    19
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "This FDA PDF has NO 508 cover sheet: Highlights start on PDF p.1. Landing page under /vaccines-blood-biologics/mnexspike. BLA Prescribing Information, not an EUA fact sheet. NOTE: '2026-2027 Formula', 'Revised: 8/2026' (DailyMed SPL effectiveTime 2026-08-17) - newer than the 2025-2026 formulation named in the task; it is the current label. Section 11 DESCRIPTION body p.19 (TOC p.1); Section 4 CONTRAINDICATIONS body p.3 (TOC p.1). Term counts: {\"latex\": 1, \"polysorbate_peg\": 4}.",
+  "source": "S83"
+ },
+ {
+  "slug": "nuvaxovid-fda",
+  "vaccine": "covid",
+  "product": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula - US BLA",
+  "agency": "FDA",
+  "url": "https://www.fda.gov/media/186544/download",
+  "landing": "https://www.fda.gov/vaccines-blood-biologics/vaccines/nuvaxovid",
+  "path": "sources/國際仿單/新冠_Nuvaxovid_FDA_2026-08.pdf",
+  "revised": "2026-08",
+  "downloaded": "2026-09-13",
+  "sha256": "bd18ed2a01c2e9c55b601a9d3f1913081d6038074bcbe0d1fdd7f35186f3dbc7",
+  "pages": 47,
+  "words": 19684,
+  "sections": {
+   "description": [
+    32
+   ],
+   "contraindications": [
+    3
+   ],
+   "latex": [
+    33
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [
+    31,
+    33,
+    46
+   ],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminum": []
+  },
+  "copySource": "fda",
+  "notes": "PDF p.1 is the FDA Section 508 accessibility cover sheet; label page 1 = PDF p.2. Page numbers below are PDF page indices. BLA Prescribing Information ('Package Insert and Patient Package Insert - NUVAXOVID'), not the EUA fact sheet. NOTE: '2026-2027 Formula', 'Revised: 8/2026' (DailyMed SPL effectiveTime 2026-08-25, labeler now Sanofi Vaccines; the label's adverse-event contact is Sanofi) - newer than the 2025-2026 formulation named in the task; it is the current label. Section 11 DESCRIPTION body p.32 (TOC p.2); Section 4 CONTRAINDICATIONS body p.3 (TOC p.2). Term counts: {\"latex\": 1, \"polysorbate_peg\": 3}.",
+  "source": "S84"
+ }
+]

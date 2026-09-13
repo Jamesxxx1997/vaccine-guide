@@ -1,0 +1,43 @@
+{
+ "vaccine": "jelive",
+ "product": "Imojev (Japanese encephalitis vaccine, live, attenuated)",
+ "source": "S87",
+ "origin": "TGA",
+ "lang": "en",
+ "components": [
+  {"page": 1, "label": "Active ingredient", "quote": "Live, attenuated, recombinant Japanese encephalitis virus*: 4.0 - 5.8 log PFU**"},
+  {"page": 1, "label": "Active ingredient", "quote": "* Propagated in Vero cells"},
+  {"page": 19, "label": "List of excipients", "quote": "Mannitol"},
+  {"page": 19, "label": "List of excipients", "quote": "Lactose monohydrate"},
+  {"page": 19, "label": "List of excipients", "quote": "Glutamic acid"},
+  {"page": 19, "label": "List of excipients", "quote": "Potassium hydroxide"},
+  {"page": 19, "label": "List of excipients", "quote": "Histidine"},
+  {"page": 20, "label": "List of excipients", "quote": "Human Serum Albumin"},
+  {"page": 20, "label": "List of excipients", "quote": "Sodium chloride"},
+  {"page": 20, "label": "List of excipients", "quote": "Water for injections"},
+  {"page": 20, "label": "No adjuvant/preservative", "quote": "No adjuvant or antimicrobial preservative is added."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明"},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 20, "quote": "No adjuvant or antimicrobial preservative is added."},
+  {"key": "aluminium", "status": "無", "page": 20, "quote": "No adjuvant or antimicrobial preservative is added.",
+   "note": "仿單另於6.5節提及「flip off cap (aluminium/polypropylene)」，惟該處aluminium係指安瓿瓶翻蓋瓶蓋材質，屬包裝容器組件，非疫苗成分或佐劑，不影響本欄「無」佐劑之判定"}
+ ],
+ "warnings": [
+  {"label": "禁忌", "page": 3, "quote": "Imojev should not be administered to anyone with a history of severe allergic reaction to any\ncomponent of the vaccine or after previous administration of the vaccine or a vaccine\ncontaining the same components or constituents."},
+  {"label": "禁忌－免疫缺陷", "page": 3, "quote": "Congenital or acquired immune deficiency impairing cellular immunity, including\nimmunosuppressive therapies such as chemotherapy, high doses of systemic corticosteroids\ngiven for 14 days or more."},
+  {"label": "禁忌－懷孕／哺乳", "page": 3, "quote": "Imojev must not be administered to pregnant women (see Section 4.6 Fertility, pregnancy and\nlactation - Use in pregnancy)."}
+ ],
+ "sweep": {
+  "dismissed": {
+   "egg": "p.4「embryo-foetal development」出自兔隻生殖毒性試驗段落（母兔孕期胚胎發育），與蛋／雞胚培養或卵蛋白過敏原無關，非假陽性外之真實命中"
+  }
+ }
+}

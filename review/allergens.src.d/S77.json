@@ -1,0 +1,29 @@
+{
+ "vaccine": "rsv",
+ "product": "Abrysvo (Respiratory Syncytial Virus Vaccine)",
+ "source": "S77",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 22, "label": "Description／成分", "quote": "The RSV preF A and RSV preF B recombinant proteins are expressed in genetically engineered Chinese\nHamster Ovary cell lines grown in suspension culture using chemically-defined media, without antibiotics or\nanimal-derived components."},
+  {"page": 22, "label": "Description／成分", "quote": "After reconstitution, a single dose of ABRYSVO is formulated to contain 120 mcg of RSV stabilized prefusion\nF proteins (60 mcg RSV preF A and 60 mcg RSV preF B) per 0.5 mL. ABRYSVO also contains the following\nbuffer ingredients: 0.11 mg tromethamine, 1.04 mg tromethamine hydrochloride, 11.3 mg sucrose, 22.5 mg\nmannitol, 0.08 mg polysorbate 80, and 1.1 mg sodium chloride per 0.5 mL."},
+  {"page": 22, "label": "Description／成分", "quote": "ABRYSVO contains no preservatives."},
+  {"page": 22, "label": "Description／成分", "quote": "The Act-O-Vial stoppers, vial stoppers and tip cap and rubber plunger of the prefilled syringe are not made with\nnatural rubber latex."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "無", "page": 22, "quote": "The RSV preF A and RSV preF B recombinant proteins are expressed in genetically engineered Chinese\nHamster Ovary cell lines grown in suspension culture using chemically-defined media, without antibiotics or\nanimal-derived components."},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 22, "quote": "The Act-O-Vial stoppers, vial stoppers and tip cap and rubber plunger of the prefilled syringe are not made with\nnatural rubber latex."},
+  {"key": "peg_polysorbate", "status": "有", "page": 22, "quote": "After reconstitution, a single dose of ABRYSVO is formulated to contain 120 mcg of RSV stabilized prefusion\nF proteins (60 mcg RSV preF A and 60 mcg RSV preF B) per 0.5 mL. ABRYSVO also contains the following\nbuffer ingredients: 0.11 mg tromethamine, 1.04 mg tromethamine hydrochloride, 11.3 mg sucrose, 22.5 mg\nmannitol, 0.08 mg polysorbate 80, and 1.1 mg sodium chloride per 0.5 mL."},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 22, "quote": "ABRYSVO contains no preservatives."},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "sweep": {"dismissed": {"egg": "命中皆為 'embryo-fetal'／'embryo/fetal'（動物生殖毒理學研究用詞，如 embryo-fetal developmental toxicity study），與蛋／雞胚無關", "aluminium": "p17 命中為同時併用的另一廠牌流感疫苗 'FLUAD QUADRIVALENT (Adjuvanted)'；p29 命中為 14.5 節第二期臨床試驗中一款「with or without Al(OH)3」的研究用調製劑，非上市核准配方——核准配方見 Description(11)，未列鋁佐劑"}},
+ "warnings": [
+  {"label": "Contraindications", "page": 6, "quote": "Do not administer ABRYSVO to individuals with a history of a severe allergic reaction (e.g., anaphylaxis) to\nany component of ABRYSVO [see Description (11)]."}
+ ]
+}

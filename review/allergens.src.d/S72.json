@@ -1,0 +1,29 @@
+{
+ "vaccine": "mcv4",
+ "product": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)",
+ "source": "S72",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 25, "label": "Description／成分", "quote": "N. meningitidis strains A, C, Y,\nand W-135 are each cultured and grown on Franz Complete medium and treated with\nformaldehyde."},
+  {"page": 25, "label": "Description／成分", "quote": "C. diphtheriae is cultured and grown on CY medium\ncontaining yeast extracts and amino acids."},
+  {"page": 25, "label": "Description／成分", "quote": "The vaccine contains no preservative or adjuvant."},
+  {"page": 25, "label": "Description／成分", "quote": "Residual formaldehyde per\ndose is estimated to be not more than 0.30 mcg."},
+  {"page": 25, "label": "Description／成分", "quote": "The container closures (synthetic rubber stoppers) are not made with natural rubber latex."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "有", "page": 25, "quote": "C. diphtheriae is cultured and grown on CY medium\ncontaining yeast extracts and amino acids.", "note": "培養基含酵母萃取物，非殘留活酵母"},
+  {"key": "latex", "status": "無", "page": 25, "quote": "The container closures (synthetic rubber stoppers) are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "有", "page": 25, "quote": "N. meningitidis strains A, C, Y,\nand W-135 are each cultured and grown on Franz Complete medium and treated with\nformaldehyde.", "note": "並見 Residual formaldehyde per dose ≤0.30 mcg"},
+  {"key": "thimerosal", "status": "無", "page": 25, "quote": "The vaccine contains no preservative or adjuvant."},
+  {"key": "aluminium", "status": "無", "page": 25, "quote": "The vaccine contains no preservative or adjuvant.", "note": "同句否定 adjuvant（本品不含鋁佐劑）"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 5, "quote": "Do not administer MENVEO to individuals with a severe allergic reaction (e.g., anaphylaxis) to\na previous dose of MENVEO, to any component of this vaccine, or to any other diphtheria\ntoxoid-containing vaccine."}
+ ]
+}

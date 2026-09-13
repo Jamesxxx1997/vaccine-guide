@@ -1,0 +1,93 @@
+{
+ "vaccine": "menb",
+ "product": "Bexsero (Meningococcal Group B Vaccine)",
+ "source": "S68",
+ "origin": "FDA",
+ "lang": "en",
+ "note": "Bexsero 為 Meningococcal Group B 疫苗，與四價接合型（Menveo）不同類，矩陣以獨立列「腦膜炎雙球菌 B 型疫苗」呈現。",
+ "components": [
+  {
+   "page": 9,
+   "label": "Description／成分",
+   "quote": "BEXSERO (Meningococcal Group B Vaccine) is a sterile, white, opalescent, injectable\nsuspension for intramuscular use."
+  },
+  {
+   "page": 9,
+   "label": "Description／成分",
+   "quote": "50 mcg each of recombinant proteins Neisserial adhesin A (NadA), Neisserial Heparin Binding\nAntigen (NHBA), and factor H binding protein (fHbp), and 25 mcg of Outer Membrane Vesicles\n(OMV), 1.5 mg aluminum hydroxide (0.519 mg of Al3+), 3.125 mg sodium chloride, 0.776 mg\nhistidine, and 10 mg sucrose at pH 6.4 to 6.7."
+  },
+  {
+   "page": 10,
+   "label": "Description／成分",
+   "quote": "Each dose contains less than 0.01 mcg kanamycin (by calculation)."
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "有",
+   "page": 10,
+   "quote": "Each dose contains less than 0.01 mcg kanamycin (by calculation).",
+   "note": "kanamycin，非 neomycin"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 10,
+   "quote": "The tip cap and rubber plunger stopper of the prefilled syringe are not made with natural rubber\nlatex."
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "未載明"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "未載明"
+  },
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 9,
+   "quote": "1.5 mg aluminum hydroxide (0.519 mg of Al3+)"
+  }
+ ],
+ "warnings": [
+  {
+   "label": "Contraindications",
+   "page": 3,
+   "quote": "Do not administer BEXSERO to individuals with a history of a severe allergic reaction (e.g.,\nanaphylaxis) to any component of BEXSERO or after a previous dose of BEXSERO"
+  },
+  {
+   "label": "Latex",
+   "page": 15,
+   "quote": "The tip cap and rubber plunger stopper of the prefilled syringe are not made with natural rubber\nlatex."
+  }
+ ],
+ "sweep": {
+  "date": "2026-09-13",
+  "dismissed": {
+   "peg_polysorbate": "命中詞'tween'皆為'between'字尾（描述菌株收集年代區間），與 polysorbate 80/Tween 無關，仿單全文未提 polysorbate/PEG"
+  }
+ },
+ "vaccineName": "腦膜炎雙球菌 B 型疫苗（Bexsero）"
+}

@@ -1,0 +1,27 @@
+{
+ "vaccine": "flu",
+ "product": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula",
+ "source": "S79",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 13, "label": "Description", "quote": "FLUCELVAX (Influenza Vaccine) is a trivalent subunit influenza vaccine manufactured using cell derived candidate vaccine viruses (CVV) that are propagated in Madin Darby Canine Kidney (MDCK) cells, a continuous cell line."},
+  {"page": 14, "label": "Description", "quote": "Each dose of FLUCELVAX may contain residual amounts of MDCK cell protein (≤ 21.6 mcg), protein other than HA (≤ 225 mcg), MDCK cell DNA (≤ 10 ng), polysorbate 80 (≤ 1125 mcg), cetyltrimethylammonium bromide (≤ 13.5 mcg), and β-propiolactone (< 0.5 mcg), which are used in the manufacturing process."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "無", "page": 14, "quote": "FLUCELVAX contains no egg protein or antibiotics."},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "無", "page": 14, "quote": "FLUCELVAX contains no egg protein or antibiotics."},
+  {"key": "yeast", "status": "未載明", "related": {"page": 13, "quote": "FLUCELVAX (Influenza Vaccine) is a trivalent subunit influenza vaccine manufactured using cell derived candidate vaccine viruses (CVV) that are propagated in Madin Darby Canine Kidney (MDCK) cells, a continuous cell line.", "note": "細胞培養（MDCK 犬腎細胞株）製程，非酵母培養；仿單未提及酵母／yeast 字樣，故格子仍列未載明，附此製程原句供對照"}},
+  {"key": "latex", "status": "無", "page": 14, "quote": "The tip caps and plungers of the pre-filled syringes and the multi-dose vial stopper are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "有", "page": 14, "quote": "Each dose of FLUCELVAX may contain residual amounts of MDCK cell protein (≤ 21.6 mcg), protein other than HA (≤ 225 mcg), MDCK cell DNA (≤ 10 ng), polysorbate 80 (≤ 1125 mcg), cetyltrimethylammonium bromide (≤ 13.5 mcg), and β-propiolactone (< 0.5 mcg), which are used in the manufacturing process.", "note": "polysorbate 80 殘留量，非 PEG"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "有", "page": 14, "quote": "FLUCELVAX 5 mL multi-dose vials contain thimerosal, a mercury derivative, added as a preservative.", "note": "僅多劑量瓶含硫柳汞；0.5 mL 預充針劑無防腐劑（同頁另有 'FLUCELVAX 0.5 mL pre-filled syringes contain no preservative.'）"},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 3, "quote": "Do not administer FLUCELVAX to anyone with a history of a severe allergic reaction (e.g., anaphylaxis) to any component of the vaccine [see Description (11)]."}
+ ],
+ "sweep": {"dismissed": {"egg": "全文掃描『egg』命中僅在14 CLINICAL STUDIES 段落，指臨床試驗對照組疫苗 AGRIFLU 為『egg-based trivalent influenza comparator』與『Egg derived antigen hemagglutination inhibition (HI) assay』檢測方法，均非本疫苗（FLUCELVAX）自身成分，本疫苗成分句已明確標示 status=無"}}
+}

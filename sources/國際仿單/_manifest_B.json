@@ -1,0 +1,424 @@
+[
+ {
+  "slug": "hexyon-ema",
+  "vaccine": "hexa",
+  "product": "Hexyon (Hexaxim), suspension for injection in pre-filled syringe — DTaP-IPV-HB-Hib",
+  "agency": "EMA",
+  "url": "https://www.ema.europa.eu/en/documents/product-information/hexyon-epar-product-information_en.pdf",
+  "landing": "https://www.ema.europa.eu/en/medicines/human/EPAR/hexyon",
+  "path": "sources/國際仿單/六合一_Hexyon(Hexaxim)_EMA_2026-08.pdf",
+  "revised": "2026-08",
+  "downloaded": "2026-09-13",
+  "sha256": "e568d23861dddfe3e060b39a151fc4aa760b88308483c3d532c76ce51a918cf0",
+  "pages": 61,
+  "words": 14844,
+  "sections": {
+   "composition": [
+    2
+   ],
+   "excipients": [
+    16
+   ],
+   "contraindications": [
+    4
+   ],
+   "latex": [],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [
+    2,
+    4,
+    43,
+    47,
+    55,
+    59
+   ],
+   "other_antibiotics": [
+    2,
+    4,
+    43,
+    47,
+    55,
+    59
+   ],
+   "yeast": [
+    2,
+    47,
+    59
+   ],
+   "polysorbate_peg": [],
+   "formaldehyde": [
+    2,
+    4,
+    43,
+    47,
+    55,
+    59
+   ],
+   "thimerosal": [],
+   "aluminium": [
+    2,
+    27,
+    30,
+    33,
+    37,
+    47,
+    59
+   ]
+  },
+  "notes": "文件為完整 EPAR 合訂本：SmPC(約p1-21)/標籤(約p22-40)/病人仿單PL(約p41-61)。SmPC現行版第10節不再印實際修訂日期，改導向EMA官網；revised取自EPAR頁面「Product information」分頁 Last updated 07/08/2026（VR/0000295915，生效2026-06-25）。file指令對此PDF的zip deflate流回報不出頁數，pdfinfo正確顯示61頁，經人工核對非異常。抗生素殘留：neomycin/polymyxin/streptomycin三者頁碼相同（皆在SmPC p2,4與PL重複段落）。",
+  "source": "S85"
+ },
+ {
+  "slug": "infanrix-hexa-ema",
+  "vaccine": "hexa",
+  "product": "Infanrix hexa, powder and suspension for suspension for injection — DTPa-HBV-IPV/Hib",
+  "agency": "EMA",
+  "url": "https://www.ema.europa.eu/en/documents/product-information/infanrix-hexa-epar-product-information_en.pdf",
+  "landing": "https://www.ema.europa.eu/en/medicines/human/EPAR/infanrix-hexa",
+  "path": "sources/國際仿單/六合一_Infanrix-hexa_EMA_2026-02.pdf",
+  "revised": "2026-02",
+  "downloaded": "2026-09-13",
+  "sha256": "1781033b6931762f70b3e76ca83affbe8c46943d8ee4983cd22c6195531e12ed",
+  "pages": 43,
+  "words": 10243,
+  "sections": {
+   "composition": [
+    2
+   ],
+   "excipients": [
+    14
+   ],
+   "contraindications": [
+    4
+   ],
+   "latex": [],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [
+    2,
+    4,
+    37,
+    38
+   ],
+   "other_antibiotics": [
+    2,
+    4,
+    37,
+    38
+   ],
+   "yeast": [
+    2,
+    40
+   ],
+   "polysorbate_peg": [],
+   "formaldehyde": [
+    2,
+    4,
+    37
+   ],
+   "thimerosal": [],
+   "aluminium": [
+    2,
+    40
+   ]
+  },
+  "notes": "文件結構同Hexyon：SmPC(約p1-20)/標籤(約p21-30)/PL(約p31-43)。同樣未印明確修訂日內部日期，revised取自EPAR網頁 Last updated 12/02/2026（VR/0000323859）。streptomycin未出現於本品仿單（僅含neomycin+polymyxin B痕量），與Hexyon成分表不同，已核實非漏抓。file指令誤報7頁，pdfinfo正確顯示43頁，經核對第2/4/14頁內容確認無誤。",
+  "source": "S86"
+ },
+ {
+  "slug": "tetraxim-notfound",
+  "vaccine": "dtapipv",
+  "product": "Tetraxim (DTaP-IPV, Sanofi Pasteur)",
+  "agency": null,
+  "url": null,
+  "landing": null,
+  "path": null,
+  "revised": null,
+  "downloaded": "2026-09-13",
+  "sha256": null,
+  "pages": null,
+  "words": null,
+  "sections": null,
+  "notes": "未找到符合要求的官方仿單。已查：HPRA(0筆)、MHRA products.mhra.gov.uk(0筆搜尋結果，前端為GraphQL SPA無法程式化重現查詢)、Medsafe(0筆)、HSA新加坡(搜尋頁需解CAPTCHA，未嘗試繞過，依安全規則不可解CAPTCHA)、medicines.org.uk emc(0筆，且該站現搜尋結果頁需登入)、sanofi.com官網搜尋無結果。額外發現：加拿大Health Canada Drug Product Database有同成分（DT 15Lf/TT 5Lf/PT 20mcg/FHA 20mcg/PRN 3mcg/FIM 5mcg/IPV type1-2-3 29-7-26 units逐項核對相符）但品名不同的產品 QUADRACEL®（DIN 02534789，PM PDF: https://pdf.hres.ca/dpd_pm/00083575.PDF ，revised 2026-03）。因Health Canada不在原指定六機關清單內、且品名與台灣使用的Tetraxim不同（不同DIN、不同監理档案），依使用者『抓不到的明說，不用非官方來源湊數』原則，不將Quadracel充作Tetraxim列入本manifest，僅在此記錄供之後參考；該PDF已下載存放於 sources/國際仿單/四合一_Tetraxim(Quadracel-HealthCanada同成分)_HealthCanada_2026-03.pdf 但不建議作為Tetraxim的引用來源。"
+ },
+ {
+  "slug": "pentaxim-notfound",
+  "vaccine": "dtap5",
+  "product": "Pentaxim (DTaP-IPV-Hib, Sanofi Pasteur)",
+  "agency": null,
+  "url": null,
+  "landing": null,
+  "path": null,
+  "revised": null,
+  "downloaded": "2026-09-13",
+  "sha256": null,
+  "pages": null,
+  "words": null,
+  "sections": null,
+  "notes": "未找到符合要求的官方仿單。已查：HPRA(0筆)、MHRA(僅命中Tetravac，非Pentaxim本身仿單，已排除不採用)、Medsafe(0筆)、HSA新加坡(CAPTCHA擋住，未嘗試繞過)、medicines.org.uk emc(0筆)。額外發現：加拿大Health Canada有同成分但品名不同的產品 PEDIACEL®（DIN 02243167，PM PDF: https://pdf.hres.ca/dpd_pm/00071965.PDF ，revised 2023-08-08），含bovine serum albumin痕量殘留（Hib結合蛋白製程差異）。因Health Canada非原指定機關、品名不同，不列入本manifest視為Pentaxim的正式來源；PDF已下載存放於 sources/國際仿單/五合一_Pentaxim(Pediacel-HealthCanada同成分)_HealthCanada_2023-08.pdf 僅供參考，不建議作為Pentaxim的引用來源。"
+ },
+ {
+  "slug": "imojev-tga",
+  "vaccine": "jelive",
+  "product": "Imojev (Japanese encephalitis virus vaccine, live, attenuated)",
+  "agency": "TGA",
+  "url": "https://www.ebs.tga.gov.au/ebs/picmi/picmirepository.nsf/pdf?OpenAgent&id=CP-2023-PI-01604-1",
+  "landing": "https://www.ebs.tga.gov.au/ebs/picmi/picmirepository.nsf/PICMI?OpenForm",
+  "path": "sources/國際仿單/日本腦炎疫苗_Imojev_TGA_2023-03.pdf",
+  "revised": "2023-03",
+  "downloaded": "2026-09-13",
+  "sha256": "dd11e65d7a4676c75349a131f6d512c45faa5743275ee903fd657787481cb2ab",
+  "pages": 21,
+  "words": 6399,
+  "sections": {
+   "composition": [
+    1
+   ],
+   "excipients": [
+    19
+   ],
+   "contraindications": [
+    3
+   ],
+   "latex": [],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminium": [
+    20
+   ]
+  },
+  "notes": "Vero細胞培養活性減毒疫苗，非雞蛋培養，故無蛋/明膠/抗生素殘留章節。p.20的aluminium僅為安瓿蓋材質(flip off cap aluminium/polypropylene)，非賦形劑/佐劑成分，非過敏原相關。贊助商現為Biocelect Pty Ltd（非Sanofi），Version 6（2023-03修訂），首次核准2010-08-23。TGA eBS下載需通過JS產生的『I Accept』免責聲明關卡，已用可重現參數正確取得原始PDF。",
+  "source": "S87"
+ },
+ {
+  "slug": "vaxigrip-tetra-hpra",
+  "vaccine": "flu",
+  "product": "Quadrivalent Influenza Vaccine (split virion, inactivated) — HPRA登記名稱，即Vaxigrip Tetra，Sanofi Winthrop Industrie，PA23458/010/001",
+  "agency": "HPRA",
+  "url": "https://assets.hpra.ie/products/Human/30361/Licence_PA23458-010-001_06062025094241.pdf",
+  "landing": "https://www.hpra.ie/find-a-medicine/for-human-use/authorised-medicines",
+  "path": "sources/國際仿單/流感疫苗_VaxigripTetra_HPRA_2025-06.pdf",
+  "revised": "2025-06",
+  "downloaded": "2026-09-13",
+  "sha256": "8aa8ab4045fdcbbc8a40f1bc9ddd78a9766eb3dc507aa347083d8908299f37f6",
+  "pages": 17,
+  "words": 6588,
+  "sections": {
+   "composition": [
+    1
+   ],
+   "excipients": [
+    14
+   ],
+   "contraindications": [
+    2
+   ],
+   "latex": [],
+   "egg": [
+    1,
+    2
+   ],
+   "gelatin": [],
+   "neomycin": [
+    1,
+    2
+   ],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [
+    1,
+    2
+   ],
+   "thimerosal": [
+    3,
+    9,
+    10
+   ],
+   "aluminium": []
+  },
+  "notes": "雞胚培養四價流感疫苗，蛋/ovalbumin/neomycin/formaldehyde/octoxinol-9痕量殘留明列於4.3禁忌節。thimerosal 3處出現皆為『thiomersal-free』臨床試驗描述，確認本品不含thimerosal，非成分表列出現。HPRA登記名稱為『Quadrivalent Influenza Vaccine (split virion, inactivated)』非字面『Vaxigrip Tetra』，經核對licenseHolderName=Sanofi Winthrop Industrie與同PA23458許可證字軌確認為同一產品家族的愛爾蘭登記名。MHRA因前端改為GraphQL SPA、medicines.org.uk emc需登入，故採HPRA為來源。",
+  "source": "S88"
+ },
+ {
+  "slug": "stamaril-mhra",
+  "vaccine": "yf",
+  "product": "STAMARIL, powder and solvent for suspension for injection in pre-filled syringe (Yellow fever vaccine, live) — PL 23228/0005",
+  "agency": "MHRA",
+  "url": "https://mhraproducts4853.blob.core.windows.net/docs/1f39190ffa3fa74f64db2a5a6a957da900d82f45",
+  "landing": "https://products.mhra.gov.uk/search/?search=Stamaril&page=1",
+  "path": "sources/國際仿單/黃熱病疫苗_Stamaril_MHRA_2025-01.pdf",
+  "revised": "2025-01",
+  "downloaded": "2026-09-13",
+  "sha256": "05fccb6f7a8b8b8489bc8505e5e376f5b5ae8e9e86f3a014bb742cbb05e45e54",
+  "pages": 16,
+  "words": 4145,
+  "sections": {
+   "composition": [
+    1
+   ],
+   "excipients": [
+    13
+   ],
+   "contraindications": [
+    4
+   ],
+   "latex": [
+    7,
+    14
+   ],
+   "egg": [
+    4
+   ],
+   "gelatin": [],
+   "neomycin": [],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminium": [
+    14
+   ]
+  },
+  "notes": "雞胚培養活性減毒黃熱病疫苗（egg頁4為禁忌節『eggs or chicken proteins』相關文字）。含sorbitol E420。aluminium/aluminum僅美式拼法未出現，英式拼法在p14出現3次。",
+  "source": "S89"
+ },
+ {
+  "slug": "verorab-mhra",
+  "vaccine": "rabies",
+  "product": "Verorab, powder and solvent for suspension for injection (Rabies vaccine, inactivated, Vero cell-derived) — PLGB 23228/0001",
+  "agency": "MHRA",
+  "url": "https://mhraproducts4853.blob.core.windows.net/docs/d0907dcae747d3eb973189eaf334ab315ebcbae7",
+  "landing": "https://products.mhra.gov.uk/search/?search=Verorab&page=1",
+  "path": "sources/國際仿單/狂犬病疫苗_Verorab_MHRA_2026-01.pdf",
+  "revised": "2026-01",
+  "downloaded": "2026-09-13",
+  "sha256": "cfc9f86da612d77f32c8840d628b61c2b7e2d5dc1f93ccc78458ce26d13fea0b",
+  "pages": 16,
+  "words": 4683,
+  "sections": {
+   "composition": [
+    1
+   ],
+   "excipients": [
+    13
+   ],
+   "contraindications": [
+    5
+   ],
+   "latex": [
+    6,
+    14
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [
+    1,
+    5,
+    6
+   ],
+   "other_antibiotics": [
+    1,
+    5,
+    6
+   ],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminium": []
+  },
+  "notes": "台灣目前實際使用的狂犬病疫苗。含polymyxin B/streptomycin/neomycin痕量殘留（p1/5/6三者頁碼相同）。含phenylalanine 4.1微克/劑與human albumin於賦形劑列表。不含蛋/明膠/鋁佐劑（Vero細胞培養不活化疫苗，無佐劑）。",
+  "source": "S90"
+ },
+ {
+  "slug": "varilrix-mhra",
+  "vaccine": "var",
+  "product": "Varilrix 10^3.3 PFU/0.5mL Powder and Solvent for Solution for Injection — PL 10592/0121",
+  "agency": "MHRA",
+  "url": "https://mhraproducts4853.blob.core.windows.net/docs/765b1f7a88e3f863665e956a04a22e26ed6aed6c",
+  "landing": "https://products.mhra.gov.uk/search/?search=Varilrix&page=1",
+  "path": "sources/國際仿單/水痘疫苗_Varilrix_MHRA_2026-08.pdf",
+  "revised": "2026-08",
+  "downloaded": "2026-09-13",
+  "sha256": "0303d77c5a6869b2401d69f68a3cb9e3c3de6c67dc87938ce983de491edb43ce",
+  "pages": 15,
+  "words": 4217,
+  "sections": {
+   "composition": [
+    1
+   ],
+   "excipients": [
+    12
+   ],
+   "contraindications": [
+    2
+   ],
+   "latex": [],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [
+    1,
+    3
+   ],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminium": []
+  },
+  "notes": "僅含微量neomycin，不含gelatin/latex/egg等常見過敏原賦形劑。搜尋結果中另有4筆為Priorix-Tetra/Pentaxim等組合疫苗頁面交叉參照Varilrix，非本品仿單，已排除。",
+  "source": "S91"
+ },
+ {
+  "slug": "rabipur-mhra",
+  "vaccine": "rabies",
+  "product": "Rabipur (Rabies Vaccine Inactivated) Powder and Solvent for Solution for Injection in Pre-filled Syringe — PL 40365/0004",
+  "agency": "MHRA",
+  "url": "https://mhraproducts4853.blob.core.windows.net/docs/2c13145eabbe8cb503f4c134c6570a6d02812df5",
+  "landing": "https://products.mhra.gov.uk/search/?search=Rabipur&page=1",
+  "path": "sources/國際仿單/狂犬病疫苗_Rabipur_MHRA_2026-05.pdf",
+  "revised": "2026-05",
+  "downloaded": "2026-09-13",
+  "sha256": "b3f7afb86adabc034f07adf83c9ae716309467d8d0958df1e7c4832560ec686d",
+  "pages": 15,
+  "words": 3720,
+  "sections": {
+   "composition": [
+    1
+   ],
+   "excipients": [
+    10
+   ],
+   "contraindications": [
+    5
+   ],
+   "latex": [],
+   "egg": [
+    1,
+    5
+   ],
+   "gelatin": [],
+   "neomycin": [
+    1
+   ],
+   "other_antibiotics": [],
+   "yeast": [],
+   "polysorbate_peg": [],
+   "formaldehyde": [],
+   "thimerosal": [],
+   "aluminium": []
+  },
+  "notes": "台灣目前未使用Rabipur（實際用Verorab），此為『抓到就記錄』的補充品項，意外在MHRA直接找到完整SPC。egg命中為『residues of chicken proteins (e.g., ovalbumin)』相關文字。另含chlortetracycline及amphotericin B殘留（非清單關鍵字但同屬過敏原相關，供之後定位參考）。",
+  "source": "S92"
+ }
+]

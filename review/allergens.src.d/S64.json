@@ -1,0 +1,28 @@
+{
+ "vaccine": "ppv23",
+ "product": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent)",
+ "source": "S64",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 9, "label": "Description", "quote": "PNEUMOVAX 23 (Pneumococcal Vaccine Polyvalent) is a sterile, liquid vaccine consisting of a mixture of purified capsular polysaccharides from Streptococcus pneumoniae types (1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19F, 19A, 20, 22F, 23F, and 33F)."},
+  {"page": 9, "label": "Description", "quote": "Each 0.5-mL dose of vaccine contains 25 micrograms of each polysaccharide type in isotonic saline solution containing 0.25% phenol as a preservative."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 9, "quote": "The vial stoppers, syringe plunger stopper and syringe tip cap are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "未載明", "related": {"page": 9, "quote": "Each 0.5-mL dose of vaccine contains 25 micrograms of each polysaccharide type in isotonic saline solution containing 0.25% phenol as a preservative.", "note": "保存劑為酚（phenol）0.25%；未提硫柳汞"}},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Contraindications 4.1 Hypersensitivity", "page": 3, "quote": "Do not administer PNEUMOVAX 23 to individuals with a history of anaphylactic/anaphylactoid or severe allergic reaction to any component of the vaccine. [See Description (11).]"},
+  {"label": "Latex", "page": 9, "quote": "The vial stoppers, syringe plunger stopper and syringe tip cap are not made with natural rubber latex."}
+ ],
+ "sweep": {"dismissed": {"other_antibiotics": "「Use of Antibiotic Prophylaxis」段（5.3）講的是接種後仍需維持之臨床抗生素預防性投藥，非疫苗成分或製程殘留", "thimerosal": "phenol 相關命中已列為 related；另一命中「free of preservatives, antiseptics, and detergents」是抽藥用針筒須無防腐劑殘留的給藥說明，非疫苗本身成分"}}
+}

@@ -1,0 +1,89 @@
+{
+ "vaccine": "pcv",
+ "product": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20]",
+ "source": "S74",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {
+   "page": 19,
+   "label": "Description／成分",
+   "quote": "Each serotype is grown in soy\npeptone broth."
+  },
+  {
+   "page": 19,
+   "label": "Description／成分",
+   "quote": "CRM197 is a non-toxic variant of diphtheria toxin isolated from cultures of Corynebacterium\ndiphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium or in a chemically-\ndefined medium."
+  },
+  {
+   "page": 19,
+   "label": "Description／成分",
+   "quote": "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of\neach of S. pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F,\n33F saccharides, 4.4 μg of 6B saccharides, 51 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg\nsuccinate buffer, 4.4 mg sodium chloride, and 125 μg aluminum as aluminum phosphate adjuvant."
+  },
+  {
+   "page": 32,
+   "label": "How Supplied",
+   "quote": "The tip cap and plunger stopper of the pre-filled syringe are not made with natural rubber latex."
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明",
+   "related": {
+    "page": 19,
+    "quote": "CRM197 is a non-toxic variant of diphtheria toxin isolated from cultures of Corynebacterium\ndiphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium or in a chemically-\ndefined medium.",
+    "note": "原句講的是載體蛋白 CRM197 的培養基含 yeast extract（或化學合成培養基），仿單未寫疫苗本身含酵母蛋白殘留"
+   }
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 32,
+   "quote": "The tip cap and plunger stopper of the pre-filled syringe are not made with natural rubber latex."
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "有",
+   "page": 19,
+   "quote": "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of\neach of S. pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F,\n33F saccharides, 4.4 μg of 6B saccharides, 51 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg\nsuccinate buffer, 4.4 mg sodium chloride, and 125 μg aluminum as aluminum phosphate adjuvant."
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "未載明"
+  },
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 19,
+   "quote": "Each 0.5 mL dose of the vaccine is formulated to contain approximately 2.2 μg of\neach of S. pneumoniae serotypes 1, 3, 4, 5, 6A, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F,\n33F saccharides, 4.4 μg of 6B saccharides, 51 μg CRM197 carrier protein, 100 μg polysorbate 80, 295 μg\nsuccinate buffer, 4.4 mg sodium chloride, and 125 μg aluminum as aluminum phosphate adjuvant."
+  }
+ ],
+ "warnings": [
+  {
+   "label": "Contraindications",
+   "page": 5,
+   "quote": "Do not administer Prevnar 20 to individuals with a severe allergic reaction (e.g., anaphylaxis) to any component\nof Prevnar 20 or to diphtheria toxoid [see Description (11)]."
+  }
+ ]
+}

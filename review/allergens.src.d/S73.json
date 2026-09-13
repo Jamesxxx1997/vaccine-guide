@@ -1,0 +1,96 @@
+{
+ "vaccine": "pcv",
+ "product": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine)",
+ "source": "S73",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {
+   "page": 17,
+   "label": "Description／成分",
+   "quote": "Each\nS. pneumoniae serotype is grown in media containing yeast extract, dextrose, salts and soy peptone."
+  },
+  {
+   "page": 17,
+   "label": "Description／成分",
+   "quote": "The final vaccine is prepared by blending the fifteen glycoconjugates\nwith aluminum phosphate adjuvant in a final buffer containing histidine, polysorbate 20 and sodium chloride."
+  },
+  {
+   "page": 17,
+   "label": "Description／成分",
+   "quote": "Each 0.5 mL dose contains 2.0 mcg each of S. pneumoniae polysaccharide serotypes 1, 3, 4, 5, 6A, 7F,\n9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F, and 4.0 mcg of polysaccharide serotype 6B, 30 mcg of CRM197\ncarrier protein, 1.55 mg L-histidine, 1 mg of polysorbate 20, 4.50 mg sodium chloride, and 125 mcg of\naluminum as aluminum phosphate adjuvant."
+  },
+  {
+   "page": 17,
+   "label": "Description／成分",
+   "quote": "VAXNEUVANCE does not contain any preservatives."
+  },
+  {
+   "page": 17,
+   "label": "Description／成分",
+   "quote": "The tip cap and plunger stopper of the prefilled syringe are not made with natural rubber latex."
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明",
+   "related": {
+    "page": 17,
+    "quote": "Each\nS. pneumoniae serotype is grown in media containing yeast extract, dextrose, salts and soy peptone.",
+    "note": "原句講的是各血清型培養基含 yeast extract，仿單未寫疫苗本身含酵母蛋白殘留；與台灣仿單列同一判讀"
+   }
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 17,
+   "quote": "The tip cap and plunger stopper of the prefilled syringe are not made with natural rubber latex."
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "有",
+   "page": 17,
+   "quote": "Each 0.5 mL dose contains 2.0 mcg each of S. pneumoniae polysaccharide serotypes 1, 3, 4, 5, 6A, 7F,\n9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F, and 4.0 mcg of polysaccharide serotype 6B, 30 mcg of CRM197\ncarrier protein, 1.55 mg L-histidine, 1 mg of polysorbate 20, 4.50 mg sodium chloride, and 125 mcg of\naluminum as aluminum phosphate adjuvant."
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "無",
+   "page": 17,
+   "quote": "VAXNEUVANCE does not contain any preservatives."
+  },
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 17,
+   "quote": "The final vaccine is prepared by blending the fifteen glycoconjugates\nwith aluminum phosphate adjuvant in a final buffer containing histidine, polysorbate 20 and sodium chloride."
+  }
+ ],
+ "warnings": [
+  {
+   "label": "Contraindications",
+   "page": 4,
+   "quote": "Do not administer VAXNEUVANCE to individuals with a severe allergic reaction (e.g., anaphylaxis) to any\ncomponent of VAXNEUVANCE or to diphtheria toxoid."
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "product": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated)",
+ "source": "S88",
+ "pdf": "sources/國際仿單/流感疫苗_VaxigripTetra_HPRA_2025-06.pdf",
+ "pages": 17,
+ "date": "2026-09-13",
+ "cells": {
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [
+    {
+     "page": 3,
+     "term": "thiomersal",
+     "pattern": "thiomersal",
+     "context": "ted Influenza Vaccine (Split Virion) BP⏎thiomersal-free formulation) administered in pregn"
+    },
+    {
+     "page": 3,
+     "term": "thiomersal",
+     "pattern": "thiomersal",
+     "context": "activatedInfluenzaVaccine(SplitVirion)BPthiomersal-freeformulation)administeredinpregnantw"
+    },
+    {
+     "page": 9,
+     "term": "thiomersal",
+     "pattern": "thiomersal",
+     "context": " (Split Virion) BP (trivalent influenza thiomersal-free vaccine) and approximately⏎5,000 p"
+    },
+    {
+     "page": 9,
+     "term": "thiomersal",
+     "pattern": "thiomersal",
+     "context": "accine(SplitVirion)BP(trivalentinfluenzathiomersal-freevaccine)andapproximately5,000pregna"
+    },
+    {
+     "page": 10,
+     "term": "thiomersal",
+     "pattern": "thiomersal",
+     "context": " (Split Virion) BP (trivalent influenza thiomersal free⏎vaccine) and 4532 of 4868 (93%) in"
+    },
+    {
+     "page": 10,
+     "term": "thiomersal",
+     "pattern": "thiomersal",
+     "context": "accine(SplitVirion)BP(trivalentinfluenzathiomersalfreevaccine)and4532of4868(93%)infantsbor"
+    }
+   ],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "product": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)",
+ "source": "S65",
+ "pdf": "sources/國際仿單/破傷風白喉百日咳成人_Adacel_FDA_2026-08.pdf",
+ "pages": 23,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [
+    {
+     "page": 12,
+     "term": "embryo",
+     "pattern": "embryo",
+     "context": "es.⏎Animal Data⏎The effect of Adacel on embryo-fetal and pre-weaning development was e"
+    },
+    {
+     "page": 12,
+     "term": "embryo",
+     "pattern": "embryo",
+     "context": "s on pregnancy,⏎parturition, lactation, embryo-fetal or pre-weaning development were o"
+    },
+    {
+     "page": 12,
+     "term": "embryo",
+     "pattern": "embryo",
+     "context": "roundrates.AnimalDataTheeffectofAdacelonembryo-fetalandpre-weaningdevelopmentwasevalua"
+    }
+   ],
+   "dismissed": "命中詞'hen'/'embryo'皆為'when'字尾或'embryo-fetal'（動物生殖毒性研究用語），與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白"
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": "命中詞'tween'皆為'between'字尾，與 polysorbate 80/Tween 無關，仿單全文未提 polysorbate/PEG"
+  }
+ }
+}

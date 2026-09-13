@@ -1,26 +1,85 @@
 {
- "vaccine": "mcv4",
+ "vaccine": "menb",
  "product": "Bexsero B 型腦膜炎雙球菌疫苗",
  "source": "S46",
  "components": [
-  {"page": 1, "label": "組成（佐劑）", "quote": "吸附於氫氧化鋁(0.5毫克Al3+)"},
-  {"page": 1, "label": "賦形劑", "quote": "氯化鈉、組胺酸、蔗糖、注射用水"},
-  {"page": 1, "label": "殘留物質", "quote": "Kanamycin (製程初期會使用 kanamycin，但在製程後期便會去除。如果還有殘留，"}
+  {
+   "page": 1,
+   "label": "組成（佐劑）",
+   "quote": "吸附於氫氧化鋁(0.5毫克Al3+)"
+  },
+  {
+   "page": 1,
+   "label": "賦形劑",
+   "quote": "氯化鈉、組胺酸、蔗糖、注射用水"
+  },
+  {
+   "page": 1,
+   "label": "殘留物質",
+   "quote": "Kanamycin (製程初期會使用 kanamycin，但在製程後期便會去除。如果還有殘留，"
+  }
  ],
  "allergens": [
-  {"key": "egg", "status": "未載明"},
-  {"key": "gelatin", "status": "未載明"},
-  {"key": "neomycin", "status": "未載明"},
-  {"key": "other_antibiotics", "status": "有", "page": 1, "quote": "Kanamycin (製程初期會使用 kanamycin，但在製程後期便會去除。如果還有殘留，", "note": "kanamycin 製程殘留物質，每劑不超過 0.01 微克"},
-  {"key": "yeast", "status": "未載明"},
-  {"key": "latex", "status": "無", "page": 4, "quote": "雖然在針筒頂蓋中並未檢出任何天然橡膠乳膠成分，但 Bexsero 用於乳膠敏感者的", "note": "針筒頂蓋未檢出天然橡膠乳膠成分；但仿單註明用於乳膠敏感者的安全性尚未確立"},
-  {"key": "peg_polysorbate", "status": "未載明"},
-  {"key": "formaldehyde", "status": "未載明"},
-  {"key": "thimerosal", "status": "未載明"},
-  {"key": "aluminium", "status": "有", "page": 1, "quote": "吸附於氫氧化鋁(0.5毫克Al3+)"}
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "有",
+   "page": 1,
+   "quote": "Kanamycin (製程初期會使用 kanamycin，但在製程後期便會去除。如果還有殘留，",
+   "note": "kanamycin 製程殘留物質，每劑不超過 0.01 微克"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 4,
+   "quote": "雖然在針筒頂蓋中並未檢出任何天然橡膠乳膠成分，但 Bexsero 用於乳膠敏感者的",
+   "note": "針筒頂蓋未檢出天然橡膠乳膠成分；但仿單註明用於乳膠敏感者的安全性尚未確立"
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "未載明"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "未載明"
+  },
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 1,
+   "quote": "吸附於氫氧化鋁(0.5毫克Al3+)"
+  }
  ],
  "warnings": [
-  {"label": "過敏禁忌", "page": 3, "quote": "對「配方與含量」及「賦形劑」段落中所列的活性成分或任何賦形劑過敏者。"},
-  {"label": "Kanamycin 敏感者警語", "page": 4, "quote": "在疫苗成品中的含量也不會超過每劑 0.01 微克。Bexsero 用於 Kanamycin 敏感者"}
- ]
+  {
+   "label": "過敏禁忌",
+   "page": 3,
+   "quote": "對「配方與含量」及「賦形劑」段落中所列的活性成分或任何賦形劑過敏者。"
+  },
+  {
+   "label": "Kanamycin 敏感者警語",
+   "page": 4,
+   "quote": "在疫苗成品中的含量也不會超過每劑 0.01 微克。Bexsero 用於 Kanamycin 敏感者"
+  }
+ ],
+ "vaccineName": "腦膜炎雙球菌 B 型疫苗（Bexsero）"
 }

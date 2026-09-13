@@ -1,0 +1,263 @@
+{
+ "product": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)",
+ "source": "S76",
+ "pdf": "sources/國際仿單/呼吸道融合病毒_Arexvy_FDA_2026-07.pdf",
+ "pages": 29,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [
+    {
+     "page": 16,
+     "term": "embryo",
+     "pattern": "embryo",
+     "context": "no adverse effects on⏎female fertility, embryo-fetal, pre-weaning and post-natal devel"
+    },
+    {
+     "page": 16,
+     "term": "embryo",
+     "pattern": "embryo",
+     "context": "vealednoadverseeffectsonfemalefertility,embryo-fetal,pre-weaningandpost-nataldevelopme"
+    }
+   ],
+   "dismissed": "唯一命中為 'embryo-fetal'（動物生殖毒理學用詞，如 embryo-fetal development），與蛋／雞胚無關"
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Y (Respiratory Syncytial Virus Vaccine, Adjuvanted) for⏎injectable suspension, for intra"
+    },
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "nstituted with the accompanying vial of Adjuvant Suspension⏎Component. (2.2)⏎• Vial and "
+    },
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "h the accompanying prefilled syringe of⏎Adjuvant Suspension Component. (2.2)⏎⏎To report "
+    },
+    {
+     "page": 3,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ile white powder) with the accompanying Adjuvant⏎Suspension Component (an opalescent, co"
+    },
+    {
+     "page": 3,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "structions⏎below. Use only the supplied Adjuvant Suspension Component for reconstitution"
+    },
+    {
+     "page": 3,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ire contents of the vial⏎containing the Adjuvant⏎Suspension Component⏎(liquid) by slight"
+    },
+    {
+     "page": 4,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "structions below. Use⏎only the supplied Adjuvant Suspension Component for reconstitution"
+    },
+    {
+     "page": 4,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ld the ungraduated prefilled⏎syringe of Adjuvant Suspension⏎Component by the barrel and "
+    },
+    {
+     "page": 4,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ntheinstructionsbelow.UseonlythesuppliedAdjuvantSuspensionComponentforreconstitution.Fig"
+    },
+    {
+     "page": 7,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": " FLUAD QUADRIVALENT (influenza vaccine,⏎adjuvanted; manufactured by Seqirus, Inc.) conco"
+    },
+    {
+     "page": 7,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "VYandFLUADQUADRIVALENT(influenzavaccine,adjuvanted;manufacturedbySeqirus,Inc.)concomitan"
+    },
+    {
+     "page": 16,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "duals who received an investigational unadjuvanted RSV vaccine that contained the⏎same R"
+    },
+    {
+     "page": 16,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "io, 3,557 received an⏎investigational unadjuvanted RSV vaccine that contained the same R"
+    },
+    {
+     "page": 16,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "ndividualswhoreceivedaninvestigationalunadjuvantedRSVvaccinethatcontainedthesameRSVPreF3"
+    },
+    {
+     "page": 18,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "Y (Respiratory Syncytial Virus Vaccine, Adjuvanted) is a sterile injectable suspension f"
+    },
+    {
+     "page": 18,
+     "term": "adjuvant",
+     "pattern": "adjuvant",
+     "context": "ying vial or prefilled syringe of AS01E adjuvant as the⏎Adjuvant Suspension Component.⏎T"
+    },
+    {
+     "page": 18,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "filled syringe of AS01E adjuvant as the⏎Adjuvant Suspension Component.⏎The RSVPreF3 anti"
+    },
+    {
+     "page": 19,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "aining Lyophilized Antigen Component or Adjuvant Suspension Component and the⏎tip cap an"
+    },
+    {
+     "page": 19,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "per of the prefilled syringe containing Adjuvant Suspension Component are not made⏎with "
+    },
+    {
+     "page": 19,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "lcontainingLyophilizedAntigenComponentorAdjuvantSuspensionComponentandthetipcapandplunge"
+    },
+    {
+     "page": 27,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "nent (powder) and a single-dose vial of Adjuvant Suspension Component (liquid) (packaged"
+    },
+    {
+     "page": 27,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "enComponent(powder)andasingle-dosevialofAdjuvantSuspensionComponent(liquid)(packagedwith"
+    },
+    {
+     "page": 28,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " carton of 10⏎doses⏎⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili"
+    },
+    {
+     "page": 28,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": " TIP-LOK syringe (Luer Lock syringe) of Adjuvant⏎Suspension Component (liquid) (packaged"
+    },
+    {
+     "page": 28,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "or AREXVY⏎Components⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili"
+    }
+   ],
+   "dismissed": "命中皆為 'Adjuvant'／'adjuvanted'／'unadjuvanted' 泛指本品 AS01E 佐劑系統或他廠佐劑流感疫苗，本品佐劑組成已於 Description 明載為 MPL＋QS-21 脂質體，非鋁鹽"
+  }
+ }
+}

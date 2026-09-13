@@ -1,0 +1,114 @@
+{
+ "product": "Fluarix Quadrivalent (Influenza Vaccine)",
+ "source": "S67",
+ "pdf": "sources/國際仿單/流感四價_FluarixQuadrivalent_FDA_2023-07.pdf",
+ "pages": 30,
+ "date": "2026-09-13",
+ "cells": {
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ration with Zoster Vaccine Recombinant,⏎Adjuvanted (SHINGRIX)⏎15⏎REFERENCES⏎16⏎HOW SUPPL"
+    },
+    {
+     "page": 2,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)15REFERENCES16HOWSUPPLIED/ST"
+    },
+    {
+     "page": 14,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ration with Zoster Vaccine Recombinant,⏎Adjuvanted (SHINGRIX)⏎In an open-label, randomiz"
+    },
+    {
+     "page": 14,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)Inanopen-label,randomizedtri"
+    },
+    {
+     "page": 15,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "tantly⏎with Zoster Vaccine Recombinant, Adjuvanted (SHINGRIX) [see Adverse Reactions (6."
+    },
+    {
+     "page": 15,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ncomitantlywithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)[seeAdverseReactions(6.1),Cl"
+    },
+    {
+     "page": 29,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "ration with Zoster Vaccine⏎Recombinant, Adjuvanted (SHINGRIX)⏎In an open-label, randomiz"
+    },
+    {
+     "page": 29,
+     "term": "Adjuvant",
+     "pattern": "adjuvant",
+     "context": "inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)Inanopen-label,randomizedcli"
+    }
+   ],
+   "dismissed": "命中詞'Adjuvanted'皆指共同施打對照之 SHINGRIX（Zoster Vaccine Recombinant, Adjuvanted）的品名，非 Fluarix Quadrivalent 本身含佐劑；Description 段明確未提鋁或任何佐劑成分"
+  }
+ }
+}

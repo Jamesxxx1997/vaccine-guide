@@ -1,0 +1,29 @@
+{
+ "vaccine": "hepb",
+ "product": "Engerix-B (Hepatitis B Vaccine Recombinant)",
+ "source": "S60",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 9, "label": "Description", "quote": "ENGERIX-B [Hepatitis B Vaccine (Recombinant)] is a sterile, injectable suspension of noninfectious HBsAg for intramuscular use."},
+  {"page": 9, "label": "Description", "quote": "It contains purified surface antigen of the virus obtained by culturing genetically engineered Saccharomyces cerevisiae cells, which carry the surface antigen gene of the hepatitis B virus."},
+  {"page": 9, "label": "Description", "quote": "The HBsAg expressed in the cells is purified by several physicochemical steps and formulated as a suspension of the antigen adsorbed on aluminum hydroxide."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "有", "page": 9, "quote": "The procedures used to manufacture ENGERIX-B result in a product that contains no more than 5% yeast protein."},
+  {"key": "latex", "status": "無", "page": 9, "quote": "The tip cap and rubber plunger stopper of the prefilled syringe are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 10, "quote": "ENGERIX-B is formulated without preservatives."},
+  {"key": "aluminium", "status": "有", "page": 9, "quote": "Each 1 mL adult dose contains 20 mcg of HBsAg adsorbed on 0.5 mg aluminum as aluminum hydroxide."}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 4, "quote": "Severe allergic reaction (e.g., anaphylaxis) after a previous dose of any hepatitis B-containing vaccine, or to any component of ENGERIX-B, including yeast, is a contraindication to administration of ENGERIX-B [see Description (11)]."},
+  {"label": "Latex", "page": 9, "quote": "The vial stoppers are not made with natural rubber latex."}
+ ],
+ "sweep": {"dismissed": {"egg": "命中詞皆為 when 字尾或 lichen（皮膚病 lichen planus）子字串，非蛋成分提及；ENGERIX-B 為酵母菌（Saccharomyces cerevisiae）表現系統，仿單未提蛋", "peg_polysorbate": "命中詞皆為 between 字尾子字串，非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG"}}
+}

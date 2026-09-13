@@ -1,0 +1,233 @@
+{
+ "product": "Shingrix 欣剋疹帶狀疱疹疫苗",
+ "source": "S20",
+ "pdf": "sources/仿單/Shingrix_TFDA_2026-04-23.pdf",
+ "pages": 16,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [
+    {
+     "page": 15,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "驗資料參見藥效藥理特性。13包裝及儲存13.1包裝1劑粉末,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。1劑懸液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃"
+    },
+    {
+     "page": 15,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。1劑懸液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。Shingrix有1小瓶粉末加1小瓶懸液的包裝,或10"
+    }
+   ],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [
+    {
+     "page": 1,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "-231性狀1.1有效成分及含量帶狀疱疹疫苗(非活性基因重組疫苗,使用AS01B佐劑)。泡製之後,每劑(0.5毫升)含有50微克gE抗原1(使用AS01B佐劑2)。"
+    },
+    {
+     "page": 1,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "01B佐劑)。泡製之後,每劑(0.5毫升)含有50微克gE抗原1(使用AS01B佐劑2)。1源自水痘帶狀疱疹病毒(VaricellaZosterVirus,VZV)"
+    },
+    {
+     "page": 1,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "是利用DNA重組技術在中國倉鼠卵巢細胞中製造而得。2葛蘭素史克公司的專利AS01佐劑系統係由植物萃取物QuillajasaponariaMolina,Bfracti"
+    },
+    {
+     "page": 3,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "接或間接的影響。7交互作用與其他疫苗併用Shingrix可與季節性流感疫苗(不含佐劑)、23價肺炎鏈球菌多醣體疫苗(23-valentpneumococcalpol"
+    },
+    {
+     "page": 3,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "2019,COVID-19)mRNA疫苗或呼吸道融合病毒(RSV)疫苗(重組且含佐劑)同時施打(參見藥效藥理特性)。P.3"
+    },
+    {
+     "page": 5,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "料不足。10藥理特性10.1作用機轉藉由結合VZV特有抗原(gE)以及AS01B佐劑系統,Shingrix的設計可針對對於水痘帶狀疱疹病毒已有預存免疫力的人,誘發其"
+    },
+    {
+     "page": 5,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "淋巴結中聚集並活化,進而促使具gE特異性的CD4+T細胞和抗體生成。AS01B的佐劑作用是來自包含在微脂粒載體中的MPL與QS-21之間的交互作用結果。10.2藥效"
+    },
+    {
+     "page": 13,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "月接種兩劑Shingrix,並於接種第一劑時合併或不合併接種季節性流感疫苗(不含佐劑)P.13"
+    },
+    {
+     "page": 14,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "株)(N=539;Zoster-091)或呼吸道融合病毒(RSV)疫苗(重組且含佐劑)(N=530;RSVOA=ADJ-020)。將Shingrix與流感疫苗、23"
+    },
+    {
+     "page": 14,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "VID-19mRNA-1273加強劑疫苗和呼吸道融合病毒(RSV)疫苗(重組且含佐劑)同時施打後的疫苗反應率(抗gE抗體)分別為95.8%(95%CI:93.3;9"
+    }
+   ],
+   "dismissed": null
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "vaccine": "rabies",
+ "product": "Verorab (Rabies vaccine, inactivated, Vero cell-derived)",
+ "source": "S90",
+ "origin": "MHRA",
+ "lang": "en",
+ "components": [
+  {"page": 1, "label": "Composition", "quote": "Rabies virusa, WISTAR Rabies PM/WI38 1503-3M strain (inactivated)........................3.25 IUb"},
+  {"page": 1, "label": "Excipient with known effect", "quote": "Phenylalanine .......................................................................................... 4.1 micrograms"},
+  {"page": 1, "label": "Composition", "quote": "Verorab may contain traces of polymyxin B, streptomycin and neomycin, used\n    in the manufacturing process (see section 4.3)."},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Maltose."},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "20% human albumin solution."},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Basal Medium Eagle: mixture of mineral salts (including potassium), vitamins,\n          dextrose and amino acids (including L-phenylalanine)."},
+  {"page": 13, "label": "List of excipients (Powder)", "quote": "Hydrochloric acid and sodium hydroxide for pH adjustment."},
+  {"page": 13, "label": "List of excipients (Solvent)", "quote": "Sodium chloride."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 1, "quote": "Verorab may contain traces of polymyxin B, streptomycin and neomycin, used\n    in the manufacturing process (see section 4.3)."},
+  {"key": "other_antibiotics", "status": "有", "page": 5, "quote": "Hypersensitivity to the active substance(s) or to any of the excipients listed in\n        section 6.1, to polymyxin B, to streptomycin, to neomycin or to any antibiotic of the\n        same class to a previous administration or to any vaccine containing the same\n        components."},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "有", "page": 6, "quote": "The tip caps of the prefilled syringes without attached needle contain a natural rubber\nlatex derivative, which may cause severe allergic reactions in latex sensitive\nindividuals."},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "未載明"},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 5, "quote": "Hypersensitivity to the active substance(s) or to any of the excipients listed in\n        section 6.1, to polymyxin B, to streptomycin, to neomycin or to any antibiotic of the\n        same class to a previous administration or to any vaccine containing the same\n        components."},
+  {"label": "Special warning (antibiotic allergy)", "page": 5, "quote": "Use with caution in people with known allergies to polymyxin B, to streptomycin, to\nneomycin (present as traces in the vaccine) or to any antibiotic of the same class."},
+  {"label": "Latex warning", "page": 6, "quote": "The tip caps of the prefilled syringes without attached needle contain a natural rubber\nlatex derivative, which may cause severe allergic reactions in latex sensitive\nindividuals."},
+  {"label": "Latex (packaging description)", "page": 14, "quote": "The tip caps of the prefilled syringes without attached needle contain a natural rubber\nlatex derivative."},
+  {"label": "Phenylalanine warning", "page": 6, "quote": "Verorab contains 4.1 micrograms phenylalanine per 0.5 mL-dose which is equivalent\nto 0.068 microgram/kg for a 60 kg person. Phenylalanine may be harmful for people\nwith phenylketonuria (PKU), a rare genetic disorder in which phenylalanine builds up\nbecause the body cannot remove it properly."}
+ ]
+}

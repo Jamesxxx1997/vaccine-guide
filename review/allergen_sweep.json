@@ -4,6 +4,7 @@
   "source": "S20",
   "pdf": "sources/仿單/Shingrix_TFDA_2026-04-23.pdf",
   "pages": 16,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -19,7 +20,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -235,6 +237,7 @@
   "source": "S27",
   "pdf": "sources/仿單/A型肝炎疫苗_唯德不活化A型肝炎疫苗VAQTA(默沙東)_TFDA_2023-03-22.pdf",
   "pages": 16,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -250,7 +253,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -316,7 +320,7 @@
      "吐溫",
      "聚乙二醇",
      "polysorbate",
-     "tween",
+     "\\btween\\b",
      "\\bpeg\\b",
      "polyethylene\\s*glycol",
      "macrogol",
@@ -361,6 +365,7 @@
   "source": "S28",
   "pdf": "sources/仿單/B肝_Engerix-B_TFDA_2022-05-05.pdf",
   "pages": 1,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -376,7 +381,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -488,6 +494,7 @@
   "source": "S29",
   "pdf": "sources/仿單/DTaP-IPV疫苗_Tetraxim_TFDA_2016-02-19_許可證已註銷仍為現行專案進口品項仿單.pdf",
   "pages": 2,
+  "date": "2026-09-13",
   "cells": {
    "thimerosal": {
     "patterns": [
@@ -549,7 +556,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -598,7 +606,7 @@
      "吐溫",
      "聚乙二醇",
      "polysorbate",
-     "tween",
+     "\\btween\\b",
      "\\bpeg\\b",
      "polyethylene\\s*glycol",
      "macrogol",
@@ -615,6 +623,7 @@
   "source": "S30",
   "pdf": "sources/仿單/HPV疫苗_Gardasil9_TFDA_2022-08-11.pdf",
   "pages": 24,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -630,7 +639,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -681,6 +691,7 @@
   "source": "S31",
   "pdf": "sources/仿單/MMR疫苗_麻疹腮腺炎德國麻疹混合疫苗M-M-RII(默沙東)_TFDA_2022-11-22.pdf",
   "pages": 10,
+  "date": "2026-09-13",
   "cells": {
    "other_antibiotics": {
     "patterns": [
@@ -739,7 +750,7 @@
      "吐溫",
      "聚乙二醇",
      "polysorbate",
-     "tween",
+     "\\btween\\b",
      "\\bpeg\\b",
      "polyethylene\\s*glycol",
      "macrogol",
@@ -787,6 +798,7 @@
   "source": "S32",
   "pdf": "sources/仿單/PCV_Prevenar13_TFDA_2022-10-05.pdf",
   "pages": 35,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -802,7 +814,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -928,6 +941,7 @@
   "source": "S33",
   "pdf": "sources/仿單/PPV23_Pneumovax23_TFDA_2023-03-15.pdf",
   "pages": 3,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -943,7 +957,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -1081,7 +1096,7 @@
      "吐溫",
      "聚乙二醇",
      "polysorbate",
-     "tween",
+     "\\btween\\b",
      "\\bpeg\\b",
      "polyethylene\\s*glycol",
      "macrogol",
@@ -1187,6 +1202,7 @@
   "source": "S36",
   "pdf": "sources/仿單/Tdap疫苗_Adacel_TFDA_2021-05-25.pdf",
   "pages": 2,
+  "date": "2026-09-13",
   "cells": {
    "thimerosal": {
     "patterns": [
@@ -1236,7 +1252,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -1321,7 +1338,7 @@
      "吐溫",
      "聚乙二醇",
      "polysorbate",
-     "tween",
+     "\\btween\\b",
      "\\bpeg\\b",
      "polyethylene\\s*glycol",
      "macrogol",
@@ -1338,6 +1355,7 @@
   "source": "S37",
   "pdf": "sources/仿單/Tdap疫苗_Boostrix_TFDA_2020-09-29.pdf",
   "pages": 2,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -1353,7 +1371,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -1464,6 +1483,7 @@
   "source": "S38",
   "pdf": "sources/仿單/六合一_Hexaxim_TFDA_2021-12-01.pdf",
   "pages": 13,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -1479,7 +1499,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -1516,7 +1537,7 @@
      "吐溫",
      "聚乙二醇",
      "polysorbate",
-     "tween",
+     "\\btween\\b",
      "\\bpeg\\b",
      "polyethylene\\s*glycol",
      "macrogol",
@@ -1554,6 +1575,7 @@
   "source": "S39",
   "pdf": "sources/仿單/六合一_Infanrix-hexa_TFDA_2021-07-01.pdf",
   "pages": 14,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -1569,7 +1591,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -1628,6 +1651,7 @@
   "source": "S41",
   "pdf": "sources/仿單/日本腦炎疫苗_禦日腦活性減毒疫苗Imojev(賽諾菲)_TFDA_2023-09-19.pdf",
   "pages": 12,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -1643,7 +1667,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -1751,7 +1776,7 @@
      "吐溫",
      "聚乙二醇",
      "polysorbate",
-     "tween",
+     "\\btween\\b",
      "\\bpeg\\b",
      "polyethylene\\s*glycol",
      "macrogol",
@@ -1781,6 +1806,7 @@
   "source": "S43",
   "pdf": "sources/仿單/流感疫苗_伏適流四價流感疫苗FluarixTetra(GSK)_TFDA_2022-09-02.pdf",
   "pages": 11,
+  "date": "2026-09-13",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -1877,6 +1903,7 @@
   "source": "S44",
   "pdf": "sources/仿單/流感疫苗_安定伏裂解型四價流感疫苗AdimFlu-S(QIS)(國光生技)_TFDA_2021-09-07.pdf",
   "pages": 2,
+  "date": "2026-09-13",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -2001,6 +2028,7 @@
   "source": "S45",
   "pdf": "sources/仿單/流感疫苗_菲流達四價流感疫苗VaxigripTetra(賽諾菲)_TFDA_2022-05-26.pdf",
   "pages": 11,
+  "date": "2026-09-13",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -2073,7 +2101,7 @@
      "吐溫",
      "聚乙二醇",
      "polysorbate",
-     "tween",
+     "\\btween\\b",
      "\\bpeg\\b",
      "polyethylene\\s*glycol",
      "macrogol",
@@ -2129,6 +2157,7 @@
   "source": "S46",
   "pdf": "sources/仿單/腦膜炎雙球菌疫苗_Bexsero_TFDA_2021-06-01.pdf",
   "pages": 20,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -2144,7 +2173,8 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
     "hits": [],
@@ -2194,7 +2224,7 @@
      "吐溫",
      "聚乙二醇",
      "polysorbate",
-     "tween",
+     "\\btween\\b",
      "\\bpeg\\b",
      "polyethylene\\s*glycol",
      "macrogol",
@@ -2245,6 +2275,7 @@
   "source": "S48",
   "pdf": "sources/仿單/輪狀病毒疫苗_RotaTeq_TFDA_2020-09-18.pdf",
   "pages": 13,
+  "date": "2026-09-13",
   "cells": {
    "egg": {
     "patterns": [
@@ -2260,29 +2291,11 @@
      "\\begg",
      "chick",
      "embryo",
-     "hen\\b",
+     "\\bhen\\b",
+     "\\bhens\\b",
      "avian"
     ],
-    "hits": [
-     {
-      "page": 13,
-      "term": "hen",
-      "pattern": "hen\\b",
-      "context": "c code. J Infect Dis 1998;177:13-7.⏎3. Chen KT, Chen PY, Tang RB, Huang YF, Lee, PI"
-     },
-     {
-      "page": 13,
-      "term": "hen",
-      "pattern": "hen\\b",
-      "context": " Infect Dis 1998;177:13-7.⏎3. Chen KT, Chen PY, Tang RB, Huang YF, Lee, PI, Yang, J"
-     },
-     {
-      "page": 13,
-      "term": "hen",
-      "pattern": "hen\\b",
-      "context": " Tang RB, Huang YF, Lee, PI, Yang, JY, Chen HY, Bresee J, Hummelman E, and Glass R."
-     }
-    ],
+    "hits": [],
     "dismissed": "命中「hen」＝參考文獻作者姓 Chen"
    },
    "gelatin": {
@@ -2360,6 +2373,5665 @@
      "formalin",
      "glutaraldehyde",
      "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S58": {
+  "product": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted)",
+  "source": "S58",
+  "pdf": "sources/國際仿單/帶狀疱疹_Shingrix_FDA_2026-02.pdf",
+  "pages": 27,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 2,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "vention of primary varicella infection⏎(chickenpox).⏎⏎-------------------------------"
+     },
+     {
+      "page": 2,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "orpreventionofprimaryvaricellainfection(chickenpox).-------------------------------AD"
+     },
+     {
+      "page": 3,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "vention of primary varicella infection (chickenpox).⏎DOSAGE AND ADMINISTRATION⏎⏎For i"
+     },
+     {
+      "page": 3,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "orpreventionofprimaryvaricellainfection(chickenpox).DOSAGEANDADMINISTRATIONForintramu"
+     },
+     {
+      "page": 16,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "vention of primary varicella infection (chickenpox).⏎8.5⏎⏎Geriatric Use⏎⏎Adults Aged "
+     },
+     {
+      "page": 16,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "orpreventionofprimaryvaricellainfection(chickenpox).8.5GeriatricUseAdultsAged60Yearsa"
+     }
+    ],
+    "dismissed": "命中皆為 chickenpox／hen(when/then 字尾) 子字串，非蛋成分提及；Shingrix gE 抗原為 CHO 細胞培養，仿單未提蛋"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "⏎⏎SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) injectable⏎suspension, for intramusc"
+     },
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ized gE Antigen⏎Component and a vial of Adjuvant Suspension Component. Reconstitute the⏎"
+     },
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ophilized gE Antigen Component with the Adjuvant Suspension⏎Component to form SHINGRIX p"
+     },
+     {
+      "page": 3,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ized gE Antigen Component and a vial of Adjuvant⏎Suspension Component. Reconstitute the "
+     },
+     {
+      "page": 3,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ophilized gE Antigen Component with the Adjuvant Suspension⏎Component to form SHINGRIX p"
+     },
+     {
+      "page": 3,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ile white powder) with the accompanying Adjuvant⏎Suspension Component (an opalescent, co"
+     },
+     {
+      "page": 4,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ire⏎contents of the vial⏎containing the⏎Adjuvant Suspension⏎Component (liquid) by⏎slight"
+     },
+     {
+      "page": 4,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "wtheentirecontentsofthevialcontainingtheAdjuvantSuspensionComponent(liquid)byslightlytil"
+     },
+     {
+      "page": 15,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "rats administered SHINGRIX or the AS01B adjuvant⏎alone prior to mating, during gestation"
+     },
+     {
+      "page": 15,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "were administered SHINGRIX or the AS01B⏎adjuvant alone by intramuscular injection 28 and"
+     },
+     {
+      "page": 15,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "femaleratsadministeredSHINGRIXortheAS01Badjuvantalonepriortomating,duringgestation,anddu"
+     },
+     {
+      "page": 16,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "⏎⏎SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) is a sterile injectable suspension f"
+     },
+     {
+      "page": 16,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "inant varicella zoster virus gE antigen adjuvanted with AS01B.⏎The vial and vial present"
+     },
+     {
+      "page": 16,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "se with⏎the accompanying vial of AS01B (Adjuvant Suspension Component) to form SHINGRIX."
+     },
+     {
+      "page": 25,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "econstituted with a single-dose vial of Adjuvant Suspension⏎Component (liquid) (packaged"
+     },
+     {
+      "page": 25,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ustbereconstitutedwithasingle-dosevialofAdjuvantSuspensionComponent(liquid)(packagedwith"
+     },
+     {
+      "page": 26,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " SHINGRIX⏎Components⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili"
+     },
+     {
+      "page": 26,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "on⏎Lyophilized gE Antigen Component and Adjuvant Suspension Component vials:⏎•⏎⏎Store re"
+     },
+     {
+      "page": 26,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "tionforSHINGRIXComponentsCartonNDCNumberAdjuvantSuspensionComponent(liquid)LyophilizedgE"
+     }
+    ],
+    "dismissed": "命中皆為 Adjuvant/adjuvant 子字串，AS01B 佐劑組成（MPL+QS-21 脂質體）已列為 related，仿單未另提鋁鹽"
+   }
+  }
+ },
+ "S59": {
+  "product": "VAQTA (Hepatitis A Vaccine, Inactivated)",
+  "source": "S59",
+  "pdf": "sources/國際仿單/A型肝炎_VAQTA_FDA_2020-10.pdf",
+  "pages": 18,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": "命中詞皆為 when/then 字尾（如 administered/given/differences between）子字串，非蛋成分提及；VAQTA 為 MRC-5 人類二倍體纖維母細胞培養，仿單未提蛋"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": "命中詞皆為 between 字尾子字串，非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG"
+   }
+  }
+ },
+ "S60": {
+  "product": "Engerix-B (Hepatitis B Vaccine Recombinant)",
+  "source": "S60",
+  "pdf": "sources/國際仿單/B型肝炎_Engerix-B_FDA_2026-05.pdf",
+  "pages": 14,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": "命中詞皆為 when 字尾或 lichen（皮膚病 lichen planus）子字串，非蛋成分提及；ENGERIX-B 為酵母菌（Saccharomyces cerevisiae）表現系統，仿單未提蛋"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": "命中詞皆為 between 字尾子字串，非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG"
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S61": {
+  "product": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant)",
+  "source": "S61",
+  "pdf": "sources/國際仿單/人類乳突病毒_Gardasil9_FDA_2025-03.pdf",
+  "pages": 27,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": "命中詞皆為 when 字尾子字串，非蛋成分提及；Gardasil 9 為 Saccharomyces cerevisiae（酵母）表現系統，仿單未提蛋"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S62": {
+  "product": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live)",
+  "source": "S62",
+  "pdf": "sources/國際仿單/麻疹腮腺炎德國麻疹_MMR-II_FDA_2025-11.pdf",
+  "pages": 12,
+  "date": "2026-09-13",
+  "cells": {
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": "命中詞皆為 between 字尾子字串（儲存溫度區間、劑量間隔），非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG"
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S63": {
+  "product": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein])",
+  "source": "S63",
+  "pdf": "sources/國際仿單/肺炎鏈球菌13價_Prevnar13_FDA_2017-XX.pdf",
+  "pages": 43,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [
+     {
+      "page": 25,
+      "term": "yeast",
+      "pattern": "yeast",
+      "context": "C7 (β197) grown in a casamino acids and yeast extract-based medium.⏎CRM197 is purifie"
+     },
+     {
+      "page": 25,
+      "term": "yeast",
+      "pattern": "yeast",
+      "context": "aestrainC7(β197)growninacasaminoacidsandyeastextract-basedmedium.CRM197ispurifiedthro"
+     }
+    ],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S64": {
+  "product": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent)",
+  "source": "S64",
+  "pdf": "sources/國際仿單/肺炎鏈球菌23價_Pneumovax23_FDA_2021-04.pdf",
+  "pages": 12,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 2,
+      "term": "Antibiotic",
+      "pattern": "antibiotic",
+      "context": "scular or⏎Pulmonary Function⏎5.3 Use of Antibiotic Prophylaxis⏎5.4 Persons with Altered Im"
+     },
+     {
+      "page": 2,
+      "term": "Antibiotic",
+      "pattern": "antibiotic",
+      "context": "ardiovascularorPulmonaryFunction5.3UseofAntibioticProphylaxis5.4PersonswithAlteredImmunoco"
+     },
+     {
+      "page": 4,
+      "term": "Antibiotic",
+      "pattern": "antibiotic",
+      "context": "5.3⏎⏎Use of Antibiotic Prophylaxis⏎This vaccine does not repla"
+     },
+     {
+      "page": 4,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": "place the need for penicillin (or other antibiotic) prophylaxis against⏎pneumococcal infec"
+     },
+     {
+      "page": 4,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": "tients who require penicillin (or other antibiotic) prophylaxis against⏎pneumococcal infec"
+     }
+    ],
+    "dismissed": "「Use of Antibiotic Prophylaxis」段（5.3）講的是接種後仍需維持之臨床抗生素預防性投藥，非疫苗成分或製程殘留"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 3,
+      "term": "preservative",
+      "pattern": "preservative",
+      "context": "ng a sterile needle and syringe free of preservatives, antiseptics,⏎and detergents.⏎Single-D"
+     },
+     {
+      "page": 3,
+      "term": "preservative",
+      "pattern": "preservative",
+      "context": "evialusingasterileneedleandsyringefreeofpreservatives,antiseptics,anddetergents.Single-Dose,"
+     },
+     {
+      "page": 4,
+      "term": "phenol",
+      "pattern": "phenol",
+      "context": "wed by placebo (saline containing 0.25% phenol), or placebo followed by PNEUMOVAX 23, "
+     },
+     {
+      "page": 4,
+      "term": "phenol",
+      "pattern": "phenol",
+      "context": "3followedbyplacebo(salinecontaining0.25%phenol),orplacebofollowedbyPNEUMOVAX23,at30-da"
+     },
+     {
+      "page": 9,
+      "term": "preservative",
+      "pattern": "preservative",
+      "context": "e solution containing 0.25% phenol as a preservative. The vaccine⏎is used directly as suppli"
+     },
+     {
+      "page": 9,
+      "term": "preservative",
+      "pattern": "preservative",
+      "context": "icsalinesolutioncontaining0.25%phenolasapreservative.Thevaccineisuseddirectlyassupplied.Nodi"
+     },
+     {
+      "page": 9,
+      "term": "phenol",
+      "pattern": "phenol",
+      "context": "otonic saline solution containing 0.25% phenol as a preservative. The vaccine⏎is used "
+     },
+     {
+      "page": 9,
+      "term": "phenol",
+      "pattern": "phenol",
+      "context": "einisotonicsalinesolutioncontaining0.25%phenolasapreservative.Thevaccineisuseddirectly"
+     }
+    ],
+    "dismissed": "phenol 相關命中已列為 related；另一命中「free of preservatives, antiseptics, and detergents」是抽藥用針筒須無防腐劑殘留的給藥說明，非疫苗本身成分"
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S65": {
+  "product": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)",
+  "source": "S65",
+  "pdf": "sources/國際仿單/破傷風白喉百日咳成人_Adacel_FDA_2026-08.pdf",
+  "pages": 23,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 12,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "es.⏎Animal Data⏎The effect of Adacel on embryo-fetal and pre-weaning development was e"
+     },
+     {
+      "page": 12,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "s on pregnancy,⏎parturition, lactation, embryo-fetal or pre-weaning development were o"
+     },
+     {
+      "page": 12,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "roundrates.AnimalDataTheeffectofAdacelonembryo-fetalandpre-weaningdevelopmentwasevalua"
+     }
+    ],
+    "dismissed": "命中詞'hen'/'embryo'皆為'when'字尾或'embryo-fetal'（動物生殖毒性研究用語），與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": "命中詞'tween'皆為'between'字尾，與 polysorbate 80/Tween 無關，仿單全文未提 polysorbate/PEG"
+   }
+  }
+ },
+ "S66": {
+  "product": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed)",
+  "source": "S66",
+  "pdf": "sources/國際仿單/破傷風白喉百日咳成人_Boostrix_FDA_2026-05.pdf",
+  "pages": 36,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 17,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "In these studies, no adverse effects on embryo-fetal⏎or pre-weaning development up to "
+     },
+     {
+      "page": 17,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "onDay7.Inthesestudies,noadverseeffectsonembryo-fetalorpre-weaningdevelopmentuptoPostna"
+     },
+     {
+      "page": 18,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "4. In this study, no adverse effects on embryo-fetal development related to⏎BOOSTRIX w"
+     },
+     {
+      "page": 18,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": ",15,and24.Inthisstudy,noadverseeffectsonembryo-fetaldevelopmentrelatedtoBOOSTRIXwereob"
+     }
+    ],
+    "dismissed": "命中詞'hen'/'embryo'皆為'when'字尾或'embryo-fetal'（動物生殖毒性研究用語），與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S67": {
+  "product": "Fluarix Quadrivalent (Influenza Vaccine)",
+  "source": "S67",
+  "pdf": "sources/國際仿單/流感四價_FluarixQuadrivalent_FDA_2023-07.pdf",
+  "pages": 30,
+  "date": "2026-09-13",
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ration with Zoster Vaccine Recombinant,⏎Adjuvanted (SHINGRIX)⏎15⏎REFERENCES⏎16⏎HOW SUPPL"
+     },
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)15REFERENCES16HOWSUPPLIED/ST"
+     },
+     {
+      "page": 14,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ration with Zoster Vaccine Recombinant,⏎Adjuvanted (SHINGRIX)⏎In an open-label, randomiz"
+     },
+     {
+      "page": 14,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)Inanopen-label,randomizedtri"
+     },
+     {
+      "page": 15,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "tantly⏎with Zoster Vaccine Recombinant, Adjuvanted (SHINGRIX) [see Adverse Reactions (6."
+     },
+     {
+      "page": 15,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ncomitantlywithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)[seeAdverseReactions(6.1),Cl"
+     },
+     {
+      "page": 29,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ration with Zoster Vaccine⏎Recombinant, Adjuvanted (SHINGRIX)⏎In an open-label, randomiz"
+     },
+     {
+      "page": 29,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)Inanopen-label,randomizedcli"
+     }
+    ],
+    "dismissed": "命中詞'Adjuvanted'皆指共同施打對照之 SHINGRIX（Zoster Vaccine Recombinant, Adjuvanted）的品名，非 Fluarix Quadrivalent 本身含佐劑；Description 段明確未提鋁或任何佐劑成分"
+   }
+  }
+ },
+ "S68": {
+  "product": "Bexsero (Meningococcal Group B Vaccine)",
+  "source": "S68",
+  "pdf": "sources/國際仿單/腦膜炎球菌B_Bexsero_FDA_2024-08.pdf",
+  "pages": 16,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": "命中詞'tween'皆為'between'字尾（描述菌株收集年代區間），與 polysorbate 80/Tween 無關，仿單全文未提 polysorbate/PEG"
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S69": {
+  "product": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent)",
+  "source": "S69",
+  "pdf": "sources/國際仿單/輪狀病毒_RotaTeq_FDA_2026-05.pdf",
+  "pages": 15,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": "命中詞'hen'皆為'when'字尾，與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白（培養基為 Vero 細胞非雞胚）"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S70": {
+  "product": "Havrix (Hepatitis A Vaccine)",
+  "source": "S70",
+  "pdf": "sources/國際仿單/A型肝炎_Havrix_FDA_2026-05.pdf",
+  "pages": 14,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": "命中詞'hen'皆為'when'字尾，與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白（病毒株於 MRC-5 人類二倍體細胞繁殖）"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 9,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": " more than 40 ng/mL), an aminoglycoside antibiotic included in the cell growth media.⏎HAVR"
+     },
+     {
+      "page": 9,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": "ate(notmorethan40ng/mL),anaminoglycosideantibioticincludedinthecellgrowthmedia.HAVRIXisfor"
+     }
+    ],
+    "dismissed": "命中詞'antibiotic'出自描述 neomycin sulfate 本身（'an aminoglycoside antibiotic'），已列於 neomycin key，非額外的其他抗生素"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S71": {
+  "product": "Varivax (Varicella Virus Vaccine Live)",
+  "source": "S71",
+  "pdf": "sources/國際仿單/水痘_Varivax_FDA_2026-08.pdf",
+  "pages": 31,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 13,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "e⏎varicella, then introduced into human embryonic lung cell cultures, adapted to and⏎p"
+     },
+     {
+      "page": 13,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": " cultures, adapted to and⏎propagated in embryonic guinea pig cell cultures and finally"
+     },
+     {
+      "page": 13,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "ld-typevaricella,thenintroducedintohumanembryoniclungcellcultures,adaptedtoandpropagat"
+     },
+     {
+      "page": 22,
+      "term": "chick",
+      "pattern": "chick",
+      "context": " as a shot. It is meant to help prevent chickenpox. Chickenpox is sometimes called⏎va"
+     },
+     {
+      "page": 22,
+      "term": "Chick",
+      "pattern": "chick",
+      "context": "It is meant to help prevent chickenpox. Chickenpox is sometimes called⏎varicella (pro"
+     },
+     {
+      "page": 22,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "a).⏎VARIVAX contains a weakened form of chickenpox virus.⏎VARIVAX works by helping th"
+     },
+     {
+      "page": 23,
+      "term": "chick",
+      "pattern": "chick",
+      "context": " circumstances, it is possible to catch chickenpox, including severe chickenpox,⏎from"
+     },
+     {
+      "page": 23,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "e to catch chickenpox, including severe chickenpox,⏎from a person who has been vaccin"
+     },
+     {
+      "page": 23,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "e not previously been vaccinated or had chickenpox, as well as persons who fall into⏎"
+     },
+     {
+      "page": 24,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "ere skin disorders; skin infection; and chickenpox.⏎Rarely, swelling of the brain (en"
+     },
+     {
+      "page": 24,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "?⏎Active Ingredient: a weakened form of chickenpox virus.⏎Inactive Ingredients: sucro"
+     },
+     {
+      "page": 24,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "ng;severeskindisorders;skininfection;andchickenpox.Rarely,swellingofthebrain(encephal"
+     }
+    ],
+    "dismissed": "命中皆為 'embryonic'（human embryonic lung cell cultures，非雞胚）與 'chickenpox'（水痘病名，字面命中 chick 但與蛋／雞胚無關），非蛋類過敏原"
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S72": {
+  "product": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)",
+  "source": "S72",
+  "pdf": "sources/國際仿單/腦膜炎_Menveo_FDA_2025-03.pdf",
+  "pages": 38,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S73": {
+  "product": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine)",
+  "source": "S73",
+  "pdf": "sources/國際仿單/肺炎鏈球菌_Vaxneuvance_V15_FDA_2026-06.pdf",
+  "pages": 24,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [
+     {
+      "page": 17,
+      "term": "yeast",
+      "pattern": "yeast",
+      "context": "e serotype is grown in media containing yeast extract, dextrose, salts and soy pepton"
+     },
+     {
+      "page": 17,
+      "term": "yeast",
+      "pattern": "yeast",
+      "context": "eumoniaeserotypeisgrowninmediacontainingyeastextract,dextrose,saltsandsoypeptone.Each"
+     }
+    ],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S74": {
+  "product": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20]",
+  "source": "S74",
+  "pdf": "sources/國際仿單/肺炎鏈球菌_Prevnar20_V20_FDA_2023-04.pdf",
+  "pages": 33,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [
+     {
+      "page": 19,
+      "term": "yeast",
+      "pattern": "yeast",
+      "context": "C7 (β197) grown in a casamino acids and yeast extract-based medium or in a chemically"
+     },
+     {
+      "page": 19,
+      "term": "yeast",
+      "pattern": "yeast",
+      "context": "aestrainC7(β197)growninacasaminoacidsandyeastextract-basedmediumorinachemicallydefine"
+     }
+    ],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S75": {
+  "product": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022",
+  "source": "S75",
+  "pdf": "sources/國際仿單/麻疹腮腺炎德國麻疹_Priorix_FDA_2026-03.pdf",
+  "pages": 20,
+  "date": "2026-09-13",
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 13,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": "media free from antibiotics and albumin. The attenuated measles, m"
+     },
+     {
+      "page": 13,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": "mediafreefromantibioticsandalbumin.Theattenuatedmeasles,mumpsan"
+     }
+    ],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S76": {
+  "product": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)",
+  "source": "S76",
+  "pdf": "sources/國際仿單/呼吸道融合病毒_Arexvy_FDA_2026-07.pdf",
+  "pages": 29,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 16,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "no adverse effects on⏎female fertility, embryo-fetal, pre-weaning and post-natal devel"
+     },
+     {
+      "page": 16,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "vealednoadverseeffectsonfemalefertility,embryo-fetal,pre-weaningandpost-nataldevelopme"
+     }
+    ],
+    "dismissed": "唯一命中為 'embryo-fetal'（動物生殖毒理學用詞，如 embryo-fetal development），與蛋／雞胚無關"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Y (Respiratory Syncytial Virus Vaccine, Adjuvanted) for⏎injectable suspension, for intra"
+     },
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "nstituted with the accompanying vial of Adjuvant Suspension⏎Component. (2.2)⏎• Vial and "
+     },
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "h the accompanying prefilled syringe of⏎Adjuvant Suspension Component. (2.2)⏎⏎To report "
+     },
+     {
+      "page": 3,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ile white powder) with the accompanying Adjuvant⏎Suspension Component (an opalescent, co"
+     },
+     {
+      "page": 3,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "structions⏎below. Use only the supplied Adjuvant Suspension Component for reconstitution"
+     },
+     {
+      "page": 3,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ire contents of the vial⏎containing the Adjuvant⏎Suspension Component⏎(liquid) by slight"
+     },
+     {
+      "page": 4,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "structions below. Use⏎only the supplied Adjuvant Suspension Component for reconstitution"
+     },
+     {
+      "page": 4,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ld the ungraduated prefilled⏎syringe of Adjuvant Suspension⏎Component by the barrel and "
+     },
+     {
+      "page": 4,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ntheinstructionsbelow.UseonlythesuppliedAdjuvantSuspensionComponentforreconstitution.Fig"
+     },
+     {
+      "page": 7,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": " FLUAD QUADRIVALENT (influenza vaccine,⏎adjuvanted; manufactured by Seqirus, Inc.) conco"
+     },
+     {
+      "page": 7,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "VYandFLUADQUADRIVALENT(influenzavaccine,adjuvanted;manufacturedbySeqirus,Inc.)concomitan"
+     },
+     {
+      "page": 16,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "duals who received an investigational unadjuvanted RSV vaccine that contained the⏎same R"
+     },
+     {
+      "page": 16,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "io, 3,557 received an⏎investigational unadjuvanted RSV vaccine that contained the same R"
+     },
+     {
+      "page": 16,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "ndividualswhoreceivedaninvestigationalunadjuvantedRSVvaccinethatcontainedthesameRSVPreF3"
+     },
+     {
+      "page": 18,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Y (Respiratory Syncytial Virus Vaccine, Adjuvanted) is a sterile injectable suspension f"
+     },
+     {
+      "page": 18,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "ying vial or prefilled syringe of AS01E adjuvant as the⏎Adjuvant Suspension Component.⏎T"
+     },
+     {
+      "page": 18,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "filled syringe of AS01E adjuvant as the⏎Adjuvant Suspension Component.⏎The RSVPreF3 anti"
+     },
+     {
+      "page": 19,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "aining Lyophilized Antigen Component or Adjuvant Suspension Component and the⏎tip cap an"
+     },
+     {
+      "page": 19,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "per of the prefilled syringe containing Adjuvant Suspension Component are not made⏎with "
+     },
+     {
+      "page": 19,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "lcontainingLyophilizedAntigenComponentorAdjuvantSuspensionComponentandthetipcapandplunge"
+     },
+     {
+      "page": 27,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "nent (powder) and a single-dose vial of Adjuvant Suspension Component (liquid) (packaged"
+     },
+     {
+      "page": 27,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "enComponent(powder)andasingle-dosevialofAdjuvantSuspensionComponent(liquid)(packagedwith"
+     },
+     {
+      "page": 28,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " carton of 10⏎doses⏎⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili"
+     },
+     {
+      "page": 28,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " TIP-LOK syringe (Luer Lock syringe) of Adjuvant⏎Suspension Component (liquid) (packaged"
+     },
+     {
+      "page": 28,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "or AREXVY⏎Components⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili"
+     }
+    ],
+    "dismissed": "命中皆為 'Adjuvant'／'adjuvanted'／'unadjuvanted' 泛指本品 AS01E 佐劑系統或他廠佐劑流感疫苗，本品佐劑組成已於 Description 明載為 MPL＋QS-21 脂質體，非鋁鹽"
+   }
+  }
+ },
+ "S77": {
+  "product": "Abrysvo (Respiratory Syncytial Virus Vaccine)",
+  "source": "S77",
+  "pdf": "sources/國際仿單/呼吸道融合病毒_Abrysvo_FDA_2025-12.pdf",
+  "pages": 30,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 20,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "al developmental toxicity study with an embryo-fetal developmental toxicity phase was⏎"
+     },
+     {
+      "page": 20,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "ects on mating, female fertility, or on⏎embryo/fetal or post-natal survival, growth, o"
+     },
+     {
+      "page": 20,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "st-nataldevelopmentaltoxicitystudywithanembryo-fetaldevelopmentaltoxicityphasewasperfo"
+     }
+    ],
+    "dismissed": "命中皆為 'embryo-fetal'／'embryo/fetal'（動物生殖毒理學研究用詞，如 embryo-fetal developmental toxicity study），與蛋／雞胚無關"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [
+     {
+      "page": 17,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "received ABRYSVO and Influenza Vaccine, Adjuvanted⏎(FLUAD® QUADRIVALENT) concomitantly a"
+     },
+     {
+      "page": 17,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "=703)receivedABRYSVOandInfluenzaVaccine,Adjuvanted(FLUAD®QUADRIVALENT)concomitantlyandpl"
+     },
+     {
+      "page": 29,
+      "term": "Al(OH)3",
+      "pattern": "al\\(oh\\)3",
+      "context": "vels 120 μg and 240 μg, with or without Al(OH)3) when⏎administered concomitantly with T"
+     },
+     {
+      "page": 29,
+      "term": "Al(OH)3",
+      "pattern": "al\\(oh\\)3",
+      "context": "(atdoselevels120μgand240μg,withorwithoutAl(OH)3)whenadministeredconcomitantlywithTdapin"
+     }
+    ],
+    "dismissed": "p17 命中為同時併用的另一廠牌流感疫苗 'FLUAD QUADRIVALENT (Adjuvanted)'；p29 命中為 14.5 節第二期臨床試驗中一款「with or without Al(OH)3」的研究用調製劑，非上市核准配方——核准配方見 Description(11)，未列鋁佐劑"
+   }
+  }
+ },
+ "S78": {
+  "product": "Flucelvax Quadrivalent (Influenza Vaccine)",
+  "source": "S78",
+  "pdf": "sources/國際仿單/流感_FlucelvaxQuadrivalent_FDA_2026-03.pdf",
+  "pages": 21,
+  "date": "2026-09-13",
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S79": {
+  "product": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula",
+  "source": "S79",
+  "pdf": "sources/國際仿單/流感_Flucelvax_trivalent_FDA_2026-07.pdf",
+  "pages": 21,
+  "date": "2026-09-13",
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S80": {
+  "product": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine)",
+  "source": "S80",
+  "pdf": "sources/國際仿單/傷寒_TyphimVi_FDA_2026-06.pdf",
+  "pages": 19,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 1,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": " be approximately 10% to 20% in the pre-antibiotic era. (1)⏎(2) (3) During the period of 1"
+     },
+     {
+      "page": 1,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": "portedtobeapproximately10%to20%inthepre-antibioticera.(1)(2)(3)Duringtheperiodof1983to1991"
+     },
+     {
+      "page": 7,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": " Typhim Vi vaccine and drugs (including⏎antibiotics and antimalarial drugs), immune globul"
+     },
+     {
+      "page": 7,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": "ntuseofTyphimVivaccineanddrugs(includingantibioticsandantimalarialdrugs),immuneglobulinsor"
+     }
+    ],
+    "dismissed": "全文掃描『antibiotic』4 個命中：p.1 談傷寒『抗生素前時代（pre-antibiotic era）』死亡率之背景敘述，p.7 為 DRUG INTERACTIONS 段落警語（併用抗生素／抗瘧藥可能影響免疫反應），均非本疫苗成分"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 1,
+      "term": "preservative",
+      "pattern": "preservative",
+      "context": "l⏎content. Phenol, 0.25%, is added as a preservative. The vaccine contains residual⏎polydime"
+     },
+     {
+      "page": 1,
+      "term": "preservative",
+      "pattern": "preservative",
+      "context": "dO-acetylcontent.Phenol,0.25%,isaddedasapreservative.Thevaccinecontainsresidualpolydimethyls"
+     },
+     {
+      "page": 1,
+      "term": "Phenol",
+      "pattern": "phenol",
+      "context": "by molecular size and O-acetyl⏎content. Phenol, 0.25%, is added as a preservative. The"
+     },
+     {
+      "page": 1,
+      "term": "Phenol",
+      "pattern": "phenol",
+      "context": "sessedbymolecularsizeandO-acetylcontent.Phenol,0.25%,isaddedasapreservative.Thevaccine"
+     },
+     {
+      "page": 19,
+      "term": "PHENOL",
+      "pattern": "phenol",
+      "context": "(UNII: 5QWK665956)⏎⏎0.023 mg in 0.5 mL⏎⏎PHENOL (UNII: 339NCG44TV)⏎⏎1.25 mg in 0.5 mL⏎⏎"
+     },
+     {
+      "page": 19,
+      "term": "PHENOL",
+      "pattern": "phenol",
+      "context": "DIHYDRATE(UNII:5QWK665956)0.023mgin0.5mLPHENOL(UNII:339NCG44TV)1.25mgin0.5mLWATER(UNII"
+     }
+    ],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S81": {
+  "product": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation",
+  "source": "S81",
+  "pdf": "sources/國際仿單/天花猴痘_Jynneos_FDA_2025-03.pdf",
+  "pages": 18,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 11,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": " in⏎pregnancy.⏎The effect of JYNNEOS on embryo-fetal and post-natal development was ev"
+     },
+     {
+      "page": 11,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "tedrisksinpregnancy.TheeffectofJYNNEOSonembryo-fetalandpost-nataldevelopmentwasevaluat"
+     },
+     {
+      "page": 12,
+      "term": "Chick",
+      "pattern": "chick",
+      "context": "thopoxvirus. MVA-BN is grown in primary Chicken⏎Embryo Fibroblast (CEF) cells suspend"
+     },
+     {
+      "page": 12,
+      "term": "Chick",
+      "pattern": "chick",
+      "context": "tingorthopoxvirus.MVA-BNisgrowninprimaryChickenEmbryoFibroblast(CEF)cellssuspendedina"
+     },
+     {
+      "page": 12,
+      "term": "Embryo",
+      "pattern": "embryo",
+      "context": "rus. MVA-BN is grown in primary Chicken⏎Embryo Fibroblast (CEF) cells suspended in a s"
+     },
+     {
+      "page": 12,
+      "term": "Embryo",
+      "pattern": "embryo",
+      "context": "hopoxvirus.MVA-BNisgrowninprimaryChickenEmbryoFibroblast(CEF)cellssuspendedinaserum-fr"
+     }
+    ],
+    "dismissed": "全文掃描『embryo/chick』6 個命中：p.11 為 8.1 Pregnancy 段落『embryo-fetal and post-natal development』生殖毒理學敘述（與雞蛋無關）；p.12 的 Chicken Embryo Fibroblast (CEF) 已判讀為 related 附於本格"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S82": {
+  "product": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+  "source": "S82",
+  "pdf": "sources/國際仿單/新冠_Spikevax_FDA_2026-08.pdf",
+  "pages": 79,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 50,
+      "term": "Embryo",
+      "pattern": "embryo",
+      "context": "ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant individuals infecte"
+     },
+     {
+      "page": 50,
+      "term": "Embryo",
+      "pattern": "embryo",
+      "context": "erationsDisease-AssociatedMaternaland/orEmbryo/FetalRiskPregnantindividualsinfectedwit"
+     }
+    ],
+    "dismissed": "全文掃描『embryo』2 個命中皆為 p.50 8.1 Pregnancy 段落標題『Disease-Associated Maternal and/or Embryo/Fetal Risk』，與雞蛋成分無關"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S83": {
+  "product": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+  "source": "S83",
+  "pdf": "sources/國際仿單/新冠_mNEXSPIKE_FDA_2026-08.pdf",
+  "pages": 32,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 18,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "rats, as well as the development of the embryo/fetus and offspring⏎following exposure "
+     },
+     {
+      "page": 18,
+      "term": "Embryo",
+      "pattern": "embryo",
+      "context": "ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant individuals infecte"
+     },
+     {
+      "page": 18,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "ngfemalerats,aswellasthedevelopmentoftheembryo/fetusandoffspringfollowingexposureofthe"
+     }
+    ],
+    "dismissed": "全文掃描『embryo』3 個命中皆為 p.18 8.1 Pregnancy 段落（大鼠發育毒理學研究『embryo/fetus』與段落標題『Embryo/Fetal Risk』），與雞蛋成分無關"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S84": {
+  "product": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula",
+  "source": "S84",
+  "pdf": "sources/國際仿單/新冠_Nuvaxovid_FDA_2026-08.pdf",
+  "pages": 47,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 31,
+      "term": "Embryo",
+      "pattern": "embryo",
+      "context": "ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant women infected with"
+     },
+     {
+      "page": 31,
+      "term": "Embryo",
+      "pattern": "embryo",
+      "context": "erationsDisease-AssociatedMaternaland/orEmbryo/FetalRiskPregnantwomeninfectedwithSARS-"
+     }
+    ],
+    "dismissed": "全文掃描『embryo』2 個命中皆為 p.31 8.1 Pregnancy 段落標題『Disease-Associated Maternal and/or Embryo/Fetal Risk』，與雞蛋成分無關"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 18,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": "tion. The cellulitis resolved⏎following antibiotic and steroid treatment. The muscle edema"
+     },
+     {
+      "page": 18,
+      "term": "antibiotic",
+      "pattern": "antibiotic",
+      "context": "ccination.Thecellulitisresolvedfollowingantibioticandsteroidtreatment.Themuscleedemawasnot"
+     }
+    ],
+    "dismissed": "全文掃描『antibiotic』2 個命中皆為 p.18 ADVERSE REACTIONS 不良反應敘述（蜂窩性組織炎經抗生素與類固醇治療後緩解），非本疫苗成分"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "VAXOVID.⏎NUVAXOVIDTM (COVID-19 Vaccine, Adjuvanted) injectable⏎suspension, for intramusc"
+     },
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ous dose of a Novavax COVID-19 Vaccine,⏎Adjuvanted. (4)⏎⏎------------------------------A"
+     },
+     {
+      "page": 2,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "nistration⏎of Novavax COVID-19 Vaccine, Adjuvanted. (5.2)⏎⏎Revised: 8/2026⏎⏎FULL PRESCRI"
+     },
+     {
+      "page": 3,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "vious dose of Novavax⏎COVID-19 Vaccine, Adjuvanted.⏎⏎2⏎⏎\f"
+     },
+     {
+      "page": 3,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ngapreviousdoseofNovavaxCOVID-19Vaccine,Adjuvanted.2"
+     },
+     {
+      "page": 4,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "nistration of Novavax COVID-19 Vaccine, Adjuvanted [see Adverse⏎Reactions (6)].⏎The Cent"
+     },
+     {
+      "page": 4,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "r doses) with Novavax COVID-19 Vaccine,⏎Adjuvanted or with another COVID-19 vaccine manu"
+     },
+     {
+      "page": 4,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "gadministrationofNovavaxCOVID-19Vaccine,Adjuvanted[seeAdverseReactions(6)].TheCentersfor"
+     },
+     {
+      "page": 5,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ge and⏎older⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎Primary Seri"
+     },
+     {
+      "page": 5,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ries⏎⏎26,106⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎1st Booster⏎"
+     },
+     {
+      "page": 5,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "⏎⏎13,353‡, §⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎Primary Seri"
+     },
+     {
+      "page": 6,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "der (Part 2)⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎2nd Booster⏎"
+     },
+     {
+      "page": 6,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ooster⏎⏎259¶⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted (20232024 Formula) ẻ⏎⏎Single Dose⏎⏎33"
+     },
+     {
+      "page": 6,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "uthorized as Novavax⏎⏎COVID-19 Vaccine, Adjuvanted (Original monovalent).⏎⏎‡ Booster dos"
+     },
+     {
+      "page": 7,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "oster dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) were injection "
+     },
+     {
+      "page": 7,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "f any dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) were injection "
+     },
+     {
+      "page": 7,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "lts⏎Safety of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) was assessed in"
+     },
+     {
+      "page": 8,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "eries dose of⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent). Additional sup"
+     },
+     {
+      "page": 8,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "binant spike (rS) protein and Matrix-M® adjuvant but manufactured by a different⏎process"
+     },
+     {
+      "page": 8,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "⏎process than Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent).⏎Study 1 was a "
+     },
+     {
+      "page": 9,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "and Dose 2) ‡⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+     },
+     {
+      "page": 9,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "t,Dose1andDose2)‡NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=16,041"
+     },
+     {
+      "page": 10,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+     },
+     {
+      "page": 10,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ipants in the Novavax COVID-19 Vaccine, Adjuvanted⏎⏎(Original monovalent) group and 7,96"
+     },
+     {
+      "page": 10,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=16,041"
+     },
+     {
+      "page": 11,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "and Dose 2) ‡⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original⏎Monovalent)⏎Dose 1⏎Dose 2⏎N"
+     },
+     {
+      "page": 11,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "t,Dose1andDose2)‡NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=2,293N"
+     },
+     {
+      "page": 12,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Event⏎⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original⏎Monovalent)⏎Dose 1⏎Dose 2⏎N"
+     },
+     {
+      "page": 12,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ipants in the Novavax COVID-19 Vaccine, Adjuvanted⏎⏎(Original monovalent) group and 1,13"
+     },
+     {
+      "page": 12,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ants received Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent) and 9,847 parti"
+     },
+     {
+      "page": 13,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Vaccine, Adjuvanted (Original monovalent) in the pre-cros"
+     },
+     {
+      "page": 13,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " two doses of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) in the⏎post-cro"
+     },
+     {
+      "page": 13,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "imilar in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group (11.8%) a"
+     },
+     {
+      "page": 14,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "⏎who received Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), and 4 (0.04%)⏎"
+     },
+     {
+      "page": 14,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ipants in the Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) arm and 2 (0.02"
+     },
+     {
+      "page": 14,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ipants in⏎the Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) arm and 0 parti"
+     },
+     {
+      "page": 15,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "cipants after⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) and a total of "
+     },
+     {
+      "page": 15,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ter Dose 1 of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) which resolved "
+     },
+     {
+      "page": 15,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "and one of the Novavax COVID19 Vaccine, Adjuvanted (Original monovalent) recipients had "
+     },
+     {
+      "page": 16,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "alysis Set) ‡⏎Novavax COVID-19 Vaccine, Adjuvanted (Original Monovalent)⏎Booster⏎Partici"
+     },
+     {
+      "page": 16,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "fetyAnalysisSet)‡NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)BoosterParticipant"
+     },
+     {
+      "page": 17,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted (Original Monovalent)⏎Booster⏎Partici"
+     },
+     {
+      "page": 17,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "EventNovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)BoosterParticipant"
+     },
+     {
+      "page": 18,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ants received Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent). Of the partici"
+     },
+     {
+      "page": 18,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "oster dose of⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent).⏎One serious ev"
+     },
+     {
+      "page": 18,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted; however,⏎clinical features were also"
+     },
+     {
+      "page": 19,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": " recombinant spike protein and Matrix-M adjuvant, manufactured by a different process⏎th"
+     },
+     {
+      "page": 19,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " process⏎than Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) evaluated in St"
+     },
+     {
+      "page": 19,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " process than Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) evaluated in St"
+     },
+     {
+      "page": 20,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ipants in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group, 286 part"
+     },
+     {
+      "page": 20,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "micron BA.1), Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), and Bivalent⏎V"
+     },
+     {
+      "page": 20,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " 1.5%) in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group, and 4 pa"
+     },
+     {
+      "page": 21,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "cination with⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), the Monovalent"
+     },
+     {
+      "page": 21,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " 4.0%) in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group, and 3 pa"
+     },
+     {
+      "page": 21,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ngvaccinationwithNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent),theMonovalentVacc"
+     },
+     {
+      "page": 22,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "The safety of Novavax COVID-19 Vaccine, Adjuvanted (2023-2024 Formula) administered as a"
+     },
+     {
+      "page": 22,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "cination with Novavax COVID-19 Vaccine, Adjuvanted (2023-2024 Formula) in COVID-19⏎vacci"
+     },
+     {
+      "page": 22,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "gβ⏎Any Grade⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(2023-2024 Formula)⏎Single Dose⏎N=338"
+     },
+     {
+      "page": 23,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(2023-2024 Formula)⏎Single Dose⏎N=338"
+     },
+     {
+      "page": 23,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "EventNovavaxCOVID-19Vaccine,Adjuvanted(2023-2024Formula)SingleDoseN=338n(%)S"
+     },
+     {
+      "page": 24,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "cination with⏎Novavax COVID-19 Vaccine, Adjuvanted (2023-2024 Formula) through end of st"
+     },
+     {
+      "page": 24,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Age⏎Safety of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) in adolescents "
+     },
+     {
+      "page": 24,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "eries dose of Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent).⏎2-Dose Series "
+     },
+     {
+      "page": 25,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " each dose of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent)⏎or placebo in p"
+     },
+     {
+      "page": 25,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "and Dose 2) ‡⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+     },
+     {
+      "page": 25,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "llowingeachdoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)orplaceboinpartici"
+     },
+     {
+      "page": 26,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+     },
+     {
+      "page": 26,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ipants in the Novavax COVID-19 Vaccine, Adjuvanted (Original⏎⏎monovalent) group and 726 "
+     },
+     {
+      "page": 26,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=1,448N"
+     },
+     {
+      "page": 27,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ants⏎received Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) and 745 partici"
+     },
+     {
+      "page": 27,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ants received Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) and 1,354 recei"
+     },
+     {
+      "page": 27,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " two doses of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) in the⏎pre-cros"
+     },
+     {
+      "page": 28,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "oster dose of⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) using an electr"
+     },
+     {
+      "page": 28,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Set) ‡⏎Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(Original Monovalent) Booster⏎N=1,256"
+     },
+     {
+      "page": 28,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "gtheboosterdoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)usinganelectronicd"
+     },
+     {
+      "page": 29,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(Original Monovalent) Booster⏎N=1,256"
+     },
+     {
+      "page": 29,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "EventNovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)BoosterN=1,256n(%)"
+     },
+     {
+      "page": 30,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ants received Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent). Of the partici"
+     },
+     {
+      "page": 30,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent), with no report"
+     },
+     {
+      "page": 30,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "zation use of Novavax⏎COVID-19 Vaccine, Adjuvanted. Because these reactions are reported"
+     },
+     {
+      "page": 31,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "e protein and one-fifth the⏎quantity of adjuvant and formulation buffer inactive ingredi"
+     },
+     {
+      "page": 31,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "s included in Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) on four occasio"
+     },
+     {
+      "page": 31,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "tein (5 mcg), one-fifth the quantity of adjuvant (10 mcg), and⏎inactive ingredients whic"
+     },
+     {
+      "page": 32,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "cination with⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), 12.6% (n=2,480"
+     },
+     {
+      "page": 32,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "oster dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) (n=13,353), 15."
+     },
+     {
+      "page": 32,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "SCRIPTION⏎⏎NUVAXOVID (COVID-19 Vaccine, Adjuvanted) is a colorless to slightly yellow, c"
+     },
+     {
+      "page": 33,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "randomized to⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) or placebo (nor"
+     },
+     {
+      "page": 33,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "s)andrandomizedtoNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)orplacebo(normalsa"
+     },
+     {
+      "page": 34,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) or placebo 21 d"
+     },
+     {
+      "page": 34,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "21) of either Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) (n=17,184) or⏎p"
+     },
+     {
+      "page": 34,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " who received Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent) and those who r"
+     },
+     {
+      "page": 35,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "e efficacy of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) to prevent⏎PCR-"
+     },
+     {
+      "page": 35,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " had received⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), compared with "
+     },
+     {
+      "page": 35,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "nalysis Set )⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Mean⏎Incidence⏎"
+     },
+     {
+      "page": 36,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) in vaccine-expe"
+     },
+     {
+      "page": 36,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ays apart) of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) in the initial "
+     },
+     {
+      "page": 36,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "sofaboosterdoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)invaccine-experien"
+     },
+     {
+      "page": 37,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "econd dose of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) relative to the"
+     },
+     {
+      "page": 37,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ingle dose of Novavax COVID-19 Vaccine, Adjuvanted (20232024 Formula). The primary immun"
+     },
+     {
+      "page": 37,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ertheseconddoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)relativetothetimeo"
+     },
+     {
+      "page": 38,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ingle Dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (2023-2024 Formula) in Vaccine-naïve "
+     },
+     {
+      "page": 38,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "fteraSingleDoseofNovavaxCOVID-19Vaccine,Adjuvanted(2023-2024Formula)inVaccine-naïveParti"
+     },
+     {
+      "page": 39,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "randomized to Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) or placebo (nor"
+     },
+     {
+      "page": 39,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " two doses of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) or placebo 21 d"
+     },
+     {
+      "page": 39,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "psandrandomizedtoNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)orplacebo(normalsa"
+     },
+     {
+      "page": 40,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "e efficacy of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) to prevent PCR-"
+     },
+     {
+      "page": 40,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " who received Novavax⏎COVID-19 Vaccine, Adjuvanted (Original monovalent). One moderate a"
+     },
+     {
+      "page": 40,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "e12.TheefficacyofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)topreventPCR-confi"
+     },
+     {
+      "page": 41,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "Analysis Set)⏎Novavax COVID-19 Vaccine, Adjuvanted⏎Placebo⏎(Original Monovalent)⏎Mean⏎Me"
+     },
+     {
+      "page": 41,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) in vaccine-expe"
+     },
+     {
+      "page": 41,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "P-EFFAnalysisSet)NovavaxCOVID-19Vaccine,AdjuvantedPlacebo(OriginalMonovalent)MeanMeanSub"
+     },
+     {
+      "page": 42,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ays apart) of Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) in the initial "
+     },
+     {
+      "page": 42,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "econd dose of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) was > 0.67 and "
+     },
+     {
+      "page": 42,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "5mL21daysapart)ofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)intheinitialvaccin"
+     },
+     {
+      "page": 44,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "IDTM (Noo-VAX-o-vid)⏎(COVID-19 Vaccine, Adjuvanted)⏎(2026-2027 Formula)⏎This summary is "
+     },
+     {
+      "page": 44,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "f NUVAXOVID or Novavax COVID19 Vaccine, Adjuvanted⏎•⏎⏎a severe allergic reaction to any "
+     },
+     {
+      "page": 44,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "AXOVIDTM(Noo-VAX-o-vid)(COVID-19Vaccine,Adjuvanted)(2026-2027Formula)Thissummaryisnotint"
+     },
+     {
+      "page": 45,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": " NUVAXOVID or⏎Novavax COVID-19 Vaccine, Adjuvanted. The chance of having this occur is v"
+     },
+     {
+      "page": 45,
+      "term": "Adjuvant",
+      "pattern": "adjuvant",
+      "context": "ceivedNUVAXOVIDorNovavaxCOVID-19Vaccine,Adjuvanted.Thechanceofhavingthisoccurisverylow.Y"
+     },
+     {
+      "page": 46,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "to moths and butterflies) and Matrix-M® adjuvant containing saponins derived from⏎the so"
+     },
+     {
+      "page": 46,
+      "term": "adjuvant",
+      "pattern": "adjuvant",
+      "context": "elatedtomothsandbutterflies)andMatrix-M®adjuvantcontainingsaponinsderivedfromthesoapbark"
+     }
+    ],
+    "dismissed": "全文掃描『adjuvant』121 個命中：本品全名為『NUVAXOVID (COVID-19 Vaccine, Adjuvanted)』，全文反覆出現的是產品名稱與『Matrix-M adjuvant』（皂樹皂苷佐劑），與鋁鹽佐劑無關，已於本格 related 附 p.32 Matrix-M 成分原句"
+   }
+  }
+ },
+ "S85": {
+  "product": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib)",
+  "source": "S85",
+  "pdf": "sources/國際仿單/六合一_Hexyon(Hexaxim)_EMA_2026-08.pdf",
+  "pages": 61,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S86": {
+  "product": "Infanrix hexa (DTPa-HBV-IPV/Hib)",
+  "source": "S86",
+  "pdf": "sources/國際仿單/六合一_Infanrix-hexa_EMA_2026-02.pdf",
+  "pages": 43,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [
+     {
+      "page": 15,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": "containing 1 dose with a stopper (butyl rubber) and 0.5 ml of suspension⏎in a pre-fill"
+     },
+     {
+      "page": 15,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": " I glass) with a plunger stopper (butyl rubber) and with a rubber tip cap.⏎The tip cap"
+     },
+     {
+      "page": 15,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": "unger stopper (butyl rubber) and with a rubber tip cap.⏎The tip cap and rubber plunger"
+     }
+    ],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S87": {
+  "product": "Imojev (Japanese encephalitis vaccine, live, attenuated)",
+  "source": "S87",
+  "pdf": "sources/國際仿單/日本腦炎疫苗_Imojev_TGA_2023-03.pdf",
+  "pages": 21,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 4,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "showed no adverse effects on pregnancy,⏎embryo-foetal development, parturition or post"
+     },
+     {
+      "page": 4,
+      "term": "embryo",
+      "pattern": "embryo",
+      "context": "day15,showednoadverseeffectsonpregnancy,embryo-foetaldevelopment,parturitionorpostnata"
+     }
+    ],
+    "dismissed": "p.4「embryo-foetal development」出自兔隻生殖毒性試驗段落（母兔孕期胚胎發育），與蛋／雞胚培養或卵蛋白過敏原無關，非假陽性外之真實命中"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S88": {
+  "product": "Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated)",
+  "source": "S88",
+  "pdf": "sources/國際仿單/流感疫苗_VaxigripTetra_HPRA_2025-06.pdf",
+  "pages": 17,
+  "date": "2026-09-13",
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 3,
+      "term": "thiomersal",
+      "pattern": "thiomersal",
+      "context": "ted Influenza Vaccine (Split Virion) BP⏎thiomersal-free formulation) administered in pregn"
+     },
+     {
+      "page": 3,
+      "term": "thiomersal",
+      "pattern": "thiomersal",
+      "context": "activatedInfluenzaVaccine(SplitVirion)BPthiomersal-freeformulation)administeredinpregnantw"
+     },
+     {
+      "page": 9,
+      "term": "thiomersal",
+      "pattern": "thiomersal",
+      "context": " (Split Virion) BP (trivalent influenza thiomersal-free vaccine) and approximately⏎5,000 p"
+     },
+     {
+      "page": 9,
+      "term": "thiomersal",
+      "pattern": "thiomersal",
+      "context": "accine(SplitVirion)BP(trivalentinfluenzathiomersal-freevaccine)andapproximately5,000pregna"
+     },
+     {
+      "page": 10,
+      "term": "thiomersal",
+      "pattern": "thiomersal",
+      "context": " (Split Virion) BP (trivalent influenza thiomersal free⏎vaccine) and 4532 of 4868 (93%) in"
+     },
+     {
+      "page": 10,
+      "term": "thiomersal",
+      "pattern": "thiomersal",
+      "context": "accine(SplitVirion)BP(trivalentinfluenzathiomersalfreevaccine)and4532of4868(93%)infantsbor"
+     }
+    ],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S89": {
+  "product": "Stamaril (Yellow fever vaccine, live)",
+  "source": "S89",
+  "pdf": "sources/國際仿單/黃熱病疫苗_Stamaril_MHRA_2025-01.pdf",
+  "pages": 16,
+  "date": "2026-09-13",
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [
+     {
+      "page": 14,
+      "term": "aluminium",
+      "pattern": "aluminium",
+      "context": "opper (chlorobutyl) and a flip-off cap⏎(aluminium) + 0.5 ml of solvent in a pre-filled sy"
+     },
+     {
+      "page": 14,
+      "term": "aluminium",
+      "pattern": "aluminium",
+      "context": "ithastopper(chlorobutyl)andaflip-offcap(aluminium)+0.5mlofsolventinapre-filledsyringe(typ"
+     }
+    ],
+    "dismissed": null
+   }
+  }
+ },
+ "S90": {
+  "product": "Verorab (Rabies vaccine, inactivated, Vero cell-derived)",
+  "source": "S90",
+  "pdf": "sources/國際仿單/狂犬病疫苗_Verorab_MHRA_2026-01.pdf",
+  "pages": 16,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S91": {
+  "product": "Varilrix (varicella vaccine, live)",
+  "source": "S91",
+  "pdf": "sources/國際仿單/水痘疫苗_Varilrix_MHRA_2026-08.pdf",
+  "pages": 15,
+  "date": "2026-09-13",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [
+     {
+      "page": 4,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "cumented positive history of varicella (chickenpox) or⏎laboratory evidence of prior i"
+     },
+     {
+      "page": 4,
+      "term": "chick",
+      "pattern": "chick",
+      "context": " without documented positive history of chickenpox or⏎laboratory evidence of prior in"
+     },
+     {
+      "page": 4,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "outdocumentedpositivehistoryofvaricella(chickenpox)orlaboratoryevidenceofpriorinfecti"
+     },
+     {
+      "page": 10,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "ther completely protected from clinical chickenpox⏎or developed a milder form of the "
+     },
+     {
+      "page": 10,
+      "term": "chick",
+      "pattern": "chick",
+      "context": " decrease in the occurrence of cases of chickenpox following two⏎doses of vaccine com"
+     },
+     {
+      "page": 10,
+      "term": "chick",
+      "pattern": "chick",
+      "context": "ereeithercompletelyprotectedfromclinicalchickenpoxordevelopedamilderformofthedisease("
+     }
+    ],
+    "dismissed": "全文掃描6個「chick」命中皆為 chickenpox（水痘疾病名）字串誤命中，與蛋／卵白蛋白無關"
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [
+     {
+      "page": 13,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": "ype I glass) with a stopper (bromobutyl rubber).⏎0.5 ml of solvent in a pre-filled syr"
+     },
+     {
+      "page": 13,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": "glass) with plunger stopper⏎(bromobutyl rubber), with or without separate needles in t"
+     },
+     {
+      "page": 13,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": "svial(typeIglass)withastopper(bromobutylrubber).0.5mlofsolventinapre-filledsyringe(typ"
+     }
+    ],
+    "dismissed": "全文掃描3個「rubber」命中皆為 p.13 瓶塞/活塞材質 bromobutyl rubber（合成丁基橡膠）之重複擷取，非天然乳膠(latex)，已列為 related"
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
+ "S92": {
+  "product": "Rabipur (Rabies Vaccine Inactivated, PCECV)",
+  "source": "S92",
+  "pdf": "sources/國際仿單/狂犬病疫苗_Rabipur_MHRA_2026-05.pdf",
+  "pages": 15,
+  "date": "2026-09-13",
+  "cells": {
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
     ],
     "hits": [],
     "dismissed": null

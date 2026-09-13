@@ -1,0 +1,29 @@
+{
+ "vaccine": "hepa",
+ "product": "VAQTA (Hepatitis A Vaccine, Inactivated)",
+ "source": "S59",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 12, "label": "Description", "quote": "VAQTA is an inactivated whole virus vaccine derived from hepatitis A virus grown in cell culture in human MRC-5 diploid fibroblasts."},
+  {"page": 12, "label": "Description", "quote": "The virus is grown, harvested, purified by a combination of physical and high performance liquid chromatographic techniques developed at the Merck Research Laboratories, formalin inactivated, and then adsorbed onto amorphous aluminum hydroxyphosphate sulfate."},
+  {"page": 12, "label": "Description", "quote": "Within the limits of current assay variability, the 50U dose of VAQTA contains less than 0.1 mcg of non-viral protein, less than 4 x 10–6 mcg of DNA, less than 10–4 mcg of bovine albumin, and less than 0.8 mcg of formaldehyde."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 12, "quote": "Other process chemical residuals are less than 10 parts per billion (ppb), including neomycin."},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "有", "page": 4, "quote": "The vial stopper and the syringe plunger stopper and tip cap contain dry natural latex rubber that may cause allergic reactions in latex-sensitive individuals [see How Supplied/Storage and Handling (16)]."},
+  {"key": "peg_polysorbate", "status": "未載明"},
+  {"key": "formaldehyde", "status": "有", "page": 12, "quote": "Within the limits of current assay variability, the 50U dose of VAQTA contains less than 0.1 mcg of non-viral protein, less than 4 x 10–6 mcg of DNA, less than 10–4 mcg of bovine albumin, and less than 0.8 mcg of formaldehyde."},
+  {"key": "thimerosal", "status": "無", "page": 12, "quote": "One milliliter of the vaccine contains approximately 50U of hepatitis A virus antigen, which is purified and formulated without a preservative."},
+  {"key": "aluminium", "status": "有", "page": 12, "quote": "Each 1-mL adult dose contains 50U of hepatitis A virus antigen and adsorbed onto approximately 0.45 mg of aluminum provided as amorphous aluminum hydroxyphosphate sulfate, and 70 mcg of sodium borate as a pH stabilizer, in 0.9% sodium chloride."}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 3, "quote": "Do not administer VAQTA to individuals with a history of immediate and/or severe allergic or hypersensitivity reactions (e.g., anaphylaxis) after a previous dose of any hepatitis A vaccine, or to individuals who have had an anaphylactic reaction to any component of VAQTA, including neomycin [see Description (11)]."},
+  {"label": "Latex", "page": 4, "quote": "The vial stopper and the syringe plunger stopper and tip cap contain dry natural latex rubber that may cause allergic reactions in latex-sensitive individuals [see How Supplied/Storage and Handling (16)]."}
+ ],
+ "sweep": {"dismissed": {"egg": "命中詞皆為 when/then 字尾（如 administered/given/differences between）子字串，非蛋成分提及；VAQTA 為 MRC-5 人類二倍體纖維母細胞培養，仿單未提蛋", "peg_polysorbate": "命中詞皆為 between 字尾子字串，非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG"}}
+}

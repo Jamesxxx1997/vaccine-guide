@@ -1,0 +1,27 @@
+{
+ "vaccine": "covid",
+ "product": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+ "source": "S82",
+ "origin": "FDA",
+ "lang": "en",
+ "components": [
+  {"page": 51, "label": "Description", "quote": "SPIKEVAX (COVID-19 Vaccine, mRNA) is a sterile white to off-white injectable suspension for intramuscular use."},
+  {"page": 51, "label": "Description", "quote": "Each 0.5 mL dose of SPIKEVAX (2026-2027 Formula) contains 50 mcg nucleoside-modified messenger RNA (mRNA) encoding the pre-fusion stabilized spike glycoprotein (S) of the SARS-CoV-2 JN.1-descendent variant XFG. Each dose also contains the following ingredients: a total lipid content of 1.01 mg (SM-102, polyethylene glycol [PEG] 2000 dimyristoyl glycerol [DMG], cholesterol, and 1,2-distearoyl-sn-glycero-3-phosphocholine [DSPC]), 0.25 mg tromethamine, 1.2 mg tromethamine hydrochloride, 0.021 mg acetic acid, 0.10 mg sodium acetate trihydrate, and 43.5 mg sucrose."}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 51, "quote": "The rubber tip cap and plunger used for the single-dose syringes are not made with natural rubber latex."},
+  {"key": "peg_polysorbate", "status": "有", "page": 51, "quote": "Each dose also contains the following ingredients: a total lipid content of 1.01 mg (SM-102, polyethylene glycol [PEG] 2000 dimyristoyl glycerol [DMG], cholesterol, and 1,2-distearoyl-sn-glycero-3-phosphocholine [DSPC]), 0.25 mg tromethamine, 1.2 mg tromethamine hydrochloride, 0.021 mg acetic acid, 0.10 mg sodium acetate trihydrate, and 43.5 mg sucrose.", "note": "脂質奈米顆粒含 PEG 2000-DMG（非 polysorbate）"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "無", "page": 51, "quote": "SPIKEVAX does not contain a preservative."},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "Contraindications", "page": 6, "quote": "Do not administer SPIKEVAX to individuals with a known history of severe allergic reaction (e.g., anaphylaxis) to any component of SPIKEVAX [see Description (11)] or to individuals who had a severe allergic reaction (e.g., anaphylaxis) following a previous dose of a Moderna COVID-19 vaccine."}
+ ],
+ "sweep": {"dismissed": {"egg": "全文掃描『embryo』2 個命中皆為 p.50 8.1 Pregnancy 段落標題『Disease-Associated Maternal and/or Embryo/Fetal Risk』，與雞蛋成分無關"}}
+}

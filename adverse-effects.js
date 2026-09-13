@@ -7,7 +7,8 @@
   const bind=(el,claim,query)=>{if(claim&&window.ReferenceUI)ReferenceUI.bind(el,{claim,query:query||el.textContent});return el;};
   // 多來源標記：「…描述文字… [1] [2]」，每個編號各自連到自己的 claim（使用者指定的呈現方式）
   const marks=(claims)=>{const sup=node('sup',undefined,'ref-marks');claims.forEach((c,i)=>{const m=node('a','['+(i+1)+']','ref-mark');m.href='#';m.onclick=e=>e.preventDefault();bind(m,c,'');sup.append(i?' ':'',m);});return sup;};
-  const vaccineName=id=>{const v=((typeof VAX!=='undefined'&&VAX)||[]).find(x=>x.id===id);return v?v.n:id;};   // index.html 的 VAX/SRC 是頂層 const，不在 window 上
+  const EXTRA_VACCINE_NAMES={menb:'腦膜炎雙球菌 B 型疫苗（Bexsero）',typhoid:'傷寒疫苗（Typhim Vi）',mpox:'M痘疫苗（Jynneos）'};   // 站上 VAX 沒有卡片的疫苗
+  const vaccineName=id=>{const v=((typeof VAX!=='undefined'&&VAX)||[]).find(x=>x.id===id);return v?v.n:(EXTRA_VACCINE_NAMES[id]||id);};   // index.html 的 VAX/SRC 是頂層 const，不在 window 上
   const srcLabel=key=>{const s=((typeof SRC!=='undefined'&&SRC)||{})[key];return s?`${key}｜${s.n}（${s.v||''}）`:key;};
   const byVaccine=new Map();
   for(const t of ADVERSE_EFFECTS.tables){if(!byVaccine.has(t.vaccine))byVaccine.set(t.vaccine,[]);byVaccine.get(t.vaccine).push(t);}

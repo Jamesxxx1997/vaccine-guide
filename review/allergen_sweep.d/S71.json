@@ -1,0 +1,201 @@
+{
+ "product": "Varivax (Varicella Virus Vaccine Live)",
+ "source": "S71",
+ "pdf": "sources/國際仿單/水痘_Varivax_FDA_2026-08.pdf",
+ "pages": 31,
+ "date": "2026-09-13",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [
+    {
+     "page": 13,
+     "term": "embryo",
+     "pattern": "embryo",
+     "context": "e⏎varicella, then introduced into human embryonic lung cell cultures, adapted to and⏎p"
+    },
+    {
+     "page": 13,
+     "term": "embryo",
+     "pattern": "embryo",
+     "context": " cultures, adapted to and⏎propagated in embryonic guinea pig cell cultures and finally"
+    },
+    {
+     "page": 13,
+     "term": "embryo",
+     "pattern": "embryo",
+     "context": "ld-typevaricella,thenintroducedintohumanembryoniclungcellcultures,adaptedtoandpropagat"
+    },
+    {
+     "page": 22,
+     "term": "chick",
+     "pattern": "chick",
+     "context": " as a shot. It is meant to help prevent chickenpox. Chickenpox is sometimes called⏎va"
+    },
+    {
+     "page": 22,
+     "term": "Chick",
+     "pattern": "chick",
+     "context": "It is meant to help prevent chickenpox. Chickenpox is sometimes called⏎varicella (pro"
+    },
+    {
+     "page": 22,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "a).⏎VARIVAX contains a weakened form of chickenpox virus.⏎VARIVAX works by helping th"
+    },
+    {
+     "page": 23,
+     "term": "chick",
+     "pattern": "chick",
+     "context": " circumstances, it is possible to catch chickenpox, including severe chickenpox,⏎from"
+    },
+    {
+     "page": 23,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "e to catch chickenpox, including severe chickenpox,⏎from a person who has been vaccin"
+    },
+    {
+     "page": 23,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "e not previously been vaccinated or had chickenpox, as well as persons who fall into⏎"
+    },
+    {
+     "page": 24,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "ere skin disorders; skin infection; and chickenpox.⏎Rarely, swelling of the brain (en"
+    },
+    {
+     "page": 24,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "?⏎Active Ingredient: a weakened form of chickenpox virus.⏎Inactive Ingredients: sucro"
+    },
+    {
+     "page": 24,
+     "term": "chick",
+     "pattern": "chick",
+     "context": "ng;severeskindisorders;skininfection;andchickenpox.Rarely,swellingofthebrain(encephal"
+    }
+   ],
+   "dismissed": "命中皆為 'embryonic'（human embryonic lung cell cultures，非雞胚）與 'chickenpox'（水痘病名，字面命中 chick 但與蛋／雞胚無關），非蛋類過敏原"
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}
