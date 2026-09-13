@@ -240,7 +240,7 @@
     }
    ]
   },
-  "al:S27:thimerosal": {
+  "al:S27:thimerosal:related": {
    "items": [
     {
      "source": "S27",
@@ -249,7 +249,7 @@
      "quotes": [
       "高度純化且不含防腐劑之 A 型肝"
      ],
-     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 硫柳汞：無"
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 硫柳汞：未載明（相關原句）"
     }
    ]
   },

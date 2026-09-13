@@ -21,13 +21,13 @@ SYN = {
     'egg': [r'雞胚', r'雞蛋', r'蛋類', r'卵白', r'卵蛋白', r'(?<![蛋])蛋(?![白])', r'(?<!卵)卵(?!巢|磷脂)', r'禽', r'ovalbumin', r'\begg', r'chick', r'embryo', r'hen\b', r'avian'],
     'gelatin': [r'明膠', r'動物膠', r'水解膠', r'膠質', r'吉利丁', r'gelatin', r'gelatine', r'hydroly[sz]ed'],
     'neomycin': [r'neomycin', r'新黴素', r'紐黴素', r'尼奧黴素', r'奈歐黴素', r'新霉素'],
-    'other_antibiotics': [r'kanamycin', r'polymyxin', r'gentamicin', r'gentamycin', r'streptomycin', r'erythromycin', r'amphotericin', r'chlortetracycline', r'antibiotic', r'卡那黴素', r'多黏菌素', r'多粘菌素', r'健大黴素', r'慶大黴素', r'鏈黴素', r'紅黴素', r'抗生素', r'抗菌劑'],
+    'other_antibiotics': [r'kanamycin', r'polymyxin', r'gentamicin', r'gentamycin', r'streptomycin', r'erythromycin', r'amphotericin', r'chlortetracycline', r'antibiotic', r'tetracycline', r'chloramphenicol', r'四環素', r'氯黴素', r'卡那黴素', r'多黏菌素', r'多粘菌素', r'健大黴素', r'慶大黴素', r'鏈黴素', r'紅黴素', r'抗生素', r'抗菌劑'],
     'yeast': [r'酵母', r'yeast', r'saccharomyces', r'pichia', r'hansenula', r'cerevisiae'],
-    'latex': [r'乳膠', r'橡膠', r'latex', r'rubber'],
+    'latex': [r'乳膠', r'膠乳', r'橡膠', r'latex', r'rubber'],
     'peg_polysorbate': [r'聚山梨', r'吐溫', r'聚乙二醇', r'polysorbate', r'tween', r'\bpeg\b', r'polyethylene\s*glycol', r'macrogol', r'polyoxyethylene', r'聚氧乙烯'],
     'formaldehyde': [r'甲醛', r'福馬林', r'戊二醛', r'formaldehyde', r'formalin', r'glutaraldehyde', r'formol'],
-    'thimerosal': [r'硫柳汞', r'汞', r'thimerosal', r'thiomersal', r'merthiolate', r'mercur', r'防腐劑', r'保存劑', r'preservative', r'phenoxyethanol', r'苯氧乙醇', r'(?<![酚])酚(?![酞])', r'phenol'],
-    'aluminium': [r'鋁', r'aluminium', r'aluminum', r'\balum\b', r'alpo4', r'al\(oh\)3', r'aahs', r'佐劑', r'adjuvant', r'alhydrogel'],
+    'thimerosal': [r'硫柳汞', r'汞', r'thimerosal', r'thiomersal', r'merthiolate', r'mercur', r'防腐劑', r'保存劑', r'preservative', r'phenoxyethanol', r'苯氧乙醇', r'乙基汞', r'ethylmercury', r'(?<![酚])酚(?![酞])', r'phenol'],
+    'aluminium': [r'鋁', r'aluminium', r'aluminum', r'\balum\b', r'alpo4', r'al\(oh\)3', r'aahs', r'佐劑', r'adjuvant', r'alhydrogel', r'明礬', r'硫酸鋁鉀'],
 }
 
 def page_texts(pdf: Path):

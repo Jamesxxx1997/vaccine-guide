@@ -30,6 +30,8 @@
 ### other_antibiotics：0 命中
 ### yeast：0 命中
 ### peg_polysorbate：0 命中
+### thimerosal：1 命中
+- p.1「防腐劑」…sulfate)而成。1mL之疫苗含有約50單位(units;U)高度純化且不含防腐劑之A型肝炎病毒抗原。在目前分析方法所能測量之範圍,50U的VAQTA含有小於0.…
 
 ## S28 Engerix-B 安在時B型肝炎疫苗（B肝_Engerix-B_TFDA_2022-05-05.pdf，1 頁）
 ### egg：0 命中

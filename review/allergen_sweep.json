@@ -62,6 +62,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -90,6 +94,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -136,6 +141,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -153,7 +160,9 @@
      "aahs",
      "佐劑",
      "adjuvant",
-     "alhydrogel"
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
     ],
     "hits": [
      {
@@ -272,6 +281,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -311,6 +324,34 @@
      "聚氧乙烯"
     ],
     "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 1,
+      "term": "防腐劑",
+      "pattern": "防腐劑",
+      "context": "sulfate)而成。1mL之疫苗含有約50單位(units;U)高度純化且不含防腐劑之A型肝炎病毒抗原。在目前分析方法所能測量之範圍,50U的VAQTA含有小於0."
+     }
+    ],
     "dismissed": null
    }
   }
@@ -378,6 +419,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -394,6 +439,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -427,6 +473,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -454,6 +502,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -534,6 +584,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -602,6 +653,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -641,6 +693,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -669,6 +725,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -716,7 +773,9 @@
      "aahs",
      "佐劑",
      "adjuvant",
-     "alhydrogel"
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
     ],
     "hits": [],
     "dismissed": null
@@ -786,6 +845,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -850,6 +913,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -921,6 +986,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -998,6 +1067,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -1047,6 +1117,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -1101,7 +1173,9 @@
      "aahs",
      "佐劑",
      "adjuvant",
-     "alhydrogel"
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
     ],
     "hits": [],
     "dismissed": null
@@ -1127,6 +1201,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -1203,6 +1279,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -1316,6 +1396,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -1344,6 +1428,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -1364,6 +1449,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -1415,6 +1502,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -1451,6 +1539,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -1502,6 +1592,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -1522,6 +1613,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -1593,6 +1686,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -1621,6 +1718,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -1725,6 +1823,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -1745,6 +1844,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -1762,7 +1863,9 @@
      "aahs",
      "佐劑",
      "adjuvant",
-     "alhydrogel"
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
     ],
     "hits": [],
     "dismissed": null
@@ -1812,6 +1915,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -1840,6 +1947,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -1860,6 +1968,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -1877,7 +1987,9 @@
      "aahs",
      "佐劑",
      "adjuvant",
-     "alhydrogel"
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
     ],
     "hits": [],
     "dismissed": null
@@ -1915,6 +2027,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -1943,6 +2059,7 @@
    "latex": {
     "patterns": [
      "乳膠",
+     "膠乳",
      "橡膠",
      "latex",
      "rubber"
@@ -1979,6 +2096,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -1996,7 +2115,9 @@
      "aahs",
      "佐劑",
      "adjuvant",
-     "alhydrogel"
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
     ],
     "hits": [],
     "dismissed": null
@@ -2109,6 +2230,8 @@
      "preservative",
      "phenoxyethanol",
      "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
      "(?<![酚])酚(?![酞])",
      "phenol"
     ],
@@ -2199,6 +2322,10 @@
      "amphotericin",
      "chlortetracycline",
      "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
      "卡那黴素",
      "多黏菌素",
      "多粘菌素",
@@ -2248,7 +2375,9 @@
      "aahs",
      "佐劑",
      "adjuvant",
-     "alhydrogel"
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
     ],
     "hits": [],
     "dismissed": null
