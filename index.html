@@ -217,6 +217,12 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 .adverse-note{margin:0 0 4px}
 .adverse-quote{display:block;quotes:"「" "」";padding:4px 8px;border-left:3px solid #e6b800;background:var(--surface-2);font-size:12.5px;line-height:1.5}
 .ref-marks a.ref-mark{text-decoration:none;font-size:11px;padding:0 2px;border:1px solid var(--line);border-radius:3px;margin-left:2px}
+.allergy-verdict{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;border:1px solid var(--line);margin-right:6px;vertical-align:middle}
+.allergy-verdict.ok{background:rgba(60,180,100,.18)}.allergy-verdict.warn{background:rgba(230,184,0,.2)}.allergy-verdict.no{background:rgba(220,70,70,.2)}
+.allergy-rule h3{font-size:15px;margin:4px 0 6px}
+.allergy-quotes>div{margin:4px 0}
+#allergenMatrix td.allergy-yes{background:rgba(230,184,0,.18)}#allergenMatrix td.allergy-no{background:rgba(60,180,100,.14)}#allergenMatrix td.allergy-na{color:var(--ink-3)}
+#allergyA,#allergyB{max-width:48%}
 @media(max-width:760px){#expanel{width:94vw}}
 </style>
 <link rel="stylesheet" href="reference-ui.css">
@@ -621,6 +627,13 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
   <div id="adverseRoot" data-ref-ui></div>
 </section>
 
+<!-- ═══════════ 過敏與成分 ═══════════ -->
+<section class="panel" id="p-allergy" role="tabpanel">
+  <h2>疫苗過敏與成分</h2>
+  <p class="sub" style="margin-top:-6px">三個常見問題：蛋過敏能不能打、對 A 疫苗過敏可不可以打 B、A 過敏是因為什麼成分。成分與過敏原以 TFDA 仿單原句為準（tools/build_allergens.py），「可考慮／不建議」依過敏專科與官方指引原句分類（AAAAI／ACAAI 2012 與 2023、WAO ICON 2016、CDC 通則、ACIP 2025–26、BSACI、疾管署）。每句 [1][2] 與每一格都可開原件黃框。非個人臨床判定。</p>
+  <div id="allergyRoot" data-ref-ui></div>
+</section>
+
 <section class="panel" id="p-src" role="tabpanel">
   <h2>來源文件與版本</h2>
   <p>本頁每條規則的引用代碼對應下表。核心資料擷取日為 <strong>2026-08-07</strong>；後續新增來源各自註明官方版本與收錄日期，請以下表為準。Shingrix 現行原始仿單為 S20，S9 僅保留歷史文字摘錄。</p>
@@ -907,6 +920,8 @@ const SRC = {
       u:"https://www.bsaci.org/wp-content/uploads/2021/07/VACCINE-ALLERGY-FAQs-for-GPs-Final-Website-06.07.21.pdf", p:"sources/過敏指引/BSACI_vaccine_allergy_FAQs_for_GPs_2021.pdf"},
   S56:{n:"ASCIA vaccination egg allergic individual 2026 — 過敏專科／官方指引原件", v:"ASCIA (Australasian Society of Clinical Immunology and Allergy) Guidelines — Vac；下載 2026-09-13", o:"學會／官方（過敏指引）", pagesOnly:"claims",
       u:"https://www.allergy.org.au/images/stories/pospapers/ASCIA_HP_Guidelines_Vaccination_Egg_Allergic_Individual_2026.pdf", p:"sources/過敏指引/ASCIA_vaccination_egg_allergic_individual_2026.pdf"},
+  S57:{n:"General Best Practice Guidelines for Immunization（CDC 全文 PDF，197 頁）— 過敏／禁忌章節引用", v:"工作小組 2023-01 版；下載 2026-09-12", o:"美國 CDC", pagesOnly:"claims",
+      u:"https://www.cdc.gov/vaccines/hcp/acip-recs/general-recs/downloads/general-recs.pdf", p:"sources/感染後間隔/CDC疫苗接種通則_General_Best_Practice_Guidelines_for_Immunization.pdf"},
 };
 // 來源標註：文件名連到官方原始檔，版本號連到本機存檔（若有）
 function cite(code){
@@ -1378,7 +1393,7 @@ const MINAGE = [
 const TABS = [
   ["p-screen","接種前篩檢"],["p-child","兒童時程"],["p-adult","成人時程"],
   ["p-interval","間隔規則"],["p-contra","禁忌總表"],
-  ["p-catchup","補種"],["p-adverse","副作用"],["p-src","來源與版本"],
+  ["p-catchup","補種"],["p-adverse","副作用"],["p-allergy","過敏與成分"],["p-src","來源與版本"],
 ];
 const nav = document.getElementById("tabs");
 TABS.forEach(([id,label],i)=>{
@@ -2075,6 +2090,8 @@ render();
 <script src="travel-vaccine-guides.js"></script>
 <script src="review/adverse-effects.js"></script>
 <script src="adverse-effects.js"></script>
+<script src="review/allergens.js"></script>
+<script src="allergy-guidance.js"></script>
 <script src="vaccine-search.js"></script>
 </body>
 </html>
