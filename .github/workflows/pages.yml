@@ -50,7 +50,14 @@ jobs:
           git add -- data/travel/sources review/travel-current.js review/travel-sync-status.js
           if ! git diff --cached --quiet; then
             git commit -m 'Update verified CDC travel snapshot and sync status'
-            git push origin HEAD:main
+            # 使用者在本 run 期間又 push 時，直接 push 會被拒（2026-09-13 發生過）：先 rebase 到最新 main 再推，最多重試 3 次
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main || { git rebase --abort; exit 1; }
+              git push origin HEAD:main && break
+              [ "$attempt" = 3 ] && exit 1
+              sleep 15
+            done
           fi
       - name: Package public static files only
         id: package
