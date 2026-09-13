@@ -4,10 +4,14 @@ export const CDC='https://www.cdc.gov.tw';
 export const SEARCH_PATH='/InternationalEpidemicLevel/Index/NlUwZUNvckRWQ09CbDJkRVFjaExjUT09';
 export const RESULT_PATH='/InternationalEpidemicLevel/SearchResult';
 export const SEARCH_URL=CDC+SEARCH_PATH;
-export function localRequestURL(raw,host,port) {
-  if(![`localhost:${port}`,`127.0.0.1:${port}`].includes(host))throw Error('只供本機試用。');
+// 本機試用：只接受 localhost/127.0.0.1:port。公開部署（PUBLIC=1）：接受 hosts 白名單，或未設白名單時接受
+// 任何 Host（Cloud Run 的網址在首次部署前不可知）；Origin 白名單與 CSP frame-ancestors 仍嚴格限制呼叫者。
+export function localRequestURL(raw,host,port,{hosts=null,scheme='http'}={}) {
+  const localHosts=[`localhost:${port}`,`127.0.0.1:${port}`];
+  const allowed=hosts===null?localHosts.includes(host):(hosts.length===0?Boolean(host)&&!/[\s\/\\@]/.test(host):hosts.includes(host));
+  if(!allowed)throw Error(hosts===null?'只供本機試用。':'不允許的主機名稱。');
   if(!raw.startsWith('/')||raw.startsWith('//')||raw.includes('\\'))throw Error('無效的本機路徑。');
-  const origin=`http://${host}`,url=new URL(raw,origin);
+  const origin=`${scheme}://${host}`,url=new URL(raw,origin);
   if(url.origin!==origin)throw Error('路徑不可改變來源。');
   return url;
 }
@@ -100,7 +104,7 @@ export async function search(query,{fetcher=fetch}={}) {
   const rows=parseResults(new TextDecoder().decode(result.data));
   return {query,rows,source:SEARCH_URL,fetchedAt:new Date().toISOString(),timing:{prepareMs:Math.round(preparedMs),searchMs:Math.round(performance.now()-posted),totalMs:Math.round(performance.now()-start)}};
 }
-export function rewriteHTML(html,{full=false,query=''}={}) {
+export function rewriteHTML(html,{full=false,query='',session=null}={}) {
   const dom=new JSDOM(html),d=dom.window.document;
   try {
     // Keep the official search UI. Other destinations explicitly leave the relay.
@@ -121,7 +125,10 @@ export function rewriteHTML(html,{full=false,query=''}={}) {
       d.querySelectorAll('script[src="/Scripts/addtoany.js"],script[src="/Scripts/Share.js"]').forEach(e=>e.remove());
       for(const form of d.forms)if(form.id!=='form0') {form.removeAttribute('action');form.addEventListener?.('submit',e=>e.preventDefault());}
       const input=d.querySelector('input[name="SearchData"]');if(input)input.setAttribute('value',queryText(query,{empty:true}));
+      // 工作階段識別碼寫進頁面（不靠 Cookie）：跨站 iframe 內的第三方 Cookie 在 Safari 會被擋、Chrome 也可能被擋，
+      // proxy-client 改以 X-Relay-Session 標頭送回；伺服器兩者皆接受。
       const script=d.createElement('script');script.src='/proxy-client.js';d.head.prepend(script);
+      if(session){const s=d.createElement('script');s.textContent='window.__vaccineRelaySession='+JSON.stringify(String(session))+';';d.head.prepend(s);}   // 兩次 prepend → session 變數排在 proxy-client 之前
       const notice=d.createElement('div');notice.id='vaccine-proxy-notice';
       notice.setAttribute('style','background:#fff4d6;color:#382800;padding:12px;font:16px/1.5 sans-serif;border-bottom:2px solid #bb8000');
       notice.textContent='非官方轉送試用｜以下保留疾管署旅遊搜尋畫面；僅供查國家／疾病，請勿輸入個資。其他連結另開官網。';

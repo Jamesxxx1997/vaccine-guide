@@ -7,6 +7,8 @@
   XMLHttpRequest.prototype.open=function(method,url,...rest){this.__isCdcResult=new URL(url,location.href).pathname==='/InternationalEpidemicLevel/SearchResult';return open.call(this,method,url,...rest);};
   XMLHttpRequest.prototype.send=function(body){
     if(this.__isCdcResult){
+      // 工作階段用標頭帶回（不依賴 Cookie；跨站 iframe 的 Cookie 可能被瀏覽器擋掉）
+      if(typeof window.__vaccineRelaySession==='string')try{this.setRequestHeader('X-Relay-Session',window.__vaccineRelaySession);}catch{}
       const previous=currentRequest;currentRequest=this;previous?.abort();
       document.getElementById('DiseaseView')?.replaceChildren();
       const at=performance.now(),query=(new URLSearchParams(typeof body==='string'?body:'').get('SearchData')||'').trim(),seq=++sequence;

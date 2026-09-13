@@ -54,3 +54,20 @@ test('request origin cannot be changed through an authority-form path',()=>{
   for(const p of ['//other.test'+RESULT_PATH,'/\\other.test'+RESULT_PATH,'https://other.test'+RESULT_PATH])assert.throws(()=>localRequestURL(p,'localhost:8901',8901));
   assert.throws(()=>localRequestURL('/api/health','other.test',8901));
 });
+test('public mode: host whitelist, https origin, and cookie-less session injection',()=>{
+  // 白名單模式：只接受列出的主機；scheme 依部署為 https
+  assert.equal(localRequestURL('/api/health','relay.a.run.app',8080,{hosts:['relay.a.run.app'],scheme:'https'}).origin,'https://relay.a.run.app');
+  assert.throws(()=>localRequestURL('/api/health','other.test',8080,{hosts:['relay.a.run.app'],scheme:'https'}));
+  assert.throws(()=>localRequestURL('/api/health','localhost:8901',8901,{hosts:['relay.a.run.app'],scheme:'https'}));
+  // 未設白名單（首次部署前）：接受合理的 Host，但拒絕含路徑／空白／@ 的偽造值與空值
+  assert.equal(localRequestURL('/api/health','svc-abc.a.run.app',8080,{hosts:[],scheme:'https'}).origin,'https://svc-abc.a.run.app');
+  for(const h of ['','a b','evil.test/x','user@host','back\\slash'])assert.throws(()=>localRequestURL('/api/health',h,8080,{hosts:[],scheme:'https'}));
+  // 路徑仍不得改變來源
+  assert.throws(()=>localRequestURL('//other.test'+RESULT_PATH,'relay.a.run.app',8080,{hosts:[],scheme:'https'}));
+  // 初始頁面注入工作階段識別碼（供 proxy-client 以 X-Relay-Session 標頭送回），並且早於 proxy-client.js
+  const page='<html><head><title>t</title></head><body><form id="form0"><input name="SearchData"></form></body></html>';
+  const dom=new JSDOM(rewriteHTML(page,{full:true,session:'ab'.repeat(24)}));const scripts=[...dom.window.document.head.querySelectorAll('script')];
+  assert.equal(scripts[0].textContent,'window.__vaccineRelaySession="'+'ab'.repeat(24)+'";');
+  assert.equal(scripts[1].getAttribute('src'),'/proxy-client.js');
+  assert(!rewriteHTML(page,{full:true}).includes('__vaccineRelaySession'));
+});

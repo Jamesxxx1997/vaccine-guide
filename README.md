@@ -92,6 +92,11 @@ cdc.gov.tw 的 `/File/Get/<id>` 是 HTML 殼層，真檔在 `/Uploads/files/<uui
 
 ### 旅遊搜尋、每日同步與原始資料核對
 
+**2026-09-13 起的三條線**（細節見 [backend/README.md](backend/README.md)）：
+1. 每日快照改由使用者的 Mac（台灣 IP）以 `tools/local_sync_and_push.sh` 同步後推上 main；GitHub 主機抓 od.cdc.gov.tw 常逾時。
+2. A 模式（即時代查）與 3. B 模式（官方畫面代理）的後端可用 `PUBLIC=1` 部署到 Cloud Run asia-east1（根目錄 `Dockerfile`、`backend/deploy_cloud_run.sh`）；
+   前端 `travel-live.js` 的 `PUBLIC_SERVICE` 填入服務網址後才會在正式站啟用，否則維持「每日快照」。
+
 ```bash
 node tools/sync_travel_data.mjs     # 完整驗證兩份官方資料後，更新現行資料包
 node tools/verify_current_travel.cjs # 逐筆核對來源雜湊、原始字串及摘要身分

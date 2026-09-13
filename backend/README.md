@@ -1,6 +1,29 @@
-# 疾管署搜尋 A/B 本機試用
+# 疾管署搜尋 A/B：本機試用與公開部署
 
-目前只供本機試用，不是已部署的公開後端。GitHub Pages 保留原站與每日快照；Pages 不會執行這個 Node 服務。本次不搬到 Hugging Face，也未建立任何雲端服務或付費訂閱。
+原本只供本機試用（Codex 2026-09 版）；2026-09-13 使用者決定三件事都做：每日快照改由本機（台灣 IP）同步、A 模式與 B 模式公開部署。
+GitHub Pages 仍是靜態站，不會執行這個 Node 服務；公開後端另跑在 Cloud Run（台灣機房），前端只在正式站網域對它連線。
+
+## 每日快照本機同步（第 1 條）
+
+GitHub Actions 的美國主機抓 `od.cdc.gov.tw` 常逾時（2026-09-12 兩次失敗，網站保留 9/6 資料）。改在使用者的 Mac 每天 07:30 跑
+`tools/local_sync_and_push.sh`：獨立 worktree（`~/.cache/vaccine-guide-sync`）→ `sync_travel_data.mjs` → `verify_current_travel.cjs` →
+只有成功且有變動才 commit/push 到 main（CI 收到 push 會部署）；失敗不推、不覆蓋線上「上次成功」資料。log 在 `~/Library/Logs/vaccine-guide-sync.log`。
+排程檔 `~/Library/LaunchAgents/com.jamesxxx1997.vaccine-guide-sync.plist` 由使用者自行安裝（`launchctl bootstrap gui/$(id -u) <plist>`）。
+
+## 公開部署（第 2、3 條）：Cloud Run asia-east1
+
+- 伺服器以 `PUBLIC=1` 啟動時：綁 `0.0.0.0:$PORT`、Origin 白名單來自 `ALLOWED_ORIGINS`（含 `https://jamesxxx1997.github.io`）、
+  Host 白名單 `PUBLIC_HOSTS`（首次部署前留空＝接受任何 Host，拿到網址後填入再部署一次）、每 IP 每 10 分鐘 `RATE_LIMIT`（預設 60）次、
+  並行上限 4、上游逾時 20 秒、工作階段 ≤100 個／15 分鐘，全部沿用。`/api/health` 回 `scope:"public"`。
+- B 模式的工作階段不再依賴 Cookie（跨站 iframe 的第三方 Cookie 在 Safari 會被擋）：初始頁面注入 `window.__vaccineRelaySession`，
+  `proxy-client.js` 以 `X-Relay-Session` 標頭送回；Cookie（公開模式 `SameSite=None; Secure`）只是備援。
+- 部署：`PROJECT=<gcp-project-id> zsh backend/deploy_cloud_run.sh`（根目錄 `Dockerfile`；`gcloud run deploy --source .`）。
+  部署後把 `travel-live.js` 的 `PUBLIC_SERVICE` 填成服務網址、跑 `npm test`、commit/push；再以 `HOSTS=<主機名>` 重跑一次收緊 Host 檢查。
+- 費用：Cloud Run 免費額度每月 200 萬次請求、`min-instances 0`（閒置不計費；冷啟動約 2–4 秒，前端會提示「可能正在喚醒」）。
+- 授權提醒（沿用下方安全與範圍）：B 模式是把疾管署旅遊搜尋頁轉送到自己的 origin，**不是官方授權嵌入**；頁面保留非官方轉送提示與版權文字。
+  使用者已知悉並決定公開；若疾管署要求停止，關掉 Cloud Run 服務即可，前端會自動退回每日快照。
+
+以下為原本機試用說明。
 
 ## 啟動與使用
 

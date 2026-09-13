@@ -4,8 +4,12 @@
   const root=document.getElementById('travelCompare');if(!root)return;
   const $=id=>document.getElementById(id),seconds=n=>(n/1000).toFixed(2);
   const local=['localhost','127.0.0.1'].includes(location.hostname)&&location.protocol==='http:';
+  // 公開後端（Cloud Run asia-east1）的固定網址：部署後填入並 commit；只在正式站網域生效。
   // No arbitrary URL setting or untrusted query-string backend override.
-  const service=local?'http://'+location.hostname+':8901':null;
+  const PUBLIC_SERVICE='';
+  const PUBLIC_SITE_HOSTS=['jamesxxx1997.github.io'];
+  const service=local?'http://'+location.hostname+':8901':(PUBLIC_SERVICE&&PUBLIC_SITE_HOSTS.includes(location.hostname)&&location.protocol==='https:'?PUBLIC_SERVICE:null);
+  const isPublic=Boolean(service)&&!local;
   let mode='snapshot',ready=false,request=0,controller,frame,frameTimer,proxyFinished=false,proxySequence=0,proxyQuery=null;
   const snapshotIds=['travelSearchForm','travelSearchStatus','travelSearchResults','tvMeta','tvOut'];
   const status=$('travelLiveStatus'),input=$('travelLiveQuery');
@@ -21,7 +25,7 @@
     $('travelLiveSubmit').textContent=mode==='proxy'?'開啟代理並搜尋':'向疾管署搜尋';
     $('travelLiveSubmit').disabled=!ready;
     if(mode==='snapshot'&&$('tvCountry').value)document.dispatchEvent(new CustomEvent('travel:destination',{detail:{key:$('tvCountry').value}}));
-    if(mode!=='snapshot'&&!ready)status.textContent=service?'試用服務未連線，請啟動本機服務；也可使用每日快照或另開官網。':'GitHub Pages 尚未接上常駐後端；這兩種模式目前在本機試用，不會自動改用舊快照冒充即時結果。';
+    if(mode!=='snapshot'&&!ready)status.textContent=service?(isPublic?'查詢服務暫時未連線，請按「重新連線」；也可使用每日快照或另開官網。':'試用服務未連線，請啟動本機服務；也可使用每日快照或另開官網。'):'GitHub Pages 尚未接上常駐後端；這兩種模式目前在本機試用，不會自動改用舊快照冒充即時結果。';
   }
   function render(data,totalMs){
     const container=$('travelLiveResults');container.replaceChildren();
@@ -100,10 +104,10 @@
     if(!service||typeof fetch!=='function')return;
     $('travelReconnect').hidden=false;$('travelReconnect').disabled=true;
     try{const response=await fetch(service+'/api/health',{credentials:'omit',signal:AbortSignal.timeout(2500)});if(!response.ok)throw Error();const data=await response.json();
-      ready=data.ok===true&&data.scope==='local-trial';if(!ready)throw Error();
-      $('travelServiceState').textContent='本機兩模式試用已連線；只傳送國家／疾病，不傳送年齡或接種勾選條件。';
+      ready=data.ok===true&&(isPublic?data.scope==='public':data.scope==='local-trial');if(!ready)throw Error();
+      $('travelServiceState').textContent=isPublic?'即時查詢服務已連線（非官方轉送，只傳送國家／疾病字詞，不傳送年齡或接種勾選條件）。':'本機兩模式試用已連線；只傳送國家／疾病，不傳送年齡或接種勾選條件。';
       if(mode!=='snapshot')status.textContent='試用服務已連線，請輸入字詞並搜尋。';
-    }catch{ready=false;$('travelServiceState').textContent='本機試用服務尚未連線；啟動後請按重新連線。每日快照仍可使用。';}
+    }catch{ready=false;$('travelServiceState').textContent=isPublic?'即時查詢服務暫時無法連線（可能正在喚醒，約幾秒）；請按重新連線。每日快照仍可使用。':'本機試用服務尚未連線；啟動後請按重新連線。每日快照仍可使用。';}
     finally{$('travelReconnect').disabled=false;$('travelLiveSubmit').disabled=!ready;}
   }
   $('travelReconnect').onclick=reconnect;

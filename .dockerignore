@@ -1,0 +1,9 @@
+node_modules
+.git
+review/pages
+review/img
+sources
+data
+img
+study
+*.md
