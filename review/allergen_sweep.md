@@ -382,6 +382,9 @@
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### other_antibiotics：0 命中
+### yeast：2 命中
+- p.25「yeast」…tured and grown on CY medium⏎containing yeast extracts and amino acids.⏎The oligosacc…
+- p.25「yeast」…aeisculturedandgrownonCYmediumcontainingyeastextractsandaminoacids.Theoligosaccharide…
 ### peg_polysorbate：0 命中
 
 ## S73 Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine)（肺炎鏈球菌_Vaxneuvance_V15_FDA_2026-06.pdf，24 頁；掃描 2026-09-13）

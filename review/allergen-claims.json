@@ -4209,7 +4209,7 @@
     }
    ]
   },
-  "al:S72:yeast": {
+  "al:S72:yeast:related": {
    "items": [
     {
      "source": "S72",
@@ -4218,7 +4218,7 @@
      "quotes": [
       "C. diphtheriae is cultured and grown on CY medium\ncontaining yeast extracts and amino acids."
      ],
-     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · 酵母：有"
+     "label": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine) · 酵母：未載明（相關原句）"
     }
    ]
   },

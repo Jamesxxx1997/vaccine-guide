@@ -4426,6 +4426,31 @@
     "hits": [],
     "dismissed": null
    },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [
+     {
+      "page": 25,
+      "term": "yeast",
+      "pattern": "yeast",
+      "context": "tured and grown on CY medium⏎containing yeast extracts and amino acids.⏎The oligosacc"
+     },
+     {
+      "page": 25,
+      "term": "yeast",
+      "pattern": "yeast",
+      "context": "aeisculturedandgrownonCYmediumcontainingyeastextractsandaminoacids.Theoligosaccharide"
+     }
+    ],
+    "dismissed": null
+   },
    "peg_polysorbate": {
     "patterns": [
      "聚山梨",
