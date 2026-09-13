@@ -133,7 +133,10 @@ def build_claims(sources, spec):
             item = dict(item)
             if 'page' in item:
                 doc = sources[item['source']]
-                page = doc['pages'][item['page'] - 1]
+                # 依頁碼查（不是索引）：pagesOnly:"claims" 的來源只渲染被引用的頁，頁序不連續
+                page = next((p for p in doc['pages'] if p['page'] == item['page']), None)
+                if page is None:
+                    raise ValueError(f'{key}: page {item["page"]} of {item["source"]} not rendered')
                 item['rects'] = [r for q in item['quotes'] for r in anchor_quote(page, q, item.get('region'), item.get('glyphRows', False))]
                 item['sha256'] = doc['sha256']
             items.append(item)
@@ -149,7 +152,7 @@ def build():
         ['node', str(ROOT / 'tools/export_reference_inputs.mjs')], text=True))
     spec = json.loads((ROOT / 'review/reference-claims.json').read_text())
     # 產生器輸出的 claims（副作用表 ae:、之後的過敏成分表）放在獨立檔案，這裡合併；key 不得與手寫 claims 重複。
-    for extra in ('review/adverse-claims.json', 'review/allergen-claims.json'):
+    for extra in ('review/label-claims.json', 'review/adverse-claims.json', 'review/allergen-claims.json'):
         path = ROOT / extra
         if path.is_file():
             more = json.loads(path.read_text())
@@ -184,7 +187,11 @@ def build():
         pages = ET.fromstring(xml).findall('.//h:page', NS)
         glyph_pdf = pdfplumber.open(ROOT / file)
         doc['pages'] = []
+        # pagesOnly:"claims"：大部頭仿單／指引只渲染被 claim 引用的頁（reference-ui 依實際頁碼查頁，頁序可不連續）
+        wanted = sorted(glyph_pages.get(key, set())) if doc.get('pagesOnly') == 'claims' else None
         for number, page in enumerate(pages, 1):
+            if wanted is not None and number not in wanted:
+                continue
             target = OUT / f'{key}-{doc["sha256"][:10]}-{number}.jpg'
             # Render once; different excerpt windows reuse this image in CSS.
             if not target.exists():

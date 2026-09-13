@@ -1,0 +1,188 @@
+{
+ "S26": {
+  "cat": "A型肝炎疫苗",
+  "prod": "Havrix 1440/720 Junior 新赫寶克A型肝炎疫苗",
+  "path": "sources/仿單/A型肝炎疫苗_新赫寶克HavrixA型肝炎疫苗(GSK)_TFDA_2018-08-09.pdf",
+  "pages": "1"
+ },
+ "S27": {
+  "cat": "A型肝炎疫苗",
+  "prod": "VAQTA 唯德不活化A型肝炎疫苗",
+  "path": "sources/仿單/A型肝炎疫苗_唯德不活化A型肝炎疫苗VAQTA(默沙東)_TFDA_2023-03-22.pdf",
+  "pages": "16"
+ },
+ "S28": {
+  "cat": "B肝",
+  "prod": "Engerix-B(安在時)",
+  "path": "sources/仿單/B肝_Engerix-B_TFDA_2022-05-05.pdf",
+  "pages": "1"
+ },
+ "S29": {
+  "cat": "DTaP-IPV混合疫苗",
+  "prod": "Tetraxim(范德瑞巴斯德四合一疫苗)",
+  "path": "sources/仿單/DTaP-IPV疫苗_Tetraxim_TFDA_2016-02-19_許可證已註銷仍為現行專案進口品項仿單.pdf",
+  "pages": "2"
+ },
+ "S30": {
+  "cat": "HPV疫苗",
+  "prod": "Gardasil 9(嘉喜9)",
+  "path": "sources/仿單/HPV疫苗_Gardasil9_TFDA_2022-08-11.pdf",
+  "pages": "24"
+ },
+ "S31": {
+  "cat": "MMR疫苗",
+  "prod": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗注射劑",
+  "path": "sources/仿單/MMR疫苗_麻疹腮腺炎德國麻疹混合疫苗M-M-RII(默沙東)_TFDA_2022-11-22.pdf",
+  "pages": "10"
+ },
+ "S32": {
+  "cat": "PCV",
+  "prod": "Prevenar 13(沛兒13價)",
+  "path": "sources/仿單/PCV_Prevenar13_TFDA_2022-10-05.pdf",
+  "pages": "35"
+ },
+ "S33": {
+  "cat": "PPV23",
+  "prod": "Pneumovax 23(紐蒙肺)",
+  "path": "sources/仿單/PPV23_Pneumovax23_TFDA_2023-03-15.pdf",
+  "pages": "3"
+ },
+ "S34": {
+  "cat": "RSV疫苗",
+  "prod": "Abrysvo",
+  "path": "sources/仿單/RSV疫苗_Abrysvo_TFDA_2026-03-31_僅外盒仿單標籤粘貼表.pdf",
+  "pages": "7"
+ },
+ "S35": {
+  "cat": "RSV疫苗",
+  "prod": "Arexvy",
+  "path": "sources/仿單/RSV疫苗_Arexvy_TFDA_2025-12-09_僅外盒仿單標籤粘貼表.pdf",
+  "pages": "3"
+ },
+ "S36": {
+  "cat": "Tdap疫苗",
+  "prod": "Adacel",
+  "path": "sources/仿單/Tdap疫苗_Adacel_TFDA_2021-05-25.pdf",
+  "pages": "2"
+ },
+ "S37": {
+  "cat": "Tdap疫苗",
+  "prod": "Boostrix",
+  "path": "sources/仿單/Tdap疫苗_Boostrix_TFDA_2020-09-29.pdf",
+  "pages": "2"
+ },
+ "S38": {
+  "cat": "六合一",
+  "prod": "Hexaxim(哈多星)",
+  "path": "sources/仿單/六合一_Hexaxim_TFDA_2021-12-01.pdf",
+  "pages": "13"
+ },
+ "S39": {
+  "cat": "六合一",
+  "prod": "Infanrix hexa(嬰護寧)",
+  "path": "sources/仿單/六合一_Infanrix-hexa_TFDA_2021-07-01.pdf",
+  "pages": "14"
+ },
+ "S40": {
+  "cat": "卡介苗",
+  "prod": "凍結乾燥卡介苗(公費BCG，疾管署委託國衛院生物製劑廠製造)",
+  "path": "sources/仿單/卡介苗_凍結乾燥卡介苗_TFDA_2021-04-22.pdf",
+  "pages": "1"
+ },
+ "S41": {
+  "cat": "日本腦炎疫苗(活性減毒)",
+  "prod": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
+  "path": "sources/仿單/日本腦炎疫苗_禦日腦活性減毒疫苗Imojev(賽諾菲)_TFDA_2023-09-19.pdf",
+  "pages": "12"
+ },
+ "S42": {
+  "cat": "水痘疫苗",
+  "prod": "Varivax 伏痘敏活性水痘疫苗",
+  "path": "sources/仿單/水痘疫苗_伏痘敏活性水痘疫苗Varivax(默沙東)_TFDA_2020-09-14.pdf",
+  "pages": "6"
+ },
+ "S43": {
+  "cat": "流感疫苗(115年度公費-GSK)",
+  "prod": "Fluarix Tetra 伏適流四價流感疫苗",
+  "path": "sources/仿單/流感疫苗_伏適流四價流感疫苗FluarixTetra(GSK)_TFDA_2022-09-02.pdf",
+  "pages": "11"
+ },
+ "S44": {
+  "cat": "流感疫苗(115年度公費-國光生技,四價版)",
+  "prod": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗",
+  "path": "sources/仿單/流感疫苗_安定伏裂解型四價流感疫苗AdimFlu-S(QIS)(國光生技)_TFDA_2021-09-07.pdf",
+  "pages": "2"
+ },
+ "S45": {
+  "cat": "流感疫苗(115年度公費四價-賽諾菲)",
+  "prod": "Vaxigrip Tetra 菲流達四價流感疫苗",
+  "path": "sources/仿單/流感疫苗_菲流達四價流感疫苗VaxigripTetra(賽諾菲)_TFDA_2022-05-26.pdf",
+  "pages": "11"
+ },
+ "S46": {
+  "cat": "腦膜炎雙球菌疫苗",
+  "prod": "Bexsero",
+  "path": "sources/仿單/腦膜炎雙球菌疫苗_Bexsero_TFDA_2021-06-01.pdf",
+  "pages": "20"
+ },
+ "S47": {
+  "cat": "腦膜炎雙球菌疫苗",
+  "prod": "Menveo",
+  "path": "sources/仿單/腦膜炎雙球菌疫苗_Menveo_TFDA_2017-01-10.pdf",
+  "pages": "2"
+ },
+ "S48": {
+  "cat": "輪狀病毒疫苗",
+  "prod": "RotaTeq(輪達停)",
+  "path": "sources/仿單/輪狀病毒疫苗_RotaTeq_TFDA_2020-09-18.pdf",
+  "pages": "13"
+ },
+ "S49": {
+  "cat": "過敏指引",
+  "prod": "AAAAI_ACAAI疫苗過敏practice_parameter_2012.pdf",
+  "path": "sources/過敏指引/AAAAI_ACAAI疫苗過敏practice_parameter_2012.pdf",
+  "pages": "19"
+ },
+ "S50": {
+  "cat": "過敏指引",
+  "prod": "AAAAI_ACAAI_COVID疫苗過敏GRADE共識更新_2023.pdf",
+  "path": "sources/過敏指引/AAAAI_ACAAI_COVID疫苗過敏GRADE共識更新_2023.pdf",
+  "pages": "59"
+ },
+ "S51": {
+  "cat": "過敏指引",
+  "prod": "WAO_ICON國際共識_疫苗過敏反應_2016.pdf",
+  "path": "sources/過敏指引/WAO_ICON國際共識_疫苗過敏反應_2016.pdf",
+  "pages": "21"
+ },
+ "S52": {
+  "cat": "過敏指引",
+  "prod": "CDC_PinkBook附錄B_疫苗賦形劑總表_2021.pdf",
+  "path": "sources/過敏指引/CDC_PinkBook附錄B_疫苗賦形劑總表_2021.pdf",
+  "pages": "4"
+ },
+ "S53": {
+  "cat": "過敏指引",
+  "prod": "CDC_PinkBook附錄B_疫苗包裝乳膠含量表_2022.pdf",
+  "path": "sources/過敏指引/CDC_PinkBook附錄B_疫苗包裝乳膠含量表_2022.pdf",
+  "pages": "2"
+ },
+ "S54": {
+  "cat": "過敏指引",
+  "prod": "疾管署_COVID19疫苗接種場所嚴重過敏反應處置建議_2021.pdf",
+  "path": "sources/過敏指引/疾管署_COVID19疫苗接種場所嚴重過敏反應處置建議_2021.pdf",
+  "pages": "3"
+ },
+ "S55": {
+  "cat": "過敏指引",
+  "prod": "BSACI_vaccine_allergy_FAQs_for_GPs_2021.pdf",
+  "path": "sources/過敏指引/BSACI_vaccine_allergy_FAQs_for_GPs_2021.pdf",
+  "pages": "5"
+ },
+ "S56": {
+  "cat": "過敏指引",
+  "prod": "ASCIA_vaccination_egg_allergic_individual_2026.pdf",
+  "path": "sources/過敏指引/ASCIA_vaccination_egg_allergic_individual_2026.pdf",
+  "pages": "9"
+ }
+}
