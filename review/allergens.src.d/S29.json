@@ -1,0 +1,100 @@
+{
+ "vaccine": "dtapipv",
+ "product": "Tetraxim(范德瑞巴斯德四合一疫苗)",
+ "source": "S29",
+ "components": [
+  {
+   "page": 1,
+   "label": "定性定量組成",
+   "quote": "白喉類毒素 ................................................................................ ≥ 30 IU"
+  },
+  {
+   "page": 1,
+   "label": "定性定量組成",
+   "quote": "破傷風類毒素 ............................................................................ ≥ 40 IU"
+  },
+  {
+   "page": 1,
+   "label": "定性定量組成",
+   "quote": "百日咳類毒素 .............................................................................≥25 μg"
+  },
+  {
+   "page": 1,
+   "label": "定性定量組成",
+   "quote": "絲狀血球凝集素（Filamentous haemagglutinin） ......................25 μg"
+  },
+  {
+   "page": 1,
+   "label": "定性定量組成",
+   "quote": "第1型小兒麻痺病毒（去活化） ....................................... 40抗原單位"
+  },
+  {
+   "page": 1,
+   "label": "定性定量組成",
+   "quote": "第2型小兒麻痺病毒（去活化） ......................................... 8抗原單位"
+  },
+  {
+   "page": 1,
+   "label": "定性定量組成",
+   "quote": "第3型小兒麻痺病毒（去活化） ....................................... 32抗原單位"
+  },
+  {
+   "page": 1,
+   "label": "定性定量組成（吸附劑）",
+   "quote": "吸附於二水氫氧化鋁（Aluminium hydroxide, dihydrate） 0.3 mg Al"
+  },
+  {
+   "page": 2,
+   "label": "6.1 賦形劑",
+   "quote": "Hanks medium (without phenol red), formaldehyde, phenoxyethanol,"
+  }
+ ],
+ "allergens": [
+  {
+   "key": "neomycin",
+   "status": "有",
+   "page": 1,
+   "quote": "測 不 到 的 微 量 殘 留 成 分 （ 戊 二 醛 、 新 黴 素 (Neomycin) 、 鏈 黴 素"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "有",
+   "page": 1,
+   "quote": "（Streptomycin）及多黏菌素B (Polymyxin B)）過敏，或對百日咳疫苗"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "有",
+   "page": 2,
+   "quote": "Hanks medium (without phenol red), formaldehyde, phenoxyethanol,"
+  },
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 1,
+   "quote": "吸附於二水氫氧化鋁（Aluminium hydroxide, dihydrate） 0.3 mg Al"
+  }
+ ],
+ "warnings": [
+  {
+   "label": "過敏禁忌",
+   "page": 1,
+   "quote": "已知對‟范德瑞”巴斯德四合一疫苗中的任何成分過敏、對製程中任何檢"
+  },
+  {
+   "label": "微量殘留成分過敏（戊二醛／新黴素／鏈黴素／多黏菌素B）",
+   "page": 1,
+   "quote": "測 不 到 的 微 量 殘 留 成 分 （ 戊 二 醛 、 新 黴 素 (Neomycin) 、 鏈 黴 素"
+  },
+  {
+   "label": "先前接種本疫苗或相同成分疫苗曾危及生命反應",
+   "page": 1,
+   "quote": "相同成分的疫苗曾出現危及生命反應者。"
+  },
+  {
+   "label": "過敏性休克警語",
+   "page": 1,
+   "quote": "疫苗接種後可能出現的罕見過敏性休克反應。"
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+  "vaccine": "hepb",
+  "product": "Engerix-B 安在時B型肝炎疫苗",
+  "source": "S28",
+  "components": [
+    {
+      "page": 1,
+      "label": "定性及定量組成",
+      "quote": "定性及定量組成 每劑10 mg的Engerix-B一劑(0.5毫升)含有：",
+      "region": [
+        0,
+        290,
+        300,
+        326
+      ]
+    },
+    {
+      "page": 1,
+      "label": "佐劑（氫氧化鋁）",
+      "quote": "吸附於氫氧化鋁水合物",
+      "region": [
+        0,
+        345,
+        300,
+        371
+      ]
+    },
+    {
+      "page": 1,
+      "label": "抗原製程（酵母菌）",
+      "quote": "藉由重組DNA技術在酵母菌",
+      "region": [
+        0,
+        345,
+        300,
+        371
+      ]
+    },
+    {
+      "page": 1,
+      "label": "賦形劑",
+      "quote": "賦形劑 Sodium chloride、disodium phosphate dihydrate、sodium dihydrogen phosphate dihydrate、 注射用水 Polysorbate 20為製程中會出現之殘留物。"
+    }
+  ],
+  "allergens": [
+    {
+      "key": "egg",
+      "status": "未載明"
+    },
+    {
+      "key": "gelatin",
+      "status": "未載明"
+    },
+    {
+      "key": "neomycin",
+      "status": "未載明"
+    },
+    {
+      "key": "other_antibiotics",
+      "status": "未載明"
+    },
+    {
+      "key": "yeast",
+      "status": "有",
+      "page": 1,
+      "quote": "藉由重組DNA技術在酵母菌",
+      "region": [
+        0,
+        345,
+        300,
+        371
+      ]
+    },
+    {
+      "key": "latex",
+      "status": "未載明"
+    },
+    {
+      "key": "peg_polysorbate",
+      "status": "有",
+      "page": 1,
+      "quote": "Polysorbate 20為製程中會出現之殘留物。"
+    },
+    {
+      "key": "formaldehyde",
+      "status": "未載明"
+    },
+    {
+      "key": "thimerosal",
+      "status": "未載明"
+    },
+    {
+      "key": "aluminium",
+      "status": "有",
+      "page": 1,
+      "quote": "吸附於氫氧化鋁水合物",
+      "region": [
+        0,
+        345,
+        300,
+        371
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "label": "禁忌症",
+      "page": 1,
+      "quote": "禁忌症 Engerix-B不應用於已知對此疫苗中任何成分過敏者，或先前曾於接種 Engerix-B後產生過敏病徵者。"
+    }
+  ]
+}

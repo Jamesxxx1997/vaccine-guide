@@ -1,0 +1,22 @@
+{
+  "vaccine": "hpv", "product": "Gardasil 9 嘉喜9", "source": "S30",
+  "components": [
+    {"page": 10, "label": "抗原製程（酵母菌）", "quote": "予以純化後製備而得。L1蛋白係利用基因重組酵母菌Saccharomyces cerevisiae經分離發酵的步驟製得，"},
+    {"page": 11, "label": "佐劑與賦形劑", "region": [0, 235, 570, 268], "quote": "每0.5毫升劑量的疫苗中也含有約500微克的鋁(AAHS)、9.56毫克的氯化鈉、0.78毫克的L-組胺酸、50微克的聚山梨醇酯80、35微克的硼酸鈉以及注射用水。本品不含防腐劑或抗生素。"}
+  ],
+  "allergens": [
+    {"key": "egg", "status": "未載明"},
+    {"key": "gelatin", "status": "未載明"},
+    {"key": "neomycin", "status": "無", "page": 11, "region": [0, 235, 570, 268], "quote": "本品不含防腐劑或抗生素。"},
+    {"key": "other_antibiotics", "status": "無", "page": 11, "region": [0, 235, 570, 268], "quote": "本品不含防腐劑或抗生素。"},
+    {"key": "yeast", "status": "有", "page": 3, "quote": "過敏反應，包括對酵母菌(疫苗組成之一)嚴重過敏反應，或先前曾於接種一劑GARDASIL 9或GARDASIL"},
+    {"key": "latex", "status": "未載明"},
+    {"key": "peg_polysorbate", "status": "有", "page": 11, "region": [0, 235, 570, 268], "quote": "50微克的聚山梨醇酯80"},
+    {"key": "formaldehyde", "status": "未載明"},
+    {"key": "thimerosal", "status": "無", "page": 11, "region": [0, 235, 570, 268], "quote": "本品不含防腐劑或抗生素。"},
+    {"key": "aluminium", "status": "有", "page": 11, "region": [0, 235, 570, 268], "quote": "也含有約500微克的鋁(AAHS)"}
+  ],
+  "warnings": [
+    {"label": "禁忌（酵母過敏）", "page": 3, "quote": "過敏反應，包括對酵母菌(疫苗組成之一)嚴重過敏反應，或先前曾於接種一劑GARDASIL 9或GARDASIL"}
+  ]
+}

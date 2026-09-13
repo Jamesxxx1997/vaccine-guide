@@ -1,0 +1,25 @@
+{
+ "vaccine": "flu",
+ "product": "Fluarix Tetra 伏適流四價流感疫苗",
+ "source": "S43",
+ "components": [
+  {"page": 1, "label": "有效成分", "quote": "Fluarix Tetra是⼀個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造⽽來的抗原，含有下列流"},
+  {"page": 1, "label": "賦形劑", "quote": "磷酸鹽緩衝鹽溶液，其組成包括：聚⼭梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯"},
+  {"page": 1, "label": "製造流程殘留物", "quote": "每⼀個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵⽩蛋⽩、甲醛與"}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "有", "page": 1, "quote": "Fluarix Tetra是⼀個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造⽽來的抗原，含有下列流"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "有", "page": 1, "quote": "每⼀個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵⽩蛋⽩、甲醛與", "note": "gentamicin sulphate 製造流程殘留"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明"},
+  {"key": "peg_polysorbate", "status": "有", "page": 1, "quote": "磷酸鹽緩衝鹽溶液，其組成包括：聚⼭梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯", "note": "聚山梨醇80（polysorbate 80）"},
+  {"key": "formaldehyde", "status": "有", "page": 1, "quote": "每⼀個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵⽩蛋⽩、甲醛與", "note": "甲醛製造流程殘留"},
+  {"key": "thimerosal", "status": "未載明"},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "過敏禁忌", "page": 2, "quote": "Fluarix Tetra不可用於已知先前曾在施打Fluarix Tetra或流感疫苗後發生嚴重過敏反應或對本疫"}
+ ]
+}

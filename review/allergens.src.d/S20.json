@@ -1,0 +1,32 @@
+{
+ "vaccine": "shingrix",
+ "product": "Shingrix 欣剋疹帶狀疱疹疫苗",
+ "source": "S20",
+ "components": [
+  {"page": 1, "label": "賦形劑（粉末，gE抗原）", "quote": "Sucrose"},
+  {"page": 1, "label": "賦形劑（粉末，gE抗原）", "quote": "Polysorbate 80"},
+  {"page": 1, "label": "賦形劑（粉末，gE抗原）", "quote": "Sodium dihydrogen phosphate dihydrate"},
+  {"page": 1, "label": "賦形劑（粉末，gE抗原）", "quote": "Dipotassium phosphate"},
+  {"page": 1, "label": "賦形劑（懸液，AS01B佐劑系統）", "quote": "Dioleoyl phosphatidylcholine"},
+  {"page": 1, "label": "賦形劑（懸液，AS01B佐劑系統）", "quote": "Cholesterol"},
+  {"page": 1, "label": "賦形劑（懸液，AS01B佐劑系統）", "quote": "Sodium chloride"},
+  {"page": 1, "label": "賦形劑（懸液，AS01B佐劑系統）", "quote": "Disodium phosphate anhydrous"},
+  {"page": 1, "label": "賦形劑（懸液，AS01B佐劑系統）", "quote": "Potassium dihydrogen phosphate"},
+  {"page": 1, "label": "賦形劑（懸液，AS01B佐劑系統）", "quote": "Water for injections"}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明"},
+  {"key": "peg_polysorbate", "status": "有", "page": 1, "quote": "Polysorbate 80"},
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "未載明"},
+  {"key": "aluminium", "status": "未載明", "note": "佐劑為 AS01B（QS-21＋MPL 脂質體），非鋁鹽佐劑；仿單未提及鋁"}
+ ],
+ "warnings": [
+  {"label": "過敏禁忌", "page": 2, "quote": "對本疫苗的活性成份或任何組成嚴重過敏(參見有效成分及含量與賦形劑)。"}
+ ]
+}

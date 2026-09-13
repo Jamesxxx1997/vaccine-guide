@@ -29,6 +29,12 @@ const visible=id=>Array.from(doc.querySelectorAll(`#${id} > .vax`)).filter(el=>!
     const zoster=win.VaccineSearch.find('皮蛇復發後多久可以打');
     assert(zoster.length&&zoster[0].entry.category==='感染後接種間隔'&&/Shingrix/.test(zoster[0].entry.title),'shingrix row for recurrence');
     assert(win.VaccineSearch.find('新冠').some(r=>r.entry.id==='vax:covid'),'covid alias reaches the screener card');
+    // 副作用／過敏與成分：民眾問法要能到原件表格或指引判讀
+    const ae=win.VaccineSearch.find('新冠疫苗副作用');assert(ae.length&&/^ae:covid/.test(ae[0].entry.id),'新冠副作用 → 原件表格排第一: '+(ae[0]&&ae[0].entry.id));
+    assert(win.VaccineSearch.find('打帶狀疱疹疫苗會發燒嗎').slice(0,3).some(r=>/^ae:shingrix/.test(r.entry.id)),'皮蛇發燒 → Shingrix 副作用表在前三');
+    assert(win.VaccineSearch.find('對明膠過敏可以打MMR嗎').slice(0,3).some(r=>r.entry.id==='allergy:gelatin'),'明膠→MMR 指引判讀在前三');
+    assert(win.VaccineSearch.find('Shingrix 成分').some(r=>/^allergen:/.test(r.entry.id)),'品牌＋成分 → 仿單成分條目');
+    const yf=win.VaccineSearch.find('蛋過敏可以打黃熱病疫苗嗎');assert(yf.slice(0,3).some(r=>r.entry.id==='allergy:egg-yf'),'蛋過敏→黃熱病 判讀在前三');
     assert(win.VaccineSearch.find('確診 新冠').some(r=>r.entry.category==='感染後接種間隔'),'two-term exact mode still reaches the table');
     assert.equal(win.VaccineSearch.find('not-a-vaccine').length,0,'keyword mode must not invent hits');
     // 結果卡的「前往間隔規則總表」會切到分頁並聚焦該列

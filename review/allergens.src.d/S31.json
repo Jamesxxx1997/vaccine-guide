@@ -1,0 +1,26 @@
+{
+  "vaccine": "mmr", "product": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗", "source": "S31",
+  "components": [
+    {"page": 1, "label": "病毒株製程（雞胚胎細胞培養基）", "quote": "減毒 Edmonston 菌株並增殖於雞胚胎細胞培養基中；(2)MUMPSVAX ® (活性腮腺炎病毒疫苗，MSD)，為 Jeryl Lynn™(B 級)腮腺"},
+    {"page": 1, "label": "組成（山梨醇/蔗糖/水解膠）", "quote": "算含有 14.5 毫克的山梨醇(sorbitol)，磷酸鈉(sodium phosphate)，1.9 毫克的蔗糖(sucrose)，14.5 毫克的水解膠(hydrolyzed"},
+    {"page": 1, "label": "組成（新黴素，不含防腐劑）", "quote": "基成分及大約 25 微克的新黴素(neomycin)。此產品不含防腐劑。"},
+    {"page": 1, "label": "非活性成分表", "quote": "Porcine Hydrolyzed Gelatin、Medium 199 with Hank’s Salts、Minimum Essential Medium, Eagle、Monosodium L-Glutamate"}
+  ],
+  "allergens": [
+    {"key": "egg", "status": "有", "page": 5, "quote": "活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、類過敏性反應或其它立即反應(如蕁痲疹、口"},
+    {"key": "gelatin", "status": "有", "page": 1, "quote": "14.5 毫克的水解膠(hydrolyzed"},
+    {"key": "neomycin", "status": "有", "page": 4, "quote": "對 neomycin 會產生過敏或類過敏反應者(稀釋後每劑量疫苗內約含 25 微克之 neomycin)。"},
+    {"key": "other_antibiotics", "status": "未載明"},
+    {"key": "yeast", "status": "未載明"},
+    {"key": "latex", "status": "未載明"},
+    {"key": "peg_polysorbate", "status": "未載明"},
+    {"key": "formaldehyde", "status": "未載明"},
+    {"key": "thimerosal", "status": "無", "page": 1, "quote": "基成分及大約 25 微克的新黴素(neomycin)。此產品不含防腐劑。"},
+    {"key": "aluminium", "status": "未載明"}
+  ],
+  "warnings": [
+    {"label": "禁忌症（動物膠嚴重過敏）", "page": 4, "quote": "對此疫苗之任何成份包括動物膠有嚴重過敏者。"},
+    {"label": "禁忌症（neomycin過敏）", "page": 4, "quote": "對 neomycin 會產生過敏或類過敏反應者(稀釋後每劑量疫苗內約含 25 微克之 neomycin)。"},
+    {"label": "對蛋過敏警語", "page": 5, "quote": "活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、類過敏性反應或其它立即反應(如蕁痲疹、口"}
+  ]
+}

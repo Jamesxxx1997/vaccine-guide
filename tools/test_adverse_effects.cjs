@@ -9,6 +9,9 @@ const norm=s=>s.normalize('NFKC').replace(/[^0-9A-Za-z一-鿿㐀-䶿%.]/g,'');
 const data=win.eval('ADVERSE_EFFECTS'),claims=win.eval('REFERENCE_CLAIMS'),pages=win.eval('REFERENCE_PAGES'),SRC=win.eval('SRC');
 const spec=JSON.parse(fs.readFileSync(path.join(root,'review/reference-claims.json'),'utf8'));
 const extra=JSON.parse(fs.readFileSync(path.join(root,'review/adverse-claims.json'),'utf8'));
+// 仿單來源（S26–S57）的 hash 鎖在 review/label-claims.json；合併後每個表格的來源都必須有鎖定 hash
+const labelSpec=JSON.parse(fs.readFileSync(path.join(root,'review/label-claims.json'),'utf8'));
+spec.hashes=Object.assign({},labelSpec.hashes||{},spec.hashes||{});
 assert(data.tables.length>=8,'tables present');
 let rows=0,pct=0;
 for(const t of data.tables){
@@ -38,8 +41,10 @@ for(const t of data.tables){
 const root_=doc.getElementById('adverseRoot');
 for(const vid of win.AdverseEffects.vaccines){
   win.AdverseEffects.show(vid);
-  const trs=[...root_.querySelectorAll('tr[data-adverse-claim]')];assert(trs.length>0,vid+' rows rendered');
+  const trs=[...root_.querySelectorAll('tr[data-adverse-claim]')],blocks=[...root_.querySelectorAll('.adverse-note-block')];
+  assert(trs.length+blocks.length>0,vid+' rows rendered');   // percent／freq 是表格列，notes 是引句區塊
   for(const tr of trs)for(const td of tr.querySelectorAll('td'))assert(td.classList.contains('ref-target'),vid+' cell bound');
+  for(const b of blocks){const q=b.querySelector('q.adverse-quote');assert(q&&q.classList.contains('ref-target'),vid+' note quote bound');}
   const marks=root_.querySelectorAll('.ref-marks a.ref-mark');for(const m of marks)assert(m.classList.contains('ref-target'),'ref mark bound');
 }
 win.AdverseEffects.show('covid');

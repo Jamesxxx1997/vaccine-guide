@@ -1125,6 +1125,5055 @@
      "label": "Shingrix 欣剋疹 · 年齡差異"
     }
    ]
+  },
+  "ae:hepa-vaqta-pct:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "6.4% (33/515)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 疼痛（注射部位）· 第一劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "3.4% (16/475)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 疼痛（注射部位）· 第二劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "6.3% (32/510)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 疼痛（注射部位）· 安慰劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "4.9% (25/515)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 壓痛（注射部位）· 第一劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "1.7% (8/475)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 壓痛（注射部位）· 第二劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "6.1% (31/510)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 壓痛（注射部位）· 安慰劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "1.9% (10/515)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 紅斑（注射部位）· 第一劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "1.8% (9/510)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 紅斑（注射部位）· 安慰劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "1.5% (7/475)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 腫脹（注射部位）· 第二劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "0.6% (3/475)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 發熱（注射部位）· 第二劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "1.1% (5/475)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 腹部疼痛（全身性）· 第二劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "0.8% (4/518)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 咽炎（全身性）· 安慰劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-pct:12": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "0.4% (2/519)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 頭痛（全身性）· 第一劑"
+    }
+   ]
+  },
+  "ae:hepa-vaqta-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S27",
+     "page": 13,
+     "glyphRows": true,
+     "quotes": [
+      "觸痛(Tenderness)(52.6%)，疼痛(51.1%)，熱感(17.3%)，腫脹(13.6%)，紅斑( 12.9%)，瘀血(1.5%)，疼痛/酸痛(1.2%)"
+     ],
+     "label": "VAQTA 唯德不活化A型肝炎疫苗 · 成人（≥18 歲）注射部位局部反應"
+    }
+   ]
+  },
+  "ae:hepb-engerix-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "淋巴結病變"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 血液及淋巴系統 · 罕見"
+    }
+   ]
+  },
+  "ae:hepb-engerix-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "喪失食慾"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 代謝及營養系統 · 常見"
+    }
+   ]
+  },
+  "ae:hepb-engerix-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "易怒 頭痛(極常見於10 µg之處方)、睏倦"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 精神系統 · 極常見 ／ 神經系統 · 常見"
+    }
+   ]
+  },
+  "ae:hepb-engerix-freq:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "暈眩"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 神經系統 · 不常見"
+    }
+   ]
+  },
+  "ae:hepb-engerix-freq:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "皮膚感覺異常"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 神經系統 · 罕見"
+    }
+   ]
+  },
+  "ae:hepb-engerix-freq:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "腸胃症狀(例如：噁心、嘔吐、腹瀉、腹痛)"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 腸胃系統 · 常見"
+    }
+   ]
+  },
+  "ae:hepb-engerix-freq:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "皮疹、搔癢、蕁麻疹"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 皮膚及皮下組織系統 · 罕見"
+    }
+   ]
+  },
+  "ae:hepb-engerix-freq:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "肌痛"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 肌肉與結締組織系統 · 不常見"
+    }
+   ]
+  },
+  "ae:hepb-engerix-freq:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "關節痛 注射部位疼痛及發紅、疲倦 注射部位腫脹、不適、注射部位反應(例如 硬塊)、發燒(≥37.5°C) 類流感症狀"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 肌肉與結締組織系統 · 罕見 ／ 全身及注射部位系統 · 極常見／常見／不常見"
+    }
+   ]
+  },
+  "ae:hepb-engerix-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "感染及侵入性疾病腦膜炎"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 感染及侵入性疾病"
+    }
+   ]
+  },
+  "ae:hepb-engerix-notes:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "血液及淋巴系統 血小板減少症"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 血液及淋巴系統"
+    }
+   ]
+  },
+  "ae:hepb-engerix-notes:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "癱瘓、抽搐、感覺遲鈍、腦炎、腦病變、神經病變、"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 神經系統"
+    }
+   ]
+  },
+  "ae:hepb-engerix-notes:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "低血壓、血管炎"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 血管疾病"
+    }
+   ]
+  },
+  "ae:hepb-engerix-notes:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "血管神經性水腫、扁平苔癬、多形性紅斑"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 皮膚及皮下組織系統"
+    }
+   ]
+  },
+  "ae:hepb-engerix-notes:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S28",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "關節炎、肌肉無力"
+     ],
+     "label": "Engerix-B 安在時B型肝炎疫苗 · 肌肉與結締組織系統"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:0": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：≥10% 常見：≥1%~<10% 不常見：≥0.1%~<1% 罕見：≥0.01%~<0.1% 極罕見：<0.01%，包括單獨個案。"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 發生率標準"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:1": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "超 過 8,400 劑 的 一 系 列 基 礎 接 種 中 ， 最 常 見 的 反 應 包 括 ： 煩 躁 不 安 （ 20.2% ） 、 注 射 部 位 的 局 部 反 應 如 發 紅 （ 9% ） 及 硬 塊 （ >2cm ） （ 12% ） 。"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 臨床試驗最常見反應"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:2": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "（20.2%）"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 煩躁不安比例"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:3": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "、 注 射 部 位 的 局 部 反 應 如 發 紅 （ 9% ） 及 硬 塊 （ >2cm ） （ 12% ） 。"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 注射部位發紅／硬塊比例"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:4": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "嗜眠"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 神經系統異常（常見）"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:5": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "腹瀉"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 胃腸道異常（常見）"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:6": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "食慾減退"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 代謝及營養方面異常（常見）"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:7": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位出現紅斑、硬塊"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 全身性不適及注射部位狀況（常見）"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:8": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "發燒≥ 38°C"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 全身性不適及注射部位狀況（發燒≥38°C）"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:9": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位發紅及腫脹≥ 5 cm"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 全身性不適及注射部位狀況（不常見）"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes:10": {
+   "note": "發生率標準：極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%。",
+   "items": [
+    {
+     "source": "S29",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "發燒> 40°C"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 全身性不適及注射部位狀況（罕見）"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes-2:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "接種含b型嗜血桿菌疫苗後，曾發生影響單側或兩側下肢的罕見水腫反"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 與 Hib 疫苗併用之下肢水腫反應"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes-2:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "神經質、煩躁不安"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 精神異常（常見）"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes-2:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "無法安撫的異常持續哭鬧"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 精神異常（不常見）"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes-2:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "根據自動回報的資料顯示，本疫苗在上市後曾出現以下不良事件。"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 上市後經驗前言"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes-2:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "伴隨/或不伴隨發燒之痙攣"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 上市後：神經系統異常"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes-2:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "皮疹、紅斑、蕁麻疹"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 上市後：皮膚及皮下組織異常"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes-2:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "大範圍的注射部位反應（> 50 mm），包括廣泛性的肢體腫脹，從注射"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 上市後：注射部位大範圍反應"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes-2:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "立即性的過敏反應，例如臉部水腫、血管水腫、昆克水腫（Quincke’s"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 上市後：免疫系統異常"
+    }
+   ]
+  },
+  "ae:dtapipv-tetraxim-notes-2:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S29",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "注射含有破傷風類毒素疫苗後所引起的格林"
+     ],
+     "label": "Tetraxim(范德瑞巴斯德四合一疫苗) · 潛在不良事件：格林-巴利症候群"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "5.5 4.0 4.0 2.7 搔癢"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 搔癢（注射部位）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "1.9 1.9 0 0 瘀傷"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 瘀傷（注射部位）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "0.9 0.6 3.7 4.7 血腫"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 血腫（注射部位）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "1.3 0.6 0 0 腫塊"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 腫塊（注射部位）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "1.0 0.7 1.0 2.0 出血"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 出血（注射部位）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "0.8 0.2 2.0 1.0 硬塊"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 硬塊（注射部位）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "0.8 0.5 0.7 1.7 溫熱感"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 溫熱感（注射部位）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "0.6 0.6 0.3 1.0 其他注射部位反應"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 其他注射部位反應"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "14.6 13.7 11.4 11.3 頭痛"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 頭痛（全身性）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "5.0 4.3 5.0 2.7 發燒"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 發燒（全身性）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "4.4 3.7 3.0 3.7 噁心"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 噁心（全身性）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "3.0 2.8 0.7 0.7 暈眩"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 暈眩（全身性）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:12": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "2.3 2.1 0 2.7 疲倦"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 疲倦（全身性）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:13": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "1.2 1.0 0.3 0 腹瀉"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 腹瀉（全身性）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:14": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "1.0 0.6 2.7 0.7 口咽疼痛"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 口咽疼痛（全身性）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:15": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "1.0 0.7 0.7 0.7 肌痛"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 肌痛（全身性）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:16": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "0.7 0.8 1.7 1.3 上腹痛"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 上腹痛（全身性）"
+    }
+   ]
+  },
+  "ae:hpv-gardasil9-pct:17": {
+   "note": "",
+   "items": [
+    {
+     "source": "S30",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "0.1 0.1 0.3 1.0 上呼吸道感染"
+     ],
+     "label": "Gardasil 9 嘉喜9 · 上呼吸道感染（全身性）"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位有短時間的灼熱感和∕或刺痛感。"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 一般發生"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "發燒(101ºF [38.3ºC]或更高)"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 偶而發生 · 全身"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "發疹或似麻疹樣的疹，通常是小範圍，但也可能是全身性。"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 偶而發生 · 皮膚"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "大體上，發燒、發疹，或二者出現在接種後第 5 天及第 12 天之間。"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 偶而發生 · 時間點"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "輕微局部反應如紅斑、硬塊及觸痛；喉嚨痛、身體不適、異常麻疹、暈厥、暴躁"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 全身"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "血管炎"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 心血管"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "腮腺炎、噁心、嘔吐、腹瀉"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 消化方面"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "局部淋巴腺病變(lymphadenopathy)、血小板減少、紫斑(purpura)"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 血液/淋巴系統"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "過敏反應如注射部位出現風疹塊及紅腫 、 過敏性及類過敏性反應 、 相關的現象如神經血管性水腫（包括末梢或臉部水腫）"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 過敏性"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p7:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "和支氣管的痙攣、蕁痲疹發生於不論是否有過敏病史的病人"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 過敏性（續）"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "關節痛及∕或關節炎（通常為暫時性且很少為慢性[詳參下述]） 、肌肉痛"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 肌肉骨骼方面"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "小孩發燒性痙攣、非發燒性痙攣或癲癇發作、頭痛、頭昏、感覺異常、多發性神經炎(polyneuritis)、多發性神經病變"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 神經/精神方面(1)"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "(polyneuropathy)、Guillain-Barre 症候群、運動失調、急性瀰散型腦脊髓炎(acute disseminated encephalomyelitis,"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 神經/精神方面(2)"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "ADEM)、橫貫性脊髓炎(transverse myelitis)、無菌性腦膜炎[詳參下述]、麻疹包涵體腦炎[見禁忌症]、腦炎∕腦病變[詳參"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 神經/精神方面(3)"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "感染性肺炎、肺炎(見禁忌症)、咳嗽、鼻炎"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 呼吸系統"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "多形紅斑(erythema multiforme)、Stevens-Johnson 症候群、類過敏性紫斑症(Henoch-Schönlein purpura)、嬰兒急性出"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 皮膚(1)"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "血性水腫、注射部位發疱、腫脹、搔癢"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 皮膚(2)"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "多種視神經炎、包括眼球後神經炎(retrobulbar neuritis)、視神經乳頭炎(papillitis)及網膜炎；眼麻痺、中耳炎、神經性耳"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 特殊感覺(1)"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "聾、結膜炎"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 特殊感覺(2)"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "副睪丸炎(Epididymitis)、睪丸炎(orchitis)"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 泌尿生殖器"
+    }
+   ]
+  },
+  "ae:mmr-mmrii-notes-p8:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S31",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "在接種麻疹、腮腺炎及德國麻疹疫苗後，極罕見因為各種原因或不明原因而導致的死亡。然而，在健康成人身上(參見"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 很少發生 · 其他（死亡）"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      109.97,
+      595.32,
+      163.97
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見： 嚴重急性過敏反應，包括：臉部水腫、呼吸困難、支氣管痙攣",
+      "神經系統："
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 罕見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      163.97,
+      595.32,
+      181.97
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "少見： 痙攣（包括熱痙攣）"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 少見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      181.97,
+      595.32,
+      236.0
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見： 低張力低反應性事件(Hypotonic-hyporesponsive episode)",
+      "消化系統："
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 罕見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      236.0,
+      595.32,
+      254.0
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "極常見： 食慾減少"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 極常見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      254.0,
+      595.32,
+      308.0
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見： 嘔吐、腹瀉",
+      "皮膚與皮下組織："
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 常見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      308.0,
+      595.32,
+      326.0
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見： 皮疹"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 常見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      326.0,
+      595.32,
+      380.0
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "少見： 蕁麻疹、類蕁麻疹的皮疹",
+      "全身性反應與注射部位局部反應："
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 少見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      380.0,
+      595.32,
+      438.0
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "極常見： 發燒、不安、注射部位出現紅斑、硬塊/腫脹或疼痛/觸痛、嗜",
+      "睡、睡眠品質不佳、注射部位出現直徑2.5-7.0公分的紅斑、硬",
+      "塊/腫脹等局部反應(在幼兒〔2至5歲〕接種追加劑後)"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 極常見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      452.02,
+      595.32,
+      506.02
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見： 發燒超過39℃、注射部位因疼痛而影響肢體活動、注射部位出",
+      "現直徑2.5-7.0公分的紅斑、硬塊/腫脹等局部反應（於嬰兒時期",
+      "接種疫苗）"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 常見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-freq:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "region": [
+      0,
+      506.02,
+      595.32,
+      522.02
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "少見： 注射部位出現直徑超過 7.0 公分的紅斑或腫脹/硬塊、哭鬧"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 少見"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-notes-p11:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "glyphRows": true,
+     "quotes": [
+      "淋巴結腫大（侷限於注射部位附近）"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 血液與淋巴系統疾病"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-notes-p11:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 11,
+     "glyphRows": true,
+     "quotes": [
+      "過敏性/嚴重急性過敏性反應（包括休克）、血管水腫"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 免疫系系統疾病"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-notes-p12:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "多形性紅斑"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 皮膚與皮下組織疾病"
+    }
+   ]
+  },
+  "ae:pcv-prevenar13-notes-p12:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S32",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位蕁麻疹；注射部位皮膚炎；注射部位搔癢；潮紅"
+     ],
+     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 全身性疾病與注射部位的局部反應"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位的局部反應包括酸痛、紅斑、溫熱感及結塊。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 臨床試驗中最常見（注射部位）"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "高燒≦38.9°C (102°F)。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 臨床試驗中最常見（發燒）"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "全身性的異常及投藥部位狀態：蜂窩性組織炎、衰弱、身體不適、發燒 〔＞38.9°C (102°F)〕、發冷、疼痛、四肢活動力降低、注射部位的肢體 周圍腫脹。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 全身性異常及投藥部位狀態"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "消化系統：噁心、嘔吐。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 消化系統"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "血液∕淋巴系統：淋巴腺炎、淋巴腺病變、血小板減少症（發生於患有病 情穩定之自發性血小板減少性紫斑症之病人）、溶血性貧血（發生於患 有其他血液疾病的病人）、白血球增生。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 血液/淋巴系統"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "過敏反應包括：無防禦性過敏反應、血清病、血管神經性水腫。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 過敏反應"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "肌肉骨骼系統：關節痛、關節炎、肌痛。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 肌肉骨骼系統"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "神經系統：頭痛、感覺異常、神經根部病變、Guillain- Barré 氏症、熱痙 攣。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 神經系統"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "皮膚：皮疹、蕁痲疹、多型性紅斑。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 皮膚"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "調查研究：血清 C 反應蛋白升高。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 調查研究"
+    }
+   ]
+  },
+  "ae:ppv23-pneumovax-notes:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S33",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "上市後的經驗顯示，注射部位的類蜂窩組織炎反應的報告很少見，在 1989 至 2002 年間之銷售量將近 4 千 3 百萬劑，這段期間的 年報告率係每 100,000 劑小於或等於 2 個案例。"
+     ],
+     "label": "Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗） · 上市後經驗（類蜂窩組織炎）"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "疼痛39.6 77.8 65.7"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 疼痛"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "腫脹24.2 20.9 21.0"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 腫脹"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "皮膚發紅34.6 20.8 24.7"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 皮膚發紅"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "發燒（≥38℃）8.7 5.0 1.4"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 發燒（≥38℃）"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "頭痛16.4 43.7 33.9"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 頭痛"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "噁心9.4 13.3 9.2"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 噁心"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "腹瀉14.4 10.3 10.3"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 腹瀉"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "嘔吐8.1 4.6 3.0"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 嘔吐"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "厭食21.5 N.S* N.S*"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 厭食"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "皮疹8.4 2.7 2.0"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 皮疹"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "身體疼痛或肌肉無力†/肌痛‡6.4 30.4 21.9"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 身體疼痛或肌肉無力†/肌痛‡"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "關節酸痛或腫脹4.0 11.3 9.1"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 關節酸痛或腫脹"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:12": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "疲倦§/全身無力**31.5 30.2 24.3"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 疲倦§/全身無力**"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:13": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "寒顫7.1 15.1 8.1"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 寒顫"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-1:14": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "腋下淋巴結腫脹5.4 6.6 6.5"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 腋下淋巴結腫脹"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-2:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "87.6"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 疼痛"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-2:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "28.6"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 紅斑/發紅"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-2:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "25.6"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 腫脹"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-2:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "4.2"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 發燒"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-2:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "53.2"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 頭痛"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-2:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "61.0"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 肌痛"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-2:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "38.2"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 全身無力"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-3:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "過敏（立即型過敏）反應（血管水腫、水腫、皮疹、低血壓）"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 免疫系統疾患"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-3:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "感覺異常、感覺遲鈍、Guillain-Barré 症候群、臂神經炎、臉部麻痺、痙攣、昏厥、脊髓炎"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 神經系統疾患"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-3:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "心肌炎"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 心臟疾患"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-3:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "搔癢、蕁麻疹"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 皮膚及皮下組織疾患"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-3:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "肌炎、肌肉痙攣"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 肌肉骨骼及結締組織疾患"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-3:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "青少年及成人接種ADACEL®後，在注射部位曾出現大範圍的不良反應（>50毫米）及在四肢出現從注射部位擴及1-2關節範圍的腫脹"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 全身性不適及注射部位的狀況"
+    }
+   ]
+  },
+  "ae:tdap-adacel-notes-3:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S36",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位出現瘀青、無菌性膿瘍"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 注射部位其他反應"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      113.82,
+      841.92,
+      132.06
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "白喉類毒素、破傷風類毒素、非細胞性百日咳混合疫苗 少見：上呼吸道感染",
+      "注射用懸浮液。 代謝及營養疾患"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      132.06,
+      841.92,
+      150.24
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見：厭食",
+      "定性與定量組成 精神疾患"
+     ],
+     "label": "Boostrix · 常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      150.24,
+      841.92,
+      168.48
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "極常見：易怒",
+      "一劑 (0.5 mL) 含有： 神經系統疾患"
+     ],
+     "label": "Boostrix · 極常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      168.48,
+      841.92,
+      177.54
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "白喉類毒素 1 至少 2 個國際單位 (IU) 極常見：嗜睡"
+     ],
+     "label": "Boostrix · 極常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      177.54,
+      841.92,
+      186.66
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "(2.5Lf) 常見：頭痛"
+     ],
+     "label": "Boostrix · 常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      186.66,
+      841.92,
+      204.9
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "破傷風類毒素 1 至少 20 個國際單位 (IU) (5 少見：注意力障礙",
+      "Lf) 眼睛疾患"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      204.9,
+      841.92,
+      223.08
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "百日咳球桿菌 抗原 少見：結膜炎",
+      "百日咳類毒素 1 8 微克 腸胃道疾患"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      223.08,
+      841.92,
+      241.32
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "絲狀血凝素 1 8 微克 常見：腹瀉、嘔吐、腸胃道疾患",
+      "Pertactin 1 2.5 微克 皮膚和皮下組織疾患"
+     ],
+     "label": "Boostrix · 常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      241.32,
+      841.92,
+      259.5
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "1 吸附於氫氧化鋁水合物 (Al (OH) ) 0.3 毫克 少見：皮疹",
+      "3+ 3 全身性疾患與注射部位症狀"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      259.5,
+      841.92,
+      268.62
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "Al 極常見：注射部位反應（包括疼痛、發紅、腫脹）、疲勞",
+      "及磷酸鋁 (AlPO ) 0.2 毫克"
+     ],
+     "label": "Boostrix · 極常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      268.62,
+      841.92,
+      277.74
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "3+ 4 常見：發燒 ≥ 37.5°C（包括> 39°C 的高燒）"
+     ],
+     "label": "Boostrix · 常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-4to9:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      277.74,
+      841.92,
+      288.76
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "少見：其他注射部位反應（如硬塊）、疼痛"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      305.04,
+      841.92,
+      323.22
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "本藥須由醫師處方使用。 少見：上呼吸道感染、咽喉炎",
+      "血液及淋巴系統疾患"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      323.22,
+      841.92,
+      341.46
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "臨床資訊 少見：淋巴結病變",
+      "適應症 神經系統疾患"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      341.46,
+      841.92,
+      350.58
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "Boostrix 適用於四歲（含）以上者之追加疫苗接種，以預防白喉、破傷風及百日咳。（參見 劑量 ） 極常見：頭痛"
+     ],
+     "label": "Boostrix · 極常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      350.58,
+      841.92,
+      359.64
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "Boostrix 適用於懷孕期間接種，以提供嬰兒早期被動性預防百日咳。（參見 劑量、懷孕及藥動學 ） 常見：頭暈"
+     ],
+     "label": "Boostrix · 常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      359.64,
+      841.92,
+      377.88
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "應遵照衛生福利部疾病管制署建議使用 Boostrix。 少見：昏厥",
+      "呼吸、胸部及縱膈疾患"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      377.88,
+      841.92,
+      396.06
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "劑量與用法 少見：咳嗽",
+      "[劑量] 腸胃道疾患"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      396.06,
+      841.92,
+      405.18
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "本疫苗的建議施打劑量為單劑 0.5 毫升。 常見：噁心、腸胃道疾患"
+     ],
+     "label": "Boostrix · 常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      405.18,
+      841.92,
+      423.42
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "須追加接種百日咳疫苗時，可根據當地現行減量白喉-破傷風混合疫苗追加接種計劃來接種 Boostrix。 少見：腹瀉、嘔吐",
+      "Boostrix 可於第二或第三孕期使用，孕婦接種時程應遵照衛生福利部疾病管制署建議。(參見 適應症、懷孕及藥 皮膚和皮下組織疾患"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      423.42,
+      841.92,
+      441.6
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "動學 ) 少見：多汗、搔癢、皮疹",
+      "對疫苗接種狀態不明或未完成白喉、破傷風、百日咳及小兒麻痺免疫接種系列中之白喉、破傷風與百日咳疫苗 肌肉骨骼、結締組織疾患"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      441.6,
+      841.92,
+      459.84
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "接種的青少年與成人，亦可施打 Boostrix（參見 藥效學 ）。根據成人的資料，建議於施打第一劑的一個月後與六 少見：關節痛、肌痛、關節僵硬、肌肉骨骼僵硬",
+      "個月後分別再施打一劑含有白喉與破傷風類毒素成分的疫苗，藉以增強對抗白喉與破傷風的疫苗反應。 全身性疾患與注射部位症狀"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      459.84,
+      841.92,
+      468.96
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "應遵照衛生福利部疾病管制署建議的間隔時間(一般為 10 年)，重覆接種白喉、破傷風及百日咳疫苗。過去曾完 極常見：注射部位反應（包括疼痛、發紅、腫脹）、疲勞、不適"
+     ],
+     "label": "Boostrix · 極常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      468.96,
+      841.92,
+      478.02
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "成破傷風類毒素疫苗基礎接種的病人，在處置因受傷而有感染破傷風之虞可接種 Boostrix。是否同時施打破傷 常見：發燒 ≥ 37.5°C、注射部位反應（如注射部位硬塊及注射部位無菌性膿瘍）"
+     ],
+     "label": "Boostrix · 常見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-adult:12": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      478.02,
+      841.92,
+      489.04
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "風免疫球蛋白應遵照衛生福利部疾病管制署建議。 少見：發燒 > 39°C、類流感症狀、疼痛"
+     ],
+     "label": "Boostrix · 少見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-postmarket:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      567.0,
+      841.92,
+      585.18
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "對先前接種白喉及（或）破傷風疫苗後發生暫時性血小板減少症或神經性併發症的人，不應投予 Boostrix（關 罕見：血管性水腫",
+      "於痙攣或低壓性-低反應性現象，請參閱 警語及注意事項 ）。 免疫系統疾患"
+     ],
+     "label": "Boostrix · 罕見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-postmarket:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      585.18,
+      841.92,
+      603.42
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "警語及注意事項 極罕見：過敏反應，包括過敏及類過敏性反應。",
+      "如同其他疫苗，若有嚴重的急性發燒疾病，應延後接種 Boostrix 。輕度感染則不在此限。 神經系統疾患"
+     ],
+     "label": "Boostrix · 極罕見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-postmarket:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      603.42,
+      841.92,
+      621.6
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "在接種疫苗之前，應先審閱其病歷（特別是有關其先前之疫苗接種與可能發生之不良事件記錄），並進行臨床 罕見：痙攣（伴隨或未伴隨發燒）",
+      "診察。 皮膚和皮下組織疾患"
+     ],
+     "label": "Boostrix · 罕見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-postmarket:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      621.6,
+      841.92,
+      639.84
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "如果已知曾經暫時性地發生下列任一與接種含有百日咳抗原之疫苗有關的現象，則在決定接種下一劑含有百日 罕見：蕁麻疹",
+      "咳抗原成分的疫苗時，應小心考量。 全身性疾患與注射部位症狀"
+     ],
+     "label": "Boostrix · 罕見"
+    }
+   ]
+  },
+  "ae:tdap-boostrix-freq-postmarket:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S37",
+     "page": 1,
+     "region": [
+      0,
+      639.84,
+      841.92,
+      650.86
+     ],
+     "glyphRows": true,
+     "quotes": [
+      " 接種疫苗後的 48 小時內，體溫 ≥ 40.0°C，且非導因於其他可確認之因素； 罕見：接種肢體的擴張性腫脹、無力"
+     ],
+     "label": "Boostrix · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      239.51,
+      595.32,
+      260.75
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "免疫系統疾病 不常見 過敏反應"
+     ],
+     "label": "Hexaxim(哈多星) · 不常見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      260.75,
+      595.32,
+      282.02
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見 過敏性休克反應*"
+     ],
+     "label": "Hexaxim(哈多星) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      282.02,
+      595.32,
+      303.26
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "代謝及營養異常 極常見 厭食症 (食慾減退)"
+     ],
+     "label": "Hexaxim(哈多星) · 極常見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      303.26,
+      595.32,
+      324.5
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "神經系統疾病 極常見 哭泣、嗜睡"
+     ],
+     "label": "Hexaxim(哈多星) · 極常見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      324.5,
+      595.32,
+      345.74
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見 異常哭鬧 (持續性哭鬧)"
+     ],
+     "label": "Hexaxim(哈多星) · 常見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      345.74,
+      595.32,
+      367.1
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見 伴隨或不伴隨發燒之痙攣*"
+     ],
+     "label": "Hexaxim(哈多星) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      367.1,
+      595.32,
+      388.34
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "極罕見 低張力反應或低張力-低反應發作"
+     ],
+     "label": "Hexaxim(哈多星) · 極罕見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      388.34,
+      595.32,
+      409.58
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "胃腸道疾病 極常見 嘔吐"
+     ],
+     "label": "Hexaxim(哈多星) · 極常見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      409.58,
+      595.32,
+      430.82
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見 腹瀉"
+     ],
+     "label": "Hexaxim(哈多星) · 常見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      430.82,
+      595.32,
+      452.08
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "皮膚及皮下組織疾病 罕見 皮疹"
+     ],
+     "label": "Hexaxim(哈多星) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      452.08,
+      595.32,
+      512.31
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "全身性不適及注射部位狀況 極常見 注射部位疼痛、注射部位紅斑、注射部位腫脹",
+      "煩躁不安",
+      "發燒(體溫38.0°C)"
+     ],
+     "label": "Hexaxim(哈多星) · 極常見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      514.84,
+      595.32,
+      536.08
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見 注射部位硬塊"
+     ],
+     "label": "Hexaxim(哈多星) · 常見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:12": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      536.08,
+      595.32,
+      568.31
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "不常見 注射部位結節",
+      "發燒(體溫39.6°C)"
+     ],
+     "label": "Hexaxim(哈多星) · 不常見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-freq:13": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "region": [
+      0,
+      578.08,
+      595.32,
+      596.31
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見 廣泛性肢體腫脹 †"
+     ],
+     "label": "Hexaxim(哈多星) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "兒童曾有大範圍注射部位反應( >50 mm)之報告，包括從注射部位擴及至1個或2個關"
+     ],
+     "label": "Hexaxim(哈多星) · 廣泛性肢體腫脹"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-notes:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "節處的廣泛性肢體腫脹。這些反應在接種後24-72小時內會開始出現，可能伴隨注射部位紅斑、溫熱感、"
+     ],
+     "label": "Hexaxim(哈多星) · 廣泛性肢體腫脹（續）發生時序"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-notes:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "壓痛或疼痛且3-5天內會自動消失。此風險與先前注射含非細胞性百日咳疫苗的次數有關，第4劑接種後"
+     ],
+     "label": "Hexaxim(哈多星) · 廣泛性肢體腫脹（續）消退與風險因子"
+    }
+   ]
+  },
+  "ae:hexa-hexaxim-notes:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S38",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "發生的風險較高。"
+     ],
+     "label": "Hexaxim(哈多星) · 廣泛性肢體腫脹（續）第4劑風險較高"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      125.75,
+      595.32,
+      145.55
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "感染與寄生蟲侵染 不常見 上呼吸道感染"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 不常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      145.55,
+      595.32,
+      165.35
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "代謝與營養疾患 極常見 食慾喪失"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 極常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      165.35,
+      595.32,
+      185.03
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "精神疾患 極常見 易怒、異常啼哭、坐立不安"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 極常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      185.03,
+      595.32,
+      204.83
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見 緊張"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      204.83,
+      595.32,
+      224.63
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "神經系統疾患 極常見 嗜睡"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 極常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      224.63,
+      595.32,
+      244.43
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "極罕見 痙攣(併有或未併有發燒現象)***"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 極罕見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      244.43,
+      595.32,
+      264.23
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "呼吸道、胸腔與縱膈疾患 不常見 咳嗽*"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 不常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      264.23,
+      595.32,
+      283.91
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見 支氣管炎"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      283.91,
+      595.32,
+      303.71
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "胃腸道疾患 常見 嘔吐、腹瀉"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      303.71,
+      595.32,
+      323.51
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "皮膚與皮下組織疾患 常見 搔癢*"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      323.51,
+      595.32,
+      343.31
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見 皮疹"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      343.31,
+      595.32,
+      362.99
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "極罕見 皮膚炎、蕁麻疹*"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 極罕見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:12": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      362.99,
+      595.32,
+      411.23
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "全身性疾患與投藥部位症狀 極常見 疼痛、發紅、注射部位局部腫脹(≤50 毫",
+      "米)、發燒≥38.0°C"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 極常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:13": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      411.23,
+      595.32,
+      459.47
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見 注射部位局部腫脹(>50 毫米)**、發燒",
+      ">39.5°C、注射部位反應(包括硬塊)"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq:14": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 6,
+     "region": [
+      0,
+      459.47,
+      595.32,
+      505.32
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "不常見 注射肢瀰漫性腫脹，有時並會侵犯鄰近",
+      "的關節**、疲倦"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 不常見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq-2:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 7,
+     "region": [
+      0,
+      82.07,
+      595.32,
+      120.59
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "神經系統疾患 罕見 虛脫或休克樣狀態(低張性低反應性現",
+      "象)***"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq-2:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 7,
+     "region": [
+      0,
+      120.59,
+      595.32,
+      178.19
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "呼吸道、胸腔與縱膈疾患 罕見 呼吸暫停* [見警語及注意事項中關於",
+      "極早產嬰兒(懷孕≤28 週出生)發生呼吸",
+      "暫停現象之說明]"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq-2:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 7,
+     "region": [
+      0,
+      178.19,
+      595.32,
+      197.63
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "皮膚與皮下組織疾患 罕見 血管神經性水腫*"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-freq-2:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 7,
+     "region": [
+      0,
+      197.63,
+      595.32,
+      229.48
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "全身性疾患與投藥部位症狀 罕見 廣泛性腫脹反應、整個注射肢腫脹**、",
+      "注射部位起水泡"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 罕見"
+    }
+   ]
+  },
+  "ae:hexa-infanrixhexa-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S39",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "過敏反應(包括嚴重過敏反應與類過敏"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 免疫系統疾患／罕見"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 5,
+     "region": [
+      0,
+      694.11,
+      595.32,
+      710.11
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位疼痛/壓痛 23.6%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 注射部位疼痛/壓痛"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 5,
+     "region": [
+      0,
+      710.19,
+      595.32,
+      726.19
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位紅斑 23.4%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 注射部位紅斑"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 5,
+     "region": [
+      0,
+      726.27,
+      595.32,
+      742.27
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位腫脹 7.2%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 注射部位腫脹"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-2:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      72.99,
+      595.32,
+      88.99
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "發燒 20.7%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 發燒"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-2:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      89.19,
+      595.32,
+      105.19
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "頭痛 21.0%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 頭痛"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-2:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      105.27,
+      595.32,
+      121.27
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "全身無力 33.0%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 全身無力"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-2:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      121.35,
+      595.32,
+      137.35
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "肌痛 24.0%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 肌痛"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-2:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      137.43,
+      595.32,
+      153.43
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "嘔吐 19.2%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 嘔吐"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-2:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      153.63,
+      595.32,
+      169.63
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "異常哭鬧 19.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 異常哭鬧"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-2:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      169.71,
+      595.32,
+      185.71
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "昏昏欲睡 18.4%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 昏昏欲睡"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-2:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      185.79,
+      595.32,
+      201.79
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "喪失食慾 25.9%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 喪失食慾"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-2:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      201.87,
+      595.32,
+      217.87
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "易怒 28.5%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 易怒"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      305.91,
+      595.32,
+      321.91
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位瘀青 0.2%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 注射部位瘀青"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      321.99,
+      595.32,
+      337.99
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位血腫 0.3%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 注射部位血腫"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      338.19,
+      595.32,
+      354.19
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位出血 0.2%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 注射部位出血"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      354.27,
+      595.32,
+      370.27
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位硬結 0.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 注射部位硬結"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      370.35,
+      595.32,
+      386.35
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位搔癢 0.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 注射部位搔癢"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      402.63,
+      595.32,
+      418.63
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "嘔吐 0.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 嘔吐"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      434.79,
+      595.32,
+      450.79
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "上呼吸道感染 0.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 上呼吸道感染"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      450.87,
+      595.32,
+      466.87
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "病毒感染 0.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 病毒感染"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      483.15,
+      595.32,
+      499.15
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "發炎後之色素變化 0.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 發炎後之色素變化"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      499.23,
+      595.32,
+      515.23
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "皮疹 0.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 皮疹"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      515.31,
+      595.32,
+      531.31
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "斑丘疹 0.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 斑丘疹"
+    }
+   ]
+  },
+  "ae:jelive-imojev-pct-3:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S41",
+     "page": 6,
+     "region": [
+      0,
+      531.51,
+      595.32,
+      547.51
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "蕁麻疹 0.1%"
+     ],
+     "label": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗 · 蕁麻疹"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位疼痛"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 注射部位疼痛：極常見"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位發紅、注射部位腫脹、注射部位硬化1常見"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 注射部位發紅／腫脹／硬化：常見"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位血腫2、注射部位搔癢2"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 注射部位血腫／搔癢：少見"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "肌肉疼痛"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 肌肉疼痛：極常見"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "頭痛"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 頭痛：常見"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-2:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "關節痛"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 關節痛：常見（成人）"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-2:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "暈眩2"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 暈眩：少見（成人）"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-2:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "胃腸症狀(包括噁心、嘔吐、腹瀉及/或腹痛)"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 胃腸症狀：常見（成人）"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-2:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "出汗1"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 出汗：常見（成人）"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-2:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "疲倦"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 疲倦：極常見（成人）"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-2:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "顫抖、發燒(>37.5°C)"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 顫抖、發燒：常見（成人）"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-2:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位疼痛"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 注射部位疼痛：極常見（兒童各年齡層）"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-2:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位發紅"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 注射部位發紅：極常見（兒童各年齡層）"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-3:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "發燒(≥38.0°C)"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 發燒(≥38.0°C)：兒童各年齡層"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-3:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "暫時性淋巴結病變、血小板減少症、過敏反應(包括嚴重過敏反應)"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 上市後：暫時性淋巴結病變等，罕見"
+    }
+   ]
+  },
+  "ae:flu-fluarixtetra-notes-3:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S43",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "、神經炎、急性瀰漫性腦脊髓炎、Guillain-Barré症候群(GBS)2"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 上市後：GBS 等，罕見"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      657.3,
+      842.04,
+      668.26
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "疼痛/痠痛 46.6% 0.4% 21.3% 0.0% 32.7% 0.0% 37.5% 1.8% 42.9% 1.6%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 疼痛/痠痛"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      665.7,
+      842.04,
+      676.66
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "腫脹 20.1% 0.4% 11.1% 0.0% 12.7% 0.0% 17.9% 0.0% 19.0% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 腫脹"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      673.98,
+      842.04,
+      684.94
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "發紅 10.1% 0.2% 4.3% 0.4% 5.5% 0.0% 10.7% 0.0% 4.8% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 發紅"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      682.26,
+      842.04,
+      693.22
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "瘀青 3.3% 0.0% 1.2% 0.4% 3.6% 0.0% 1.8% 0.0% 4.8% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 瘀青"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      690.54,
+      842.04,
+      701.5
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "降低肢體活動力 10.7% 0.2% 6.7% 0.0% 3.6% 0.0% 5.4% 0.0% 15.9% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 降低肢體活動力"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      707.1,
+      842.04,
+      718.06
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "發燒(≥38℃) 1.3% 0.2% 2.0% 0.0% 3.6% 0.0% 8.9% 0.0% 0.0% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 發燒(≥38℃)"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      715.38,
+      842.04,
+      726.34
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "鼻塞 13.3% 0.2% 6.7% 0.0% 30.9% 0.0% 25.0% 1.8% 14.3% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 鼻塞"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      723.66,
+      842.04,
+      734.62
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "咳嗽 11.6% 0.4% 10.3% 0.4% 32.7% 3.6% 21.4% 0.0% 4.8% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 咳嗽"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      731.94,
+      842.04,
+      742.9
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "咽喉痛 10.7% 0.0% 9.1% 0.4% 10.9% 0.0% 7.1% 0.0% 1.6% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 咽喉痛"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      740.34,
+      842.04,
+      751.3
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "肌肉痠痛 21.7% 0.2% 14.6% 0.4% 14.5% 0.0% 10.7% 0.0% 23.8% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 肌肉痠痛"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      748.62,
+      842.04,
+      759.58
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "頭痛 13.1% 0.0% 9.5% 0.4% 5.5% 0.0% 7.1% 0.0% 3.2% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 頭痛"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      756.9,
+      842.04,
+      767.86
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "噁心 3.9% 0.0% 3.2% 0.0% 0.0% 0.0% 7.1% 0.0% 1.6% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 噁心"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:12": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      765.18,
+      842.04,
+      776.14
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "嘔吐 1.1% 0.0% 1.2% 0.0% 1.8% 0.0% 7.1% 0.0% 1.6% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 嘔吐"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:13": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      773.46,
+      842.04,
+      784.42
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "全身不適 18.8% 0.2% 9.5% 0.0% 14.5% 0.0% 10.7% 0.0% 9.5% 1.6%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 全身不適"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:14": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      781.86,
+      842.04,
+      792.82
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "眼睛發紅 2.6% 0.0% 2.8% 0.0% 3.6% 0.0% 5.4% 0.0% 0.0% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 眼睛發紅"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:15": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      790.14,
+      842.04,
+      801.1
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "胸悶 3.5% 0.0% 6.3% 0.0% 3.6% 0.0% 3.6% 0.0% 0.0% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 胸悶"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:16": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      798.42,
+      842.04,
+      809.38
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "呼吸窘迫 1.8% 0.0% 2.0% 0.0% 5.5% 0.0% 0.0% 0.0% 1.6% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 呼吸窘迫"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-pct:17": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 2,
+     "region": [
+      0,
+      806.7,
+      842.04,
+      817.66
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "臉部浮腫 2.2% 0.0% 0.4% 0.0% 0.0% 0.0% 1.8% 0.0% 1.6% 0.0%"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 臉部浮腫"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "非常常見：頭痛"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 神經系統症狀：頭痛，非常常見"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-notes:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "不常見：嗜眠"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 神經系統症狀：嗜眠，不常見"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-notes:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "胃腸道症狀 常見：噁心、嘔吐 不常見：腹瀉"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 胃腸道症狀：噁心、嘔吐，常見"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-notes:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "肌肉骨骼及結締組織疾病 非常常見：肌肉疼痛 不常見：背痛"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 肌肉骨骼：肌肉疼痛，非常常見"
+    }
+   ]
+  },
+  "ae:flu-adimflus-qis-notes:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S44",
+     "page": 1,
+     "glyphRows": true,
+     "quotes": [
+      "全身性症狀及注射部位症狀非常常見：注射部位疼痛/腫脹、全身不適(malaise) 常見：注射部位發紅、注射部位瘀斑、手臂活動困難、發燒、胸悶、臉部水腫"
+     ],
+     "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 全身性症狀：注射部位疼痛/腫脹，非常常見；注射部位發紅等，常見"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "52.8-56.5%，6-35個月兒童：26.8%，老年人：25.8%）。24個月以下之次族群兒童最常發生的不良"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 注射部位疼痛：成人/兒童/老年人"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "反應為煩躁不安(32.3%)。"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 煩躁不安：24個月以下兒童"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "24-35個月之次族群兒童的最常見不良反應為全身無力(26.8%)。"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 全身無力：24-35個月兒童"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "成人：頭痛(27.8%)、肌痛(23%)及全身無力(19.2%)"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 成人：頭痛/肌痛/全身無力"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "老年人：頭痛(15.6%)及肌痛(13.9%)"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 老年人：頭痛/肌痛"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "9-17歲兒童：肌痛(29.1%)、頭痛(24.7%)、全身無力(20.3%)及注射部位腫脹(10.7%)"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 9-17歲兒童：肌痛/頭痛/全身無力/注射部位腫脹"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "3-8歲兒童：全身無力(30.7%)、肌痛(28.5%)、頭痛(25.7%)、注射部位腫脹(20.5%)、注射部位發"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 3-8歲兒童：全身無力/肌痛/頭痛/注射部位腫脹/發紅"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "紅(20.4%)、注射部位硬結(16.4%)、顫抖(11.2%)。"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 3-8歲兒童（續）：注射部位發紅/硬結/顫抖"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "6-35個月的所有兒童：發燒(20.4%)及注射部位發紅(17.2%)。"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 6-35個月兒童：發燒/注射部位發紅"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "24個月以下的兒童：無食慾(28.9%)、異常哭鬧(27.1%)、嘔吐(16.1%)及昏睡(13.9%)"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 24個月以下兒童：無食慾/異常哭鬧/嘔吐/昏睡"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-notes:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "35個月的兒童：頭痛(11.9%)及肌痛(11.6%)"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 35個月的兒童：頭痛/肌痛"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "肌痛"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 肌痛：極常見"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "全身無力(6)、接種部位疼痛"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 全身無力、接種部位疼痛：極常見"
+    }
+   ]
+  },
+  "ae:flu-vaxigriptetra-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S45",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "顫抖、發燒(2)、接種部位發紅、接種部位腫脹、接種部位硬結"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 顫抖、發燒、接種部位發紅/腫脹/硬結：常見"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "日咳、B型肝炎、去活性小兒麻痺及B型嗜血桿菌)同時投予時，有69%至79%的受試者通報出現發燒現象(≧38°C)，在僅接種常規疫苗的受試者中則有44%至59%"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 發燒發生率：Bexsero＋常規疫苗 vs 僅常規疫苗"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-notes:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "受試者通報出現發燒現象(≧38°C)，在僅接種常規疫苗的受試者中則有44%至59%"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 發燒發生率：僅常規疫苗組"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：飲食失調"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 飲食失調：極常見"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：嗜睡、異常啼哭、頭痛"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 嗜睡、異常啼哭、頭痛：極常見"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "少見：癲癇發作(包括熱痙攣)"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 癲癇發作（含熱痙攣）：少見"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq-2:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：皮疹(12至23個月大的幼童)(少見於施打追加劑之後)"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 皮疹（12-23個月幼童）：極常見"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq-2:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：關節痛"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 關節痛：極常見（嬰幼兒）"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq-2:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：發燒(≧38°C)、注射部位觸痛(包括嚴重注射部位觸痛，定義為注射肢移"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 發燒(≥38°C)等：極常見（嬰幼兒）"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq-2:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "少見：發燒(≧40°C)"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 發燒(≥40°C)：少見（嬰幼兒）"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq-2:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：頭痛"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 頭痛：極常見（青少年與成人）"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq-2:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：噁心"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 噁心：極常見（青少年與成人）"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq-2:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：肌痛、關節痛"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 肌痛、關節痛：極常見（青少年與成人）"
+    }
+   ]
+  },
+  "ae:mcv4-bexsero-freq-2:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S46",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "極常見：注射部位疼痛(包括嚴重注射部位疼痛，定義為無法進行一般的日常活"
+     ],
+     "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 注射部位疼痛等：極常見（青少年與成人）"
+    }
+   ]
+  },
+  "ae:rota-rotateq-pct:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S48",
+     "page": 11,
+     "region": [
+      0,
+      143.74,
+      595.32,
+      157.7
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "體溫升高* 17.1% 16.2% 20.0% 19.4% 18.2% 17.6%"
+     ],
+     "label": "RotaTeq(輪達停) · 體溫升高*"
+    }
+   ]
+  },
+  "ae:rota-rotateq-pct:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S48",
+     "page": 11,
+     "region": [
+      0,
+      176.38,
+      595.32,
+      190.34
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "嘔吐 6.7% 5.4% 5.0% 4.4% 3.6% 3.2%"
+     ],
+     "label": "RotaTeq(輪達停) · 嘔吐"
+    }
+   ]
+  },
+  "ae:rota-rotateq-pct:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S48",
+     "page": 11,
+     "region": [
+      0,
+      193.3,
+      595.32,
+      207.26
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "腹瀉 10.4% 9.1% 8.6% 6.4% 6.1% 5.4%"
+     ],
+     "label": "RotaTeq(輪達停) · 腹瀉"
+    }
+   ]
+  },
+  "ae:rota-rotateq-pct:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S48",
+     "page": 11,
+     "region": [
+      0,
+      210.22,
+      595.32,
+      224.18
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "易怒 7.1% 7.1% 6.0% 6.5% 4.3% 4.5%"
+     ],
+     "label": "RotaTeq(輪達停) · 易怒"
+    }
+   ]
+  },
+  "ae:rota-rotateq-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S48",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "免疫系統異常: 過敏性反應"
+     ],
+     "label": "RotaTeq(輪達停) · 免疫系統異常"
+    }
+   ]
+  },
+  "ae:rota-rotateq-notes:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S48",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "皮膚或皮下組織異常: 蕁麻疹、血管性水腫"
+     ],
+     "label": "RotaTeq(輪達停) · 皮膚或皮下組織異常"
+    }
+   ]
+  },
+  "ae:rota-rotateq-notes:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S48",
+     "page": 12,
+     "glyphRows": true,
+     "quotes": [
+      "胃腸道異常: 嚴重複合型免疫缺乏症(SCID)的嬰兒有發生腸胃炎並排出疫苗病毒的現象、腸套疊、血便"
+     ],
+     "label": "RotaTeq(輪達停) · 胃腸道異常"
+    }
+   ]
   }
  }
 }

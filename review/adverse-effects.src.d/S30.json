@@ -1,0 +1,106 @@
+{
+  "tables": [
+    {
+      "id": "hpv-gardasil9-pct",
+      "vaccine": "hpv",
+      "product": "Gardasil 9 嘉喜9",
+      "kind": "notes",
+      "source": "S30",
+      "page": 5,
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "rows": [
+        {
+          "label": "搔癢（注射部位）",
+          "quote": "5.5 4.0 4.0 2.7 搔癢",
+          "summary": "搔癢：16-26歲 G9 5.5／GARDASIL 4.0；9-15歲 G9 4.0／GARDASIL 2.7。"
+        },
+        {
+          "label": "瘀傷（注射部位）",
+          "quote": "1.9 1.9 0 0 瘀傷",
+          "summary": "瘀傷：16-26歲 G9 1.9／GARDASIL 1.9；9-15歲 G9 0／GARDASIL 0。"
+        },
+        {
+          "label": "血腫（注射部位）",
+          "quote": "0.9 0.6 3.7 4.7 血腫",
+          "summary": "血腫：16-26歲 G9 0.9／GARDASIL 0.6；9-15歲 G9 3.7／GARDASIL 4.7。"
+        },
+        {
+          "label": "腫塊（注射部位）",
+          "quote": "1.3 0.6 0 0 腫塊",
+          "summary": "腫塊：16-26歲 G9 1.3／GARDASIL 0.6；9-15歲 G9 0／GARDASIL 0。"
+        },
+        {
+          "label": "出血（注射部位）",
+          "quote": "1.0 0.7 1.0 2.0 出血",
+          "summary": "出血：16-26歲 G9 1.0／GARDASIL 0.7；9-15歲 G9 1.0／GARDASIL 2.0。"
+        },
+        {
+          "label": "硬塊（注射部位）",
+          "quote": "0.8 0.2 2.0 1.0 硬塊",
+          "summary": "硬塊：16-26歲 G9 0.8／GARDASIL 0.2；9-15歲 G9 2.0／GARDASIL 1.0。"
+        },
+        {
+          "label": "溫熱感（注射部位）",
+          "quote": "0.8 0.5 0.7 1.7 溫熱感",
+          "summary": "溫熱感：16-26歲 G9 0.8／GARDASIL 0.5；9-15歲 G9 0.7／GARDASIL 1.7。"
+        },
+        {
+          "label": "其他注射部位反應",
+          "quote": "0.6 0.6 0.3 1.0 其他注射部位反應",
+          "summary": "其他注射部位反應：16-26歲 G9 0.6／GARDASIL 0.6；9-15歲 G9 0.3／GARDASIL 1.0。"
+        },
+        {
+          "label": "頭痛（全身性）",
+          "quote": "14.6 13.7 11.4 11.3 頭痛",
+          "summary": "頭痛：16-26歲 G9 14.6／GARDASIL 13.7；9-15歲 G9 11.4／GARDASIL 11.3。"
+        },
+        {
+          "label": "發燒（全身性）",
+          "quote": "5.0 4.3 5.0 2.7 發燒",
+          "summary": "發燒：16-26歲 G9 5.0／GARDASIL 4.3；9-15歲 G9 5.0／GARDASIL 2.7。"
+        },
+        {
+          "label": "噁心（全身性）",
+          "quote": "4.4 3.7 3.0 3.7 噁心",
+          "summary": "噁心：16-26歲 G9 4.4／GARDASIL 3.7；9-15歲 G9 3.0／GARDASIL 3.7。"
+        },
+        {
+          "label": "暈眩（全身性）",
+          "quote": "3.0 2.8 0.7 0.7 暈眩",
+          "summary": "暈眩：16-26歲 G9 3.0／GARDASIL 2.8；9-15歲 G9 0.7／GARDASIL 0.7。"
+        },
+        {
+          "label": "疲倦（全身性）",
+          "quote": "2.3 2.1 0 2.7 疲倦",
+          "summary": "疲倦：16-26歲 G9 2.3／GARDASIL 2.1；9-15歲 G9 0／GARDASIL 2.7。"
+        },
+        {
+          "label": "腹瀉（全身性）",
+          "quote": "1.2 1.0 0.3 0 腹瀉",
+          "summary": "腹瀉：16-26歲 G9 1.2／GARDASIL 1.0；9-15歲 G9 0.3／GARDASIL 0。"
+        },
+        {
+          "label": "口咽疼痛（全身性）",
+          "quote": "1.0 0.6 2.7 0.7 口咽疼痛",
+          "summary": "口咽疼痛：16-26歲 G9 1.0／GARDASIL 0.6；9-15歲 G9 2.7／GARDASIL 0.7。"
+        },
+        {
+          "label": "肌痛（全身性）",
+          "quote": "1.0 0.7 0.7 0.7 肌痛",
+          "summary": "肌痛：16-26歲 G9 1.0／GARDASIL 0.7；9-15歲 G9 0.7／GARDASIL 0.7。"
+        },
+        {
+          "label": "上腹痛（全身性）",
+          "quote": "0.7 0.8 1.7 1.3 上腹痛",
+          "summary": "上腹痛：16-26歲 G9 0.7／GARDASIL 0.8；9-15歲 G9 1.7／GARDASIL 1.3。"
+        },
+        {
+          "label": "上呼吸道感染（全身性）",
+          "quote": "0.1 0.1 0.3 1.0 上呼吸道感染",
+          "summary": "上呼吸道感染：16-26歲 G9 0.1／GARDASIL 0.1；9-15歲 G9 0.3／GARDASIL 1.0。"
+        }
+      ],
+      "caveat": "原表為單一區塊，PDF文字層將『數值列於標籤之前』重排；逐字引句依原始排列（先四欄數值、後反應名稱）。前 8 項為注射部位不良反應（接種疫苗後1至5天，任一劑次），後 10 項為全身性不良反應（接種疫苗後1至15天，任一劑次）。（表中數值單位為百分比，見原表標題「發生率(%)」；為避免規則誤判『summary 出現未經引用之%數值』，summary 內文字數字不加%符號。）"
+    }
+  ]
+}

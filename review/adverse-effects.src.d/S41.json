@@ -1,0 +1,45 @@
+{
+ "tables": [
+  {
+   "id": "jelive-imojev-pct",
+   "vaccine": "jelive",
+   "product": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
+   "kind": "percent",
+   "source": "S41",
+   "page": 5,
+   "anchor": "訴求通報不良反應",
+   "title": "表 1：接種 IMOJEV® 後的訴求通報不良反應（solicited reactions）— 注射部位反應",
+   "population": "兒童（9 個月至 5 歲）",
+   "columns": ["IMOJEV®（N=1396）"],
+   "rows": ["注射部位疼痛/壓痛", "注射部位紅斑", "注射部位腫脹"],
+   "caveat": "全身性反應列於同表次頁（見 jelive-imojev-pct-2）。"
+  },
+  {
+   "id": "jelive-imojev-pct-2",
+   "vaccine": "jelive",
+   "product": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
+   "kind": "percent",
+   "source": "S41",
+   "page": 6,
+   "title": "表 1（續）：接種 IMOJEV® 後的訴求通報不良反應（solicited reactions）— 全身性反應",
+   "population": "兒童（9 個月至 5 歲）",
+   "columns": ["IMOJEV®（N=1396）"],
+   "rows": ["發燒", "頭痛", "全身無力", "肌痛", "嘔吐", "異常哭鬧", "昏昏欲睡", "喪失食慾", "易怒"],
+   "caveat": "接續表 1（見 jelive-imojev-pct）；訴求通報包括接種後 7 天內注射部位反應及 14 天內全身性反應。"
+  },
+  {
+   "id": "jelive-imojev-pct-3",
+   "vaccine": "jelive",
+   "product": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
+   "kind": "percent",
+   "source": "S41",
+   "page": 6,
+   "anchor": "非訴求之非嚴重不良反應",
+   "title": "表 2：IMOJEV® 接種後 28 天內的非訴求之非嚴重不良反應（unsolicited non-serious adverse reactions）",
+   "population": "兒童（9 個月至 5 歲）",
+   "columns": ["IMOJEV®（N=1396）"],
+   "rows": ["注射部位瘀青", "注射部位血腫", "注射部位出血", "注射部位硬結", "注射部位搔癢", "嘔吐", "上呼吸道感染", "病毒感染", "發炎後之色素變化", "皮疹", "斑丘疹", "蕁麻疹"],
+   "caveat": "各系統器官分類（全身性症狀及注射部位情況／胃腸道症狀／感染及侵擾／皮膚及皮下組織症狀）已於原文合併列出。"
+  }
+ ]
+}

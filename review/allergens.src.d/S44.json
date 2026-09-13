@@ -1,0 +1,25 @@
+{
+ "vaccine": "flu",
+ "product": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗",
+ "source": "S44",
+ "components": [
+  {"page": 1, "label": "製程說明", "quote": "本疫苗係將流感病毒株接種於發育中的雞蛋尿膜腔內，培養後，抽出含病毒之尿膜腔液，經蔗糖密度梯度離心法將病毒"},
+  {"page": 1, "label": "製程中使用之成分", "quote": "本疫苗含有微量甲醛(Formaldehyde)和聚山梨醇酯 80 (Polysorbate 80)等在製程中會使用到的成分。其他賦形劑請見 6.1。"},
+  {"page": 2, "label": "賦形劑", "quote": "氯化鈉 (sodium chloride)、磷酸氫二鈉（Disodium hydrogen phosphate）、磷酸二氫鉀（Potassium dihydrogen phosphate）及"}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "有", "page": 1, "quote": "本疫苗係將流感病毒株接種於發育中的雞蛋尿膜腔內，培養後，抽出含病毒之尿膜腔液，經蔗糖密度梯度離心法將病毒"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "未載明"},
+  {"key": "peg_polysorbate", "status": "有", "page": 1, "quote": "本疫苗含有微量甲醛(Formaldehyde)和聚山梨醇酯 80 (Polysorbate 80)等在製程中會使用到的成分。其他賦形劑請見 6.1。", "note": "聚山梨醇酯80（Polysorbate 80）"},
+  {"key": "formaldehyde", "status": "有", "page": 1, "quote": "本疫苗含有微量甲醛(Formaldehyde)和聚山梨醇酯 80 (Polysorbate 80)等在製程中會使用到的成分。其他賦形劑請見 6.1。"},
+  {"key": "thimerosal", "status": "未載明"},
+  {"key": "aluminium", "status": "未載明"}
+ ],
+ "warnings": [
+  {"label": "過敏禁忌", "page": 1, "quote": "曾對於本疫苗中任何成分發生嚴重過敏反應(例如：全身性過敏反應)，或過去曾在注射任何流感疫苗後發生嚴重過敏反"}
+ ]
+}

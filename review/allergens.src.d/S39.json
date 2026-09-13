@@ -1,0 +1,25 @@
+{
+  "vaccine": "hexa", "product": "Infanrix hexa(嬰護寧)", "source": "S39",
+  "components": [
+    {"page": 1, "label": "成分（B 型肝炎表面抗原製法）", "quote": "藉由重組 DNA 技術在酵母菌(Saccharomyces cerevisiae)內生產"},
+    {"page": 1, "label": "成分（佐劑）", "quote": "吸附於氫氧化鋁水合物(Al(OH) 3 )"},
+    {"page": 1, "label": "成分（佐劑）", "quote": "吸附於磷酸鋁(AlPO 4 )"},
+    {"page": 11, "label": "賦形劑", "quote": "氯化鉀、雙鈉磷酸鹽、單鉀磷酸鹽、聚山梨醇脂 20 及 80、甘胺酸、甲醛、新黴素硫酸鹽、\n多粘菌素硫酸鹽都是製造過程中的殘留物質。"}
+  ],
+  "allergens": [
+    {"key": "egg", "status": "未載明"},
+    {"key": "gelatin", "status": "未載明"},
+    {"key": "neomycin", "status": "有", "page": 11, "quote": "新黴素硫酸鹽"},
+    {"key": "other_antibiotics", "status": "有", "page": 11, "quote": "多粘菌素硫酸鹽"},
+    {"key": "yeast", "status": "有", "page": 1, "quote": "藉由重組 DNA 技術在酵母菌(Saccharomyces cerevisiae)內生產"},
+    {"key": "latex", "status": "未載明"},
+    {"key": "peg_polysorbate", "status": "有", "page": 11, "quote": "聚山梨醇脂 20 及 80"},
+    {"key": "formaldehyde", "status": "有", "page": 11, "quote": "甲醛"},
+    {"key": "thimerosal", "status": "未載明"},
+    {"key": "aluminium", "status": "有", "page": 1, "quote": "吸附於氫氧化鋁水合物(Al(OH) 3 )"}
+  ],
+  "warnings": [
+    {"label": "禁忌（對成分過敏）", "page": 2, "quote": "對疫苗有效成分、或其賦形劑、殘餘物質過敏者(見定性與定量組成及賦形劑)。"},
+    {"label": "禁忌（曾對相關疫苗過敏）", "page": 2, "quote": "先前於接種白喉/破傷風/百日咳疫苗、B 型肝炎疫苗、小兒麻痺疫苗或 Hib 疫苗過敏者。"}
+  ]
+}

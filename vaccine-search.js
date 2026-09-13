@@ -125,11 +125,13 @@
   }
   // 過敏與成分：指引判讀（allergy-guidance.js）＋各產品過敏原（review/allergens.js）
   const ALLERGY_GENERIC=['過敏','過敏反應','蛋過敏','雞蛋','明膠','乳膠','酵母','neomycin','抗生素','PEG','polysorbate','皮膚測試','成分','賦形劑','可以打','能打','anaphylaxis'];
+  const vaxAliases=id=>{const v=(typeof VAX!=='undefined'?VAX:[]).find(x=>x.id===id);return v?[v.n,v.en,...extraAliases(v)]:(ALIASES[id]||[]);};
   if(window.AllergyGuidance?.rulesData){
     for(const r of AllergyGuidance.rulesData){
       const quotes=r.claims.flatMap(c=>(typeof REFERENCE_CLAIMS!=='undefined'&&REFERENCE_CLAIMS[c]?.items||[]).flatMap(it=>(it.quotes||[]).map(q=>({q,c}))));
       entries.push({id:'allergy:'+r.id,allergyRule:r.id,title:r.title+'（'+r.verdict+'）',category:'過敏與成分（指引判讀）',
-        aliases:[...ALLERGY_GENERIC,...(/流感/.test(r.title)?fluAliases:[]),...(/MMR/.test(r.title)?ALIASES.mmr:[]),...(/黃熱病/.test(r.title)?['黃熱病','Stamaril']:[]),...(/COVID|mRNA/.test(r.title)?covidAliases:[])],
+        // 規則提到的疫苗 → 借用該疫苗卡的完整別名（含「流感疫苗」等），否則仿單成分條目會因多命中一個別名而排到判讀前面
+        aliases:[...ALLERGY_GENERIC,...(/流感/.test(r.title)?vaxAliases('flu'):[]),...(/MMR/.test(r.title)?vaxAliases('mmr'):[]),...(/黃熱病/.test(r.title)?['黃熱病','黃熱病疫苗','Stamaril']:[]),...(/COVID|mRNA/.test(r.title)?vaxAliases('covid'):[])],
         sections:[{label:'判讀（本站整理）',text:r.text,ref:{claim:r.claims[0]}},...quotes.map(x=>({label:'指引原句',text:x.q,ref:{claim:x.c}}))]});
     }
   }
@@ -161,7 +163,9 @@
       const topicHit=hits.some(h=>topical.map(norm).includes(h));
       const score=hits.reduce((n,h)=>n+h.length*(specific.includes(h)?2:1),0)
         +(e.postinfRow!==undefined?(specific.length&&timing.length?7:1):0)
-        +((e.adverse||e.allergyRule||e.allergenProduct)?(specific.length&&topicHit?7:(topicHit?2:0)):0);
+        +((e.adverse||e.allergyRule)?(specific.length&&topicHit?7:(topicHit?2:0)):0)
+        // 仿單成分條目只是「該廠牌含什麼」，判讀（指引規則）與疫苗卡要排在它前面 → 加分減半
+        +(e.allergenProduct?(specific.length&&topicHit?3:(topicHit?1:0)):0);
       // 問句提到的病人條件（懷孕、蛋過敏…）→ 優先顯示含該條件用詞的規則段落
       const matchedSyn=CONDITION_SYNONYMS.filter(([,syn])=>syn.some(w=>q.includes(norm(w))));
       const conditions=matchedSyn.map(([canon])=>canon);
