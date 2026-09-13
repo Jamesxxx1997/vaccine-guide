@@ -35,6 +35,10 @@ const visible=id=>Array.from(doc.querySelectorAll(`#${id} > .vax`)).filter(el=>!
     assert(win.VaccineSearch.find('對明膠過敏可以打MMR嗎').slice(0,3).some(r=>r.entry.id==='allergy:gelatin'),'明膠→MMR 指引判讀在前三');
     assert(win.VaccineSearch.find('Shingrix 成分').some(r=>/^allergen:/.test(r.entry.id)),'品牌＋成分 → 仿單成分條目');
     const yf=win.VaccineSearch.find('蛋過敏可以打黃熱病疫苗嗎');assert(yf.slice(0,3).some(r=>r.entry.id==='allergy:egg-yf'),'蛋過敏→黃熱病 判讀在前三');
+    // 英文成分名（PEG／neomycin）要能把對應規則排第一，品牌別名（莫德納）要能帶出該廠牌的仿單成分列（含國際仿單）
+    const peg=win.VaccineSearch.find('對PEG過敏可以打莫德納嗎');assert(peg[0].entry.id==='allergy:peg','PEG 規則第一: '+peg[0].entry.id);
+    assert(peg.some(r=>/^allergen:S8[23]$/.test(r.entry.id)),'莫德納 → Spikevax／mNEXSPIKE 仿單成分列在結果內');
+    assert(win.VaccineSearch.find('對neomycin過敏')[0].entry.id==='allergy:neomycin','neomycin 規則第一');
     assert(win.VaccineSearch.find('確診 新冠').some(r=>r.entry.category==='感染後接種間隔'),'two-term exact mode still reaches the table');
     assert.equal(win.VaccineSearch.find('not-a-vaccine').length,0,'keyword mode must not invent hits');
     // 結果卡的「前往間隔規則總表」會切到分頁並聚焦該列

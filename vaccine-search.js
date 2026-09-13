@@ -5,7 +5,7 @@
   const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/皰/g,'疱').replace(/[\s\p{P}]/gu,'');
   const zosterAliases=['帶狀皰疹','皮蛇','欣剋疹','欣克疹','Shingrix','RZV','shingles','herpes zoster'];
   // 民眾常用說法（只影響搜尋命中，不改任何來源文字）
-  const covidAliases=['新冠','新冠肺炎','新型冠狀病毒','COVID','COVID-19','SARS-CoV-2','武漢肺炎'];
+  const covidAliases=['新冠','新冠肺炎','新型冠狀病毒','COVID','COVID-19','SARS-CoV-2','武漢肺炎','莫德納','Moderna','Spikevax','mNEXSPIKE','Novavax','Nuvaxovid','諾瓦瓦克斯','mRNA'];
   const fluAliases=['流感','季節性流感','Influenza','flu'];
   // 每支疫苗的民眾說法／疾病名／商品名（篩檢器 id → 別名；成人時程以 en 對應）。只影響搜尋與名稱篩選，不改來源文字。
   const ALIASES={
@@ -154,7 +154,12 @@
     return entries.map(e=>{
       const hits=[...new Set([e.title,...e.aliases].map(norm).filter(a=>usable(a)&&q.includes(a)))];
       const GENERIC_ALL=[...POSTINF_GENERIC,...ADVERSE_GENERIC,...ALLERGY_GENERIC].map(norm);
-      const specific=hits.filter(h=>!GENERIC_ALL.includes(h));
+      // 通用詞若正好出現在條目標題裡（例：「PEG」對「PEG／polysorbate 過敏 → mRNA 疫苗」規則），對該條目就是專有詞；
+      // 但「過敏」「可以打」這種每條規則標題都有的字不升級，否則所有規則同分
+      const BROAD=['過敏','過敏反應','可以打','能打','成分','賦形劑','反應','副作用','不良反應'].map(norm);
+      const titleNorm=norm(e.title);
+      // 只升級英文成分名（peg、neomycin、polysorbate…）；中文「蛋過敏」「明膠」留在通用詞，否則會蓋過疫苗名的權重
+      const specific=hits.filter(h=>!GENERIC_ALL.includes(h)||(!BROAD.includes(h)&&/^[\x00-\x7f]+$/.test(h)&&titleNorm.includes(h)));
       if(!hits.length||(e.postinfRow!==undefined&&!specific.length&&!hits.some(h=>/感染|確診|痊癒|康復|得過/.test(h))))return null;
       // 疾病名（specific）加倍計分；總表列若同時命中疾病名與「多久／可以打」類問句字眼，再加分，
       // 讓「感冒可以打流感疫苗嗎」排在總表列而不是疫苗名稱卡（疫苗名卡仍在結果內）。
