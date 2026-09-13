@@ -13,7 +13,7 @@ gcloud services enable run.googleapis.com cloudbuild.googleapis.com artifactregi
 # 從原始碼建置（Cloud Build 讀根目錄 Dockerfile）；不驗證身分（網站前端直接呼叫），靠 Origin 白名單＋每 IP 限流＋並行上限
 gcloud run deploy "$SERVICE" --source . --region "$REGION" --platform managed --allow-unauthenticated \
   --port 8080 --cpu 1 --memory 512Mi --concurrency 8 --min-instances 0 --max-instances 2 --timeout 60 \
-  --set-env-vars "PUBLIC=1,ALLOWED_ORIGINS=$ORIGINS,PUBLIC_HOSTS=$HOSTS,RATE_LIMIT=60"
+  --set-env-vars "^|^PUBLIC=1|ALLOWED_ORIGINS=$ORIGINS|PUBLIC_HOSTS=$HOSTS|RATE_LIMIT=60"   # ^|^ 改用 | 當分隔，因為 HOSTS/ORIGINS 本身含逗號
 URL=$(gcloud run services describe "$SERVICE" --region "$REGION" --format 'value(status.url)')
 echo "服務網址：$URL"
 echo "健康檢查："; curl -s "$URL/api/health"; echo

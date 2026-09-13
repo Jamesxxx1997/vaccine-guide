@@ -17,7 +17,10 @@ GitHub Actions 的美國主機抓 `od.cdc.gov.tw` 常逾時（2026-09-12 兩次�
   並行上限 4、上游逾時 20 秒、工作階段 ≤100 個／15 分鐘，全部沿用。`/api/health` 回 `scope:"public"`。
 - B 模式的工作階段不再依賴 Cookie（跨站 iframe 的第三方 Cookie 在 Safari 會被擋）：初始頁面注入 `window.__vaccineRelaySession`，
   `proxy-client.js` 以 `X-Relay-Session` 標頭送回；Cookie（公開模式 `SameSite=None; Secure`）只是備援。
-- 部署：`PROJECT=<gcp-project-id> zsh backend/deploy_cloud_run.sh`（根目錄 `Dockerfile`；`gcloud run deploy --source .`）。
+- 現行服務（2026-09-13 部署）：`https://vaccine-cdc-relay-mf2uneq2fa-de.a.run.app`（GCP 專案 `vaccine-guide-relay`，asia-east1）；
+  `travel-live.js` 的 `PUBLIC_SERVICE` 指向它。首次 `gcloud run deploy --source` 曾因自動建立 Artifact Registry 倉庫逾時而失敗，
+  先手動 `gcloud artifacts repositories create cloud-run-source-deploy --repository-format=docker --location=asia-east1` 再部署即可。
+- 部署：`PROJECT=<gcp-project-id> zsh backend/deploy_cloud_run.sh`（根目錄 `Dockerfile`、`.gcloudignore`；`gcloud run deploy --source .`）。
   部署後把 `travel-live.js` 的 `PUBLIC_SERVICE` 填成服務網址、跑 `npm test`、commit/push；再以 `HOSTS=<主機名>` 重跑一次收緊 Host 檢查。
 - 費用：Cloud Run 免費額度每月 200 萬次請求、`min-instances 0`（閒置不計費；冷啟動約 2–4 秒，前端會提示「可能正在喚醒」）。
 - 授權提醒（沿用下方安全與範圍）：B 模式是把疾管署旅遊搜尋頁轉送到自己的 origin，**不是官方授權嵌入**；頁面保留非官方轉送提示與版權文字。
