@@ -4,7 +4,40 @@
   // Search-only spelling normalization; never alter source quotes or PDF glyphs.
   const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/皰/g,'疱').replace(/[\s\p{P}]/gu,'');
   const zosterAliases=['帶狀皰疹','皮蛇','欣剋疹','欣克疹','Shingrix','RZV','shingles','herpes zoster'];
-  const extraAliases=v=>v.id==='shingrix'||v.en==='Shingrix'?zosterAliases:[];
+  // 民眾常用說法（只影響搜尋命中，不改任何來源文字）
+  const covidAliases=['新冠','新冠肺炎','新型冠狀病毒','COVID','COVID-19','SARS-CoV-2','武漢肺炎'];
+  const fluAliases=['流感','季節性流感','Influenza','flu'];
+  // 每支疫苗的民眾說法／疾病名／商品名（篩檢器 id → 別名；成人時程以 en 對應）。只影響搜尋與名稱篩選，不改來源文字。
+  const ALIASES={
+    hepb:['B肝','B型肝炎','乙肝','HBV','Hepatitis B'],
+    bcg:['卡介苗','結核','BCG'],
+    dtap5:['五合一','百日咳','破傷風','白喉','小兒麻痺','b型嗜血桿菌','Hib','DTaP'],
+    hexa:['六合一','百日咳','破傷風','白喉','小兒麻痺','B肝','Hexaxim','哈多星'],
+    pcv:['肺炎鏈球菌','肺炎疫苗','結合型','PCV','13價','15價','20價'],
+    ppv23:['肺炎鏈球菌','肺炎疫苗','23價','多醣體','PPV23','PPSV23'],
+    flu:fluAliases,
+    mmr:['麻疹','腮腺炎','德國麻疹','MMR'],
+    var:['水痘','Varicella'],
+    hepa:['A肝','A型肝炎','甲肝','HAV','Hepatitis A'],
+    jelive:['日本腦炎','日腦','JE'],jeinact:['日本腦炎','日腦','JE'],
+    dtapipv:['四合一','百日咳','破傷風','白喉','小兒麻痺','DTaP-IPV','Tdap-IPV'],
+    tdap:['Tdap','三合一','百日咳','破傷風','白喉','減量破傷風'],
+    hpv:['HPV','子宮頸癌疫苗','九價','人類乳突病毒','菜花','Gardasil','嘉喜'],
+    shingrix:zosterAliases,
+    rsv:['RSV','呼吸道融合病毒','細胞融合病毒','Arexvy','Abrysvo','欣剋融','艾沛兒'],
+    rota:['輪狀病毒','輪狀','Rotarix','RotaTeq','輪達停','羅特律'],
+    mcv4:['腦膜炎雙球菌','流行性腦脊髓膜炎','腦膜炎','MCV4','MenB','Menveo','腦寧安'],
+    covid:covidAliases,
+  };
+  const ADULT_ALIASES={'Tdap':ALIASES.tdap,'MMR':ALIASES.mmr,'Influenza':fluAliases,'COVID-19':covidAliases,'Hepatitis B':ALIASES.hepb,'Hepatitis A':ALIASES.hepa,
+    'PCV13／15／20':ALIASES.pcv,'PPV23':ALIASES.ppv23,'JE':ALIASES.jelive,'HPV':ALIASES.hpv,'Shingrix':zosterAliases,'MCV4／MenB':[...ALIASES.mcv4,'B型腦膜炎'],
+    'Mpox':['M痘','猴痘','Mpox'],'RSV':ALIASES.rsv};
+  const extraAliases=v=>ALIASES[v.id]||ADULT_ALIASES[v.en]||[];
+  // 問句裡的病人條件 → 規則文字裡的用詞（挑出該顯示的段落用；不做臨床判定）
+  const CONDITION_SYNONYMS=[['孕婦',['懷孕','孕期','有孕','孕婦','懷孕中']],['哺乳',['哺乳','餵母奶','餵奶','母乳','授乳']],
+    ['免疫',['免疫不全','免疫功能','化療','免疫抑制','器官移植','免疫低下']],['類固醇',['類固醇']],['過敏',['過敏']],['蛋',['蛋過敏','雞蛋','對蛋']],
+    ['發燒',['發燒','感冒','生病','急性']],['HIV',['HIV','愛滋']],['血小板',['血小板','紫斑']],['GBS',['GBS','格林','吉蘭']],['免疫球蛋白',['免疫球蛋白','IVIG','輸血']],
+    ['活性減毒',['活性減毒','活疫苗','減毒']],['間隔',['間隔','多久','幾週','幾個月','幾天']]];
   const plain=html=>{const t=document.createElement('template');t.innerHTML=html||'';return t.content.textContent.trim();};
   const node=(tag,text,cls)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;};
   const button=(text,fn)=>{const b=node('button',text);b.type='button';b.onclick=fn;return b;};
@@ -55,8 +88,64 @@
     }
     entries.push({id:'adult:'+i,title:v.n,category:'成人時程',aliases:[v.en,...extraAliases(v)],sections});
   });
+  // 感染後接種間隔：把間隔規則分頁的總表（每列已綁 claim，原句可開原件）建成可搜尋條目，
+  // 讓「得新冠多久後可以打」「感冒可以打流感疫苗嗎」這類問題找得到。中文整理與原句分開列。
+  const POSTINF_KEYWORDS={
+    'postinf-general-cdc':['感冒','發燒','生病','急性病','急性','上呼吸道','通則','任何感染','任何疫苗'],
+    'postinf-flu-qa':[...fluAliases,'感冒','上呼吸道','得過流感','得流感'],
+    'flu-acip-annual-precaution':[...fluAliases,'ACIP','得過流感','得流感'],
+    'postinf-covid-qa':[...covidAliases,'確診','得新冠','得過新冠','染疫'],
+    'shingrix-prior-episode':[...zosterAliases,'皮蛇復發','復發','發作','長皮蛇','長過皮蛇'],
+    'varicella-natural-infection':['水痘','Varicella','長過水痘','得過水痘','出過水痘'],
+    'postinf-mpox-qa':['M痘','猴痘','Mpox','mpox','得過M痘'],
+  };
+  // 時序字眼（感染後多久…）才代表在問「感染後間隔」；「可以打」只是問句，不足以把總表列排到疫苗卡前面
+  const POSTINF_TIMING=['感染後','感染','得過','得到','確診後','確診','痊癒','康復','好了','多久','多久後','間隔','之後','幾週','幾個月','幾天','要等'];
+  const POSTINF_ASK=['可以打','能打','能不能打','可不可以打','要打嗎','還要打','需要打'];
+  const POSTINF_GENERIC=[...POSTINF_TIMING,...POSTINF_ASK];
+  const postinfRows=[...document.querySelectorAll('#postinfTbl tbody tr[data-ref-claim]')];
+  postinfRows.forEach((tr,i)=>{
+    const cells=[...tr.children].map(td=>td.textContent.trim());if(cells.length<4)return;
+    const claim=tr.dataset.refClaim,quotes=[...tr.querySelectorAll('q')].map(q=>q.textContent.trim());
+    const ref={claim};
+    entries.push({id:'postinf:'+i,postinfRow:i,title:cells[0],category:'感染後接種間隔',
+      aliases:[...(POSTINF_KEYWORDS[claim]||[]),...POSTINF_GENERIC],
+      sections:[{label:'中文整理（本站彙整）',text:cells[1],ref},{label:'原句摘錄（逐字，點字看原件）',text:quotes.join('　'),ref},{label:'出處',text:cells[3],ref}]});
+  });
+  // 關鍵字模式：整句問題不會是任何條目的子字串，改成反向比對「哪些別名出現在問題裡」，
+  // 依命中別名總長度排序（疾病名＋「多久」比只有疾病名分數高）。只在逐詞比對沒有結果時啟用。
+  function keywordFind(query){
+    const q=norm(query);if(q.length<3)return [];
+    const usable=a=>a.length>=(/^[\x00-\x7f]+$/.test(a)?3:2);
+    return entries.map(e=>{
+      const hits=[...new Set([e.title,...e.aliases].map(norm).filter(a=>usable(a)&&q.includes(a)))];
+      const specific=hits.filter(h=>!POSTINF_GENERIC.map(norm).includes(h));
+      if(!hits.length||(e.postinfRow!==undefined&&!specific.length&&!hits.some(h=>/感染|確診|痊癒|康復|得過/.test(h))))return null;
+      // 疾病名（specific）加倍計分；總表列若同時命中疾病名與「多久／可以打」類問句字眼，再加分，
+      // 讓「感冒可以打流感疫苗嗎」排在總表列而不是疫苗名稱卡（疫苗名卡仍在結果內）。
+      const generic=hits.filter(h=>!specific.includes(h));
+      const timing=hits.filter(h=>POSTINF_TIMING.map(norm).includes(h));
+      const score=hits.reduce((n,h)=>n+h.length*(specific.includes(h)?2:1),0)+(e.postinfRow!==undefined?(specific.length&&timing.length?7:1):0);
+      // 問句提到的病人條件（懷孕、蛋過敏…）→ 優先顯示含該條件用詞的規則段落
+      const matchedSyn=CONDITION_SYNONYMS.filter(([,syn])=>syn.some(w=>q.includes(norm(w))));
+      const conditions=matchedSyn.map(([canon])=>canon);
+      // 段落分數＝含幾個「條件標準詞＋問句實際用字」（例：問「感冒」→ 含「感冒」又含「發燒」的段落 2 分，只含「發燒」的一般發燒句 1 分）
+      const condWords=[...new Set(matchedSyn.flatMap(([canon,syn])=>[canon,...syn.filter(w=>q.includes(norm(w)))]).map(norm))];
+      const condCount=s=>{const t=norm(s.label+s.text);return condWords.filter(w=>t.includes(w)).length;};
+      const byCondition=conditions.length?e.sections.filter(s=>condCount(s)>0)
+        .sort((a,b)=>condCount(b)-condCount(a)||(b.severity?1:0)-(a.severity?1:0)):[];   // 同分時規則條文優先於時程摘要
+      const byHit=e.sections.filter(s=>hits.some(h=>norm(s.label+s.text).includes(h)));
+      const matches=byCondition.length?byCondition:(byHit.length?byHit:e.sections.slice(0,1));
+      const condBonus=byCondition.length?10*condCount(byCondition[0]):0;   // 問句有病人條件時，真正含該條件條文的卡片要排在只命中疫苗名的前面
+      return {entry:e,matches,score:score+condBonus,hit:true,keywords:[...hits,...conditions.filter(c=>!hits.includes(norm(c)))]};
+    }).filter(Boolean).sort((a,b)=>b.score-a.score);
+  }
   function find(query){
     const terms=String(query||'').trim().split(/\s+/).map(norm).filter(Boolean);if(!terms.length)return [];
+    const exact=findExact(terms);
+    return exact.length?exact:keywordFind(query);
+  }
+  function findExact(terms){
     return entries.map(e=>{
       const heading=norm([e.title,...e.aliases].join(' ')),full=heading+norm(e.sections.map(s=>s.label+s.text).join(' '));
       const sectionScore=s=>terms.filter(t=>norm(s.label+s.text).includes(t)).length;
@@ -80,7 +169,8 @@
   }
   function draw(){
     ReferenceUI.clear();results.replaceChildren();const found=find(input.value);
-    status.textContent=!input.value.trim()?'不必先選目的地，直接輸入疫苗名稱。':found.length?`找到 ${found.length} 組已整理資料；可直接查原文或展開完整說明。`:'本站已整理內容沒有命中；不表示不存在該疫苗或接種建議。';
+    const keywords=found[0]?.keywords;
+    status.textContent=!input.value.trim()?'不必先選目的地，直接輸入疫苗名稱或問題（例：得新冠多久後可以打）。':found.length?(keywords?`整句沒有逐字命中，改以問題中的關鍵字比對：${keywords.join('、')}；找到 ${found.length} 組。`:`找到 ${found.length} 組已整理資料；可直接查原文或展開完整說明。`):'本站已整理內容沒有命中；不表示不存在該疫苗或接種建議。';
     for(const r of found.slice(0,limit)){
       const card=node('article',undefined,'vaccine-search-result');card.dataset.searchEntry=r.entry.id;
       card.append(node('small',r.entry.category),node('h3',r.entry.title));
@@ -93,7 +183,8 @@
       if(r.entry.caveat&&s!==r.entry.caveat){const p=node('p',r.entry.caveat.label+'：'+r.entry.caveat.text,'vaccine-search-caveat');ReferenceUI.bind(p,r.entry.caveat.ref);card.append(p);}
       const actions=node('div',undefined,'travel-search-row');
       actions.append(button('展開劑次／禁忌與原文',()=>open(r.entry)));
-      if(!r.entry.guide)actions.append(button('前往'+(r.entry.id.startsWith('vax:')?'接種前篩檢':'成人時程')+'原卡片',()=>reveal(r.entry)));
+      if(r.entry.postinfRow!==undefined)actions.append(button('前往間隔規則總表',()=>revealPostinf(r.entry)));
+      else if(!r.entry.guide)actions.append(button('前往'+(r.entry.id.startsWith('vax:')?'接種前篩檢':'成人時程')+'原卡片',()=>reveal(r.entry)));
       card.append(actions);
       results.append(card);
     }
@@ -136,6 +227,12 @@
     filter.field.value='';filter.refresh();
     const card=filter.list.querySelectorAll(':scope > .vax')[index];if(!card)return;
     card.classList.add('open');card.setAttribute('tabindex','-1');card.focus({preventScroll:true});card.scrollIntoView?.({block:'center'});
+  }
+  function revealPostinf(entry){
+    ReferenceUI.clear();
+    const tab=Array.from(document.getElementById('tabs').children).find(t=>/間隔規則/.test(t.textContent));tab?.click();
+    const row=postinfRows[entry.postinfRow];if(!row)return;
+    row.setAttribute('tabindex','-1');row.focus({preventScroll:true});row.scrollIntoView?.({block:'center'});
   }
   window.VaccineListFilters=Object.freeze({refresh(){filters.forEach(f=>f.refresh());}});
   window.VaccineSearch=Object.freeze({find,open,get count(){return entries.length;}});
