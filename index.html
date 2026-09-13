@@ -210,6 +210,13 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 #expanel .exmeta{font-size:12.5px;color:var(--ink-3)}
 #postinfTbl q{display:block;quotes:"「" "」";margin:2px 0;padding:4px 8px;border-left:3px solid #e6b800;background:var(--surface-2);font-size:12.5px;line-height:1.5}
 #postinfTbl q + q{margin-top:6px}
+.adverse-table td.adverse-pct{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.adverse-table td.adverse-na{text-align:center;color:var(--ink-3)}
+.adverse-card h3{margin:4px 0 2px}
+.adverse-note-block{margin:8px 0 12px}
+.adverse-note{margin:0 0 4px}
+.adverse-quote{display:block;quotes:"「" "」";padding:4px 8px;border-left:3px solid #e6b800;background:var(--surface-2);font-size:12.5px;line-height:1.5}
+.ref-marks a.ref-mark{text-decoration:none;font-size:11px;padding:0 2px;border:1px solid var(--line);border-radius:3px;margin-left:2px}
 @media(max-width:760px){#expanel{width:94vw}}
 </style>
 <link rel="stylesheet" href="reference-ui.css">
@@ -607,6 +614,13 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 </section>
 
 <!-- ═══════════ 來源 ═══════════ -->
+<!-- ═══════════ 副作用（原件表格） ═══════════ -->
+<section class="panel" id="p-adverse" role="tabpanel">
+  <h2>疫苗副作用（發生率與頻率，逐格可開原件）</h2>
+  <p class="sub" style="margin-top:-6px">百分比與頻率用語一律由 TFDA 仿單／疾管署接種須知的 PDF 文字層抽出（tools/build_adverse_effects.py），不手抄；每一格點字或停留即開原件裁圖與黃框。表中數字是臨床試驗或監測資料，對象與劑別見欄名，不是個人風險預測。同一句有多份來源時以 [1] [2] 各自連到對應 PDF。</p>
+  <div id="adverseRoot" data-ref-ui></div>
+</section>
+
 <section class="panel" id="p-src" role="tabpanel">
   <h2>來源文件與版本</h2>
   <p>本頁每條規則的引用代碼對應下表。核心資料擷取日為 <strong>2026-08-07</strong>；後續新增來源各自註明官方版本與收錄日期，請以下表為準。Shingrix 現行原始仿單為 S20，S9 僅保留歷史文字摘錄。</p>
@@ -1300,7 +1314,7 @@ const MINAGE = [
 const TABS = [
   ["p-screen","接種前篩檢"],["p-child","兒童時程"],["p-adult","成人時程"],
   ["p-interval","間隔規則"],["p-contra","禁忌總表"],
-  ["p-catchup","補種"],["p-src","來源與版本"],
+  ["p-catchup","補種"],["p-adverse","副作用"],["p-src","來源與版本"],
 ];
 const nav = document.getElementById("tabs");
 TABS.forEach(([id,label],i)=>{
@@ -1995,6 +2009,8 @@ render();
 <script src="travel-live.js"></script>
 <script src="travel-assessment.js"></script>
 <script src="travel-vaccine-guides.js"></script>
+<script src="review/adverse-effects.js"></script>
+<script src="adverse-effects.js"></script>
 <script src="vaccine-search.js"></script>
 </body>
 </html>

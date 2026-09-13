@@ -1,0 +1,1130 @@
+{
+ "claims": {
+  "ae:covid-mnexspike-pct:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      442.29,
+      595.02,
+      457.59
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位疼痛 36.6% 84.8% 68.5%"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 注射部位疼痛"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-pct:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      460.59,
+      595.02,
+      475.89
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "疲倦 27.8% 51.0% 50.4%"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 疲倦"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-pct:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      478.89,
+      595.02,
+      494.19
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "腋下腫脹/壓痛 19.7% 24.5% 19.7%"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 腋下腫脹/壓痛"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-pct:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      497.19,
+      595.02,
+      512.49
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位腫脹 17.4% - -"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 注射部位腫脹"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-pct:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      515.49,
+      595.02,
+      530.79
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "頭痛 30.1% 42.6% 44.2%"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 頭痛"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-pct:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      533.79,
+      595.02,
+      549.09
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "肌肉痛 25.0% 35.0% 38.2%"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 肌肉痛"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-pct:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      552.09,
+      595.02,
+      567.39
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "畏寒 14.6% 21.0% 22.7%"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 畏寒"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-pct:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      570.39,
+      595.02,
+      585.69
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "噁心/嘔吐 13.1% - 12.1%"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 噁心/嘔吐"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-pct:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      588.69,
+      595.02,
+      603.99
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "關節痛 20.7% 31.8% 29.7%"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 關節痛"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      654.85,
+      595.02,
+      698.07
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "淋巴結病變（同側腋下腫大或壓痛）；接種部位疼痛；疲倦；頭痛；肌肉痛；畏寒；關節痛；噁心",
+      "非常常見（≥1/10）",
+      "/嘔吐"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 非常常見（≥1/10）"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      698.07,
+      595.02,
+      719.85
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見（≥1/100 ~ <1/10） 接種部位腫脹、紅斑；發熱"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 常見（≥1/100 ~ <1/10）"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      719.85,
+      595.02,
+      741.03
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "不常見（≥1/1,000 ~ <1/100） 過敏（如蕁麻疹、慢性蕁麻疹、皮疹、搔癢）"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 不常見（≥1/1,000 ~ <1/100）"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-freq:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      741.03,
+      595.02,
+      762.21
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見（≥1/10,000~<1/1,000） 淋巴結病變（如鎖骨上）；感覺減退；腹瀉；接種部分搔癢、瘀青"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 罕見（≥1/10,000~<1/1,000）"
+    }
+   ]
+  },
+  "ae:covid-mnexspike-freq:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 3,
+     "region": [
+      0,
+      762.21,
+      595.02,
+      777.51
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "非常罕見（<1/10,000） 皮疹"
+     ],
+     "label": "莫德納 mNEXSPIKE（XFG） · 非常罕見（<1/10,000）"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      111.93,
+      595.02,
+      127.23
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "躁動/哭鬧 81.5% 71.0% - - - -"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 躁動/哭鬧"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      130.23,
+      595.02,
+      145.53
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位疼痛 56.2% 76.8% 83.8% 98.4% 97% 92%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 注射部位疼痛"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      148.53,
+      595.02,
+      163.83
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "嗜睡 51.1% 49.7% - - - -"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 嗜睡"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      166.83,
+      595.02,
+      182.13
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "疲倦 - - 61.9% 73.1% 75% 70%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 疲倦"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      185.13,
+      595.02,
+      200.43
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "食慾不振 45.7% 42.4% - - - -"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 食慾不振"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      203.43,
+      595.02,
+      218.73
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "發燒 21.8% 26.1% 20.9% 25.7% 14% 15.5%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 發燒"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      221.73,
+      595.02,
+      237.03
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "腋下腫脹/壓痛 12.2% 11.5% 14.3% 27% 35% 19.8%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 腋下腫脹/壓痛"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      240.03,
+      595.02,
+      255.33
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位腫脹 18.4% 15.7% 8.2% 22.3% 28% 14.7%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 注射部位腫脹"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      258.33,
+      595.02,
+      273.63
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位紅斑 17.9% 17.9% 9.5% 24% 26% 10%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 注射部位紅斑"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:9": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      276.63,
+      595.02,
+      291.93
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "頭痛 - - 22.9% 62.1% 78% 64.7%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 頭痛"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:10": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      294.93,
+      595.02,
+      310.23
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "肌肉痛 - - 22.1% 35.3% 54% 61.5%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 肌肉痛"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:11": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      313.23,
+      595.02,
+      328.53
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "畏寒 - - 16.8% 34.6% 49% 45.4%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 畏寒"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:12": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      331.53,
+      595.02,
+      346.83
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "噁心/嘔吐 - - 15.2% 29.3% 29% 23%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 噁心/嘔吐"
+    }
+   ]
+  },
+  "ae:covid-spikevax-pct:13": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      349.83,
+      595.02,
+      365.13
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "關節痛 - - 12.8% 21.3% 35% 46.4%"
+     ],
+     "label": "莫德納 Spikevax（原病毒株，基礎劑） · 關節痛"
+    }
+   ]
+  },
+  "ae:covid-spikevax-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      418.15,
+      595.02,
+      461.45
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "淋巴腺病變 a ；接種部位疼痛、腫脹、紅斑；疲倦；頭痛；肌肉痛；畏寒；關節痛；發熱；噁心/",
+      "非常常見（≥1/10） b b b",
+      "嘔吐；食慾減退 ；易激惹/哭鬧 ；嗜睡"
+     ],
+     "label": "莫德納 Spikevax（原病毒株） · 非常常見（≥1/10）"
+    }
+   ]
+  },
+  "ae:covid-spikevax-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      464.25,
+      595.02,
+      488.79
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見（≥1/100 ~ <1/10） 接種部位蕁麻疹、皮疹；延遲性注射部位反應 c ；腹瀉"
+     ],
+     "label": "莫德納 Spikevax（原病毒株） · 常見（≥1/100 ~ <1/10）"
+    }
+   ]
+  },
+  "ae:covid-spikevax-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      488.79,
+      595.02,
+      512.79
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "不常見（≥1/1,000 ~ <1/100） 頭暈；接種部位搔癢；腹痛 d ；蕁麻疹 e"
+     ],
+     "label": "莫德納 Spikevax（原病毒株） · 不常見（≥1/1,000 ~ <1/100）"
+    }
+   ]
+  },
+  "ae:covid-spikevax-freq:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      512.79,
+      595.02,
+      536.79
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見（≥1/10,000~<1/1,000） 急性周圍面神經炎 f ；感覺遲鈍；感覺異常；臉部腫脹 g"
+     ],
+     "label": "莫德納 Spikevax（原病毒株） · 罕見（≥1/10,000~<1/1,000）"
+    }
+   ]
+  },
+  "ae:covid-spikevax-freq:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12",
+     "page": 4,
+     "region": [
+      0,
+      536.79,
+      595.02,
+      552.09
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "非常罕見（<1/10,000） 心肌炎；心包膜炎"
+     ],
+     "label": "莫德納 Spikevax（原病毒株） · 非常罕見（<1/10,000）"
+    }
+   ]
+  },
+  "ae:covid-novavax-pct:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      382.0,
+      595.02,
+      398.58
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位壓痛 71% 75% 72% 73% >50%"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 注射部位壓痛"
+    }
+   ]
+  },
+  "ae:covid-novavax-pct:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      397.48,
+      595.02,
+      414.06
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "注射部位疼痛 67% 62% 64% 61% >30%"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 注射部位疼痛"
+    }
+   ]
+  },
+  "ae:covid-novavax-pct:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      413.02,
+      595.02,
+      429.6
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "疲勞 54% 53% 66% 52% >30%"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 疲勞"
+    }
+   ]
+  },
+  "ae:covid-novavax-pct:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      428.5,
+      595.02,
+      445.08
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "肌肉痛 57% 51% 62% 51% >20%"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 肌肉痛"
+    }
+   ]
+  },
+  "ae:covid-novavax-pct:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      443.98,
+      595.02,
+      460.56
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "頭痛 63% 50% 68% 45% >20%"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 頭痛"
+    }
+   ]
+  },
+  "ae:covid-novavax-pct:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      459.52,
+      595.02,
+      476.1
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "全身無力 43% 41% 47% 40% >10%"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 全身無力"
+    }
+   ]
+  },
+  "ae:covid-novavax-pct:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      475.0,
+      595.02,
+      491.58
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "關節痛 19% 24% - 26% -"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 關節痛"
+    }
+   ]
+  },
+  "ae:covid-novavax-pct:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      490.48,
+      595.02,
+      507.06
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "噁心/嘔吐 23% 15% 26% - -"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 噁心/嘔吐"
+    }
+   ]
+  },
+  "ae:covid-novavax-pct:8": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      506.02,
+      595.02,
+      522.6
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "發燒 17% - - - -"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 發燒"
+    }
+   ]
+  },
+  "ae:covid-novavax-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      584.07,
+      595.02,
+      602.43
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "常見（≥1/100 ~ <1/10） 接種部位發紅 a,c ；接種部位腫脹 a ；發燒 e ；肢體疼痛"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 常見（≥1/100 ~ <1/10）"
+    }
+   ]
+  },
+  "ae:covid-novavax-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      602.43,
+      595.02,
+      620.79
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "不常見（≥1/1,000 ~ <1/100） 淋巴結腫大；高血壓 d ；皮疹；紅斑；搔癢；蕁麻疹；接種部位搔癢；發冷"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 不常見（≥1/1,000 ~ <1/100）"
+    }
+   ]
+  },
+  "ae:covid-novavax-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S12N",
+     "page": 2,
+     "region": [
+      0,
+      620.79,
+      595.02,
+      636.09
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "罕見（≥1/10,000 ~ <1/1,000） 接種部位溫熱感"
+     ],
+     "label": "Novavax Nuvaxovid（XFG） · 罕見（≥1/10,000 ~ <1/1,000）"
+    }
+   ]
+  },
+  "ae:shingrix-freq:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 4,
+     "region": [
+      0,
+      456.7,
+      595.92,
+      482.95
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "血液與淋巴系統疾患 少見 淋巴結病變"
+     ],
+     "label": "Shingrix 欣剋疹 · 少見"
+    }
+   ]
+  },
+  "ae:shingrix-freq:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 4,
+     "region": [
+      0,
+      482.95,
+      595.92,
+      529.45
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "免疫系統疾患 罕見 過敏反應，包括皮疹、蕁",
+      "麻疹、血管性水腫 2"
+     ],
+     "label": "Shingrix 欣剋疹 · 罕見"
+    }
+   ]
+  },
+  "ae:shingrix-freq:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 4,
+     "region": [
+      0,
+      529.45,
+      595.92,
+      555.7
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "神經系統疾患 極常見 頭痛"
+     ],
+     "label": "Shingrix 欣剋疹 · 極常見"
+    }
+   ]
+  },
+  "ae:shingrix-freq:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 4,
+     "region": [
+      0,
+      555.7,
+      595.92,
+      617.95
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "很罕見 格林-巴利症候群",
+      "(Guillain-Barre",
+      "syndrome)"
+     ],
+     "label": "Shingrix 欣剋疹 · 很罕見"
+    }
+   ]
+  },
+  "ae:shingrix-freq:4": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 4,
+     "region": [
+      0,
+      617.95,
+      595.92,
+      662.2
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "腸胃道疾患 極常見 腸胃道症狀(包括噁心、",
+      "嘔吐、腹瀉及/或腹痛)"
+     ],
+     "label": "Shingrix 欣剋疹 · 極常見"
+    }
+   ]
+  },
+  "ae:shingrix-freq:5": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 4,
+     "region": [
+      0,
+      662.2,
+      595.92,
+      688.45
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "肌肉骨骼與結締組織症狀 極常見 肌痛"
+     ],
+     "label": "Shingrix 欣剋疹 · 極常見"
+    }
+   ]
+  },
+  "ae:shingrix-freq:6": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 4,
+     "region": [
+      0,
+      688.45,
+      595.92,
+      714.7
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "少見 關節痛"
+     ],
+     "label": "Shingrix 欣剋疹 · 少見"
+    }
+   ]
+  },
+  "ae:shingrix-freq:7": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 4,
+     "region": [
+      0,
+      714.7,
+      595.92,
+      777.9
+     ],
+     "glyphRows": true,
+     "quotes": [
+      "一般症狀與施打部位症狀 極常見 注射部位反應(如疼痛、",
+      "發紅、腫脹)、疲倦、發",
+      "冷、發燒"
+     ],
+     "label": "Shingrix 欣剋疹 · 極常見"
+    }
+   ]
+  },
+  "ae:shingrix-notes:0": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "注射部位搔癢、不適"
+     ],
+     "label": "Shingrix 欣剋疹 · 常見（表格續）"
+    }
+   ]
+  },
+  "ae:shingrix-notes:1": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "肺炎鏈球菌多醣體疫苗和Shingrix同時接種時，較常發生發燒和寒顫的不良反應"
+     ],
+     "label": "Shingrix 欣剋疹 · 與 23 價肺炎鏈球菌疫苗同時接種"
+    }
+   ]
+  },
+  "ae:shingrix-notes:2": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "(同時施打的發生率分別為16%和21%；單獨施打則各為7%)"
+     ],
+     "label": "Shingrix 欣剋疹 · 同時接種發生率"
+    }
+   ]
+  },
+  "ae:shingrix-notes:3": {
+   "note": "",
+   "items": [
+    {
+     "source": "S20",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "50至69歲之受試者的注射部位疼痛與腫脹、疲倦、肌痛、頭痛、顫"
+     ],
+     "label": "Shingrix 欣剋疹 · 年齡差異"
+    }
+   ]
+  }
+ }
+}

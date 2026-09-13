@@ -57,6 +57,28 @@ def word_positions(page, word, glyph_rows=False):
     return [word] * len(token)
 
 
+
+def reading_lines(words):
+    """把 [x0,y0,x1,y1,text,...] 的字依閱讀序分行：yMin 相差 6pt 內視為同一行（不用中心點——Poppler 偶爾給出
+    跨兩行的高字框，中心點會落到別行；Shingrix 仿單「麻疹、血管性水腫」＋註腳「2」即一例），行內依 x0 排序。
+    表格各欄常被 pdftotext 切成不同區塊，區域模式若照文件序串接會把同一列拆散；產生器與定位器都用這個函式，
+    引句才保證在區域串流中連續。"""
+    ordered, line_top = [], None
+    for w in sorted(words, key=lambda w: (w[1], w[0])):
+        if line_top is None or w[1] > line_top + 6:
+            line_top = w[1]; ordered.append([])
+        ordered[-1].append(w)
+    return [sorted(line, key=lambda w: w[0]) for line in ordered]
+
+
+def reading_order(words):
+    return [w for line in reading_lines(words) for w in line]
+
+
+def region_words(words, region):
+    return [w for w in words if region[0] <= (w[0]+w[2])/2 <= region[2] and region[1] <= (w[1]+w[3])/2 <= region[3]]
+
+
 def anchor_quote(page, quote, region=None, glyph_rows=False):
     """Exact normalized matches only, never fuzzy or cross-column matching."""
     needle = normalize(quote)
@@ -67,6 +89,8 @@ def anchor_quote(page, quote, region=None, glyph_rows=False):
                  region[0] <= (w[0]+w[2])/2 <= region[2] and
                  region[1] <= (w[1]+w[3])/2 <= region[3]) or
                  (not region and page['lines'][w[5]][5] == block)]
+        if region:
+            words = reading_order(words)   # 區域模式依閱讀序（行→左到右）；與 tools/build_adverse_effects.py 共用同一規則
         stream, positions = '', []
         for word in words:
             token = normalize(word[4])
@@ -124,6 +148,19 @@ def build():
     sources = json.loads(subprocess.check_output(
         ['node', str(ROOT / 'tools/export_reference_inputs.mjs')], text=True))
     spec = json.loads((ROOT / 'review/reference-claims.json').read_text())
+    # 產生器輸出的 claims（副作用表 ae:、之後的過敏成分表）放在獨立檔案，這裡合併；key 不得與手寫 claims 重複。
+    for extra in ('review/adverse-claims.json', 'review/allergen-claims.json'):
+        path = ROOT / extra
+        if path.is_file():
+            more = json.loads(path.read_text())
+            dup = set(more.get('claims', {})) & set(spec['claims'])
+            if dup:
+                raise ValueError('Duplicate claim ids across files: ' + ', '.join(sorted(dup)))
+            spec['claims'].update(more.get('claims', {}))
+            for k, v in more.get('hashes', {}).items():
+                if spec['hashes'].get(k, v) != v:
+                    raise ValueError('Conflicting hash for ' + k)
+                spec['hashes'][k] = v
     glyph_pages = {}
     for claim in spec['claims'].values():
         for item in claim['items']:
