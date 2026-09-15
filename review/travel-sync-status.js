@@ -1,1 +1,1 @@
-const TRAVEL_SYNC_STATUS={"attemptedAt":"2026-09-15T05:01:27.146Z","outcome":"failed","message":"官方資料更新未成功；保留上次通過檢查的資料。"};
+const TRAVEL_SYNC_STATUS={"attemptedAt":"2026-09-15T23:30:07.172Z","succeededAt":"2026-09-15T23:30:10.738Z","outcome":"success"};
