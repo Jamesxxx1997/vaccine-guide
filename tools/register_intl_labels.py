@@ -12,7 +12,7 @@ import hashlib, json, re, sys, glob
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-AGENCY = dict(FDA='美國 FDA', EMA='歐盟 EMA', MHRA='英國 MHRA', HPRA='愛爾蘭 HPRA', TGA='澳洲 TGA', Medsafe='紐西蘭 Medsafe', HSA='新加坡 HSA', emc='英國 emc（MHRA 核准文本）')
+AGENCY = dict(FDA='美國 FDA', EMA='歐盟 EMA', MHRA='英國 MHRA', HPRA='愛爾蘭 HPRA', TGA='澳洲 TGA', Medsafe='紐西蘭 Medsafe', HSA='新加坡 HSA', emc='英國 emc（MHRA 核准文本）', HealthCanada='加拿大 Health Canada')
 
 def sha256(p: Path) -> str:
     h = hashlib.sha256()

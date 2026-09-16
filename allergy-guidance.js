@@ -15,7 +15,7 @@
   const vaccineName=id=>{const v=((typeof VAX!=='undefined'&&VAX)||[]).find(x=>x.id===id);if(v)return v.n;const p=(typeof ALLERGENS!=='undefined'?ALLERGENS.products:[]).find(x=>x.vaccine===id&&x.vaccineName);return p?p.vaccineName:(EXTRA_VACCINE_NAMES[id]||id);};
   const EXTRA_VACCINE_NAMES={menb:'腦膜炎雙球菌 B 型疫苗（Bexsero）',typhoid:'傷寒疫苗（Typhim Vi）',mpox:'M痘疫苗（Jynneos）'};   // 站上 VAX 沒有卡片的疫苗
   // 仿單來源機關徽章：TFDA（台灣中文仿單）／FDA／EMA／MHRA／TGA…；同一支疫苗的列在矩陣裡相鄰，台灣仿單在前
-  const originLabel=o=>({TFDA:'台灣 TFDA',FDA:'美國 FDA',EMA:'歐盟 EMA',MHRA:'英國 MHRA',HPRA:'愛爾蘭 HPRA',TGA:'澳洲 TGA',Medsafe:'紐西蘭 Medsafe',HSA:'新加坡 HSA',emc:'英國 emc'})[o]||o||'台灣 TFDA';
+  const originLabel=o=>({TFDA:'台灣 TFDA',FDA:'美國 FDA',EMA:'歐盟 EMA',MHRA:'英國 MHRA',HPRA:'愛爾蘭 HPRA',TGA:'澳洲 TGA',Medsafe:'紐西蘭 Medsafe',HSA:'新加坡 HSA',emc:'英國 emc',HealthCanada:'加拿大 Health Canada（同成分替代）'})[o]||o||'台灣 TFDA';
   const badge=p=>{const b=node('span',originLabel(p.origin),'origin-badge origin-'+((p.origin||'TFDA').toLowerCase()));b.title=(p.origin==='TFDA'||!p.origin)?'台灣食藥署核准中文仿單':'原廠英文仿單（'+originLabel(p.origin)+'）';return b;};
   const productTitle=p=>p.product+'｜'+originLabel(p.origin);
   const ordered=list=>{const rank=p=>(p.origin==='TFDA'||!p.origin)?0:1;const vids=[...new Set(list.map(p=>p.vaccine))];return vids.flatMap(v=>list.filter(p=>p.vaccine===v).sort((a,b)=>rank(a)-rank(b)));};
@@ -124,7 +124,9 @@
   if(products.length){
     const wrap=node('div',undefined,'scroller'),table=node('table');table.id='allergenMatrix';const thead=node('thead'),hr=node('tr');hr.append(node('th','產品'));for(const k of keys)hr.append(node('th',k.label));thead.append(hr);table.append(thead);
     const tbody=node('tbody');
-    for(const p of ordered(products)){const tr=node('tr');tr.dataset.allergyProduct=p.id;tr.dataset.origin=p.origin||'TFDA';const th=node('td');th.append(node('div',p.product),badge(p));tr.append(th);
+    for(const p of ordered(products)){const tr=node('tr');tr.dataset.allergyProduct=p.id;tr.dataset.origin=p.origin||'TFDA';const th=node('td');th.append(node('div',p.product),badge(p));
+      if(p.note){const sm=node('small','※ '+p.note,'allergy-note');sm.title=p.note;th.append(sm);}   // 產品層級說明（例：Quadracel 為 Tetraxim 同成分替代列）
+      tr.append(th);
       for(const k of keys){const a=productAllergen(p,k.key);const td=node('td',a?a.status:'未載明','allergy-'+(a?.status==='有'?'yes':a?.status==='無'?'no':'na'));
         if(a?.claim&&!a.related)bind(td,a.claim,a.text);
         // 分片的 note＝仿單同句的但書（例：Bexsero 針筒未檢出乳膠，但用於乳膠敏感者安全性未確立）；「無」不能單獨顯示

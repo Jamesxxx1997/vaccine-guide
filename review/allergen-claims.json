@@ -1,5 +1,469 @@
 {
  "claims": {
+  "al:S155:comp:0": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "QUADRACEL® [Diphtheria and Tetanus Toxoids and Acellular Pertussis Vaccine Adsorbed Combined with InactivatedPoliovirus] is a sterile, uniform, cloudy, white to off-white suspension of diphtheria and tetanus toxoids and acellular pertussis vaccine adsorbed separately on aluminum phosphate combined with inactivated poliovirus types 1, 2 and 3 and suspended in water for injection. The acellular pertussis vaccine is composed of 5 purified pertussis antigens (PT, FHA, PRN and FIM)."
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Description／成分"
+    }
+   ]
+  },
+  "al:S155:comp:1": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Diphtheria Toxoid 15 Lf"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Active Ingredients",
+     "region": [
+      70,
+      163,
+      460,
+      178
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:2": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Tetanus Toxoid 5 Lf"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Active Ingredients",
+     "region": [
+      70,
+      182,
+      460,
+      198
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:3": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Pertussis Toxoid (PT) 20 mcg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Active Ingredients",
+     "region": [
+      70,
+      221,
+      465,
+      237
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:4": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Filamentous Haemagglutinin (FHA) 20 mcg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Active Ingredients",
+     "region": [
+      70,
+      241,
+      465,
+      257
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:5": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Pertactin (PRN) 3 mcg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Active Ingredients",
+     "region": [
+      70,
+      260,
+      465,
+      276
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:6": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Fimbriae Types 2 and 3 (FIM) 5 mcg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Active Ingredients",
+     "region": [
+      70,
+      280,
+      465,
+      296
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:7": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Aluminum Phosphate (adjuvant) (aluminum 0.33 mg) 1.5 mg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Other Ingredients",
+     "region": [
+      70,
+      422,
+      435,
+      437
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:8": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "2-phenoxyethanol 0.6% v/v"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Other Ingredients",
+     "region": [
+      70,
+      441,
+      445,
+      457
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:9": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Polysorbate 80 < 8.1 mcg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Other Ingredients",
+     "region": [
+      70,
+      461,
+      445,
+      477
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:10": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Formaldehyde 0.0004 to 0.0015 % w/w (2 mcg to 7mcg)"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Manufacturing Process Residuals",
+     "region": [
+      70,
+      552,
+      505,
+      567
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:11": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Glutaraldehyde < 50 ng"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Manufacturing Process Residuals",
+     "region": [
+      70,
+      572,
+      355,
+      587
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:12": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Bovine Serum Albumin (BSA) ≤ 10 ng"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Manufacturing Process Residuals",
+     "region": [
+      70,
+      593,
+      355,
+      608
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:13": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Neomycin < 0.01 pg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Manufacturing Process Residuals",
+     "region": [
+      70,
+      613,
+      365,
+      628
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:14": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Polymyxin B Sulfate < 0.000001 pg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Manufacturing Process Residuals",
+     "region": [
+      70,
+      633,
+      385,
+      648
+     ]
+    }
+   ]
+  },
+  "al:S155:comp:15": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Streptomycin Sulfate < 0.0001 pg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Manufacturing Process Residuals",
+     "region": [
+      70,
+      653,
+      375,
+      668
+     ]
+    }
+   ]
+  },
+  "al:S155:neomycin": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Neomycin < 0.01 pg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Neomycin：有",
+     "region": [
+      70,
+      613,
+      365,
+      628
+     ]
+    }
+   ]
+  },
+  "al:S155:other_antibiotics": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Polymyxin B Sulfate < 0.000001 pg Streptomycin Sulfate < 0.0001 pg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有",
+     "region": [
+      70,
+      633,
+      385,
+      668
+     ]
+    }
+   ]
+  },
+  "al:S155:latex": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The stopper of the vial for QUADRACEL® does not contain latex (natural rubber)."
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S155:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Polysorbate 80 < 8.1 mcg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · PEG／polysorbate 80：有",
+     "region": [
+      70,
+      461,
+      445,
+      477
+     ]
+    }
+   ]
+  },
+  "al:S155:formaldehyde": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Formaldehyde 0.0004 to 0.0015 % w/w (2 mcg to 7mcg)"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · 福馬林／甲醛殘留：有",
+     "region": [
+      70,
+      552,
+      505,
+      567
+     ]
+    }
+   ]
+  },
+  "al:S155:thimerosal:related": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "2-phenoxyethanol 0.6% v/v"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · 硫柳汞：未載明（相關原句）",
+     "region": [
+      70,
+      441,
+      445,
+      457
+     ]
+    }
+   ]
+  },
+  "al:S155:aluminium": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "Aluminum Phosphate (adjuvant) (aluminum 0.33 mg) 1.5 mg"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · 鋁佐劑：有",
+     "region": [
+      70,
+      422,
+      435,
+      437
+     ]
+    }
+   ]
+  },
+  "al:S155:warn:0": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "It is recommended that known systemic hypersensitivity reaction to any component of QUADRACEL® or a life-threatening reaction after previous administration of the vaccine or a vaccine containing one or more of the same components are contraindications to vaccination1"
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Contraindications - Hypersensitivity"
+    }
+   ]
+  },
+  "al:S155:warn:1": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Encephalopathy (e.g., coma, decreased level of consciousness, prolonged seizures) within 7 days of a previous dose of a pertussis-containing vaccine that is not attributable to another identifiable cause."
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Contraindications - Neurological Disorders"
+    }
+   ]
+  },
+  "al:S155:warn:2": {
+   "items": [
+    {
+     "source": "S155",
+     "page": 9,
+     "glyphRows": true,
+     "quotes": [
+      "The stopper of the vial for QUADRACEL® does not contain latex (natural rubber)."
+     ],
+     "label": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考） · Latex"
+    }
+   ]
+  },
   "al:S20:comp:0": {
    "items": [
     {

@@ -1,15 +1,8 @@
-name: Verify, sync CDC travel data, and publish Pages
+name: Verify and publish Pages（旅遊資料由本機每日同步推送，GitHub 不再下載）
 on:
   push:
-    branches: [main]
-    paths-ignore:
-      - 'data/travel/sources/**'
-      - 'review/travel-current.js'
-      - 'review/travel-sync-status.js'
+    branches: [main]   # 本機每日 07:30 同步推上來的旅遊資料也要觸發部署（GitHub 端已不再自行下載）
   workflow_dispatch:
-  schedule:
-    # Daily 08:23 Taiwan time. GitHub may delay or skip scheduled runs.
-    - cron: '23 0 * * *'
 concurrency:
   group: vaccine-guide-pages
   cancel-in-progress: false
@@ -21,8 +14,6 @@ jobs:
     timeout-minutes: 45   # 測試套件已成長（39 檔、含 test_reference_coverage 約 5 分鐘）＋ od.cdc.gov.tw 逾時重試；20 分鐘會被 GitHub 以 cancelled 砍掉（2026-09-16）
     permissions:
       contents: write
-    outputs:
-      sync_outcome: ${{ steps.sync.outcome }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -37,28 +28,8 @@ jobs:
         run: npm test
       - name: Verify parser and failure-retention invariants
         run: node --test tools/test_travel_sync.mjs
-      - name: Refresh both official datasets (retain last good bundle on failure)
-        id: sync
-        continue-on-error: true
-        run: node tools/sync_travel_data.mjs
       - name: Verify fresh or retained dataset
         run: node tools/verify_current_travel.cjs
-      - name: Record source snapshots and update status
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/travel/sources review/travel-current.js review/travel-sync-status.js
-          if ! git diff --cached --quiet; then
-            git commit -m 'Update verified CDC travel snapshot and sync status'
-            # 使用者在本 run 期間又 push 時，直接 push 會被拒（2026-09-13 發生過）：先 rebase 到最新 main 再推，最多重試 3 次
-            for attempt in 1 2 3; do
-              git fetch origin main
-              git rebase origin/main || { git rebase --abort; exit 1; }
-              git push origin HEAD:main && break
-              [ "$attempt" = 3 ] && exit 1
-              sleep 15
-            done
-          fi
       - name: Package public static files only
         id: package
         run: node tools/package_pages.mjs
@@ -79,8 +50,3 @@ jobs:
       - name: Publish the verified static site
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Surface source failure after publishing its visible warning
-        if: needs.build.outputs.sync_outcome == 'failure'
-        run: |
-          echo 'Official sync failed. Last good data and a visible failure warning were deployed.'
-          exit 1

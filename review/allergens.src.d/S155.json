@@ -1,0 +1,43 @@
+{
+ "vaccine": "dtapipv",
+ "product": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考）",
+ "source": "S155",
+ "origin": "HealthCanada",
+ "lang": "en",
+ "note": "台灣 Tetraxim 查無任何藥政機關英文仿單；此列為加拿大同公司同抗原組成產品 Quadracel 的 Product Monograph，作替代參考，非 Tetraxim 本身。",
+ "components": [
+  {"page": 7, "label": "Description／成分", "quote": "QUADRACEL® [Diphtheria and Tetanus Toxoids and Acellular Pertussis Vaccine Adsorbed Combined with InactivatedPoliovirus] is a sterile, uniform, cloudy, white to off-white suspension of diphtheria and tetanus toxoids and acellular pertussis vaccine adsorbed separately on aluminum phosphate combined with inactivated poliovirus types 1, 2 and 3 and suspended in water for injection. The acellular pertussis vaccine is composed of 5 purified pertussis antigens (PT, FHA, PRN and FIM)."},
+  {"page": 8, "label": "Active Ingredients", "quote": "Diphtheria Toxoid 15 Lf", "region": [70, 163, 460, 178]},
+  {"page": 8, "label": "Active Ingredients", "quote": "Tetanus Toxoid 5 Lf", "region": [70, 182, 460, 198]},
+  {"page": 8, "label": "Active Ingredients", "quote": "Pertussis Toxoid (PT) 20 mcg", "region": [70, 221, 465, 237]},
+  {"page": 8, "label": "Active Ingredients", "quote": "Filamentous Haemagglutinin (FHA) 20 mcg", "region": [70, 241, 465, 257]},
+  {"page": 8, "label": "Active Ingredients", "quote": "Pertactin (PRN) 3 mcg", "region": [70, 260, 465, 276]},
+  {"page": 8, "label": "Active Ingredients", "quote": "Fimbriae Types 2 and 3 (FIM) 5 mcg", "region": [70, 280, 465, 296]},
+  {"page": 8, "label": "Other Ingredients", "quote": "Aluminum Phosphate (adjuvant) (aluminum 0.33 mg) 1.5 mg", "region": [70, 422, 435, 437]},
+  {"page": 8, "label": "Other Ingredients", "quote": "2-phenoxyethanol 0.6% v/v", "region": [70, 441, 445, 457]},
+  {"page": 8, "label": "Other Ingredients", "quote": "Polysorbate 80 < 8.1 mcg", "region": [70, 461, 445, 477]},
+  {"page": 8, "label": "Manufacturing Process Residuals", "quote": "Formaldehyde 0.0004 to 0.0015 % w/w (2 mcg to 7mcg)", "region": [70, 552, 505, 567]},
+  {"page": 8, "label": "Manufacturing Process Residuals", "quote": "Glutaraldehyde < 50 ng", "region": [70, 572, 355, 587]},
+  {"page": 8, "label": "Manufacturing Process Residuals", "quote": "Bovine Serum Albumin (BSA) ≤ 10 ng", "region": [70, 593, 355, 608]},
+  {"page": 8, "label": "Manufacturing Process Residuals", "quote": "Neomycin < 0.01 pg", "region": [70, 613, 365, 628]},
+  {"page": 8, "label": "Manufacturing Process Residuals", "quote": "Polymyxin B Sulfate < 0.000001 pg", "region": [70, 633, 385, 648]},
+  {"page": 8, "label": "Manufacturing Process Residuals", "quote": "Streptomycin Sulfate < 0.0001 pg", "region": [70, 653, 375, 668]}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "有", "page": 8, "quote": "Neomycin < 0.01 pg", "region": [70, 613, 365, 628]},
+  {"key": "other_antibiotics", "status": "有", "page": 8, "quote": "Polymyxin B Sulfate < 0.000001 pg Streptomycin Sulfate < 0.0001 pg", "region": [70, 633, 385, 668]},
+  {"key": "yeast", "status": "未載明"},
+  {"key": "latex", "status": "無", "page": 9, "quote": "The stopper of the vial for QUADRACEL® does not contain latex (natural rubber)."},
+  {"key": "peg_polysorbate", "status": "有", "page": 8, "quote": "Polysorbate 80 < 8.1 mcg", "region": [70, 461, 445, 477]},
+  {"key": "formaldehyde", "status": "有", "page": 8, "quote": "Formaldehyde 0.0004 to 0.0015 % w/w (2 mcg to 7mcg)", "region": [70, 552, 505, 567]},
+  {"key": "thimerosal", "status": "未載明", "related": {"page": 8, "quote": "2-phenoxyethanol 0.6% v/v", "region": [70, 441, 445, 457], "note": "Other Ingredients 列 2-phenoxyethanol（苯氧基乙醇）為賦形劑之一；未列硫柳汞（thimerosal）"}},
+  {"key": "aluminium", "status": "有", "page": 8, "quote": "Aluminum Phosphate (adjuvant) (aluminum 0.33 mg) 1.5 mg", "region": [70, 422, 435, 437]}
+ ],
+ "warnings": [
+  {"label": "Contraindications - Hypersensitivity", "page": 4, "quote": "It is recommended that known systemic hypersensitivity reaction to any component of QUADRACEL® or a life-threatening reaction after previous administration of the vaccine or a vaccine containing one or more of the same components are contraindications to vaccination1"},
+  {"label": "Contraindications - Neurological Disorders", "page": 4, "quote": "Encephalopathy (e.g., coma, decreased level of consciousness, prolonged seizures) within 7 days of a previous dose of a pertussis-containing vaccine that is not attributable to another identifiable cause."},
+  {"label": "Latex", "page": 9, "quote": "The stopper of the vial for QUADRACEL® does not contain latex (natural rubber)."}
+ ]
+}

@@ -1,0 +1,71 @@
+[
+ {
+  "slug": "quadracel-healthcanada-proxy-for-tetraxim",
+  "vaccine": "dtapipv",
+  "product": "Quadracel（加拿大 Health Canada；與 Tetraxim 同成分、不同品名之替代參考）",
+  "agency": "HealthCanada",
+  "url": "https://pdf.hres.ca/dpd_pm/00083575.PDF",
+  "landing": "https://health-products.canada.ca/dpd-bdpp/",
+  "path": "sources/國際仿單/四合一_Tetraxim(Quadracel-HealthCanada同成分)_HealthCanada_2026-03.pdf",
+  "revised": "2026-03（Product Monograph）",
+  "downloaded": "2026-09-13",
+  "sha256": "0ae642dc1c97cc7a0329a557d8a84730a44427d6929871dac540a2b04f42b7fb",
+  "pages": 32,
+  "words": 9367,
+  "sections": {
+   "composition": [
+    2,
+    4,
+    6,
+    8
+   ],
+   "contraindications": [
+    2,
+    4,
+    9,
+    14
+   ],
+   "latex": [
+    9
+   ],
+   "egg": [],
+   "gelatin": [],
+   "neomycin": [
+    7,
+    8,
+    29
+   ],
+   "other_antibiotics": [
+    7,
+    8,
+    29
+   ],
+   "yeast": [],
+   "polysorbate_peg": [
+    7,
+    8,
+    29
+   ],
+   "formaldehyde": [
+    7,
+    8,
+    17,
+    29
+   ],
+   "thimerosal": [
+    7,
+    8,
+    29
+   ],
+   "aluminium": [
+    7,
+    8,
+    17,
+    29
+   ]
+  },
+  "copySource": "healthcanada",
+  "notes": "Tetraxim 在 EMA／MHRA／HPRA／TGA／Medsafe／HSA 皆查無官方仿單；使用者 2026-09-16 決定用 Health Canada 的 Quadracel（同公司、同抗原組成）作替代參考列，頁面須標示「同成分替代，非 Tetraxim 本身」。",
+  "source": "S155"
+ }
+]

@@ -888,5 +888,12 @@
   "path": "sources/感染後間隔/CDC疫苗接種通則_General_Best_Practice_Guidelines_for_Immunization.pdf",
   "pages": "claims",
   "agency": "CDC/ACIP"
+ },
+ "S155": {
+  "cat": "dtapipv",
+  "prod": "Quadracel（加拿大 Health Canada；與 Tetraxim 同成分、不同品名之替代參考）",
+  "path": "sources/國際仿單/四合一_Tetraxim(Quadracel-HealthCanada同成分)_HealthCanada_2026-03.pdf",
+  "pages": "claims",
+  "agency": "HealthCanada"
  }
 }

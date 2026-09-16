@@ -1,0 +1,114 @@
+{
+ "product": "Quadracel（Health Canada；與 Tetraxim 同成分、不同品名的替代參考）",
+ "source": "S155",
+ "pdf": "sources/國際仿單/四合一_Tetraxim(Quadracel-HealthCanada同成分)_HealthCanada_2026-03.pdf",
+ "pages": 32,
+ "date": "2026-09-16",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [
+    {
+     "page": 7,
+     "term": "phenoxyethanol",
+     "pattern": "phenoxyethanol",
+     "context": "pients: Aluminum⏎phosphate (adjuvant), 2phenoxyethanol,⏎polysorbate 80, water for⏎injection⏎Ma"
+    },
+    {
+     "page": 7,
+     "term": "phenoxyethanol",
+     "pattern": "phenoxyethanol",
+     "context": "Excipients:Aluminumphosphate(adjuvant),2phenoxyethanol,polysorbate80,waterforinjectionManufact"
+    },
+    {
+     "page": 8,
+     "term": "phenoxyethanol",
+     "pattern": "phenoxyethanol",
+     "context": "adjuvant) (aluminum 0.33 mg)⏎⏎1.5 mg⏎⏎2-phenoxyethanol⏎⏎0.6% v/v⏎⏎Polysorbate 80⏎⏎< 8.1 mcg⏎⏎W"
+    },
+    {
+     "page": 8,
+     "term": "phenoxyethanol",
+     "pattern": "phenoxyethanol",
+     "context": "osphate(adjuvant)(aluminum0.33mg)1.5mg2-phenoxyethanol0.6%v/vPolysorbate80<8.1mcgWaterforInjec"
+    },
+    {
+     "page": 29,
+     "term": "phenoxyethanol",
+     "pattern": "phenoxyethanol",
+     "context": "ients: Aluminum phosphate (adjuvant), 2-phenoxyethanol, polysorbate 80, water⏎for injection. R"
+    },
+    {
+     "page": 29,
+     "term": "phenoxyethanol",
+     "pattern": "phenoxyethanol",
+     "context": "gredients:Aluminumphosphate(adjuvant),2-phenoxyethanol,polysorbate80,waterforinjection.Residua"
+    }
+   ],
+   "dismissed": null
+  }
+ }
+}
