@@ -11,7 +11,12 @@
     {
      "source": "S54",
      "page": 3,
-     "region": [60.0, 195.0, 540.0, 322.0],
+     "region": [
+      60.0,
+      195.0,
+      540.0,
+      322.0
+     ],
      "quote": "不建議於接種COVID-19疫苗\n前，使用抗組織胺藥物作為預防過敏之用藥。抗組織胺藥物無法避免嚴重過敏反應之發\n生，且該預防性用藥可能使皮膚等相關症狀被掩蓋住，以致於延誤過敏反應之診斷與治\n療。"
     }
    ],
@@ -67,7 +72,12 @@
     {
      "source": "S57",
      "page": 84,
-     "region": [300.0, 470.0, 535.0, 562.0],
+     "region": [
+      300.0,
+      470.0,
+      535.0,
+      562.0
+     ],
      "quote": "H1 antihistamine:(a) Consider giving cetirizine 10 mg\nIV (given over 2 minutes) diphenhydramine 25 to 50\nmg IV (given over 5 minutes) (for relief of urticaria\nand itching only)\nH2 antihistamine:(a) Consider giving famotidine 20\nmg IV (given over 2 minutes).\nGlucocorticoid:(a) Consider giving methylprednisolone\n125 mg IV."
     },
     {
@@ -100,7 +110,12 @@
     {
      "source": "S57",
      "page": 75,
-     "region": [60.0, 88.0, 535.0, 150.0],
+     "region": [
+      60.0,
+      88.0,
+      535.0,
+      150.0
+     ],
      "quote": "The best practice to prevent allergic reactions is to identify individuals at\nincreased risk by obtaining a history of allergy to previous vaccinations and vaccine\ncomponents that might indicate an underlying hypersensitivity."
     }
    ],
@@ -250,7 +265,12 @@
     {
      "source": "S154",
      "page": 136,
-     "region": [65.0, 130.0, 330.0, 225.0],
+     "region": [
+      65.0,
+      130.0,
+      330.0,
+      225.0
+     ],
      "quote": "若被接種者曾有輕微雞蛋過敏的病史（除立即型過敏以外），且也同\n時屬於流感併發重症之高危險族群，這時施打流感疫苗者可以採\n取兩階段式接種法：先接種十分之一的劑量，30分鐘後無\n症狀產生，再接種剩下十分之九的劑量，並再觀察30分鐘\n始可離去"
     },
     {
@@ -276,7 +296,7 @@
    "id": "flu-vx-anaphylaxis-epi-adult-dose",
    "type": "fact",
    "label": "成人腎上腺素劑量：肌肉注射 0.3-0.5 mg（濃度 1:1000）",
-   "summary": "腎上腺素（濃度 1:1000，1mg/ml）為發生全身性嚴重過敏反應時的第一線治療藥物，成人肌肉注射劑量為 0.01mg/kg，成人最大注射量為 0.5mg/劑；若使用腎上腺素自動注射器，成人單次劑量為 0.3mg，於大腿前外側的肌肉進行注射。",
+   "summary": "腎上腺素（濃度 1:1000，1mg/ml）為發生全身性嚴重過敏反應時的第一線治療藥物，成人肌肉注射劑量為 0.01mg/kg，成人最大注射量為 0.5mg/劑；若使用腎上腺素自動注射器，成人單次劑量為 0.3mg，於大腿前外側的肌肉進行注射。（成人與兒童的 mg/kg 比率相同，皆為 0.01 mg/kg，差別只在單次上限。）",
    "refs": [
     {
      "source": "S54",
@@ -286,7 +306,12 @@
     {
      "source": "S54",
      "page": 3,
-     "region": [60.0, 70.0, 540.0, 90.0],
+     "region": [
+      60.0,
+      70.0,
+      540.0,
+      90.0
+     ],
      "quote": "如果使用腎上腺素自動注射器，成人單次劑量為0.3mg，於大腿前外側的肌肉進行注"
     }
    ],
@@ -308,7 +333,7 @@
    "id": "flu-vx-anaphylaxis-epi-child-dose",
    "type": "fact",
    "label": "兒童腎上腺素劑量：依體重分層（0.15mg／0.3mg）",
-   "summary": "兒童肌肉注射腎上腺素劑量為 0.01mg/kg，最大 0.3mg/劑；若使用腎上腺素自動注射器，25 公斤以下兒童單次劑量為 0.15mg，體重介於 26 至 50 公斤者單次劑量為 0.3mg。",
+   "summary": "兒童肌肉注射腎上腺素劑量為 0.01mg/kg，最大 0.3mg/劑；若使用腎上腺素自動注射器，25 公斤以下兒童單次劑量為 0.15mg，體重介於 26 至 50 公斤者單次劑量為 0.3mg。（成人與兒童的 mg/kg 比率相同，皆為 0.01 mg/kg，差別只在單次上限。）",
    "refs": [
     {
      "source": "S54",
@@ -318,7 +343,12 @@
     {
      "source": "S54",
      "page": 3,
-     "region": [60.0, 88.0, 540.0, 125.0],
+     "region": [
+      60.0,
+      88.0,
+      540.0,
+      125.0
+     ],
      "quote": "25公斤以下兒童，單次劑量為0.15mg，體重介於26至50公斤，單次劑量為\n0.3mg"
     }
    ],
@@ -344,7 +374,12 @@
     {
      "source": "S152",
      "page": 4,
-     "region": [30.0, 400.0, 550.0, 570.0],
+     "region": [
+      30.0,
+      400.0,
+      550.0,
+      570.0
+     ],
      "quote": "Weight             Preferred Method                         Available Autoinjectors              Weight-based Maximum Dose\n                                                                EpiPen and EpiPen Jr               (Epinephrine (1 mg/ml aqueous solution\n                                                                AUVI-Q                             [1:1000 dilution]) at dose of 0.01 mg/kg)*\n\n    >30 kg             Autoinjector, premeasured                       EpiPen 0.3 mg                 0.5 mg\n                       or prefilled syringe                            AUVI-Q 0.3 mg\n\n    15 kg to           Autoinjector                                    EpiPen Jr 0.15 mg             0.3 mg\n    <30 kg                                                             AUVI-Q 0.15 mg\n\n    <15 kg             Weight-based dosing                             AUVI-Q 0.1 mg                 0.15 mg"
     }
    ],
@@ -370,7 +405,12 @@
     {
      "source": "S152",
      "page": 4,
-     "region": [30.0, 240.0, 545.0, 280.0],
+     "region": [
+      30.0,
+      240.0,
+      545.0,
+      280.0
+     ],
      "quote": "Epinephrine (1 mg/ml aqueous solution [1:1000 dilution]) is the first-line treatment for anaphylaxis and should be\nadministered immediately, as an intramuscular injection."
     },
     {
@@ -435,7 +475,12 @@
     {
      "source": "S152",
      "page": 4,
-     "region": [70.0, 315.0, 540.0, 355.0],
+     "region": [
+      70.0,
+      315.0,
+      540.0,
+      355.0
+     ],
      "quote": "Because of the acute, life-threatening nature of anaphylaxis, there are no contraindications to epinephrine\nadministration."
     }
    ],
@@ -459,13 +504,23 @@
     {
      "source": "S54",
      "page": 2,
-     "region": [40.0, 615.0, 540.0, 690.0],
+     "region": [
+      40.0,
+      615.0,
+      540.0,
+      690.0
+     ],
      "quote": "如果接種者發生疑似全身性嚴重過敏反應之事件，請依下列步驟進行處置：快速評估呼吸道、呼吸、循環及意識狀況請求緊急醫療支援（如播打119、聯繫後送醫院..等）如病患無上呼吸道阻塞或嘔吐之狀況，將病患採仰臥姿勢並將腿部墊高（復甦姿勢）。"
     },
     {
      "source": "S57",
      "page": 84,
-     "region": [300.0, 375.0, 535.0, 445.0],
+     "region": [
+      300.0,
+      375.0,
+      535.0,
+      445.0
+     ],
      "quote": "Oxygen: Give 8 to 10 L/minute via facemask or up to\n100% oxygen, as needed.\nNormal saline rapid bolus: Treat hypotension with\nrapid infusion of 1 to 2 liters IV."
     }
    ],
@@ -493,13 +548,23 @@
     {
      "source": "S54",
      "page": 3,
-     "region": [60.0, 305.0, 540.0, 340.0],
+     "region": [
+      60.0,
+      305.0,
+      540.0,
+      340.0
+     ],
      "quote": "因全身性嚴重過敏反應可能於症狀緩解又再度發作，故建議發生全身性嚴重過敏反應病患需留院觀察至少4小時。"
     },
     {
      "source": "S152",
      "page": 5,
-     "region": [30.0, 55.0, 555.0, 90.0],
+     "region": [
+      30.0,
+      55.0,
+      555.0,
+      90.0
+     ],
      "quote": "Because anaphylaxis may recur after patients begin to recover, monitoring in a medical facility for several hours is\nadvised, even after complete resolution of symptoms and signs."
     }
    ],
@@ -554,7 +619,12 @@
     {
      "source": "S54",
      "page": 2,
-     "region": [30.0, 340.0, 565.0, 580.0],
+     "region": [
+      30.0,
+      340.0,
+      565.0,
+      580.0
+     ],
      "quote": "下列為針對全身性嚴重過敏反應進行評估及處置時，所需之急救藥物及設備：Ａ.一定要具備B.建議具備腎上腺素□氧氣（oxygen）血壓計□抗組織胺藥物（如diphenhydramine,cetirizine）□類固醇（steroid）□支氣管擴張劑（bronchodilator）□靜脈注射與點滴等□氧氣面罩(正壓給氧)□氣管插管裝備（intubationkit）或特殊情況下需氣切之裝備□自動體外心臟電擊去顫器(AutomatedExternalDefibrillator,AED)"
     }
    ],
