@@ -557,7 +557,7 @@
    "tags": {
     "group": "傳染力與潛伏期",
     "population": "general",
-    "topic": "潛伏期與可傳染期"
+    "topic": "潛伏期與可傳染期（疾管署三份文件與 CDC 並列；潛伏期上限 1–4 天與 1–5 天兩版並存）"
    },
    "authority": "疾管署",
    "note": "疾病介紹－流感，網頁列印"
@@ -583,7 +583,7 @@
    "tags": {
     "group": "傳染力與潛伏期",
     "population": "general",
-    "topic": "潛伏期與可傳染期"
+    "topic": "潛伏期與可傳染期（疾管署三份文件與 CDC 並列；潛伏期上限 1–4 天與 1–5 天兩版並存）"
    },
    "authority": "疾管署",
    "note": "疾病介紹－流感，網頁列印；「24–48 小時」為區間原句，未簡化"
@@ -610,7 +610,7 @@
    "tags": {
     "group": "傳染力與潛伏期",
     "population": "general",
-    "topic": "潛伏期與可傳染期"
+    "topic": "潛伏期與可傳染期（疾管署三份文件與 CDC 並列；潛伏期上限 1–4 天與 1–5 天兩版並存）"
    },
    "authority": "疾管署",
    "note": "此份 Q&A 寫「發病前 24 小時」（單一時點），與疾病介紹頁（S104）寫「發病前 24-48 小時」（區間）用字不同，兩者並列呈現，不強行合併"
@@ -636,7 +636,7 @@
    "tags": {
     "group": "傳染力與潛伏期",
     "population": "general",
-    "topic": "潛伏期與可傳染期"
+    "topic": "潛伏期與可傳染期（疾管署三份文件與 CDC 並列；潛伏期上限 1–4 天與 1–5 天兩版並存）"
    },
    "authority": "疾管署",
    "note": "與 S104／S108 的「潛伏期 1-4 天」不同：本指引寫「1 至 5 天」，兩份疾管署文件對潛伏期上限（4 天 vs 5 天）不一致，並列呈現"
@@ -672,7 +672,7 @@
    "tags": {
     "group": "傳染力與潛伏期",
     "population": "general",
-    "topic": "潛伏期與可傳染期"
+    "topic": "潛伏期與可傳染期（疾管署三份文件與 CDC 並列；潛伏期上限 1–4 天與 1–5 天兩版並存）"
    },
    "authority": "CDC",
    "note": "About Influenza — Key Facts；主詞明確是 otherwise healthy adults，兒童與免疫低下者另外註明可能更長"
@@ -698,7 +698,7 @@
    "tags": {
     "group": "傳染力與潛伏期",
     "population": "general",
-    "topic": "潛伏期與可傳染期"
+    "topic": "潛伏期與可傳染期（疾管署三份文件與 CDC 並列；潛伏期上限 1–4 天與 1–5 天兩版並存）"
    },
    "authority": "CDC",
    "note": "About Influenza — Key Facts"

@@ -33,7 +33,8 @@
    ],
    "tags": {
     "group": "免疫低下",
-    "population": "immunocompromised"
+    "population": "immunocompromised",
+    "topic": "免疫低下病人：延長抗病毒療程（IDSA 與 CDC）"
    },
    "authority": "IDSA",
    "note": "IDSA 2018 臨床指引 Recommendation 23，句子跨第 5–6 頁，故拆成兩條 ref 分別定位於各自頁面",
@@ -1133,7 +1134,8 @@
    ],
    "tags": {
     "group": "免疫低下",
-    "population": "immunocompromised"
+    "population": "immunocompromised",
+    "topic": "免疫低下病人：延長抗病毒療程（IDSA 與 CDC）"
    },
    "authority": "CDC",
    "keywords": [
