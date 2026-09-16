@@ -9,11 +9,29 @@
   const AUTH_LABEL={TFDA:'TFDA 仿單','疾管署':'疾管署',CDC:'美國 CDC',WHO:'WHO',IDSA:'IDSA',ACIP:'ACIP',paper:'文獻','廠商':'原廠說明書',PMDA:'日本 PMDA'};
   const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined&&text!==null)e.textContent=text;if(cls)e.className=cls;return e;};
   const bind=(el,claim,quote)=>{if(window.ReferenceUI&&claim){el.dataset.refClaim=claim;el.dataset.refQuote=quote||'';ReferenceUI.bind(el,{claim});}return el;};
-  // [1][2][3] 標記：每個 ref 一個，點了開該來源原句
-  function marks(refs){
+  // [1][2][3] 標記：每個 ref 一個，點了開該來源原句；offset 讓同一張議題卡內的編號連續
+  function marks(refs,offset=0){
     const wrap=node('span',undefined,'ref-marks');
-    refs.forEach((r,i)=>{const a=node('a','['+(i+1)+']','ref-mark');a.href='#';a.title=(srcName(r.source)||r.source)+' 第 '+r.page+' 頁'+(r.note?' · '+r.note:'');a.onclick=e=>e.preventDefault();bind(a,r.claim,r.quote);wrap.append(a,' ');});
+    refs.forEach((r,i)=>{const a=node('a','['+(offset+i+1)+']','ref-mark');a.href='#';a.title=(srcName(r.source)||r.source)+' 第 '+r.page+' 頁'+(r.note?' · '+r.note:'');a.onclick=e=>e.preventDefault();bind(a,r.claim,r.quote);wrap.append(a,' ');});
     return wrap;
+  }
+  function quoteLines(refs,offset=0){
+    const frag=document.createDocumentFragment();
+    refs.forEach((r,i)=>{const q=node('q',r.quote,'adverse-quote');bind(q,r.claim,r.quote);const line=node('p');line.append(node('b','['+(offset+i+1)+'] '),q,' ',node('small','— '+(srcName(r.source)||r.source)+'，第 '+r.page+' 頁'+(r.note?'（'+r.note+'）':''),'sub'));frag.append(line);});
+    return frag;
+  }
+  // 議題卡：同一議題（tags.topic 相同）的多條陳述（中文／英文、疾管署／CDC／WHO）合成一張卡，每行帶機關徽章，[n] 連續編號，原句合併列出
+  function topicCard(topic,items){
+    const card=node('section',undefined,'card clinical-item clinical-topic');card.dataset.clinicalTopic=topic;card.dataset.clinicalItem=items[0].id;card.dataset.refUi='';
+    card.append(node('h4',topic));
+    let offset=0;const allRefs=[];
+    for(const it of items){
+      const line=node('p',undefined,'clinical-summary');line.dataset.clinicalItem=it.id;
+      line.append(node('span',AUTH_LABEL[it.authority]||it.authority||'來源','origin-badge'),' ',it.answer||it.summary,' ',marks(it.refs,offset));
+      card.append(line);offset+=it.refs.length;allRefs.push(...it.refs);
+    }
+    const det=node('details',undefined,'clinical-quotes');det.append(node('summary','原句（'+allRefs.length+'）'));det.append(quoteLines(allRefs));card.append(det);
+    return card;
   }
   const srcName=id=>{const s=(typeof SRC!=='undefined'&&SRC)||{};return s[id]?s[id].n:'';};
   function itemCard(it){
@@ -22,8 +40,7 @@
     if(it.authority)h.append(' ',node('span',AUTH_LABEL[it.authority]||it.authority,'origin-badge'));
     card.append(h);
     const p=node('p',undefined,'clinical-summary');p.append(it.answer||it.summary,' ',marks(it.refs));card.append(p);
-    const det=node('details',undefined,'clinical-quotes');det.append(node('summary','原句（'+it.refs.length+'）'));
-    for(const r of it.refs){const q=node('q',r.quote,'adverse-quote');bind(q,r.claim,r.quote);const line=node('p');line.append(q,' ',node('small','— '+(srcName(r.source)||r.source)+'，第 '+r.page+' 頁'+(r.note?'（'+r.note+'）':''),'sub'));det.append(line);}
+    const det=node('details',undefined,'clinical-quotes');det.append(node('summary','原句（'+it.refs.length+'）'));det.append(quoteLines(it.refs));
     card.append(det);
     return card;
   }
@@ -83,10 +100,21 @@
     const wrap=node('div',undefined,'clinical-panel');wrap.dataset.panel=panelId;
     if(panelId==='antiviral')wrap.append(selector(disease));
     if(!items.length){wrap.append(node('p','此面板尚未收錄內容。','sub'));return wrap;}
+    // 同議題（tags.topic）的條目合成一張議題卡：整個面板內跨 group 合併（例：CDC 與 WHO 各在自己的 group），卡放在第一條出現的位置
+    const byTopic=new Map();
+    for(const it of items){const t=it.tags&&it.tags.topic;if(t){if(!byTopic.has(t))byTopic.set(t,[]);byTopic.get(t).push(it);}}
+    const done=new Set();
     // 依 tags.group 分組（分片可給 group 讓同藥／同主題的陳述相鄰）
     const groups=new Map();
     for(const it of items){const g=(it.tags&&it.tags.group)||'';if(!groups.has(g))groups.set(g,[]);groups.get(g).push(it);}
-    for(const [g,list] of groups){if(g)wrap.append(node('h3',g));for(const it of list)wrap.append(itemCard(it));}
+    for(const [g,list] of groups){
+      let heading=false;
+      for(const it of list){
+        const t=it.tags&&it.tags.topic;
+        if(t&&byTopic.get(t).length>1){if(done.has(t))continue;done.add(t);if(g&&!heading){wrap.append(node('h3',g));heading=true;}wrap.append(topicCard(t,byTopic.get(t)));}
+        else{if(g&&!heading){wrap.append(node('h3',g));heading=true;}wrap.append(itemCard(it));}
+      }
+    }
     return wrap;
   }
   // ── 站內關鍵字搜尋（不經 LLM）：輸入拆成詞（空白分隔，中文再逐字連續子串），對 問句／標籤／整理句／keywords／tags／group 逐一比對；

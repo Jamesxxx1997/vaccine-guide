@@ -11,11 +11,20 @@
     {
      "source": "S99",
      "page": 60,
-     "region": [228.77, 109.85, 525.88, 160.37],
+     "region": [
+      228.77,
+      109.85,
+      525.88,
+      160.37
+     ],
      "quote": "透過多元管道宣導生病在家休息不參加集會活動，病人於退燒後至少24小時才可參加集會活動。"
     }
    ],
-   "tags": {"group": "一般民眾（疾管署）", "population": "general"},
+   "tags": {
+    "group": "一般民眾",
+    "population": "general",
+    "topic": "一般民眾生病後何時恢復活動／上班"
+   },
    "authority": "疾管署",
    "note": "季節性流感防治工作手冊 2026 年 3 月版，集會活動主辦單位防疫作為段"
   },
@@ -28,11 +37,20 @@
     {
      "source": "S117",
      "page": 1,
-     "region": [23.99, 581.27, 476.02, 643.56],
+     "region": [
+      23.99,
+      581.27,
+      476.02,
+      643.56
+     ],
      "quote": "You can go back to your normal activities when, for at least 24 hours, both are true: Your symptoms are getting better overall, and You have not had a fever (and are not using fever-reducing medication). When you go back to your normal activities, take added precautions over the next 5 days, such as taking steps for cleaner air, practicing good"
     }
    ],
-   "tags": {"group": "一般民眾（美國 CDC）", "population": "general"},
+   "tags": {
+    "group": "一般民眾",
+    "population": "general",
+    "topic": "一般民眾生病後何時恢復活動／上班"
+   },
    "authority": "CDC",
    "note": "Preventing Spread of Respiratory Viruses When You're Sick，Reviewed 2025-08-18"
   },
@@ -49,7 +67,11 @@
      "note": "續句：acetaminophen 等退燒藥）"
     }
    ],
-   "tags": {"group": "醫療照護人員（疾管署）", "population": "hcp"},
+   "tags": {
+    "group": "醫療照護人員",
+    "population": "hcp",
+    "topic": "醫護人員感染後何時回班"
+   },
    "authority": "疾管署",
    "note": "醫療照護機構季節性流感感染管制措施指引 2017-06-15，第五章工作人員健康監測與管理"
   },
@@ -62,17 +84,31 @@
     {
      "source": "S102",
      "page": 8,
-     "region": [136.85, 407.05, 505.15, 565.02],
+     "region": [
+      136.85,
+      407.05,
+      505.15,
+      565.02
+     ],
      "quote": "若是負責照護保護環境（Protective Environment，PE）中的病人，如造血幹細胞移植患者（hematopoietic stem cell transplant patients，HSCT），建議在工作人員症狀出現後7 天內或症狀緩解前（以時間較長者為主），暫時另外分配工作或暫停上班。"
     },
     {
      "source": "S102",
      "page": 8,
-     "region": [160.87, 587.1, 505.15, 709.04],
+     "region": [
+      160.87,
+      587.1,
+      505.15,
+      709.04
+     ],
      "quote": "此外，這類病人儘管接受了抗病毒治療，排出病毒的時間可能比一般人長，除了增加傳播流感病毒給其他人的風險，亦增加了病毒發展出抗藥性的機會。"
     }
    ],
-   "tags": {"group": "醫療照護人員（疾管署）", "population": "hcp"},
+   "tags": {
+    "group": "醫療照護人員",
+    "population": "hcp",
+    "topic": "醫護人員負責照護保護環境（PE）病人者的工作限制"
+   },
    "authority": "疾管署",
    "note": "「7 天」僅限負責照護保護環境（PE）病人的工作人員，不是泛指照護所有免疫低下病人"
   },
@@ -85,11 +121,20 @@
     {
      "source": "S102",
      "page": 9,
-     "region": [136.85, 587.1, 505.15, 673.04],
+     "region": [
+      136.85,
+      587.1,
+      505.15,
+      673.04
+     ],
      "quote": "(3) 若是負責照護保護環境中的病人，建議在工作人員症狀出現後 7 天內或咳嗽以外的症狀緩解前（以時間較長者為主），暫時另外分配工作或暫停上班。"
     }
    ],
-   "tags": {"group": "醫療照護人員（疾管署）", "population": "hcp"},
+   "tags": {
+    "group": "醫療照護人員",
+    "population": "hcp",
+    "topic": "醫護人員負責照護保護環境（PE）病人者的工作限制"
+   },
    "authority": "疾管署",
    "note": "同一指引第 9 頁，適用於無發燒但有呼吸道症狀的工作人員"
   },
@@ -102,11 +147,20 @@
     {
      "source": "S103",
      "page": 8,
-     "region": [166.26, 191.08, 502.3, 277.29],
+     "region": [
+      166.26,
+      191.08,
+      502.3,
+      277.29
+     ],
      "quote": "應注意工作人員請假情形及監測有無流感症狀，若有發燒及呼吸道感染症狀應停止工作，直至未使用解熱劑且不再發燒 24 小時後才可恢復工作。"
     }
    ],
-   "tags": {"group": "醫療照護人員（疾管署）", "population": "hcp"},
+   "tags": {
+    "group": "醫療照護人員（疾管署）",
+    "population": "hcp",
+    "topic": "醫護人員感染後何時回班"
+   },
    "authority": "疾管署",
    "note": "長期照護機構季節性流感感染管制措施指引 1061013 版"
   },
@@ -119,11 +173,20 @@
     {
      "source": "S103",
      "page": 8,
-     "region": [166.26, 299.08, 504.72, 493.04],
+     "region": [
+      166.26,
+      299.08,
+      504.72,
+      493.04
+     ],
      "quote": "應採取標準防護措施與飛沫防護措施：(1) 飛沫防護措施須確實執行至感染者流感發病 7 天後或發燒及呼吸道症狀緩解 24 小時後，並以較長的防護期間為準。對於感染的嬰幼兒或免疫功能不全者，由於排放病毒的時間較長，須依據其臨床狀況採取更長的防護期間。"
     }
    ],
-   "tags": {"group": "機構群聚", "population": "resident"},
+   "tags": {
+    "group": "機構群聚",
+    "population": "resident",
+    "topic": "住院／機構病人飛沫隔離解除時間"
+   },
    "authority": "疾管署",
    "note": "長期照護機構季節性流感感染管制措施指引，對象為機構服務對象（住民）"
   },
@@ -136,17 +199,30 @@
     {
      "source": "S103",
      "page": 11,
-     "region": [166.26, 371.07, 502.32, 565.04],
+     "region": [
+      166.26,
+      371.07,
+      502.32,
+      565.04
+     ],
      "quote": "新生兒因免疫力尚未健全，且感染流感病毒後易併發重症，因此若母親感染流感，建議應暫時與新生兒區隔，直到母親完全符合下列條件為止，條件包括：已使用抗流感病毒藥物治療達 48 小時以上、未使用解熱劑且未發燒達 24 小時以上以及能夠控制咳嗽和呼吸道分泌物。"
     },
     {
      "source": "S103",
      "page": 11,
-     "region": [180.42, 623.07, 502.32, 709.29],
+     "region": [
+      180.42,
+      623.07,
+      502.32,
+      709.29
+     ],
      "quote": "若母親仍須接觸新生兒時，應配戴口罩及穿著隔離衣，並徹底執行手部衛生，至少持續到發病 7 天後。"
     }
    ],
-   "tags": {"group": "機構群聚", "population": "newborn"},
+   "tags": {
+    "group": "機構群聚",
+    "population": "newborn"
+   },
    "authority": "疾管署",
    "note": "長期照護機構指引；此段原文脈絡雖在機構，但屬母嬰照護通例，供住院／機構情境參考"
   },
@@ -159,11 +235,19 @@
     {
      "source": "S115",
      "page": 5,
-     "region": [89.99, 219.79, 713.15, 294.81],
+     "region": [
+      89.99,
+      219.79,
+      713.15,
+      294.81
+     ],
      "quote": "1. For asymptomatic healthcare personnel who have a known or suspected exposure to a respiratory virus not addressed elsewhere in this guideline or other interim guidance +: • Work restrictions are not necessary. • Wear source control from the day of first exposure through at least the 5th day after last exposure *. • Monitor for development of signs or symptoms of a viral respiratory infection for at least 5 days after their last exposure."
     }
    ],
-   "tags": {"group": "醫療照護人員（美國 CDC 2026）", "population": "hcp"},
+   "tags": {
+    "group": "醫療照護人員（美國 CDC 2026）",
+    "population": "hcp"
+   },
    "authority": "CDC",
    "note": "CDC/HICPAC Infection Control in Healthcare Personnel: Viral Respiratory Infections Supplement (2026)，涵蓋流感等多種呼吸道病毒，非流感專屬指引"
   },
@@ -176,17 +260,31 @@
     {
      "source": "S115",
      "page": 5,
-     "region": [90.01, 320.47, 698.91, 350.72],
+     "region": [
+      90.01,
+      320.47,
+      698.91,
+      350.72
+     ],
      "quote": "2. For healthcare personnel with a suspected or conﬁrmed viral respiratory infection not addressed elsewhere in this guideline or other interim guidance +:"
     },
     {
      "source": "S115",
      "page": 5,
-     "region": [144.0, 360.08, 696.93, 446.7],
+     "region": [
+      144.0,
+      360.08,
+      696.93,
+      446.7
+     ],
      "quote": "Restrict from work until: - At least 3 days have passed from symptom onset ** (or from their first positive respiratory virus test if asymptomatic throughout their infection), AND - They are fever free for at least 24 hours without the use of antipyretics, AND - Symptoms are improving, AND - They feel well enough to return to work."
     }
    ],
-   "tags": {"group": "醫療照護人員（美國 CDC 2026）", "population": "hcp"},
+   "tags": {
+    "group": "醫療照護人員",
+    "population": "hcp",
+    "topic": "醫護人員感染後何時回班"
+   },
    "authority": "CDC",
    "note": "最早可能的回班日＝症狀出現日算 Day 0 時的 Day 4（見指引註腳 **）"
   },
@@ -199,11 +297,19 @@
     {
      "source": "S115",
      "page": 6,
-     "region": [126.0, 71.94, 716.63, 99.92],
+     "region": [
+      126.0,
+      71.94,
+      716.63,
+      99.92
+     ],
      "quote": "Wear source control upon return to work until at least the end of day 7, where the day of symptom onset (or first positive test if asymptomatic throughout their infection) is day 0 ***."
     }
    ],
-   "tags": {"group": "醫療照護人員（美國 CDC 2026）", "population": "hcp"},
+   "tags": {
+    "group": "醫療照護人員（美國 CDC 2026）",
+    "population": "hcp"
+   },
    "authority": "CDC",
    "note": "註腳 *** 指出最早可不戴 source control 上班的日子是 Day 8"
   },
@@ -216,17 +322,31 @@
     {
      "source": "S118",
      "page": 4,
-     "region": [30.33, 70.5, 480.04, 90.31],
+     "region": [
+      30.33,
+      70.5,
+      480.04,
+      90.31
+     ],
      "quote": "Considered for temporary reassignment or exclusion from work for 7 days from symptom onset or until the resolution of symptoms, whichever is longer, if returning to care for patients in a Protective Environment (PE) PDF such as hematopoietic stem cell transplant patients (HSCT)."
     },
     {
      "source": "S118",
      "page": 4,
-     "region": [40.23, 98.81, 462.53, 129.24],
+     "region": [
+      40.23,
+      98.81,
+      462.53,
+      129.24
+     ],
      "quote": "Patients in these environments are severely immunocompromised, and infection with influenza virus can lead to severe disease. Furthermore, once infected, these patients can have prolonged viral shedding despite antiviral treatment and expose other patients to influenza virus infection."
     }
    ],
-   "tags": {"group": "醫療照護人員（美國 CDC 2026）", "population": "hcp"},
+   "tags": {
+    "group": "醫療照護人員",
+    "population": "hcp",
+    "topic": "醫護人員負責照護保護環境（PE）病人者的工作限制"
+   },
    "authority": "CDC",
    "note": "Infection Prevention and Control Strategies for Seasonal Influenza in Healthcare Settings；與疾管署 PE/HSCT 7 天規則方向一致"
   },
@@ -239,11 +359,20 @@
     {
      "source": "S118",
      "page": 4,
-     "region": [40.23, 367.76, 477.28, 387.58],
+     "region": [
+      40.23,
+      367.76,
+      477.28,
+      387.58
+     ],
      "quote": "Policies and procedures should enhance exclusion of HCPs who develop a fever and respiratory symptoms from work for at least 24 hours after they no longer have a fever, without the use of fever-reducing medicines."
     }
    ],
-   "tags": {"group": "醫療照護人員（美國 CDC 2026）", "population": "hcp"},
+   "tags": {
+    "group": "醫療照護人員",
+    "population": "hcp",
+    "topic": "醫護人員感染後何時回班"
+   },
    "authority": "CDC",
    "note": "與疾管署 24 小時規則方向一致"
   },
@@ -256,11 +385,20 @@
     {
      "source": "S102",
      "page": 5,
-     "region": [136.85, 551.1, 508.43, 709.04],
+     "region": [
+      136.85,
+      551.1,
+      508.43,
+      709.04
+     ],
      "quote": "(1) 疑似或確診的流感病人在發病後 7 天內或發燒/呼吸道症狀緩解後 24 小時內（以時間較長者為主），在醫療機構內應採取飛沫傳染與接觸傳染防護措施。但在某些情況下，可能會根據臨床判斷而有所調整；例如幼兒或嚴重免疫缺損的病人，因可排出病毒的時間比一般人長，所以應延長"
     }
    ],
-   "tags": {"group": "住院病人感控", "population": "inpatient"},
+   "tags": {
+    "group": "住院病人感控",
+    "population": "inpatient",
+    "topic": "住院／機構病人飛沫隔離解除時間"
+   },
    "authority": "疾管署",
    "note": "醫療照護機構季節性流感感染管制措施指引，飛沫傳染與接觸傳染防護措施章"
   },
@@ -273,11 +411,20 @@
     {
      "source": "S118",
      "page": 4,
-     "region": [30.33, 599.75, 476.41, 640.8],
+     "region": [
+      30.33,
+      599.75,
+      476.41,
+      640.8
+     ],
      "quote": "Droplet Precautions should be implemented for patients with suspected or confirmed influenza for 7 days after illness onset or until 24 hours after the resolution of fever and respiratory symptoms, whichever is longer, while a patient is in a healthcare facility. In some cases, facilities may choose to apply Droplet Precautions for longer periods based on clinical judgment, such as in the case of young children or severely immunocompromised patients, who may shed influenza virus for longer periods of time."
     }
    ],
-   "tags": {"group": "住院病人感控", "population": "inpatient"},
+   "tags": {
+    "group": "住院病人感控",
+    "population": "inpatient",
+    "topic": "住院／機構病人飛沫隔離解除時間"
+   },
    "authority": "CDC",
    "note": "與疾管署 S102 第 5 頁規則幾乎一致（7 天或 24 小時取較長者）"
   },
@@ -290,17 +437,30 @@
     {
      "source": "S118",
      "page": 4,
-     "region": [40.23, 98.81, 469.77, 150.48],
+     "region": [
+      40.23,
+      98.81,
+      469.77,
+      150.48
+     ],
      "quote": "Patients in these environments are severely immunocompromised, and infection with influenza virus can lead to severe disease. Furthermore, once infected, these patients can have prolonged viral shedding despite antiviral treatment and expose other patients to influenza virus infection. Prolonged shedding also increases the chance of developing and spreading antiviral-resistant influenza strains; clusters of influenza antiviral resistance cases have been found among severely immunocompromised persons exposed to a common source or healthcare setting."
     },
     {
      "source": "S102",
      "page": 8,
-     "region": [160.87, 587.1, 505.15, 709.04],
+     "region": [
+      160.87,
+      587.1,
+      505.15,
+      709.04
+     ],
      "quote": "此外，這類病人儘管接受了抗病毒治療，排出病毒的時間可能比一般人長，除了增加傳播流感病毒給其他人的風險，亦增加了病毒發展出抗藥性的機會。"
     }
    ],
-   "tags": {"group": "吃了抗病毒藥能不能提早解除", "population": "immunocompromised"},
+   "tags": {
+    "group": "吃了抗病毒藥能不能提早解除",
+    "population": "immunocompromised"
+   },
    "authority": "CDC；疾管署",
    "note": "重要：兩份原件都只針對保護環境（PE）／嚴重免疫低下病人這一族群，不能推論到一般病人「吃藥也不能提早解除隔離」"
   },
@@ -313,11 +473,20 @@
     {
      "source": "S105",
      "page": 2,
-     "region": [113.28, 124.53, 552.71, 208.83],
+     "region": [
+      113.28,
+      124.53,
+      552.71,
+      208.83
+     ],
      "quote": "3. 生病教職員工/學(幼)生應在家休養，直至退燒後至少24小時才能返回上課，落實生病不上班、不上課。 4. 如住宿生罹病，除就醫外，於宿舍中應與健康學生分別安置，提供適當照護，直至退燒後至少24小時。"
     }
    ],
-   "tags": {"group": "學生與教職員", "population": "student"},
+   "tags": {
+    "group": "學生與教職員",
+    "population": "student",
+    "topic": "學生與教職員生病後何時返校／返回上班"
+   },
    "authority": "疾管署",
    "note": "學校/幼兒園/補習班/兒童課後照顧服務班與中心流感群聚防治指引 108.2 版"
   },
@@ -331,11 +500,20 @@
     {
      "source": "S108",
      "page": 6,
-     "region": [117.37, 346.95, 472.94, 399.9],
+     "region": [
+      117.37,
+      346.95,
+      472.94,
+      399.9
+     ],
      "quote": "落實﻿ 生 病不上班、不上課，生病的學(幼)生及員工在未使用退燒藥物下，至少退燒後24小時才能返回上課/班。"
     }
    ],
-   "tags": {"group": "學生與教職員", "population": "student"},
+   "tags": {
+    "group": "學生與教職員",
+    "population": "student",
+    "topic": "學生與教職員生病後何時返校／返回上班"
+   },
    "authority": "疾管署",
    "note": "Q&A－季節性流感防治，最後更新日期 2019/5/22"
   },
@@ -348,11 +526,19 @@
     {
      "source": "S105",
      "page": 3,
-     "region": [113.28, 432.57, 538.76, 493.83],
+     "region": [
+      113.28,
+      432.57,
+      538.76,
+      493.83
+     ],
      "quote": "2. 各機關(構)經評估需採取停課措施時，建議以發生群聚之班級停課5 天(含例假日)為原則。生病者則應持續停課至退燒後至少24小時，才能返回上課。"
     }
    ],
-   "tags": {"group": "學生與教職員", "population": "student"},
+   "tags": {
+    "group": "學生與教職員",
+    "population": "student"
+   },
    "authority": "疾管署",
    "note": "台灣沒有法定強制停課天數，這是群聚事件發生時的「建議」措施，非硬性規定"
   },
@@ -368,7 +554,11 @@
      "quote": "通常約1-4天，平均為2天。出現併發症的時間約在發病後的1-2週內。"
     }
    ],
-   "tags": {"group": "傳染力與潛伏期", "population": "general"},
+   "tags": {
+    "group": "傳染力與潛伏期",
+    "population": "general",
+    "topic": "潛伏期與可傳染期"
+   },
    "authority": "疾管署",
    "note": "疾病介紹－流感，網頁列印"
   },
@@ -381,11 +571,20 @@
     {
      "source": "S104",
      "page": 2,
-     "region": [104.62, 581.7, 490.65, 696.9],
+     "region": [
+      104.62,
+      581.7,
+      490.65,
+      696.9
+     ],
      "quote": "一般而言約在症狀出現後3-4天內傳染力最強。另研究發現，成年感染者在發病前24-48小時便開始排放病毒，但量較低，病毒排放高峰是發病後24-72小時，直至發病後第5天；但免疫不全者，排放病毒的期間可能達數週或數月；兒童亦較早開始排放病毒，且量較多，時間較久，最長可達21天。"
     }
    ],
-   "tags": {"group": "傳染力與潛伏期", "population": "general"},
+   "tags": {
+    "group": "傳染力與潛伏期",
+    "population": "general",
+    "topic": "潛伏期與可傳染期"
+   },
    "authority": "疾管署",
    "note": "疾病介紹－流感，網頁列印；「24–48 小時」為區間原句，未簡化"
   },
@@ -399,11 +598,20 @@
     {
      "source": "S108",
      "page": 3,
-     "region": [117.37, 506.7, 477.95, 624.9],
+     "region": [
+      117.37,
+      506.7,
+      477.95,
+      624.9
+     ],
      "quote": "2.流感潛伏期（被感染至症狀出現）約1-4天，平均為2天。出現併發症的時間約在發病後的1-2週內。3. 一般而言，流感在症狀出現後 3-4 天內傳染力最強，某些成年人可能在發病前 24 小時便開始有傳染力，直至發病後第5天；少數免疫不全者或兒童，排放病毒的期間可能長達數週或數月。"
     }
    ],
-   "tags": {"group": "傳染力與潛伏期", "population": "general"},
+   "tags": {
+    "group": "傳染力與潛伏期",
+    "population": "general",
+    "topic": "潛伏期與可傳染期"
+   },
    "authority": "疾管署",
    "note": "此份 Q&A 寫「發病前 24 小時」（單一時點），與疾病介紹頁（S104）寫「發病前 24-48 小時」（區間）用字不同，兩者並列呈現，不強行合併"
   },
@@ -416,11 +624,20 @@
     {
      "source": "S103",
      "page": 3,
-     "region": [118.14, 119.08, 496.12, 421.04],
+     "region": [
+      118.14,
+      119.08,
+      496.12,
+      421.04
+     ],
      "quote": "流感潛伏期為 1 至 5 天，通常以 2 天最為常見。出現的主要症狀為：發燒（須注意並非所有感染者皆會發燒）或發熱/畏寒、咳嗽、喉嚨痛、流鼻水或鼻塞、肌肉或身體痠痛、頭痛、倦怠、嘔吐或腹瀉（較常見於孩童）。流感併發症多發生於病發後 1 至 2 週內。可傳染期一般出現在症狀產生的前 1 天及發病後的 5 至 7 天，孩童可傳染期可達 7 天以上，而免疫功能不全者甚能排放病毒達數週或數月。另外感染後即便沒有任何症狀，仍能傳播病毒。"
     }
    ],
-   "tags": {"group": "傳染力與潛伏期", "population": "general"},
+   "tags": {
+    "group": "傳染力與潛伏期",
+    "population": "general",
+    "topic": "潛伏期與可傳染期"
+   },
    "authority": "疾管署",
    "note": "與 S104／S108 的「潛伏期 1-4 天」不同：本指引寫「1 至 5 天」，兩份疾管署文件對潛伏期上限（4 天 vs 5 天）不一致，並列呈現"
   },
@@ -438,7 +655,12 @@
     {
      "source": "S121",
      "page": 2,
-     "region": [30.33, 218.34, 453.61, 238.16],
+     "region": [
+      30.33,
+      218.34,
+      453.61,
+      238.16
+     ],
      "quote": "Some otherwise healthy adults may be able to infect others beginning one day before symptoms develop and five to seven days after becoming sick."
     },
     {
@@ -447,7 +669,11 @@
      "quote": "Some people, including young children and people with weakened immune systems, may be contagious for longer periods of time."
     }
    ],
-   "tags": {"group": "傳染力與潛伏期", "population": "general"},
+   "tags": {
+    "group": "傳染力與潛伏期",
+    "population": "general",
+    "topic": "潛伏期與可傳染期"
+   },
    "authority": "CDC",
    "note": "About Influenza — Key Facts；主詞明確是 otherwise healthy adults，兒童與免疫低下者另外註明可能更長"
   },
@@ -460,11 +686,20 @@
     {
      "source": "S121",
      "page": 2,
-     "region": [23.25, 286.76, 478.55, 306.58],
+     "region": [
+      23.25,
+      286.76,
+      478.55,
+      306.58
+     ],
      "quote": "The time from when a person is exposed and infected with influenza virus to when symptoms begin is about two days but can range from about one to four days."
     }
    ],
-   "tags": {"group": "傳染力與潛伏期", "population": "general"},
+   "tags": {
+    "group": "傳染力與潛伏期",
+    "population": "general",
+    "topic": "潛伏期與可傳染期"
+   },
    "authority": "CDC",
    "note": "About Influenza — Key Facts"
   }

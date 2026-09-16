@@ -21,7 +21,8 @@
     }
    ],
    "tags": {
-    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+    "group": "接種前預防性用藥（抗組織胺／類固醇）",
+    "topic": "接種前常規給抗組織胺以預防過敏：不建議"
    },
    "authority": "疾管署",
    "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021），過敏處置原則為通用型知識，與流感疫苗場景可類推套用；英文對應原句見 flu-vx-premed-not-recommended-en；quote 跨兩個 pdftotext block，用 region 定位",
@@ -51,7 +52,8 @@
     }
    ],
    "tags": {
-    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+    "group": "接種前預防性用藥（抗組織胺／類固醇）",
+    "topic": "接種前常規給抗組織胺以預防過敏：不建議"
    },
    "authority": "CDC",
    "note": "美國 CDC 舊站存檔 Management of Anaphylaxis at COVID-19 Vaccination Sites；標題雖限定 COVID-19 疫苗，內容為通用型過敏處置原則，適用流感疫苗場景",
@@ -146,7 +148,8 @@
     }
    ],
    "tags": {
-    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+    "group": "接種前預防性用藥（抗組織胺／類固醇）",
+    "topic": "雞蛋過敏者接種流感疫苗"
    },
    "authority": "疾管署",
    "note": "疾管署流感疫苗接種注意事項 Q&A，最後更新日期 2026/8/14；食物過敏、雞蛋過敏均非禁忌，不需額外預防性用藥或分次接種法（歷史做法見 flu-vx-premed-egg-2step-obsolete）",
@@ -170,7 +173,8 @@
     }
    ],
    "tags": {
-    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+    "group": "接種前預防性用藥（抗組織胺／類固醇）",
+    "topic": "雞蛋過敏者接種流感疫苗"
    },
    "authority": "CDC",
    "note": "CDC Flu Vaccines and People with Egg Allergies，2024-09-17",
@@ -280,7 +284,8 @@
     }
    ],
    "tags": {
-    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+    "group": "接種前預防性用藥（抗組織胺／類固醇）",
+    "topic": "雞蛋過敏者接種流感疫苗"
    },
    "authority": "疾管署（原行政院衛生署疾病管制局）",
    "note": "★歷史文件（2011年出版），做法已過時：此兩階段式接種法已被 CDC 2023-24 季起「不論嚴重度均無需額外安全措施」的現行建議取代（見 flu-vx-premed-egg-us-any-severity／flu-vx-premed-egg-allergy-normal-flow），本站僅作古今做法對照，不建議現行採用",
@@ -316,7 +321,8 @@
     }
    ],
    "tags": {
-    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置",
+    "topic": "疫苗接種後 anaphylaxis：epinephrine 劑量（成人／兒童）"
    },
    "authority": "疾管署",
    "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021），過敏處置原則為通用型知識，適用流感疫苗場景；兒童劑量另見 flu-vx-anaphylaxis-epi-child-dose",
@@ -353,7 +359,8 @@
     }
    ],
    "tags": {
-    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置",
+    "topic": "疫苗接種後 anaphylaxis：epinephrine 劑量（成人／兒童）"
    },
    "authority": "疾管署",
    "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021）；成人劑量另見 flu-vx-anaphylaxis-epi-adult-dose；quote 跨 pdftotext block，用 region 定位",
@@ -384,7 +391,8 @@
     }
    ],
    "tags": {
-    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置",
+    "topic": "疫苗接種後 anaphylaxis：epinephrine 劑量（成人／兒童）"
    },
    "authority": "CDC",
    "note": "美國 CDC 舊站存檔 Management of Anaphylaxis at COVID-19 Vaccination Sites 體重分層劑量表；region 用於整表定位，需 check_claims.py 驗證",
