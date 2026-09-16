@@ -18,7 +18,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45   # 測試套件已成長（39 檔、含 test_reference_coverage 約 5 分鐘）＋ od.cdc.gov.tw 逾時重試；20 分鐘會被 GitHub 以 cancelled 砍掉（2026-09-16）
     permissions:
       contents: write
     outputs:
