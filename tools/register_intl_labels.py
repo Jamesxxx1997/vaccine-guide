@@ -5,7 +5,7 @@
   - review/label-claims.json 的 hashes 加 sha256（build_reference_pages 會核對檔案），
   - review/label-sources.json 加一筆（cat/prod/path/pages），
   - 回寫 manifest 每筆的 "source": "S<n>"，供分片使用。
-冪等：path 已登記過就沿用同一個 S key。用法：python3 tools/register_intl_labels.py [--dry]
+冪等：path 已登記過就沿用同一個 S key。用法：python3 tools/register_intl_labels.py [--dry] [manifest.json …]（不給路徑＝國際仿單全部 manifest）
 """
 from __future__ import annotations
 import hashlib, json, re, sys, glob
@@ -32,12 +32,14 @@ def main():
     lc_path = ROOT / 'review/label-claims.json'; lc = json.loads(lc_path.read_text(encoding='utf-8'))
     ls_path = ROOT / 'review/label-sources.json'; ls = json.loads(ls_path.read_text(encoding='utf-8'))
     additions = []
-    for mf in sorted(glob.glob(str(ROOT / 'sources/國際仿單/_manifest_*.json'))):
+    # 預設掃國際仿單 manifest；也可在命令列給其他 manifest 路徑（例：sources/流感/_manifest_TW.json）
+    manifests = [a for a in sys.argv[1:] if not a.startswith('--')] or sorted(glob.glob(str(ROOT / 'sources/國際仿單/_manifest_*.json')))
+    for mf in manifests:
         items = json.loads(Path(mf).read_text(encoding='utf-8'))
         changed = False
         for it in items:
-            if not it.get('path'):
-                continue
+            if not it.get('path') or not it['path'].lower().endswith('.pdf'):
+                continue   # 沒檔或非 PDF（例：XML 全文）不登記
             pdf = ROOT / it['path']
             if not pdf.is_file():
                 print(f'✗ {it.get("slug")}: 找不到 {it["path"]}'); continue
@@ -48,14 +50,19 @@ def main():
             if not key:
                 key = f'S{nxt}'; nxt += 1
                 agency = AGENCY.get(it.get('agency', ''), it.get('agency', ''))
-                n = f'{it.get("product","")} — {it.get("agency","")} 原廠英文仿單'
-                v = f'仿單版本 {it.get("revised","未確認")}；下載 {it.get("downloaded","")}'.replace('"', '”')
-                o = agency
+                if it.get('title'):   # 一般 manifest（指引／文獻／網頁列印／機型 IFU）
+                    n = it['title']
+                    v = f'{it.get("version","未確認")}；下載 {it.get("downloaded","")}'.replace('"', '”')
+                    o = it.get('org') or it.get('maker') or agency
+                else:                 # 國際仿單 manifest
+                    n = f'{it.get("product","")} — {it.get("agency","")} 原廠英文仿單'
+                    v = f'仿單版本 {it.get("revised","未確認")}；下載 {it.get("downloaded","")}'.replace('"', '”')
+                    o = agency
                 u = it.get('landing') or it.get('url', '')
                 entry = f'  {key}:{{n:{json.dumps(n, ensure_ascii=False)}, v:{json.dumps(v, ensure_ascii=False)}, o:{json.dumps(o, ensure_ascii=False)}, pagesOnly:"claims",\n      u:{json.dumps(u, ensure_ascii=False)}, p:{json.dumps(it["path"], ensure_ascii=False)}}},\n'
                 additions.append(entry); existing[it['path']] = key
             lc['hashes'][key] = digest
-            ls[key] = dict(cat=it.get('vaccine', ''), prod=it.get('product', ''), path=it['path'], pages='claims', agency=it.get('agency', ''))
+            ls[key] = dict(cat=it.get('vaccine', it.get('kind', '')), prod=it.get('product') or it.get('title', ''), path=it['path'], pages='claims', agency=it.get('agency') or it.get('org', ''))
             if it.get('source') != key:
                 it['source'] = key; changed = True
             print(f'{key} ← {it["slug"]} ({it.get("agency")}) {it["path"]}')

@@ -1,9 +1,9 @@
 {
  "product": "Boostrix",
  "source": "S37",
- "pdf": "sources/仿單/Tdap疫苗_Boostrix_TFDA_2020-09-29.pdf",
- "pages": 2,
- "date": "2026-09-13",
+ "pdf": "sources/仿單/現行版_2026-09-16/S37_Boostrix_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+ "pages": 15,
+ "date": "2026-09-16",
  "cells": {
   "egg": {
    "patterns": [
@@ -92,13 +92,31 @@
    "hits": [],
    "dismissed": null
   },
-  "latex": {
+  "peg_polysorbate": {
    "patterns": [
-    "乳膠",
-    "膠乳",
-    "橡膠",
-    "latex",
-    "rubber"
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
    ],
    "hits": [],
    "dismissed": null

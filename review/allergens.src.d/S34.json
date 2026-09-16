@@ -1,0 +1,67 @@
+{
+ "vaccine": "rsv",
+ "product": "Abrysvo",
+ "source": "S34",
+ "components": [
+  {"page": 3, "label": "有效成分及含量", "quote": "（RSV 抗原）"},
+  {"page": 3, "label": "有效成分及含量", "quote": "利用重組 DNA 技術在中國倉鼠卵巢細胞中製造生產"},
+  {"page": 3, "label": "賦形劑", "quote": "氨丁三醇（Trometamol）"},
+  {"page": 3, "label": "賦形劑", "quote": "三羥甲基胺基甲烷（Trometamol hydrochloride）"},
+  {"page": 3, "label": "賦形劑", "quote": "蔗糖（Sucrose）"},
+  {"page": 3, "label": "賦形劑", "quote": "甘露醇（Mannitol）"},
+  {"page": 3, "label": "賦形劑", "quote": "聚山梨醇酯 80（Polysorbate 80）"},
+  {"page": 3, "label": "賦形劑", "quote": "氯化鈉"},
+  {"page": 3, "label": "賦形劑", "quote": "鹽酸（用於調整 pH 值）"},
+  {"page": 3, "label": "賦形劑（溶劑）", "quote": "注射用水"}
+ ],
+ "allergens": [
+  {"key": "egg", "status": "未載明"},
+  {"key": "gelatin", "status": "未載明"},
+  {"key": "neomycin", "status": "未載明"},
+  {"key": "other_antibiotics", "status": "未載明"},
+  {"key": "yeast", "status": "未載明"},
+  {
+   "key": "latex",
+   "status": "未載明",
+   "related": {
+    "page": 18,
+    "quote": "1 劑粉末裝在小瓶（第 1 型玻璃或同等產品）中，帶有塞子（合成氯化丁基橡",
+    "note": "抗原藥瓶塞子為合成氯化丁基橡膠、溶劑注射器塞子與尖帽為合成異戊二烯/溴化丁基共混橡膠、溶劑小瓶塞子為溴化丁基橡膠——均為合成橡膠，仿單未使用「不含天然乳膠」等否定句，故未列為明確「無」"
+   }
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "有",
+   "page": 3,
+   "quote": "聚山梨醇酯 80（Polysorbate 80）"
+  },
+  {"key": "formaldehyde", "status": "未載明"},
+  {"key": "thimerosal", "status": "未載明"},
+  {
+   "key": "aluminium",
+   "status": "未載明",
+   "related": {
+    "page": 3,
+    "quote": "（RSV 抗原）",
+    "note": "Abrysvo 為不含佐劑的重組蛋白疫苗，仿單有效成分與賦形劑清單中均未列鋁鹽或其他佐劑成分"
+   }
+  }
+ ],
+ "sweep": {
+  "dismissed": {
+   "aluminium": "p.8 動物研究比較「含或不含Al(OH)3」的對照製劑非Abrysvo本身；p.9「有佐劑的」指同時接種之流感疫苗，非Abrysvo成分"
+  }
+ },
+ "warnings": [
+  {
+   "label": "過敏禁忌",
+   "page": 6,
+   "quote": "對活性成分或任何列於第 1.2 節之賦形劑嚴重過敏。"
+  },
+  {
+   "label": "PEG／polysorbate 過敏警語",
+   "page": 7,
+   "quote": "Abrysvo 含有聚山梨醇酯 80 (Polysorbate 80)。聚山梨醇酯 80 可能會造成過敏"
+  }
+ ]
+}

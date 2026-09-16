@@ -1,0 +1,624 @@
+{
+  "negativeCells": [
+    {
+      "source": "S30",
+      "product": "Gardasil 9 嘉喜9",
+      "key": "neomycin",
+      "status": "無",
+      "page": 11,
+      "region": [
+        0,
+        235,
+        570,
+        268
+      ],
+      "quote": "本品不含防腐劑或抗生素。"
+    },
+    {
+      "source": "S30",
+      "product": "Gardasil 9 嘉喜9",
+      "key": "other_antibiotics",
+      "status": "無",
+      "page": 11,
+      "region": [
+        0,
+        235,
+        570,
+        268
+      ],
+      "quote": "本品不含防腐劑或抗生素。"
+    },
+    {
+      "source": "S30",
+      "product": "Gardasil 9 嘉喜9",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 11,
+      "region": [
+        0,
+        235,
+        570,
+        268
+      ],
+      "quote": "本品不含防腐劑或抗生素。"
+    },
+    {
+      "source": "S31",
+      "product": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 1,
+      "quote": "基成分及大約 25 微克的新黴素(neomycin)。此產品不含防腐劑。"
+    },
+    {
+      "source": "S32",
+      "product": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗",
+      "key": "latex",
+      "status": "無",
+      "page": 35,
+      "quote": "每支注射劑含有 0.5 mL 懸浮注射液，預先充填於附有注射推管（不含乳膠成分 的氯丁基橡膠）的注射針筒（Type I glass）內。"
+    },
+    {
+      "source": "S36",
+      "product": "Adacel(安打星三合一補追疫苗)",
+      "key": "latex",
+      "status": "無",
+      "page": 2,
+      "quote": "ADACEL®容器密封物不含膠乳(latex)（天然橡膠）。"
+    },
+    {
+      "source": "S41",
+      "product": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 10,
+      "quote": "無添加佐劑或抗菌防腐劑"
+    },
+    {
+      "source": "S41",
+      "product": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
+      "key": "aluminium",
+      "status": "無",
+      "page": 10,
+      "quote": "無添加佐劑或抗菌防腐劑"
+    },
+    {
+      "source": "S46",
+      "product": "Bexsero B 型腦膜炎雙球菌疫苗",
+      "key": "latex",
+      "status": "無",
+      "page": 4,
+      "quote": "雖然在針筒頂蓋中並未檢出任何天然橡膠乳膠成分，但 Bexsero 用於乳膠敏感者的",
+      "note": "針筒頂蓋未檢出天然橡膠乳膠成分；但仿單註明用於乳膠敏感者的安全性尚未確立"
+    },
+    {
+      "source": "S48",
+      "product": "RotaTeq(輪達停)",
+      "key": "latex",
+      "status": "無",
+      "page": 12,
+      "quote": "每劑疫苗都以一個不含乳膠成分(latex)之塑膠製的可擠壓投藥軟管供應，該軟管頂端並附有一個可轉下的帽蓋，可直接口"
+    },
+    {
+      "source": "S48",
+      "product": "RotaTeq(輪達停)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 1,
+      "quote": "本疫苗不含任何防腐劑或thimerosal。"
+    },
+    {
+      "source": "S58",
+      "product": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted)",
+      "key": "other_antibiotics",
+      "status": "無",
+      "page": 16,
+      "quote": "The gE antigen is obtained by culturing genetically engineered Chinese Hamster Ovary cells, which carry a truncated gE gene, in media containing amino acids, with no albumin, antibiotics, or animal-derived proteins."
+    },
+    {
+      "source": "S58",
+      "product": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted)",
+      "key": "latex",
+      "status": "無",
+      "page": 17,
+      "quote": "In the vial and vial presentation, the vial stoppers are not made with natural rubber latex."
+    },
+    {
+      "source": "S58",
+      "product": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 17,
+      "quote": "SHINGRIX does not contain preservatives."
+    },
+    {
+      "source": "S59",
+      "product": "VAQTA (Hepatitis A Vaccine, Inactivated)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 12,
+      "quote": "One milliliter of the vaccine contains approximately 50U of hepatitis A virus antigen, which is purified and formulated without a preservative."
+    },
+    {
+      "source": "S60",
+      "product": "Engerix-B (Hepatitis B Vaccine Recombinant)",
+      "key": "latex",
+      "status": "無",
+      "page": 9,
+      "quote": "The tip cap and rubber plunger stopper of the prefilled syringe are not made with natural rubber latex."
+    },
+    {
+      "source": "S60",
+      "product": "Engerix-B (Hepatitis B Vaccine Recombinant)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 10,
+      "quote": "ENGERIX-B is formulated without preservatives."
+    },
+    {
+      "source": "S61",
+      "product": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant)",
+      "key": "other_antibiotics",
+      "status": "無",
+      "page": 13,
+      "quote": "The product does not contain a preservative or antibiotics."
+    },
+    {
+      "source": "S61",
+      "product": "Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 13,
+      "quote": "The product does not contain a preservative or antibiotics."
+    },
+    {
+      "source": "S62",
+      "product": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 8,
+      "quote": "The product contains no preservative."
+    },
+    {
+      "source": "S63",
+      "product": "Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein])",
+      "key": "latex",
+      "status": "無",
+      "page": 25,
+      "quote": "The tip cap and rubber plunger of the prefilled syringe are not made with natural rubber latex."
+    },
+    {
+      "source": "S64",
+      "product": "Pneumovax 23 (Pneumococcal Vaccine Polyvalent)",
+      "key": "latex",
+      "status": "無",
+      "page": 9,
+      "quote": "The vial stoppers, syringe plunger stopper and syringe tip cap are not made with natural rubber latex."
+    },
+    {
+      "source": "S65",
+      "product": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)",
+      "key": "latex",
+      "status": "無",
+      "page": 23,
+      "quote": "Syringe, without needle, single-dose – NDC 49281-400-89 (not made with natural rubber latex);"
+    },
+    {
+      "source": "S65",
+      "product": "Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 13,
+      "quote": "Adacel does not contain a preservative."
+    },
+    {
+      "source": "S66",
+      "product": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed)",
+      "key": "latex",
+      "status": "無",
+      "page": 19,
+      "quote": "The tip cap and rubber plunger stopper of the prefilled\nsyringe are not made with natural rubber latex."
+    },
+    {
+      "source": "S66",
+      "product": "Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 19,
+      "quote": "BOOSTRIX is formulated without preservatives."
+    },
+    {
+      "source": "S67",
+      "product": "Fluarix Quadrivalent (Influenza Vaccine)",
+      "key": "latex",
+      "status": "無",
+      "page": 17,
+      "quote": "The tip caps and plungers of the prefilled syringes of FLUARIX QUADRIVALENT are not made with\nnatural rubber latex."
+    },
+    {
+      "source": "S67",
+      "product": "Fluarix Quadrivalent (Influenza Vaccine)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 17,
+      "quote": "FLUARIX QUADRIVALENT does\nnot contain thimerosal."
+    },
+    {
+      "source": "S68",
+      "product": "Bexsero (Meningococcal Group B Vaccine)",
+      "key": "latex",
+      "status": "無",
+      "page": 10,
+      "quote": "The tip cap and rubber plunger stopper of the prefilled syringe are not made with natural rubber\nlatex."
+    },
+    {
+      "source": "S69",
+      "product": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent)",
+      "key": "latex",
+      "status": "無",
+      "page": 11,
+      "quote": "The ampule\nand the plastic tube and cap do not contain latex."
+    },
+    {
+      "source": "S69",
+      "product": "RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 11,
+      "quote": "RotaTeq contains no preservatives."
+    },
+    {
+      "source": "S70",
+      "product": "Havrix (Hepatitis A Vaccine)",
+      "key": "latex",
+      "status": "無",
+      "page": 9,
+      "quote": "The tip cap and rubber plunger stopper of the prefilled syringe are\nnot made with natural rubber latex."
+    },
+    {
+      "source": "S70",
+      "product": "Havrix (Hepatitis A Vaccine)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 9,
+      "quote": "HAVRIX is formulated without preservatives."
+    },
+    {
+      "source": "S71",
+      "product": "Varivax (Varicella Virus Vaccine Live)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 14,
+      "quote": "The product contains no preservative."
+    },
+    {
+      "source": "S72",
+      "product": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)",
+      "key": "latex",
+      "status": "無",
+      "page": 25,
+      "quote": "The container closures (synthetic rubber stoppers) are not made with natural rubber latex."
+    },
+    {
+      "source": "S72",
+      "product": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 25,
+      "quote": "The vaccine contains no preservative or adjuvant."
+    },
+    {
+      "source": "S72",
+      "product": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)",
+      "key": "aluminium",
+      "status": "無",
+      "page": 25,
+      "quote": "The vaccine contains no preservative or adjuvant.",
+      "note": "同句否定 adjuvant（本品不含鋁佐劑）"
+    },
+    {
+      "source": "S73",
+      "product": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine)",
+      "key": "latex",
+      "status": "無",
+      "page": 17,
+      "quote": "The tip cap and plunger stopper of the prefilled syringe are not made with natural rubber latex."
+    },
+    {
+      "source": "S73",
+      "product": "Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 17,
+      "quote": "VAXNEUVANCE does not contain any preservatives."
+    },
+    {
+      "source": "S74",
+      "product": "Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20]",
+      "key": "latex",
+      "status": "無",
+      "page": 32,
+      "quote": "The tip cap and plunger stopper of the pre-filled syringe are not made with natural rubber latex."
+    },
+    {
+      "source": "S75",
+      "product": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022",
+      "key": "latex",
+      "status": "無",
+      "page": 13,
+      "quote": "The stopper of the vial containing Lyophilized Antigen Component, Live and the tip cap and rubber plunger\nstopper of the prefilled syringe containing Sterile Water Diluent Component are not made with natural rubber\nlatex."
+    },
+    {
+      "source": "S75",
+      "product": "Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 13,
+      "quote": "PRIORIX contains no preservative."
+    },
+    {
+      "source": "S76",
+      "product": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)",
+      "key": "other_antibiotics",
+      "status": "無",
+      "page": 18,
+      "quote": "The RSVPreF3 antigen is expressed by culturing genetically engineered Chinese Hamster Ovary cells in media\ncontaining no antibiotics or animal-derived proteins."
+    },
+    {
+      "source": "S76",
+      "product": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)",
+      "key": "latex",
+      "status": "無",
+      "page": 19,
+      "quote": "The stopper of the vial containing Lyophilized Antigen Component or Adjuvant Suspension Component and the\ntip cap and plunger stopper of the prefilled syringe containing Adjuvant Suspension Component are not made\nwith natural rubber latex."
+    },
+    {
+      "source": "S76",
+      "product": "Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 19,
+      "quote": "AREXVY contains no preservative."
+    },
+    {
+      "source": "S77",
+      "product": "Abrysvo (Respiratory Syncytial Virus Vaccine)",
+      "key": "other_antibiotics",
+      "status": "無",
+      "page": 22,
+      "quote": "The RSV preF A and RSV preF B recombinant proteins are expressed in genetically engineered Chinese\nHamster Ovary cell lines grown in suspension culture using chemically-defined media, without antibiotics or\nanimal-derived components."
+    },
+    {
+      "source": "S77",
+      "product": "Abrysvo (Respiratory Syncytial Virus Vaccine)",
+      "key": "latex",
+      "status": "無",
+      "page": 22,
+      "quote": "The Act-O-Vial stoppers, vial stoppers and tip cap and rubber plunger of the prefilled syringe are not made with\nnatural rubber latex."
+    },
+    {
+      "source": "S77",
+      "product": "Abrysvo (Respiratory Syncytial Virus Vaccine)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 22,
+      "quote": "ABRYSVO contains no preservatives."
+    },
+    {
+      "source": "S78",
+      "product": "Flucelvax Quadrivalent (Influenza Vaccine)",
+      "key": "egg",
+      "status": "無",
+      "page": 13,
+      "quote": "FLUCELVAX QUADRIVALENT contains no egg protein or antibiotics."
+    },
+    {
+      "source": "S78",
+      "product": "Flucelvax Quadrivalent (Influenza Vaccine)",
+      "key": "other_antibiotics",
+      "status": "無",
+      "page": 13,
+      "quote": "FLUCELVAX QUADRIVALENT contains no egg protein or antibiotics."
+    },
+    {
+      "source": "S78",
+      "product": "Flucelvax Quadrivalent (Influenza Vaccine)",
+      "key": "latex",
+      "status": "無",
+      "page": 13,
+      "quote": "The tip caps and plungers of the pre-filled syringes and the multi-dose vial stopper are not made with natural rubber latex."
+    },
+    {
+      "source": "S79",
+      "product": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula",
+      "key": "egg",
+      "status": "無",
+      "page": 14,
+      "quote": "FLUCELVAX contains no egg protein or antibiotics."
+    },
+    {
+      "source": "S79",
+      "product": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula",
+      "key": "other_antibiotics",
+      "status": "無",
+      "page": 14,
+      "quote": "FLUCELVAX contains no egg protein or antibiotics."
+    },
+    {
+      "source": "S79",
+      "product": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula",
+      "key": "latex",
+      "status": "無",
+      "page": 14,
+      "quote": "The tip caps and plungers of the pre-filled syringes and the multi-dose vial stopper are not made with natural rubber latex."
+    },
+    {
+      "source": "S80",
+      "product": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine)",
+      "key": "latex",
+      "status": "無",
+      "page": 1,
+      "quote": "The vial stopper and the plunger stopper of the syringe are not made with natural rubber latex."
+    },
+    {
+      "source": "S81",
+      "product": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation",
+      "key": "latex",
+      "status": "無",
+      "page": 13,
+      "quote": "JYNNEOS is formulated without preservatives. The vial stoppers are not made with natural rubber latex."
+    },
+    {
+      "source": "S81",
+      "product": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 13,
+      "quote": "JYNNEOS is formulated without preservatives. The vial stoppers are not made with natural rubber latex.",
+      "note": "無防腐劑，故不含硫柳汞"
+    },
+    {
+      "source": "S82",
+      "product": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+      "key": "latex",
+      "status": "無",
+      "page": 51,
+      "quote": "The rubber tip cap and plunger used for the single-dose syringes are not made with natural rubber latex."
+    },
+    {
+      "source": "S82",
+      "product": "Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 51,
+      "quote": "SPIKEVAX does not contain a preservative."
+    },
+    {
+      "source": "S83",
+      "product": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+      "key": "latex",
+      "status": "無",
+      "page": 19,
+      "quote": "The rubber tip cap and plunger used for the single-dose syringes are not made with natural rubber latex."
+    },
+    {
+      "source": "S83",
+      "product": "mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 19,
+      "quote": "MNEXSPIKE does not contain a preservative."
+    },
+    {
+      "source": "S84",
+      "product": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula",
+      "key": "latex",
+      "status": "無",
+      "page": 33,
+      "quote": "The syringe tip cap and plunger stopper are not made with natural rubber latex."
+    },
+    {
+      "source": "S84",
+      "product": "Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 33,
+      "quote": "NUVAXOVID does not contain a preservative."
+    },
+    {
+      "source": "S87",
+      "product": "Imojev (Japanese encephalitis vaccine, live, attenuated)",
+      "key": "thimerosal",
+      "status": "無",
+      "page": 20,
+      "quote": "No adjuvant or antimicrobial preservative is added."
+    },
+    {
+      "source": "S87",
+      "product": "Imojev (Japanese encephalitis vaccine, live, attenuated)",
+      "key": "aluminium",
+      "status": "無",
+      "page": 20,
+      "quote": "No adjuvant or antimicrobial preservative is added.",
+      "note": "仿單另於6.5節提及「flip off cap (aluminium/polypropylene)」，惟該處aluminium係指安瓿瓶翻蓋瓶蓋材質，屬包裝容器組件，非疫苗成分或佐劑，不影響本欄「無」佐劑之判定"
+    }
+  ],
+  "positiveCultureCells": [
+    {
+      "source": "S29",
+      "product": "Tetraxim(范德瑞巴斯德四合一疫苗)",
+      "key": "formaldehyde",
+      "status": "有",
+      "page": 2,
+      "quote": "Hanks medium (without phenol red), formaldehyde, phenoxyethanol,"
+    },
+    {
+      "source": "S62",
+      "product": "M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live)",
+      "key": "egg",
+      "status": "有",
+      "page": 8,
+      "quote": "derived from Enders' attenuated Edmonston strain and propagated in chick embryo cell culture; (2) Mumps Virus Vaccine Live, the Jeryl Lynn™ (B level) strain of mumps virus propagated in chick embryo cell culture"
+    },
+    {
+      "source": "S72",
+      "product": "Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)",
+      "key": "formaldehyde",
+      "status": "有",
+      "page": 25,
+      "quote": "N. meningitidis strains A, C, Y,\nand W-135 are each cultured and grown on Franz Complete medium and treated with\nformaldehyde.",
+      "note": "並見 Residual formaldehyde per dose ≤0.30 mcg"
+    },
+    {
+      "source": "S78",
+      "product": "Flucelvax Quadrivalent (Influenza Vaccine)",
+      "key": "peg_polysorbate",
+      "status": "有",
+      "page": 13,
+      "quote": "Each dose of FLUCELVAX QUADRIVALENT may contain residual amounts of MDCK cell protein (≤ 25.2 mcg), protein other than HA (≤ 240 mcg), MDCK cell DNA (≤ 10 ng), polysorbate 80 (≤ 1500 mcg), cetyltrimethylammonium bromide (≤ 18 mcg), and β-propiolactone (< 0.5 mcg), which are used in the manufacturing process.",
+      "note": "polysorbate 80 殘留量，非 PEG"
+    },
+    {
+      "source": "S79",
+      "product": "FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula",
+      "key": "peg_polysorbate",
+      "status": "有",
+      "page": 14,
+      "quote": "Each dose of FLUCELVAX may contain residual amounts of MDCK cell protein (≤ 21.6 mcg), protein other than HA (≤ 225 mcg), MDCK cell DNA (≤ 10 ng), polysorbate 80 (≤ 1125 mcg), cetyltrimethylammonium bromide (≤ 13.5 mcg), and β-propiolactone (< 0.5 mcg), which are used in the manufacturing process.",
+      "note": "polysorbate 80 殘留量，非 PEG"
+    },
+    {
+      "source": "S80",
+      "product": "Typhim Vi (Typhoid Vi Polysaccharide Vaccine)",
+      "key": "formaldehyde",
+      "status": "有",
+      "page": 1,
+      "quote": "Each 0.5 mL dose may contain residual amounts of formaldehyde (not more than 100 mcg) used for the inactivation of the bacterial culture."
+    },
+    {
+      "source": "S81",
+      "product": "Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation",
+      "key": "other_antibiotics",
+      "status": "有",
+      "page": 13,
+      "quote": "and may contain residual amounts of host-cell DNA (≤20 mcg), protein (≤500 mcg), benzonase (≤0.0025 mcg), gentamicin (≤0.400 mcg), and ciprofloxacin (≤0.005 mcg).",
+      "note": "殘留 gentamicin（胺基糖苷類）與 ciprofloxacin（氟喹諾酮類），非 neomycin"
+    },
+    {
+      "source": "S85",
+      "product": "Hexyon (Hexaxim; DTaP-IPV-HB-Hib)",
+      "key": "yeast",
+      "status": "有",
+      "page": 2,
+      "quote": "Produced in yeast Hansenula polymorpha cells by recombinant DNA technology"
+    },
+    {
+      "source": "S86",
+      "product": "Infanrix hexa (DTPa-HBV-IPV/Hib)",
+      "key": "yeast",
+      "status": "有",
+      "page": 2,
+      "quote": "produced in yeast cells (Saccharomyces cerevisiae) by recombinant DNA technology"
+    }
+  ]
+}

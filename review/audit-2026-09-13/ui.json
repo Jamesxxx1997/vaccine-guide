@@ -1,0 +1,101 @@
+{
+  "rows": 53,
+  "optionsA": 53,
+  "optionsB": 53,
+  "badges": true,
+  "orderErrors": [],
+  "search": {
+    "蛋過敏可以打流感疫苗嗎": [
+      {
+        "id": "allergy:egg-flu",
+        "title": "蛋過敏 → 流感疫苗（可接種，不需額外措施）"
+      },
+      {
+        "id": "allergy:flu-prior",
+        "title": "曾對流感疫苗本身嚴重過敏 → 再打流感疫苗？（不建議（禁忌））"
+      },
+      {
+        "id": "allergen:S45",
+        "title": "Vaxigrip Tetra 菲流達四價流感疫苗：成分與過敏原（台灣 TFDA 仿單）"
+      },
+      {
+        "id": "vax:flu",
+        "title": "流感疫苗"
+      },
+      {
+        "id": "allergy:egg-mmr",
+        "title": "蛋過敏 → MMR（可接種（蛋過敏非禁忌））"
+      }
+    ],
+    "對PEG過敏可以打莫德納嗎": [
+      {
+        "id": "allergy:peg",
+        "title": "PEG／polysorbate 過敏 → mRNA COVID-19 疫苗（確認 PEG 過敏：避開 mRNA，可考慮換平台；不建議用皮膚測試預測）"
+      },
+      {
+        "id": "allergy:same",
+        "title": "對某疫苗曾有嚴重過敏反應 → 同一疫苗再接種？（不建議（原則上禁忌））"
+      },
+      {
+        "id": "allergy:shared",
+        "title": "對 A 疫苗過敏 → 想打「含相同已載明成分」的 B 疫苗？（不建議直接接種；轉介評估後可考慮監測下分次給予）"
+      },
+      {
+        "id": "allergy:none",
+        "title": "對 A 疫苗過敏 → 想打「無共同已載明成分」的 B 疫苗？（可考慮（在具處置能力的場所接種並留觀））"
+      },
+      {
+        "id": "allergy:egg-flu",
+        "title": "蛋過敏 → 流感疫苗（可接種，不需額外措施）"
+      }
+    ],
+    "Shingrix 成分": [
+      {
+        "id": "allergen:S20",
+        "title": "Shingrix 欣剋疹帶狀疱疹疫苗：成分與過敏原（台灣 TFDA 仿單）"
+      },
+      {
+        "id": "allergen:S58",
+        "title": "Shingrix (Zoster Vaccine Recombinant, Adjuvanted)：成分與過敏原（美國 FDA 仿單）"
+      }
+    ]
+  },
+  "evaluation": {
+    "product:S20 -> S76": {
+      "rules": [
+        "none"
+      ],
+      "text": "可考慮（在具處置能力的場所接種並留觀） 對 A 疫苗過敏 → 想打「無共同已載明成分」的 B 疫苗？指引沒有把「對另一支疫苗過敏」列為 B 疫苗的禁忌；但「未載明」不等於「不含」，仿單成分表只列主要賦形劑。疾管署要求接種場所具備處置 anaphylaxis 的人員與設備；反應原因未明者仍建議先做皮膚測試找成分。 [1] [2]兩支疫苗仿單沒有共同已載明的過敏原。A 載明：PEG／polysorbate 80；B 載明：PEG／polysorbate 80。「未載明」不等於不含，仿單只列主要賦形劑。對於疫苗成分有嚴重過敏反應史，或對於先前接種之疫苗劑次發生嚴重過敏反應者，為接種禁忌 [1] S54｜疾管署 COVID19疫苗接種場所嚴重過敏反應處置建議 2021 — 過敏專科／官方指引原件，第 1 頁接種場所應具備訓練過之醫療人員及適當醫療設備 [1] S54｜疾管署 COVID19疫苗接種場所嚴重過敏反應處置建議 2021 — 過敏專科／官方指引原件，第 1 頁Patients who have had an apparent anaphylactic reaction after immunization should undergo immediate-type allergy skin testing to help confirm that the reaction was IgE mediated and determine the responsible component of the vaccine [2] S49｜AAAAI ACAAI疫苗過敏practice parameter 2012 — 過敏專科／官方指引原件，第 6 頁"
+    },
+    "product:S20 -> S58": {
+      "rules": [
+        "none"
+      ],
+      "text": "可考慮（在具處置能力的場所接種並留觀） 對 A 疫苗過敏 → 想打「無共同已載明成分」的 B 疫苗？指引沒有把「對另一支疫苗過敏」列為 B 疫苗的禁忌；但「未載明」不等於「不含」，仿單成分表只列主要賦形劑。疾管署要求接種場所具備處置 anaphylaxis 的人員與設備；反應原因未明者仍建議先做皮膚測試找成分。 [1] [2]兩支疫苗仿單沒有共同已載明的過敏原。A 載明：PEG／polysorbate 80；B 載明：PEG／polysorbate 80。「未載明」不等於不含，仿單只列主要賦形劑。對於疫苗成分有嚴重過敏反應史，或對於先前接種之疫苗劑次發生嚴重過敏反應者，為接種禁忌 [1] S54｜疾管署 COVID19疫苗接種場所嚴重過敏反應處置建議 2021 — 過敏專科／官方指引原件，第 1 頁接種場所應具備訓練過之醫療人員及適當醫療設備 [1] S54｜疾管署 COVID19疫苗接種場所嚴重過敏反應處置建議 2021 — 過敏專科／官方指引原件，第 1 頁Patients who have had an apparent anaphylactic reaction after immunization should undergo immediate-type allergy skin testing to help confirm that the reaction was IgE mediated and determine the responsible component of the vaccine [2] S49｜AAAAI ACAAI疫苗過敏practice parameter 2012 — 過敏專科／官方指引原件，第 6 頁"
+    },
+    "product:S41 -> S87": {
+      "rules": [
+        "none"
+      ],
+      "text": "可考慮（在具處置能力的場所接種並留觀） 對 A 疫苗過敏 → 想打「無共同已載明成分」的 B 疫苗？指引沒有把「對另一支疫苗過敏」列為 B 疫苗的禁忌；但「未載明」不等於「不含」，仿單成分表只列主要賦形劑。疾管署要求接種場所具備處置 anaphylaxis 的人員與設備；反應原因未明者仍建議先做皮膚測試找成分。 [1] [2]兩支疫苗仿單沒有共同已載明的過敏原。A 載明：（仿單未載明任何本表過敏原）；B 載明：（仿單未載明任何本表過敏原）。「未載明」不等於不含，仿單只列主要賦形劑。對於疫苗成分有嚴重過敏反應史，或對於先前接種之疫苗劑次發生嚴重過敏反應者，為接種禁忌 [1] S54｜疾管署 COVID19疫苗接種場所嚴重過敏反應處置建議 2021 — 過敏專科／官方指引原件，第 1 頁接種場所應具備訓練過之醫療人員及適當醫療設備 [1] S54｜疾管署 COVID19疫苗接種場所嚴重過敏反應處置建議 2021 — 過敏專科／官方指引原件，第 1 頁Patients who have had an apparent anaphylactic reaction after immunization should undergo immediate-type allergy skin testing to help confirm that the reaction was IgE mediated and determine the responsible component of the vaccine [2] S49｜AAAAI ACAAI疫苗過敏practice parameter 2012 — 過敏專科／官方指引原件，第 6 頁"
+    },
+    "key:other_antibiotics -> S81": {
+      "rules": [
+        "neomycin"
+      ],
+      "text": "仿單載明含有 and may contain residual amounts of host-cell DNA (≤20 mcg), protein (≤500 mcg), benzonase (≤0.0025 mcg), gentamicin (≤0.400 mcg), and ciprofloxacin (≤0.005 mcg).※ 殘留 gentamicin（胺基糖苷類）與 ciprofloxacin（氟喹諾酮類），非 neomycin遲發型（接觸性皮膚炎）：非禁忌；過敏性休克史：先評估 Neomycin 過敏 → 含 neomycin 疫苗CDC 通則：遲發型 neomycin 反應不是含 neomycin 疫苗的禁忌；立即型過敏極少見，過敏性休克史者接種前應由過敏科評估。 [1]A history of delayed-type reactions to neomycin is not a contraindication for administration of neomycin-containing vaccines [1] S57｜General Best Practice Guidelines for Immunization（CDC 全文 PDF，197 頁）— 過敏／禁忌章節引用，第 79 頁"
+    },
+    "key:peg_polysorbate -> S76": {
+      "rules": [
+        "peg"
+      ],
+      "text": "仿單載明含有 After reconstitution of the vial and vial presentation, each 0.5 mL dose is formulated to contain 120 mcg of the\nrecombinant RSVPreF3 antigen, 25 mcg of MPL, and 25 mcg of QS-21. Each dose also contains 14.7 mg of\nTrehalose, 4.4 mg of sodium chloride, 0.83 mg of potassium dihydrogen phosphate, 0.26 mg of dipotassium\nphosphate, 0.18 mg of polysorbate 80, 0.15 mg of disodium phosphate anhydrous, 0.5 mg of DOPC, and\n0.125 mg of cholesterol.確認 PEG 過敏：避開 mRNA，可考慮換平台；不建議用皮膚測試預測 PEG／polysorbate 過敏 → mRNA COVID-19 疫苗BSACI 2021：確認 PEG 過敏者應避開 mRNA 疫苗；曾耐受含 polysorbate 80 的流感疫苗者可考慮改打不含 PEG 的平台（文件所提 AZ 疫苗已過時，原則仍可參考）。AAAAI 2023 GRADE：對第 1 劑 mRNA 疫苗任何嚴重度立即型過敏者仍可接種後續劑次（強烈建議）；不建議接種前用疫苗或賦形劑測試預測風險，也不建議用 PEG／PS 皮膚測試預測。 [1] [2] [3] [4]this patient should avoid the Covid mRNA vaccines [1] S55｜BSACI vaccine allergy FAQs for GPs 2021 — 過敏專科／官方指引原件，第 1 頁has tolerated an influenza vaccine or other parenteral drug containing polysorbate 80 [1] S55｜BSACI vaccine allergy FAQs for GPs 2021 — 過敏專科／官方指引原件，第 1 頁individuals who had an immediate allergic reaction of any severity to the 1st dose mRNA COVID-19 vaccine can receive additional mRNA COVID-19 vaccine doses [2] S50｜AAAAI ACAAI COVID疫苗過敏GRADE共識更新 2023 — 過敏專科／官方指引原件，第 9 頁we recommend against vaccine or vaccine excipient testing prior to initial mRNA COVID-19 vaccination [3] S50｜AAAAI ACAAI COVID疫苗過敏GRADE共識更新 2023 — 過敏專科／官方指引原件，第 7 頁We recommend against skin testing to PEG, PS or to the mRNA COVID-19 vaccine itself [4] S50｜AAAAI ACAAI COVID疫苗過敏GRADE共識更新 2023 — 過敏專科／官方指引原件，第 12 頁"
+    },
+    "key:egg -> S89": {
+      "rules": [],
+      "text": "仿單載明含有 Hypersensitivity to the active substance or to any of the excipients listed in Section\n      6.1 or to eggs or chicken proteins.此疫苗的蛋過敏處理指引原句尚未收錄（流感、MMR、黃熱病見下方指引一覽）。"
+    }
+  },
+  "distinctOrderedPairs": 2756,
+  "pairsWithSharedListedAllergens": 1404
+}

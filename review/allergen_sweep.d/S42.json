@@ -1,0 +1,135 @@
+{
+ "product": "Varivax 伏痘敏活性水痘疫苗",
+ "source": "S42",
+ "pdf": "sources/仿單/現行版_2026-09-16/S42_Varivax_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+ "pages": 19,
+ "date": "2026-09-16",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [
+    {
+     "page": 4,
+     "term": "抗菌劑",
+     "pattern": "抗菌劑",
+     "context": "的澄清液體。3.2調製方式注意:用於注射和/或稀釋疫苗的針筒應不含任何的防腐劑、抗菌劑和清潔劑以防止疫苗的活性降低。因所附的稀釋液不含防腐劑或其他可能會不活化疫苗病毒"
+    }
+   ],
+   "dismissed": "全文掃描1個「抗菌劑」命中：p.4 為調製方式警語，要求注射/稀釋用『針筒』本身不得含防腐劑、抗菌劑、清潔劑（避免器材殘留物使疫苗失效），與疫苗本身成分或製程殘留無關"
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "peg_polysorbate": {
+   "patterns": [
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [],
+   "dismissed": null
+  }
+ }
+}

@@ -1,0 +1,750 @@
+{
+ "disease": "flu",
+ "panel": "antiviral",
+ "items": [
+  {
+   "id": "flu-rule-oselt-treat",
+   "type": "rule",
+   "label": "Oseltamivir 治療適用",
+   "summary": "治療適應症涵蓋成人與兒童（含足月新生兒）；應在出現症狀的第一或第二天內開始。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-indication",
+    "flu-av-oseltamivir-timing"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "可用",
+    "when": {
+     "purpose": "treatment"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-pep",
+   "type": "rule",
+   "label": "Oseltamivir 暴露後預防適用",
+   "summary": "預防適應症為成人及 1 歲以上兒童；密切接觸後 75 mg 每天一次服用 10 天，須在接觸後兩天內開始。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-indication",
+    "flu-av-oseltamivir-dose-prevention-adult"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "可用",
+    "when": {
+     "purpose": "pep",
+     "ageMin": 1
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-pep-infant",
+   "type": "rule",
+   "label": "Oseltamivir 未滿 1 歲無預防適應症",
+   "summary": "預防適應症限成人及 1 歲以上兒童。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-indication"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "不適用",
+    "when": {
+     "purpose": "pep",
+     "ageMax": 0.99
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-renal-le10",
+   "type": "rule",
+   "label": "Oseltamivir CrCl ≤10 不建議",
+   "summary": "肌酸酐清除率 ≤10 mL/min：不建議使用（無現有資料）。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-renal-treatment-le10",
+    "flu-av-oseltamivir-renal-prevention-le10"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "不建議",
+    "when": {
+     "crclMax": 10
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-renal-10-30-treat",
+   "type": "rule",
+   "label": "Oseltamivir CrCl 10–30 治療劑量調整",
+   "summary": "肌酸酐清除率 10–30 mL/min：治療劑量改為 30 mg 每天 1 次。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-renal-treatment-10-30"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "注意",
+    "when": {
+     "crclMin": 10.01,
+     "crclMax": 30,
+     "purpose": "treatment"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-renal-30-60-treat",
+   "type": "rule",
+   "label": "Oseltamivir CrCl 30–60 治療劑量調整",
+   "summary": "肌酸酐清除率 30–60 mL/min：治療劑量改為 30 mg 每天 2 次。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-renal-treatment-30-60"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "注意",
+    "when": {
+     "crclMin": 30.01,
+     "crclMax": 60,
+     "purpose": "treatment"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-renal-10-30-pep",
+   "type": "rule",
+   "label": "Oseltamivir CrCl 10–30 預防劑量調整",
+   "summary": "肌酸酐清除率 10–30 mL/min：預防劑量改為 30 mg 每 2 天 1 次。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-renal-prevention-10-30"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "注意",
+    "when": {
+     "crclMin": 10.01,
+     "crclMax": 30,
+     "purpose": "pep"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-renal-30-60-pep",
+   "type": "rule",
+   "label": "Oseltamivir CrCl 30–60 預防劑量調整",
+   "summary": "肌酸酐清除率 30–60 mL/min：預防劑量改為 30 mg 每天 1 次。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-renal-prevention-30-60"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "注意",
+    "when": {
+     "crclMin": 30.01,
+     "crclMax": 60,
+     "purpose": "pep"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-pregnant",
+   "type": "rule",
+   "label": "Oseltamivir 懷孕",
+   "summary": "尚無孕婦對照試驗；考量安全性與效益後可能可使用。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-pregnancy"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "注意",
+    "when": {
+     "pregnant": true
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-inpatient",
+   "type": "rule",
+   "label": "Oseltamivir 住院／重症首選（CDC）",
+   "summary": "CDC：住院或病程惡化者應儘快以口服或腸道給予 oseltamivir；即使超過 48 小時仍可能有效。",
+   "refs": [],
+   "basedOn": [
+    "flu-rec-cdc-hosp-oseltamivir-first",
+    "flu-rec-cdc-hosp-benefit-after-48h"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "可用",
+    "when": {
+     "setting": "inpatient"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "CDC"
+  },
+  {
+   "id": "flu-rule-oselt-who-nonsevere",
+   "type": "rule",
+   "label": "Oseltamivir 非重症：WHO 立場不同",
+   "summary": "WHO 2024 對非重症流感強烈建議不要用 oseltamivir；疾管署與美國 CDC 未排除門診使用，三方並列供判斷。",
+   "refs": [],
+   "basedOn": [
+    "flu-rec-who-oseltamivir-nonsevere-against",
+    "flu-rec-cdc-outpatient-highrisk"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "注意",
+    "when": {
+     "setting": "outpatient"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "WHO"
+  },
+  {
+   "id": "flu-rule-oselt-late",
+   "type": "rule",
+   "label": "Oseltamivir 門診超過 48 小時",
+   "summary": "仿單：須在症狀第一或第二天內開始；疾管署：發病後 48 小時內投予效果最好，不需等檢驗確診。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-timing",
+    "flu-rec-cdc-tw-timing-48h"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "注意",
+    "when": {
+     "setting": "outpatient",
+     "hoursMin": 48.01
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-oselt-neuro",
+   "type": "rule",
+   "label": "Oseltamivir 神經精神事件警語",
+   "summary": "小孩與青少年須嚴密監測不尋常行為；我國曾有 10 歲以上未成年人案例。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-oseltamivir-neuropsychiatric-warning",
+    "flu-av-oseltamivir-neuropsychiatric-taiwan-cases"
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "verdict": "注意",
+    "when": {
+     "ageMax": 17.99
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-zana-age",
+   "type": "rule",
+   "label": "Zanamivir 未滿 5 歲不適用",
+   "summary": "適應症為成人及 5 歲以上兒童。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-zanamivir-indication"
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "verdict": "不適用",
+    "when": {
+     "ageMax": 4.99
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-zana-treat",
+   "type": "rule",
+   "label": "Zanamivir 治療適用",
+   "summary": "5 歲以上：連續 5 天每天兩次，每次吸入 2×5 mg；症狀出現後盡快開始。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-zanamivir-indication",
+    "flu-av-zanamivir-dose-treatment"
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "verdict": "可用",
+    "when": {
+     "ageMin": 5,
+     "purpose": "treatment"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-zana-pep",
+   "type": "rule",
+   "label": "Zanamivir 預防適用",
+   "summary": "5 歲以上：連續 10 天每天一次吸入 2×5 mg。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-zanamivir-indication",
+    "flu-av-zanamivir-dose-prevention"
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "verdict": "可用",
+    "when": {
+     "ageMin": 5,
+     "purpose": "pep"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-zana-airway",
+   "type": "rule",
+   "label": "Zanamivir 呼吸道疾病警語",
+   "summary": "曾有支氣管痙攣與呼吸功能降低報告；併有呼吸道疾病者應備妥速效支氣管擴張劑；CDC 對氣道疾病患者不建議。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-zanamivir-bronchospasm-warning",
+    "flu-rec-cdc-table1-zanamivir"
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "verdict": "注意",
+    "when": {},
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-zana-pregnant",
+   "type": "rule",
+   "label": "Zanamivir 懷孕",
+   "summary": "懷孕期間不可使用，除非潛在效益超越胎兒風險。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-zanamivir-pregnancy"
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "verdict": "不建議",
+    "when": {
+     "pregnant": true
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-zana-inpatient",
+   "type": "rule",
+   "label": "Zanamivir 住院非常規（CDC）",
+   "summary": "CDC：吸入型 zanamivir 因資料不足，不建議常規用於住院病人。",
+   "refs": [],
+   "basedOn": [
+    "flu-rec-cdc-hosp-others-not-routine"
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "verdict": "不建議",
+    "when": {
+     "setting": "inpatient"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "CDC"
+  },
+  {
+   "id": "flu-rule-zana-noadjust",
+   "type": "rule",
+   "label": "Zanamivir 不須依腎功能調整",
+   "summary": "兒童、老年人、腎功能與肝功能損害者皆不須調整劑量。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-zanamivir-no-dose-adjustment"
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "verdict": "注意",
+    "when": {
+     "crclMax": 60
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-pera-pep",
+   "type": "rule",
+   "label": "Peramivir 無預防適應症",
+   "summary": "本藥用於預防之有效性及安全性尚未確立。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-peramivir-indication"
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "verdict": "不適用",
+    "when": {
+     "purpose": "pep"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-pera-treat",
+   "type": "rule",
+   "label": "Peramivir 治療適用",
+   "summary": "成人及一個月以上兒童：成人 300 mg 單次靜脈點滴，兒童 10 mg/kg，每次最多 600 mg；宜於症狀後 48 小時內。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-peramivir-indication",
+    "flu-av-peramivir-dose-adult",
+    "flu-av-peramivir-dose-child",
+    "flu-av-peramivir-timing"
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "verdict": "可用",
+    "when": {
+     "purpose": "treatment",
+     "ageMin": 0.084
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-pera-neonate",
+   "type": "rule",
+   "label": "Peramivir 未滿一個月無適應症",
+   "summary": "適應症為成人及一個月大以上兒童。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-peramivir-indication"
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "verdict": "不適用",
+    "when": {
+     "ageMax": 0.083
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-pera-inpatient",
+   "type": "rule",
+   "label": "Peramivir 住院重症有效性未確立",
+   "summary": "仿單：對需住院之嚴重流感病人有效性尚未確立；CDC：僅無法口服或腸道吸收時才考慮靜脈 peramivir，非常規。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-peramivir-hospitalized-severe-not-established",
+    "flu-rec-cdc-hosp-others-not-routine"
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "verdict": "不建議",
+    "when": {
+     "setting": "inpatient"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-pera-pregnant",
+   "type": "rule",
+   "label": "Peramivir 懷孕",
+   "summary": "懷孕期投與安全性未確立；判斷有益性高於危險性時才投與。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-peramivir-pregnancy"
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "verdict": "注意",
+    "when": {
+     "pregnant": true
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-balo-age",
+   "type": "rule",
+   "label": "Baloxavir 未滿 5 歲不適用",
+   "summary": "適應症限 5 歲以上且體重 20 公斤以上。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-baloxavir-indication-treatment"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "不適用",
+    "when": {
+     "ageMax": 4.99
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-balo-weight",
+   "type": "rule",
+   "label": "Baloxavir 體重未達 20 公斤不適用",
+   "summary": "適應症限 5 歲以上且體重 20 公斤以上。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-baloxavir-indication-treatment"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "不適用",
+    "when": {
+     "weightMax": 19.99
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-balo-treat-lt80",
+   "type": "rule",
+   "label": "Baloxavir 治療劑量（20–80 公斤）",
+   "summary": "體重 20 公斤以上未滿 80 公斤：單次口服 40 mg；症狀後 48 小時內。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-baloxavir-indication-treatment",
+    "flu-av-baloxavir-dose-lt80kg",
+    "flu-av-baloxavir-timing-treatment"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "可用",
+    "when": {
+     "purpose": "treatment",
+     "ageMin": 5,
+     "weightMin": 20,
+     "weightMax": 79.99
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-balo-treat-ge80",
+   "type": "rule",
+   "label": "Baloxavir 治療劑量（≥80 公斤）",
+   "summary": "體重 80 公斤以上：單次口服 80 mg；症狀後 48 小時內。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-baloxavir-indication-treatment",
+    "flu-av-baloxavir-dose-ge80kg",
+    "flu-av-baloxavir-timing-treatment"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "可用",
+    "when": {
+     "purpose": "treatment",
+     "ageMin": 5,
+     "weightMin": 80
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-balo-pep",
+   "type": "rule",
+   "label": "Baloxavir 暴露後預防適用",
+   "summary": "5 歲以上且 20 公斤以上，密切接觸後 48 小時內單次使用。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-baloxavir-indication-prevention",
+    "flu-av-baloxavir-timing-prevention"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "可用",
+    "when": {
+     "purpose": "pep",
+     "ageMin": 5,
+     "weightMin": 20
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-balo-late",
+   "type": "rule",
+   "label": "Baloxavir 超過 48 小時",
+   "summary": "仿單建議於症狀發生後 48 小時內單次使用。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-baloxavir-timing-treatment"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "注意",
+    "when": {
+     "hoursMin": 48.01
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-balo-pregnant",
+   "type": "rule",
+   "label": "Baloxavir 懷孕與哺乳",
+   "summary": "孕期投藥安全性未確立，須判斷有益性高於危險性；哺乳婦投藥療程中避免哺餵。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-baloxavir-pregnancy",
+    "flu-av-baloxavir-lactation"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "注意",
+    "when": {
+     "pregnant": true
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-balo-dairy",
+   "type": "rule",
+   "label": "Baloxavir 併服限制",
+   "summary": "避免與乳製品、高鈣飲品、含多價陽離子緩瀉劑、抗酸劑或鈣鐵鎂硒鋅補充劑併服。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-baloxavir-dairy-interaction"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "注意",
+    "when": {},
+    "group": "選擇器規則"
+   },
+   "authority": "TFDA"
+  },
+  {
+   "id": "flu-rule-balo-inpatient",
+   "type": "rule",
+   "label": "Baloxavir 住院非常規（CDC）",
+   "summary": "CDC：口服 baloxavir 因資料不足，不建議常規用於住院病人。",
+   "refs": [],
+   "basedOn": [
+    "flu-rec-cdc-hosp-others-not-routine"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "不建議",
+    "when": {
+     "setting": "inpatient"
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "CDC"
+  },
+  {
+   "id": "flu-rule-balo-highrisk-evidence",
+   "type": "rule",
+   "label": "Baloxavir 非重症高風險：WHO 與證據",
+   "summary": "WHO 2024 對非重症高風險族群條件性建議支持 baloxavir；JAMA IM 2025 顯示症狀緩解較快、高風險住院可能減少（低確定性）、治療後可能出現抗藥性。",
+   "refs": [],
+   "basedOn": [
+    "flu-rec-who-baloxavir-nonsevere-for",
+    "flu-ev-jama-baloxavir-symptom-md",
+    "flu-ev-jama-baloxavir-hosp-rd",
+    "flu-ev-jama-resistance-baloxavir"
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "verdict": "注意",
+    "when": {
+     "setting": "outpatient",
+     "highRisk": true
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "WHO"
+  },
+  {
+   "id": "flu-rule-favi-reserve",
+   "type": "rule",
+   "label": "Favipiravir 為儲備藥，非季節性流感常規用藥",
+   "summary": "PMDA 核准適應症限新型或再現大流行流感且其他抗流感藥無效或效果不足；季節性流感療效未獲確認；WHO 2024 對非重症強烈建議不要使用。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-favipiravir-indication-limitation",
+    "flu-av-favipiravir-seasonal-efficacy-not-confirmed",
+    "flu-rec-who-favipiravir-nonsevere-against"
+   ],
+   "tags": {
+    "drug": "favipiravir",
+    "verdict": "儲備藥",
+    "when": {},
+    "group": "選擇器規則"
+   },
+   "authority": "PMDA"
+  },
+  {
+   "id": "flu-rule-favi-pregnant",
+   "type": "rule",
+   "label": "Favipiravir 孕婦禁用",
+   "summary": "因致畸胎風險，孕婦或可能懷孕之婦女列為禁忌。",
+   "refs": [],
+   "basedOn": [
+    "flu-av-favipiravir-pregnancy-contraindication"
+   ],
+   "tags": {
+    "drug": "favipiravir",
+    "verdict": "不適用",
+    "when": {
+     "pregnant": true
+    },
+    "group": "選擇器規則"
+   },
+   "authority": "PMDA"
+  }
+ ]
+}

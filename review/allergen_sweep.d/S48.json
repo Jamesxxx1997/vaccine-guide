@@ -1,9 +1,9 @@
 {
  "product": "RotaTeq(輪達停)",
  "source": "S48",
- "pdf": "sources/仿單/輪狀病毒疫苗_RotaTeq_TFDA_2020-09-18.pdf",
- "pages": 13,
- "date": "2026-09-13",
+ "pdf": "sources/仿單/現行版_2026-09-16/S48_RotaTeq_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+ "pages": 23,
+ "date": "2026-09-16",
  "cells": {
   "egg": {
    "patterns": [
@@ -23,8 +23,15 @@
     "\\bhens\\b",
     "avian"
    ],
-   "hits": [],
-   "dismissed": "命中「hen」＝參考文獻作者姓 Chen"
+   "hits": [
+    {
+     "page": 3,
+     "term": "蛋",
+     "pattern": "(?<![蛋])蛋(?![白])",
+     "context": "蛋白(血清型G6)(參見表1)。表1基因人類輪狀病毒母牛輪狀病毒基因重組株的外表蛋最低劑量濃重組株及其外表蛋白母株及其外白組成(粗體字為人類度株名組成表蛋白組成輪"
+    }
+   ],
+   "dismissed": "命中 p.3「蛋」＝表1病毒外鞘蛋白/外表蛋白(VP7外鞘蛋白)描述中的「蛋白」字樣，非蛋類過敏原；本版未出現舊版曾見的「hen」／作者姓 Chen 假陽性（\\bhen\\b 有字界不會誤中 Chen）"
   },
   "gelatin": {
    "patterns": [

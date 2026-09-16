@@ -1,9 +1,9 @@
 {
  "product": "Infanrix hexa(嬰護寧)",
  "source": "S39",
- "pdf": "sources/仿單/六合一_Infanrix-hexa_TFDA_2021-07-01.pdf",
- "pages": 14,
- "date": "2026-09-13",
+ "pdf": "sources/仿單/現行版_2026-09-16/S39_Infanrix-hexa_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+ "pages": 19,
+ "date": "2026-09-16",
  "cells": {
   "egg": {
    "patterns": [
@@ -40,13 +40,18 @@
    "hits": [],
    "dismissed": null
   },
-  "latex": {
+  "peg_polysorbate": {
    "patterns": [
-    "乳膠",
-    "膠乳",
-    "橡膠",
-    "latex",
-    "rubber"
+    "聚山梨",
+    "吐溫",
+    "聚乙二醇",
+    "polysorbate",
+    "\\btween\\b",
+    "\\bpeg\\b",
+    "polyethylene\\s*glycol",
+    "macrogol",
+    "polyoxyethylene",
+    "聚氧乙烯"
    ],
    "hits": [],
    "dismissed": null

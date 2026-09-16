@@ -1,0 +1,575 @@
+{
+ "disease": "flu",
+ "panel": "vaccine",
+ "items": [
+  {
+   "id": "flu-vx-premed-not-recommended-zh",
+   "type": "rule",
+   "label": "不建議接種前常規給抗組織胺藥物以預防過敏（中文）",
+   "summary": "不建議於接種疫苗前，常規使用抗組織胺藥物作為預防過敏之用藥；抗組織胺藥物無法避免嚴重過敏反應之發生，且該預防性用藥可能使皮膚等相關症狀被掩蓋住，以致於延誤過敏反應之診斷與治療。",
+   "refs": [
+    {
+     "source": "S54",
+     "page": 3,
+     "region": [60.0, 195.0, 540.0, 322.0],
+     "quote": "不建議於接種COVID-19疫苗\n前，使用抗組織胺藥物作為預防過敏之用藥。抗組織胺藥物無法避免嚴重過敏反應之發\n生，且該預防性用藥可能使皮膚等相關症狀被掩蓋住，以致於延誤過敏反應之診斷與治\n療。"
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "疾管署",
+   "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021），過敏處置原則為通用型知識，與流感疫苗場景可類推套用；英文對應原句見 flu-vx-premed-not-recommended-en；quote 跨兩個 pdftotext block，用 region 定位",
+   "keywords": [
+    "打疫苗前要不要先吃抗過敏藥",
+    "抗組織胺",
+    "預防性用藥",
+    "不建議",
+    "曾經過敏"
+   ]
+  },
+  {
+   "id": "flu-vx-premed-not-recommended-en",
+   "type": "fact",
+   "label": "不建議接種前常規給抗組織胺藥物以預防過敏（英文原句）",
+   "summary": "CDC：對疫苗接種者於接種前給予抗組織胺藥物以預防過敏反應，並不建議；抗組織胺僅可作為輔助治療，不應作為過敏性休克的初始或唯一治療。",
+   "refs": [
+    {
+     "source": "S152",
+     "page": 5,
+     "quote": "Administration of antihistamines\nto COVID-19\n         vaccine recipients prior to vaccination to prevent anaphylaxis is not recommended."
+    },
+    {
+     "source": "S152",
+     "page": 2,
+     "quote": "Antihistamines may be given as adjunctive treatment but should not be used as initial or sole treatment for anaphylaxis."
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "CDC",
+   "note": "美國 CDC 舊站存檔 Management of Anaphylaxis at COVID-19 Vaccination Sites；標題雖限定 COVID-19 疫苗，內容為通用型過敏處置原則，適用流感疫苗場景",
+   "keywords": [
+    "antihistamine",
+    "premedication",
+    "not recommended",
+    "prior to vaccination",
+    "adjunctive"
+   ]
+  },
+  {
+   "id": "flu-vx-premed-adjunctive-not-sole-table",
+   "type": "table-row",
+   "label": "抗組織胺／H2 抗組織胺／類固醇僅為輔助治療，不得作為初始或唯一治療",
+   "summary": "急性過敏性休克處置表中，H1 抗組織胺、H2 抗組織胺與類固醇均列於「輔助治療（Adjunctive therapies）」欄，表格附註明白註記：這些藥物不應被用作初始或唯一治療。",
+   "refs": [
+    {
+     "source": "S57",
+     "page": 84,
+     "region": [300.0, 470.0, 535.0, 562.0],
+     "quote": "H1 antihistamine:(a) Consider giving cetirizine 10 mg\nIV (given over 2 minutes) diphenhydramine 25 to 50\nmg IV (given over 5 minutes) (for relief of urticaria\nand itching only)\nH2 antihistamine:(a) Consider giving famotidine 20\nmg IV (given over 2 minutes).\nGlucocorticoid:(a) Consider giving methylprednisolone\n125 mg IV."
+    },
+    {
+     "source": "S57",
+     "page": 85,
+     "quote": "(a) These medications should not be used as initial or sole treatment."
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "CDC/ACIP",
+   "note": "CDC General Best Practice Guidelines for Immunization，Table 5-2（成人）；本條為「發生過敏反應後」的輔助治療定位，非接種前預防性投藥；劑量數字（cetirizine 10 mg、famotidine 20 mg、methylprednisolone 125 mg）僅描述表格內容，非本站建議之預防性給藥劑量",
+   "keywords": [
+    "抗組織胺",
+    "H2 antihistamine",
+    "類固醇",
+    "輔助治療",
+    "不得單獨使用",
+    "cetirizine",
+    "methylprednisolone"
+   ]
+  },
+  {
+   "id": "flu-vx-premed-prevention-is-history-taking",
+   "type": "fact",
+   "label": "預防過敏之道：問過敏史辨識高風險者，而非常規給藥",
+   "summary": "預防過敏反應的最佳做法，是透過詢問既往對疫苗接種或疫苗成分的過敏病史，找出可能有潛在過敏體質的高風險個案，而非常規給藥。",
+   "refs": [
+    {
+     "source": "S57",
+     "page": 75,
+     "region": [60.0, 88.0, 535.0, 150.0],
+     "quote": "The best practice to prevent allergic reactions is to identify individuals at\nincreased risk by obtaining a history of allergy to previous vaccinations and vaccine\ncomponents that might indicate an underlying hypersensitivity."
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "CDC/ACIP",
+   "note": "CDC General Best Practice Guidelines for Immunization",
+   "keywords": [
+    "怎麼預防過敏",
+    "問過敏史",
+    "高風險",
+    "識別",
+    "曾經過敏"
+   ]
+  },
+  {
+   "id": "flu-vx-premed-egg-allergy-normal-flow",
+   "type": "qa",
+   "label": "Q&A：對雞蛋過敏者是否可接種流感疫苗",
+   "summary": "可以。因流感疫苗製程進步，內含的雞蛋蛋白成分已極少，雞蛋過敏者接種雞胚蛋培養之流感疫苗並不會增加過敏反應發生率，因此國際上皆建議雞蛋過敏者可安心照一般流程接種流感疫苗。",
+   "question": "對雞蛋/蛋的蛋白質過敏者是否可接種流感疫苗？",
+   "refs": [
+    {
+     "source": "S151",
+     "page": 2,
+     "quote": "可以。因大部分使用之流感疫苗，其病毒來自於雞胚蛋培養，傳統上\n認為疫苗中可能含有雞蛋蛋白成分，曾經建議有雞蛋過敏史者，接種\n疫苗後需觀察一段時間，確定未產生過敏反應。但近期研究顯示，因\n流感疫苗製程進步，內含的雞蛋蛋白成分已極少，雞蛋過敏者接種雞\n胚蛋培養之流感疫苗並不會增加過敏反應發生率，因此國際上皆建議\n雞蛋過敏者可安心照一般流程接種流感疫苗。"
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "疾管署",
+   "note": "疾管署流感疫苗接種注意事項 Q&A，最後更新日期 2026/8/14；食物過敏、雞蛋過敏均非禁忌，不需額外預防性用藥或分次接種法（歷史做法見 flu-vx-premed-egg-2step-obsolete）",
+   "keywords": [
+    "雞蛋過敏",
+    "蛋過敏可以打嗎",
+    "一般流程",
+    "不用特別處理"
+   ]
+  },
+  {
+   "id": "flu-vx-premed-egg-us-any-severity",
+   "type": "fact",
+   "label": "美國 CDC：2023-24 季起雞蛋過敏不論嚴重度均無需額外安全措施",
+   "summary": "自 2023-2024 流感季起，不論先前對蛋的過敏反應嚴重度為何，雞蛋過敏者接種流感疫苗均不再需要在一般疫苗接種建議之外採取額外的安全措施。",
+   "refs": [
+    {
+     "source": "S153",
+     "page": 1,
+     "quote": "Beginning with the 2023-2024 season, additional safety measures are no longer recommended for flu vaccination of people who are allergic to eggs beyond those recommended for receipt of any vaccine, regardless of the severity of previous reaction to egg."
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "CDC",
+   "note": "CDC Flu Vaccines and People with Egg Allergies，2024-09-17",
+   "keywords": [
+    "egg allergy",
+    "regardless of severity",
+    "2023-24",
+    "額外安全措施"
+   ]
+  },
+  {
+   "id": "flu-vx-premed-severe-allergy-contraindication",
+   "type": "qa",
+   "label": "Q&A：接種流感疫苗有哪些禁忌症",
+   "summary": "已知對疫苗成分有嚴重過敏者，或過去注射曾發生嚴重不良反應者，為接種禁忌，不予接種；除此以外包括食物過敏、輕微上呼吸道症狀者，均可安心接種流感疫苗。",
+   "question": "接種流感疫苗有哪些禁忌症（contraindications）？",
+   "refs": [
+    {
+     "source": "S151",
+     "page": 1,
+     "quote": "1. 已知對疫苗的成分有嚴重過敏者，不予接種。\n2. 過去注射曾經發生嚴重不良反應者，不予接種。\n3. 另外未滿6個月大之嬰兒因缺乏安全性與保護力相關資料，不建\n議接種。除此以外包括食物過敏、輕微上呼吸道症狀者，均可安\n心接種流感疫苗。"
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "疾管署",
+   "note": "疾管署流感疫苗接種注意事項 Q&A，最後更新日期 2026/8/7；本題問的是「曾有輕微過敏反應」，屬「食物過敏、輕微反應」一類，非本條禁忌症所指之「嚴重過敏」",
+   "keywords": [
+    "禁忌症",
+    "嚴重過敏",
+    "食物過敏",
+    "什麼人不能打"
+   ]
+  },
+  {
+   "id": "flu-vx-premed-allergic-constitution-eval",
+   "type": "qa",
+   "label": "Q&A：有過敏體質的民眾，可以接種流感疫苗嗎",
+   "summary": "接種流感疫苗前，皆須先經醫師評估身體狀況，若為過敏體質，應於接種前告知醫師，由醫師評估是否接種疫苗。",
+   "question": "有過敏體質的民眾，可以接種流感疫苗嗎？",
+   "refs": [
+    {
+     "source": "S151",
+     "page": 2,
+     "quote": "接種流感疫苗前，皆須先經醫師評估身體狀況，若為過敏體質，應於\n接種前告知醫師，由醫師評估是否接種疫苗。"
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "疾管署",
+   "note": "疾管署流感疫苗接種注意事項 Q&A；官方對過敏體質者的接種前處置為「告知病史、醫師評估」，並非常規給藥",
+   "keywords": [
+    "過敏體質",
+    "曾經有過敏反應",
+    "打疫苗前要跟醫生說",
+    "醫師評估"
+   ]
+  },
+  {
+   "id": "flu-vx-premed-observe-15min",
+   "type": "qa",
+   "label": "Q&A：流感疫苗接種後注意事項（15 分鐘留觀）",
+   "summary": "接種疫苗後有相當小的機率會發生立即型過敏反應，並導致過敏性休克；為了能在事件發生後立即進行醫療處置，接種疫苗後應於接種單位或附近稍做休息，並建議於接種後應坐或躺約 15 分鐘，離開後請自我密切觀察 15 分鐘，以避免因發生昏厥而摔倒受傷。",
+   "question": "流感疫苗接種後注意事項？",
+   "refs": [
+    {
+     "source": "S151",
+     "page": 3,
+     "quote": "1. 接種疫苗後有相當小的機率會發生立即型過敏反應，並導致過敏\n性休克。為了能在事件發生後立即進行醫療處置，接種疫苗後應\n於接種單位或附近稍做休息，並建議於接種後應坐或躺約15分\n鐘，離開後請自我密切觀察15分鐘，以避免因發生昏厥而摔倒受\n傷。"
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "疾管署",
+   "note": "疾管署流感疫苗接種注意事項 Q&A，最後更新日期 2026/8/7；此為官方唯一列出的接種後常規措施（留觀），未列常規給藥",
+   "keywords": [
+    "留觀15分鐘",
+    "接種後注意事項",
+    "坐或躺",
+    "觀察多久"
+   ]
+  },
+  {
+   "id": "flu-vx-premed-egg-2step-obsolete",
+   "type": "fact",
+   "label": "【已過時】舊教材：曾有輕微雞蛋過敏史可採兩階段式接種法",
+   "summary": "2011 年舊版教學手冊記載：若被接種者曾有輕微雞蛋過敏的病史（除立即型過敏以外），且同時屬於流感併發重症之高危險族群，可採取兩階段式接種法：先接種十分之一的劑量，30 分鐘後無症狀產生，再接種剩下十分之九的劑量，並再觀察 30 分鐘始可離去；此做法已被現行指引取代，現行不建議對雞蛋過敏者採分次接種。",
+   "refs": [
+    {
+     "source": "S154",
+     "page": 136,
+     "region": [65.0, 130.0, 330.0, 225.0],
+     "quote": "若被接種者曾有輕微雞蛋過敏的病史（除立即型過敏以外），且也同\n時屬於流感併發重症之高危險族群，這時施打流感疫苗者可以採\n取兩階段式接種法：先接種十分之一的劑量，30分鐘後無\n症狀產生，再接種剩下十分之九的劑量，並再觀察30分鐘\n始可離去"
+    },
+    {
+     "source": "S153",
+     "page": 1,
+     "quote": "Beginning with the 2023-2024 season, additional safety measures are no longer recommended for flu vaccination of people who are allergic to eggs beyond those recommended for receipt of any vaccine, regardless of the severity of previous reaction to egg."
+    }
+   ],
+   "tags": {
+    "group": "接種前預防性用藥（抗組織胺／類固醇）"
+   },
+   "authority": "疾管署（原行政院衛生署疾病管制局）",
+   "note": "★歷史文件（2011年出版），做法已過時：此兩階段式接種法已被 CDC 2023-24 季起「不論嚴重度均無需額外安全措施」的現行建議取代（見 flu-vx-premed-egg-us-any-severity／flu-vx-premed-egg-allergy-normal-flow），本站僅作古今做法對照，不建議現行採用",
+   "keywords": [
+    "兩階段接種",
+    "分次接種",
+    "舊做法",
+    "十分之一劑量",
+    "已過時"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-epi-adult-dose",
+   "type": "fact",
+   "label": "成人腎上腺素劑量：肌肉注射 0.3-0.5 mg（濃度 1:1000）",
+   "summary": "腎上腺素（濃度 1:1000，1mg/ml）為發生全身性嚴重過敏反應時的第一線治療藥物，成人肌肉注射劑量為 0.01mg/kg，成人最大注射量為 0.5mg/劑；若使用腎上腺素自動注射器，成人單次劑量為 0.3mg，於大腿前外側的肌肉進行注射。",
+   "refs": [
+    {
+     "source": "S54",
+     "page": 2,
+     "quote": "對於發生嚴重過敏反應如低血壓、呼吸道水腫、及呼吸困難的病人，應立即注射腎上腺\n   素（濃度 1:1000，1mg/ml）\n    不論大人或小孩，肌肉注射劑量為 0.01mg/kg，成人最大注射量為 0.5mg/劑，兒童為\n     0.3mg/劑"
+    },
+    {
+     "source": "S54",
+     "page": 3,
+     "region": [60.0, 70.0, 540.0, 90.0],
+     "quote": "如果使用腎上腺素自動注射器，成人單次劑量為0.3mg，於大腿前外側的肌肉進行注"
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "疾管署",
+   "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021），過敏處置原則為通用型知識，適用流感疫苗場景；兒童劑量另見 flu-vx-anaphylaxis-epi-child-dose",
+   "keywords": [
+    "腎上腺素劑量",
+    "epinephrine",
+    "成人劑量",
+    "0.3mg",
+    "0.5mg",
+    "肌肉注射"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-epi-child-dose",
+   "type": "fact",
+   "label": "兒童腎上腺素劑量：依體重分層（0.15mg／0.3mg）",
+   "summary": "兒童肌肉注射腎上腺素劑量為 0.01mg/kg，最大 0.3mg/劑；若使用腎上腺素自動注射器，25 公斤以下兒童單次劑量為 0.15mg，體重介於 26 至 50 公斤者單次劑量為 0.3mg。",
+   "refs": [
+    {
+     "source": "S54",
+     "page": 2,
+     "quote": "不論大人或小孩，肌肉注射劑量為 0.01mg/kg，成人最大注射量為 0.5mg/劑，兒童為\n     0.3mg/劑"
+    },
+    {
+     "source": "S54",
+     "page": 3,
+     "region": [60.0, 88.0, 540.0, 125.0],
+     "quote": "25公斤以下兒童，單次劑量為0.15mg，體重介於26至50公斤，單次劑量為\n0.3mg"
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "疾管署",
+   "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021）；成人劑量另見 flu-vx-anaphylaxis-epi-adult-dose；quote 跨 pdftotext block，用 region 定位",
+   "keywords": [
+    "兒童腎上腺素劑量",
+    "小孩劑量",
+    "0.15mg",
+    "體重分層",
+    "自動注射器"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-epi-weight-table-en",
+   "type": "table-row",
+   "label": "體重分層腎上腺素肌肉注射劑量表（英文原表）",
+   "summary": "美國 CDC 體重分層肌肉注射腎上腺素劑量表：體重大於 30 公斤者用 EpiPen 0.3 mg 或 AUVI-Q 0.3 mg，體重上限劑量 0.5 mg；體重 15 公斤至未滿 30 公斤者用 EpiPen Jr 0.15 mg 或 AUVI-Q 0.15 mg，體重上限劑量 0.3 mg；體重小於 15 公斤者依體重給藥，體重上限劑量 0.15 mg。",
+   "refs": [
+    {
+     "source": "S152",
+     "page": 4,
+     "region": [30.0, 400.0, 550.0, 570.0],
+     "quote": "Weight             Preferred Method                         Available Autoinjectors              Weight-based Maximum Dose\n                                                                EpiPen and EpiPen Jr               (Epinephrine (1 mg/ml aqueous solution\n                                                                AUVI-Q                             [1:1000 dilution]) at dose of 0.01 mg/kg)*\n\n    >30 kg             Autoinjector, premeasured                       EpiPen 0.3 mg                 0.5 mg\n                       or prefilled syringe                            AUVI-Q 0.3 mg\n\n    15 kg to           Autoinjector                                    EpiPen Jr 0.15 mg             0.3 mg\n    <30 kg                                                             AUVI-Q 0.15 mg\n\n    <15 kg             Weight-based dosing                             AUVI-Q 0.1 mg                 0.15 mg"
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "CDC",
+   "note": "美國 CDC 舊站存檔 Management of Anaphylaxis at COVID-19 Vaccination Sites 體重分層劑量表；region 用於整表定位，需 check_claims.py 驗證",
+   "keywords": [
+    "weight-based",
+    "EpiPen",
+    "AUVI-Q",
+    "體重分層",
+    "劑量表"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-epi-route-site",
+   "type": "fact",
+   "label": "腎上腺素給藥途徑與部位：肌肉注射，優先大腿外側",
+   "summary": "腎上腺素為過敏性休克的第一線治療，應立即以肌肉注射方式給予，優先選擇大腿外側肌肉注射；因過敏性休克屬急性、可能危及生命的狀況，使用腎上腺素並無任何禁忌症。",
+   "refs": [
+    {
+     "source": "S152",
+     "page": 4,
+     "region": [30.0, 240.0, 545.0, 280.0],
+     "quote": "Epinephrine (1 mg/ml aqueous solution [1:1000 dilution]) is the first-line treatment for anaphylaxis and should be\nadministered immediately, as an intramuscular injection."
+    },
+    {
+     "source": "S57",
+     "page": 84,
+     "quote": "IM epinephrine (1 mg/mL preparation): Give\n                                                   epinephrine 0.3 to 0.5 mg intramuscularly, preferably\n                                                   in the mid-outer thigh."
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "CDC",
+   "note": "美國 CDC 舊站存檔＋CDC General Best Practice Guidelines；中文對應「大腿前外側」見 flu-vx-anaphylaxis-epi-adult-dose 引用之 S54",
+   "keywords": [
+    "肌肉注射",
+    "大腿外側",
+    "第一線治療",
+    "無禁忌症",
+    "intramuscular"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-epi-repeat-interval",
+   "type": "fact",
+   "label": "腎上腺素重複給藥間隔：每 5-15 分鐘可重複一次",
+   "summary": "若症狀未改善，腎上腺素可每 5 至 15 分鐘重覆注射一次，並完整記錄注射劑量及時間。",
+   "refs": [
+    {
+     "source": "S54",
+     "page": 3,
+     "quote": "若症狀未改善，可每 5 至 15 分鐘重覆注射一次\n         完整記錄注射劑量及時間"
+    },
+    {
+     "source": "S152",
+     "page": 4,
+     "quote": "A dose of epinephrine may be repeated approximately every 5-15 minutes if symptoms do not improve or if\n               they return while waiting for EMS."
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "疾管署",
+   "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021）＋美國 CDC 舊站存檔，中英文一致",
+   "keywords": [
+    "多久打一次",
+    "重複給藥",
+    "5到15分鐘",
+    "repeat epinephrine"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-no-contraindication",
+   "type": "fact",
+   "label": "腎上腺素使用無任何禁忌症",
+   "summary": "由於全身性嚴重過敏反應可能危及生命，故使用腎上腺素時，並無禁忌症。",
+   "refs": [
+    {
+     "source": "S54",
+     "page": 3,
+     "quote": "由於全身性嚴重過敏反應可能危及生命，故使用腎上腺素時，並無禁忌症"
+    },
+    {
+     "source": "S152",
+     "page": 4,
+     "region": [70.0, 315.0, 540.0, 355.0],
+     "quote": "Because of the acute, life-threatening nature of anaphylaxis, there are no contraindications to epinephrine\nadministration."
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "腎上腺素禁忌症",
+    "沒有禁忌",
+    "急救",
+    "危及生命"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-position-o2-fluid",
+   "type": "fact",
+   "label": "急救處置：擺位、給氧、輸液、呼叫救護",
+   "summary": "疑似發生全身性嚴重過敏反應時，應快速評估呼吸道、呼吸、循環及意識狀況，請求緊急醫療支援（如播打 119），若病患無上呼吸道阻塞或嘔吐之狀況，將病患採仰臥姿勢並將腿部墊高（復甦姿勢）；並應給予氧氣、視需要給予生理食鹽水輸液。",
+   "refs": [
+    {
+     "source": "S54",
+     "page": 2,
+     "region": [40.0, 615.0, 540.0, 690.0],
+     "quote": "如果接種者發生疑似全身性嚴重過敏反應之事件，請依下列步驟進行處置：快速評估呼吸道、呼吸、循環及意識狀況請求緊急醫療支援（如播打119、聯繫後送醫院..等）如病患無上呼吸道阻塞或嘔吐之狀況，將病患採仰臥姿勢並將腿部墊高（復甦姿勢）。"
+    },
+    {
+     "source": "S57",
+     "page": 84,
+     "region": [300.0, 375.0, 535.0, 445.0],
+     "quote": "Oxygen: Give 8 to 10 L/minute via facemask or up to\n100% oxygen, as needed.\nNormal saline rapid bolus: Treat hypotension with\nrapid infusion of 1 to 2 liters IV."
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "疾管署",
+   "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021）＋CDC General Best Practice Guidelines Table 5-2；氧氣流量與輸液量數字取自 CDC 表格，供臨床參考",
+   "keywords": [
+    "急救處置",
+    "擺位",
+    "復甦姿勢",
+    "給氧",
+    "輸液",
+    "叫救護車",
+    "119"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-observe-4h",
+   "type": "fact",
+   "label": "發生嚴重過敏反應後：需留院觀察至少 4 小時",
+   "summary": "因全身性嚴重過敏反應可能於症狀緩解又再度發作，故建議發生全身性嚴重過敏反應病患需留院觀察至少 4 小時；美國 CDC 亦建議症狀完全緩解後，仍應於醫療院所監測數小時。",
+   "refs": [
+    {
+     "source": "S54",
+     "page": 3,
+     "region": [60.0, 305.0, 540.0, 340.0],
+     "quote": "因全身性嚴重過敏反應可能於症狀緩解又再度發作，故建議發生全身性嚴重過敏反應病患需留院觀察至少4小時。"
+    },
+    {
+     "source": "S152",
+     "page": 5,
+     "region": [30.0, 55.0, 555.0, 90.0],
+     "quote": "Because anaphylaxis may recur after patients begin to recover, monitoring in a medical facility for several hours is\nadvised, even after complete resolution of symptoms and signs."
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "疾管署",
+   "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021）＋美國 CDC 舊站存檔；中文明訂 4 小時，英文原句未給出具體小時數（僅「several hours」），兩者並列不強行合併成同一數字",
+   "keywords": [
+    "留院觀察",
+    "4小時",
+    "觀察多久",
+    "反應復發"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-antihistamine-steroid-adjunctive",
+   "type": "fact",
+   "label": "抗組織胺、類固醇為過敏性休克處置的輔助治療，須於腎上腺素之後使用",
+   "summary": "抗組織胺藥物（如 H1、H2 抗組織胺藥物）及支氣管擴張劑不能治療呼吸窘迫或低血壓，因此並非全身性嚴重過敏反應第一線的治療藥物；抗組織胺藥物可幫助舒緩蕁麻疹發癢，支氣管擴張劑可減緩呼吸窘迫之不適，但應於使用腎上腺素治療後再提供。",
+   "refs": [
+    {
+     "source": "S54",
+     "page": 3,
+     "quote": "腎上腺素為當發生全身性嚴重過敏反應時第一線治療藥物。抗組織胺藥物（如 H1, H2 抗\n     組織胺藥物）及支氣管擴張劑不能治療呼吸窘迫或低血壓，因此這些藥物並非全身性嚴重\n     過敏反應第一線的治療藥物。抗組織胺藥物可幫助舒緩蕁麻疹發癢，而支氣管擴張劑則可\n     減緩呼吸窘迫之不適，但應於使用腎上腺素治療後再提供。"
+    },
+    {
+     "source": "S152",
+     "page": 4,
+     "quote": "Antihistamines (e.g., H1 or H2 antihistamines) and bronchodilators do not treat upper airway obstruction (laryngeal\n         edema) or hypotension and, thus, are not first-line treatments for anaphylaxis. Although they can help provide relief"
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "疾管署",
+   "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021）＋美國 CDC 舊站存檔；表格版劑量見 flu-vx-premed-adjunctive-not-sole-table",
+   "keywords": [
+    "抗組織胺輔助",
+    "類固醇輔助",
+    "非第一線",
+    "先打腎上腺素",
+    "蕁麻疹"
+   ]
+  },
+  {
+   "id": "flu-vx-anaphylaxis-equipment-list",
+   "type": "table-row",
+   "label": "急救藥物與設備分級：一定要具備 vs 建議具備",
+   "summary": "評估及處置全身性嚴重過敏反應所需的急救藥物及設備分兩級：一定要具備者為腎上腺素、血壓計；建議具備者包括氧氣、抗組織胺藥物（如 diphenhydramine、cetirizine）、類固醇、支氣管擴張劑、靜脈注射與點滴、氧氣面罩、氣管插管裝備、自動體外心臟電擊去顫器（AED）。",
+   "refs": [
+    {
+     "source": "S54",
+     "page": 2,
+     "region": [30.0, 340.0, 565.0, 580.0],
+     "quote": "下列為針對全身性嚴重過敏反應進行評估及處置時，所需之急救藥物及設備：Ａ.一定要具備B.建議具備腎上腺素□氧氣（oxygen）血壓計□抗組織胺藥物（如diphenhydramine,cetirizine）□類固醇（steroid）□支氣管擴張劑（bronchodilator）□靜脈注射與點滴等□氧氣面罩(正壓給氧)□氣管插管裝備（intubationkit）或特殊情況下需氣切之裝備□自動體外心臟電擊去顫器(AutomatedExternalDefibrillator,AED)"
+    }
+   ],
+   "tags": {
+    "group": "接種後嚴重過敏反應（anaphylaxis）處置"
+   },
+   "authority": "疾管署",
+   "note": "疾管署 COVID-19 疫苗接種場所嚴重過敏反應處置建議（2021）；抗組織胺與類固醇被歸類為「建議具備」而非「一定要具備」，與腎上腺素、血壓計分屬不同等級，呼應「輔助而非第一線」的定位；quote 依 region 閱讀序（列為單位，左到右）逐字重建，已用 check_claims.py 驗證定位成功",
+   "keywords": [
+    "急救設備",
+    "一定要具備",
+    "建議具備",
+    "AED",
+    "接種場所配備"
+   ]
+  }
+ ]
+}

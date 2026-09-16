@@ -1,0 +1,203 @@
+{
+ "product": "Abrysvo",
+ "source": "S34",
+ "pdf": "sources/仿單/現行版_2026-09-16/S34_Abrysvo_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+ "pages": 19,
+ "date": "2026-09-16",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [
+    {
+     "page": 18,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "充填的溶劑注射器劑粉末裝在小瓶(第1型玻璃或同等產品)中,帶有塞子(合成氯化丁基橡膠)和翻蓋預充填注射器(第1型玻璃)中的1劑溶劑,帶有塞子(合成氯化丁基橡膠)和尖"
+    },
+    {
+     "page": 18,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "化丁基橡膠)和翻蓋預充填注射器(第1型玻璃)中的1劑溶劑,帶有塞子(合成氯化丁基橡膠)和尖帽(合成異戊二烯/溴化丁基共混橡膠)無菌藥瓶轉接器Abrysvo抗原藥瓶("
+    },
+    {
+     "page": 18,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "璃)中的1劑溶劑,帶有塞子(合成氯化丁基橡膠)和尖帽(合成異戊二烯/溴化丁基共混橡膠)無菌藥瓶轉接器Abrysvo抗原藥瓶(粉末)和溶劑小瓶1劑粉末裝在小瓶(第1型"
+    }
+   ],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [
+    {
+     "page": 8,
+     "term": "Al(OH)3",
+     "pattern": "al\\(oh\\)3",
+     "context": "接著在懷孕第⏎10 天和第 24 天。施用 Abrysvo 的動物(無論含或不含Al(OH)3)及其胎兒和幼⏎兔都引發了功能性抗體反應。沒有觀察到母體毒性或對交配表現、雌性生"
+    },
+    {
+     "page": 8,
+     "term": "Al(OH)3",
+     "pattern": "al\\(oh\\)3",
+     "context": "1天和7天,接著在懷孕第10天和第24天。施用Abrysvo的動物(無論含或不含Al(OH)3)及其胎兒和幼兔都引發了功能性抗體反應。沒有觀察到母體毒性或對交配表現、雌性生育"
+    },
+    {
+     "page": 9,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "16/26,12:37PM可以與季節性四價流感疫苗(QIV,表面抗原,去活化,有佐劑的)同時接種。在一項針對65歲及以上成人的隨機試驗中,同時施用組與單獨施用組相比"
+    },
+    {
+     "page": 9,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "施用組與單獨施用組相比免疫反應符合不劣性的條件。然而,當Abrysvo和去活化有佐劑的季節性流感疫苗同時施用時,觀察到的RSVA和RSVB中和效價以及A型和B型流感"
+    }
+   ],
+   "dismissed": "p.8 動物研究比較「含或不含Al(OH)3」的對照製劑非Abrysvo本身；p.9「有佐劑的」指同時接種之流感疫苗，非Abrysvo成分"
+  }
+ }
+}

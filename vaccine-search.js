@@ -125,6 +125,22 @@
   }
   // 過敏與成分：指引判讀（allergy-guidance.js）＋各產品過敏原（review/allergens.js）
   const ALLERGY_GENERIC=['過敏','過敏反應','蛋過敏','雞蛋','明膠','乳膠','酵母','neomycin','抗生素','PEG','polysorbate','皮膚測試','成分','賦形劑','可以打','能打','anaphylaxis'];
+  // 疾病臨床（review/clinical.js）：每條陳述一個條目，類別「疾病臨床（流感）」；別名＝標籤、問句、藥名中英、民眾用語
+  const CLINICAL_GENERIC=['克流感','瑞樂沙','瑞貝塔','紓伏效','易剋冒','oseltamivir','zanamivir','peramivir','baloxavir','favipiravir','tamiflu','xofluza','relenza','rapiacta','avigan','抗病毒','公費','快篩','PCR','檢驗','隔離','請假','上班','上學','傳染','潛伏期','退燒','孕婦','腎功能','洗腎','小孩','兒童','重症','危險徵兆','通報','疫苗','高劑量','佐劑','兩劑','保護力'];
+  if(typeof CLINICAL!=='undefined'&&CLINICAL.diseases){
+    const DN={flu:'流感',covid:'COVID-19',hpv:'HPV'};
+    for(const d of Object.values(CLINICAL.diseases)){
+      const dname=DN[d.id]||d.id;
+      for(const [pid,list] of Object.entries(d.panels||{})){
+        for(const it of list){
+          const sections=it.refs.length?[{label:it.label,text:(it.answer||it.summary)+' '+it.refs.map(r=>r.quote).join(' '),ref:{claim:it.refs[0].claim}}]:[];
+          const tagWords=Object.values(it.tags||{}).filter(v=>typeof v==='string');
+          entries.push({id:'clinical:'+it.id,clinical:it,disease:d.id,panel:pid,title:(it.question||it.label)+'（'+dname+'）',category:'疾病臨床（'+dname+'）',
+            aliases:[dname,dname+'疫苗',it.question||'',...(it.keywords||[]),...tagWords,...(it.tags&&it.tags.group?[it.tags.group]:[]),...CLINICAL_GENERIC].filter(Boolean),sections});
+        }
+      }
+    }
+  }
   const vaxAliases=id=>{const v=(typeof VAX!=='undefined'?VAX:[]).find(x=>x.id===id);return v?[v.n,v.en,...extraAliases(v)]:(ALIASES[id]||[]);};
   if(window.AllergyGuidance?.rulesData){
     for(const r of AllergyGuidance.rulesData){
@@ -151,9 +167,13 @@
   function keywordFind(query){
     const q=norm(query);if(q.length<3)return [];
     const usable=a=>a.length>=(/^[\x00-\x7f]+$/.test(a)?3:2);
+    // 英文別名只做「整個詞」比對（依非字母數字切詞），避免 "ZZZ-unmatched" 命中 "match"、"between" 命中 "tween"；中文別名維持子字串
+    const asciiKey=t=>String(t||'').normalize('NFKC').toLowerCase().split(/[^a-z0-9]+/).filter(Boolean).join(' ');
+    const qTokens=' '+asciiKey(query)+' ';
+    const asciiHit=a=>{const k=asciiKey(a);return !!k&&qTokens.includes(' '+k+' ');};
     return entries.map(e=>{
-      const hits=[...new Set([e.title,...e.aliases].map(norm).filter(a=>usable(a)&&q.includes(a)))];
-      const GENERIC_ALL=[...POSTINF_GENERIC,...ADVERSE_GENERIC,...ALLERGY_GENERIC].map(norm);
+      const hits=[...new Set([e.title,...e.aliases].filter(a=>{const n=norm(a);return usable(n)&&(/^[\x00-\x7f]+$/.test(n)?asciiHit(a):q.includes(n));}).map(norm))];
+      const GENERIC_ALL=[...POSTINF_GENERIC,...ADVERSE_GENERIC,...ALLERGY_GENERIC,...(typeof CLINICAL_GENERIC!=='undefined'?CLINICAL_GENERIC:[])].map(norm);
       // 通用詞若正好出現在條目標題裡（例：「PEG」對「PEG／polysorbate 過敏 → mRNA 疫苗」規則），對該條目就是專有詞；
       // 但「過敏」「可以打」這種每條規則標題都有的字不升級，否則所有規則同分
       const BROAD=['過敏','過敏反應','可以打','能打','成分','賦形劑','反應','副作用','不良反應'].map(norm);
@@ -165,11 +185,11 @@
       // 讓「感冒可以打流感疫苗嗎」排在總表列而不是疫苗名稱卡（疫苗名卡仍在結果內）。
       const generic=hits.filter(h=>!specific.includes(h));
       const timing=hits.filter(h=>POSTINF_TIMING.map(norm).includes(h));
-      const topical=e.adverse?ADVERSE_GENERIC:(e.allergyRule||e.allergenProduct)?ALLERGY_GENERIC:[];
+      const topical=e.adverse?ADVERSE_GENERIC:(e.allergyRule||e.allergenProduct)?ALLERGY_GENERIC:e.clinical?CLINICAL_GENERIC:[];
       const topicHit=hits.some(h=>topical.map(norm).includes(h));
       const score=hits.reduce((n,h)=>n+h.length*(specific.includes(h)?2:1),0)
         +(e.postinfRow!==undefined?(specific.length&&timing.length?7:1):0)
-        +((e.adverse||e.allergyRule)?(specific.length&&topicHit?7:(topicHit?2:0)):0)
+        +((e.adverse||e.allergyRule||e.clinical)?(specific.length&&topicHit?7:(topicHit?2:0)):0)
         // 仿單成分條目只是「該廠牌含什麼」，判讀（指引規則）與疫苗卡要排在它前面 → 加分減半
         +(e.allergenProduct?(specific.length&&topicHit?3:(topicHit?1:0)):0);
       // 問句提到的病人條件（懷孕、蛋過敏…）→ 優先顯示含該條件用詞的規則段落
@@ -231,6 +251,7 @@
       actions.append(button('展開劑次／禁忌與原文',()=>open(r.entry)));
       if(r.entry.postinfRow!==undefined)actions.append(button('前往間隔規則總表',()=>revealPostinf(r.entry)));
       else if(r.entry.adverse)actions.append(button('前往副作用分頁',()=>{ReferenceUI.clear();Array.from(document.getElementById('tabs').children).find(t=>/副作用/.test(t.textContent))?.click();window.AdverseEffects?.show(r.entry.adverse.vaccine);document.getElementById('adverseRoot')?.scrollIntoView?.({block:'start'});}));
+      else if(r.entry.clinical)actions.append(button('前往疾病臨床分頁',()=>{ReferenceUI.clear();Array.from(document.getElementById('tabs').children).find(t=>/疾病臨床/.test(t.textContent)).click();if(window.Clinical)Clinical.show(r.entry.disease,r.entry.panel);const el=document.querySelector('[data-clinical-item="'+r.entry.clinical.id+'"]');if(el){el.scrollIntoView({block:'center'});el.classList.add('hit-flash');setTimeout(()=>el.classList.remove('hit-flash'),1600);}}));
       else if(r.entry.allergyRule||r.entry.allergenProduct)actions.append(button('前往過敏與成分分頁',()=>{ReferenceUI.clear();Array.from(document.getElementById('tabs').children).find(t=>/過敏/.test(t.textContent))?.click();const el=r.entry.allergyRule?document.querySelector(`.allergy-rule[data-allergy-rule="${r.entry.allergyRule}"]`):document.querySelector(`#allergenMatrix tr[data-allergy-product="${r.entry.allergenProduct}"]`);el?.scrollIntoView?.({block:'center'});}));
       else if(!r.entry.guide)actions.append(button('前往'+(r.entry.id.startsWith('vax:')?'接種前篩檢':'成人時程')+'原卡片',()=>reveal(r.entry)));
       card.append(actions);

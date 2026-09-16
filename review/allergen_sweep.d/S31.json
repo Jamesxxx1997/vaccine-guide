@@ -1,9 +1,9 @@
 {
  "product": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗",
  "source": "S31",
- "pdf": "sources/仿單/MMR疫苗_麻疹腮腺炎德國麻疹混合疫苗M-M-RII(默沙東)_TFDA_2022-11-22.pdf",
- "pages": 10,
- "date": "2026-09-13",
+ "pdf": "sources/仿單/現行版_2026-09-16/S31_MMR-II_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+ "pages": 15,
+ "date": "2026-09-16",
  "cells": {
   "other_antibiotics": {
    "patterns": [
@@ -53,7 +53,32 @@
     "latex",
     "rubber"
    ],
-   "hits": [],
+   "hits": [
+    {
+     "page": 1,
+     "term": "rubber",
+     "pattern": "rubber",
+     "context": "on flange with B2-0⏎4 coatingBromobutyl rubber⏎瓶塞之玻璃小瓶裝⏎附安全針頭與小瓶轉接頭及溶劑⏎(2⏎ml prefilled"
+    },
+    {
+     "page": 1,
+     "term": "rubber",
+     "pattern": "rubber",
+     "context": "uroteconflangewithB2-04coatingBromobutylrubber瓶塞之玻璃小瓶裝附安全針頭與小瓶轉接頭及溶劑(2mlprefilledsyrin"
+    },
+    {
+     "page": 2,
+     "term": "rubber",
+     "pattern": "rubber",
+     "context": "附安全針頭與小瓶轉接頭及溶劑⏎(2⏎ml prefilled syringe)⏎rubber⏎⏎主製造廠⏎⏎製造廠名稱⏎製造廠地址⏎⏎MERCK SHARP & DOHME"
+    },
+    {
+     "page": 2,
+     "term": "rubber",
+     "pattern": "rubber",
+     "context": "玻璃小瓶裝附安全針頭與小瓶轉接頭及溶劑(2mlprefilledsyringe)rubber主製造廠製造廠名稱製造廠地址MERCKSHARP&DOHMELLC5325OLD"
+    }
+   ],
    "dismissed": null
   },
   "peg_polysorbate": {
@@ -84,6 +109,52 @@
    ],
    "hits": [],
    "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [
+    {
+     "page": 3,
+     "term": "Phenol",
+     "pattern": "phenol",
+     "context": "odium L-Glutamate Monohydrate、⏎Neomycin、Phenol Red、Potassium Phosphate Dibasic (Anhydr"
+    },
+    {
+     "page": 3,
+     "term": "Phenol",
+     "pattern": "phenol",
+     "context": "nosodiumL-GlutamateMonohydrate、Neomycin、PhenolRed、PotassiumPhosphateDibasic(Anhydrous)"
+    },
+    {
+     "page": 4,
+     "term": "防腐劑",
+     "pattern": "防腐劑",
+     "context": "位置是上臂的外側。3.2調製方式注意:稀釋及注射此疫苗時所使用的無菌注射器須不含防腐劑、消毒劑及清潔劑。因為這些物質會使此活性病毒疫苗失去活性。稀釋時,只使用與疫苗同"
+    },
+    {
+     "page": 4,
+     "term": "防腐劑",
+     "pattern": "防腐劑",
+     "context": "些物質會使此活性病毒疫苗失去活性。稀釋時,只使用與疫苗同時提供的稀釋液。因其不含防腐劑及其它會使疫苗失去活性的物質。在溶液及容器合適的情況下,任何注射劑在使用前皆須目"
+    }
+   ],
+   "dismissed": "p.3「Phenol」命中為 Phenol Red（賦形劑表內的pH指示劑，非硫柳汞/防腐劑）之子字串，非硫柳汞相關；防腐劑相關命中已改列 related"
   },
   "aluminium": {
    "patterns": [

@@ -1,0 +1,263 @@
+{
+ "product": "Arexvy",
+ "source": "S35",
+ "pdf": "sources/仿單/現行版_2026-09-16/S35_Arexvy_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+ "pages": 19,
+ "date": "2026-09-16",
+ "cells": {
+  "egg": {
+   "patterns": [
+    "雞胚",
+    "雞蛋",
+    "蛋類",
+    "卵白",
+    "卵蛋白",
+    "(?<![蛋])蛋(?![白])",
+    "(?<!卵)卵(?!巢|磷脂)",
+    "禽",
+    "ovalbumin",
+    "\\begg",
+    "chick",
+    "embryo",
+    "\\bhen\\b",
+    "\\bhens\\b",
+    "avian"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "gelatin": {
+   "patterns": [
+    "明膠",
+    "動物膠",
+    "水解膠",
+    "膠質",
+    "吉利丁",
+    "gelatin",
+    "gelatine",
+    "hydroly[sz]ed"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "neomycin": {
+   "patterns": [
+    "neomycin",
+    "新黴素",
+    "紐黴素",
+    "尼奧黴素",
+    "奈歐黴素",
+    "新霉素"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "other_antibiotics": {
+   "patterns": [
+    "kanamycin",
+    "polymyxin",
+    "gentamicin",
+    "gentamycin",
+    "streptomycin",
+    "erythromycin",
+    "amphotericin",
+    "chlortetracycline",
+    "antibiotic",
+    "tetracycline",
+    "chloramphenicol",
+    "四環素",
+    "氯黴素",
+    "卡那黴素",
+    "多黏菌素",
+    "多粘菌素",
+    "健大黴素",
+    "慶大黴素",
+    "鏈黴素",
+    "紅黴素",
+    "抗生素",
+    "抗菌劑"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "yeast": {
+   "patterns": [
+    "酵母",
+    "yeast",
+    "saccharomyces",
+    "pichia",
+    "hansenula",
+    "cerevisiae"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "latex": {
+   "patterns": [
+    "乳膠",
+    "膠乳",
+    "橡膠",
+    "latex",
+    "rubber"
+   ],
+   "hits": [
+    {
+     "page": 18,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "疫反應不劣性標準。19713包裝及儲存13.1包裝1劑粉劑,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中1劑懸浮液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃"
+    },
+    {
+     "page": 18,
+     "term": "橡膠",
+     "pattern": "橡膠",
+     "context": "盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中1劑懸浮液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中Arexvy有1小瓶粉劑加1小瓶懸浮液的包裝,或10小瓶"
+    }
+   ],
+   "dismissed": null
+  },
+  "formaldehyde": {
+   "patterns": [
+    "甲醛",
+    "福馬林",
+    "戊二醛",
+    "formaldehyde",
+    "formalin",
+    "glutaraldehyde",
+    "formol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [],
+   "dismissed": null
+  },
+  "aluminium": {
+   "patterns": [
+    "鋁",
+    "aluminium",
+    "aluminum",
+    "\\balum\\b",
+    "alpo4",
+    "al\\(oh\\)3",
+    "aahs",
+    "佐劑",
+    "adjuvant",
+    "alhydrogel",
+    "明礬",
+    "硫酸鋁鉀"
+   ],
+   "hits": [
+    {
+     "page": 1,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "入,免除銜接性試驗包裝每盒一百支以下玻璃小瓶裝附等支數單劑量0.5毫升玻璃小瓶裝佐劑瓶裝佐劑仿單無紙化已採用主製造廠製造廠名稱製造廠地址GlaxoSmithKlin"
+    },
+    {
+     "page": 1,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "銜接性試驗包裝每盒一百支以下玻璃小瓶裝附等支數單劑量0.5毫升玻璃小瓶裝佐劑瓶裝佐劑仿單無紙化已採用主製造廠製造廠名稱製造廠地址GlaxoSmithKlineBio"
+    },
+    {
+     "page": 2,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "含量泡製之後,1劑(0.5毫升)含有120微克RSVPreF3抗原(使用AS01佐劑)。穩定於融合前構形(pre-fusionconformation)的呼吸道融合"
+    },
+    {
+     "page": 2,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "NA重組技術在中國倉鼠卵巢(CHO)細胞中製造而得。葛蘭素史克公司的專利AS01佐劑系統係由植物萃取物QuillajasaponariaMolina的fractio"
+    },
+    {
+     "page": 3,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "eF3抗原):二水海藻糖、聚山梨醇酯80、磷酸二氫鉀、磷酸氫二鉀懸浮液(AS01佐劑系統):二油醯基磷脂醯膽鹼、膽固醇、氯化鈉、無水磷酸氫二鈉、磷酸二氫鉀、注射用水"
+    },
+    {
+     "page": 3,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "方式製備Arexvy以兩個小瓶方式提供,在施打前必須先進行泡製。透過搭配的懸浮液佐劑成分(乳白色、無色至淡棕色的無菌液體)泡製凍乾抗原成分(無菌白色粉末)來製備Ar"
+    },
+    {
+     "page": 3,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "菌液體)泡製凍乾抗原成分(無菌白色粉末)來製備Arexvy。只能使用提供的懸浮液佐劑成分來泡製。泡製後的疫苗為乳白色、無色至淡棕色的液體。施打前應目視檢查泡製後的疫"
+    },
+    {
+     "page": 5,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "婦女使用Arexvy的臨床試驗資料。在一項臨床試驗中對3557名孕婦施打研究用無佐劑但與Arexvy同樣含有RSVPreF3抗原的疫苗後,觀察到與安慰劑組相比早產兒"
+    },
+    {
+     "page": 5,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "RSVPreF3抗原的疫苗後,觀察到與安慰劑組相比早產兒有增加的情形。目前對於無佐劑RSVPreF3疫苗施打和早產之間的關係尚未有結論。一項在雌性兔子進行的發育與生"
+    },
+    {
+     "page": 6,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": ".27交互作用與其他疫苗併用Arexvy可與去活化季節性流感疫苗(標準劑量無添加佐劑、高劑量無添加佐劑或標準劑量有添加佐劑)、帶狀疱疹疫苗(基因重組、有添加佐劑)或"
+    },
+    {
+     "page": 6,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "他疫苗併用Arexvy可與去活化季節性流感疫苗(標準劑量無添加佐劑、高劑量無添加佐劑或標準劑量有添加佐劑)、帶狀疱疹疫苗(基因重組、有添加佐劑)或肺炎鏈球菌結合型疫"
+    },
+    {
+     "page": 6,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "y可與去活化季節性流感疫苗(標準劑量無添加佐劑、高劑量無添加佐劑或標準劑量有添加佐劑)、帶狀疱疹疫苗(基因重組、有添加佐劑)或肺炎鏈球菌結合型疫苗(載體蛋白為白喉C"
+    },
+    {
+     "page": 18,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": ",並於當天同時接種或間隔1個月後分開接種去活化季節性四價流感疫苗(標準劑量無添加佐劑,成人≥60歲,N=885;高劑量無添加佐劑,成人≥65歲,N=1,029;或標"
+    },
+    {
+     "page": 18,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "化季節性四價流感疫苗(標準劑量無添加佐劑,成人≥60歲,N=885;高劑量無添加佐劑,成人≥65歲,N=1,029;或標準劑量有添加佐劑,成人≥65歲,N=1,04"
+    },
+    {
+     "page": 18,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "歲,N=885;高劑量無添加佐劑,成人≥65歲,N=1,029;或標準劑量有添加佐劑,成人≥65歲,N=1,045)。將Arexvy與標準劑量無添加佐劑的季節性流感"
+    }
+   ],
+   "dismissed": "「佐劑」命中皆為 Arexvy 自身 AS01（QS-21+MPL，已用 related 呈現）、包裝標籤「佐劑瓶裝」通用詞，或同時接種之流感/帶狀疱疹/肺炎鏈球菌疫苗的佐劑描述，非鋁鹽相關"
+  }
+ }
+}

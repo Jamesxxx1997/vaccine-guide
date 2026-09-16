@@ -7,7 +7,8 @@ const row=(country,disease='霍亂',extra={})=>({country,disease,level:'第一�
 const result=(query,rows)=>({version:1,query,rows,count:rows.length,fetchedAt:'2026-09-06T08:00:00.000Z'});
 (async()=>{
   // 16 guides + 20 screener cards + 14 adult entries + 8 感染後接種間隔總表列 + 副作用原件表格 + 過敏指引判讀 + 有引句的仿單成分產品（資料驅動，數量隨產生器輸出變）
-  const expectedEntries=16+20+14+8+win.eval('ADVERSE_EFFECTS.tables.length')+win.AllergyGuidance.rulesData.length+win.eval('ALLERGENS.products.filter(p=>(p.components||[]).length||(p.warnings||[]).length||(p.allergens||[]).some(a=>a.claim)).length');
+  // ＋ 疾病臨床每條陳述一個條目（review/clinical.js）
+  const expectedEntries=16+20+14+8+win.eval('ADVERSE_EFFECTS.tables.length')+win.AllergyGuidance.rulesData.length+win.eval('ALLERGENS.products.filter(p=>(p.components||[]).length||(p.warnings||[]).length||(p.allergens||[]).some(a=>a.claim)).length')+win.eval('typeof CLINICAL!=="undefined"?Object.values(CLINICAL.diseases).flatMap(d=>Object.values(d.panels).flat()).length:0');
   assert.equal(win.VaccineSearch.count,expectedEntries);
   query('Ｄｕｋｏｒａｌ');assert(doc.querySelector('[data-search-entry="guide:cholera"]'));
   let target=doc.querySelector('#vaccineSearchResults .ref-target');

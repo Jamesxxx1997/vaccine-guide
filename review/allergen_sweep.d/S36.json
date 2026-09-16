@@ -1,44 +1,10 @@
 {
  "product": "Adacel(安打星三合一補追疫苗)",
  "source": "S36",
- "pdf": "sources/仿單/Tdap疫苗_Adacel_TFDA_2021-05-25.pdf",
- "pages": 2,
- "date": "2026-09-13",
+ "pdf": "sources/仿單/現行版_2026-09-16/S36_Adacel_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+ "pages": 18,
+ "date": "2026-09-16",
  "cells": {
-  "thimerosal": {
-   "patterns": [
-    "硫柳汞",
-    "汞",
-    "thimerosal",
-    "thiomersal",
-    "merthiolate",
-    "mercur",
-    "防腐劑",
-    "保存劑",
-    "preservative",
-    "phenoxyethanol",
-    "苯氧乙醇",
-    "乙基汞",
-    "ethylmercury",
-    "(?<![酚])酚(?![酞])",
-    "phenol"
-   ],
-   "hits": [
-    {
-     "page": 1,
-     "term": "phenoxyethanol",
-     "pattern": "phenoxyethanol",
-     "context": "luminium phosphate)(佐劑)⏎1.5 毫克⏎二苯氧基乙醇(2-phenoxyethanol)⏎0.6%(v/v)⏎製造過程殘留物⏎甲醛(formaldehyde)及戊二醛"
-    },
-    {
-     "page": 1,
-     "term": "phenoxyethanol",
-     "pattern": "phenoxyethanol",
-     "context": "酸鋁(aluminiumphosphate)(佐劑)1.5毫克二苯氧基乙醇(2-phenoxyethanol)0.6%(v/v)製造過程殘留物甲醛(formaldehyde)及戊二醛(gl"
-    }
-   ],
-   "dismissed": null
-  },
   "egg": {
    "patterns": [
     "雞胚",
@@ -113,13 +79,13 @@
    ],
    "hits": [
     {
-     "page": 2,
+     "page": 4,
      "term": "抗生素",
      "pattern": "抗生素",
      "context": ".U.肌肉注射。5.必要時應以擴創術清理傷口,並使用metronidazole等抗生素。應確實了解病人是否已完成基礎預防接種。若病人曾完成破傷風的基礎預防接種且其傷口"
     }
    ],
-   "dismissed": "傷口處置「metronidazole 等抗生素」，非疫苗成分"
+   "dismissed": "傷口處置段落提及的抗生素類（如有）非疫苗成分，屬臨床處置建議"
   },
   "yeast": {
    "patterns": [
@@ -147,6 +113,40 @@
     "聚氧乙烯"
    ],
    "hits": [],
+   "dismissed": null
+  },
+  "thimerosal": {
+   "patterns": [
+    "硫柳汞",
+    "汞",
+    "thimerosal",
+    "thiomersal",
+    "merthiolate",
+    "mercur",
+    "防腐劑",
+    "保存劑",
+    "preservative",
+    "phenoxyethanol",
+    "苯氧乙醇",
+    "乙基汞",
+    "ethylmercury",
+    "(?<![酚])酚(?![酞])",
+    "phenol"
+   ],
+   "hits": [
+    {
+     "page": 3,
+     "term": "phenoxyethanol",
+     "pattern": "phenoxyethanol",
+     "context": "luminium phosphate)(佐劑) 1.5 毫克⏎二苯氧基乙醇(2-phenoxyethanol) 0.6%(v/v)⏎製造過程殘留物⏎甲醛(formaldehyde)及戊二醛"
+    },
+    {
+     "page": 3,
+     "term": "phenoxyethanol",
+     "pattern": "phenoxyethanol",
+     "context": "酸鋁(aluminiumphosphate)(佐劑)1.5毫克二苯氧基乙醇(2-phenoxyethanol)0.6%(v/v)製造過程殘留物甲醛(formaldehyde)及戊二醛(gl"
+    }
+   ],
    "dismissed": null
   }
  }

@@ -1,0 +1,1606 @@
+{
+ "disease": "flu",
+ "panel": "antiviral",
+ "items": [
+  {
+   "id": "flu-av-oseltamivir-indication",
+   "type": "fact",
+   "label": "Oseltamivir（克流感）適應症",
+   "summary": "治療：成人和兒童（包含足月新生兒）之流感。預防：成人及 1 歲以上兒童。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 2,
+     "quote": "成人和兒童（包含足月新生兒）的流行性感冒之治療（參閱 3.3 特殊族群用法用量、 5 警語及注意事項、 10.3 臨床前安全性資\n料）。\n成人 1歲或以上兒童的流行性感冒之預防。"
+    },
+    {
+     "source": "S113",
+     "page": 1,
+     "quote": "成人和兒童（包含足月新生兒）的流行性感冒之治療（參閱3.3特殊族群用法用量、5警語及注\n意事項、10.3臨床前安全性資料）。"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "indication"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "oseltamivir",
+    "適應症",
+    "流感治療",
+    "流感預防",
+    "新生兒"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-timing",
+   "type": "fact",
+   "label": "Oseltamivir 給藥時機",
+   "summary": "必須在出現流感症狀的第一或第二天內開始治療。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 3,
+     "quote": "必須在出現流行性感冒症狀的第一或第二天內開始進行治療。"
+    },
+    {
+     "source": "S113",
+     "page": 1,
+     "quote": "必須在出現流行性感冒症狀的第一或第二天內開始進行治療。"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "timing"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "幾天內吃",
+    "發病後",
+    "48小時",
+    "症狀出現",
+    "越早吃越好"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-dose-adult",
+   "type": "fact",
+   "label": "Oseltamivir 成人／13 歲以上治療劑量",
+   "summary": "成人及 13 歲以上青少年：75 mg 每天 2 次，共 5 天。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 3,
+     "quote": "Tamiflu 在成人及 13 歲或以上青少年的口服建議劑量為 75 毫克膠囊，每天 2 次，為期 5 天。"
+    },
+    {
+     "source": "S113",
+     "page": 2,
+     "quote": "Tamiflu ® 在成人及13歲或以上青少年的口服建議劑量為75毫克膠囊，每天2次，為期5"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "population": "adult",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "成人劑量",
+    "75mg",
+    "一天兩次",
+    "吃幾天",
+    "青少年劑量"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-dose-child-23-40",
+   "type": "table-row",
+   "label": "Oseltamivir 1 歲以上兒童治療劑量（體重 >23–40 公斤）",
+   "summary": "體重 >23–40 公斤：60 mg 每天 2 次。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 3,
+     "quote": "> 23 - 40 公斤"
+    },
+    {
+     "source": "S112",
+     "page": 3,
+     "quote": "60 毫克，每天 2 次"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "population": "child",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "note": "此體重分級表在 PDF 文字層被拆成多個獨立區塊（體重欄／mg 劑量欄／mL 懸浮液欄各自成欄），逐字全列引用無法定位，改引該列的體重門檻與 mg 劑量兩段各自可唯一定位的原文；≤15 公斤與 >15–23 公斤兩列因與嬰兒劑量表數值重疊、定位器判為多重命中風險過高，未收錄為獨立條目（成人/13歲以上與 0–12個月嬰兒劑量已由其他條目涵蓋）",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "兒童劑量",
+    "體重",
+    "小孩吃多少",
+    "公斤"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-dose-child-gt40",
+   "type": "table-row",
+   "label": "Oseltamivir 1 歲以上兒童治療劑量（體重 >40 公斤）",
+   "summary": "體重超過門檻可吞服膠囊者：75 mg 每天 2 次。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 3,
+     "quote": "75 毫克，每天 2 次"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "population": "child",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "note": "體重門檻「> 40公斤」與另一段用法用量文字同頁重複出現、定位器判為多重命中，故僅引劑量本身；體重門檻請對照仿單原文 3.1 節「若兒童的體重超過40公斤…則可以服用75毫克膠囊，每天2次」",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "兒童劑量",
+    "體重超過40公斤",
+    "小孩吃多少",
+    "青少年"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-dose-infant",
+   "type": "fact",
+   "label": "Oseltamivir 0–12 個月嬰兒治療劑量",
+   "summary": "0 至 12 個月嬰兒：3 mg/kg 每日二次，共 5 日。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 3,
+     "quote": "Tamiflu 使用於 0 至 12 個月兒童的口服建議劑量為 3mg/kg ，每日二次，共 5 日。"
+    },
+    {
+     "source": "S113",
+     "page": 2,
+     "quote": "Tamiflu®使用於0至12個月兒童的口服建議劑量為3mg/kg，每日二次，共5日。"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "population": "infant",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "嬰兒劑量",
+    "3mg/kg",
+    "未滿1歲",
+    "新生兒",
+    "0-12個月"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-infant-ga36w-note",
+   "type": "fact",
+   "label": "Oseltamivir 嬰兒劑量不適用胎齡未滿 36 週者",
+   "summary": "此建議劑量不適用於胎齡未滿 36 週的嬰兒，此類病人資料不足。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 3,
+     "quote": "此建議劑量不適用於胎齡未滿 36 週的嬰兒，對此類病人的資料不足，此類病人的生理功能尚未成熟，可能需要不同的劑\n量。"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "population": "infant",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "早產兒",
+    "胎齡",
+    "未滿36週",
+    "嬰兒劑量不適用"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-dose-prevention-adult",
+   "type": "fact",
+   "label": "Oseltamivir 成人／青少年預防劑量",
+   "summary": "與感染者密切接觸後預防：75 mg 每天一次，服用 10 天，須在接觸病源的兩天內開始。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 3,
+     "quote": "Tamiflu 對於與受感染個體有密切接觸的流行性感冒預防上，其口服建議劑量為 75 毫克，每天一次，服用 10 天，必須在接觸\n病源的兩天內開始進行治療。"
+    },
+    {
+     "source": "S113",
+     "page": 3,
+     "quote": "Tamiflu ® 對於與受感染個體有密切接觸的流行性感冒預防上，其口服建議劑量為75毫"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "population": "adult",
+    "purpose": "prevention"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "預防性投藥",
+    "密切接觸",
+    "接觸者預防",
+    "10天"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-dose-prevention-outbreak",
+   "type": "fact",
+   "label": "Oseltamivir 社區流行期預防劑量與療程",
+   "summary": "社區性流感流行期間預防劑量為每天一次 75 mg，6 個星期的安全性和療效已獲得證實。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 3,
+     "quote": "在爆發社區性流行性感冒流行期間，預防疾病的建議劑量為每天一次 75 毫克的 Tamiflu 。 6 個                                   ®\n星期的安全性和療效已獲得證實。"
+    },
+    {
+     "source": "S113",
+     "page": 3,
+     "quote": "行性感冒流行期間，預防疾病的建議劑量為每天一次75毫克的Tamiflu ® 。6個星期的"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "prevention"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "社區流行",
+    "預防劑量",
+    "6週",
+    "流行期預防"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-treatment-gt60",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能治療劑量（CrCl >60，正常）",
+   "summary": "肌酸酐清除率 >60 mL/min：治療劑量 75 mg 每天 2 次（無須調整）。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "> 60 (ml/min)          75毫克，每天2次"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腎功能",
+    "肌酸酐清除率",
+    "洗腎",
+    "腎不好劑量"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-treatment-30-60",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全治療劑量調整（CrCl 30–60）",
+   "summary": "肌酸酐清除率 30–60 mL/min：治療劑量 30 mg 每天 2 次。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "> 30至60 (ml/min)         30毫克，每天2次"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腎功能不全",
+    "肌酸酐清除率",
+    "洗腎",
+    "減量"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-treatment-10-30",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全治療劑量調整（CrCl 10–30）",
+   "summary": "肌酸酐清除率 10–30 mL/min：治療劑量 30 mg 每天 1 次。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "> 10至30 (ml/min)         30毫克，每天1次"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腎功能不全",
+    "肌酸酐清除率",
+    "洗腎",
+    "減量"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-treatment-le10",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全治療劑量（CrCl ≤10，不建議）",
+   "summary": "肌酸酐清除率 ≤10 mL/min：不建議使用（無現有資料）。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "> 10至30 (ml/min)         30毫克，每天1次\n\n                  ≤ 10 (ml/min)         不建議(無現有資料)"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "note": "≤10 該行文字在治療表與預防表重複出現，引句含上一列以鎖定治療表。",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腎功能不全",
+    "洗腎",
+    "不建議使用",
+    "嚴重腎衰竭"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-treatment-hd",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全治療劑量（血液透析）",
+   "summary": "血液透析病人：每次血液透析療程後 30 mg。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "血液透析病人              每次血液透析療程後30毫克"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "血液透析",
+    "洗腎",
+    "腎不好劑量",
+    "透析後"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-treatment-pd",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全治療劑量（腹膜透析）",
+   "summary": "腹膜透析病人：30 mg 單一劑量。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "腹膜透析病人*               30毫克，單一劑量"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腹膜透析",
+    "洗腎",
+    "腎不好劑量"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-prevention-gt60",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能預防劑量（CrCl >60，正常）",
+   "summary": "肌酸酐清除率 >60 mL/min：預防劑量 75 mg 每天 1 次（無須調整）。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "> 60 (ml/min)          75毫克，每天1次"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腎功能",
+    "預防劑量",
+    "洗腎",
+    "肌酸酐清除率"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-prevention-30-60",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全預防劑量調整（CrCl 30–60）",
+   "summary": "肌酸酐清除率 30–60 mL/min：預防劑量 30 mg 每天 1 次。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "> 30至60 (ml/min)         30毫克，每天1次"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腎功能不全",
+    "預防劑量",
+    "洗腎",
+    "減量"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-prevention-10-30",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全預防劑量調整（CrCl 10–30）",
+   "summary": "肌酸酐清除率 10–30 mL/min：預防劑量 30 mg 每 2 天 1 次。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "> 10至30 (ml/min)        30毫克，每2天1次"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腎功能不全",
+    "預防劑量",
+    "洗腎",
+    "減量"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-prevention-le10",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全預防劑量（CrCl ≤10，不建議）",
+   "summary": "肌酸酐清除率 ≤10 mL/min：不建議使用（無現有資料）。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "> 10至30 (ml/min)        30毫克，每2天1次\n\n                  ≤ 10 (ml/min)         不建議(無現有資料)"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "note": "≤10 該行文字在治療表與預防表重複出現，引句含上一列以鎖定預防表。",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腎功能不全",
+    "預防劑量",
+    "洗腎",
+    "不建議使用"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-prevention-hd",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全預防劑量（血液透析）",
+   "summary": "血液透析病人：每兩次血液透析療程後 30 mg。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "血液透析病人             每兩次血液透析療程後30毫克"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "血液透析",
+    "洗腎",
+    "預防劑量",
+    "透析後"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-renal-prevention-pd",
+   "type": "table-row",
+   "label": "Oseltamivir 腎功能不全預防劑量（腹膜透析）",
+   "summary": "腹膜透析病人：30 mg 每週 1 次。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 4,
+     "quote": "腹膜透析病人*                30毫克，每週1次"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "renal-adjustment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "腹膜透析",
+    "洗腎",
+    "預防劑量"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-contraindication",
+   "type": "fact",
+   "label": "Oseltamivir 禁忌",
+   "summary": "凡是對 oseltamivir phosphate 或其任何成分已知會產生過敏反應者，禁止使用。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 5,
+     "quote": "凡是對 oseltamivir phosphate或其任何成分已知會產生過敏反應者，禁止使用 Tamiflu 。                ®"
+    },
+    {
+     "source": "S113",
+     "page": 5,
+     "quote": "凡是對oseltamivir phosphate或其任何成分已知會產生過敏反應者，禁止使用Tamiflu®。"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "contraindication"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "禁忌",
+    "過敏",
+    "oseltamivir過敏"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-neuropsychiatric-warning",
+   "type": "fact",
+   "label": "Oseltamivir 神經精神事件警語",
+   "summary": "服用期間曾有癲癇和類似精神錯亂之神經精神事件報告，多數為小孩和青少年；須嚴密監測流感病人（特別是小孩和青少年）之不尋常行為徵兆。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 5,
+     "quote": "已有流感病人在服用 Tamiflu 期間產生癲癇和類似精神錯亂的神經精神事件的報告，大多數為小孩和青少年。極少數案例\n                                 ®"
+    },
+    {
+     "source": "S112",
+     "page": 5,
+     "quote": "須嚴密地監測流感病人 (特別是小孩和青少年 )之不尋常行為之徵兆。"
+    },
+    {
+     "source": "S113",
+     "page": 5,
+     "quote": "須嚴密地監測流感病人(特別是小孩和青少年)之不尋常行為之徵兆。"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "warning"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "神經精神",
+    "異常行為",
+    "癲癇",
+    "精神錯亂",
+    "副作用"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-neuropsychiatric-taiwan-cases",
+   "type": "fact",
+   "label": "Oseltamivir 神經精神事件我國案例",
+   "summary": "我國曾有 10 歲以上之未成年人病人，於服用本藥後發生行為及感覺異常、幻覺、嗜睡或意識障礙等情況，在日本亦有類似案例，甚至有墜樓等事故報告。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 5,
+     "quote": "在我國曾有 10歲以上之未成年人病人，於服用本藥後發生行為及感覺異常、幻覺、\n           嗜睡或意識障礙等情況。在日本亦有類似之案例，甚至有墜樓等事故之報告。"
+    },
+    {
+     "source": "S113",
+     "page": 5,
+     "quote": "在我國曾有10歲以上之未成年人病人，於服用本藥\n          後發生行為及感覺異常、幻覺、嗜睡或意識障礙等情況。"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "purpose": "warning"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "墜樓",
+    "幻覺",
+    "異常行為",
+    "青少年吃了會怎樣",
+    "副作用"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-pregnancy",
+   "type": "fact",
+   "label": "Oseltamivir 懷孕",
+   "summary": "尚未進行過孕婦對照性臨床試驗，但在考量安全性效益資料後，懷孕婦女可能可使用。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 5,
+     "quote": "懷孕婦女可能可使用 Tamiflu 。            ®"
+    },
+    {
+     "source": "S113",
+     "page": 6,
+     "quote": "懷孕婦女可能可使用Tamiflu®。"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "population": "pregnancy",
+    "purpose": "pregnancy"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "懷孕",
+    "孕婦可以吃嗎",
+    "孕婦用藥"
+   ]
+  },
+  {
+   "id": "flu-av-oseltamivir-lactation",
+   "type": "fact",
+   "label": "Oseltamivir 哺乳",
+   "summary": "確認效益大於風險後，可能可以給予授乳婦女使用。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 5,
+     "quote": "可能可以給予授乳婦女 oseltamivir。"
+    },
+    {
+     "source": "S113",
+     "page": 6,
+     "quote": "可能可以給予授乳婦女oseltamivir。"
+    }
+   ],
+   "tags": {
+    "drug": "oseltamivir",
+    "population": "lactation",
+    "purpose": "lactation"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "克流感",
+    "Tamiflu",
+    "哺乳",
+    "授乳",
+    "餵母乳可以吃嗎"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-indication-treatment",
+   "type": "fact",
+   "label": "Baloxavir（紓伏效）治療適應症",
+   "summary": "5 歲以上且體重 20 公斤以上的 A 型及 B 型流感急性感染。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 4,
+     "quote": "適用於治療5歲以上且體重20公斤以上病人之A型及B型流行性感冒病毒急性感\n           染。",
+     "note": "TFDA 仿單第 3 版（2024-04-12）"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "baloxavir",
+    "適應症",
+    "流感治療",
+    "5歲以上"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-indication-prevention",
+   "type": "fact",
+   "label": "Baloxavir（紓伏效）暴露後預防適應症",
+   "summary": "適用於 5 歲以上且體重 20 公斤以上兒童、青少年及成人，於密切接觸流感病人後預防流感。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 4,
+     "quote": "適用於5歲以上且體重20公斤以上兒童、青少年及成人於密切接觸流感病人後預\n           防流行性感冒。",
+     "note": "TFDA 仿單第 3 版（2024-04-12）"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "purpose": "prevention"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "暴露後預防",
+    "密切接觸",
+    "預防流感"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-timing-treatment",
+   "type": "fact",
+   "label": "Baloxavir 治療給藥時機",
+   "summary": "建議於症狀發生後 48 小時內單次使用。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 4,
+     "quote": "建議於症狀發生後48小時內單次使用。"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "purpose": "timing"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "48小時",
+    "發病後幾小時內",
+    "單次使用"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-timing-prevention",
+   "type": "fact",
+   "label": "Baloxavir 暴露後預防給藥時機",
+   "summary": "建議於密切接觸流感病人後 48 小時內單次使用。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 4,
+     "quote": "建議於密切接觸流感病人後48小時內單次使用。"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "purpose": "timing"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "48小時",
+    "接觸後預防",
+    "單次使用"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-dose-lt80kg",
+   "type": "fact",
+   "label": "Baloxavir 劑量（體重 20–80 公斤）",
+   "summary": "體重 20 公斤以上未滿 80 公斤：單次口服 20 mg 錠 2 錠（Baloxavir marboxil 40 mg）。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 4,
+     "quote": "體重20公斤以上未滿80公斤的5歲以上兒童、青少年及成人，建議劑量為單次\n                    口服投與20mg錠 2錠（Baloxavir marboxil 40 mg）。"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "劑量",
+    "體重20到80公斤",
+    "單次吃一次",
+    "20mg"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-dose-ge80kg",
+   "type": "fact",
+   "label": "Baloxavir 劑量（體重 ≥80 公斤）",
+   "summary": "體重 80 公斤以上：單次口服 20 mg 錠 4 錠（Baloxavir marboxil 80 mg）。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 4,
+     "quote": "體重80公斤以上者，建議劑量為單次口服投與20mg錠 4錠（Baloxavir marboxil\n                    80 mg）。"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "劑量",
+    "體重80公斤以上",
+    "單次吃一次",
+    "40mg"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-dairy-interaction",
+   "type": "fact",
+   "label": "Baloxavir 與乳製品／礦物質併服限制",
+   "summary": "服藥時應避免和乳製品、高鈣飲品、含多價陽離子緩瀉劑、抗酸劑或口服補充劑（例如鈣、鐵、鎂、硒或鋅）併服。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 4,
+     "quote": "應避免和乳製品、高鈣飲品、含多價陽離子\n                    緩瀉劑、抗酸劑或口服補充劑(例如:鈣、鐵、鎂、硒或鋅)併服。"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "purpose": "interaction"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "牛奶",
+    "乳製品",
+    "鈣片",
+    "鐵劑",
+    "制酸劑",
+    "不能一起吃"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-contraindication",
+   "type": "fact",
+   "label": "Baloxavir 禁忌",
+   "summary": "對本藥中任一成分曾發生過敏症之病人請勿投與。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 4,
+     "quote": "對本藥中任一成分曾發生過敏症之病人請勿投與。"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "purpose": "contraindication"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "禁忌",
+    "過敏"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-pregnancy",
+   "type": "fact",
+   "label": "Baloxavir 懷孕",
+   "summary": "對於孕婦或可能懷孕之婦女，須判斷治療上的有益性高於危險性時才可投與；孕期投藥安全性尚未確立。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 5,
+     "quote": "對於孕婦或可能懷孕之婦女，在判斷其於治療上的有益性高於危險性時才可投\n               與。"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "population": "pregnancy",
+    "purpose": "pregnancy"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "懷孕",
+    "孕婦可以吃嗎",
+    "孕婦用藥"
+   ]
+  },
+  {
+   "id": "flu-av-baloxavir-lactation",
+   "type": "fact",
+   "label": "Baloxavir 哺乳",
+   "summary": "哺乳婦請於投藥療程中避免母乳哺餵。",
+   "refs": [
+    {
+     "source": "S111",
+     "page": 5,
+     "quote": "哺乳婦請於投藥療程中避免母乳哺餵。"
+    }
+   ],
+   "tags": {
+    "drug": "baloxavir",
+    "population": "lactation",
+    "purpose": "lactation"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "紓伏效",
+    "Xofluza",
+    "哺乳",
+    "授乳",
+    "餵母乳可以吃嗎"
+   ]
+  },
+  {
+   "id": "flu-av-zanamivir-indication",
+   "type": "fact",
+   "label": "Zanamivir（瑞樂沙）適應症",
+   "summary": "RELENZA 適用於治療及預防成人及兒童（≥5 歲）之 A 型及 B 型流感。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 2,
+     "quote": "RELENZA適用於治療及預防成人及兒童(≥5歲)之A型及B型流行性感冒。"
+    }
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "purpose": "indication"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞樂沙",
+    "Relenza",
+    "zanamivir",
+    "適應症",
+    "吸入劑",
+    "5歲以上"
+   ]
+  },
+  {
+   "id": "flu-av-zanamivir-dose-treatment",
+   "type": "fact",
+   "label": "Zanamivir 治療劑量與時機",
+   "summary": "成人治療劑量：連續 5 天，每天兩次，每次吸入兩劑（2×5 mg），每天總吸入劑量 20 mg；症狀出現後應盡快開始治療（最好在兩天之內）。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 3,
+     "quote": "RELENZA的建議劑量為連續5天，每天兩次，每次吸入兩劑(2×5毫克)，每天的\n               總吸入劑量為20毫克。"
+    },
+    {
+     "source": "S110",
+     "page": 3,
+     "quote": "為獲得最大效益，症狀出現後應盡快開始治療(最好在兩天之內)。"
+    }
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "population": "adult",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞樂沙",
+    "Relenza",
+    "治療劑量",
+    "吸入器",
+    "一天兩次",
+    "5天"
+   ]
+  },
+  {
+   "id": "flu-av-zanamivir-dose-prevention",
+   "type": "fact",
+   "label": "Zanamivir 預防劑量與療程",
+   "summary": "預防性治療劑量：連續 10 天，每天一次吸入兩劑（2×5 mg），每天總吸入劑量 10 mg；接觸風險超過 10 天可延長療程，最多延長至 1 個月。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 3,
+     "quote": "RELENZA的建議劑量為連續10天，每天一次吸入兩劑(2×5毫克)，每天的總吸\n               入劑量為10毫克。"
+    },
+    {
+     "source": "S110",
+     "page": 3,
+     "quote": "如果接觸風險的時間超過10天，可將此療程延長，最多可延\n               長至1個月。"
+    }
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "population": "adult",
+    "purpose": "prevention"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞樂沙",
+    "Relenza",
+    "預防劑量",
+    "吸入器",
+    "10天",
+    "一天一次"
+   ]
+  },
+  {
+   "id": "flu-av-zanamivir-no-dose-adjustment",
+   "type": "fact",
+   "label": "Zanamivir 特殊族群不須調整劑量",
+   "summary": "兒童、老年人、腎功能損害者、肝功能損害者皆不須調整劑量。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 3,
+     "quote": "兒童\n               不須調整劑量(參見11藥物動力學特性)。"
+    }
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "purpose": "dose-adjustment"
+   },
+   "authority": "TFDA",
+   "note": "「不須調整劑量」於仿單中在「兒童」「老年人」「腎功能損害者」「肝功能損害者」四個小標題下各出現一次、內容相同；引句含「兒童」標題以鎖定唯一位置，其餘三個族群同句同義",
+   "keywords": [
+    "瑞樂沙",
+    "Relenza",
+    "不須調整劑量",
+    "洗腎",
+    "老年人",
+    "兒童",
+    "肝功能"
+   ]
+  },
+  {
+   "id": "flu-av-zanamivir-contraindication",
+   "type": "fact",
+   "label": "Zanamivir 禁忌",
+   "summary": "對本製劑中之任何成分過敏者禁用；禁用於對乳蛋白嚴重過敏者。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 3,
+     "quote": "對本製劑中之任何成分過敏者(參見 1.2賦形劑 )。"
+    },
+    {
+     "source": "S110",
+     "page": 3,
+     "quote": "禁用於對乳蛋白嚴重過敏者(參見1.2賦形劑包含乳蛋白)。"
+    }
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "purpose": "contraindication"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞樂沙",
+    "Relenza",
+    "禁忌",
+    "過敏",
+    "牛奶蛋白過敏",
+    "乳蛋白"
+   ]
+  },
+  {
+   "id": "flu-av-zanamivir-bronchospasm-warning",
+   "type": "fact",
+   "label": "Zanamivir 支氣管痙攣警語",
+   "summary": "使用後曾有出現支氣管痙攣及／或呼吸功能降低之報告，極為罕見；併有呼吸道疾病的患者使用時應隨時備妥速效性支氣管擴張劑。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 4,
+     "quote": "曾有在使用zanamivir後出現支氣管痙攣及(或)呼吸功能降低之現象\n               的報告，但極為罕見"
+    }
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "purpose": "warning"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞樂沙",
+    "Relenza",
+    "支氣管痙攣",
+    "氣喘",
+    "呼吸困難",
+    "副作用"
+   ]
+  },
+  {
+   "id": "flu-av-zanamivir-pregnancy",
+   "type": "fact",
+   "label": "Zanamivir 懷孕",
+   "summary": "由於使用經驗有限，懷孕期間不可使用，除非醫師認為其對患者的潛在效益超越胎兒可能面臨的任何風險。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 4,
+     "quote": "由於使用經驗有限，懷孕期間不可使用 RELENZA， 除非醫師認為其對患者的\n                    潛在效益超越胎兒可能面臨的任何風險。"
+    }
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "population": "pregnancy",
+    "purpose": "pregnancy"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞樂沙",
+    "Relenza",
+    "懷孕",
+    "孕婦可以吃嗎",
+    "孕婦用藥"
+   ]
+  },
+  {
+   "id": "flu-av-zanamivir-lactation",
+   "type": "fact",
+   "label": "Zanamivir 哺乳",
+   "summary": "由於經驗有限，只有在醫師認為其對授乳母親之潛在效益超越嬰兒可能面臨之任何風險的情況下，才可考慮使用。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 5,
+     "quote": "只有在醫師認為其對授乳母親之潛在效益超越嬰兒可能\n               面臨之任何風險的情況下，才可考慮對授乳母親使用 RELENZA 。"
+    }
+   ],
+   "tags": {
+    "drug": "zanamivir",
+    "population": "lactation",
+    "purpose": "lactation"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞樂沙",
+    "Relenza",
+    "哺乳",
+    "授乳",
+    "餵母乳可以吃嗎"
+   ]
+  },
+  {
+   "id": "flu-av-peramivir-indication",
+   "type": "fact",
+   "label": "Peramivir（瑞貝塔）適應症",
+   "summary": "治療成人及一個月大以上兒童之 A 型及 B 型流感病毒急性感染；本藥用於預防使用之有效性及安全性尚未確立。",
+   "refs": [
+    {
+     "source": "S97",
+     "page": 1,
+     "quote": "治療成人及一個月大以上兒童之A型及B型流感病毒急性感染。",
+     "region": [
+      370,
+      495,
+      620,
+      800
+     ]
+    },
+    {
+     "source": "S97",
+     "page": 1,
+     "quote": "本藥用於預防使用之有效性及安全性尚未確立。",
+     "region": [
+      370,
+      495,
+      620,
+      800
+     ]
+    }
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "purpose": "indication"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞貝塔",
+    "Rapiacta",
+    "peramivir",
+    "適應症",
+    "點滴",
+    "靜脈注射",
+    "預防未確立"
+   ]
+  },
+  {
+   "id": "flu-av-peramivir-hospitalized-severe-not-established",
+   "type": "fact",
+   "label": "Peramivir 對住院重症流感有效性未確立",
+   "summary": "Rapiacta 對需住院之嚴重流感病人的有效性尚未確立。",
+   "refs": [
+    {
+     "source": "S97",
+     "page": 1,
+     "quote": "對於需要住院的嚴重流感病人之有效性尚未建立",
+     "region": [
+      370,
+      495,
+      620,
+      800
+     ]
+    },
+    {
+     "source": "S97",
+     "page": 3,
+     "quote": "Rapiacta對需住院之嚴重流感病人的有效性尚未確立"
+    }
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "purpose": "warning"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞貝塔",
+    "Rapiacta",
+    "住院",
+    "重症流感",
+    "有效性未確立"
+   ]
+  },
+  {
+   "id": "flu-av-peramivir-timing",
+   "type": "fact",
+   "label": "Peramivir 給藥時機",
+   "summary": "宜於症狀發生後 48 小時內使用本藥。",
+   "refs": [
+    {
+     "source": "S97",
+     "page": 1,
+     "quote": "宜於症狀發生後48小時內使用本藥",
+     "region": [
+      370,
+      495,
+      620,
+      800
+     ]
+    }
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "purpose": "timing"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞貝塔",
+    "Rapiacta",
+    "48小時",
+    "發病後幾小時內"
+   ]
+  },
+  {
+   "id": "flu-av-peramivir-dose-adult",
+   "type": "fact",
+   "label": "Peramivir 成人劑量與單次上限",
+   "summary": "成人建議劑量為 300 mg，每次最多不得超過 600 mg，15 分鐘以上單次點滴靜脈注射。",
+   "refs": [
+    {
+     "source": "S97",
+     "page": 1,
+     "quote": "成人建議劑量為300 mg，每次最多不得超過600 mg，15分鐘以上單次\n點滴靜脈注射。",
+     "region": [
+      370,
+      495,
+      620,
+      800
+     ]
+    }
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "population": "adult",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞貝塔",
+    "Rapiacta",
+    "成人劑量",
+    "300mg",
+    "600mg上限",
+    "點滴"
+   ]
+  },
+  {
+   "id": "flu-av-peramivir-dose-child",
+   "type": "fact",
+   "label": "Peramivir 兒童劑量與單次上限",
+   "summary": "兒童建議劑量為 10 mg/kg，每次最多不得超過 600 mg，15 分鐘以上單次點滴靜脈注射。",
+   "refs": [
+    {
+     "source": "S97",
+     "page": 1,
+     "quote": "兒童建議劑量為10 mg/kg，每次最多不得超過600 mg，15分鐘以上\n單次點滴靜脈注射。",
+     "region": [
+      370,
+      495,
+      620,
+      800
+     ]
+    }
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "population": "child",
+    "purpose": "treatment"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞貝塔",
+    "Rapiacta",
+    "兒童劑量",
+    "10mg/kg",
+    "600mg上限",
+    "點滴"
+   ]
+  },
+  {
+   "id": "flu-av-peramivir-contraindication",
+   "type": "fact",
+   "label": "Peramivir 禁忌",
+   "summary": "對本藥成分曾發生過敏症之病人，請勿投與。",
+   "refs": [
+    {
+     "source": "S97",
+     "page": 2,
+     "quote": "對本藥成分曾發生過敏症之病人，請勿投與。"
+    }
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "purpose": "contraindication"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞貝塔",
+    "Rapiacta",
+    "禁忌",
+    "過敏"
+   ]
+  },
+  {
+   "id": "flu-av-peramivir-pregnancy",
+   "type": "fact",
+   "label": "Peramivir 懷孕",
+   "summary": "FDA 懷孕用藥分類為 C 級；於判斷治療上的有益性高於危險性時才可投與，懷孕期投與之相關安全性尚未確立。",
+   "refs": [
+    {
+     "source": "S97",
+     "page": 2,
+     "quote": "FDA懷孕用藥分類為C級。"
+    }
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "population": "pregnancy",
+    "purpose": "pregnancy"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞貝塔",
+    "Rapiacta",
+    "懷孕",
+    "孕婦可以打嗎",
+    "FDA C級",
+    "孕婦用藥"
+   ]
+  },
+  {
+   "id": "flu-av-peramivir-lactation",
+   "type": "fact",
+   "label": "Peramivir 哺乳",
+   "summary": "投與中應避免哺餵母乳。",
+   "refs": [
+    {
+     "source": "S97",
+     "page": 2,
+     "quote": "投與中應避免哺餵母乳"
+    }
+   ],
+   "tags": {
+    "drug": "peramivir",
+    "population": "lactation",
+    "purpose": "lactation"
+   },
+   "authority": "TFDA",
+   "keywords": [
+    "瑞貝塔",
+    "Rapiacta",
+    "哺乳",
+    "授乳",
+    "餵母乳可以打嗎"
+   ]
+  },
+  {
+   "id": "flu-av-favipiravir-indication-limitation",
+   "type": "fact",
+   "label": "Favipiravir（Avigan）核准適應症限於新型／再現大流行流感",
+   "summary": "PMDA 核准的適應症為治療新型或再現大流行流感病毒感染（限於其他抗流感病毒藥物無效或效果不足之病例）。",
+   "refs": [
+    {
+     "source": "S125",
+     "page": 3,
+     "quote": "Treatment of novel or re-emerging pandemic influenza virus infections (limited to cases in which\nother influenza antiviral drugs are ineffective or not sufficiently effective)."
+    }
+   ],
+   "tags": {
+    "drug": "favipiravir",
+    "purpose": "indication"
+   },
+   "authority": "PMDA",
+   "keywords": [
+    "法匹拉韋",
+    "Avigan",
+    "favipiravir",
+    "新型流感",
+    "大流行",
+    "適應症限制"
+   ]
+  },
+  {
+   "id": "flu-av-favipiravir-seasonal-efficacy-not-confirmed",
+   "type": "fact",
+   "label": "Favipiravir 季節性流感療效未獲確認",
+   "summary": "PMDA 審查結論：favipiravir 治療季節性 A 型或 B 型流感病毒感染的療效尚未獲得確認，僅在美國有臨床療效的初步顯示。",
+   "refs": [
+    {
+     "source": "S125",
+     "page": 3,
+     "quote": "the efficacy of Avigan (favipiravir) in patients with seasonal influenza A or B virus\ninfection has not been confirmed, and only the clinical efficacy has been suggested in the US."
+    }
+   ],
+   "tags": {
+    "drug": "favipiravir",
+    "purpose": "efficacy"
+   },
+   "authority": "PMDA",
+   "keywords": [
+    "法匹拉韋",
+    "Avigan",
+    "favipiravir",
+    "季節性流感",
+    "療效未確認"
+   ]
+  },
+  {
+   "id": "flu-av-favipiravir-dose",
+   "type": "fact",
+   "label": "Favipiravir 核准劑量",
+   "summary": "成人常用劑量：第 1 天口服 1600 mg 每日兩次，第 2 至第 5 天口服 600 mg 每日兩次，總治療期間為 5 天。",
+   "refs": [
+    {
+     "source": "S125",
+     "page": 3,
+     "quote": "The usual adult dosage is 1600 mg of favipiravir administered orally twice daily on Day 1,\nfollowed by 600 mg orally twice daily from Day 2 to Day 5. The total treatment duration should\nbe 5 days."
+    }
+   ],
+   "tags": {
+    "drug": "favipiravir",
+    "population": "adult",
+    "purpose": "treatment"
+   },
+   "authority": "PMDA",
+   "keywords": [
+    "法匹拉韋",
+    "Avigan",
+    "favipiravir",
+    "劑量",
+    "1600mg",
+    "600mg",
+    "5天療程"
+   ]
+  },
+  {
+   "id": "flu-av-favipiravir-pregnancy-contraindication",
+   "type": "fact",
+   "label": "Favipiravir 孕婦禁用",
+   "summary": "由於致畸胎風險，孕婦或可能懷孕之婦女應列為禁忌；有生育能力之女性與男性須採取避孕措施。",
+   "refs": [
+    {
+     "source": "S125",
+     "page": 59,
+     "quote": "favipiravir should be contraindicated for women who are pregnant or may possibly\nbe pregnant, and women of childbearing potential and men whose partner is of childbearing\npotential should be advised to use contraception."
+    }
+   ],
+   "tags": {
+    "drug": "favipiravir",
+    "population": "pregnancy",
+    "purpose": "contraindication"
+   },
+   "authority": "PMDA",
+   "keywords": [
+    "法匹拉韋",
+    "Avigan",
+    "favipiravir",
+    "懷孕",
+    "孕婦禁用",
+    "致畸胎",
+    "避孕"
+   ]
+  }
+ ]
+}

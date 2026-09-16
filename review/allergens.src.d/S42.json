@@ -1,0 +1,98 @@
+{
+ "vaccine": "var",
+ "product": "Varivax 伏痘敏活性水痘疫苗",
+ "source": "S42",
+ "components": [
+  {
+   "page": 2,
+   "label": "性狀",
+   "quote": "本活性減毒的\n水痘疫苗是用冷凍乾燥法製成，內含有sucrose、phosphate、glutamate，以及\n加工過的gelatin和urea做為安定劑。"
+  },
+  {
+   "page": 3,
+   "label": "1.1 有效成分及含量",
+   "quote": "大約每0.5mL的注射液在室溫保存30分鐘以內，至少含有1350 PFU(plaque"
+  },
+  {
+   "page": 3,
+   "label": "1.2 賦形劑",
+   "quote": "每劑包含sucrose、水解gelatin、urea、sodium chloride、monosodium L-\nglutamate、sodium phosphate dibasic、potassium phosphate monobasic、\npotassium chloride。本品亦含MRC-5細胞的殘餘物質，如DNA及蛋白質，以及\n極少量殘存自MRC-5培養基的neomycin、牛胚胎血清。本疫苗不含任何防腐\n劑。"
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "有",
+   "page": 3,
+   "quote": "每劑包含sucrose、水解gelatin、urea"
+  },
+  {
+   "key": "neomycin",
+   "status": "有",
+   "page": 3,
+   "quote": "極少量殘存自MRC-5培養基的neomycin、牛胚胎血清"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "未載明"
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "未載明"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "無",
+   "page": 3,
+   "quote": "本疫苗不含任何防腐\n劑。",
+   "note": "由「不含保存劑／防腐劑」概括句推得，仿單未點名硫柳汞"
+  },
+  {
+   "key": "aluminium",
+   "status": "未載明"
+  }
+ ],
+ "sweep": {
+  "dismissed": {
+   "other_antibiotics": "全文掃描1個「抗菌劑」命中：p.4 為調製方式警語，要求注射/稀釋用『針筒』本身不得含防腐劑、抗菌劑、清潔劑（避免器材殘留物使疫苗失效），與疫苗本身成分或製程殘留無關"
+  }
+ },
+ "warnings": [
+  {
+   "label": "禁忌",
+   "page": 5,
+   "quote": "曾對本疫苗所含之任何成份、包括gelatin發生嚴重過敏的人。"
+  },
+  {
+   "label": "禁忌",
+   "page": 5,
+   "quote": "有對neomycin有嚴重過敏病史的人(每劑疫苗均含微量的neomycin)。"
+  },
+  {
+   "label": "禁忌",
+   "page": 5,
+   "quote": "有先天或後天免疫不全的人，包含因罹患愛滋病(AIDS)或其它具臨床意義的\n人類免疫缺乏病毒感染，細胞性免疫缺乏，免疫球蛋白過低或缺乏的免疫抑\n制病人。"
+  },
+  {
+   "label": "禁忌",
+   "page": 5,
+   "quote": "懷孕。注射疫苗對胎兒發展的可能影響目前不得而知。但已知的是野生型水\n痘有時會對胎兒造成傷害。成年婦女在接受疫苗注射後四週內要避免懷孕\n(請參閱警語及注意事項 , 懷孕 ) 。"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+  "vaccine": "tdap", "product": "Boostrix", "source": "S37",
+  "components": [
+    {"page": 1, "label": "定性與定量組成", "quote": "白喉類毒素、破傷風類毒素、非細胞性百日咳混合疫苗"},
+    {"page": 1, "label": "定性與定量組成", "quote": "一劑 (0.5 mL) 含有："},
+    {"page": 1, "label": "定性與定量組成", "quote": "白喉類毒素 1\n(2.5Lf)"},
+    {"page": 1, "label": "定性與定量組成", "quote": "破傷風類毒素 1"},
+    {"page": 1, "label": "定性與定量組成", "quote": "百日咳球桿菌抗原"},
+    {"page": 1, "label": "定性與定量組成", "quote": "百日咳類毒素 1\n絲狀血凝素 1"},
+    {"page": 1, "label": "定性與定量組成", "quote": "絲狀血凝素 1\nPertactin1"},
+    {"page": 1, "label": "定性與定量組成", "quote": "吸附於氫氧化鋁水合物"},
+    {"page": 1, "label": "定性與定量組成", "quote": "及磷酸鋁"},
+    {"page": 2, "label": "賦形劑", "quote": "Sodium chloride、注射用水。"},
+    {"page": 2, "label": "賦形劑", "quote": "Formaldehyde、polysorbate 80、glycine 是製造過程的殘餘物。"}
+  ],
+  "allergens": [
+    {"key": "egg", "status": "未載明"},
+    {"key": "gelatin", "status": "未載明"},
+    {"key": "neomycin", "status": "未載明"},
+    {"key": "other_antibiotics", "status": "未載明"},
+    {"key": "yeast", "status": "未載明"},
+    {"key": "latex", "status": "未載明"},
+    {"key": "peg_polysorbate", "status": "有", "page": 2, "quote": "Formaldehyde、polysorbate 80、glycine 是製造過程的殘餘物。"},
+    {"key": "formaldehyde", "status": "有", "page": 2, "quote": "Formaldehyde、polysorbate 80、glycine 是製造過程的殘餘物。"},
+    {"key": "thimerosal", "status": "未載明"},
+    {"key": "aluminium", "status": "有", "page": 1, "quote": "吸附於氫氧化鋁水合物"}
+  ],
+  "warnings": [
+    {"label": "過敏禁忌", "page": 1, "quote": "Boostrix 不應用於已知對此疫苗任何成分嚴重過敏者（請參閱定性與定量組成及賦形劑），或先前曾於接種白"},
+    {"label": "先前接種相關疫苗嚴重過敏史", "page": 1, "quote": "喉、破傷風或百日咳疫苗之後出現嚴重過敏徵兆者。"}
+  ]
+}

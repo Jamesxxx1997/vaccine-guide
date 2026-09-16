@@ -11,7 +11,7 @@ from pathlib import Path
 import pdfplumber
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'tools'))
-from build_reference_pages import anchor_quote, NS  # noqa: E402
+from build_reference_pages import anchor_quote, NS, plumber_chars  # noqa: E402
 
 _cache = {}
 def page_dict(pdf_path: Path, number: int):
@@ -33,7 +33,7 @@ def page_dict(pdf_path: Path, number: int):
             for w in lw:
                 words.append([round(float(w.attrib[a]), 2) for a in ('xMin', 'yMin', 'xMax', 'yMax')] + [''.join(w.itertext()), line_id])
     with pdfplumber.open(pdf_path) as pdf:
-        chars = [[round(c[a], 2) for a in ('x0', 'top', 'x1', 'bottom')] + [c['text']] for c in pdf.pages[number - 1].chars if c['text'].strip()]
+        chars = plumber_chars(pdf.pages[number - 1])
     _cache[key] = dict(page=number, lines=lines, words=words, chars=chars)
     return _cache[key]
 

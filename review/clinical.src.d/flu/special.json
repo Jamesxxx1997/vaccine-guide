@@ -1,0 +1,2308 @@
+{
+ "disease": "flu",
+ "panel": "special",
+ "items": [
+  {
+   "id": "flu-sp-immunocompromised-idsa-longer-duration",
+   "type": "rule",
+   "label": "免疫低下病人可考慮延長抗病毒治療療程（IDSA）",
+   "summary": "IDSA：對於已記載或疑似免疫低下狀況的病人，或因嚴重下呼吸道疾病（尤其肺炎或急性呼吸窘迫症候群）需住院之病人，臨床醫師可考慮延長抗病毒治療療程，因為這類病人流感病毒複製常較為延長。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 5,
+     "region": [
+      306.0,
+      669.0,
+      545.0,
+      706.0
+     ],
+     "quote": "Clinicians can consider longer duration of antiviral treatment\nfor patients with a documented or suspected immunocom-\npromising condition or patients requiring hospitalization"
+    },
+    {
+     "source": "S122",
+     "page": 6,
+     "region": [
+      64.1,
+      40.0,
+      288.1,
+      76.0
+     ],
+     "quote": "for severe lower respiratory tract disease (especially pneu-\nmonia or acute respiratory distress syndrome [ARDS]), as\ninfluenza viral replication is often protracted (C-III)."
+    }
+   ],
+   "tags": {
+    "group": "免疫低下",
+    "population": "immunocompromised"
+   },
+   "authority": "IDSA",
+   "note": "IDSA 2018 臨床指引 Recommendation 23，句子跨第 5–6 頁，故拆成兩條 ref 分別定位於各自頁面",
+   "keywords": [
+    "免疫低下",
+    "療程延長",
+    "抗病毒治療",
+    "IDSA"
+   ]
+  },
+  {
+   "id": "flu-sp-immunocompromised-cdc-baloxavir-caution",
+   "type": "fact",
+   "label": "嚴重免疫低下病人不建議單用 Baloxavir（美國 CDC）",
+   "summary": "美國 CDC：不建議對嚴重免疫低下病人使用 Baloxavir 單方治療流感；目前並無 Baloxavir 單方治療嚴重免疫低下流感病人之療效、安全性或抗藥性資料，且因這類病人流感病毒複製時間延長，治療期間出現抗藥性是需關注的問題。",
+   "refs": [
+    {
+     "source": "S114",
+     "page": 4,
+     "region": [
+      30.3,
+      463.0,
+      479.6,
+      492.0
+     ],
+     "quote": "CDC does not recommend use of baloxavir for monotherapy of influenza in severely immunosuppressed persons. There are no available\nefficacy, safety, or resistance data for baloxavir monotherapy of influenza in severely immunosuppressed patients and emergence of resistance\nduring treatment is a concern because of prolonged influenza viral replication in these patients."
+    }
+   ],
+   "tags": {
+    "group": "免疫低下",
+    "population": "immunocompromised"
+   },
+   "authority": "CDC",
+   "note": "Influenza Antiviral Medications: Summary for Clinicians，2025-26 流感季版；此為藥物選擇建議，非仿單劑量調整，與 antiviral-labels.json 之腎功能／劑量條目不同主題",
+   "keywords": [
+    "免疫低下",
+    "紓伏效",
+    "Baloxavir",
+    "不建議單用"
+   ]
+  },
+  {
+   "id": "flu-sp-immunocompromised-highrisk-def",
+   "type": "fact",
+   "label": "免疫不全者列為流感高危險族群（疾管署手冊）",
+   "summary": "具有重大傷病、免疫不全(含使用免疫抑制劑及愛滋病毒帶原者)需長期治療、追蹤或住院者，屬流感高危險族群之一。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 71,
+     "region": [
+      76.6,
+      116.0,
+      519.4,
+      141.5
+     ],
+     "quote": "具有重大傷病、免疫不全(含使用免疫抑制劑及愛滋病毒帶原者)或慢性病(如慢性肺病"
+    }
+   ],
+   "tags": {
+    "group": "免疫低下",
+    "population": "immunocompromised"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，流感高危險族群定義（節錄免疫不全部分）",
+   "keywords": [
+    "免疫不全",
+    "高危險族群",
+    "免疫抑制劑",
+    "愛滋病毒帶原者"
+   ]
+  },
+  {
+   "id": "flu-sp-renal-highrisk-def",
+   "type": "fact",
+   "label": "腎臟疾病患者列為流感高危險族群（疾管署手冊）",
+   "summary": "慢性病（如慢性肺病〔含氣喘〕、心血管疾病、腎臟、肝臟、神經、血液或代謝疾病者〔含糖尿病〕、血紅素病變等）需長期治療、追蹤或住院者，屬流感高危險族群之一，其中包含腎臟疾病患者。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 71,
+     "region": [
+      76.6,
+      130.3,
+      519.4,
+      155.6
+     ],
+     "quote": "具有重大傷病、免疫不全(含使用免疫抑制劑及愛滋病毒帶原者)或慢性病(如慢性肺病\n〔含氣喘〕、心血管疾病、腎臟、肝臟、神經、血液或代謝疾病者〔含糖尿病〕、血紅"
+    }
+   ],
+   "tags": {
+    "group": "腎功能不全",
+    "population": "renal"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，流感高危險族群定義（節錄腎臟疾病部分）；劑量調整數字由 antiviral-labels.json 負責，此處僅取『腎臟疾病屬高風險』之質性事實",
+   "keywords": [
+    "腎臟病",
+    "高危險族群",
+    "慢性腎臟病",
+    "洗腎"
+   ]
+  },
+  {
+   "id": "flu-sp-renal-oseltamivir-label-pointer",
+   "type": "fact",
+   "label": "腎功能不全病人使用克流感應依仿單調整劑量（TFDA仿單提醒句）",
+   "summary": "對於腎功能不全的病人，其劑量調整請參閱特殊族群用法用量（亦可參閱特殊族群的藥動學）。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 5,
+     "quote": "對於腎功能不全的病人，其劑量調整請參閱 3.3 特殊族群用法用量 (亦可參閱 11.5特殊族群的藥動學 )"
+    }
+   ],
+   "tags": {
+    "group": "腎功能不全",
+    "population": "renal",
+    "drug": "oseltamivir"
+   },
+   "authority": "TFDA",
+   "note": "此為警語段的提醒句，指向劑量調整章節；具體劑量數字由 antiviral-labels.json 負責，此處僅取『需依腎功能調整』之質性提醒，避免與該分片重複",
+   "keywords": [
+    "腎功能不全",
+    "克流感",
+    "劑量調整",
+    "仿單"
+   ]
+  },
+  {
+   "id": "flu-sp-highrisk-def-manual",
+   "type": "fact",
+   "label": "高風險及高傳播族群定義（防治工作手冊）",
+   "summary": "高危險族群係因自身免疫力關係，比非高危險族群有較多機會感染流感及出現嚴重併發症，包括65歲以上長者、嬰幼兒、孕婦、免疫功能不全者，以及罹患氣喘、糖尿病、心血管、肺臟、肝臟、腎臟等疾病或 BMI≧30 者。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 15,
+     "region": [
+      90.18,
+      203.49,
+      526.56,
+      293.8
+     ],
+     "quote": "高危險族群係因自身免疫力關係，比非高危險族群有較多機會感染流感及出現嚴重併發症，包括有65歲以上長者、嬰幼兒、孕婦、免疫功能不全者，以及罹患氣喘、糖尿病、心血管、肺臟、肝臟、腎臟等疾病或 BMI≧30者等。"
+    }
+   ],
+   "tags": {
+    "group": "高風險族群定義",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第一章第四節流感特性",
+   "keywords": [
+    "高風險族群",
+    "高危險族群",
+    "誰容易重症",
+    "併發症風險",
+    "高傳播族群"
+   ]
+  },
+  {
+   "id": "flu-sp-highrisk-def-formal",
+   "type": "fact",
+   "label": "流感高危險族群正式定義（五類，公費用藥註記）",
+   "summary": "流感高危險族群：(1)65歲以上長者；(2)孕婦及產後兩周內之婦女；(3)未滿5歲幼兒；(4)具有重大傷病、免疫不全(含使用免疫抑制劑及愛滋病毒帶原者)或慢性病(如慢性肺病〔含氣喘〕、心血管疾病、腎臟、肝臟、神經、血液或代謝疾病者〔含糖尿病〕、血紅素病變等)需長期治療、追蹤或住院者；(5)肥胖(身體質量指數 body-mass index≧30或未滿18歲兒童青少年 BMI 超過同齡第95百分位)。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 71,
+     "quote": "流感高危險族群：(1)65歲以上長者；(2)孕婦及產後兩周內之婦女；(3)未滿5歲幼兒；(4)具有重大傷病、免疫不全(含使用免疫抑制劑及愛滋病毒帶原者)或慢性病(如慢性肺病〔含氣喘〕、心血管疾病、腎臟、肝臟、神經、血液或代謝疾病者〔含糖尿病〕、血紅素病變等)需長期治療、追蹤或住院者；(5)肥胖(身體質量指數 body-mass index≧30或未滿18歲兒童青少年 BMI 超過同齡第95百分位)。",
+     "region": [
+      76.6,
+      116.0,
+      519.4,
+      184.4
+     ]
+    }
+   ],
+   "tags": {
+    "group": "高風險族群定義",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，附錄群聚事件通報表備註2；此為公費用藥審查所用之正式五類定義",
+   "keywords": [
+    "高風險族群",
+    "高危險族群",
+    "公費資格",
+    "五大類",
+    "重大傷病"
+   ]
+  },
+  {
+   "id": "flu-sp-highrisk-def-qa",
+   "type": "qa",
+   "label": "Q&A：誰感染流感後易有併發症，須提高警覺？",
+   "question": "誰感染流感後易有併發症，須提高警覺？",
+   "summary": "感染流感後容易產生併發症的高危險族群包含：嬰幼兒(尤其未滿5歲者)、65歲以上長者、居住於安養等長期照顧（服務）機構之住民、具有慢性肺病(含氣喘)、心血管疾病、腎臟、肝臟、神經、血液或代謝疾病者(含糖尿病)、血紅素病變、免疫不全（含愛滋病毒帶原者）需長期治療、追蹤或住院者、孕婦、肥胖(身體質量指數body-mass index≧30)及6個月到18歲需長期接受阿斯匹靈治療者。",
+   "refs": [
+    {
+     "source": "S108",
+     "page": 4,
+     "region": [
+      115.37,
+      605.5,
+      475.96,
+      747.5
+     ],
+     "quote": "感染流感後容易產生併發症的高危險族群包含：嬰幼兒(尤其未滿5歲者)、65歲以上長者、居住於安養等長期照顧（服務）機構之住民、具有慢性肺病(含氣喘)、心血管疾病、腎臟、肝臟、神經、血液或代謝疾病者(含糖尿病)、血紅素病變、免疫不全（含愛滋病毒帶原者）需長期治療、追蹤或住院者、孕婦、肥胖(身體質量指數body-mass index≧30)及6個月到18歲需長期接受阿斯匹靈治療者。"
+    }
+   ],
+   "tags": {
+    "group": "高風險族群定義",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "Q&A－季節性流感防治，最後更新日期 2026/7/31",
+   "keywords": [
+    "高風險族群",
+    "容易併發症",
+    "誰要提高警覺",
+    "高危險群"
+   ]
+  },
+  {
+   "id": "flu-sp-complications-list",
+   "type": "fact",
+   "label": "流感可能引起之併發症種類",
+   "summary": "有些人感染流感病毒後會引起嚴重併發症，甚至死亡，其中高危險群包括65歲以上長者、嬰幼兒，以及患有心、肺、腎臟及代謝性疾病，或免疫功能不全者。流感可能引起併發症種類眾多，包括：病毒性肺炎、次發性細菌性肺炎、腦炎、腦病變、心肌炎、心包膜炎、橫貫性脊髓炎、格林-巴利症候群（GBS）及在使用aspirin之兒童病人引起雷氏症候群（Reye syndrome）等。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 41,
+     "region": [
+      68.94,
+      414.0,
+      526.18,
+      600.0
+     ],
+     "quote": "然而，有些人感染流感病毒後會引起嚴重併發症，甚至死亡，其中高危險群包括65歲以上長者、嬰幼兒，以及患有心、肺、腎臟及代謝性疾病，或免疫功能不全者。而流感可能引起併發症種類眾多，包括：病毒性肺炎(viral pneumonia)、次發性細菌性肺炎(secondary bacterial pneumonia)、腦炎(encephalitis)、腦病變(encephalophy)、心肌炎(myocarditis)、心包膜炎(pericarditis)、橫貫性脊髓炎(tansverse myelitis)、 格林-巴利 症候群(Guillain-Barré syndrome，GBS)及在使用aspirin之兒童病人引起雷氏症候群 (Reye syndrome)等"
+    }
+   ],
+   "tags": {
+    "group": "併發症",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第四章第一節臨床症狀",
+   "keywords": [
+    "併發症",
+    "肺炎",
+    "腦炎",
+    "心肌炎",
+    "雷氏症候群",
+    "格林巴利症候群"
+   ]
+  },
+  {
+   "id": "flu-sp-complications-antibiotic",
+   "type": "fact",
+   "label": "細菌性併發症須以抗生素治療",
+   "summary": "肺炎鏈球菌、金黃色葡萄球菌等細菌感染均可能為流感併發症之病因，須適時以抗生素治療。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 41,
+     "region": [
+      68.94,
+      702.05,
+      526.18,
+      744.09
+     ],
+     "quote": "此外，肺炎鏈球菌、金黃色葡萄球菌等細菌感染均可能為流感併發症之病因，須適時以抗生素治療，且因流感可能導致"
+    }
+   ],
+   "tags": {
+    "group": "併發症",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第四章第一節臨床症狀",
+   "keywords": [
+    "抗生素",
+    "細菌感染",
+    "併發症",
+    "肺炎鏈球菌"
+   ]
+  },
+  {
+   "id": "flu-sp-dangersign-adult-manual",
+   "type": "fact",
+   "label": "危險徵兆（防治工作手冊）：呼吸困難、發紺、意識改變等",
+   "summary": "尤其是65歲以上長者、有潛在疾病或兒童患者，應特別留意之危險徵兆包括呼吸困難、呼吸急促、發紺(缺氧)、血痰或痰液變濃、胸痛、意識改變、血壓低等，以使肺炎、心肌炎、腦炎等併發症能及早獲得診斷與治療。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 41,
+     "region": [
+      70.9,
+      655.0,
+      524.2,
+      719.0
+     ],
+     "quote": "留意之危險徵兆包括呼吸困難、呼吸急促、發紺(缺氧)、血痰或痰液變濃、胸痛、意識改變、血壓低等，以使肺炎、心肌炎、腦炎等併發症能及早獲得診斷與治療"
+    },
+    {
+     "source": "S99",
+     "page": 41,
+     "region": [
+      70.9,
+      631.0,
+      524.0,
+      647.0
+     ],
+     "quote": "尤其是65歲以上長者、有潛在疾病或兒童患者，應特別"
+    }
+   ],
+   "tags": {
+    "group": "危險徵兆（成人／兒童）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第四章第一節臨床症狀",
+   "keywords": [
+    "危險徵兆",
+    "呼吸困難",
+    "發紺",
+    "胸痛",
+    "意識改變"
+   ]
+  },
+  {
+   "id": "flu-sp-dangersign-manual-treat",
+   "type": "fact",
+   "label": "危險徵兆（醫界溝通版）：呼吸急促、發紺、意識改變等，應即時給藥",
+   "summary": "籲請醫師加強流感併發重症通報並於看診時，留意流感病程之可能樣態，注意危險徵兆(如呼吸短促、呼吸困難、發紺〔缺氧〕、血痰或濃痰、胸痛、意識改變、低血壓等)，即時給予流感抗病毒藥劑治療。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 64,
+     "region": [
+      127.6,
+      150.0,
+      524.7,
+      213.0
+     ],
+     "quote": "注意危險徵兆(如呼吸短促、呼吸困難、發紺〔缺氧〕、血痰或濃痰、胸痛、意識改變、低血壓等)，即時給予流感抗病毒藥劑治療"
+    }
+   ],
+   "tags": {
+    "group": "危險徵兆（成人／兒童）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第二節防治策略與作為",
+   "keywords": [
+    "危險徵兆",
+    "慢性病惡化",
+    "心血管疾病",
+    "腎臟病"
+   ]
+  },
+  {
+   "id": "flu-sp-dangersign-qa-adult",
+   "type": "qa",
+   "label": "Q&A：流感的危險徵兆？",
+   "question": "流感的危險徵兆？",
+   "summary": "流感的危險徵兆為呼吸急促、呼吸困難、發紺(缺氧、嘴唇發紫或變藍)、血痰、胸痛、意識改變、低血壓等，如有危險徵兆應儘速/轉診至大醫院就診，掌握治療的黃金時間。",
+   "refs": [
+    {
+     "source": "S108",
+     "page": 5,
+     "region": [
+      117.4,
+      333.0,
+      474.0,
+      388.0
+     ],
+     "quote": "流感的危險徵兆為呼吸急促、呼吸困難、發紺(缺氧、嘴唇發紫或變藍)、血痰、胸痛、意識改變、低血壓等，如有危險徵兆應儘速/轉診至大醫院就診，掌握治療的黃金時間。"
+    }
+   ],
+   "tags": {
+    "group": "危險徵兆（成人／兒童）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "Q&A－季節性流感防治，最後更新日期 2026/7/31",
+   "keywords": [
+    "危險徵兆",
+    "呼吸急促",
+    "血痰",
+    "低血壓",
+    "轉診"
+   ]
+  },
+  {
+   "id": "flu-sp-dangersign-qa-infant",
+   "type": "qa",
+   "label": "Q&A：嬰幼兒的危險徵兆怎麼判斷？（無法表達不適時的觀察指標）",
+   "question": "嬰幼兒無法表達不舒服，怎麼判斷有沒有危險徵兆？",
+   "summary": "由於嬰幼兒無法表達身體的不適症狀，建議可以觀察寶寶有無呼吸急促或困難、意識改變、不容易喚醒及活動力低下，做為判斷危險徵兆的重要指標。",
+   "refs": [
+    {
+     "source": "S108",
+     "page": 5,
+     "region": [
+      117.4,
+      396.0,
+      469.6,
+      451.0
+     ],
+     "quote": "另由於嬰幼兒無法表達身體的不適症狀，建議可以觀察寶寶有無呼吸急促或困難、意識改變、不容易喚醒及活動力低下，做為判斷危險徵兆的重要指標。"
+    }
+   ],
+   "tags": {
+    "group": "危險徵兆（成人／兒童）",
+    "population": "infant"
+   },
+   "authority": "疾管署",
+   "note": "Q&A－季節性流感防治，最後更新日期 2026/7/31",
+   "keywords": [
+    "嬰幼兒危險徵兆",
+    "活動力低下",
+    "意識改變",
+    "不易喚醒",
+    "寶寶"
+   ]
+  },
+  {
+   "id": "flu-sp-dangersign-qa-72h-fever",
+   "type": "qa",
+   "label": "Q&A：流感病程可能樣態——高燒持續72小時也是危險徵兆",
+   "question": "流感病程之可能樣態為何？",
+   "summary": "若出現呼吸困難、呼吸急促、發紺(缺氧、嘴唇發紫或變藍)、血痰或痰液變濃、胸痛、意識改變、低血壓或高燒持續72小時等危險徵兆，應儘速/轉診至大醫院就醫，掌握治療的黃金時間。",
+   "refs": [
+    {
+     "source": "S108",
+     "page": 5,
+     "region": [
+      117.4,
+      597.0,
+      471.0,
+      673.0
+     ],
+     "quote": "但若出現呼吸困難、呼吸急促、發紺(缺氧、嘴唇發紫或變藍)、血痰或痰液變濃、胸痛、意識改變、低血壓或高燒持續72小時等危險徵兆，應儘速/轉診至大醫院就醫，掌握治療的黃金時間。"
+    }
+   ],
+   "tags": {
+    "group": "危險徵兆（成人／兒童）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "Q&A－季節性流感防治，最後更新日期 2026/7/31；本頁潛伏期數字另見 isolation 分片，此處僅引危險徵兆句",
+   "keywords": [
+    "危險徵兆",
+    "高燒不退",
+    "72小時",
+    "轉診大醫院"
+   ]
+  },
+  {
+   "id": "flu-sp-pregnant-oseltamivir-firstchoice",
+   "type": "fact",
+   "label": "Oseltamivir 為孕婦及哺乳中婦女之首選用藥",
+   "summary": "Oseltamivir 使用於成人和兒童(包含足月新生兒)之治療及預防流感，為孕婦及哺乳中婦女之首選用藥。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 46,
+     "region": [
+      125.58,
+      152.85,
+      526.74,
+      194.89
+     ],
+     "quote": "使用於成人和兒童(包含足月新生兒)之治療(19)及預防流感，為孕婦及哺乳中婦女之首選用藥，口服投藥"
+    }
+   ],
+   "tags": {
+    "group": "孕婦與產後",
+    "population": "pregnant"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第四章抗病毒藥物使用方法",
+   "keywords": [
+    "孕婦",
+    "克流感",
+    "懷孕用藥",
+    "首選藥物"
+   ]
+  },
+  {
+   "id": "flu-sp-pregnant-tamiflu-label",
+   "type": "fact",
+   "label": "Tamiflu 仿單：懷孕婦女可能可使用",
+   "summary": "在考量已知的安全性及效益資料、流行中之流行性感冒病毒株的致病性、及懷孕婦女本身狀況後，懷孕婦女可能可使用 Tamiflu。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 5,
+     "region": [
+      64.77,
+      510.0,
+      566.58,
+      534.0
+     ],
+     "quote": "或出生後的發育並無直接或間接的有害影響。在考量已知的安全性及效益資料、流行中之流行性感冒病毒株的致病性、及懷孕婦女本身狀況後，懷孕婦女可能可使用 Tamiflu"
+    }
+   ],
+   "tags": {
+    "group": "孕婦與產後",
+    "population": "pregnant"
+   },
+   "authority": "TFDA",
+   "note": "克流感膠囊 75 毫克 TFDA 仿單，6.1 懷孕",
+   "keywords": [
+    "孕婦",
+    "克流感",
+    "仿單",
+    "懷孕分級",
+    "Tamiflu"
+   ]
+  },
+  {
+   "id": "flu-sp-pregnant-qa-safety",
+   "type": "qa",
+   "label": "Q&A：懷孕期間服用流感抗病毒藥劑安全嗎？",
+   "question": "懷孕期間服用流感抗病毒藥劑安全嗎？",
+   "summary": "對於孕婦而言，感染流感可能會引發嚴重的併發症，甚至死亡。目前沒有任何研究顯示，孕婦使用流感抗病毒藥劑會增加自己或胎兒不良預後的風險，在懷孕動物的研究中，也未顯示流感抗病毒藥劑具致畸胎性。同時孕婦使用流感抗病毒藥劑，可降低入住加護病房與死亡之風險。因此，對於罹患流感之孕婦，使用流感抗病毒藥劑的好處大於可能的風險，建議孕婦如有流感症狀應儘速就醫，並依醫師評估及建議使用流感抗病毒藥劑。",
+   "refs": [
+    {
+     "source": "S109",
+     "page": 6,
+     "region": [
+      117.4,
+      58.0,
+      469.6,
+      197.0
+     ],
+     "quote": "對於孕婦而言，感染流感可能會引發嚴重的併發症，甚至死亡。目前沒有任何研究顯示，孕婦使用流感抗病毒藥劑會增加自己或胎兒不良預後的風險，在懷孕動物的研究中，也未顯示流感抗病毒藥劑具致畸胎性。同時孕婦使用流感抗病毒藥劑，可降低入住加護病房與死亡之風險。因此，對於罹患流感之孕婦，使用流感抗病毒藥劑的好處大於可能的風險，建議孕婦如有流感症狀應儘速就醫，並依醫師評估及建議使用流感抗病毒藥劑。"
+    }
+   ],
+   "tags": {
+    "group": "孕婦與產後",
+    "population": "pregnant"
+   },
+   "authority": "疾管署",
+   "note": "Q&A－流感抗病毒藥劑，最後更新日期 2023/10/3",
+   "keywords": [
+    "孕婦",
+    "克流感安全嗎",
+    "懷孕吃藥",
+    "抗病毒藥劑"
+   ]
+  },
+  {
+   "id": "flu-sp-pregnant-relenza-caution",
+   "type": "fact",
+   "label": "Relenza（瑞樂沙）仿單：懷孕期間安全性尚未確立",
+   "summary": "目前無足夠資料說明懷孕婦女使用瑞樂沙的風險，臨床試驗和藥品上市後報告中於懷孕期間使用zanamivir的經驗有限，於懷孕期間使用瑞樂沙的安全性尚未確立。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 4,
+     "region": [
+      85.77,
+      513.85,
+      555.21,
+      552.95
+     ],
+     "quote": "目前無足夠資料說明懷孕婦女使用的風險。臨床試驗和藥品上市後"
+    },
+    {
+     "source": "S110",
+     "page": 4,
+     "region": [
+      85.0,
+      530.0,
+      470.0,
+      568.0
+     ],
+     "quote": "報告中於懷孕期間使用的經驗有限，於懷孕期間使用"
+    },
+    {
+     "source": "S110",
+     "page": 4,
+     "region": [
+      85.0,
+      546.0,
+      190.0,
+      585.0
+     ],
+     "quote": "全性尚未確立。"
+    }
+   ],
+   "tags": {
+    "group": "孕婦與產後",
+    "population": "pregnant",
+    "drug": "zanamivir"
+   },
+   "authority": "TFDA",
+   "note": "瑞樂沙旋達碟仿單全文，6.1 懷孕；與 oseltamivir（孕婦首選用藥）立場不同，需並列呈現",
+   "keywords": [
+    "孕婦",
+    "瑞樂沙",
+    "Relenza",
+    "懷孕警語"
+   ]
+  },
+  {
+   "id": "flu-sp-child-reye-aspirin",
+   "type": "fact",
+   "label": "使用 aspirin 之兒童病人可能引起雷氏症候群",
+   "summary": "流感可能引起嚴重併發症，尤其是65歲以上長者、幼童、孕婦、免疫功能不全者，以及患有心血管疾病、慢性肺病、腎臟病、糖尿病及肥胖者，可引起細菌性肺炎、病毒性肺炎、腦炎或腦病變、心肌炎或心包膜炎及在使用 aspirin 之兒童病人引起雷氏症候群(Reye syndrome)等併發症。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 8,
+     "region": [
+      70.9,
+      239.0,
+      524.6,
+      327.0
+     ],
+     "quote": "尤其是65歲以上長者、幼童、孕婦、免疫功能不全者，以及患有心血管疾病、慢性肺病、腎臟病、糖尿病及肥胖者，可引起細菌性肺炎、病毒性肺炎、腦炎或腦病變、心肌炎或心包膜炎及在使用 aspirin 之兒童病人引起雷氏症候群(Reye syndrome)等併發症"
+    }
+   ],
+   "tags": {
+    "group": "兒童（含 Reye 症候群／阿斯匹靈）",
+    "population": "child"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第一章第三節流感之流行病學特性",
+   "keywords": [
+    "雷氏症候群",
+    "阿斯匹靈",
+    "兒童",
+    "Reye syndrome",
+    "水楊酸"
+   ]
+  },
+  {
+   "id": "flu-sp-child-vaccine-contraindication-reye",
+   "type": "fact",
+   "label": "疫苗接種禁忌：有雷氏症候群與使用阿斯匹靈之兒童及青少年不予接種活性減毒流感疫苗",
+   "summary": "有雷氏症候群(Reye's syndrome)與使用阿斯匹靈(aspirin)或水楊酸類藥物的兒童及青少年，不予接種活性減毒流感疫苗。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 54,
+     "region": [
+      118.62,
+      195.87,
+      526.62,
+      215.41
+     ],
+     "quote": "有雷氏症候群(Reye’s syndrome)與使用阿斯匹靈(aspirin)或水楊酸"
+    }
+   ],
+   "tags": {
+    "group": "兒童（含 Reye 症候群／阿斯匹靈）",
+    "population": "child"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第五章接種禁忌；此為疫苗接種禁忌條文，非抗病毒藥物條文，供理解 Reye/aspirin 關聯脈絡參考",
+   "keywords": [
+    "雷氏症候群",
+    "疫苗接種禁忌",
+    "阿斯匹靈",
+    "兒童"
+   ]
+  },
+  {
+   "id": "flu-sp-child-neuropsychiatric-tamiflu",
+   "type": "fact",
+   "label": "Tamiflu 仿單：神經精神事件多為小孩和青少年，須嚴密監測",
+   "summary": "已有流感病人在服用 Tamiflu 期間產生癲癇和類似精神錯亂的神經精神事件的報告，大多數為小孩和青少年；須嚴密地監測流感病人（特別是小孩和青少年）之不尋常行為之徵兆。",
+   "refs": [
+    {
+     "source": "S112",
+     "page": 5,
+     "region": [
+      65.27,
+      103.65,
+      400.0,
+      131.05
+     ],
+     "quote": "已有流感病人在服用期間產生癲癇和類似精神錯亂的神經精神事件的報告，大多數為小孩和青少年。"
+    },
+    {
+     "source": "S112",
+     "page": 5,
+     "region": [
+      65.0,
+      158.5,
+      343.05,
+      174.0
+     ],
+     "quote": "須嚴密地監測流感病人 (特別是小孩和青少年 )之不尋常行為之徵兆。"
+    }
+   ],
+   "tags": {
+    "group": "兒童（含 Reye 症候群／阿斯匹靈）",
+    "population": "child"
+   },
+   "authority": "TFDA",
+   "note": "克流感膠囊 75 毫克 TFDA 仿單，5.1 警語/注意事項",
+   "keywords": [
+    "克流感",
+    "神經精神事件",
+    "兒童",
+    "異常行為",
+    "幻覺"
+   ]
+  },
+  {
+   "id": "flu-sp-child-rapiacta-fallrisk",
+   "type": "fact",
+   "label": "Rapiacta（瑞貝塔）仿單：異常行為導致摔倒好發於學齡兒童、未成年男性",
+   "summary": "目前已知有關導致摔倒等事故的嚴重異常行為，好發於學齡兒童、未成年男性，經常在發燒後2天內表現出來。",
+   "refs": [
+    {
+     "source": "S97",
+     "page": 2,
+     "region": [
+      91.68,
+      427.19,
+      333.36,
+      459.15
+     ],
+     "quote": "目前已知有關導致摔倒等事故的嚴重異常行為，好發於學齡兒童、未成年男性，經常在發燒後2天內表現出來。"
+    }
+   ],
+   "tags": {
+    "group": "兒童（含 Reye 症候群／阿斯匹靈）",
+    "population": "child"
+   },
+   "authority": "TFDA",
+   "note": "瑞貝塔點滴靜脈注射液仿單，5.1 精神神經症狀",
+   "keywords": [
+    "瑞貝塔",
+    "兒童",
+    "跌倒風險",
+    "Rapiacta"
+   ]
+  },
+  {
+   "id": "flu-sp-asthma-relenza-warning",
+   "type": "fact",
+   "label": "Relenza（瑞樂沙）警語：呼吸道疾病患者使用需備妥速效性支氣管擴張劑",
+   "summary": "感染流行性感冒可能會使氣道的過敏反應性升高，曾有使用zanamivir後出現支氣管痙攣及(或)呼吸功能降低之現象的報告；併有呼吸道疾病的患者在使用時，應隨時備妥速效性支氣管擴張劑。",
+   "refs": [
+    {
+     "source": "S110",
+     "page": 4,
+     "region": [
+      85.77,
+      30.1,
+      557.24,
+      69.2
+     ],
+     "quote": "感染流行性感冒可能會使氣道的過敏反應性升高。"
+    },
+    {
+     "source": "S110",
+     "page": 4,
+     "region": [
+      80.0,
+      78.0,
+      561.0,
+      132.0
+     ],
+     "quote": "併有呼吸道疾病的患者在使用時，應隨時備妥速效性支氣管擴張劑"
+    }
+   ],
+   "tags": {
+    "group": "氣喘／COPD",
+    "population": "asthma_copd",
+    "drug": "zanamivir"
+   },
+   "authority": "TFDA",
+   "note": "瑞樂沙旋達碟仿單全文，5 警語及注意事項",
+   "keywords": [
+    "氣喘",
+    "COPD",
+    "瑞樂沙",
+    "支氣管痙攣",
+    "Relenza"
+   ]
+  },
+  {
+   "id": "flu-sp-report-clinical-criteria",
+   "type": "rule",
+   "label": "流感併發重症通報：臨床條件",
+   "summary": "出現類流感症狀後兩週內因併發症(如肺部併發症、神經系統併發症、侵襲性細菌感染、心肌炎或心包膜炎等)而需加護病房治療或死亡者。",
+   "refs": [
+    {
+     "source": "S100",
+     "page": 1,
+     "region": [
+      125.8,
+      170.0,
+      505.2,
+      228.0
+     ],
+     "quote": "出現類流感症狀後兩週內因併發症(如肺部併發症、神經系統併發症、侵襲性細菌感染、心肌炎或心包膜炎等)而需加護病房治療或死亡者。"
+    }
+   ],
+   "tags": {
+    "group": "通報（流感併發重症）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "流感併發重症（Severe Complicated Influenza）通報病例定義，一、臨床條件",
+   "keywords": [
+    "通報",
+    "流感併發重症",
+    "臨床條件",
+    "加護病房"
+   ]
+  },
+  {
+   "id": "flu-sp-report-lab-criteria",
+   "type": "rule",
+   "label": "流感併發重症通報：檢驗條件",
+   "summary": "具有下列任一個條件：（一）呼吸道臨床檢體分離並鑑定出流感病毒；（二）臨床檢體分子生物學核酸檢測陽性；（三）臨床檢體抗原檢測陽性；（四）臨床檢體血清學抗體檢測陽性：急性期與恢復期流感病毒血清抗體效價≧4倍上升。",
+   "refs": [
+    {
+     "source": "S100",
+     "page": 1,
+     "region": [
+      125.8,
+      290.0,
+      505.0,
+      407.0
+     ],
+     "quote": "（一）呼吸道臨床檢體（咽喉擦拭液等）分離並鑑定出流感病毒（Influenza virus）。（二）臨床檢體分子生物學核酸檢測陽性。（三）臨床檢體抗原檢測陽性。（四）臨床檢體血清學抗體檢測陽性：急性期與恢復期流感病毒血清抗體效價≧4倍上升。"
+    }
+   ],
+   "tags": {
+    "group": "通報（流感併發重症）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "流感併發重症通報病例定義，二、檢驗條件",
+   "keywords": [
+    "通報",
+    "檢驗條件",
+    "核酸檢測",
+    "抗原檢測",
+    "血清抗體"
+   ]
+  },
+  {
+   "id": "flu-sp-report-epi-criteria",
+   "type": "rule",
+   "label": "流感併發重症通報：流行病學條件",
+   "summary": "曾經與經實驗室證實之確定病例具有密切接觸（close contact），即照護、同住、或與其呼吸道分泌物、體液之直接接觸。",
+   "refs": [
+    {
+     "source": "S100",
+     "page": 1,
+     "region": [
+      125.8,
+      450.0,
+      500.0,
+      507.0
+     ],
+     "quote": "曾經與經實驗室證實之確定病例具有密切接觸（close contact），即照護、同住、或與其呼吸道分泌物、體液之直接接觸。"
+    }
+   ],
+   "tags": {
+    "group": "通報（流感併發重症）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "流感併發重症通報病例定義，三、流行病學條件",
+   "keywords": [
+    "通報",
+    "流行病學條件",
+    "密切接觸"
+   ]
+  },
+  {
+   "id": "flu-sp-report-case-classification",
+   "type": "rule",
+   "label": "流感併發重症：可能／極可能／確定病例分類",
+   "summary": "疾病分類：（一）可能病例：符合臨床條件。（二）極可能病例：符合臨床條件及流行病學條件。（三）確定病例：符合臨床條件及檢驗條件。",
+   "refs": [
+    {
+     "source": "S100",
+     "page": 1,
+     "region": [
+      125.8,
+      610.0,
+      367.0,
+      767.0
+     ],
+     "quote": "（一）可能病例：符合臨床條件。（二）極可能病例：符合臨床條件及流行病學條件。（三）確定病例：符合臨床條件及檢驗條件。"
+    }
+   ],
+   "tags": {
+    "group": "通報（流感併發重症）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "流感併發重症通報病例定義，五、疾病分類",
+   "keywords": [
+    "通報",
+    "可能病例",
+    "極可能病例",
+    "確定病例"
+   ]
+  },
+  {
+   "id": "flu-sp-report-1week",
+   "type": "rule",
+   "label": "流感併發重症通報：法定傳染病，應於1週內完成通報",
+   "summary": "依據「傳染病防治法」第3條及第39條，「流感併發重症」屬第四類傳染病，如發現疑似個案，應於1週內完成通報。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 18,
+     "region": [
+      92.2,
+      174.0,
+      524.6,
+      237.0
+     ],
+     "quote": "依據「傳染病防治法」第3條及第39條，「流感併發重症」屬第四類傳染病，如發現疑似個案，應於1週內完成通報"
+    }
+   ],
+   "tags": {
+    "group": "通報（流感併發重症）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第二章監視系統",
+   "keywords": [
+    "通報",
+    "一週內通報",
+    "1週內",
+    "法定傳染病"
+   ]
+  },
+  {
+   "id": "flu-sp-report-ili-def",
+   "type": "fact",
+   "label": "類流感症狀（ILI）操作型定義",
+   "summary": "類流感症狀：需同時符合下列三項條件者：1.突然發病、有發燒(耳溫≧38℃)及呼吸道症狀；2.具有肌肉痠痛或頭痛或極度倦怠感；3.需排除單純性流鼻水、扁桃腺炎及支氣管炎。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 18,
+     "region": [
+      113.5,
+      324.0,
+      538.7,
+      364.0
+     ],
+     "quote": "出現類流感症狀*後2週內因併發症(如肺部併發症、神經系統併發症、侵襲性細菌感染、心肌炎或心包膜炎等)而需加護病房治療或死亡者。"
+    },
+    {
+     "source": "S99",
+     "page": 18,
+     "region": [
+      127.8,
+      371.0,
+      428.2,
+      453.0
+     ],
+     "quote": "類流感症狀：需同時符合下列三項條件者：1.突然發病、有發燒(耳溫≧38℃)及呼吸道症狀；2.具有肌肉痠痛或頭痛或極度倦怠感；3.需排除單純性流鼻水、扁桃腺炎及支氣管炎。"
+    }
+   ],
+   "tags": {
+    "group": "通報（流感併發重症）",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第二章監視系統，通報定義註腳",
+   "keywords": [
+    "類流感症狀",
+    "通報定義",
+    "發燒",
+    "肌肉痠痛"
+   ]
+  },
+  {
+   "id": "flu-sp-renal-idsa-table",
+   "type": "fact",
+   "label": "腎臟疾病者屬流感併發症高風險族群（IDSA Table 4）",
+   "summary": "IDSA：患有慢性肺病（含氣喘）、心血管疾病（不含單純高血壓）、腎臟、肝臟、血液（含鐮刀型血球疾病）或代謝疾病（含糖尿病）或神經／神經發展疾病者，屬流感併發症高風險族群。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 4,
+     "region": [
+      300.0,
+      88.0,
+      546.0,
+      156.0
+     ],
+     "quote": "Persons with chronic pulmonary (including asthma), cardiovascular (except\nhypertension alone), renal, hepatic, hematologic (including sickle cell di-\nsease), or metabolic disorders (including diabetes mellitus) or neurologic\nand neurodevelopment conditions (including disorders of the brain, spinal\ncord, peripheral nerve, and muscle such as cerebral palsy, epilepsy [seizure\ndisorders], stroke, intellectual disability [mental retardation], moderate to\nsevere developmental delay, muscular dystrophy, or spinal cord injury)"
+    }
+   ],
+   "tags": {
+    "group": "腎功能不全",
+    "population": "general"
+   },
+   "authority": "IDSA",
+   "keywords": [
+    "腎臟病",
+    "腎功能不全",
+    "高風險族群",
+    "慢性腎臟病",
+    "洗腎",
+    "renal"
+   ],
+   "note": "IDSA 2018 臨床指引 Table 4：Persons Who Are at High Risk of Complications From Influenza；用藥時之腎功能劑量調整見 antiviral-labels.json，此條僅講「腎臟病是高風險族群」的臨床辨識，不重複劑量數字"
+  },
+  {
+   "id": "flu-sp-renal-tw-manual",
+   "type": "fact",
+   "label": "腎臟疾病者屬高危險群（疾管署手冊）",
+   "summary": "有些人感染流感病毒後會引起嚴重併發症，甚至死亡，其中高危險群包括65歲以上長者、嬰幼兒，以及患有心、肺、腎臟及代謝性疾病，或免疫功能不全者。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 41,
+     "region": [
+      65.0,
+      413.0,
+      528.0,
+      480.0
+     ],
+     "quote": "然而，有些人感染流感病毒後會引起嚴重併發症，甚至死亡，其中\n高危險群包括65歲以上長者、嬰幼兒，以及患有心、肺、腎臟及代謝性疾\n病，或免疫功能不全者。"
+    }
+   ],
+   "tags": {
+    "group": "腎功能不全",
+    "population": "general"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "腎臟病",
+    "腎功能不全",
+    "洗腎",
+    "高危險群",
+    "慢性腎臟病"
+   ],
+   "note": "季節性流感防治工作手冊 2026 年 3 月版，第四章第一節臨床症狀"
+  },
+  {
+   "id": "flu-sp-immunocompromised-idsa-table",
+   "type": "fact",
+   "label": "免疫抑制病人屬流感併發症高風險族群（IDSA Table 4）",
+   "summary": "IDSA：因藥物或 HIV 感染導致免疫抑制之病人，屬流感併發症高風險族群。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 4,
+     "region": [
+      300.0,
+      154.0,
+      542.0,
+      176.0
+     ],
+     "quote": "Persons with immunosuppression, including that caused by medications or\nby HIV infectiona"
+    }
+   ],
+   "tags": {
+    "group": "免疫低下",
+    "population": "immunocompromised"
+   },
+   "authority": "IDSA",
+   "keywords": [
+    "免疫低下",
+    "免疫不全",
+    "免疫抑制劑",
+    "HIV",
+    "高風險族群"
+   ],
+   "note": "IDSA 2018 臨床指引 Table 4：Persons Who Are at High Risk of Complications From Influenza"
+  },
+  {
+   "id": "flu-sp-immunocompromised-cdc-longer-treatment",
+   "type": "fact",
+   "label": "免疫低下病人可能需要較長抗病毒治療療程（美國 CDC）",
+   "summary": "美國 CDC：免疫低下病人可能因流感病毒複製時間延長而需要較長的治療療程；這類病人在治療期間或治療後，也有出現抗藥性或敏感性下降病毒株的風險。",
+   "refs": [
+    {
+     "source": "S114",
+     "page": 6,
+     "quote": "Longer treatment regimens might be necessary in immunocompromised patients who may have prolonged influenza viral replication.\nSuch patients are at risk of emergence of influenza viruses with reduced susceptibility or antiviral resistance during or after antiviral\ntreatment."
+    }
+   ],
+   "tags": {
+    "group": "免疫低下",
+    "population": "immunocompromised"
+   },
+   "authority": "CDC",
+   "keywords": [
+    "免疫低下",
+    "免疫不全",
+    "療程延長",
+    "抗藥性",
+    "immunocompromised"
+   ],
+   "note": "Influenza Antiviral Medications: Summary for Clinicians，2025-26 流感季版"
+  },
+  {
+   "id": "flu-sp-bmi95-basis",
+   "type": "fact",
+   "label": "未滿18歲兒童青少年 BMI 第95百分位表：依據",
+   "summary": "未滿18歲兒童及青少年 BMI 第95百分位一覽表，以兒童及青少年生長身體質量指數（BMI）建議值(衛福部102年6月11日公布)肥胖為依據。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      119.34,
+      23.45,
+      413.06,
+      44.1
+     ],
+     "quote": "未滿18歲兒童青少年BMI第95百分位一覽表"
+    },
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      69.5,
+      46.96,
+      527.94,
+      64.05
+     ],
+     "quote": "以兒童及青少年生長身體質量指數（BMI）建議值(衛福部102年6月11日公布)肥胖為依據。"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "population": "child"
+   },
+   "authority": "衛福部；疾管署",
+   "note": "公費流感抗病毒藥劑使用對象一覽表附件",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-0-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：0.0歲",
+   "summary": "0.0 歲：男 15.8、女 15.5。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      86.1,
+      485.8,
+      103.19
+     ],
+     "quote": "0.0 15.8 15.5"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "0.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-0-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：0.5歲",
+   "summary": "0.5 歲：男 19.9、女 19.6。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      105.7,
+      485.8,
+      122.75
+     ],
+     "quote": "0.5 19.9 19.6"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "0.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-1-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：1.0歲",
+   "summary": "1.0 歲：男 19.2、女 19.0。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      125.1,
+      485.8,
+      142.19
+     ],
+     "quote": "1.0 19.2 19.0"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "1.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-1-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：1.5歲",
+   "summary": "1.5 歲：男 18.5、女 18.2。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      144.7,
+      485.8,
+      161.75
+     ],
+     "quote": "1.5 18.5 18.2"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "1.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-2-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：2.0歲",
+   "summary": "2.0 歲：男 18.3、女 18.1。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      164.2,
+      485.8,
+      181.31
+     ],
+     "quote": "2.0 18.3 18.1"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "2.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-2-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：2.5歲",
+   "summary": "2.5 歲：男 18.0、女 17.9。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      183.7,
+      485.8,
+      200.75
+     ],
+     "quote": "2.5 18.0 17.9"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "2.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-3-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：3.0歲",
+   "summary": "3.0 歲：男 17.8、女 17.8。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      203.2,
+      485.8,
+      220.31
+     ],
+     "quote": "3.0 17.8 17.8"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "3.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-3-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：3.5歲",
+   "summary": "3.5 歲：男 17.7、女 17.8。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      222.8,
+      485.8,
+      239.87
+     ],
+     "quote": "3.5 17.7 17.8"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "3.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-4-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：4.0歲",
+   "summary": "4.0 歲：男 17.6、女 17.9。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      242.4,
+      485.8,
+      259.46
+     ],
+     "quote": "4.0 17.6 17.9"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "4.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-4-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：4.5歲",
+   "summary": "4.5 歲：男 17.6、女 18.0。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      261.8,
+      485.8,
+      278.9
+     ],
+     "quote": "4.5 17.6 18.0"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "4.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-5-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：5.0歲",
+   "summary": "5.0 歲：男 17.7、女 18.1。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      281.4,
+      485.8,
+      298.46
+     ],
+     "quote": "5.0 17.7 18.1"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "5.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-5-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：5.5歲",
+   "summary": "5.5 歲：男 18.0、女 18.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      300.9,
+      485.8,
+      318.02
+     ],
+     "quote": "5.5 18.0 18.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "5.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-6-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：6.0歲",
+   "summary": "6.0 歲：男 18.5、女 18.8。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      320.4,
+      485.8,
+      337.46
+     ],
+     "quote": "6.0 18.5 18.8"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "6.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-6-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：6.5歲",
+   "summary": "6.5 歲：男 19.2、女 19.2。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      339.9,
+      485.8,
+      357.02
+     ],
+     "quote": "6.5 19.2 19.2"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "6.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-7-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：7.0歲",
+   "summary": "7.0 歲：男 20.3、女 19.6。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      359.5,
+      485.8,
+      376.58
+     ],
+     "quote": "7.0 20.3 19.6"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "7.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-7-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：7.5歲",
+   "summary": "7.5 歲：男 21.2、女 20.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      378.9,
+      485.8,
+      396.02
+     ],
+     "quote": "7.5 21.2 20.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "7.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-8-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：8.0歲",
+   "summary": "8.0 歲：男 21.6、女 20.7。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      398.5,
+      485.8,
+      415.6
+     ],
+     "quote": "8.0 21.6 20.7"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "8.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-8-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：8.5歲",
+   "summary": "8.5 歲：男 22.0、女 21.0。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      418.1,
+      485.8,
+      435.16
+     ],
+     "quote": "8.5 22.0 21.0"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "8.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-9-0",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：9.0歲",
+   "summary": "9.0 歲：男 22.3、女 21.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      437.6,
+      485.8,
+      454.72
+     ],
+     "quote": "9.0 22.3 21.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "9.0"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-9-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：9.5歲",
+   "summary": "9.5 歲：男 22.5、女 21.6。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      112.7,
+      457.1,
+      485.8,
+      474.16
+     ],
+     "quote": "9.5 22.5 21.6"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "9.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-10",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：10歲",
+   "summary": "10 歲：男 22.7、女 22.0。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      114.02,
+      476.6,
+      485.8,
+      493.72
+     ],
+     "quote": "10 22.7 22.0"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "10"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-10-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：10.5歲",
+   "summary": "10.5 歲：男 22.9、女 22.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      109.46,
+      496.2,
+      485.8,
+      513.28
+     ],
+     "quote": "10.5 22.9 22.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "10.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-11",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：11歲",
+   "summary": "11 歲：男 23.2、女 22.7。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      114.02,
+      515.6,
+      485.8,
+      532.72
+     ],
+     "quote": "11 23.2 22.7"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "11"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-11-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：11.5歲",
+   "summary": "11.5 歲：男 23.5、女 23.1。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      109.46,
+      535.2,
+      485.8,
+      552.28
+     ],
+     "quote": "11.5 23.5 23.1"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "11.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-12",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：12歲",
+   "summary": "12 歲：男 23.9、女 23.5。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      114.02,
+      554.8,
+      485.8,
+      571.84
+     ],
+     "quote": "12 23.9 23.5"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "12"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-12-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：12.5歲",
+   "summary": "12.5 歲：男 24.2、女 23.9。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      109.46,
+      574.2,
+      485.8,
+      591.31
+     ],
+     "quote": "12.5 24.2 23.9"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "12.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-13",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：13歲",
+   "summary": "13 歲：男 24.5、女 24.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      114.02,
+      593.8,
+      485.8,
+      610.87
+     ],
+     "quote": "13 24.5 24.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "13"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-13-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：13.5歲",
+   "summary": "13.5 歲：男 24.8、女 24.6。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      109.46,
+      613.3,
+      485.8,
+      630.43
+     ],
+     "quote": "13.5 24.8 24.6"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "13.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-14",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：14歲",
+   "summary": "14 歲：男 25.0、女 24.9。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      114.02,
+      632.9,
+      485.8,
+      649.99
+     ],
+     "quote": "14 25.0 24.9"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "14"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-14-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：14.5歲",
+   "summary": "14.5 歲：男 25.2、女 25.1。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      109.46,
+      652.3,
+      485.8,
+      669.43
+     ],
+     "quote": "14.5 25.2 25.1"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "14.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-15",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：15歲",
+   "summary": "15 歲：男 25.4、女 25.2。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      114.02,
+      671.9,
+      485.8,
+      688.99
+     ],
+     "quote": "15 25.4 25.2"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "15"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-15-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：15.5歲",
+   "summary": "15.5 歲：男 25.5、女 25.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      109.46,
+      691.5,
+      485.8,
+      708.55
+     ],
+     "quote": "15.5 25.5 25.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "15.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-16",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：16歲",
+   "summary": "16 歲：男 25.6、女 25.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      114.02,
+      710.9,
+      485.8,
+      727.99
+     ],
+     "quote": "16 25.6 25.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "16"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-16-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：16.5歲",
+   "summary": "16.5 歲：男 25.6、女 25.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      109.46,
+      730.5,
+      485.8,
+      747.57
+     ],
+     "quote": "16.5 25.6 25.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "16.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-17",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：17歲",
+   "summary": "17 歲：男 25.6、女 25.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      114.02,
+      750.0,
+      485.8,
+      767.13
+     ],
+     "quote": "17 25.6 25.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "17"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  },
+  {
+   "id": "flu-sp-bmi95-17-5",
+   "type": "table-row",
+   "label": "未滿18歲BMI第95百分位表：17.5歲",
+   "summary": "17.5 歲：男 25.6、女 25.3。",
+   "refs": [
+    {
+     "source": "S101",
+     "page": 2,
+     "region": [
+      109.46,
+      769.6,
+      485.8,
+      786.69
+     ],
+     "quote": "17.5 25.6 25.3"
+    }
+   ],
+   "tags": {
+    "group": "未滿18歲肥胖判定（BMI第95百分位表）",
+    "age": "17.5"
+   },
+   "authority": "疾管署",
+   "keywords": [
+    "BMI",
+    "肥胖",
+    "第95百分位",
+    "未滿18歲",
+    "公費用藥資格"
+   ]
+  }
+ ]
+}

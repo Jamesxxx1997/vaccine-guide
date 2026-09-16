@@ -1,0 +1,63 @@
+{
+ "vaccine": "tdap",
+ "product": "Adacel(安打星三合一補追疫苗)",
+ "source": "S36",
+ "components": [
+  {
+   "page": 1,
+   "label": "佐劑",
+   "quote": "磷酸鋁(aluminium phosphate)（佐劑）"
+  },
+  {
+   "page": 1,
+   "label": "賦形劑",
+   "quote": "二苯氧基乙醇(2-phenoxyethanol)"
+  },
+  {
+   "page": 1,
+   "label": "製造過程殘留物",
+   "quote": "甲醛(formaldehyde)及戊二醛(glutaraldehyde)有微量存在。"
+  }
+ ],
+ "allergens": [
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 1,
+   "quote": "磷酸鋁(aluminium phosphate)（佐劑）"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "有",
+   "page": 1,
+   "quote": "甲醛(formaldehyde)及戊二醛(glutaraldehyde)有微量存在。"
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 2,
+   "quote": "ADACEL®容器密封物不含膠乳(latex)（天然橡膠）。"
+  },
+  {
+   "key": "thimerosal",
+   "status": "未載明",
+   "related": {
+    "page": 1,
+    "quote": "二苯氧基乙醇(2-phenoxyethanol)",
+    "note": "保存劑為 2-phenoxyethanol 0.6%（v/v）；未列硫柳汞"
+   }
+  }
+ ],
+ "warnings": [
+  {
+   "label": "過敏禁忌",
+   "page": 1,
+   "quote": "已知對 ADACEL 的任何成分有全身性過敏反應者，或先前接種本疫苗或接種含有與本疫苗相同的一種或多種成分之某種疫苗後曾出現威脅生命反應者（參閱劑型、組成及包裝），禁止接種 ADACEL®。若不確定是疫苗中的那種成分引起過敏，則任何成分都不應注射。若仍考慮給予這類病人接種疫苗，應請過敏專科醫師進行評估。"
+  }
+ ],
+ "sweep": {
+  "dismissed": {
+   "other_antibiotics": "傷口處置「metronidazole 等抗生素」，非疫苗成分"
+  }
+ }
+}

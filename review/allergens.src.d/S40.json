@@ -1,0 +1,99 @@
+{
+ "vaccine": "bcg",
+ "product": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE",
+ "source": "S40",
+ "components": [
+  {
+   "page": 3,
+   "label": "1.1 有效成分及含量",
+   "quote": "本品含牛型結核分枝桿菌。"
+  },
+  {
+   "page": 3,
+   "label": "1.2 賦形劑",
+   "quote": "賦形劑為麩胺酸鈉，不含保存劑。"
+  },
+  {
+   "page": 3,
+   "label": "1.4 藥品外觀",
+   "quote": "本品為牛型結核分枝桿菌（Mycobacterium tuberculosis var. Bovis）菌種 Tokyo"
+  },
+  {
+   "page": 8,
+   "label": "15.2 稀釋液",
+   "quote": "稀釋液為生理食鹽水。"
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "未載明"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "未載明"
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "未載明"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "無",
+   "page": 3,
+   "quote": "賦形劑為麩胺酸鈉，不含保存劑。",
+   "note": "由「不含保存劑／防腐劑」概括句推得，仿單未點名硫柳汞"
+  },
+  {
+   "key": "aluminium",
+   "status": "未載明"
+  }
+ ],
+ "warnings": [
+  {
+   "label": "禁忌：對本疫苗成分嚴重過敏",
+   "page": 5,
+   "quote": "接種本疫苗或對本疫苗任何成分曾發生嚴重過敏反應者。"
+  },
+  {
+   "label": "禁忌：嚴重濕疹",
+   "page": 5,
+   "quote": "嚴重濕疹與有明顯皮膚缺損的皮膚病。"
+  },
+  {
+   "label": "禁忌：免疫功能不全",
+   "page": 5,
+   "quote": "免疫功能不全或因治療可能產生免疫不全者。"
+  },
+  {
+   "label": "禁忌：HIV 感染",
+   "page": 5,
+   "quote": "人類免疫缺乏病毒感染者，無論是否有症狀。"
+  },
+  {
+   "label": "禁忌：孕婦",
+   "page": 5,
+   "quote": "孕婦。"
+  }
+ ]
+}

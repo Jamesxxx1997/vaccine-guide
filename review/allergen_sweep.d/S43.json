@@ -1,9 +1,9 @@
 {
  "product": "Fluarix Tetra 伏適流四價流感疫苗",
  "source": "S43",
- "pdf": "sources/仿單/流感疫苗_伏適流四價流感疫苗FluarixTetra(GSK)_TFDA_2022-09-02.pdf",
- "pages": 11,
- "date": "2026-09-13",
+ "pdf": "sources/仿單/現行版_2026-09-16/S43_FluarixTetra_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+ "pages": 16,
+ "date": "2026-09-16",
  "cells": {
   "gelatin": {
    "patterns": [
@@ -39,17 +39,6 @@
     "pichia",
     "hansenula",
     "cerevisiae"
-   ],
-   "hits": [],
-   "dismissed": null
-  },
-  "latex": {
-   "patterns": [
-    "乳膠",
-    "膠乳",
-    "橡膠",
-    "latex",
-    "rubber"
    ],
    "hits": [],
    "dismissed": null
@@ -90,8 +79,15 @@
     "明礬",
     "硫酸鋁鉀"
    ],
-   "hits": [],
-   "dismissed": null
+   "hits": [
+    {
+     "page": 5,
+     "term": "佐劑",
+     "pattern": "佐劑",
+     "context": "接種FluarixTetra之50歲以上成人,可同時接種肺炎鏈球菌多醣體疫苗或含佐劑之帶狀疱疹疫苗,如欣剋疹帶狀疱疹疫苗(Shingrix);FluarixTetr"
+    }
+   ],
+   "dismissed": "掃描命中的「佐劑」句出自 7.交互作用段落，講的是與另一支『含佐劑之帶狀疱疹疫苗』(Shingrix) 同時接種，並非 Fluarix Tetra 本身含鋁佐劑；全文未見 Fluarix Tetra 本身佐劑或鋁的敘述"
   }
  }
 }

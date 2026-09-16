@@ -1,0 +1,2454 @@
+{
+  "cells": 343,
+  "pagesScanned": 1140,
+  "diffs": [],
+  "extraCandidates": [
+    {
+      "source": "S70",
+      "key": "other_antibiotics",
+      "hits": [
+        {
+          "page": 9,
+          "term": "aminoglycoside",
+          "pattern": "aminoglycoside",
+          "context": "in sulfate⏎(not more than 40 ng/mL), an aminoglycoside antibiotic included in the cell growth "
+        },
+        {
+          "page": 9,
+          "term": "aminoglycoside",
+          "pattern": "aminoglycoside",
+          "context": "ndneomycinsulfate(notmorethan40ng/mL),anaminoglycosideantibioticincludedinthecellgrowthmedia.H"
+        }
+      ]
+    },
+    {
+      "source": "S91",
+      "key": "gelatin",
+      "hits": [
+        {
+          "page": 11,
+          "term": "collagen",
+          "pattern": "collagen",
+          "context": "ic renal failure, auto-immune diseases, collagen diseases,⏎severe bronchial asthma) or f"
+        },
+        {
+          "page": 11,
+          "term": "collagen",
+          "pattern": "collagen",
+          "context": "chronicrenalfailure,auto-immunediseases,collagendiseases,severebronchialasthma)orfollowi"
+        }
+      ]
+    }
+  ],
+  "dismissedReview": [
+    {
+      "source": "S20",
+      "key": "latex",
+      "reason": null,
+      "related": {
+        "page": 15,
+        "quote": "1劑粉末，盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。",
+        "note": "瓶塞為丁基橡膠（合成橡膠），仿單未提天然乳膠"
+      },
+      "hits": [
+        {
+          "page": 15,
+          "term": "橡膠",
+          "pattern": "橡膠",
+          "context": "驗資料參見藥效藥理特性。13包裝及儲存13.1包裝1劑粉末,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。1劑懸液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃"
+        },
+        {
+          "page": 15,
+          "term": "橡膠",
+          "pattern": "橡膠",
+          "context": "盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。1劑懸液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中。Shingrix有1小瓶粉末加1小瓶懸液的包裝,或10"
+        }
+      ]
+    },
+    {
+      "source": "S20",
+      "key": "aluminium",
+      "reason": null,
+      "related": {
+        "page": 1,
+        "quote": "帶狀疱疹疫苗(非活性基因重組疫苗，使用AS01B佐劑)。",
+        "note": "佐劑為 AS01B（QS-21＋MPL 微脂粒系統），仿單成分未列任何鋁鹽"
+      },
+      "hits": [
+        {
+          "page": 1,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "-231性狀1.1有效成分及含量帶狀疱疹疫苗(非活性基因重組疫苗,使用AS01B佐劑)。泡製之後,每劑(0.5毫升)含有50微克gE抗原1(使用AS01B佐劑2)。"
+        },
+        {
+          "page": 1,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "01B佐劑)。泡製之後,每劑(0.5毫升)含有50微克gE抗原1(使用AS01B佐劑2)。1源自水痘帶狀疱疹病毒(VaricellaZosterVirus,VZV)"
+        },
+        {
+          "page": 1,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "是利用DNA重組技術在中國倉鼠卵巢細胞中製造而得。2葛蘭素史克公司的專利AS01佐劑系統係由植物萃取物QuillajasaponariaMolina,Bfracti"
+        },
+        {
+          "page": 3,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "接或間接的影響。7交互作用與其他疫苗併用Shingrix可與季節性流感疫苗(不含佐劑)、23價肺炎鏈球菌多醣體疫苗(23-valentpneumococcalpol"
+        },
+        {
+          "page": 3,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "2019,COVID-19)mRNA疫苗或呼吸道融合病毒(RSV)疫苗(重組且含佐劑)同時施打(參見藥效藥理特性)。P.3"
+        },
+        {
+          "page": 5,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "料不足。10藥理特性10.1作用機轉藉由結合VZV特有抗原(gE)以及AS01B佐劑系統,Shingrix的設計可針對對於水痘帶狀疱疹病毒已有預存免疫力的人,誘發其"
+        },
+        {
+          "page": 5,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "淋巴結中聚集並活化,進而促使具gE特異性的CD4+T細胞和抗體生成。AS01B的佐劑作用是來自包含在微脂粒載體中的MPL與QS-21之間的交互作用結果。10.2藥效"
+        },
+        {
+          "page": 13,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "月接種兩劑Shingrix,並於接種第一劑時合併或不合併接種季節性流感疫苗(不含佐劑)P.13"
+        },
+        {
+          "page": 14,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "株)(N=539;Zoster-091)或呼吸道融合病毒(RSV)疫苗(重組且含佐劑)(N=530;RSVOA=ADJ-020)。將Shingrix與流感疫苗、23"
+        },
+        {
+          "page": 14,
+          "term": "佐劑",
+          "pattern": "佐劑",
+          "context": "VID-19mRNA-1273加強劑疫苗和呼吸道融合病毒(RSV)疫苗(重組且含佐劑)同時施打後的疫苗反應率(抗gE抗體)分別為95.8%(95%CI:93.3;9"
+        }
+      ]
+    },
+    {
+      "source": "S27",
+      "key": "thimerosal",
+      "reason": null,
+      "related": {
+        "page": 1,
+        "quote": "高度純化且不含防腐劑之 A 型肝",
+        "note": "原句主語是「A 型肝炎病毒抗原」不含防腐劑，仿單未點名硫柳汞、也未明說整劑不含防腐劑"
+      },
+      "hits": [
+        {
+          "page": 1,
+          "term": "防腐劑",
+          "pattern": "防腐劑",
+          "context": "sulfate)而成。1mL之疫苗含有約50單位(units;U)高度純化且不含防腐劑之A型肝炎病毒抗原。在目前分析方法所能測量之範圍,50U的VAQTA含有小於0."
+        }
+      ]
+    },
+    {
+      "source": "S29",
+      "key": "thimerosal",
+      "reason": null,
+      "related": {
+        "page": 2,
+        "quote": "Hanks medium (without phenol red), formaldehyde, phenoxyethanol,",
+        "note": "賦形劑列 phenoxyethanol（苯氧基乙醇，保存劑）；未列硫柳汞"
+      },
+      "hits": [
+        {
+          "page": 2,
+          "term": "phenoxyethanol",
+          "pattern": "phenoxyethanol",
+          "context": "ium (without phenol red), formaldehyde, phenoxyethanol,⏎ethanol and water for injections.⏎Hank"
+        },
+        {
+          "page": 2,
+          "term": "phenoxyethanol",
+          "pattern": "phenoxyethanol",
+          "context": "ksmedium(withoutphenolred),formaldehyde,phenoxyethanol,ethanolandwaterforinjections.Hanks培養基(H"
+        },
+        {
+          "page": 2,
+          "term": "phenol",
+          "pattern": "phenol",
+          "context": "形劑⏎⏎與吸附劑相關者,見章節2。⏎Hanks medium (without phenol red), formaldehyde, phenoxyethanol,⏎eth"
+        },
+        {
+          "page": 2,
+          "term": "phenol",
+          "pattern": "phenol",
+          "context": "特性6.1賦形劑與吸附劑相關者,見章節2。Hanksmedium(withoutphenolred),formaldehyde,phenoxyethanol,ethanol"
+        }
+      ]
+    },
+    {
+      "source": "S32",
+      "key": "other_antibiotics",
+      "reason": "「抗生素」出現在肺炎鏈球菌抗藥性／血清型討論，非成分",
+      "related": null,
+      "hits": [
+        {
+          "page": 24,
+          "term": "抗生素",
+          "pattern": "抗生素",
+          "context": "感染率相似;血清型19F的感染率則有顯著減少的現象。在此試驗中,曾經記錄到對一些抗生素為非易感性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據"
+        },
+        {
+          "page": 24,
+          "term": "抗生素",
+          "pattern": "抗生素",
+          "context": "性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據血清型及抗生素,此減少範圍介於34%到62%之間。沛兒肺炎鏈球菌七價結合型疫苗在嬰兒與幼童的"
+        }
+      ]
+    },
+    {
+      "source": "S33",
+      "key": "other_antibiotics",
+      "reason": "「抗生素／erythromycin／抗菌劑」皆為抗藥性、預防性治療與針筒說明語境，非成分",
+      "related": null,
+      "hits": [
+        {
+          "page": 1,
+          "term": "erythromycin",
+          "pattern": "erythromycin",
+          "context": "性。許多對 penicillin 產生抗藥性的肺炎鏈球菌⏎亦會對其他抗生素(如 erythromycin, trimethoprim-sulfamethoxazole 和廣效⏎性的 c"
+        },
+        {
+          "page": 1,
+          "term": "erythromycin",
+          "pattern": "erythromycin",
+          "context": "產生抗藥性。許多對penicillin產生抗藥性的肺炎鏈球菌亦會對其他抗生素(如erythromycin,trimethoprim-sulfamethoxazole和廣效性的cepha"
+        },
+        {
+          "page": 1,
+          "term": "抗生素",
+          "pattern": "抗生素",
+          "context": "生在因先天性損傷、頭顱破裂或進行神經手術造成慢性腦脊髓液外溢的病人身上。即使使用抗生素來有效的控制細菌,侵犯性的肺炎鏈球菌性疾病(如菌血症或腦膜炎)和肺炎仍會引起高的"
+        },
+        {
+          "page": 1,
+          "term": "抗生素",
+          "pattern": "抗生素",
+          "context": "illin產生抗藥性。許多對penicillin產生抗藥性的肺炎鏈球菌亦會對其他抗生素(如erythromycin,trimethoprim-sulfamethoxa"
+        },
+        {
+          "page": 1,
+          "term": "抗生素",
+          "pattern": "抗生素",
+          "context": "症的機率較一些其他人種(如黑人、阿拉斯加原住民、美洲印地安人)低。即使採取適當的抗生素療法及密切的醫療照顧,成人因罹患肺炎鏈球菌性菌血症所造成的死亡率為15-20%,"
+        },
+        {
+          "page": 2,
+          "term": "抗生素",
+          "pattern": "抗生素",
+          "context": "停注射本疫苗會有更高的危險時才能使用本品。對於需要以penicillin(或其他抗生素)來預防肺炎鏈球菌感染的病患,在注射PNEUMOVAX23後,不應停止使用此預防"
+        },
+        {
+          "page": 2,
+          "term": "抗生素",
+          "pattern": "抗生素",
+          "context": "預防肺炎鏈球菌感染的病患,在注射PNEUMOVAX23後,不應停止使用此預防性的抗生素。PNEUMOVAX23可能對因先天性損傷、頭顱破裂或進行神經手術造成慢性腦脊髓"
+        },
+        {
+          "page": 3,
+          "term": "抗菌劑",
+          "pattern": "抗菌劑",
+          "context": "過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及不含保存劑、抗菌劑及清潔劑的針筒從藥瓶內抽取0.5mL。預充疫苗針筒其他在臨床試驗及上市後的使用經"
+        }
+      ]
+    },
+    {
+      "source": "S33",
+      "key": "thimerosal",
+      "reason": null,
+      "related": {
+        "page": 1,
+        "quote": "0.25%酚作為保存劑之等張生理食鹽水中。",
+        "note": "保存劑為酚（phenol）0.25%；未提硫柳汞"
+      },
+      "hits": [
+        {
+          "page": 1,
+          "term": "保存劑",
+          "pattern": "保存劑",
+          "context": "量中含有23種細菌莢膜多醣體,每種莢膜多醣體各25μg,溶於含有0.25%酚作為保存劑之等張生理食鹽水中。表一PNEUMOVAX23內所含之23種肺炎鏈球菌莢膜型命名"
+        },
+        {
+          "page": 1,
+          "term": "酚",
+          "pattern": "(?<![酚])酚(?![酞])",
+          "context": "mL劑量中含有23種細菌莢膜多醣體,每種莢膜多醣體各25μg,溶於含有0.25%酚作為保存劑之等張生理食鹽水中。表一PNEUMOVAX23內所含之23種肺炎鏈球菌"
+        },
+        {
+          "page": 3,
+          "term": "保存劑",
+          "pattern": "保存劑",
+          "context": "46°F)。本疫苗可直接使用不需稀釋或混合。本疫苗含有0.25%Phenol作為保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及不含保存劑"
+        },
+        {
+          "page": 3,
+          "term": "保存劑",
+          "pattern": "保存劑",
+          "context": "保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及不含保存劑、抗菌劑及清潔劑的針筒從藥瓶內抽取0.5mL。預充疫苗針筒其他在臨床試驗及上市後"
+        },
+        {
+          "page": 3,
+          "term": "Phenol",
+          "pattern": "phenol",
+          "context": " (36-46°F)。本疫苗可直接使用不需稀釋或混合。本疫⏎苗含有 0.25% Phenol 作為保存劑。過期後必須丟棄,不可再用。⏎⏎單一劑量或多劑量小瓶⏎必須使用滅菌後"
+        },
+        {
+          "page": 3,
+          "term": "Phenol",
+          "pattern": "phenol",
+          "context": "-8°C(36-46°F)。本疫苗可直接使用不需稀釋或混合。本疫苗含有0.25%Phenol作為保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及"
+        }
+      ]
+    },
+    {
+      "source": "S36",
+      "key": "other_antibiotics",
+      "reason": "傷口處置「metronidazole 等抗生素」，非疫苗成分",
+      "related": null,
+      "hits": [
+        {
+          "page": 2,
+          "term": "抗生素",
+          "pattern": "抗生素",
+          "context": ".U.肌肉注射。5.必要時應以擴創術清理傷口,並使用metronidazole等抗生素。應確實了解病人是否已完成基礎預防接種。若病人曾完成破傷風的基礎預防接種且其傷口"
+        }
+      ]
+    },
+    {
+      "source": "S36",
+      "key": "thimerosal",
+      "reason": null,
+      "related": {
+        "page": 1,
+        "quote": "二苯氧基乙醇(2-phenoxyethanol)",
+        "note": "保存劑為 2-phenoxyethanol 0.6%（v/v）；未列硫柳汞"
+      },
+      "hits": [
+        {
+          "page": 1,
+          "term": "phenoxyethanol",
+          "pattern": "phenoxyethanol",
+          "context": "luminium phosphate)(佐劑)⏎1.5 毫克⏎二苯氧基乙醇(2-phenoxyethanol)⏎0.6%(v/v)⏎製造過程殘留物⏎甲醛(formaldehyde)及戊二醛"
+        },
+        {
+          "page": 1,
+          "term": "phenoxyethanol",
+          "pattern": "phenoxyethanol",
+          "context": "酸鋁(aluminiumphosphate)(佐劑)1.5毫克二苯氧基乙醇(2-phenoxyethanol)0.6%(v/v)製造過程殘留物甲醛(formaldehyde)及戊二醛(gl"
+        }
+      ]
+    },
+    {
+      "source": "S41",
+      "key": "latex",
+      "reason": null,
+      "related": {
+        "page": 11,
+        "quote": "瓶塞（鹵化丁基 (halo-butyl) 橡膠）及鋁質套環、一支注射器（聚丙烯）及兩支針頭（不銹鋼）。",
+        "note": "瓶塞為鹵化丁基橡膠（合成橡膠），仿單未提天然乳膠"
+      },
+      "hits": [
+        {
+          "page": 11,
+          "term": "橡膠",
+          "pattern": "橡膠",
+          "context": "瓶中(第I類玻璃),每個玻璃小瓶都附有一個瓶塞(鹵化丁基(halo-butyl)橡膠)及鋁質套環、一支注射器(聚丙烯)及兩支針頭(不銹鋼)。每個包裝皆含有1瓶粉末、"
+        },
+        {
+          "page": 11,
+          "term": "橡膠",
+          "pattern": "橡膠",
+          "context": "(第I類玻璃)內含4次劑量的粉末,附有一個瓶塞(鹵化丁基(halo-butyl)橡膠)及一個鋁質套環。每盒10支裝。每個玻璃小瓶(第I類玻璃)內含4次劑量的稀釋劑,"
+        },
+        {
+          "page": 11,
+          "term": "橡膠",
+          "pattern": "橡膠",
+          "context": "第I類玻璃)內含4次劑量的稀釋劑,附有一個瓶塞(鹵化丁基(halo-butyl)橡膠)及一個鋁質套環。每盒10支裝。6.6丟棄及其他處理的注意事項凍晶疫苗應為呈現白"
+        }
+      ]
+    },
+    {
+      "source": "S48",
+      "key": "egg",
+      "reason": "命中「hen」＝參考文獻作者姓 Chen",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S58",
+      "key": "egg",
+      "reason": "命中皆為 chickenpox／hen(when/then 字尾) 子字串，非蛋成分提及；Shingrix gE 抗原為 CHO 細胞培養，仿單未提蛋",
+      "related": null,
+      "hits": [
+        {
+          "page": 2,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "vention of primary varicella infection⏎(chickenpox).⏎⏎-------------------------------"
+        },
+        {
+          "page": 2,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "orpreventionofprimaryvaricellainfection(chickenpox).-------------------------------AD"
+        },
+        {
+          "page": 3,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "vention of primary varicella infection (chickenpox).⏎DOSAGE AND ADMINISTRATION⏎⏎For i"
+        },
+        {
+          "page": 3,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "orpreventionofprimaryvaricellainfection(chickenpox).DOSAGEANDADMINISTRATIONForintramu"
+        },
+        {
+          "page": 16,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "vention of primary varicella infection (chickenpox).⏎8.5⏎⏎Geriatric Use⏎⏎Adults Aged "
+        },
+        {
+          "page": 16,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "orpreventionofprimaryvaricellainfection(chickenpox).8.5GeriatricUseAdultsAged60Yearsa"
+        }
+      ]
+    },
+    {
+      "source": "S58",
+      "key": "aluminium",
+      "reason": "命中皆為 Adjuvant/adjuvant 子字串，AS01B 佐劑組成（MPL+QS-21 脂質體）已列為 related，仿單未另提鋁鹽",
+      "related": {
+        "page": 16,
+        "quote": "The AS01B adjuvant is composed of 3-O-desacyl-4’-monophosphoryl lipid A (MPL) derived from Salmonella minnesota and QS-21, a saponin purified from Quillaja saponaria Molina plant extract, and is combined in a liposomal",
+        "note": "AS01B 佐劑為 MPL＋QS-21 脂質體，非鋁鹽；仿單未明文寫「不含鋁」，故列未載明並附佐劑組成原句（句子跨頁 16→17，quote 截至頁 16 末行）"
+      },
+      "hits": [
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "⏎⏎SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) injectable⏎suspension, for intramusc"
+        },
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ized gE Antigen⏎Component and a vial of Adjuvant Suspension Component. Reconstitute the⏎"
+        },
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ophilized gE Antigen Component with the Adjuvant Suspension⏎Component to form SHINGRIX p"
+        },
+        {
+          "page": 3,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ized gE Antigen Component and a vial of Adjuvant⏎Suspension Component. Reconstitute the "
+        },
+        {
+          "page": 3,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ophilized gE Antigen Component with the Adjuvant Suspension⏎Component to form SHINGRIX p"
+        },
+        {
+          "page": 3,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ile white powder) with the accompanying Adjuvant⏎Suspension Component (an opalescent, co"
+        },
+        {
+          "page": 4,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ire⏎contents of the vial⏎containing the⏎Adjuvant Suspension⏎Component (liquid) by⏎slight"
+        },
+        {
+          "page": 4,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "wtheentirecontentsofthevialcontainingtheAdjuvantSuspensionComponent(liquid)byslightlytil"
+        },
+        {
+          "page": 15,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "rats administered SHINGRIX or the AS01B adjuvant⏎alone prior to mating, during gestation"
+        },
+        {
+          "page": 15,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "were administered SHINGRIX or the AS01B⏎adjuvant alone by intramuscular injection 28 and"
+        },
+        {
+          "page": 15,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "femaleratsadministeredSHINGRIXortheAS01Badjuvantalonepriortomating,duringgestation,anddu"
+        },
+        {
+          "page": 16,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "⏎⏎SHINGRIX (Zoster Vaccine Recombinant, Adjuvanted) is a sterile injectable suspension f"
+        },
+        {
+          "page": 16,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "inant varicella zoster virus gE antigen adjuvanted with AS01B.⏎The vial and vial present"
+        },
+        {
+          "page": 16,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "se with⏎the accompanying vial of AS01B (Adjuvant Suspension Component) to form SHINGRIX."
+        },
+        {
+          "page": 25,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "econstituted with a single-dose vial of Adjuvant Suspension⏎Component (liquid) (packaged"
+        },
+        {
+          "page": 25,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ustbereconstitutedwithasingle-dosevialofAdjuvantSuspensionComponent(liquid)(packagedwith"
+        },
+        {
+          "page": 26,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " SHINGRIX⏎Components⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili"
+        },
+        {
+          "page": 26,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "on⏎Lyophilized gE Antigen Component and Adjuvant Suspension Component vials:⏎•⏎⏎Store re"
+        },
+        {
+          "page": 26,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "tionforSHINGRIXComponentsCartonNDCNumberAdjuvantSuspensionComponent(liquid)LyophilizedgE"
+        }
+      ]
+    },
+    {
+      "source": "S59",
+      "key": "egg",
+      "reason": "命中詞皆為 when/then 字尾（如 administered/given/differences between）子字串，非蛋成分提及；VAQTA 為 MRC-5 人類二倍體纖維母細胞培養，仿單未提蛋",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S59",
+      "key": "peg_polysorbate",
+      "reason": "命中詞皆為 between 字尾子字串，非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S60",
+      "key": "egg",
+      "reason": "命中詞皆為 when 字尾或 lichen（皮膚病 lichen planus）子字串，非蛋成分提及；ENGERIX-B 為酵母菌（Saccharomyces cerevisiae）表現系統，仿單未提蛋",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S60",
+      "key": "peg_polysorbate",
+      "reason": "命中詞皆為 between 字尾子字串，非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S61",
+      "key": "egg",
+      "reason": "命中詞皆為 when 字尾子字串，非蛋成分提及；Gardasil 9 為 Saccharomyces cerevisiae（酵母）表現系統，仿單未提蛋",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S62",
+      "key": "peg_polysorbate",
+      "reason": "命中詞皆為 between 字尾子字串（儲存溫度區間、劑量間隔），非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S63",
+      "key": "yeast",
+      "reason": null,
+      "related": {
+        "page": 25,
+        "quote": "CRM197 is a nontoxic variant of diphtheria toxin isolated from cultures of Corynebacterium diphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium.",
+        "note": "原句講的是載體蛋白 CRM197 的培養基含 yeast extract，仿單未寫疫苗本身含酵母蛋白殘留；與台灣仿單列同一判讀"
+      },
+      "hits": [
+        {
+          "page": 25,
+          "term": "yeast",
+          "pattern": "yeast",
+          "context": "C7 (β197) grown in a casamino acids and yeast extract-based medium.⏎CRM197 is purifie"
+        },
+        {
+          "page": 25,
+          "term": "yeast",
+          "pattern": "yeast",
+          "context": "aestrainC7(β197)growninacasaminoacidsandyeastextract-basedmedium.CRM197ispurifiedthro"
+        }
+      ]
+    },
+    {
+      "source": "S64",
+      "key": "other_antibiotics",
+      "reason": "「Use of Antibiotic Prophylaxis」段（5.3）講的是接種後仍需維持之臨床抗生素預防性投藥，非疫苗成分或製程殘留",
+      "related": null,
+      "hits": [
+        {
+          "page": 2,
+          "term": "Antibiotic",
+          "pattern": "antibiotic",
+          "context": "scular or⏎Pulmonary Function⏎5.3 Use of Antibiotic Prophylaxis⏎5.4 Persons with Altered Im"
+        },
+        {
+          "page": 2,
+          "term": "Antibiotic",
+          "pattern": "antibiotic",
+          "context": "ardiovascularorPulmonaryFunction5.3UseofAntibioticProphylaxis5.4PersonswithAlteredImmunoco"
+        },
+        {
+          "page": 4,
+          "term": "Antibiotic",
+          "pattern": "antibiotic",
+          "context": "5.3⏎⏎Use of Antibiotic Prophylaxis⏎This vaccine does not repla"
+        },
+        {
+          "page": 4,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": "place the need for penicillin (or other antibiotic) prophylaxis against⏎pneumococcal infec"
+        },
+        {
+          "page": 4,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": "tients who require penicillin (or other antibiotic) prophylaxis against⏎pneumococcal infec"
+        }
+      ]
+    },
+    {
+      "source": "S64",
+      "key": "thimerosal",
+      "reason": "phenol 相關命中已列為 related；另一命中「free of preservatives, antiseptics, and detergents」是抽藥用針筒須無防腐劑殘留的給藥說明，非疫苗本身成分",
+      "related": {
+        "page": 9,
+        "quote": "Each 0.5-mL dose of vaccine contains 25 micrograms of each polysaccharide type in isotonic saline solution containing 0.25% phenol as a preservative.",
+        "note": "保存劑為酚（phenol）0.25%；未提硫柳汞"
+      },
+      "hits": [
+        {
+          "page": 3,
+          "term": "preservative",
+          "pattern": "preservative",
+          "context": "ng a sterile needle and syringe free of preservatives, antiseptics,⏎and detergents.⏎Single-D"
+        },
+        {
+          "page": 3,
+          "term": "preservative",
+          "pattern": "preservative",
+          "context": "evialusingasterileneedleandsyringefreeofpreservatives,antiseptics,anddetergents.Single-Dose,"
+        },
+        {
+          "page": 4,
+          "term": "phenol",
+          "pattern": "phenol",
+          "context": "wed by placebo (saline containing 0.25% phenol), or placebo followed by PNEUMOVAX 23, "
+        },
+        {
+          "page": 4,
+          "term": "phenol",
+          "pattern": "phenol",
+          "context": "3followedbyplacebo(salinecontaining0.25%phenol),orplacebofollowedbyPNEUMOVAX23,at30-da"
+        },
+        {
+          "page": 9,
+          "term": "preservative",
+          "pattern": "preservative",
+          "context": "e solution containing 0.25% phenol as a preservative. The vaccine⏎is used directly as suppli"
+        },
+        {
+          "page": 9,
+          "term": "preservative",
+          "pattern": "preservative",
+          "context": "icsalinesolutioncontaining0.25%phenolasapreservative.Thevaccineisuseddirectlyassupplied.Nodi"
+        },
+        {
+          "page": 9,
+          "term": "phenol",
+          "pattern": "phenol",
+          "context": "otonic saline solution containing 0.25% phenol as a preservative. The vaccine⏎is used "
+        },
+        {
+          "page": 9,
+          "term": "phenol",
+          "pattern": "phenol",
+          "context": "einisotonicsalinesolutioncontaining0.25%phenolasapreservative.Thevaccineisuseddirectly"
+        }
+      ]
+    },
+    {
+      "source": "S65",
+      "key": "egg",
+      "reason": "命中詞'hen'/'embryo'皆為'when'字尾或'embryo-fetal'（動物生殖毒性研究用語），與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白",
+      "related": null,
+      "hits": [
+        {
+          "page": 12,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "es.⏎Animal Data⏎The effect of Adacel on embryo-fetal and pre-weaning development was e"
+        },
+        {
+          "page": 12,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "s on pregnancy,⏎parturition, lactation, embryo-fetal or pre-weaning development were o"
+        },
+        {
+          "page": 12,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "roundrates.AnimalDataTheeffectofAdacelonembryo-fetalandpre-weaningdevelopmentwasevalua"
+        }
+      ]
+    },
+    {
+      "source": "S65",
+      "key": "peg_polysorbate",
+      "reason": "命中詞'tween'皆為'between'字尾，與 polysorbate 80/Tween 無關，仿單全文未提 polysorbate/PEG",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S66",
+      "key": "egg",
+      "reason": "命中詞'hen'/'embryo'皆為'when'字尾或'embryo-fetal'（動物生殖毒性研究用語），與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白",
+      "related": null,
+      "hits": [
+        {
+          "page": 17,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "In these studies, no adverse effects on embryo-fetal⏎or pre-weaning development up to "
+        },
+        {
+          "page": 17,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "onDay7.Inthesestudies,noadverseeffectsonembryo-fetalorpre-weaningdevelopmentuptoPostna"
+        },
+        {
+          "page": 18,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "4. In this study, no adverse effects on embryo-fetal development related to⏎BOOSTRIX w"
+        },
+        {
+          "page": 18,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": ",15,and24.Inthisstudy,noadverseeffectsonembryo-fetaldevelopmentrelatedtoBOOSTRIXwereob"
+        }
+      ]
+    },
+    {
+      "source": "S67",
+      "key": "aluminium",
+      "reason": "命中詞'Adjuvanted'皆指共同施打對照之 SHINGRIX（Zoster Vaccine Recombinant, Adjuvanted）的品名，非 Fluarix Quadrivalent 本身含佐劑；Description 段明確未提鋁或任何佐劑成分",
+      "related": null,
+      "hits": [
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ration with Zoster Vaccine Recombinant,⏎Adjuvanted (SHINGRIX)⏎15⏎REFERENCES⏎16⏎HOW SUPPL"
+        },
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)15REFERENCES16HOWSUPPLIED/ST"
+        },
+        {
+          "page": 14,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ration with Zoster Vaccine Recombinant,⏎Adjuvanted (SHINGRIX)⏎In an open-label, randomiz"
+        },
+        {
+          "page": 14,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)Inanopen-label,randomizedtri"
+        },
+        {
+          "page": 15,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "tantly⏎with Zoster Vaccine Recombinant, Adjuvanted (SHINGRIX) [see Adverse Reactions (6."
+        },
+        {
+          "page": 15,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ncomitantlywithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)[seeAdverseReactions(6.1),Cl"
+        },
+        {
+          "page": 29,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ration with Zoster Vaccine⏎Recombinant, Adjuvanted (SHINGRIX)⏎In an open-label, randomiz"
+        },
+        {
+          "page": 29,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)Inanopen-label,randomizedcli"
+        }
+      ]
+    },
+    {
+      "source": "S68",
+      "key": "peg_polysorbate",
+      "reason": "命中詞'tween'皆為'between'字尾（描述菌株收集年代區間），與 polysorbate 80/Tween 無關，仿單全文未提 polysorbate/PEG",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S69",
+      "key": "egg",
+      "reason": "命中詞'hen'皆為'when'字尾，與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白（培養基為 Vero 細胞非雞胚）",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S70",
+      "key": "egg",
+      "reason": "命中詞'hen'皆為'when'字尾，與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白（病毒株於 MRC-5 人類二倍體細胞繁殖）",
+      "related": null,
+      "hits": []
+    },
+    {
+      "source": "S70",
+      "key": "other_antibiotics",
+      "reason": "命中詞'antibiotic'出自描述 neomycin sulfate 本身（'an aminoglycoside antibiotic'），已列於 neomycin key，非額外的其他抗生素",
+      "related": null,
+      "hits": [
+        {
+          "page": 9,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": " more than 40 ng/mL), an aminoglycoside antibiotic included in the cell growth media.⏎HAVR"
+        },
+        {
+          "page": 9,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": "ate(notmorethan40ng/mL),anaminoglycosideantibioticincludedinthecellgrowthmedia.HAVRIXisfor"
+        }
+      ]
+    },
+    {
+      "source": "S71",
+      "key": "egg",
+      "reason": "命中皆為 'embryonic'（human embryonic lung cell cultures，非雞胚）與 'chickenpox'（水痘病名，字面命中 chick 但與蛋／雞胚無關），非蛋類過敏原",
+      "related": null,
+      "hits": [
+        {
+          "page": 13,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "e⏎varicella, then introduced into human embryonic lung cell cultures, adapted to and⏎p"
+        },
+        {
+          "page": 13,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": " cultures, adapted to and⏎propagated in embryonic guinea pig cell cultures and finally"
+        },
+        {
+          "page": 13,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "ld-typevaricella,thenintroducedintohumanembryoniclungcellcultures,adaptedtoandpropagat"
+        },
+        {
+          "page": 22,
+          "term": "chick",
+          "pattern": "chick",
+          "context": " as a shot. It is meant to help prevent chickenpox. Chickenpox is sometimes called⏎va"
+        },
+        {
+          "page": 22,
+          "term": "Chick",
+          "pattern": "chick",
+          "context": "It is meant to help prevent chickenpox. Chickenpox is sometimes called⏎varicella (pro"
+        },
+        {
+          "page": 22,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "a).⏎VARIVAX contains a weakened form of chickenpox virus.⏎VARIVAX works by helping th"
+        },
+        {
+          "page": 23,
+          "term": "chick",
+          "pattern": "chick",
+          "context": " circumstances, it is possible to catch chickenpox, including severe chickenpox,⏎from"
+        },
+        {
+          "page": 23,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "e to catch chickenpox, including severe chickenpox,⏎from a person who has been vaccin"
+        },
+        {
+          "page": 23,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "e not previously been vaccinated or had chickenpox, as well as persons who fall into⏎"
+        },
+        {
+          "page": 24,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "ere skin disorders; skin infection; and chickenpox.⏎Rarely, swelling of the brain (en"
+        },
+        {
+          "page": 24,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "?⏎Active Ingredient: a weakened form of chickenpox virus.⏎Inactive Ingredients: sucro"
+        },
+        {
+          "page": 24,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "ng;severeskindisorders;skininfection;andchickenpox.Rarely,swellingofthebrain(encephal"
+        }
+      ]
+    },
+    {
+      "source": "S72",
+      "key": "yeast",
+      "reason": null,
+      "related": {
+        "page": 25,
+        "quote": "C. diphtheriae is cultured and grown on CY medium\ncontaining yeast extracts and amino acids.",
+        "note": "原句講的是白喉載體蛋白 CRM197 的培養基含 yeast extracts，仿單未寫疫苗本身含酵母蛋白殘留；與 Prevnar 13／20、Vaxneuvance 同一判讀"
+      },
+      "hits": [
+        {
+          "page": 25,
+          "term": "yeast",
+          "pattern": "yeast",
+          "context": "tured and grown on CY medium⏎containing yeast extracts and amino acids.⏎The oligosacc"
+        },
+        {
+          "page": 25,
+          "term": "yeast",
+          "pattern": "yeast",
+          "context": "aeisculturedandgrownonCYmediumcontainingyeastextractsandaminoacids.Theoligosaccharide"
+        }
+      ]
+    },
+    {
+      "source": "S73",
+      "key": "yeast",
+      "reason": null,
+      "related": {
+        "page": 17,
+        "quote": "Each\nS. pneumoniae serotype is grown in media containing yeast extract, dextrose, salts and soy peptone.",
+        "note": "原句講的是各血清型培養基含 yeast extract，仿單未寫疫苗本身含酵母蛋白殘留；與台灣仿單列同一判讀"
+      },
+      "hits": [
+        {
+          "page": 17,
+          "term": "yeast",
+          "pattern": "yeast",
+          "context": "e serotype is grown in media containing yeast extract, dextrose, salts and soy pepton"
+        },
+        {
+          "page": 17,
+          "term": "yeast",
+          "pattern": "yeast",
+          "context": "eumoniaeserotypeisgrowninmediacontainingyeastextract,dextrose,saltsandsoypeptone.Each"
+        }
+      ]
+    },
+    {
+      "source": "S74",
+      "key": "yeast",
+      "reason": null,
+      "related": {
+        "page": 19,
+        "quote": "CRM197 is a non-toxic variant of diphtheria toxin isolated from cultures of Corynebacterium\ndiphtheriae strain C7 (β197) grown in a casamino acids and yeast extract-based medium or in a chemically-\ndefined medium.",
+        "note": "原句講的是載體蛋白 CRM197 的培養基含 yeast extract（或化學合成培養基），仿單未寫疫苗本身含酵母蛋白殘留"
+      },
+      "hits": [
+        {
+          "page": 19,
+          "term": "yeast",
+          "pattern": "yeast",
+          "context": "C7 (β197) grown in a casamino acids and yeast extract-based medium or in a chemically"
+        },
+        {
+          "page": 19,
+          "term": "yeast",
+          "pattern": "yeast",
+          "context": "aestrainC7(β197)growninacasaminoacidsandyeastextract-basedmediumorinachemicallydefine"
+        }
+      ]
+    },
+    {
+      "source": "S75",
+      "key": "other_antibiotics",
+      "reason": null,
+      "related": {
+        "page": 13,
+        "quote": "media free from antibiotics and albumin.",
+        "note": "指病毒株於多次清洗後，最終穩定化步驟所用培養基不含（其他）抗生素與白蛋白；仿單另載殘留 neomycin sulphate（見 neomycin 欄），未進一步列明是否含其他抗生素"
+      },
+      "hits": [
+        {
+          "page": 13,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": "media free from antibiotics and albumin. The attenuated measles, m"
+        },
+        {
+          "page": 13,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": "mediafreefromantibioticsandalbumin.Theattenuatedmeasles,mumpsan"
+        }
+      ]
+    },
+    {
+      "source": "S76",
+      "key": "egg",
+      "reason": "唯一命中為 'embryo-fetal'（動物生殖毒理學用詞，如 embryo-fetal development），與蛋／雞胚無關",
+      "related": null,
+      "hits": [
+        {
+          "page": 16,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "no adverse effects on⏎female fertility, embryo-fetal, pre-weaning and post-natal devel"
+        },
+        {
+          "page": 16,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "vealednoadverseeffectsonfemalefertility,embryo-fetal,pre-weaningandpost-nataldevelopme"
+        }
+      ]
+    },
+    {
+      "source": "S76",
+      "key": "aluminium",
+      "reason": "命中皆為 'Adjuvant'／'adjuvanted'／'unadjuvanted' 泛指本品 AS01E 佐劑系統或他廠佐劑流感疫苗，本品佐劑組成已於 Description 明載為 MPL＋QS-21 脂質體，非鋁鹽",
+      "related": {
+        "page": 18,
+        "quote": "The AS01E adjuvant is composed of 3-O-desacyl-4’-monophosphoryl lipid A (MPL) from Salmonella\nminnesota and QS-21, a saponin purified from plant extract Quillaja saponaria Molina, combined in a\nliposomal formulation.",
+        "note": "佐劑為 AS01E（MPL＋QS-21 脂質體），Description 未列任何鋁鹽"
+      },
+      "hits": [
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Y (Respiratory Syncytial Virus Vaccine, Adjuvanted) for⏎injectable suspension, for intra"
+        },
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "nstituted with the accompanying vial of Adjuvant Suspension⏎Component. (2.2)⏎• Vial and "
+        },
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "h the accompanying prefilled syringe of⏎Adjuvant Suspension Component. (2.2)⏎⏎To report "
+        },
+        {
+          "page": 3,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ile white powder) with the accompanying Adjuvant⏎Suspension Component (an opalescent, co"
+        },
+        {
+          "page": 3,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "structions⏎below. Use only the supplied Adjuvant Suspension Component for reconstitution"
+        },
+        {
+          "page": 3,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ire contents of the vial⏎containing the Adjuvant⏎Suspension Component⏎(liquid) by slight"
+        },
+        {
+          "page": 4,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "structions below. Use⏎only the supplied Adjuvant Suspension Component for reconstitution"
+        },
+        {
+          "page": 4,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ld the ungraduated prefilled⏎syringe of Adjuvant Suspension⏎Component by the barrel and "
+        },
+        {
+          "page": 4,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ntheinstructionsbelow.UseonlythesuppliedAdjuvantSuspensionComponentforreconstitution.Fig"
+        },
+        {
+          "page": 7,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": " FLUAD QUADRIVALENT (influenza vaccine,⏎adjuvanted; manufactured by Seqirus, Inc.) conco"
+        },
+        {
+          "page": 7,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "VYandFLUADQUADRIVALENT(influenzavaccine,adjuvanted;manufacturedbySeqirus,Inc.)concomitan"
+        },
+        {
+          "page": 16,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "duals who received an investigational unadjuvanted RSV vaccine that contained the⏎same R"
+        },
+        {
+          "page": 16,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "io, 3,557 received an⏎investigational unadjuvanted RSV vaccine that contained the same R"
+        },
+        {
+          "page": 16,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "ndividualswhoreceivedaninvestigationalunadjuvantedRSVvaccinethatcontainedthesameRSVPreF3"
+        },
+        {
+          "page": 18,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Y (Respiratory Syncytial Virus Vaccine, Adjuvanted) is a sterile injectable suspension f"
+        },
+        {
+          "page": 18,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "ying vial or prefilled syringe of AS01E adjuvant as the⏎Adjuvant Suspension Component.⏎T"
+        },
+        {
+          "page": 18,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "filled syringe of AS01E adjuvant as the⏎Adjuvant Suspension Component.⏎The RSVPreF3 anti"
+        },
+        {
+          "page": 19,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "aining Lyophilized Antigen Component or Adjuvant Suspension Component and the⏎tip cap an"
+        },
+        {
+          "page": 19,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "per of the prefilled syringe containing Adjuvant Suspension Component are not made⏎with "
+        },
+        {
+          "page": 19,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "lcontainingLyophilizedAntigenComponentorAdjuvantSuspensionComponentandthetipcapandplunge"
+        },
+        {
+          "page": 27,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "nent (powder) and a single-dose vial of Adjuvant Suspension Component (liquid) (packaged"
+        },
+        {
+          "page": 27,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "enComponent(powder)andasingle-dosevialofAdjuvantSuspensionComponent(liquid)(packagedwith"
+        },
+        {
+          "page": 28,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " carton of 10⏎doses⏎⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili"
+        },
+        {
+          "page": 28,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " TIP-LOK syringe (Luer Lock syringe) of Adjuvant⏎Suspension Component (liquid) (packaged"
+        },
+        {
+          "page": 28,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "or AREXVY⏎Components⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili"
+        }
+      ]
+    },
+    {
+      "source": "S77",
+      "key": "egg",
+      "reason": "命中皆為 'embryo-fetal'／'embryo/fetal'（動物生殖毒理學研究用詞，如 embryo-fetal developmental toxicity study），與蛋／雞胚無關",
+      "related": null,
+      "hits": [
+        {
+          "page": 20,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "al developmental toxicity study with an embryo-fetal developmental toxicity phase was⏎"
+        },
+        {
+          "page": 20,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "ects on mating, female fertility, or on⏎embryo/fetal or post-natal survival, growth, o"
+        },
+        {
+          "page": 20,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "st-nataldevelopmentaltoxicitystudywithanembryo-fetaldevelopmentaltoxicityphasewasperfo"
+        }
+      ]
+    },
+    {
+      "source": "S77",
+      "key": "aluminium",
+      "reason": "p17 命中為同時併用的另一廠牌流感疫苗 'FLUAD QUADRIVALENT (Adjuvanted)'；p29 命中為 14.5 節第二期臨床試驗中一款「with or without Al(OH)3」的研究用調製劑，非上市核准配方——核准配方見 Description(11)，未列鋁佐劑",
+      "related": null,
+      "hits": [
+        {
+          "page": 17,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "received ABRYSVO and Influenza Vaccine, Adjuvanted⏎(FLUAD® QUADRIVALENT) concomitantly a"
+        },
+        {
+          "page": 17,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "=703)receivedABRYSVOandInfluenzaVaccine,Adjuvanted(FLUAD®QUADRIVALENT)concomitantlyandpl"
+        },
+        {
+          "page": 29,
+          "term": "Al(OH)3",
+          "pattern": "al\\(oh\\)3",
+          "context": "vels 120 μg and 240 μg, with or without Al(OH)3) when⏎administered concomitantly with T"
+        },
+        {
+          "page": 29,
+          "term": "Al(OH)3",
+          "pattern": "al\\(oh\\)3",
+          "context": "(atdoselevels120μgand240μg,withorwithoutAl(OH)3)whenadministeredconcomitantlywithTdapin"
+        }
+      ]
+    },
+    {
+      "source": "S80",
+      "key": "other_antibiotics",
+      "reason": "全文掃描『antibiotic』4 個命中：p.1 談傷寒『抗生素前時代（pre-antibiotic era）』死亡率之背景敘述，p.7 為 DRUG INTERACTIONS 段落警語（併用抗生素／抗瘧藥可能影響免疫反應），均非本疫苗成分",
+      "related": null,
+      "hits": [
+        {
+          "page": 1,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": " be approximately 10% to 20% in the pre-antibiotic era. (1)⏎(2) (3) During the period of 1"
+        },
+        {
+          "page": 1,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": "portedtobeapproximately10%to20%inthepre-antibioticera.(1)(2)(3)Duringtheperiodof1983to1991"
+        },
+        {
+          "page": 7,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": " Typhim Vi vaccine and drugs (including⏎antibiotics and antimalarial drugs), immune globul"
+        },
+        {
+          "page": 7,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": "ntuseofTyphimVivaccineanddrugs(includingantibioticsandantimalarialdrugs),immuneglobulinsor"
+        }
+      ]
+    },
+    {
+      "source": "S80",
+      "key": "thimerosal",
+      "reason": null,
+      "related": {
+        "page": 1,
+        "quote": "Phenol, 0.25%, is added as a preservative. The vaccine contains residual polydimethylsiloxane or fatty-acid ester-based antifoam.",
+        "note": "防腐劑為酚（phenol）非硫柳汞；仿單未提及 thimerosal／mercury 字樣"
+      },
+      "hits": [
+        {
+          "page": 1,
+          "term": "preservative",
+          "pattern": "preservative",
+          "context": "l⏎content. Phenol, 0.25%, is added as a preservative. The vaccine contains residual⏎polydime"
+        },
+        {
+          "page": 1,
+          "term": "preservative",
+          "pattern": "preservative",
+          "context": "dO-acetylcontent.Phenol,0.25%,isaddedasapreservative.Thevaccinecontainsresidualpolydimethyls"
+        },
+        {
+          "page": 1,
+          "term": "Phenol",
+          "pattern": "phenol",
+          "context": "by molecular size and O-acetyl⏎content. Phenol, 0.25%, is added as a preservative. The"
+        },
+        {
+          "page": 1,
+          "term": "Phenol",
+          "pattern": "phenol",
+          "context": "sessedbymolecularsizeandO-acetylcontent.Phenol,0.25%,isaddedasapreservative.Thevaccine"
+        },
+        {
+          "page": 19,
+          "term": "PHENOL",
+          "pattern": "phenol",
+          "context": "(UNII: 5QWK665956)⏎⏎0.023 mg in 0.5 mL⏎⏎PHENOL (UNII: 339NCG44TV)⏎⏎1.25 mg in 0.5 mL⏎⏎"
+        },
+        {
+          "page": 19,
+          "term": "PHENOL",
+          "pattern": "phenol",
+          "context": "DIHYDRATE(UNII:5QWK665956)0.023mgin0.5mLPHENOL(UNII:339NCG44TV)1.25mgin0.5mLWATER(UNII"
+        }
+      ]
+    },
+    {
+      "source": "S81",
+      "key": "egg",
+      "reason": "全文掃描『embryo/chick』6 個命中：p.11 為 8.1 Pregnancy 段落『embryo-fetal and post-natal development』生殖毒理學敘述（與雞蛋無關）；p.12 的 Chicken Embryo Fibroblast (CEF) 已判讀為 related 附於本格",
+      "related": {
+        "page": 12,
+        "quote": "MVA-BN is grown in primary Chicken Embryo Fibroblast (CEF) cells suspended in a serum-free medium containing no material of direct animal origin, harvested from the CEF cells, purified and concentrated by several Tangential Flow Filtration (TFF) steps including benzonase digestion.",
+        "note": "以雞胚纖維母細胞（CEF）培養病毒株，非雞蛋（胚卵）培養；仿單未提及卵白蛋白／egg protein 殘留，故仍列未載明，附此製程原句供對照"
+      },
+      "hits": [
+        {
+          "page": 11,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": " in⏎pregnancy.⏎The effect of JYNNEOS on embryo-fetal and post-natal development was ev"
+        },
+        {
+          "page": 11,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "tedrisksinpregnancy.TheeffectofJYNNEOSonembryo-fetalandpost-nataldevelopmentwasevaluat"
+        },
+        {
+          "page": 12,
+          "term": "Chick",
+          "pattern": "chick",
+          "context": "thopoxvirus. MVA-BN is grown in primary Chicken⏎Embryo Fibroblast (CEF) cells suspend"
+        },
+        {
+          "page": 12,
+          "term": "Chick",
+          "pattern": "chick",
+          "context": "tingorthopoxvirus.MVA-BNisgrowninprimaryChickenEmbryoFibroblast(CEF)cellssuspendedina"
+        },
+        {
+          "page": 12,
+          "term": "Embryo",
+          "pattern": "embryo",
+          "context": "rus. MVA-BN is grown in primary Chicken⏎Embryo Fibroblast (CEF) cells suspended in a s"
+        },
+        {
+          "page": 12,
+          "term": "Embryo",
+          "pattern": "embryo",
+          "context": "hopoxvirus.MVA-BNisgrowninprimaryChickenEmbryoFibroblast(CEF)cellssuspendedinaserum-fr"
+        }
+      ]
+    },
+    {
+      "source": "S82",
+      "key": "egg",
+      "reason": "全文掃描『embryo』2 個命中皆為 p.50 8.1 Pregnancy 段落標題『Disease-Associated Maternal and/or Embryo/Fetal Risk』，與雞蛋成分無關",
+      "related": null,
+      "hits": [
+        {
+          "page": 50,
+          "term": "Embryo",
+          "pattern": "embryo",
+          "context": "ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant individuals infecte"
+        },
+        {
+          "page": 50,
+          "term": "Embryo",
+          "pattern": "embryo",
+          "context": "erationsDisease-AssociatedMaternaland/orEmbryo/FetalRiskPregnantindividualsinfectedwit"
+        }
+      ]
+    },
+    {
+      "source": "S83",
+      "key": "egg",
+      "reason": "全文掃描『embryo』3 個命中皆為 p.18 8.1 Pregnancy 段落（大鼠發育毒理學研究『embryo/fetus』與段落標題『Embryo/Fetal Risk』），與雞蛋成分無關",
+      "related": null,
+      "hits": [
+        {
+          "page": 18,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "rats, as well as the development of the embryo/fetus and offspring⏎following exposure "
+        },
+        {
+          "page": 18,
+          "term": "Embryo",
+          "pattern": "embryo",
+          "context": "ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant individuals infecte"
+        },
+        {
+          "page": 18,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "ngfemalerats,aswellasthedevelopmentoftheembryo/fetusandoffspringfollowingexposureofthe"
+        }
+      ]
+    },
+    {
+      "source": "S84",
+      "key": "egg",
+      "reason": "全文掃描『embryo』2 個命中皆為 p.31 8.1 Pregnancy 段落標題『Disease-Associated Maternal and/or Embryo/Fetal Risk』，與雞蛋成分無關",
+      "related": null,
+      "hits": [
+        {
+          "page": 31,
+          "term": "Embryo",
+          "pattern": "embryo",
+          "context": "ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant women infected with"
+        },
+        {
+          "page": 31,
+          "term": "Embryo",
+          "pattern": "embryo",
+          "context": "erationsDisease-AssociatedMaternaland/orEmbryo/FetalRiskPregnantwomeninfectedwithSARS-"
+        }
+      ]
+    },
+    {
+      "source": "S84",
+      "key": "other_antibiotics",
+      "reason": "全文掃描『antibiotic』2 個命中皆為 p.18 ADVERSE REACTIONS 不良反應敘述（蜂窩性組織炎經抗生素與類固醇治療後緩解），非本疫苗成分",
+      "related": null,
+      "hits": [
+        {
+          "page": 18,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": "tion. The cellulitis resolved⏎following antibiotic and steroid treatment. The muscle edema"
+        },
+        {
+          "page": 18,
+          "term": "antibiotic",
+          "pattern": "antibiotic",
+          "context": "ccination.Thecellulitisresolvedfollowingantibioticandsteroidtreatment.Themuscleedemawasnot"
+        }
+      ]
+    },
+    {
+      "source": "S84",
+      "key": "aluminium",
+      "reason": "全文掃描『adjuvant』121 個命中：本品全名為『NUVAXOVID (COVID-19 Vaccine, Adjuvanted)』，全文反覆出現的是產品名稱與『Matrix-M adjuvant』（皂樹皂苷佐劑），與鋁鹽佐劑無關，已於本格 related 附 p.32 Matrix-M 成分原句",
+      "related": {
+        "page": 32,
+        "quote": "Each 0.5 mL dose of NUVAXOVID (2026-2027 Formula) contains 5 mcg of recombinant spike glycoprotein (rS) of the SARS-CoV-2 JN.1-descendent variant XFG and 50 mcg Matrix-M adjuvant. The Matrix-M adjuvant is composed of Fraction-A (42.5 mcg) and Fraction-C (7.5 mcg) of saponin extracts from the soapbark tree, Quillaja saponaria Molina.",
+        "note": "佐劑為皂樹皂苷 Matrix-M，非鋁鹽佐劑；仿單未提及 aluminum/aluminium 字樣"
+      },
+      "hits": [
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "VAXOVID.⏎NUVAXOVIDTM (COVID-19 Vaccine, Adjuvanted) injectable⏎suspension, for intramusc"
+        },
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ous dose of a Novavax COVID-19 Vaccine,⏎Adjuvanted. (4)⏎⏎------------------------------A"
+        },
+        {
+          "page": 2,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "nistration⏎of Novavax COVID-19 Vaccine, Adjuvanted. (5.2)⏎⏎Revised: 8/2026⏎⏎FULL PRESCRI"
+        },
+        {
+          "page": 3,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "vious dose of Novavax⏎COVID-19 Vaccine, Adjuvanted.⏎⏎2⏎⏎\f"
+        },
+        {
+          "page": 3,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ngapreviousdoseofNovavaxCOVID-19Vaccine,Adjuvanted.2"
+        },
+        {
+          "page": 4,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "nistration of Novavax COVID-19 Vaccine, Adjuvanted [see Adverse⏎Reactions (6)].⏎The Cent"
+        },
+        {
+          "page": 4,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "r doses) with Novavax COVID-19 Vaccine,⏎Adjuvanted or with another COVID-19 vaccine manu"
+        },
+        {
+          "page": 4,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "gadministrationofNovavaxCOVID-19Vaccine,Adjuvanted[seeAdverseReactions(6)].TheCentersfor"
+        },
+        {
+          "page": 5,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ge and⏎older⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎Primary Seri"
+        },
+        {
+          "page": 5,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ries⏎⏎26,106⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎1st Booster⏎"
+        },
+        {
+          "page": 5,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "⏎⏎13,353‡, §⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎Primary Seri"
+        },
+        {
+          "page": 6,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "der (Part 2)⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted⏎(Original monovalent) †⏎⏎2nd Booster⏎"
+        },
+        {
+          "page": 6,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ooster⏎⏎259¶⏎⏎Novavax COVID-19⏎Vaccine, Adjuvanted (20232024 Formula) ẻ⏎⏎Single Dose⏎⏎33"
+        },
+        {
+          "page": 6,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "uthorized as Novavax⏎⏎COVID-19 Vaccine, Adjuvanted (Original monovalent).⏎⏎‡ Booster dos"
+        },
+        {
+          "page": 7,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "oster dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) were injection "
+        },
+        {
+          "page": 7,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "f any dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) were injection "
+        },
+        {
+          "page": 7,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "lts⏎Safety of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) was assessed in"
+        },
+        {
+          "page": 8,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "eries dose of⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent). Additional sup"
+        },
+        {
+          "page": 8,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "binant spike (rS) protein and Matrix-M® adjuvant but manufactured by a different⏎process"
+        },
+        {
+          "page": 8,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "⏎process than Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent).⏎Study 1 was a "
+        },
+        {
+          "page": 9,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "and Dose 2) ‡⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+        },
+        {
+          "page": 9,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "t,Dose1andDose2)‡NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=16,041"
+        },
+        {
+          "page": 10,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+        },
+        {
+          "page": 10,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ipants in the Novavax COVID-19 Vaccine, Adjuvanted⏎⏎(Original monovalent) group and 7,96"
+        },
+        {
+          "page": 10,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=16,041"
+        },
+        {
+          "page": 11,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "and Dose 2) ‡⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original⏎Monovalent)⏎Dose 1⏎Dose 2⏎N"
+        },
+        {
+          "page": 11,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "t,Dose1andDose2)‡NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=2,293N"
+        },
+        {
+          "page": 12,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Event⏎⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original⏎Monovalent)⏎Dose 1⏎Dose 2⏎N"
+        },
+        {
+          "page": 12,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ipants in the Novavax COVID-19 Vaccine, Adjuvanted⏎⏎(Original monovalent) group and 1,13"
+        },
+        {
+          "page": 12,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ants received Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent) and 9,847 parti"
+        },
+        {
+          "page": 13,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Vaccine, Adjuvanted (Original monovalent) in the pre-cros"
+        },
+        {
+          "page": 13,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " two doses of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) in the⏎post-cro"
+        },
+        {
+          "page": 13,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "imilar in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group (11.8%) a"
+        },
+        {
+          "page": 14,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "⏎who received Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), and 4 (0.04%)⏎"
+        },
+        {
+          "page": 14,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ipants in the Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) arm and 2 (0.02"
+        },
+        {
+          "page": 14,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ipants in⏎the Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) arm and 0 parti"
+        },
+        {
+          "page": 15,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "cipants after⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) and a total of "
+        },
+        {
+          "page": 15,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ter Dose 1 of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) which resolved "
+        },
+        {
+          "page": 15,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "and one of the Novavax COVID19 Vaccine, Adjuvanted (Original monovalent) recipients had "
+        },
+        {
+          "page": 16,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "alysis Set) ‡⏎Novavax COVID-19 Vaccine, Adjuvanted (Original Monovalent)⏎Booster⏎Partici"
+        },
+        {
+          "page": 16,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "fetyAnalysisSet)‡NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)BoosterParticipant"
+        },
+        {
+          "page": 17,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted (Original Monovalent)⏎Booster⏎Partici"
+        },
+        {
+          "page": 17,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "EventNovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)BoosterParticipant"
+        },
+        {
+          "page": 18,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ants received Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent). Of the partici"
+        },
+        {
+          "page": 18,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "oster dose of⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent).⏎One serious ev"
+        },
+        {
+          "page": 18,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted; however,⏎clinical features were also"
+        },
+        {
+          "page": 19,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": " recombinant spike protein and Matrix-M adjuvant, manufactured by a different process⏎th"
+        },
+        {
+          "page": 19,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " process⏎than Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) evaluated in St"
+        },
+        {
+          "page": 19,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " process than Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) evaluated in St"
+        },
+        {
+          "page": 20,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ipants in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group, 286 part"
+        },
+        {
+          "page": 20,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "micron BA.1), Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), and Bivalent⏎V"
+        },
+        {
+          "page": 20,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " 1.5%) in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group, and 4 pa"
+        },
+        {
+          "page": 21,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "cination with⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), the Monovalent"
+        },
+        {
+          "page": 21,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " 4.0%) in the Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) group, and 3 pa"
+        },
+        {
+          "page": 21,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ngvaccinationwithNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent),theMonovalentVacc"
+        },
+        {
+          "page": 22,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "The safety of Novavax COVID-19 Vaccine, Adjuvanted (2023-2024 Formula) administered as a"
+        },
+        {
+          "page": 22,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "cination with Novavax COVID-19 Vaccine, Adjuvanted (2023-2024 Formula) in COVID-19⏎vacci"
+        },
+        {
+          "page": 22,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "gβ⏎Any Grade⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(2023-2024 Formula)⏎Single Dose⏎N=338"
+        },
+        {
+          "page": 23,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(2023-2024 Formula)⏎Single Dose⏎N=338"
+        },
+        {
+          "page": 23,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "EventNovavaxCOVID-19Vaccine,Adjuvanted(2023-2024Formula)SingleDoseN=338n(%)S"
+        },
+        {
+          "page": 24,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "cination with⏎Novavax COVID-19 Vaccine, Adjuvanted (2023-2024 Formula) through end of st"
+        },
+        {
+          "page": 24,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Age⏎Safety of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) in adolescents "
+        },
+        {
+          "page": 24,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "eries dose of Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent).⏎2-Dose Series "
+        },
+        {
+          "page": 25,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " each dose of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent)⏎or placebo in p"
+        },
+        {
+          "page": 25,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "and Dose 2) ‡⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+        },
+        {
+          "page": 25,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "llowingeachdoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)orplaceboinpartici"
+        },
+        {
+          "page": 26,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Dose 1⏎Dose 2⏎N"
+        },
+        {
+          "page": 26,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ipants in the Novavax COVID-19 Vaccine, Adjuvanted (Original⏎⏎monovalent) group and 726 "
+        },
+        {
+          "page": 26,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "NovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)Dose1Dose2N=1,448N"
+        },
+        {
+          "page": 27,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ants⏎received Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) and 745 partici"
+        },
+        {
+          "page": 27,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ants received Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) and 1,354 recei"
+        },
+        {
+          "page": 27,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " two doses of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) in the⏎pre-cros"
+        },
+        {
+          "page": 28,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "oster dose of⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) using an electr"
+        },
+        {
+          "page": 28,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Set) ‡⏎Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(Original Monovalent) Booster⏎N=1,256"
+        },
+        {
+          "page": 28,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "gtheboosterdoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)usinganelectronicd"
+        },
+        {
+          "page": 29,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Event⏎⏎Novavax COVID-19 Vaccine, Adjuvanted⏎(Original Monovalent) Booster⏎N=1,256"
+        },
+        {
+          "page": 29,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "EventNovavaxCOVID-19Vaccine,Adjuvanted(OriginalMonovalent)BoosterN=1,256n(%)"
+        },
+        {
+          "page": 30,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ants received Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent). Of the partici"
+        },
+        {
+          "page": 30,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent), with no report"
+        },
+        {
+          "page": 30,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "zation use of Novavax⏎COVID-19 Vaccine, Adjuvanted. Because these reactions are reported"
+        },
+        {
+          "page": 31,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "e protein and one-fifth the⏎quantity of adjuvant and formulation buffer inactive ingredi"
+        },
+        {
+          "page": 31,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "s included in Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) on four occasio"
+        },
+        {
+          "page": 31,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "tein (5 mcg), one-fifth the quantity of adjuvant (10 mcg), and⏎inactive ingredients whic"
+        },
+        {
+          "page": 32,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "cination with⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), 12.6% (n=2,480"
+        },
+        {
+          "page": 32,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "oster dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) (n=13,353), 15."
+        },
+        {
+          "page": 32,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "SCRIPTION⏎⏎NUVAXOVID (COVID-19 Vaccine, Adjuvanted) is a colorless to slightly yellow, c"
+        },
+        {
+          "page": 33,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "randomized to⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) or placebo (nor"
+        },
+        {
+          "page": 33,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "s)andrandomizedtoNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)orplacebo(normalsa"
+        },
+        {
+          "page": 34,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) or placebo 21 d"
+        },
+        {
+          "page": 34,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "21) of either Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) (n=17,184) or⏎p"
+        },
+        {
+          "page": 34,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " who received Novavax COVID-19 Vaccine, Adjuvanted⏎(Original monovalent) and those who r"
+        },
+        {
+          "page": 35,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "e efficacy of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) to prevent⏎PCR-"
+        },
+        {
+          "page": 35,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " had received⏎Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent), compared with "
+        },
+        {
+          "page": 35,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "nalysis Set )⏎Novavax COVID-19 Vaccine,⏎Adjuvanted (Original Monovalent)⏎Mean⏎Incidence⏎"
+        },
+        {
+          "page": 36,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) in vaccine-expe"
+        },
+        {
+          "page": 36,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ays apart) of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) in the initial "
+        },
+        {
+          "page": 36,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "sofaboosterdoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)invaccine-experien"
+        },
+        {
+          "page": 37,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "econd dose of Novavax COVID-19 Vaccine, Adjuvanted (Original monovalent) relative to the"
+        },
+        {
+          "page": 37,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ingle dose of Novavax COVID-19 Vaccine, Adjuvanted (20232024 Formula). The primary immun"
+        },
+        {
+          "page": 37,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ertheseconddoseofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)relativetothetimeo"
+        },
+        {
+          "page": 38,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ingle Dose of Novavax COVID-19 Vaccine,⏎Adjuvanted (2023-2024 Formula) in Vaccine-naïve "
+        },
+        {
+          "page": 38,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "fteraSingleDoseofNovavaxCOVID-19Vaccine,Adjuvanted(2023-2024Formula)inVaccine-naïveParti"
+        },
+        {
+          "page": 39,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "randomized to Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) or placebo (nor"
+        },
+        {
+          "page": 39,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " two doses of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) or placebo 21 d"
+        },
+        {
+          "page": 39,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "psandrandomizedtoNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)orplacebo(normalsa"
+        },
+        {
+          "page": 40,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "e efficacy of Novavax COVID-19 Vaccine,⏎Adjuvanted (Original monovalent) to prevent PCR-"
+        },
+        {
+          "page": 40,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " who received Novavax⏎COVID-19 Vaccine, Adjuvanted (Original monovalent). One moderate a"
+        },
+        {
+          "page": 40,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "e12.TheefficacyofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)topreventPCR-confi"
+        },
+        {
+          "page": 41,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "Analysis Set)⏎Novavax COVID-19 Vaccine, Adjuvanted⏎Placebo⏎(Original Monovalent)⏎Mean⏎Me"
+        },
+        {
+          "page": 41,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "oster dose of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) in vaccine-expe"
+        },
+        {
+          "page": 41,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "P-EFFAnalysisSet)NovavaxCOVID-19Vaccine,AdjuvantedPlacebo(OriginalMonovalent)MeanMeanSub"
+        },
+        {
+          "page": 42,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ays apart) of Novavax COVID-19⏎Vaccine, Adjuvanted (Original monovalent) in the initial "
+        },
+        {
+          "page": 42,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "econd dose of Novavax COVID-19 Vaccine, Adjuvanted (Original⏎monovalent) was > 0.67 and "
+        },
+        {
+          "page": 42,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "5mL21daysapart)ofNovavaxCOVID-19Vaccine,Adjuvanted(Originalmonovalent)intheinitialvaccin"
+        },
+        {
+          "page": 44,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "IDTM (Noo-VAX-o-vid)⏎(COVID-19 Vaccine, Adjuvanted)⏎(2026-2027 Formula)⏎This summary is "
+        },
+        {
+          "page": 44,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "f NUVAXOVID or Novavax COVID19 Vaccine, Adjuvanted⏎•⏎⏎a severe allergic reaction to any "
+        },
+        {
+          "page": 44,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "AXOVIDTM(Noo-VAX-o-vid)(COVID-19Vaccine,Adjuvanted)(2026-2027Formula)Thissummaryisnotint"
+        },
+        {
+          "page": 45,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": " NUVAXOVID or⏎Novavax COVID-19 Vaccine, Adjuvanted. The chance of having this occur is v"
+        },
+        {
+          "page": 45,
+          "term": "Adjuvant",
+          "pattern": "adjuvant",
+          "context": "ceivedNUVAXOVIDorNovavaxCOVID-19Vaccine,Adjuvanted.Thechanceofhavingthisoccurisverylow.Y"
+        },
+        {
+          "page": 46,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "to moths and butterflies) and Matrix-M® adjuvant containing saponins derived from⏎the so"
+        },
+        {
+          "page": 46,
+          "term": "adjuvant",
+          "pattern": "adjuvant",
+          "context": "elatedtomothsandbutterflies)andMatrix-M®adjuvantcontainingsaponinsderivedfromthesoapbark"
+        }
+      ]
+    },
+    {
+      "source": "S86",
+      "key": "latex",
+      "reason": null,
+      "related": {
+        "page": 15,
+        "quote": "The tip cap and rubber plunger stopper of the pre-filled syringe and the stopper of the vial are made with\nsynthetic rubber.",
+        "note": "瓶塞／針筒活塞頭為合成橡膠（synthetic rubber），非天然乳膠；仿單未明確排除乳膠故標未載明"
+      },
+      "hits": [
+        {
+          "page": 15,
+          "term": "rubber",
+          "pattern": "rubber",
+          "context": "containing 1 dose with a stopper (butyl rubber) and 0.5 ml of suspension⏎in a pre-fill"
+        },
+        {
+          "page": 15,
+          "term": "rubber",
+          "pattern": "rubber",
+          "context": " I glass) with a plunger stopper (butyl rubber) and with a rubber tip cap.⏎The tip cap"
+        },
+        {
+          "page": 15,
+          "term": "rubber",
+          "pattern": "rubber",
+          "context": "unger stopper (butyl rubber) and with a rubber tip cap.⏎The tip cap and rubber plunger"
+        }
+      ]
+    },
+    {
+      "source": "S87",
+      "key": "egg",
+      "reason": "p.4「embryo-foetal development」出自兔隻生殖毒性試驗段落（母兔孕期胚胎發育），與蛋／雞胚培養或卵蛋白過敏原無關，非假陽性外之真實命中",
+      "related": null,
+      "hits": [
+        {
+          "page": 4,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "showed no adverse effects on pregnancy,⏎embryo-foetal development, parturition or post"
+        },
+        {
+          "page": 4,
+          "term": "embryo",
+          "pattern": "embryo",
+          "context": "day15,showednoadverseeffectsonpregnancy,embryo-foetaldevelopment,parturitionorpostnata"
+        }
+      ]
+    },
+    {
+      "source": "S88",
+      "key": "thimerosal",
+      "reason": null,
+      "related": {
+        "page": 9,
+        "quote": "approximately 5,000 pregnant women received Inactivated Influenza Vaccine (Split Virion) BP (trivalent influenza thiomersal-free vaccine) and approximately",
+        "note": "此句描述的是臨床試驗中使用的三價比較疫苗 Inactivated Influenza Vaccine (Split Virion) BP 之歷史劑型為 thiomersal-free，並非針對本品 Quadrivalent Influenza Vaccine (Vaxigrip Tetra) 自身組成的敘述；第3、9、10頁的三處「thiomersal-free」皆屬同一脈絡（懷孕婦女／嬰兒被動保護之臨床試驗背景說明），仿單第2章組成與第6.1節賦形劑均未提及thimerosal/thiomersal，故本品本身狀態未載明。"
+      },
+      "hits": [
+        {
+          "page": 3,
+          "term": "thiomersal",
+          "pattern": "thiomersal",
+          "context": "ted Influenza Vaccine (Split Virion) BP⏎thiomersal-free formulation) administered in pregn"
+        },
+        {
+          "page": 3,
+          "term": "thiomersal",
+          "pattern": "thiomersal",
+          "context": "activatedInfluenzaVaccine(SplitVirion)BPthiomersal-freeformulation)administeredinpregnantw"
+        },
+        {
+          "page": 9,
+          "term": "thiomersal",
+          "pattern": "thiomersal",
+          "context": " (Split Virion) BP (trivalent influenza thiomersal-free vaccine) and approximately⏎5,000 p"
+        },
+        {
+          "page": 9,
+          "term": "thiomersal",
+          "pattern": "thiomersal",
+          "context": "accine(SplitVirion)BP(trivalentinfluenzathiomersal-freevaccine)andapproximately5,000pregna"
+        },
+        {
+          "page": 10,
+          "term": "thiomersal",
+          "pattern": "thiomersal",
+          "context": " (Split Virion) BP (trivalent influenza thiomersal free⏎vaccine) and 4532 of 4868 (93%) in"
+        },
+        {
+          "page": 10,
+          "term": "thiomersal",
+          "pattern": "thiomersal",
+          "context": "accine(SplitVirion)BP(trivalentinfluenzathiomersalfreevaccine)and4532of4868(93%)infantsbor"
+        }
+      ]
+    },
+    {
+      "source": "S89",
+      "key": "aluminium",
+      "reason": null,
+      "related": {
+        "page": 14,
+        "quote": "Powder in vial (type I glass), with a stopper (chlorobutyl) and a flip-off cap\n      (aluminium) + 0.5 ml of solvent in a pre-filled syringe (type I glass), with a\n      plunger-stopper (halobutyl), and an attached needle and needle-shield (natural\n      rubber or polyisoprene) – pack size of 1, 10 or 20.",
+        "note": "此鋁為藥瓶 flip-off cap（瓶蓋）材質，屬容器包裝材料，非疫苗佐劑／配方成分；6.1 賦形劑清單與 2. 組成皆未列鋁化合物，故不算「有」"
+      },
+      "hits": [
+        {
+          "page": 14,
+          "term": "aluminium",
+          "pattern": "aluminium",
+          "context": "opper (chlorobutyl) and a flip-off cap⏎(aluminium) + 0.5 ml of solvent in a pre-filled sy"
+        },
+        {
+          "page": 14,
+          "term": "aluminium",
+          "pattern": "aluminium",
+          "context": "ithastopper(chlorobutyl)andaflip-offcap(aluminium)+0.5mlofsolventinapre-filledsyringe(typ"
+        }
+      ]
+    },
+    {
+      "source": "S91",
+      "key": "egg",
+      "reason": "全文掃描6個「chick」命中皆為 chickenpox（水痘疾病名）字串誤命中，與蛋／卵白蛋白無關",
+      "related": null,
+      "hits": [
+        {
+          "page": 4,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "cumented positive history of varicella (chickenpox) or⏎laboratory evidence of prior i"
+        },
+        {
+          "page": 4,
+          "term": "chick",
+          "pattern": "chick",
+          "context": " without documented positive history of chickenpox or⏎laboratory evidence of prior in"
+        },
+        {
+          "page": 4,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "outdocumentedpositivehistoryofvaricella(chickenpox)orlaboratoryevidenceofpriorinfecti"
+        },
+        {
+          "page": 10,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "ther completely protected from clinical chickenpox⏎or developed a milder form of the "
+        },
+        {
+          "page": 10,
+          "term": "chick",
+          "pattern": "chick",
+          "context": " decrease in the occurrence of cases of chickenpox following two⏎doses of vaccine com"
+        },
+        {
+          "page": 10,
+          "term": "chick",
+          "pattern": "chick",
+          "context": "ereeithercompletelyprotectedfromclinicalchickenpoxordevelopedamilderformofthedisease("
+        }
+      ]
+    },
+    {
+      "source": "S91",
+      "key": "latex",
+      "reason": "全文掃描3個「rubber」命中皆為 p.13 瓶塞/活塞材質 bromobutyl rubber（合成丁基橡膠）之重複擷取，非天然乳膠(latex)，已列為 related",
+      "related": {
+        "page": 13,
+        "quote": "Powder in a single-dose glass vial (type I glass) with a stopper (bromobutyl rubber).",
+        "note": "瓶塞／針筒活塞材質為 bromobutyl rubber（合成橡膠），非天然乳膠(latex)；仿單未就 latex 過敏另作聲明"
+      },
+      "hits": [
+        {
+          "page": 13,
+          "term": "rubber",
+          "pattern": "rubber",
+          "context": "ype I glass) with a stopper (bromobutyl rubber).⏎0.5 ml of solvent in a pre-filled syr"
+        },
+        {
+          "page": 13,
+          "term": "rubber",
+          "pattern": "rubber",
+          "context": "glass) with plunger stopper⏎(bromobutyl rubber), with or without separate needles in t"
+        },
+        {
+          "page": 13,
+          "term": "rubber",
+          "pattern": "rubber",
+          "context": "svial(typeIglass)withastopper(bromobutylrubber).0.5mlofsolventinapre-filledsyringe(typ"
+        }
+      ]
+    }
+  ]
+}

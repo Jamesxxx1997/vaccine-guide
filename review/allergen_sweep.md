@@ -1,7 +1,7 @@
 # 「未載明」全文掃描報告
 每格列出命中詞、頁碼、前後文；判讀後請把結果寫回分片（有／無＋quote、related，或 sweep.dismissed）。掃描紀錄以 review/allergen_sweep.d/<來源>.json 為準。
 
-## S20 Shingrix 欣剋疹帶狀疱疹疫苗（Shingrix_TFDA_2026-04-23.pdf，16 頁；掃描 2026-09-13）
+## S20 Shingrix 欣剋疹帶狀疱疹疫苗（Shingrix_TFDA_2026-04-23.pdf，16 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -24,7 +24,16 @@
 - p.14「佐劑」…株)(N=539;Zoster-091)或呼吸道融合病毒(RSV)疫苗(重組且含佐劑)(N=530;RSVOA=ADJ-020)。將Shingrix與流感疫苗、23…
 - p.14「佐劑」…VID-19mRNA-1273加強劑疫苗和呼吸道融合病毒(RSV)疫苗(重組且含佐劑)同時施打後的疫苗反應率(抗gE抗體)分別為95.8%(95%CI:93.3;9…
 
-## S27 VAQTA 唯德不活化A型肝炎疫苗（A型肝炎疫苗_唯德不活化A型肝炎疫苗VAQTA(默沙東)_TFDA_2023-03-22.pdf，16 頁；掃描 2026-09-13）
+## S26 Havrix 新赫寶克A型肝炎疫苗（S26_Havrix_TFDA仿單全文_網頁列印_2026-09-16.pdf，12 頁；掃描 2026-09-16）
+### egg：0 命中
+### gelatin：0 命中
+### other_antibiotics：1 命中（分片已判為假陽性：p.6「此類抗生素過敏者」的「此類抗生素」回指前一句的新黴素（neomycin），非指其他抗生素（kanamycin/polymyxin/gentamicin等），已計入 neomycin 的警語段）
+- p.6「抗生素」…價,因此可能須接種額外的劑量。Havrix含微量新黴素,因此將本疫苗使用於對此類抗生素過敏者,應格外小心。如同其他注射型疫苗,宜隨時準備好適當的醫藥處理並加以監視,以…
+### yeast：0 命中
+### formaldehyde：0 命中
+### thimerosal：0 命中
+
+## S27 VAQTA 唯德不活化A型肝炎疫苗（A型肝炎疫苗_唯德不活化A型肝炎疫苗VAQTA(默沙東)_TFDA_2023-03-22.pdf，16 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### other_antibiotics：0 命中
@@ -33,7 +42,7 @@
 ### thimerosal：1 命中
 - p.1「防腐劑」…sulfate)而成。1mL之疫苗含有約50單位(units;U)高度純化且不含防腐劑之A型肝炎病毒抗原。在目前分析方法所能測量之範圍,50U的VAQTA含有小於0.…
 
-## S28 Engerix-B 安在時B型肝炎疫苗（B肝_Engerix-B_TFDA_2022-05-05.pdf，1 頁；掃描 2026-09-13）
+## S28 Engerix-B 安在時B型肝炎疫苗（B肝_Engerix-B_TFDA_2022-05-05.pdf，1 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -42,7 +51,7 @@
 ### formaldehyde：0 命中
 ### thimerosal：0 命中
 
-## S29 Tetraxim(范德瑞巴斯德四合一疫苗)（DTaP-IPV疫苗_Tetraxim_TFDA_2016-02-19_許可證已註銷仍為現行專案進口品項仿單.pdf，2 頁；掃描 2026-09-13）
+## S29 Tetraxim(范德瑞巴斯德四合一疫苗)（DTaP-IPV疫苗_Tetraxim_TFDA_2016-02-19_許可證已註銷仍為現行專案進口品項仿單.pdf，2 頁；掃描 2026-09-16）
 ### thimerosal：4 命中
 - p.2「phenoxyethanol」…ium (without phenol red), formaldehyde, phenoxyethanol,⏎ethanol and water for injections.⏎Hank…
 - p.2「phenoxyethanol」…ksmedium(withoutphenolred),formaldehyde,phenoxyethanol,ethanolandwaterforinjections.Hanks培養基(H…
@@ -54,32 +63,41 @@
 ### latex：0 命中
 ### peg_polysorbate：0 命中
 
-## S30 Gardasil 9 嘉喜9（HPV疫苗_Gardasil9_TFDA_2022-08-11.pdf，24 頁；掃描 2026-09-13）
+## S30 嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9）（S30_Gardasil9_TFDA仿單全文_網頁列印_2026-09-16.pdf，43 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### latex：0 命中
 ### formaldehyde：0 命中
 
-## S31 M-M-R II 麻疹腮腺炎德國麻疹混合疫苗（MMR疫苗_麻疹腮腺炎德國麻疹混合疫苗M-M-RII(默沙東)_TFDA_2022-11-22.pdf，10 頁；掃描 2026-09-13）
+## S31 M-M-R II 麻疹腮腺炎德國麻疹混合疫苗（S31_MMR-II_TFDA仿單全文_網頁列印_2026-09-16.pdf，15 頁；掃描 2026-09-16）
 ### other_antibiotics：0 命中
 ### yeast：0 命中
-### latex：0 命中
+### latex：4 命中
+- p.1「rubber」…on flange with B2-0⏎4 coatingBromobutyl rubber⏎瓶塞之玻璃小瓶裝⏎附安全針頭與小瓶轉接頭及溶劑⏎(2⏎ml prefilled…
+- p.1「rubber」…uroteconflangewithB2-04coatingBromobutylrubber瓶塞之玻璃小瓶裝附安全針頭與小瓶轉接頭及溶劑(2mlprefilledsyrin…
+- p.2「rubber」…附安全針頭與小瓶轉接頭及溶劑⏎(2⏎ml prefilled syringe)⏎rubber⏎⏎主製造廠⏎⏎製造廠名稱⏎製造廠地址⏎⏎MERCK SHARP & DOHME…
+- p.2「rubber」…玻璃小瓶裝附安全針頭與小瓶轉接頭及溶劑(2mlprefilledsyringe)rubber主製造廠製造廠名稱製造廠地址MERCKSHARP&DOHMELLC5325OLD…
 ### peg_polysorbate：0 命中
 ### formaldehyde：0 命中
+### thimerosal：4 命中（分片已判為假陽性：p.3「Phenol」命中為 Phenol Red（賦形劑表內的pH指示劑，非硫柳汞/防腐劑）之子字串，非硫柳汞相關；防腐劑相關命中已改列 related）
+- p.3「Phenol」…odium L-Glutamate Monohydrate、⏎Neomycin、Phenol Red、Potassium Phosphate Dibasic (Anhydr…
+- p.3「Phenol」…nosodiumL-GlutamateMonohydrate、Neomycin、PhenolRed、PotassiumPhosphateDibasic(Anhydrous)…
+- p.4「防腐劑」…位置是上臂的外側。3.2調製方式注意:稀釋及注射此疫苗時所使用的無菌注射器須不含防腐劑、消毒劑及清潔劑。因為這些物質會使此活性病毒疫苗失去活性。稀釋時,只使用與疫苗同…
+- p.4「防腐劑」…些物質會使此活性病毒疫苗失去活性。稀釋時,只使用與疫苗同時提供的稀釋液。因其不含防腐劑及其它會使疫苗失去活性的物質。在溶液及容器合適的情況下,任何注射劑在使用前皆須目…
 ### aluminium：0 命中
 
-## S32 Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗（PCV_Prevenar13_TFDA_2022-10-05.pdf，35 頁；掃描 2026-09-13）
+## S32 沛兒肺炎鏈球菌十三價結合型疫苗（S32_Prevenar13_TFDA仿單全文_網頁列印_2026-09-16.pdf，34 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
-### other_antibiotics：2 命中（分片已判為假陽性：「抗生素」出現在肺炎鏈球菌抗藥性／血清型討論，非成分）
-- p.24「抗生素」…感染率相似;血清型19F的感染率則有顯著減少的現象。在此試驗中,曾經記錄到對一些抗生素為非易感性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據…
-- p.24「抗生素」…性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據血清型及抗生素,此減少範圍介於34%到62%之間。沛兒肺炎鏈球菌七價結合型疫苗在嬰兒與幼童的…
+### other_antibiotics：2 命中（分片已判為假陽性：新版全文「抗生素」僅出現在10.2節鼻咽帶菌率監視試驗討論「對一些抗生素為非易感性之血清型…S. pneumoniae感染率減少」，是肺炎鏈球菌抗藥性流行病學描述，非疫苗成分）
+- p.23「抗生素」…感染率相似;血清型19F的感染率則有顯著減少的現象。在此試驗中,曾經記錄到對一些抗生素為非易感性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據…
+- p.23「抗生素」…性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據血清型及抗生素,此減少範圍介於34%到62%之間。沛兒肺炎鏈球菌七價結合型疫苗在嬰兒與幼童的免…
 ### yeast：0 命中
 ### formaldehyde：0 命中
 ### thimerosal：0 命中
 
-## S33 Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗）（PPV23_Pneumovax23_TFDA_2023-03-15.pdf，3 頁；掃描 2026-09-13）
+## S33 Pneumovax 23 紐蒙肺（多價性肺炎鏈球菌疫苗）（PPV23_Pneumovax23_TFDA_2023-03-15.pdf，3 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -105,41 +123,99 @@
 - p.3「Phenol」…-8°C(36-46°F)。本疫苗可直接使用不需稀釋或混合。本疫苗含有0.25%Phenol作為保存劑。過期後必須丟棄,不可再用。單一劑量或多劑量小瓶必須使用滅菌後的針頭及…
 ### aluminium：0 命中
 
-## S36 Adacel(安打星三合一補追疫苗)（Tdap疫苗_Adacel_TFDA_2021-05-25.pdf，2 頁；掃描 2026-09-13）
-### thimerosal：2 命中
-- p.1「phenoxyethanol」…luminium phosphate)(佐劑)⏎1.5 毫克⏎二苯氧基乙醇(2-phenoxyethanol)⏎0.6%(v/v)⏎製造過程殘留物⏎甲醛(formaldehyde)及戊二醛…
-- p.1「phenoxyethanol」…酸鋁(aluminiumphosphate)(佐劑)1.5毫克二苯氧基乙醇(2-phenoxyethanol)0.6%(v/v)製造過程殘留物甲醛(formaldehyde)及戊二醛(gl…
+## S34 Abrysvo（S34_Abrysvo_TFDA仿單全文_網頁列印_2026-09-16.pdf，19 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
-### other_antibiotics：1 命中（分片已判為假陽性：傷口處置「metronidazole 等抗生素」，非疫苗成分）
-- p.2「抗生素」….U.肌肉注射。5.必要時應以擴創術清理傷口,並使用metronidazole等抗生素。應確實了解病人是否已完成基礎預防接種。若病人曾完成破傷風的基礎預防接種且其傷口…
+### other_antibiotics：0 命中
+### yeast：0 命中
+### latex：3 命中
+- p.18「橡膠」…充填的溶劑注射器劑粉末裝在小瓶(第1型玻璃或同等產品)中,帶有塞子(合成氯化丁基橡膠)和翻蓋預充填注射器(第1型玻璃)中的1劑溶劑,帶有塞子(合成氯化丁基橡膠)和尖…
+- p.18「橡膠」…化丁基橡膠)和翻蓋預充填注射器(第1型玻璃)中的1劑溶劑,帶有塞子(合成氯化丁基橡膠)和尖帽(合成異戊二烯/溴化丁基共混橡膠)無菌藥瓶轉接器Abrysvo抗原藥瓶(…
+- p.18「橡膠」…璃)中的1劑溶劑,帶有塞子(合成氯化丁基橡膠)和尖帽(合成異戊二烯/溴化丁基共混橡膠)無菌藥瓶轉接器Abrysvo抗原藥瓶(粉末)和溶劑小瓶1劑粉末裝在小瓶(第1型…
+### formaldehyde：0 命中
+### thimerosal：0 命中
+### aluminium：4 命中（分片已判為假陽性：p.8 動物研究比較「含或不含Al(OH)3」的對照製劑非Abrysvo本身；p.9「有佐劑的」指同時接種之流感疫苗，非Abrysvo成分）
+- p.8「Al(OH)3」…接著在懷孕第⏎10 天和第 24 天。施用 Abrysvo 的動物(無論含或不含Al(OH)3)及其胎兒和幼⏎兔都引發了功能性抗體反應。沒有觀察到母體毒性或對交配表現、雌性生…
+- p.8「Al(OH)3」…1天和7天,接著在懷孕第10天和第24天。施用Abrysvo的動物(無論含或不含Al(OH)3)及其胎兒和幼兔都引發了功能性抗體反應。沒有觀察到母體毒性或對交配表現、雌性生育…
+- p.9「佐劑」…16/26,12:37PM可以與季節性四價流感疫苗(QIV,表面抗原,去活化,有佐劑的)同時接種。在一項針對65歲及以上成人的隨機試驗中,同時施用組與單獨施用組相比…
+- p.9「佐劑」…施用組與單獨施用組相比免疫反應符合不劣性的條件。然而,當Abrysvo和去活化有佐劑的季節性流感疫苗同時施用時,觀察到的RSVA和RSVB中和效價以及A型和B型流感…
+
+## S35 Arexvy（S35_Arexvy_TFDA仿單全文_網頁列印_2026-09-16.pdf，19 頁；掃描 2026-09-16）
+### egg：0 命中
+### gelatin：0 命中
+### neomycin：0 命中
+### other_antibiotics：0 命中
+### yeast：0 命中
+### latex：2 命中
+- p.18「橡膠」…疫反應不劣性標準。19713包裝及儲存13.1包裝1劑粉劑,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中1劑懸浮液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃…
+- p.18「橡膠」…盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中1劑懸浮液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中Arexvy有1小瓶粉劑加1小瓶懸浮液的包裝,或10小瓶…
+### formaldehyde：0 命中
+### thimerosal：0 命中
+### aluminium：15 命中（分片已判為假陽性：「佐劑」命中皆為 Arexvy 自身 AS01（QS-21+MPL，已用 related 呈現）、包裝標籤「佐劑瓶裝」通用詞，或同時接種之流感/帶狀疱疹/肺炎鏈球菌疫苗的佐劑描述，非鋁鹽相關）
+- p.1「佐劑」…入,免除銜接性試驗包裝每盒一百支以下玻璃小瓶裝附等支數單劑量0.5毫升玻璃小瓶裝佐劑瓶裝佐劑仿單無紙化已採用主製造廠製造廠名稱製造廠地址GlaxoSmithKlin…
+- p.1「佐劑」…銜接性試驗包裝每盒一百支以下玻璃小瓶裝附等支數單劑量0.5毫升玻璃小瓶裝佐劑瓶裝佐劑仿單無紙化已採用主製造廠製造廠名稱製造廠地址GlaxoSmithKlineBio…
+- p.2「佐劑」…含量泡製之後,1劑(0.5毫升)含有120微克RSVPreF3抗原(使用AS01佐劑)。穩定於融合前構形(pre-fusionconformation)的呼吸道融合…
+- p.2「佐劑」…NA重組技術在中國倉鼠卵巢(CHO)細胞中製造而得。葛蘭素史克公司的專利AS01佐劑系統係由植物萃取物QuillajasaponariaMolina的fractio…
+- p.3「佐劑」…eF3抗原):二水海藻糖、聚山梨醇酯80、磷酸二氫鉀、磷酸氫二鉀懸浮液(AS01佐劑系統):二油醯基磷脂醯膽鹼、膽固醇、氯化鈉、無水磷酸氫二鈉、磷酸二氫鉀、注射用水…
+- p.3「佐劑」…方式製備Arexvy以兩個小瓶方式提供,在施打前必須先進行泡製。透過搭配的懸浮液佐劑成分(乳白色、無色至淡棕色的無菌液體)泡製凍乾抗原成分(無菌白色粉末)來製備Ar…
+- p.3「佐劑」…菌液體)泡製凍乾抗原成分(無菌白色粉末)來製備Arexvy。只能使用提供的懸浮液佐劑成分來泡製。泡製後的疫苗為乳白色、無色至淡棕色的液體。施打前應目視檢查泡製後的疫…
+- p.5「佐劑」…婦女使用Arexvy的臨床試驗資料。在一項臨床試驗中對3557名孕婦施打研究用無佐劑但與Arexvy同樣含有RSVPreF3抗原的疫苗後,觀察到與安慰劑組相比早產兒…
+- p.5「佐劑」…RSVPreF3抗原的疫苗後,觀察到與安慰劑組相比早產兒有增加的情形。目前對於無佐劑RSVPreF3疫苗施打和早產之間的關係尚未有結論。一項在雌性兔子進行的發育與生…
+- p.6「佐劑」….27交互作用與其他疫苗併用Arexvy可與去活化季節性流感疫苗(標準劑量無添加佐劑、高劑量無添加佐劑或標準劑量有添加佐劑)、帶狀疱疹疫苗(基因重組、有添加佐劑)或…
+- p.6「佐劑」…他疫苗併用Arexvy可與去活化季節性流感疫苗(標準劑量無添加佐劑、高劑量無添加佐劑或標準劑量有添加佐劑)、帶狀疱疹疫苗(基因重組、有添加佐劑)或肺炎鏈球菌結合型疫…
+- p.6「佐劑」…y可與去活化季節性流感疫苗(標準劑量無添加佐劑、高劑量無添加佐劑或標準劑量有添加佐劑)、帶狀疱疹疫苗(基因重組、有添加佐劑)或肺炎鏈球菌結合型疫苗(載體蛋白為白喉C…
+- p.18「佐劑」…,並於當天同時接種或間隔1個月後分開接種去活化季節性四價流感疫苗(標準劑量無添加佐劑,成人≥60歲,N=885;高劑量無添加佐劑,成人≥65歲,N=1,029;或標…
+- p.18「佐劑」…化季節性四價流感疫苗(標準劑量無添加佐劑,成人≥60歲,N=885;高劑量無添加佐劑,成人≥65歲,N=1,029;或標準劑量有添加佐劑,成人≥65歲,N=1,04…
+- p.18「佐劑」…歲,N=885;高劑量無添加佐劑,成人≥65歲,N=1,029;或標準劑量有添加佐劑,成人≥65歲,N=1,045)。將Arexvy與標準劑量無添加佐劑的季節性流感…
+
+## S36 Adacel(安打星三合一補追疫苗)（S36_Adacel_TFDA仿單全文_網頁列印_2026-09-16.pdf，18 頁；掃描 2026-09-16）
+### egg：0 命中
+### gelatin：0 命中
+### neomycin：0 命中
+### other_antibiotics：1 命中（分片已判為假陽性：傷口處置段落提及的抗生素類（如有）非疫苗成分，屬臨床處置建議）
+- p.4「抗生素」….U.肌肉注射。5.必要時應以擴創術清理傷口,並使用metronidazole等抗生素。應確實了解病人是否已完成基礎預防接種。若病人曾完成破傷風的基礎預防接種且其傷口…
 ### yeast：0 命中
 ### peg_polysorbate：0 命中
+### thimerosal：2 命中
+- p.3「phenoxyethanol」…luminium phosphate)(佐劑) 1.5 毫克⏎二苯氧基乙醇(2-phenoxyethanol) 0.6%(v/v)⏎製造過程殘留物⏎甲醛(formaldehyde)及戊二醛…
+- p.3「phenoxyethanol」…酸鋁(aluminiumphosphate)(佐劑)1.5毫克二苯氧基乙醇(2-phenoxyethanol)0.6%(v/v)製造過程殘留物甲醛(formaldehyde)及戊二醛(gl…
 
-## S37 Boostrix（Tdap疫苗_Boostrix_TFDA_2020-09-29.pdf，2 頁；掃描 2026-09-13）
+## S37 Boostrix（S37_Boostrix_TFDA仿單全文_網頁列印_2026-09-16.pdf，15 頁；掃描 2026-09-16）
+### egg：0 命中
+### gelatin：0 命中
+### neomycin：0 命中
+### other_antibiotics：0 命中
+### yeast：0 命中
+### peg_polysorbate：0 命中
+### formaldehyde：0 命中
+### thimerosal：0 命中
+
+## S38 Hexaxim(哈多星)（S38_Hexaxim_TFDA仿單全文_網頁列印_2026-09-16.pdf，22 頁；掃描 2026-09-16）
+### egg：0 命中
+### gelatin：0 命中
+### latex：0 命中
+### peg_polysorbate：0 命中
+### thimerosal：0 命中
+
+## S39 Infanrix hexa(嬰護寧)（S39_Infanrix-hexa_TFDA仿單全文_網頁列印_2026-09-16.pdf，19 頁；掃描 2026-09-16）
+### egg：0 命中
+### gelatin：0 命中
+### peg_polysorbate：0 命中
+### thimerosal：0 命中
+
+## S40 凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE（S40_BCG_TFDA仿單全文_網頁列印_2026-09-16.pdf，9 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### other_antibiotics：0 命中
 ### yeast：0 命中
 ### latex：0 命中
-### thimerosal：0 命中
-
-## S38 Hexaxim(哈多星)（六合一_Hexaxim_TFDA_2021-12-01.pdf，13 頁；掃描 2026-09-13）
-### egg：0 命中
-### gelatin：0 命中
-### latex：0 命中
 ### peg_polysorbate：0 命中
-### thimerosal：0 命中
+### formaldehyde：0 命中
+### aluminium：0 命中
 
-## S39 Infanrix hexa(嬰護寧)（六合一_Infanrix-hexa_TFDA_2021-07-01.pdf，14 頁；掃描 2026-09-13）
-### egg：0 命中
-### gelatin：0 命中
-### latex：0 命中
-### thimerosal：0 命中
-
-## S41 Imojev 禦日腦細胞型日本腦炎活性減毒疫苗（日本腦炎疫苗_禦日腦活性減毒疫苗Imojev(賽諾菲)_TFDA_2023-09-19.pdf，12 頁；掃描 2026-09-13）
+## S41 Imojev 禦日腦細胞型日本腦炎活性減毒疫苗（日本腦炎疫苗_禦日腦活性減毒疫苗Imojev(賽諾菲)_TFDA_2023-09-19.pdf，12 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -152,15 +228,25 @@
 ### peg_polysorbate：0 命中
 ### formaldehyde：0 命中
 
-## S43 Fluarix Tetra 伏適流四價流感疫苗（流感疫苗_伏適流四價流感疫苗FluarixTetra(GSK)_TFDA_2022-09-02.pdf，11 頁；掃描 2026-09-13）
+## S42 Varivax 伏痘敏活性水痘疫苗（S42_Varivax_TFDA仿單全文_網頁列印_2026-09-16.pdf，19 頁；掃描 2026-09-16）
+### egg：0 命中
+### other_antibiotics：1 命中（分片已判為假陽性：全文掃描1個「抗菌劑」命中：p.4 為調製方式警語，要求注射/稀釋用『針筒』本身不得含防腐劑、抗菌劑、清潔劑（避免器材殘留物使疫苗失效），與疫苗本身成分或製程殘留無關）
+- p.4「抗菌劑」…的澄清液體。3.2調製方式注意:用於注射和/或稀釋疫苗的針筒應不含任何的防腐劑、抗菌劑和清潔劑以防止疫苗的活性降低。因所附的稀釋液不含防腐劑或其他可能會不活化疫苗病毒…
+### yeast：0 命中
+### latex：0 命中
+### peg_polysorbate：0 命中
+### formaldehyde：0 命中
+### aluminium：0 命中
+
+## S43 Fluarix Tetra 伏適流四價流感疫苗（S43_FluarixTetra_TFDA仿單全文_網頁列印_2026-09-16.pdf，16 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### yeast：0 命中
-### latex：0 命中
 ### thimerosal：0 命中
-### aluminium：0 命中
+### aluminium：1 命中（分片已判為假陽性：掃描命中的「佐劑」句出自 7.交互作用段落，講的是與另一支『含佐劑之帶狀疱疹疫苗』(Shingrix) 同時接種，並非 Fluarix Tetra 本身含鋁佐劑；全文未見 Fluarix Tetra 本身佐劑或鋁的敘述）
+- p.5「佐劑」…接種FluarixTetra之50歲以上成人,可同時接種肺炎鏈球菌多醣體疫苗或含佐劑之帶狀疱疹疫苗,如欣剋疹帶狀疱疹疫苗(Shingrix);FluarixTetr…
 
-## S44 AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗（流感疫苗_安定伏裂解型四價流感疫苗AdimFlu-S(QIS)(國光生技)_TFDA_2021-09-07.pdf，2 頁；掃描 2026-09-13）
+## S44 AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗（S44_AdimFlu-S-QIS_TFDA仿單全文_網頁列印_2026-09-16.pdf，11 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### other_antibiotics：0 命中
@@ -169,7 +255,7 @@
 ### thimerosal：0 命中
 ### aluminium：0 命中
 
-## S45 Vaxigrip Tetra 菲流達四價流感疫苗（流感疫苗_菲流達四價流感疫苗VaxigripTetra(賽諾菲)_TFDA_2022-05-26.pdf，11 頁；掃描 2026-09-13）
+## S45 Vaxigrip Tetra 菲流達四價流感疫苗（S45_VaxigripTetra_TFDA仿單全文_網頁列印_2026-09-16.pdf，17 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### other_antibiotics：0 命中
 ### yeast：0 命中
@@ -178,7 +264,7 @@
 ### thimerosal：0 命中
 ### aluminium：0 命中
 
-## S46 Bexsero B 型腦膜炎雙球菌疫苗（腦膜炎雙球菌疫苗_Bexsero_TFDA_2021-06-01.pdf，20 頁；掃描 2026-09-13）
+## S46 Bexsero B 型腦膜炎雙球菌疫苗（S46_Bexsero_TFDA仿單全文_網頁列印_2026-09-16.pdf，28 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -187,8 +273,9 @@
 ### formaldehyde：0 命中
 ### thimerosal：0 命中
 
-## S48 RotaTeq(輪達停)（輪狀病毒疫苗_RotaTeq_TFDA_2020-09-18.pdf，13 頁；掃描 2026-09-13）
-### egg：0 命中（分片已判為假陽性：命中「hen」＝參考文獻作者姓 Chen）
+## S48 RotaTeq(輪達停)（S48_RotaTeq_TFDA仿單全文_網頁列印_2026-09-16.pdf，23 頁；掃描 2026-09-16）
+### egg：1 命中（分片已判為假陽性：命中 p.3「蛋」＝表1病毒外鞘蛋白/外表蛋白(VP7外鞘蛋白)描述中的「蛋白」字樣，非蛋類過敏原；本版未出現舊版曾見的「hen」／作者姓 Chen 假陽性（\bhen\b 有字界不會誤中 Chen））
+- p.3「蛋」…蛋白(血清型G6)(參見表1)。表1基因人類輪狀病毒母牛輪狀病毒基因重組株的外表蛋最低劑量濃重組株及其外表蛋白母株及其外白組成(粗體字為人類度株名組成表蛋白組成輪…
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### other_antibiotics：0 命中
@@ -196,7 +283,7 @@
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S58 Shingrix (Zoster Vaccine Recombinant, Adjuvanted)（帶狀疱疹_Shingrix_FDA_2026-02.pdf，27 頁；掃描 2026-09-13）
+## S58 Shingrix (Zoster Vaccine Recombinant, Adjuvanted)（帶狀疱疹_Shingrix_FDA_2026-02.pdf，27 頁；掃描 2026-09-16）
 ### egg：6 命中（分片已判為假陽性：命中皆為 chickenpox／hen(when/then 字尾) 子字串，非蛋成分提及；Shingrix gE 抗原為 CHO 細胞培養，仿單未提蛋）
 - p.2「chick」…vention of primary varicella infection⏎(chickenpox).⏎⏎-------------------------------…
 - p.2「chick」…orpreventionofprimaryvaricellainfection(chickenpox).-------------------------------AD…
@@ -229,14 +316,14 @@
 - p.26「Adjuvant」…on⏎Lyophilized gE Antigen Component and Adjuvant Suspension Component vials:⏎•⏎⏎Store re…
 - p.26「Adjuvant」…tionforSHINGRIXComponentsCartonNDCNumberAdjuvantSuspensionComponent(liquid)LyophilizedgE…
 
-## S59 VAQTA (Hepatitis A Vaccine, Inactivated)（A型肝炎_VAQTA_FDA_2020-10.pdf，18 頁；掃描 2026-09-13）
+## S59 VAQTA (Hepatitis A Vaccine, Inactivated)（A型肝炎_VAQTA_FDA_2020-10.pdf，18 頁；掃描 2026-09-16）
 ### egg：0 命中（分片已判為假陽性：命中詞皆為 when/then 字尾（如 administered/given/differences between）子字串，非蛋成分提及；VAQTA 為 MRC-5 人類二倍體纖維母細胞培養，仿單未提蛋）
 ### gelatin：0 命中
 ### other_antibiotics：0 命中
 ### yeast：0 命中
 ### peg_polysorbate：0 命中（分片已判為假陽性：命中詞皆為 between 字尾子字串，非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG）
 
-## S60 Engerix-B (Hepatitis B Vaccine Recombinant)（B型肝炎_Engerix-B_FDA_2026-05.pdf，14 頁；掃描 2026-09-13）
+## S60 Engerix-B (Hepatitis B Vaccine Recombinant)（B型肝炎_Engerix-B_FDA_2026-05.pdf，14 頁；掃描 2026-09-16）
 ### egg：0 命中（分片已判為假陽性：命中詞皆為 when 字尾或 lichen（皮膚病 lichen planus）子字串，非蛋成分提及；ENGERIX-B 為酵母菌（Saccharomyces cerevisiae）表現系統，仿單未提蛋）
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -244,14 +331,14 @@
 ### peg_polysorbate：0 命中（分片已判為假陽性：命中詞皆為 between 字尾子字串，非 polysorbate/PEG 提及；仿單全文未提 polysorbate 80 或 PEG）
 ### formaldehyde：0 命中
 
-## S61 Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant)（人類乳突病毒_Gardasil9_FDA_2025-03.pdf，27 頁；掃描 2026-09-13）
+## S61 Gardasil 9 (Human Papillomavirus 9-valent Vaccine, Recombinant)（人類乳突病毒_Gardasil9_FDA_2025-03.pdf，27 頁；掃描 2026-09-16）
 ### egg：0 命中（分片已判為假陽性：命中詞皆為 when 字尾子字串，非蛋成分提及；Gardasil 9 為 Saccharomyces cerevisiae（酵母）表現系統，仿單未提蛋）
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### latex：0 命中
 ### formaldehyde：0 命中
 
-## S62 M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live)（麻疹腮腺炎德國麻疹_MMR-II_FDA_2025-11.pdf，12 頁；掃描 2026-09-13）
+## S62 M-M-R II (Measles, Mumps, and Rubella Virus Vaccine Live)（麻疹腮腺炎德國麻疹_MMR-II_FDA_2025-11.pdf，12 頁；掃描 2026-09-16）
 ### other_antibiotics：0 命中
 ### yeast：0 命中
 ### latex：0 命中
@@ -259,7 +346,7 @@
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S63 Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein])（肺炎鏈球菌13價_Prevnar13_FDA_2017-XX.pdf，43 頁；掃描 2026-09-13）
+## S63 Prevnar 13 (Pneumococcal 13-valent Conjugate Vaccine [Diphtheria CRM197 Protein])（肺炎鏈球菌13價_Prevnar13_FDA_2017-XX.pdf，43 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -270,7 +357,7 @@
 ### formaldehyde：0 命中
 ### thimerosal：0 命中
 
-## S64 Pneumovax 23 (Pneumococcal Vaccine Polyvalent)（肺炎鏈球菌23價_Pneumovax23_FDA_2021-04.pdf，12 頁；掃描 2026-09-13）
+## S64 Pneumovax 23 (Pneumococcal Vaccine Polyvalent)（肺炎鏈球菌23價_Pneumovax23_FDA_2021-04.pdf，12 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -294,7 +381,7 @@
 - p.9「phenol」…einisotonicsalinesolutioncontaining0.25%phenolasapreservative.Thevaccineisuseddirectly…
 ### aluminium：0 命中
 
-## S65 Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)（破傷風白喉百日咳成人_Adacel_FDA_2026-08.pdf，23 頁；掃描 2026-09-13）
+## S65 Adacel (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine Adsorbed)（破傷風白喉百日咳成人_Adacel_FDA_2026-08.pdf，23 頁；掃描 2026-09-16）
 ### egg：3 命中（分片已判為假陽性：命中詞'hen'/'embryo'皆為'when'字尾或'embryo-fetal'（動物生殖毒性研究用語），與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白）
 - p.12「embryo」…es.⏎Animal Data⏎The effect of Adacel on embryo-fetal and pre-weaning development was e…
 - p.12「embryo」…s on pregnancy,⏎parturition, lactation, embryo-fetal or pre-weaning development were o…
@@ -305,7 +392,7 @@
 ### yeast：0 命中
 ### peg_polysorbate：0 命中（分片已判為假陽性：命中詞'tween'皆為'between'字尾，與 polysorbate 80/Tween 無關，仿單全文未提 polysorbate/PEG）
 
-## S66 Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed)（破傷風白喉百日咳成人_Boostrix_FDA_2026-05.pdf，36 頁；掃描 2026-09-13）
+## S66 Boostrix (Tetanus Toxoid, Reduced Diphtheria Toxoid and Acellular Pertussis Vaccine, Adsorbed)（破傷風白喉百日咳成人_Boostrix_FDA_2026-05.pdf，36 頁；掃描 2026-09-16）
 ### egg：4 命中（分片已判為假陽性：命中詞'hen'/'embryo'皆為'when'字尾或'embryo-fetal'（動物生殖毒性研究用語），與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白）
 - p.17「embryo」…In these studies, no adverse effects on embryo-fetal⏎or pre-weaning development up to …
 - p.17「embryo」…onDay7.Inthesestudies,noadverseeffectsonembryo-fetalorpre-weaningdevelopmentuptoPostna…
@@ -316,7 +403,7 @@
 ### other_antibiotics：0 命中
 ### yeast：0 命中
 
-## S67 Fluarix Quadrivalent (Influenza Vaccine)（流感四價_FluarixQuadrivalent_FDA_2023-07.pdf，30 頁；掃描 2026-09-13）
+## S67 Fluarix Quadrivalent (Influenza Vaccine)（流感四價_FluarixQuadrivalent_FDA_2023-07.pdf，30 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### yeast：0 命中
@@ -330,7 +417,7 @@
 - p.29「Adjuvant」…ration with Zoster Vaccine⏎Recombinant, Adjuvanted (SHINGRIX)⏎In an open-label, randomiz…
 - p.29「Adjuvant」…inistrationwithZosterVaccineRecombinant,Adjuvanted(SHINGRIX)Inanopen-label,randomizedcli…
 
-## S68 Bexsero (Meningococcal Group B Vaccine)（腦膜炎球菌B_Bexsero_FDA_2024-08.pdf，16 頁；掃描 2026-09-13）
+## S68 Bexsero (Meningococcal Group B Vaccine)（腦膜炎球菌B_Bexsero_FDA_2024-08.pdf，16 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -339,7 +426,7 @@
 ### formaldehyde：0 命中
 ### thimerosal：0 命中
 
-## S69 RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent)（輪狀病毒_RotaTeq_FDA_2026-05.pdf，15 頁；掃描 2026-09-13）
+## S69 RotaTeq (Rotavirus Vaccine, Live, Oral, Pentavalent)（輪狀病毒_RotaTeq_FDA_2026-05.pdf，15 頁；掃描 2026-09-16）
 ### egg：0 命中（分片已判為假陽性：命中詞'hen'皆為'when'字尾，與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白（培養基為 Vero 細胞非雞胚））
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -348,7 +435,7 @@
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S70 Havrix (Hepatitis A Vaccine)（A型肝炎_Havrix_FDA_2026-05.pdf，14 頁；掃描 2026-09-13）
+## S70 Havrix (Hepatitis A Vaccine)（A型肝炎_Havrix_FDA_2026-05.pdf，14 頁；掃描 2026-09-16）
 ### egg：0 命中（分片已判為假陽性：命中詞'hen'皆為'when'字尾，與雞蛋/雞胚無關，仿單全文未提蛋／卵白蛋白（病毒株於 MRC-5 人類二倍體細胞繁殖））
 ### gelatin：0 命中
 ### other_antibiotics：2 命中（分片已判為假陽性：命中詞'antibiotic'出自描述 neomycin sulfate 本身（'an aminoglycoside antibiotic'），已列於 neomycin key，非額外的其他抗生素）
@@ -356,7 +443,7 @@
 - p.9「antibiotic」…ate(notmorethan40ng/mL),anaminoglycosideantibioticincludedinthecellgrowthmedia.HAVRIXisfor…
 ### yeast：0 命中
 
-## S71 Varivax (Varicella Virus Vaccine Live)（水痘_Varivax_FDA_2026-08.pdf，31 頁；掃描 2026-09-13）
+## S71 Varivax (Varicella Virus Vaccine Live)（水痘_Varivax_FDA_2026-08.pdf，31 頁；掃描 2026-09-16）
 ### egg：12 命中（分片已判為假陽性：命中皆為 'embryonic'（human embryonic lung cell cultures，非雞胚）與 'chickenpox'（水痘病名，字面命中 chick 但與蛋／雞胚無關），非蛋類過敏原）
 - p.13「embryo」…e⏎varicella, then introduced into human embryonic lung cell cultures, adapted to and⏎p…
 - p.13「embryo」… cultures, adapted to and⏎propagated in embryonic guinea pig cell cultures and finally…
@@ -377,7 +464,7 @@
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S72 Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)（腦膜炎_Menveo_FDA_2025-03.pdf，38 頁；掃描 2026-09-13）
+## S72 Menveo (Meningococcal [Groups A, C, Y, W-135] Oligosaccharide Diphtheria CRM197 Conjugate Vaccine)（腦膜炎_Menveo_FDA_2025-03.pdf，38 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -387,7 +474,7 @@
 - p.25「yeast」…aeisculturedandgrownonCYmediumcontainingyeastextractsandaminoacids.Theoligosaccharide…
 ### peg_polysorbate：0 命中
 
-## S73 Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine)（肺炎鏈球菌_Vaxneuvance_V15_FDA_2026-06.pdf，24 頁；掃描 2026-09-13）
+## S73 Vaxneuvance (Pneumococcal 15-valent Conjugate Vaccine)（肺炎鏈球菌_Vaxneuvance_V15_FDA_2026-06.pdf，24 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -397,7 +484,7 @@
 - p.17「yeast」…eumoniaeserotypeisgrowninmediacontainingyeastextract,dextrose,saltsandsoypeptone.Each…
 ### formaldehyde：0 命中
 
-## S74 Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20]（肺炎鏈球菌_Prevnar20_V20_FDA_2023-04.pdf，33 頁；掃描 2026-09-13）
+## S74 Prevnar 20 (Pneumococcal 20-valent Conjugate Vaccine) [Taiwan: Prevenar 20]（肺炎鏈球菌_Prevnar20_V20_FDA_2023-04.pdf，33 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -408,7 +495,7 @@
 ### formaldehyde：0 命中
 ### thimerosal：0 命中
 
-## S75 Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022（麻疹腮腺炎德國麻疹_Priorix_FDA_2026-03.pdf，20 頁；掃描 2026-09-13）
+## S75 Priorix (Measles, Mumps, and Rubella Vaccine, Live) - US approval 2022（麻疹腮腺炎德國麻疹_Priorix_FDA_2026-03.pdf，20 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### other_antibiotics：2 命中
 - p.13「antibiotic」…media free from antibiotics and albumin. The attenuated measles, m…
@@ -418,7 +505,7 @@
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S76 Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)（呼吸道融合病毒_Arexvy_FDA_2026-07.pdf，29 頁；掃描 2026-09-13）
+## S76 Arexvy (Respiratory Syncytial Virus Vaccine, Adjuvanted)（呼吸道融合病毒_Arexvy_FDA_2026-07.pdf，29 頁；掃描 2026-09-16）
 ### egg：2 命中（分片已判為假陽性：唯一命中為 'embryo-fetal'（動物生殖毒理學用詞，如 embryo-fetal development），與蛋／雞胚無關）
 - p.16「embryo」…no adverse effects on⏎female fertility, embryo-fetal, pre-weaning and post-natal devel…
 - p.16「embryo」…vealednoadverseeffectsonfemalefertility,embryo-fetal,pre-weaningandpost-nataldevelopme…
@@ -453,7 +540,7 @@
 - p.28「Adjuvant」… TIP-LOK syringe (Luer Lock syringe) of Adjuvant⏎Suspension Component (liquid) (packaged…
 - p.28「Adjuvant」…or AREXVY⏎Components⏎Carton NDC⏎Number⏎⏎Adjuvant Suspension⏎Component (liquid)⏎⏎Lyophili…
 
-## S77 Abrysvo (Respiratory Syncytial Virus Vaccine)（呼吸道融合病毒_Abrysvo_FDA_2025-12.pdf，30 頁；掃描 2026-09-13）
+## S77 Abrysvo (Respiratory Syncytial Virus Vaccine)（呼吸道融合病毒_Abrysvo_FDA_2025-12.pdf，30 頁；掃描 2026-09-16）
 ### egg：3 命中（分片已判為假陽性：命中皆為 'embryo-fetal'／'embryo/fetal'（動物生殖毒理學研究用詞，如 embryo-fetal developmental toxicity study），與蛋／雞胚無關）
 - p.20「embryo」…al developmental toxicity study with an embryo-fetal developmental toxicity phase was⏎…
 - p.20「embryo」…ects on mating, female fertility, or on⏎embryo/fetal or post-natal survival, growth, o…
@@ -468,21 +555,21 @@
 - p.29「Al(OH)3」…vels 120 μg and 240 μg, with or without Al(OH)3) when⏎administered concomitantly with T…
 - p.29「Al(OH)3」…(atdoselevels120μgand240μg,withorwithoutAl(OH)3)whenadministeredconcomitantlywithTdapin…
 
-## S78 Flucelvax Quadrivalent (Influenza Vaccine)（流感_FlucelvaxQuadrivalent_FDA_2026-03.pdf，21 頁；掃描 2026-09-13）
+## S78 Flucelvax Quadrivalent (Influenza Vaccine)（流感_FlucelvaxQuadrivalent_FDA_2026-03.pdf，21 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### yeast：0 命中
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S79 FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula（流感_Flucelvax_trivalent_FDA_2026-07.pdf，21 頁；掃描 2026-09-13）
+## S79 FLUCELVAX (Influenza Vaccine), trivalent, 2026-2027 Formula（流感_Flucelvax_trivalent_FDA_2026-07.pdf，21 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### yeast：0 命中
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S80 Typhim Vi (Typhoid Vi Polysaccharide Vaccine)（傷寒_TyphimVi_FDA_2026-06.pdf，19 頁；掃描 2026-09-13）
+## S80 Typhim Vi (Typhoid Vi Polysaccharide Vaccine)（傷寒_TyphimVi_FDA_2026-06.pdf，19 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### neomycin：0 命中
@@ -502,7 +589,7 @@
 - p.19「PHENOL」…DIHYDRATE(UNII:5QWK665956)0.023mgin0.5mLPHENOL(UNII:339NCG44TV)1.25mgin0.5mLWATER(UNII…
 ### aluminium：0 命中
 
-## S81 Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation（天花猴痘_Jynneos_FDA_2025-03.pdf，18 頁；掃描 2026-09-13）
+## S81 Jynneos (Smallpox and Mpox Vaccine, Live, Non-replicating) - refrigerator presentation（天花猴痘_Jynneos_FDA_2025-03.pdf，18 頁；掃描 2026-09-16）
 ### egg：6 命中（分片已判為假陽性：全文掃描『embryo/chick』6 個命中：p.11 為 8.1 Pregnancy 段落『embryo-fetal and post-natal development』生殖毒理學敘述（與雞蛋無關）；p.12 的 Chicken Embryo Fibroblast (CEF) 已判讀為 related 附於本格）
 - p.11「embryo」… in⏎pregnancy.⏎The effect of JYNNEOS on embryo-fetal and post-natal development was ev…
 - p.11「embryo」…tedrisksinpregnancy.TheeffectofJYNNEOSonembryo-fetalandpost-nataldevelopmentwasevaluat…
@@ -517,7 +604,7 @@
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S82 Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula（新冠_Spikevax_FDA_2026-08.pdf，79 頁；掃描 2026-09-13）
+## S82 Spikevax (COVID-19 Vaccine, mRNA), 2026-2027 Formula（新冠_Spikevax_FDA_2026-08.pdf，79 頁；掃描 2026-09-16）
 ### egg：2 命中（分片已判為假陽性：全文掃描『embryo』2 個命中皆為 p.50 8.1 Pregnancy 段落標題『Disease-Associated Maternal and/or Embryo/Fetal Risk』，與雞蛋成分無關）
 - p.50「Embryo」…ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant individuals infecte…
 - p.50「Embryo」…erationsDisease-AssociatedMaternaland/orEmbryo/FetalRiskPregnantindividualsinfectedwit…
@@ -528,7 +615,7 @@
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S83 mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula（新冠_mNEXSPIKE_FDA_2026-08.pdf，32 頁；掃描 2026-09-13）
+## S83 mNEXSPIKE (COVID-19 Vaccine, mRNA), 2026-2027 Formula（新冠_mNEXSPIKE_FDA_2026-08.pdf，32 頁；掃描 2026-09-16）
 ### egg：3 命中（分片已判為假陽性：全文掃描『embryo』3 個命中皆為 p.18 8.1 Pregnancy 段落（大鼠發育毒理學研究『embryo/fetus』與段落標題『Embryo/Fetal Risk』），與雞蛋成分無關）
 - p.18「embryo」…rats, as well as the development of the embryo/fetus and offspring⏎following exposure …
 - p.18「Embryo」…ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant individuals infecte…
@@ -540,7 +627,7 @@
 ### formaldehyde：0 命中
 ### aluminium：0 命中
 
-## S84 Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula（新冠_Nuvaxovid_FDA_2026-08.pdf，47 頁；掃描 2026-09-13）
+## S84 Nuvaxovid (COVID-19 Vaccine, Adjuvanted), 2026-2027 Formula（新冠_Nuvaxovid_FDA_2026-08.pdf，47 頁；掃描 2026-09-16）
 ### egg：2 命中（分片已判為假陽性：全文掃描『embryo』2 個命中皆為 p.31 8.1 Pregnancy 段落標題『Disease-Associated Maternal and/or Embryo/Fetal Risk』，與雞蛋成分無關）
 - p.31「Embryo」…ions⏎Disease-Associated Maternal and/or Embryo/Fetal Risk⏎Pregnant women infected with…
 - p.31「Embryo」…erationsDisease-AssociatedMaternaland/orEmbryo/FetalRiskPregnantwomeninfectedwithSARS-…
@@ -674,14 +761,14 @@
 - p.46「adjuvant」…to moths and butterflies) and Matrix-M® adjuvant containing saponins derived from⏎the so…
 - p.46「adjuvant」…elatedtomothsandbutterflies)andMatrix-M®adjuvantcontainingsaponinsderivedfromthesoapbark…
 
-## S85 Hexyon (Hexaxim; DTaP-IPV-HB-Hib)（六合一_Hexyon(Hexaxim)_EMA_2026-08.pdf，61 頁；掃描 2026-09-13）
+## S85 Hexyon (Hexaxim; DTaP-IPV-HB-Hib)（六合一_Hexyon(Hexaxim)_EMA_2026-08.pdf，61 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### latex：0 命中
 ### peg_polysorbate：0 命中
 ### thimerosal：0 命中
 
-## S86 Infanrix hexa (DTPa-HBV-IPV/Hib)（六合一_Infanrix-hexa_EMA_2026-02.pdf，43 頁；掃描 2026-09-13）
+## S86 Infanrix hexa (DTPa-HBV-IPV/Hib)（六合一_Infanrix-hexa_EMA_2026-02.pdf，43 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### latex：3 命中
@@ -691,7 +778,7 @@
 ### peg_polysorbate：0 命中
 ### thimerosal：0 命中
 
-## S87 Imojev (Japanese encephalitis vaccine, live, attenuated)（日本腦炎疫苗_Imojev_TGA_2023-03.pdf，21 頁；掃描 2026-09-13）
+## S87 Imojev (Japanese encephalitis vaccine, live, attenuated)（日本腦炎疫苗_Imojev_TGA_2023-03.pdf，21 頁；掃描 2026-09-16）
 ### egg：2 命中（分片已判為假陽性：p.4「embryo-foetal development」出自兔隻生殖毒性試驗段落（母兔孕期胚胎發育），與蛋／雞胚培養或卵蛋白過敏原無關，非假陽性外之真實命中）
 - p.4「embryo」…showed no adverse effects on pregnancy,⏎embryo-foetal development, parturition or post…
 - p.4「embryo」…day15,showednoadverseeffectsonpregnancy,embryo-foetaldevelopment,parturitionorpostnata…
@@ -703,7 +790,7 @@
 ### peg_polysorbate：0 命中
 ### formaldehyde：0 命中
 
-## S88 Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated)（流感疫苗_VaxigripTetra_HPRA_2025-06.pdf，17 頁；掃描 2026-09-13）
+## S88 Vaxigrip Tetra (Quadrivalent Influenza Vaccine, split virion, inactivated)（流感疫苗_VaxigripTetra_HPRA_2025-06.pdf，17 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### other_antibiotics：0 命中
 ### yeast：0 命中
@@ -718,7 +805,7 @@
 - p.10「thiomersal」…accine(SplitVirion)BP(trivalentinfluenzathiomersalfreevaccine)and4532of4868(93%)infantsbor…
 ### aluminium：0 命中
 
-## S89 Stamaril (Yellow fever vaccine, live)（黃熱病疫苗_Stamaril_MHRA_2025-01.pdf，16 頁；掃描 2026-09-13）
+## S89 Stamaril (Yellow fever vaccine, live)（黃熱病疫苗_Stamaril_MHRA_2025-01.pdf，16 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### neomycin：0 命中
 ### other_antibiotics：0 命中
@@ -730,7 +817,7 @@
 - p.14「aluminium」…opper (chlorobutyl) and a flip-off cap⏎(aluminium) + 0.5 ml of solvent in a pre-filled sy…
 - p.14「aluminium」…ithastopper(chlorobutyl)andaflip-offcap(aluminium)+0.5mlofsolventinapre-filledsyringe(typ…
 
-## S90 Verorab (Rabies vaccine, inactivated, Vero cell-derived)（狂犬病疫苗_Verorab_MHRA_2026-01.pdf，16 頁；掃描 2026-09-13）
+## S90 Verorab (Rabies vaccine, inactivated, Vero cell-derived)（狂犬病疫苗_Verorab_MHRA_2026-01.pdf，16 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### yeast：0 命中
@@ -739,7 +826,7 @@
 ### thimerosal：0 命中
 ### aluminium：0 命中
 
-## S91 Varilrix (varicella vaccine, live)（水痘疫苗_Varilrix_MHRA_2026-08.pdf，15 頁；掃描 2026-09-13）
+## S91 Varilrix (varicella vaccine, live)（水痘疫苗_Varilrix_MHRA_2026-08.pdf，15 頁；掃描 2026-09-16）
 ### egg：6 命中（分片已判為假陽性：全文掃描6個「chick」命中皆為 chickenpox（水痘疾病名）字串誤命中，與蛋／卵白蛋白無關）
 - p.4「chick」…cumented positive history of varicella (chickenpox) or⏎laboratory evidence of prior i…
 - p.4「chick」… without documented positive history of chickenpox or⏎laboratory evidence of prior in…
@@ -759,7 +846,7 @@
 ### thimerosal：0 命中
 ### aluminium：0 命中
 
-## S92 Rabipur (Rabies Vaccine Inactivated, PCECV)（狂犬病疫苗_Rabipur_MHRA_2026-05.pdf，15 頁；掃描 2026-09-13）
+## S92 Rabipur (Rabies Vaccine Inactivated, PCECV)（狂犬病疫苗_Rabipur_MHRA_2026-05.pdf，15 頁；掃描 2026-09-16）
 ### gelatin：0 命中
 ### yeast：0 命中
 ### latex：0 命中
@@ -768,7 +855,7 @@
 ### thimerosal：0 命中
 ### aluminium：0 命中
 
-## S93 Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe)（五合一_Pentaxim_HSA_2025-09.pdf，11 頁；掃描 2026-09-14）
+## S93 Pentaxim (DTaP-IPV//Hib; powder and suspension for suspension for injection in pre-filled syringe)（五合一_Pentaxim_HSA_2025-09.pdf，11 頁；掃描 2026-09-16）
 ### egg：0 命中
 ### gelatin：0 命中
 ### yeast：0 命中

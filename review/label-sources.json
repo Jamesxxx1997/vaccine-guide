@@ -2,8 +2,9 @@
  "S26": {
   "cat": "A型肝炎疫苗",
   "prod": "Havrix 1440/720 Junior 新赫寶克A型肝炎疫苗",
-  "path": "sources/仿單/A型肝炎疫苗_新赫寶克HavrixA型肝炎疫苗(GSK)_TFDA_2018-08-09.pdf",
-  "pages": "1"
+  "path": "sources/仿單/現行版_2026-09-16/S26_Havrix_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/A型肝炎疫苗_新赫寶克HavrixA型肝炎疫苗(GSK)_TFDA_2018-08-09.pdf"
  },
  "S27": {
   "cat": "A型肝炎疫苗",
@@ -26,20 +27,23 @@
  "S30": {
   "cat": "HPV疫苗",
   "prod": "Gardasil 9(嘉喜9)",
-  "path": "sources/仿單/HPV疫苗_Gardasil9_TFDA_2022-08-11.pdf",
-  "pages": "24"
+  "path": "sources/仿單/現行版_2026-09-16/S30_Gardasil9_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/HPV疫苗_Gardasil9_TFDA_2022-08-11.pdf"
  },
  "S31": {
   "cat": "MMR疫苗",
   "prod": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗注射劑",
-  "path": "sources/仿單/MMR疫苗_麻疹腮腺炎德國麻疹混合疫苗M-M-RII(默沙東)_TFDA_2022-11-22.pdf",
-  "pages": "10"
+  "path": "sources/仿單/現行版_2026-09-16/S31_MMR-II_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/MMR疫苗_麻疹腮腺炎德國麻疹混合疫苗M-M-RII(默沙東)_TFDA_2022-11-22.pdf"
  },
  "S32": {
   "cat": "PCV",
   "prod": "Prevenar 13(沛兒13價)",
-  "path": "sources/仿單/PCV_Prevenar13_TFDA_2022-10-05.pdf",
-  "pages": "35"
+  "path": "sources/仿單/現行版_2026-09-16/S32_Prevenar13_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/PCV_Prevenar13_TFDA_2022-10-05.pdf"
  },
  "S33": {
   "cat": "PPV23",
@@ -50,44 +54,51 @@
  "S34": {
   "cat": "RSV疫苗",
   "prod": "Abrysvo",
-  "path": "sources/仿單/RSV疫苗_Abrysvo_TFDA_2026-03-31_僅外盒仿單標籤粘貼表.pdf",
-  "pages": "7"
+  "path": "sources/仿單/現行版_2026-09-16/S34_Abrysvo_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/RSV疫苗_Abrysvo_TFDA_2026-03-31_僅外盒仿單標籤粘貼表.pdf"
  },
  "S35": {
   "cat": "RSV疫苗",
   "prod": "Arexvy",
-  "path": "sources/仿單/RSV疫苗_Arexvy_TFDA_2025-12-09_僅外盒仿單標籤粘貼表.pdf",
-  "pages": "3"
+  "path": "sources/仿單/現行版_2026-09-16/S35_Arexvy_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/RSV疫苗_Arexvy_TFDA_2025-12-09_僅外盒仿單標籤粘貼表.pdf"
  },
  "S36": {
   "cat": "Tdap疫苗",
   "prod": "Adacel",
-  "path": "sources/仿單/Tdap疫苗_Adacel_TFDA_2021-05-25.pdf",
-  "pages": "2"
+  "path": "sources/仿單/現行版_2026-09-16/S36_Adacel_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/Tdap疫苗_Adacel_TFDA_2021-05-25.pdf"
  },
  "S37": {
   "cat": "Tdap疫苗",
   "prod": "Boostrix",
-  "path": "sources/仿單/Tdap疫苗_Boostrix_TFDA_2020-09-29.pdf",
-  "pages": "2"
+  "path": "sources/仿單/現行版_2026-09-16/S37_Boostrix_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/Tdap疫苗_Boostrix_TFDA_2020-09-29.pdf"
  },
  "S38": {
   "cat": "六合一",
   "prod": "Hexaxim(哈多星)",
-  "path": "sources/仿單/六合一_Hexaxim_TFDA_2021-12-01.pdf",
-  "pages": "13"
+  "path": "sources/仿單/現行版_2026-09-16/S38_Hexaxim_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/六合一_Hexaxim_TFDA_2021-12-01.pdf"
  },
  "S39": {
   "cat": "六合一",
   "prod": "Infanrix hexa(嬰護寧)",
-  "path": "sources/仿單/六合一_Infanrix-hexa_TFDA_2021-07-01.pdf",
-  "pages": "14"
+  "path": "sources/仿單/現行版_2026-09-16/S39_Infanrix-hexa_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/六合一_Infanrix-hexa_TFDA_2021-07-01.pdf"
  },
  "S40": {
   "cat": "卡介苗",
   "prod": "凍結乾燥卡介苗(公費BCG，疾管署委託國衛院生物製劑廠製造)",
-  "path": "sources/仿單/卡介苗_凍結乾燥卡介苗_TFDA_2021-04-22.pdf",
-  "pages": "1"
+  "path": "sources/仿單/現行版_2026-09-16/S40_BCG_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/卡介苗_凍結乾燥卡介苗_TFDA_2021-04-22.pdf"
  },
  "S41": {
   "cat": "日本腦炎疫苗(活性減毒)",
@@ -98,32 +109,37 @@
  "S42": {
   "cat": "水痘疫苗",
   "prod": "Varivax 伏痘敏活性水痘疫苗",
-  "path": "sources/仿單/水痘疫苗_伏痘敏活性水痘疫苗Varivax(默沙東)_TFDA_2020-09-14.pdf",
-  "pages": "6"
+  "path": "sources/仿單/現行版_2026-09-16/S42_Varivax_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/水痘疫苗_伏痘敏活性水痘疫苗Varivax(默沙東)_TFDA_2020-09-14.pdf"
  },
  "S43": {
   "cat": "流感疫苗(115年度公費-GSK)",
   "prod": "Fluarix Tetra 伏適流四價流感疫苗",
-  "path": "sources/仿單/流感疫苗_伏適流四價流感疫苗FluarixTetra(GSK)_TFDA_2022-09-02.pdf",
-  "pages": "11"
+  "path": "sources/仿單/現行版_2026-09-16/S43_FluarixTetra_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/流感疫苗_伏適流四價流感疫苗FluarixTetra(GSK)_TFDA_2022-09-02.pdf"
  },
  "S44": {
   "cat": "流感疫苗(115年度公費-國光生技,四價版)",
   "prod": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗",
-  "path": "sources/仿單/流感疫苗_安定伏裂解型四價流感疫苗AdimFlu-S(QIS)(國光生技)_TFDA_2021-09-07.pdf",
-  "pages": "2"
+  "path": "sources/仿單/現行版_2026-09-16/S44_AdimFlu-S-QIS_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/流感疫苗_安定伏裂解型四價流感疫苗AdimFlu-S(QIS)(國光生技)_TFDA_2021-09-07.pdf"
  },
  "S45": {
   "cat": "流感疫苗(115年度公費四價-賽諾菲)",
   "prod": "Vaxigrip Tetra 菲流達四價流感疫苗",
-  "path": "sources/仿單/流感疫苗_菲流達四價流感疫苗VaxigripTetra(賽諾菲)_TFDA_2022-05-26.pdf",
-  "pages": "11"
+  "path": "sources/仿單/現行版_2026-09-16/S45_VaxigripTetra_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/流感疫苗_菲流達四價流感疫苗VaxigripTetra(賽諾菲)_TFDA_2022-05-26.pdf"
  },
  "S46": {
   "cat": "腦膜炎雙球菌疫苗",
   "prod": "Bexsero",
-  "path": "sources/仿單/腦膜炎雙球菌疫苗_Bexsero_TFDA_2021-06-01.pdf",
-  "pages": "20"
+  "path": "sources/仿單/現行版_2026-09-16/S46_Bexsero_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/腦膜炎雙球菌疫苗_Bexsero_TFDA_2021-06-01.pdf"
  },
  "S47": {
   "cat": "腦膜炎雙球菌疫苗",
@@ -134,8 +150,9 @@
  "S48": {
   "cat": "輪狀病毒疫苗",
   "prod": "RotaTeq(輪達停)",
-  "path": "sources/仿單/輪狀病毒疫苗_RotaTeq_TFDA_2020-09-18.pdf",
-  "pages": "13"
+  "path": "sources/仿單/現行版_2026-09-16/S48_RotaTeq_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "prevPath": "sources/仿單/輪狀病毒疫苗_RotaTeq_TFDA_2020-09-18.pdf"
  },
  "S49": {
   "cat": "過敏指引",
@@ -168,10 +185,11 @@
   "pages": "2"
  },
  "S54": {
-  "cat": "過敏指引",
-  "prod": "疾管署_COVID19疫苗接種場所嚴重過敏反應處置建議_2021.pdf",
+  "cat": "guideline",
+  "prod": "COVID-19疫苗接種場所嚴重過敏反應處置建議（本站既有檔案，未重抓）",
   "path": "sources/過敏指引/疾管署_COVID19疫苗接種場所嚴重過敏反應處置建議_2021.pdf",
-  "pages": "3"
+  "pages": "claims",
+  "agency": "疾管署"
  },
  "S55": {
   "cat": "過敏指引",
@@ -436,5 +454,439 @@
   "path": "sources/國際仿單/五合一_Pentaxim_HSA_2025-09.pdf",
   "pages": "claims",
   "agency": "HSA"
+ },
+ "S94": {
+  "cat": "label",
+  "prod": "克流感膠囊75毫克 Tamiflu Capsules 75mg（羅氏）",
+  "path": "sources/流感/克流感膠囊75毫克_Tamiflu_TFDA_2023-10-06.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S95": {
+  "cat": "label",
+  "prod": "\"永信\"易剋冒膠囊75毫克 Eraflu Capsule 75mg \"Yung Shin\"（公費採購學名藥）",
+  "path": "sources/流感/易剋冒膠囊75毫克_Eraflu_TFDA_2025-08-11.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S96": {
+  "cat": "label",
+  "prod": "瑞樂沙旋達碟 Relenza Rotadisks（GSK）",
+  "path": "sources/流感/瑞樂沙旋達碟_Relenza_TFDA_2018-10-12.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S97": {
+  "cat": "label",
+  "prod": "瑞貝塔點滴靜脈注射液 Rapiacta for Intravenous Drip Infusion 300mg（塩野義）",
+  "path": "sources/流感/瑞貝塔點滴靜脈注射液_Rapiacta_TFDA_2025-03.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S98": {
+  "cat": "label",
+  "prod": "紓伏效膜衣錠20毫克 Xofluza Tablets 20mg（塩野義）",
+  "path": "sources/流感/紓伏效膜衣錠20毫克_Xofluza_TFDA_2020-11-25.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S99": {
+  "cat": "guideline",
+  "prod": "季節性流感防治工作手冊（2026年3月版，含2026.03.13新A採檢補充修正）",
+  "path": "sources/流感/季節性流感防治工作手冊_2026年3月版.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S100": {
+  "cat": "guideline",
+  "prod": "流感併發重症 傳染病病例定義及檢體送驗（通報定義）",
+  "path": "sources/流感/流感併發重症_通報病例定義.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S101": {
+  "cat": "guideline",
+  "prod": "公費流感抗病毒藥劑使用對象一覽表（自115年8月24日起，擴大使用對象至9月30日止）",
+  "path": "sources/流感/公費流感抗病毒藥劑使用對象一覽表_自115年8月24日起.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S102": {
+  "cat": "guideline",
+  "prod": "醫療照護機構季節性流感感染管制措施指引",
+  "path": "sources/流感/醫療照護機構季節性流感感染管制措施指引_20170615.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S103": {
+  "cat": "guideline",
+  "prod": "長期照護機構季節性流感(Seasonal Influenza)感染管制措施指引",
+  "path": "sources/流感/長期照護機構季節性流感感染管制措施指引_1061013.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S104": {
+  "cat": "web-print",
+  "prod": "疾病介紹－流感（潛伏期、可傳染期、感受性及免疫力、臨床症狀）",
+  "path": "sources/流感/疾病介紹_流感_網頁列印.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S105": {
+  "cat": "guideline",
+  "prod": "學校/幼兒園/補習班/兒童課後照顧服務班與中心流感群聚防治指引",
+  "path": "sources/流感/學校幼兒園補習班流感群聚防治指引_108.2.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S106": {
+  "cat": "guideline",
+  "prod": "115年度（2026-27流感季）流感疫苗接種計畫－全文",
+  "path": "sources/流感/115年度流感疫苗接種計畫_全文.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S107": {
+  "cat": "guideline",
+  "prod": "115年度流感疫苗政策綜論",
+  "path": "sources/流感/115年度流感疫苗政策綜論.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S108": {
+  "cat": "web-print",
+  "prod": "Q&A－季節性流感防治",
+  "path": "sources/流感/QA_季節性流感防治.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S109": {
+  "cat": "web-print",
+  "prod": "Q&A－流感抗病毒藥劑",
+  "path": "sources/流感/QA_流感抗病毒藥劑.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S110": {
+  "cat": "web-print",
+  "prod": "瑞樂沙 Relenza 旋達碟 — TFDA 藥品仿單查詢平台頁面全文（全部展開後列印）",
+  "path": "sources/流感/瑞樂沙旋達碟_Relenza_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S111": {
+  "cat": "web-print",
+  "prod": "紓伏效 Xofluza 膜衣錠 20 毫克 — TFDA 仿單查詢頁全文（第 3 版，仿單更新時間 113/04/12）",
+  "path": "sources/流感/紓伏效膜衣錠20毫克_Xofluza_TFDA仿單全文第3版_2024-04-12_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S112": {
+  "cat": "web-print",
+  "prod": "克流感 Tamiflu 膠囊 75 毫克 — TFDA 仿單查詢頁全文",
+  "path": "sources/流感/克流感膠囊75毫克_Tamiflu_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S113": {
+  "cat": "label",
+  "prod": "克流感膠囊 75 毫克（法國廠）Tamiflu Capsules 75 mg — TFDA 匯出 PDF（版本日期 2024-10-11）",
+  "path": "sources/流感/克流感膠囊75毫克_法國廠_Tamiflu_衛署藥輸字第025285號_TFDA匯出_版本2024-10-11.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S114": {
+  "cat": "guideline",
+  "prod": "Influenza Antiviral Medications: Summary for Clinicians",
+  "path": "sources/流感/CDC流感抗病毒藥物摘要_SummaryForClinicians_2025-26.pdf",
+  "pages": "claims",
+  "agency": "CDC"
+ },
+ "S115": {
+  "cat": "guideline",
+  "prod": "Infection Control in Healthcare Personnel: Viral Respiratory Infections Supplement",
+  "path": "sources/流感/CDC_HCP感染管制_Viral_Respiratory_Infections_Supplement_2026.pdf",
+  "pages": "claims",
+  "agency": "CDC/HICPAC"
+ },
+ "S116": {
+  "cat": "guideline",
+  "prod": "Infection Control in Healthcare Personnel: Epidemiology and Control of Selected Infections Transmitted Among Healthcare Personnel and Patients (main document)",
+  "path": "sources/流感/CDC_HCP感染管制_主要指引_呼吸道病毒工作限制_2026.pdf",
+  "pages": "claims",
+  "agency": "CDC/HICPAC"
+ },
+ "S117": {
+  "cat": "web-print",
+  "prod": "Preventing Spread of Respiratory Viruses When You're Sick",
+  "path": "sources/流感/CDC_生病時預防呼吸道病毒傳播_Precautions_When_Sick.pdf",
+  "pages": "claims",
+  "agency": "CDC"
+ },
+ "S118": {
+  "cat": "guideline",
+  "prod": "Infection Prevention and Control Strategies for Seasonal Influenza in Healthcare Settings",
+  "path": "sources/流感/CDC_住院流感感染管制_Droplet_Precautions.pdf",
+  "pages": "claims",
+  "agency": "CDC"
+ },
+ "S119": {
+  "cat": "guideline",
+  "prod": "Information for Clinicians on Rapid Diagnostic Testing for Influenza",
+  "path": "sources/流感/CDC快速診斷檢測臨床指引_RapidDiagnosticTesting.pdf",
+  "pages": "claims",
+  "agency": "CDC"
+ },
+ "S120": {
+  "cat": "guideline",
+  "prod": "Information on Rapid Molecular Assays, RT-PCR, and other Molecular Assays for Diagnosis of Influenza Virus Infection",
+  "path": "sources/流感/CDC分子檢測RT-PCR臨床指引_MolecularAssays.pdf",
+  "pages": "claims",
+  "agency": "CDC"
+ },
+ "S121": {
+  "cat": "web-print",
+  "prod": "About Influenza (Key Points: contagious period, incubation period)",
+  "path": "sources/流感/CDC_流感傳染期與潛伏期_KeyFacts.pdf",
+  "pages": "claims",
+  "agency": "CDC"
+ },
+ "S122": {
+  "cat": "guideline",
+  "prod": "Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenzaa",
+  "path": "sources/流感/IDSA流感臨床指引_2018_UyekiCID2019.pdf",
+  "pages": "claims",
+  "agency": "IDSA / Oxford University Press (Clinical Infectious Diseases)"
+ },
+ "S123": {
+  "cat": "paper",
+  "prod": "Antivirals for treatment of severe influenza: a systematic review and network meta-analysis of randomised controlled trials",
+  "path": "sources/流感/Gao2024重症流感抗病毒NMA_Lancet.pdf",
+  "pages": "claims",
+  "agency": "The Lancet"
+ },
+ "S124": {
+  "cat": "guideline",
+  "prod": "Clinical practice guidelines for influenza",
+  "path": "sources/流感/WHO_流感臨床實務指引_ClinicalPracticeGuidelinesInfluenza_2024.pdf",
+  "pages": "claims",
+  "agency": "WHO"
+ },
+ "S125": {
+  "cat": "guideline",
+  "prod": "Report on the Deliberation Results — Avigan Tablet 200mg (favipiravir) [Review Report]",
+  "path": "sources/流感/PMDA_Avigan_favipiravir_審查報告_英文_2014-03.pdf",
+  "pages": "claims",
+  "agency": "PMDA (Japan Pharmaceuticals and Medical Devices Agency)"
+ },
+ "S126": {
+  "cat": "web-print",
+  "prod": "Antivirals for post-exposure prophylaxis of influenza: a systematic review and network meta-analysis（Lancet 2024;404:764–772，開放取用全文頁面列印）",
+  "path": "sources/流感/Lancet2024_暴露後預防抗病毒NMA_開放取用全文_網頁列印_2026-09-16.pdf",
+  "pages": "claims",
+  "agency": "Lancet"
+ },
+ "S127": {
+  "cat": "web-print",
+  "prod": "公費流感疫苗接種計畫（Q&A頁，含115年度實施對象／開打時程／採購廠牌）",
+  "path": "sources/流感/疫苗銜接/疾管署_公費流感疫苗接種計畫_QA.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S128": {
+  "cat": "guideline",
+  "prod": "115年度流感疫苗接種計畫附件1－高風險慢性病人疾病代碼一覽表",
+  "path": "sources/流感/疫苗銜接/疾管署_115年度流感疫苗接種計畫附件1_高風險慢性病人疾病代碼一覽表.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S129": {
+  "cat": "web-print",
+  "prod": "疫苗有效性與安全性 Q&A（保護力產生時間／持續時間／VE範圍／打了還會不會得流感）",
+  "path": "sources/流感/疫苗銜接/疾管署_疫苗有效性與安全性_QA.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S130": {
+  "cat": "web-print",
+  "prod": "幼兒篇 Q&A（含未滿9歲首次接種兩劑規則、間隔4週）",
+  "path": "sources/流感/疫苗銜接/疾管署_幼兒篇_QA.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S131": {
+  "cat": "web-print",
+  "prod": "長者篇 Q&A（加強型疫苗：佐劑50歲以上／高劑量65歲以上）",
+  "path": "sources/流感/疫苗銜接/疾管署_長者篇_QA.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S132": {
+  "cat": "label",
+  "prod": "輔流禦流感疫苗（FLUAD）中文仿單全文（TFDA查詢頁）",
+  "path": "sources/流感/疫苗銜接/輔流禦流感疫苗_Fluad_TFDA查詢頁_2025-01-10.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S133": {
+  "cat": "label",
+  "prod": "菲優達高劑量三價流感疫苗（Efluelda）中文仿單全文（TFDA查詢頁）",
+  "path": "sources/流感/疫苗銜接/菲優達高劑量三價流感疫苗_Efluelda_TFDA查詢頁_2025-08-06.pdf",
+  "pages": "claims",
+  "agency": "TFDA"
+ },
+ "S134": {
+  "cat": "guideline",
+  "prod": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of ACIP — United States, 2025–26 Influenza Season",
+  "path": "sources/流感/疫苗銜接/CDC_ACIP_流感疫苗建議_2025-26季_MMWR_mm7432a2.pdf",
+  "pages": "claims",
+  "agency": "ACIP"
+ },
+ "S135": {
+  "cat": "guideline",
+  "prod": "Vaccines against influenza: WHO position paper – May 2022（含Duration of protection and repeat vaccination章節）",
+  "path": "sources/流感/疫苗銜接/WHO_流感疫苗立場文件_WER_2022_vol97_no19.pdf",
+  "pages": "claims",
+  "agency": "WHO"
+ },
+ "S136": {
+  "cat": "web-print",
+  "prod": "115年秋冬公費首度導入加強型流感及新世代新冠疫苗（新聞稿，含705萬150劑採購量細節）",
+  "path": "sources/流感/疫苗銜接/衛福部_115年秋冬公費流感疫苗新聞稿.pdf",
+  "pages": "claims",
+  "agency": "衛福部"
+ },
+ "S137": {
+  "cat": "ifu",
+  "prod": "Vstrip Flu A&B Rapid Test（寶齡富錦／飛確）（寶齡富錦生技股份有限公司 (Panion & BF Biotech / PBF)）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/Vstrip_FluAB_IFU_中文.pdf",
+  "pages": "claims",
+  "agency": "寶齡富錦生技股份有限公司 (Panion & BF Biotech / PBF)"
+ },
+ "S138": {
+  "cat": "ifu",
+  "prod": "BD Veritor System for Rapid Detection of Flu A+B（Becton, Dickinson and Company (BD)；台灣代理：新加坡商必帝股份有限公司台灣分公司）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/BDVeritor_FluAB_510k_K180438_FDA.pdf",
+  "pages": "claims",
+  "agency": "Becton, Dickinson and Company (BD)；台灣代理：新加坡商必帝股份有限公司台灣分公司"
+ },
+ "S139": {
+  "cat": "ifu",
+  "prod": "Sofia / Sofia 2 Influenza A+B FIA（Quidel）（Quidel Corporation（現 QuidelOrtho））— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/Sofia2_InfluenzaAB_510k_K162438_FDA.pdf",
+  "pages": "claims",
+  "agency": "Quidel Corporation（現 QuidelOrtho）"
+ },
+ "S140": {
+  "cat": "ifu",
+  "prod": "BinaxNOW Influenza A & B Card 2（含 Alere/DIGIVAL Reader 選配）（Abbott (原 Alere Scarborough, Inc.)）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/BinaxNOW_FluAB_Card2_IFU_Abbott.pdf",
+  "pages": "claims",
+  "agency": "Abbott (原 Alere Scarborough, Inc.)"
+ },
+ "S141": {
+  "cat": "ifu",
+  "prod": "cobas Liat Influenza A/B（及 cobas SARS-CoV-2 & Influenza A/B）（Roche Molecular Diagnostics）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/cobasLiat_InfluenzaAB_CLIA_CW220014_FDA.pdf",
+  "pages": "claims",
+  "agency": "Roche Molecular Diagnostics"
+ },
+ "S142": {
+  "cat": "ifu",
+  "prod": "ID NOW Influenza A & B 2（Abbott Diagnostics Scarborough, Inc.）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/IDNOW_FluAB2_ProductSheet_Abbott.pdf",
+  "pages": "claims",
+  "agency": "Abbott Diagnostics Scarborough, Inc."
+ },
+ "S143": {
+  "cat": "ifu",
+  "prod": "Xpert Xpress Flu/RSV（及 Xpert Xpress CoV-2/Flu/RSV plus）（Cepheid）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/XpertXpress_FluRSV_IFU_Cepheid.pdf",
+  "pages": "claims",
+  "agency": "Cepheid"
+ },
+ "S144": {
+  "cat": "ifu",
+  "prod": "BioFire FilmArray Respiratory Panel（RP／RP2／RP2.1，含Pneumonia Panel）（BioFire Diagnostics, LLC (bioMérieux)）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/FilmArrayRP2_510k_K170604_FDA.pdf",
+  "pages": "claims",
+  "agency": "BioFire Diagnostics, LLC (bioMérieux)"
+ },
+ "S145": {
+  "cat": "ifu",
+  "prod": "疾管署Sofia FIA台灣本土效能評估研究（2014年）（衛生福利部疾病管制署研究檢驗及疫苗研製中心）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/CDC_TW_Sofia流感快篩效能評估_2014.pdf",
+  "pages": "claims",
+  "agency": "衛生福利部疾病管制署研究檢驗及疫苗研製中心"
+ },
+ "S146": {
+  "cat": "ifu",
+  "prod": "CDC Table 1: Influenza Virus Testing Methods（美國CDC方法總表）（US CDC / NCIRD）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/CDC_Table1_InfluenzaTestingMethods.pdf",
+  "pages": "claims",
+  "agency": "US CDC / NCIRD"
+ },
+ "S147": {
+  "cat": "ifu",
+  "prod": "TFDA台灣流感快篩試劑品質調查研究(Journal of Food and Drug Analysis, 2014)（衛生福利部食品藥物管理署 (TFDA Section of Biologics)）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/TFDA_流感快篩試劑品質調查.pdf",
+  "pages": "claims",
+  "agency": "衛生福利部食品藥物管理署 (TFDA Section of Biologics)"
+ },
+ "S148": {
+  "cat": "ifu",
+  "prod": "台灣感染管制學會〈呼吸道病毒感染之實驗診斷〉(表三：具台灣衛署許可證市售檢測試劑)（社團法人台灣感染管制學會 / 成大醫院病理部病毒組）— 原廠說明書／效能表",
+  "path": "sources/流感/檢驗/NICS_呼吸道病毒感染之實驗診斷.pdf",
+  "pages": "claims",
+  "agency": "社團法人台灣感染管制學會 / 成大醫院病理部病毒組"
+ },
+ "S149": {
+  "cat": "paper",
+  "prod": "Antiviral Medications for Treatment of Nonsevere Influenza: A Systematic Review and Network Meta-Analysis（Gao et al., JAMA Intern Med 2025;185:293–301）",
+  "path": "sources/流感/Gao2025非重症流感抗病毒NMA_JAMAInternMed_使用者提供.pdf",
+  "pages": "claims",
+  "agency": "JAMA Intern Med"
+ },
+ "S150": {
+  "cat": "paper",
+  "prod": "Diagnostic Accuracy of Novel and Traditional Rapid Tests for Influenza Infection Compared With RT-PCR: A Systematic Review and Meta-analysis（Merckx et al., Ann Intern Med 2017;167:394–409）",
+  "path": "sources/流感/Merckx2017_流感快篩診斷準確度_meta-analysis_AnnInternMed_使用者提供.pdf",
+  "pages": "claims",
+  "agency": "Ann Intern Med"
+ },
+ "S151": {
+  "cat": "web-print",
+  "prod": "接種注意事項（流感疫苗 Q&A）",
+  "path": "sources/流感/疫苗銜接/疾管署_流感疫苗接種注意事項QA_網頁列印.pdf",
+  "pages": "claims",
+  "agency": "疾管署"
+ },
+ "S152": {
+  "cat": "web-print",
+  "prod": "Management of Anaphylaxis at COVID-19 Vaccination Sites（美國 CDC 舊站存檔）",
+  "path": "sources/流感/疫苗銜接/CDC美國_COVID疫苗嚴重過敏反應處置_舊站存檔.pdf",
+  "pages": "claims",
+  "agency": "CDC"
+ },
+ "S153": {
+  "cat": "web-print",
+  "prod": "Flu Vaccines and People with Egg Allergies",
+  "path": "sources/流感/疫苗銜接/CDC美國_流感疫苗蛋過敏.pdf",
+  "pages": "claims",
+  "agency": "CDC"
+ },
+ "S154": {
+  "cat": "guideline",
+  "prod": "認識流感疫苗 教學手冊（防疫學苑系列031）第五章 流感疫苗安全性",
+  "path": "sources/流感/疫苗銜接/疾管署_第五章流感疫苗安全性_歷史教材.pdf",
+  "pages": "claims",
+  "agency": "疾管署（原行政院衛生署疾病管制局）"
+ },
+ "S57": {
+  "cat": "guideline",
+  "prod": "General Best Practice Guidelines for Immunization — Preventing and Managing Adverse Reactions（章節內 anaphylaxis 處置表，本站既有檔案，未重抓）",
+  "path": "sources/感染後間隔/CDC疫苗接種通則_General_Best_Practice_Guidelines_for_Immunization.pdf",
+  "pages": "claims",
+  "agency": "CDC/ACIP"
  }
 }

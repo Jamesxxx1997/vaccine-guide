@@ -4,7 +4,7 @@
   "source": "S20",
   "pdf": "sources/仿單/Shingrix_TFDA_2026-04-23.pdf",
   "pages": 16,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -232,12 +232,137 @@
    }
   }
  },
+ "S26": {
+  "product": "Havrix 新赫寶克A型肝炎疫苗",
+  "source": "S26",
+  "pdf": "sources/仿單/現行版_2026-09-16/S26_Havrix_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 12,
+  "date": "2026-09-16",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 6,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": "價,因此可能須接種額外的劑量。Havrix含微量新黴素,因此將本疫苗使用於對此類抗生素過敏者,應格外小心。如同其他注射型疫苗,宜隨時準備好適當的醫藥處理並加以監視,以"
+     }
+    ],
+    "dismissed": "p.6「此類抗生素過敏者」的「此類抗生素」回指前一句的新黴素（neomycin），非指其他抗生素（kanamycin/polymyxin/gentamicin等），已計入 neomycin 的警語段"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
  "S27": {
   "product": "VAQTA 唯德不活化A型肝炎疫苗",
   "source": "S27",
   "pdf": "sources/仿單/A型肝炎疫苗_唯德不活化A型肝炎疫苗VAQTA(默沙東)_TFDA_2023-03-22.pdf",
   "pages": 16,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -365,7 +490,7 @@
   "source": "S28",
   "pdf": "sources/仿單/B肝_Engerix-B_TFDA_2022-05-05.pdf",
   "pages": 1,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -494,7 +619,7 @@
   "source": "S29",
   "pdf": "sources/仿單/DTaP-IPV疫苗_Tetraxim_TFDA_2016-02-19_許可證已註銷仍為現行專案進口品項仿單.pdf",
   "pages": 2,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "thimerosal": {
     "patterns": [
@@ -619,11 +744,11 @@
   }
  },
  "S30": {
-  "product": "Gardasil 9 嘉喜9",
+  "product": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9）",
   "source": "S30",
-  "pdf": "sources/仿單/HPV疫苗_Gardasil9_TFDA_2022-08-11.pdf",
-  "pages": 24,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S30_Gardasil9_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 43,
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -689,9 +814,9 @@
  "S31": {
   "product": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗",
   "source": "S31",
-  "pdf": "sources/仿單/MMR疫苗_麻疹腮腺炎德國麻疹混合疫苗M-M-RII(默沙東)_TFDA_2022-11-22.pdf",
-  "pages": 10,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S31_MMR-II_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 15,
+  "date": "2026-09-16",
   "cells": {
    "other_antibiotics": {
     "patterns": [
@@ -741,7 +866,32 @@
      "latex",
      "rubber"
     ],
-    "hits": [],
+    "hits": [
+     {
+      "page": 1,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": "on flange with B2-0⏎4 coatingBromobutyl rubber⏎瓶塞之玻璃小瓶裝⏎附安全針頭與小瓶轉接頭及溶劑⏎(2⏎ml prefilled"
+     },
+     {
+      "page": 1,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": "uroteconflangewithB2-04coatingBromobutylrubber瓶塞之玻璃小瓶裝附安全針頭與小瓶轉接頭及溶劑(2mlprefilledsyrin"
+     },
+     {
+      "page": 2,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": "附安全針頭與小瓶轉接頭及溶劑⏎(2⏎ml prefilled syringe)⏎rubber⏎⏎主製造廠⏎⏎製造廠名稱⏎製造廠地址⏎⏎MERCK SHARP & DOHME"
+     },
+     {
+      "page": 2,
+      "term": "rubber",
+      "pattern": "rubber",
+      "context": "玻璃小瓶裝附安全針頭與小瓶轉接頭及溶劑(2mlprefilledsyringe)rubber主製造廠製造廠名稱製造廠地址MERCKSHARP&DOHMELLC5325OLD"
+     }
+    ],
     "dismissed": null
    },
    "peg_polysorbate": {
@@ -773,6 +923,52 @@
     "hits": [],
     "dismissed": null
    },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 3,
+      "term": "Phenol",
+      "pattern": "phenol",
+      "context": "odium L-Glutamate Monohydrate、⏎Neomycin、Phenol Red、Potassium Phosphate Dibasic (Anhydr"
+     },
+     {
+      "page": 3,
+      "term": "Phenol",
+      "pattern": "phenol",
+      "context": "nosodiumL-GlutamateMonohydrate、Neomycin、PhenolRed、PotassiumPhosphateDibasic(Anhydrous)"
+     },
+     {
+      "page": 4,
+      "term": "防腐劑",
+      "pattern": "防腐劑",
+      "context": "位置是上臂的外側。3.2調製方式注意:稀釋及注射此疫苗時所使用的無菌注射器須不含防腐劑、消毒劑及清潔劑。因為這些物質會使此活性病毒疫苗失去活性。稀釋時,只使用與疫苗同"
+     },
+     {
+      "page": 4,
+      "term": "防腐劑",
+      "pattern": "防腐劑",
+      "context": "些物質會使此活性病毒疫苗失去活性。稀釋時,只使用與疫苗同時提供的稀釋液。因其不含防腐劑及其它會使疫苗失去活性的物質。在溶液及容器合適的情況下,任何注射劑在使用前皆須目"
+     }
+    ],
+    "dismissed": "p.3「Phenol」命中為 Phenol Red（賦形劑表內的pH指示劑，非硫柳汞/防腐劑）之子字串，非硫柳汞相關；防腐劑相關命中已改列 related"
+   },
    "aluminium": {
     "patterns": [
      "鋁",
@@ -794,11 +990,11 @@
   }
  },
  "S32": {
-  "product": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗",
+  "product": "沛兒肺炎鏈球菌十三價結合型疫苗",
   "source": "S32",
-  "pdf": "sources/仿單/PCV_Prevenar13_TFDA_2022-10-05.pdf",
-  "pages": 35,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S32_Prevenar13_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 34,
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -874,19 +1070,19 @@
     ],
     "hits": [
      {
-      "page": 24,
+      "page": 23,
       "term": "抗生素",
       "pattern": "抗生素",
       "context": "感染率相似;血清型19F的感染率則有顯著減少的現象。在此試驗中,曾經記錄到對一些抗生素為非易感性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據"
      },
      {
-      "page": 24,
+      "page": 23,
       "term": "抗生素",
       "pattern": "抗生素",
-      "context": "性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據血清型及抗生素,此減少範圍介於34%到62%之間。沛兒肺炎鏈球菌七價結合型疫苗在嬰兒與幼童的"
+      "context": "性之血清型19A、19F及6A的S.pneumoniae感染率減少。依據血清型及抗生素,此減少範圍介於34%到62%之間。沛兒肺炎鏈球菌七價結合型疫苗在嬰兒與幼童的免"
      }
     ],
-    "dismissed": "「抗生素」出現在肺炎鏈球菌抗藥性／血清型討論，非成分"
+    "dismissed": "新版全文「抗生素」僅出現在10.2節鼻咽帶菌率監視試驗討論「對一些抗生素為非易感性之血清型…S. pneumoniae感染率減少」，是肺炎鏈球菌抗藥性流行病學描述，非疫苗成分"
    },
    "yeast": {
     "patterns": [
@@ -941,7 +1137,7 @@
   "source": "S33",
   "pdf": "sources/仿單/PPV23_Pneumovax23_TFDA_2023-03-15.pdf",
   "pages": 3,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -1197,165 +1393,12 @@
    }
   }
  },
- "S36": {
-  "product": "Adacel(安打星三合一補追疫苗)",
-  "source": "S36",
-  "pdf": "sources/仿單/Tdap疫苗_Adacel_TFDA_2021-05-25.pdf",
-  "pages": 2,
-  "date": "2026-09-13",
-  "cells": {
-   "thimerosal": {
-    "patterns": [
-     "硫柳汞",
-     "汞",
-     "thimerosal",
-     "thiomersal",
-     "merthiolate",
-     "mercur",
-     "防腐劑",
-     "保存劑",
-     "preservative",
-     "phenoxyethanol",
-     "苯氧乙醇",
-     "乙基汞",
-     "ethylmercury",
-     "(?<![酚])酚(?![酞])",
-     "phenol"
-    ],
-    "hits": [
-     {
-      "page": 1,
-      "term": "phenoxyethanol",
-      "pattern": "phenoxyethanol",
-      "context": "luminium phosphate)(佐劑)⏎1.5 毫克⏎二苯氧基乙醇(2-phenoxyethanol)⏎0.6%(v/v)⏎製造過程殘留物⏎甲醛(formaldehyde)及戊二醛"
-     },
-     {
-      "page": 1,
-      "term": "phenoxyethanol",
-      "pattern": "phenoxyethanol",
-      "context": "酸鋁(aluminiumphosphate)(佐劑)1.5毫克二苯氧基乙醇(2-phenoxyethanol)0.6%(v/v)製造過程殘留物甲醛(formaldehyde)及戊二醛(gl"
-     }
-    ],
-    "dismissed": null
-   },
-   "egg": {
-    "patterns": [
-     "雞胚",
-     "雞蛋",
-     "蛋類",
-     "卵白",
-     "卵蛋白",
-     "(?<![蛋])蛋(?![白])",
-     "(?<!卵)卵(?!巢|磷脂)",
-     "禽",
-     "ovalbumin",
-     "\\begg",
-     "chick",
-     "embryo",
-     "\\bhen\\b",
-     "\\bhens\\b",
-     "avian"
-    ],
-    "hits": [],
-    "dismissed": null
-   },
-   "gelatin": {
-    "patterns": [
-     "明膠",
-     "動物膠",
-     "水解膠",
-     "膠質",
-     "吉利丁",
-     "gelatin",
-     "gelatine",
-     "hydroly[sz]ed"
-    ],
-    "hits": [],
-    "dismissed": null
-   },
-   "neomycin": {
-    "patterns": [
-     "neomycin",
-     "新黴素",
-     "紐黴素",
-     "尼奧黴素",
-     "奈歐黴素",
-     "新霉素"
-    ],
-    "hits": [],
-    "dismissed": null
-   },
-   "other_antibiotics": {
-    "patterns": [
-     "kanamycin",
-     "polymyxin",
-     "gentamicin",
-     "gentamycin",
-     "streptomycin",
-     "erythromycin",
-     "amphotericin",
-     "chlortetracycline",
-     "antibiotic",
-     "tetracycline",
-     "chloramphenicol",
-     "四環素",
-     "氯黴素",
-     "卡那黴素",
-     "多黏菌素",
-     "多粘菌素",
-     "健大黴素",
-     "慶大黴素",
-     "鏈黴素",
-     "紅黴素",
-     "抗生素",
-     "抗菌劑"
-    ],
-    "hits": [
-     {
-      "page": 2,
-      "term": "抗生素",
-      "pattern": "抗生素",
-      "context": ".U.肌肉注射。5.必要時應以擴創術清理傷口,並使用metronidazole等抗生素。應確實了解病人是否已完成基礎預防接種。若病人曾完成破傷風的基礎預防接種且其傷口"
-     }
-    ],
-    "dismissed": "傷口處置「metronidazole 等抗生素」，非疫苗成分"
-   },
-   "yeast": {
-    "patterns": [
-     "酵母",
-     "yeast",
-     "saccharomyces",
-     "pichia",
-     "hansenula",
-     "cerevisiae"
-    ],
-    "hits": [],
-    "dismissed": null
-   },
-   "peg_polysorbate": {
-    "patterns": [
-     "聚山梨",
-     "吐溫",
-     "聚乙二醇",
-     "polysorbate",
-     "\\btween\\b",
-     "\\bpeg\\b",
-     "polyethylene\\s*glycol",
-     "macrogol",
-     "polyoxyethylene",
-     "聚氧乙烯"
-    ],
-    "hits": [],
-    "dismissed": null
-   }
-  }
- },
- "S37": {
-  "product": "Boostrix",
-  "source": "S37",
-  "pdf": "sources/仿單/Tdap疫苗_Boostrix_TFDA_2020-09-29.pdf",
-  "pages": 2,
-  "date": "2026-09-13",
+ "S34": {
+  "product": "Abrysvo",
+  "source": "S34",
+  "pdf": "sources/仿單/現行版_2026-09-16/S34_Abrysvo_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 19,
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -1452,6 +1495,643 @@
      "latex",
      "rubber"
     ],
+    "hits": [
+     {
+      "page": 18,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "充填的溶劑注射器劑粉末裝在小瓶(第1型玻璃或同等產品)中,帶有塞子(合成氯化丁基橡膠)和翻蓋預充填注射器(第1型玻璃)中的1劑溶劑,帶有塞子(合成氯化丁基橡膠)和尖"
+     },
+     {
+      "page": 18,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "化丁基橡膠)和翻蓋預充填注射器(第1型玻璃)中的1劑溶劑,帶有塞子(合成氯化丁基橡膠)和尖帽(合成異戊二烯/溴化丁基共混橡膠)無菌藥瓶轉接器Abrysvo抗原藥瓶("
+     },
+     {
+      "page": 18,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "璃)中的1劑溶劑,帶有塞子(合成氯化丁基橡膠)和尖帽(合成異戊二烯/溴化丁基共混橡膠)無菌藥瓶轉接器Abrysvo抗原藥瓶(粉末)和溶劑小瓶1劑粉末裝在小瓶(第1型"
+     }
+    ],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [
+     {
+      "page": 8,
+      "term": "Al(OH)3",
+      "pattern": "al\\(oh\\)3",
+      "context": "接著在懷孕第⏎10 天和第 24 天。施用 Abrysvo 的動物(無論含或不含Al(OH)3)及其胎兒和幼⏎兔都引發了功能性抗體反應。沒有觀察到母體毒性或對交配表現、雌性生"
+     },
+     {
+      "page": 8,
+      "term": "Al(OH)3",
+      "pattern": "al\\(oh\\)3",
+      "context": "1天和7天,接著在懷孕第10天和第24天。施用Abrysvo的動物(無論含或不含Al(OH)3)及其胎兒和幼兔都引發了功能性抗體反應。沒有觀察到母體毒性或對交配表現、雌性生育"
+     },
+     {
+      "page": 9,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "16/26,12:37PM可以與季節性四價流感疫苗(QIV,表面抗原,去活化,有佐劑的)同時接種。在一項針對65歲及以上成人的隨機試驗中,同時施用組與單獨施用組相比"
+     },
+     {
+      "page": 9,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "施用組與單獨施用組相比免疫反應符合不劣性的條件。然而,當Abrysvo和去活化有佐劑的季節性流感疫苗同時施用時,觀察到的RSVA和RSVB中和效價以及A型和B型流感"
+     }
+    ],
+    "dismissed": "p.8 動物研究比較「含或不含Al(OH)3」的對照製劑非Abrysvo本身；p.9「有佐劑的」指同時接種之流感疫苗，非Abrysvo成分"
+   }
+  }
+ },
+ "S35": {
+  "product": "Arexvy",
+  "source": "S35",
+  "pdf": "sources/仿單/現行版_2026-09-16/S35_Arexvy_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 19,
+  "date": "2026-09-16",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [
+     {
+      "page": 18,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "疫反應不劣性標準。19713包裝及儲存13.1包裝1劑粉劑,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中1劑懸浮液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃"
+     },
+     {
+      "page": 18,
+      "term": "橡膠",
+      "pattern": "橡膠",
+      "context": "盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中1劑懸浮液,盛裝於附有瓶塞(丁基橡膠)的小瓶(第I型玻璃)中Arexvy有1小瓶粉劑加1小瓶懸浮液的包裝,或10小瓶"
+     }
+    ],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [
+     {
+      "page": 1,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "入,免除銜接性試驗包裝每盒一百支以下玻璃小瓶裝附等支數單劑量0.5毫升玻璃小瓶裝佐劑瓶裝佐劑仿單無紙化已採用主製造廠製造廠名稱製造廠地址GlaxoSmithKlin"
+     },
+     {
+      "page": 1,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "銜接性試驗包裝每盒一百支以下玻璃小瓶裝附等支數單劑量0.5毫升玻璃小瓶裝佐劑瓶裝佐劑仿單無紙化已採用主製造廠製造廠名稱製造廠地址GlaxoSmithKlineBio"
+     },
+     {
+      "page": 2,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "含量泡製之後,1劑(0.5毫升)含有120微克RSVPreF3抗原(使用AS01佐劑)。穩定於融合前構形(pre-fusionconformation)的呼吸道融合"
+     },
+     {
+      "page": 2,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "NA重組技術在中國倉鼠卵巢(CHO)細胞中製造而得。葛蘭素史克公司的專利AS01佐劑系統係由植物萃取物QuillajasaponariaMolina的fractio"
+     },
+     {
+      "page": 3,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "eF3抗原):二水海藻糖、聚山梨醇酯80、磷酸二氫鉀、磷酸氫二鉀懸浮液(AS01佐劑系統):二油醯基磷脂醯膽鹼、膽固醇、氯化鈉、無水磷酸氫二鈉、磷酸二氫鉀、注射用水"
+     },
+     {
+      "page": 3,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "方式製備Arexvy以兩個小瓶方式提供,在施打前必須先進行泡製。透過搭配的懸浮液佐劑成分(乳白色、無色至淡棕色的無菌液體)泡製凍乾抗原成分(無菌白色粉末)來製備Ar"
+     },
+     {
+      "page": 3,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "菌液體)泡製凍乾抗原成分(無菌白色粉末)來製備Arexvy。只能使用提供的懸浮液佐劑成分來泡製。泡製後的疫苗為乳白色、無色至淡棕色的液體。施打前應目視檢查泡製後的疫"
+     },
+     {
+      "page": 5,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "婦女使用Arexvy的臨床試驗資料。在一項臨床試驗中對3557名孕婦施打研究用無佐劑但與Arexvy同樣含有RSVPreF3抗原的疫苗後,觀察到與安慰劑組相比早產兒"
+     },
+     {
+      "page": 5,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "RSVPreF3抗原的疫苗後,觀察到與安慰劑組相比早產兒有增加的情形。目前對於無佐劑RSVPreF3疫苗施打和早產之間的關係尚未有結論。一項在雌性兔子進行的發育與生"
+     },
+     {
+      "page": 6,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": ".27交互作用與其他疫苗併用Arexvy可與去活化季節性流感疫苗(標準劑量無添加佐劑、高劑量無添加佐劑或標準劑量有添加佐劑)、帶狀疱疹疫苗(基因重組、有添加佐劑)或"
+     },
+     {
+      "page": 6,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "他疫苗併用Arexvy可與去活化季節性流感疫苗(標準劑量無添加佐劑、高劑量無添加佐劑或標準劑量有添加佐劑)、帶狀疱疹疫苗(基因重組、有添加佐劑)或肺炎鏈球菌結合型疫"
+     },
+     {
+      "page": 6,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "y可與去活化季節性流感疫苗(標準劑量無添加佐劑、高劑量無添加佐劑或標準劑量有添加佐劑)、帶狀疱疹疫苗(基因重組、有添加佐劑)或肺炎鏈球菌結合型疫苗(載體蛋白為白喉C"
+     },
+     {
+      "page": 18,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": ",並於當天同時接種或間隔1個月後分開接種去活化季節性四價流感疫苗(標準劑量無添加佐劑,成人≥60歲,N=885;高劑量無添加佐劑,成人≥65歲,N=1,029;或標"
+     },
+     {
+      "page": 18,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "化季節性四價流感疫苗(標準劑量無添加佐劑,成人≥60歲,N=885;高劑量無添加佐劑,成人≥65歲,N=1,029;或標準劑量有添加佐劑,成人≥65歲,N=1,04"
+     },
+     {
+      "page": 18,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "歲,N=885;高劑量無添加佐劑,成人≥65歲,N=1,029;或標準劑量有添加佐劑,成人≥65歲,N=1,045)。將Arexvy與標準劑量無添加佐劑的季節性流感"
+     }
+    ],
+    "dismissed": "「佐劑」命中皆為 Arexvy 自身 AS01（QS-21+MPL，已用 related 呈現）、包裝標籤「佐劑瓶裝」通用詞，或同時接種之流感/帶狀疱疹/肺炎鏈球菌疫苗的佐劑描述，非鋁鹽相關"
+   }
+  }
+ },
+ "S36": {
+  "product": "Adacel(安打星三合一補追疫苗)",
+  "source": "S36",
+  "pdf": "sources/仿單/現行版_2026-09-16/S36_Adacel_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 18,
+  "date": "2026-09-16",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 4,
+      "term": "抗生素",
+      "pattern": "抗生素",
+      "context": ".U.肌肉注射。5.必要時應以擴創術清理傷口,並使用metronidazole等抗生素。應確實了解病人是否已完成基礎預防接種。若病人曾完成破傷風的基礎預防接種且其傷口"
+     }
+    ],
+    "dismissed": "傷口處置段落提及的抗生素類（如有）非疫苗成分，屬臨床處置建議"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "thimerosal": {
+    "patterns": [
+     "硫柳汞",
+     "汞",
+     "thimerosal",
+     "thiomersal",
+     "merthiolate",
+     "mercur",
+     "防腐劑",
+     "保存劑",
+     "preservative",
+     "phenoxyethanol",
+     "苯氧乙醇",
+     "乙基汞",
+     "ethylmercury",
+     "(?<![酚])酚(?![酞])",
+     "phenol"
+    ],
+    "hits": [
+     {
+      "page": 3,
+      "term": "phenoxyethanol",
+      "pattern": "phenoxyethanol",
+      "context": "luminium phosphate)(佐劑) 1.5 毫克⏎二苯氧基乙醇(2-phenoxyethanol) 0.6%(v/v)⏎製造過程殘留物⏎甲醛(formaldehyde)及戊二醛"
+     },
+     {
+      "page": 3,
+      "term": "phenoxyethanol",
+      "pattern": "phenoxyethanol",
+      "context": "酸鋁(aluminiumphosphate)(佐劑)1.5毫克二苯氧基乙醇(2-phenoxyethanol)0.6%(v/v)製造過程殘留物甲醛(formaldehyde)及戊二醛(gl"
+     }
+    ],
+    "dismissed": null
+   }
+  }
+ },
+ "S37": {
+  "product": "Boostrix",
+  "source": "S37",
+  "pdf": "sources/仿單/現行版_2026-09-16/S37_Boostrix_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 15,
+  "date": "2026-09-16",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
     "hits": [],
     "dismissed": null
    },
@@ -1481,9 +2161,9 @@
  "S38": {
   "product": "Hexaxim(哈多星)",
   "source": "S38",
-  "pdf": "sources/仿單/六合一_Hexaxim_TFDA_2021-12-01.pdf",
-  "pages": 13,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S38_Hexaxim_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 22,
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -1573,9 +2253,9 @@
  "S39": {
   "product": "Infanrix hexa(嬰護寧)",
   "source": "S39",
-  "pdf": "sources/仿單/六合一_Infanrix-hexa_TFDA_2021-07-01.pdf",
-  "pages": 14,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S39_Infanrix-hexa_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 19,
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -1612,13 +2292,18 @@
     "hits": [],
     "dismissed": null
    },
-   "latex": {
+   "peg_polysorbate": {
     "patterns": [
-     "乳膠",
-     "膠乳",
-     "橡膠",
-     "latex",
-     "rubber"
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
     ],
     "hits": [],
     "dismissed": null
@@ -1646,12 +2331,166 @@
    }
   }
  },
+ "S40": {
+  "product": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE",
+  "source": "S40",
+  "pdf": "sources/仿單/現行版_2026-09-16/S40_BCG_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 9,
+  "date": "2026-09-16",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "gelatin": {
+    "patterns": [
+     "明膠",
+     "動物膠",
+     "水解膠",
+     "膠質",
+     "吉利丁",
+     "gelatin",
+     "gelatine",
+     "hydroly[sz]ed"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "neomycin": {
+    "patterns": [
+     "neomycin",
+     "新黴素",
+     "紐黴素",
+     "尼奧黴素",
+     "奈歐黴素",
+     "新霉素"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
  "S41": {
   "product": "Imojev 禦日腦細胞型日本腦炎活性減毒疫苗",
   "source": "S41",
   "pdf": "sources/仿單/日本腦炎疫苗_禦日腦活性減毒疫苗Imojev(賽諾菲)_TFDA_2023-09-19.pdf",
   "pages": 12,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -1801,12 +2640,147 @@
    }
   }
  },
+ "S42": {
+  "product": "Varivax 伏痘敏活性水痘疫苗",
+  "source": "S42",
+  "pdf": "sources/仿單/現行版_2026-09-16/S42_Varivax_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 19,
+  "date": "2026-09-16",
+  "cells": {
+   "egg": {
+    "patterns": [
+     "雞胚",
+     "雞蛋",
+     "蛋類",
+     "卵白",
+     "卵蛋白",
+     "(?<![蛋])蛋(?![白])",
+     "(?<!卵)卵(?!巢|磷脂)",
+     "禽",
+     "ovalbumin",
+     "\\begg",
+     "chick",
+     "embryo",
+     "\\bhen\\b",
+     "\\bhens\\b",
+     "avian"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "other_antibiotics": {
+    "patterns": [
+     "kanamycin",
+     "polymyxin",
+     "gentamicin",
+     "gentamycin",
+     "streptomycin",
+     "erythromycin",
+     "amphotericin",
+     "chlortetracycline",
+     "antibiotic",
+     "tetracycline",
+     "chloramphenicol",
+     "四環素",
+     "氯黴素",
+     "卡那黴素",
+     "多黏菌素",
+     "多粘菌素",
+     "健大黴素",
+     "慶大黴素",
+     "鏈黴素",
+     "紅黴素",
+     "抗生素",
+     "抗菌劑"
+    ],
+    "hits": [
+     {
+      "page": 4,
+      "term": "抗菌劑",
+      "pattern": "抗菌劑",
+      "context": "的澄清液體。3.2調製方式注意:用於注射和/或稀釋疫苗的針筒應不含任何的防腐劑、抗菌劑和清潔劑以防止疫苗的活性降低。因所附的稀釋液不含防腐劑或其他可能會不活化疫苗病毒"
+     }
+    ],
+    "dismissed": "全文掃描1個「抗菌劑」命中：p.4 為調製方式警語，要求注射/稀釋用『針筒』本身不得含防腐劑、抗菌劑、清潔劑（避免器材殘留物使疫苗失效），與疫苗本身成分或製程殘留無關"
+   },
+   "yeast": {
+    "patterns": [
+     "酵母",
+     "yeast",
+     "saccharomyces",
+     "pichia",
+     "hansenula",
+     "cerevisiae"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "latex": {
+    "patterns": [
+     "乳膠",
+     "膠乳",
+     "橡膠",
+     "latex",
+     "rubber"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "peg_polysorbate": {
+    "patterns": [
+     "聚山梨",
+     "吐溫",
+     "聚乙二醇",
+     "polysorbate",
+     "\\btween\\b",
+     "\\bpeg\\b",
+     "polyethylene\\s*glycol",
+     "macrogol",
+     "polyoxyethylene",
+     "聚氧乙烯"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "formaldehyde": {
+    "patterns": [
+     "甲醛",
+     "福馬林",
+     "戊二醛",
+     "formaldehyde",
+     "formalin",
+     "glutaraldehyde",
+     "formol"
+    ],
+    "hits": [],
+    "dismissed": null
+   },
+   "aluminium": {
+    "patterns": [
+     "鋁",
+     "aluminium",
+     "aluminum",
+     "\\balum\\b",
+     "alpo4",
+     "al\\(oh\\)3",
+     "aahs",
+     "佐劑",
+     "adjuvant",
+     "alhydrogel",
+     "明礬",
+     "硫酸鋁鉀"
+    ],
+    "hits": [],
+    "dismissed": null
+   }
+  }
+ },
  "S43": {
   "product": "Fluarix Tetra 伏適流四價流感疫苗",
   "source": "S43",
-  "pdf": "sources/仿單/流感疫苗_伏適流四價流感疫苗FluarixTetra(GSK)_TFDA_2022-09-02.pdf",
-  "pages": 11,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S43_FluarixTetra_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 16,
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -1842,17 +2816,6 @@
      "pichia",
      "hansenula",
      "cerevisiae"
-    ],
-    "hits": [],
-    "dismissed": null
-   },
-   "latex": {
-    "patterns": [
-     "乳膠",
-     "膠乳",
-     "橡膠",
-     "latex",
-     "rubber"
     ],
     "hits": [],
     "dismissed": null
@@ -1893,17 +2856,24 @@
      "明礬",
      "硫酸鋁鉀"
     ],
-    "hits": [],
-    "dismissed": null
+    "hits": [
+     {
+      "page": 5,
+      "term": "佐劑",
+      "pattern": "佐劑",
+      "context": "接種FluarixTetra之50歲以上成人,可同時接種肺炎鏈球菌多醣體疫苗或含佐劑之帶狀疱疹疫苗,如欣剋疹帶狀疱疹疫苗(Shingrix);FluarixTetr"
+     }
+    ],
+    "dismissed": "掃描命中的「佐劑」句出自 7.交互作用段落，講的是與另一支『含佐劑之帶狀疱疹疫苗』(Shingrix) 同時接種，並非 Fluarix Tetra 本身含鋁佐劑；全文未見 Fluarix Tetra 本身佐劑或鋁的敘述"
    }
   }
  },
  "S44": {
   "product": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗",
   "source": "S44",
-  "pdf": "sources/仿單/流感疫苗_安定伏裂解型四價流感疫苗AdimFlu-S(QIS)(國光生技)_TFDA_2021-09-07.pdf",
-  "pages": 2,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S44_AdimFlu-S-QIS_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 11,
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -2026,9 +2996,9 @@
  "S45": {
   "product": "Vaxigrip Tetra 菲流達四價流感疫苗",
   "source": "S45",
-  "pdf": "sources/仿單/流感疫苗_菲流達四價流感疫苗VaxigripTetra(賽諾菲)_TFDA_2022-05-26.pdf",
-  "pages": 11,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S45_VaxigripTetra_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 17,
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -2155,9 +3125,9 @@
  "S46": {
   "product": "Bexsero B 型腦膜炎雙球菌疫苗",
   "source": "S46",
-  "pdf": "sources/仿單/腦膜炎雙球菌疫苗_Bexsero_TFDA_2021-06-01.pdf",
-  "pages": 20,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S46_Bexsero_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 28,
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -2273,9 +3243,9 @@
  "S48": {
   "product": "RotaTeq(輪達停)",
   "source": "S48",
-  "pdf": "sources/仿單/輪狀病毒疫苗_RotaTeq_TFDA_2020-09-18.pdf",
-  "pages": 13,
-  "date": "2026-09-13",
+  "pdf": "sources/仿單/現行版_2026-09-16/S48_RotaTeq_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "pages": 23,
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -2295,8 +3265,15 @@
      "\\bhens\\b",
      "avian"
     ],
-    "hits": [],
-    "dismissed": "命中「hen」＝參考文獻作者姓 Chen"
+    "hits": [
+     {
+      "page": 3,
+      "term": "蛋",
+      "pattern": "(?<![蛋])蛋(?![白])",
+      "context": "蛋白(血清型G6)(參見表1)。表1基因人類輪狀病毒母牛輪狀病毒基因重組株的外表蛋最低劑量濃重組株及其外表蛋白母株及其外白組成(粗體字為人類度株名組成表蛋白組成輪"
+     }
+    ],
+    "dismissed": "命中 p.3「蛋」＝表1病毒外鞘蛋白/外表蛋白(VP7外鞘蛋白)描述中的「蛋白」字樣，非蛋類過敏原；本版未出現舊版曾見的「hen」／作者姓 Chen 假陽性（\\bhen\\b 有字界不會誤中 Chen）"
    },
    "gelatin": {
     "patterns": [
@@ -2402,7 +3379,7 @@
   "source": "S58",
   "pdf": "sources/國際仿單/帶狀疱疹_Shingrix_FDA_2026-02.pdf",
   "pages": 27,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -2653,7 +3630,7 @@
   "source": "S59",
   "pdf": "sources/國際仿單/A型肝炎_VAQTA_FDA_2020-10.pdf",
   "pages": 18,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -2753,7 +3730,7 @@
   "source": "S60",
   "pdf": "sources/國際仿單/B型肝炎_Engerix-B_FDA_2026-05.pdf",
   "pages": 14,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -2866,7 +3843,7 @@
   "source": "S61",
   "pdf": "sources/國際仿單/人類乳突病毒_Gardasil9_FDA_2025-03.pdf",
   "pages": 27,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -2946,7 +3923,7 @@
   "source": "S62",
   "pdf": "sources/國際仿單/麻疹腮腺炎德國麻疹_MMR-II_FDA_2025-11.pdf",
   "pages": 12,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "other_antibiotics": {
     "patterns": [
@@ -3053,7 +4030,7 @@
   "source": "S63",
   "pdf": "sources/國際仿單/肺炎鏈球菌13價_Prevnar13_FDA_2017-XX.pdf",
   "pages": 43,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -3196,7 +4173,7 @@
   "source": "S64",
   "pdf": "sources/國際仿單/肺炎鏈球菌23價_Pneumovax23_FDA_2021-04.pdf",
   "pages": 12,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -3440,7 +4417,7 @@
   "source": "S65",
   "pdf": "sources/國際仿單/破傷風白喉百日咳成人_Adacel_FDA_2026-08.pdf",
   "pages": 23,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -3571,7 +4548,7 @@
   "source": "S66",
   "pdf": "sources/國際仿單/破傷風白喉百日咳成人_Boostrix_FDA_2026-05.pdf",
   "pages": 36,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -3692,7 +4669,7 @@
   "source": "S67",
   "pdf": "sources/國際仿單/流感四價_FluarixQuadrivalent_FDA_2023-07.pdf",
   "pages": 30,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -3806,7 +4783,7 @@
   "source": "S68",
   "pdf": "sources/國際仿單/腦膜炎球菌B_Bexsero_FDA_2024-08.pdf",
   "pages": 16,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -3924,7 +4901,7 @@
   "source": "S69",
   "pdf": "sources/國際仿單/輪狀病毒_RotaTeq_FDA_2026-05.pdf",
   "pages": 15,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -4051,7 +5028,7 @@
   "source": "S70",
   "pdf": "sources/國際仿單/A型肝炎_Havrix_FDA_2026-05.pdf",
   "pages": 14,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -4148,7 +5125,7 @@
   "source": "S71",
   "pdf": "sources/國際仿單/水痘_Varivax_FDA_2026-08.pdf",
   "pages": 31,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -4349,7 +5326,7 @@
   "source": "S72",
   "pdf": "sources/國際仿單/腦膜炎_Menveo_FDA_2025-03.pdf",
   "pages": 38,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -4474,7 +5451,7 @@
   "source": "S73",
   "pdf": "sources/國際仿單/肺炎鏈球菌_Vaxneuvance_V15_FDA_2026-06.pdf",
   "pages": 24,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -4596,7 +5573,7 @@
   "source": "S74",
   "pdf": "sources/國際仿單/肺炎鏈球菌_Prevnar20_V20_FDA_2023-04.pdf",
   "pages": 33,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -4739,7 +5716,7 @@
   "source": "S75",
   "pdf": "sources/國際仿單/麻疹腮腺炎德國麻疹_Priorix_FDA_2026-03.pdf",
   "pages": 20,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -4862,7 +5839,7 @@
   "source": "S76",
   "pdf": "sources/國際仿單/呼吸道融合病毒_Arexvy_FDA_2026-07.pdf",
   "pages": 29,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -5125,7 +6102,7 @@
   "source": "S77",
   "pdf": "sources/國際仿單/呼吸道融合病毒_Abrysvo_FDA_2025-12.pdf",
   "pages": 30,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -5268,7 +6245,7 @@
   "source": "S78",
   "pdf": "sources/國際仿單/流感_FlucelvaxQuadrivalent_FDA_2026-03.pdf",
   "pages": 21,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -5346,7 +6323,7 @@
   "source": "S79",
   "pdf": "sources/國際仿單/流感_Flucelvax_trivalent_FDA_2026-07.pdf",
   "pages": 21,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -5424,7 +6401,7 @@
   "source": "S80",
   "pdf": "sources/國際仿單/傷寒_TyphimVi_FDA_2026-06.pdf",
   "pages": 19,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -5637,7 +6614,7 @@
   "source": "S81",
   "pdf": "sources/國際仿單/天花猴痘_Jynneos_FDA_2025-03.pdf",
   "pages": 18,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -5789,7 +6766,7 @@
   "source": "S82",
   "pdf": "sources/國際仿單/新冠_Spikevax_FDA_2026-08.pdf",
   "pages": 79,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -5929,7 +6906,7 @@
   "source": "S83",
   "pdf": "sources/國際仿單/新冠_mNEXSPIKE_FDA_2026-08.pdf",
   "pages": 32,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -6075,7 +7052,7 @@
   "source": "S84",
   "pdf": "sources/國際仿單/新冠_Nuvaxovid_FDA_2026-08.pdf",
   "pages": 47,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -6955,7 +7932,7 @@
   "source": "S85",
   "pdf": "sources/國際仿單/六合一_Hexyon(Hexaxim)_EMA_2026-08.pdf",
   "pages": 61,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -7047,7 +8024,7 @@
   "source": "S86",
   "pdf": "sources/國際仿單/六合一_Infanrix-hexa_EMA_2026-02.pdf",
   "pages": 43,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -7158,7 +8135,7 @@
   "source": "S87",
   "pdf": "sources/國際仿單/日本腦炎疫苗_Imojev_TGA_2023-03.pdf",
   "pages": 21,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -7307,7 +8284,7 @@
   "source": "S88",
   "pdf": "sources/國際仿單/流感疫苗_VaxigripTetra_HPRA_2025-06.pdf",
   "pages": 17,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -7473,7 +8450,7 @@
   "source": "S89",
   "pdf": "sources/國際仿單/黃熱病疫苗_Stamaril_MHRA_2025-01.pdf",
   "pages": 16,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -7629,7 +8606,7 @@
   "source": "S90",
   "pdf": "sources/國際仿單/狂犬病疫苗_Verorab_MHRA_2026-01.pdf",
   "pages": 16,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -7753,7 +8730,7 @@
   "source": "S91",
   "pdf": "sources/國際仿單/水痘疫苗_Varilrix_MHRA_2026-08.pdf",
   "pages": 15,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [
@@ -7972,7 +8949,7 @@
   "source": "S92",
   "pdf": "sources/國際仿單/狂犬病疫苗_Rabipur_MHRA_2026-05.pdf",
   "pages": 15,
-  "date": "2026-09-13",
+  "date": "2026-09-16",
   "cells": {
    "gelatin": {
     "patterns": [
@@ -8086,7 +9063,7 @@
   "source": "S93",
   "pdf": "sources/國際仿單/五合一_Pentaxim_HSA_2025-09.pdf",
   "pages": 11,
-  "date": "2026-09-14",
+  "date": "2026-09-16",
   "cells": {
    "egg": {
     "patterns": [

@@ -1,0 +1,235 @@
+[
+ {
+  "slug": "cdc-tw-flu-vaccine-plan-qa-2026",
+  "kind": "web-print",
+  "title": "公費流感疫苗接種計畫（Q&A頁，含115年度實施對象／開打時程／採購廠牌）",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/QAPage/T93ZfoLyyuCaZvKf7v9eww",
+  "path": "sources/流感/疫苗銜接/疾管署_公費流感疫苗接種計畫_QA.pdf",
+  "version": "最後更新日期 2026/8/14（頁面內各題最後更新日期不一，多數為2026/8/7或2026/8/14）",
+  "downloaded": "2026-09-16",
+  "sha256": "a50ea305e966d845f1941d2621f5c4fe5349b0f8b8230e00db027d52209c5797",
+  "pages": 6,
+  "words": 305,
+  "keyPages": {
+   "公費對象": [
+    1,
+    2
+   ],
+   "開打時程": [
+    1,
+    2
+   ],
+   "採購廠牌與適用年齡": [
+    2,
+    3
+   ],
+   "高風險慢性病人定義": [
+    5
+   ]
+  },
+  "notes": "疾管署官方Q&A手風琴頁，用 tools/print_web_source.mjs --expand 全部展開 列印；含「115年10月1日第一階段（醫事/65歲以上/55歲以上原住民/機構受照顧者/6個月以上至國小入學前幼兒/孕婦/高風險慢性病人/幼兒雙親或扶養者/幼托機構工作人員/國小至高中職五專學生/禽畜相關人員）、115年11月2日第二階段（50-64歲無高風險慢性病成人）」逐字句；今年5家廠牌含Efluelda高劑量（65歲以上）與FLUAD含佐劑（50歲以上）已正式列入公費採購清單。頁內另連結「115年度流感疫苗接種計畫附件」實為附件1(高風險慢性病人疾病代碼一覽表)，非正式計畫全文；正式的完整「實施計畫/作業手冊」PDF本身查無獨立公開檔（見下載紀錄）。",
+  "source": "S127"
+ },
+ {
+  "slug": "cdc-tw-flu-vaccine-appendix1-disease-codes",
+  "kind": "guideline",
+  "title": "115年度流感疫苗接種計畫附件1－高風險慢性病人疾病代碼一覽表",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/File/Get/om1fPXrhC0oM-kq9v-m4VQ",
+  "path": "sources/流感/疫苗銜接/疾管署_115年度流感疫苗接種計畫附件1_高風險慢性病人疾病代碼一覽表.pdf",
+  "version": "無獨立版本標示，連結自公費流感疫苗接種計畫QA頁（2026/8/7段落）",
+  "downloaded": "2026-09-16",
+  "sha256": "55e7fb596a1706f1c25c6ad8cc2786af84e5bd547c5e2395648d3043876f315e",
+  "pages": 5,
+  "words": 915,
+  "keyPages": {
+   "公費對象": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  "notes": "真實檔案路徑經 File/Get 殼層頁定位為 https://www.cdc.gov.tw/Uploads/7b77e105-6d48-44e5-8801-465595f9e5bb.pdf（符合本站GOTCHA：/File/Get/是HTML殼層，真檔在/Uploads/）；列出糖尿病/慢性肝病/心血管疾病/慢性肺病/腎臟疾病/免疫低下等ICD診斷碼對照表，用於判定「具有潛在疾病者」公費資格。",
+  "source": "S128"
+ },
+ {
+  "slug": "cdc-tw-flu-vaccine-effectiveness-safety-qa",
+  "kind": "web-print",
+  "title": "疫苗有效性與安全性 Q&A（保護力產生時間／持續時間／VE範圍／打了還會不會得流感）",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/QAPage/ZtgdkdK4_XGPN-OlS2s7sg",
+  "path": "sources/流感/疫苗銜接/疾管署_疫苗有效性與安全性_QA.pdf",
+  "version": "最後更新日期 2026/8/14",
+  "downloaded": "2026-09-16",
+  "sha256": "d83c34ef6e54a1116a3dbdc76273e61e0d7159a23bec8e2716578c109e40b5c8",
+  "pages": 7,
+  "words": 325,
+  "keyPages": {
+   "保護持續": [
+    2,
+    3
+   ],
+   "打了還會不會得": [
+    1,
+    3
+   ]
+  },
+  "notes": "逐字句：「完成流感疫苗接種（未滿9歲首次接種幼兒為接種第2劑），至少約2週後產生保護力」（第3頁）；「即使病毒未發生變異，疫苗成分相同，接種4-6個月後保護效果即可能下降，保護力一般不超過1年」（第2頁，回答「為何每年都要接種」）；VE「平均約可達30-80%。對18歲以上成人因確診流感而住院的保護力約有41%，入住加護病房的流感重症保護力則可達82%」（第3頁）；「我今年接種了流感疫苗，還會感染流感嗎？是的」（第1頁，三個原因：接種前/保護力產生前感染、病毒株不含在疫苗內、保護力因年齡健康狀況而異）。",
+  "source": "S129"
+ },
+ {
+  "slug": "cdc-tw-flu-vaccine-children-qa",
+  "kind": "web-print",
+  "title": "幼兒篇 Q&A（含未滿9歲首次接種兩劑規則、間隔4週）",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/QAPage/73XYTJQLONnIQaCBBi5YVw",
+  "path": "sources/流感/疫苗銜接/疾管署_幼兒篇_QA.pdf",
+  "version": "最後更新日期 2026/8/14",
+  "downloaded": "2026-09-16",
+  "sha256": "0cfc81ec1a42bcb780a33a4d18b6d92be361f07c31d18f12a6d5eb73de8aa522",
+  "pages": 6,
+  "words": 286,
+  "keyPages": {
+   "兩劑": [
+    3,
+    4
+   ]
+  },
+  "notes": "115年3月11日衛福部傳染病防治諮詢會(ACIP)決議表：6個月以上至未滿3歲＋3歲以上至未滿9歲，「未曾接種」或「僅曾接種1劑」者需2劑(間隔4週以上)；9歲以上一律1劑；國小一二年級學校集中接種只提供1劑公費，如需第2劑可隔4週後自費接種；6個月以下嬰兒因無仿單適用資料不列入接種對象。",
+  "source": "S130"
+ },
+ {
+  "slug": "cdc-tw-flu-vaccine-elderly-qa",
+  "kind": "web-print",
+  "title": "長者篇 Q&A（加強型疫苗：佐劑50歲以上／高劑量65歲以上）",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/QAPage/ulaTihAlZvJpKgnS0fwLlA",
+  "path": "sources/流感/疫苗銜接/疾管署_長者篇_QA.pdf",
+  "version": "最後更新日期 2026/8/14（加強型相關題多為2026/8/7）",
+  "downloaded": "2026-09-16",
+  "sha256": "49033d893c706002fd5dee8e0151b623ee651fa87a0afbd1015146a6f06d7ab4",
+  "pages": 5,
+  "words": 237,
+  "keyPages": {
+   "高劑量": [
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  "notes": "定義加強型＝含佐劑(如MF59)或高劑量(約標準型4倍抗原)；優點：抗體濃度更高、保護時間更長於標準型(標準型約6個月)、交叉保護較佳；仿單適用年齡＝含佐劑50歲以上、高劑量65歲以上；我國115年起已將加強型正式納入公費採購，優先提供安養/長照機構內65歲以上長者；一般社區長者仍以標準型為公費主力，如需加強型須自費；誤接種非適用年齡之處置流程亦列於此頁。",
+  "source": "S131"
+ },
+ {
+  "slug": "tfda-fluad-label-2025",
+  "kind": "label",
+  "title": "輔流禦流感疫苗（FLUAD）中文仿單全文（TFDA查詢頁）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E9%83%A8%E8%8F%8C%E7%96%AB%E8%BC%B8%E5%AD%97%E7%AC%AC001274%E8%99%9F",
+  "path": "sources/流感/疫苗銜接/輔流禦流感疫苗_Fluad_TFDA查詢頁_2025-01-10.pdf",
+  "version": "發證日期 114-01-10（2025-01-10），許可證衛部菌疫輸字第001274號，有效日期119-01-10",
+  "downloaded": "2026-09-16",
+  "sha256": "4c06e744bd34162b6e53672dc14b6ec46993d5a9377c0e3488f68b112ece59cf",
+  "pages": 21,
+  "words": 2665,
+  "keyPages": {
+   "高劑量": [
+    1,
+    4,
+    6
+   ]
+  },
+  "notes": "台灣現行有效許可證（申請商：台灣東洋藥品工業；主成分逐年隨WHO北半球建議株更新，本次含2025-2026流感季三價株）；適應症「適用於50歲以上成人之主動免疫接種」（第4頁）。★★GOTCHA：mcp.fda.gov.tw 的 im_detail_1 查詢頁對 headless Chrome 預設瀏覽器指紋會回「The URL you requested has been blocked」，但對 curl 與帶自訂 User-Agent 的 headless Chrome 均可正常存取；該站「仿單、外盒及標籤粘貼表」PDF（/insert/lablefiles/...)只有品名/證號等30字的行政比對表，不含仿單正文（此為前次仿單下載紀錄已知陷阱的再次驗證）；仿單真正全文＝該查詢頁本身動態渲染的性狀/適應症/禁忌/警語等16節手風琴內容（頁面標示「仿單無紙化：已採用」，即無獨立PDF全文檔，此查詢頁即官方唯一全文來源），須先點「全部展開」再列印，已用專用腳本（帶UA的CDP printToPDF）完成，非本站轉錄。",
+  "source": "S132"
+ },
+ {
+  "slug": "tfda-efluelda-label-2025",
+  "kind": "label",
+  "title": "菲優達高劑量三價流感疫苗（Efluelda）中文仿單全文（TFDA查詢頁）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E9%83%A8%E8%8F%8C%E7%96%AB%E8%BC%B8%E5%AD%97%E7%AC%AC001293%E8%99%9F",
+  "path": "sources/流感/疫苗銜接/菲優達高劑量三價流感疫苗_Efluelda_TFDA查詢頁_2025-08-06.pdf",
+  "version": "發證日期 114-08-06（2025-08-06），許可證衛部菌疫輸字第001293號，有效日期119-08-06",
+  "downloaded": "2026-09-16",
+  "sha256": "b043c2475f13b66f7f7a854bcde9a78e2248078328008f78167e8c6573e741c8",
+  "pages": 12,
+  "words": 1100,
+  "keyPages": {
+   "高劑量": [
+    1,
+    2
+   ]
+  },
+  "notes": "台灣現行有效許可證（申請商：賽諾菲股份有限公司）；適應症「適用於65歲以上成人之主動免疫接種」，用法用量「65歲以上成人：一劑0.5 ml」（第1頁）；禁忌段明載「本品僅適用於65歲以上成人。Efluelda未獲准用於未滿65歲者」（第2頁）；同一WAF/lablefiles陷阱與抓取方式同Fluad條目。",
+  "source": "S133"
+ },
+ {
+  "slug": "cdc-acip-flu-2025-26-mmwr",
+  "kind": "guideline",
+  "title": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of ACIP — United States, 2025–26 Influenza Season",
+  "org": "ACIP",
+  "url": "https://www.cdc.gov/mmwr/volumes/74/wr/mm7432a2.htm",
+  "path": "sources/流感/疫苗銜接/CDC_ACIP_流感疫苗建議_2025-26季_MMWR_mm7432a2.pdf",
+  "version": "MMWR Vol. 74 / No. 32, published 2025 (Grohskopf LA et al.)",
+  "downloaded": "2026-09-16",
+  "sha256": "ba7119a5f11fbc9b39d19021ebbc7fe385ddfee0267740b9f99ba6e42d3850c6",
+  "pages": 8,
+  "words": 7087,
+  "keyPages": {
+   "高劑量": [
+    3,
+    4
+   ],
+   "兩劑": [
+    2,
+    3
+   ]
+  },
+  "notes": "PDF直連 https://www.cdc.gov/mmwr/volumes/74/wr/pdfs/mm7432a2-H.pdf（非PMC，PMC鏡像PMC12393693對自動化工具有proof-of-work/reCAPTCHA擋，改走CDC官方站點成功且無需繞過驗證）；第3頁：「Except for vaccination for adults aged ≥65 years, ACIP … Among adults aged ≥65 years any one of the following higher dose or adjuvanted influenza vaccine is available」，第4頁列出HD-IIV3(Fluzone High-Dose)劑量表；第2-3頁：「Children aged 6 months through 8 years who did not previously receive …require 2 doses of influenza vaccine」「should receive 2 doses of 2025–26 influenza vaccine ≥4 weeks」；文件標題本身即為Recommendations and Reports性質內容，惟MMWR此號實際歸類為Weekly Report(wr)系列而非Recommendations and Reports(rr)系列（cdc.gov網址路徑為/wr/非/rr/，任務原描述之rr系列這篇未落在該分類下，已核實網址與标题一致）。",
+  "source": "S134"
+ },
+ {
+  "slug": "who-flu-vaccine-position-paper-2022",
+  "kind": "guideline",
+  "title": "Vaccines against influenza: WHO position paper – May 2022（含Duration of protection and repeat vaccination章節）",
+  "org": "WHO",
+  "url": "https://www.who.int/publications/i/item/who-wer9719",
+  "path": "sources/流感/疫苗銜接/WHO_流感疫苗立場文件_WER_2022_vol97_no19.pdf",
+  "version": "Weekly Epidemiological Record, 2022, vol. 97, No 19, pages 185-208（13 May 2022）",
+  "downloaded": "2026-09-16",
+  "sha256": "7092d24a94d5ccc1be5a74bcb9b4c9759964051018f181ba0e5e9b50c32efc7a",
+  "pages": 24,
+  "words": 22725,
+  "keyPages": {
+   "保護持續": [
+    15
+   ]
+  },
+  "notes": "英法雙語合刊全期PDF，經 iris.who.int handle/10665/354264 的 bitstream 直連取得（who.int發布頁本身為JS動態下載按鈕，改走IRIS典藏庫DSpace的/bitstreams/<uuid>/download，302轉址至/server/api/core/bitstreams/<uuid>/content，200 application/pdf）；第15頁章節標題「Duration of protection and repeat vaccination」，第12-14頁多處列有疫苗效力(VE)百分比數據；此為WHO現行最新一版立場文件（2022年5月，尚未有更新版取代）。",
+  "source": "S135"
+ },
+ {
+  "slug": "mohw-tw-flu-vaccine-press-2026",
+  "kind": "web-print",
+  "title": "115年秋冬公費首度導入加強型流感及新世代新冠疫苗（新聞稿，含705萬150劑採購量細節）",
+  "org": "衛福部",
+  "url": "https://www.mohw.gov.tw/cp-7402-87574-1.html",
+  "path": "sources/流感/疫苗銜接/衛福部_115年秋冬公費流感疫苗新聞稿.pdf",
+  "version": "115年8月25日發布",
+  "downloaded": "2026-09-16",
+  "sha256": "2dbff698f6516d9698ca3a0e699aef2d535ed177157c3047dc43cb4eb269fc3e",
+  "pages": 2,
+  "words": 160,
+  "keyPages": {
+   "高劑量": [
+    1
+   ]
+  },
+  "notes": "字數160未達本專案200字門檻（新聞稿本身篇幅短，非抽取失敗；pdftotext可正常抽出全文，已人工核對）；內容：本年度公費流感疫苗採購705萬150劑，含標準型684萬9,360劑及免疫加強型20萬790劑，為歷年採購量首次超過700萬劑；作為疾管署Q&A頁「115年起已將加強型流感疫苗正式納入公費採購」一句的獨立佐證來源，非唯一引用來源。",
+  "source": "S136"
+ }
+]

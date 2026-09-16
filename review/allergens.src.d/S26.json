@@ -1,0 +1,91 @@
+{
+ "vaccine": "hepa",
+ "product": "Havrix 新赫寶克A型肝炎疫苗",
+ "source": "S26",
+ "components": [
+  {
+   "page": 3,
+   "label": "定性與定量組成",
+   "quote": "每劑(1.0毫升)成人用Havrix 1440含有：\nA型肝炎病毒(去活化)\n在人類雙套染色體(MRC-5)細胞中製成\n吸附於水合氫氧化鋁上\n每劑(0.5毫升)孩童用Havrix 720含有：\nA型肝炎病毒(去活化)\n在人類雙套染色體(MRC-5)細胞中製成\n吸附於水合氫氧化鋁上"
+  },
+  {
+   "page": 3,
+   "label": "賦形劑",
+   "quote": "Aluminium hydroxide, amino acids for injections, disodium phosphate,\nmonopotassium phosphate, polysorbate 20, potassium chloride, sodium\nchloride, water for injections."
+  },
+  {
+   "page": 3,
+   "label": "賦形劑 · 新黴素殘餘物註記",
+   "quote": "*Neomycin sulphate"
+  }
+ ],
+ "allergens": [
+  {
+   "key": "egg",
+   "status": "未載明"
+  },
+  {
+   "key": "gelatin",
+   "status": "未載明"
+  },
+  {
+   "key": "neomycin",
+   "status": "有",
+   "page": 3,
+   "quote": "*Neomycin sulphate",
+   "note": "賦形劑段緊接註記「為來自製造過程中的殘餘物」（見成分段），因 PDF 文字層行分割演算法將此中文註記歸類到「Neomycin sulphate」上方另一行，逐字定位器抓不到跨行連續字串，故引句僅取「*Neomycin sulphate」本身；完整原句可在 review/allergens.src.d/S26.json 的成分段（label＝賦形劑 · 新黴素殘餘物註記）另行核對"
+  },
+  {
+   "key": "other_antibiotics",
+   "status": "未載明"
+  },
+  {
+   "key": "yeast",
+   "status": "未載明"
+  },
+  {
+   "key": "latex",
+   "status": "無",
+   "page": 10,
+   "quote": "預充填型注射器的前蓋及橡膠推桿活塞和小瓶之瓶塞皆非天然橡膠乳膠製成。"
+  },
+  {
+   "key": "peg_polysorbate",
+   "status": "有",
+   "page": 3,
+   "quote": "monopotassium phosphate, polysorbate 20, potassium chloride, sodium"
+  },
+  {
+   "key": "formaldehyde",
+   "status": "未載明"
+  },
+  {
+   "key": "thimerosal",
+   "status": "未載明"
+  },
+  {
+   "key": "aluminium",
+   "status": "有",
+   "page": 3,
+   "region": [62, 32, 572, 156],
+   "quote": "吸附於水合氫氧化鋁上"
+  }
+ ],
+ "sweep": {
+  "dismissed": {
+   "other_antibiotics": "p.6「此類抗生素過敏者」的「此類抗生素」回指前一句的新黴素（neomycin），非指其他抗生素（kanamycin/polymyxin/gentamicin等），已計入 neomycin 的警語段"
+  }
+ },
+ "warnings": [
+  {
+   "label": "禁忌",
+   "page": 5,
+   "quote": "如對Havrix中的任何一成份過敏者或前次注射Havrix後產生過敏現象的人，均不\n可使用Havrix (見定性與定量組成及賦形劑)。"
+  },
+  {
+   "label": "新黴素過敏警語",
+   "page": 6,
+   "quote": "Havrix含微量新黴素，因此將本疫苗使用於對此類抗生素過敏者，應格外小\n心。"
+  }
+ ]
+}

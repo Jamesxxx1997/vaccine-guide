@@ -1,0 +1,175 @@
+
+> vaccine-guide@1.0.0 test
+> node tools/test_reference_geometry.cjs && node tools/test_csv_viewer.cjs && node tools/test_reference_ui.cjs && node tools/test_reference_coverage.cjs && node --test tools/test_travel_sync.mjs && node tools/test_travel_search.cjs && node --test tools/test_cdc_relay.mjs && node tools/test_travel_live.cjs && node tools/test_travel_workspace.cjs && node tools/test_vaccine_discovery.cjs && node tools/test_shingrix.cjs && node tools/test_postinfection_quotes.cjs && node tools/test_adverse_effects.cjs && node tools/test_allergy_guidance.cjs && node tools/test_package_pages.cjs
+
+8 geometry checks passed.
+PASS 12 CSV fullpage/actual-preview-link regression groups
+PASS Direct layer loads, all seven sections are covered
+PASS Funding click opens sources without expanding the card
+PASS Type hover gives a real PDF preview; click pins it
+PASS Card expand button remains functional; schedule text opens sources
+PASS Every child vaccine and schedule cell opens its pinned S5 row + age header
+PASS Rotavirus notice gives actual web text, never an unrelated PDF
+PASS Child calculator rerendered text remains reference-enabled
+PASS Adult B hepatitis antibody interpretation uses S6
+PASS Interval table and four-day grace note use different proper sources
+PASS Changing interval choices refreshes the source context
+PASS 121 active legacy rules remain accessible; retired Shingrix keys are pruned, not regraded
+PASS Exact, partial, gist and text statuses are not upgraded
+PASS Screening update keeps condition checkboxes and new rule text working
+PASS Catch-up results are reference-enabled after recalculation
+PASS Keyboard Enter opens; Escape closes and restores focus
+PASS Whole-page view, zoom and source page selector work
+PASS All 14 adult rows highlight within their vaccine row and keep full-width context
+PASS MMR antibody badge opens its antibody paragraph, not page-one legend
+PASS Verified product rows map every cell to the correct PDF and highlight
+PASS Cholera policy retains Taiwan and international evidence separately
+PASS Cholera calculator is formulation-aware in both orders and clears stale references
+PASS Manual page change clears old highlights and matching status
+PASS Every source preview file exists and matches current source hash
+
+23 test groups passed.
+PASS initial clinical fields, classifications, 50 minimum-age cells and source titles
+PASS condition, child schedule, catchup and adult risk branches
+PASS all ordered interval pairs, including invalid same-vaccine states
+PASS all 249 destinations and 2019 underlying alert/vaccine records
+PASS coverage: 7106 reference checks, 1022 dynamic branches, 2019 CSV alert/vaccine mappings, both full CSV snapshots
+TAP version 13
+# Official download www.cdc.gov.tw attempt 1/2 failed: timeout
+# Official download www.cdc.gov.tw attempt 2/2 failed: timeout
+# Official download www.cdc.gov.tw attempt 1/2 failed: offline
+# Official download www.cdc.gov.tw attempt 2/2 failed: offline
+# Official download od.cdc.gov.tw attempt 1/2 failed: offline
+# Official download od.cdc.gov.tw attempt 2/2 failed: offline
+# Subtest: bounded official retries preserve actual provenance and use only complete official alternatives
+ok 1 - bounded official retries preserve actual provenance and use only complete official alternatives
+  ---
+  duration_ms: 1.243541
+  type: 'test'
+  ...
+# Subtest: strict CSV parser preserves quoted newlines, commas, leading zero and HTML as strings
+ok 2 - strict CSV parser preserves quoted newlines, commas, leading zero and HTML as strings
+  ---
+  duration_ms: 0.225667
+  type: 'test'
+  ...
+# Subtest: unknown severity and invalid calendar dates fail closed
+ok 3 - unknown severity and invalid calendar dates fail closed
+  ---
+  duration_ms: 0.778458
+  type: 'test'
+  ...
+# Subtest: latest lifted suppresses older active, same-day conflict never chosen by source order
+ok 4 - latest lifted suppresses older active, same-day conflict never chosen by source order
+  ---
+  duration_ms: 0.703833
+  type: 'test'
+  ...
+# Subtest: complete history keeps old still-active diseases; no 30-day cutoff
+ok 5 - complete history keeps old still-active diseases; no 30-day cutoff
+  ---
+  duration_ms: 0.234834
+  type: 'test'
+  ...
+# Subtest: same ISO never merges distinct destinations; ambiguous aliases stay separate
+ok 6 - same ISO never merges distinct destinations; ambiguous aliases stay separate
+  ---
+  duration_ms: 0.181542
+  type: 'test'
+  ...
+# Subtest: reviewed COVID rename resolves latest state, unmatched old names are visibly unresolved
+ok 7 - reviewed COVID rename resolves latest state, unmatched old names are visibly unresolved
+  ---
+  duration_ms: 0.156875
+  type: 'test'
+  ...
+# {"result":"success","countries":249,"records":{"alerts":2503,"prescriptions":5098},"conflictGroups":42,"latestEffective":"2026-09-08","sourceModified":"Fri, 21 Aug 2026 09:32:04 GMT"}
+# Failed; last successful bundle preserved: network offline
+# Subtest: sync failure preserves last good bundle and immutable raw bytes, records a visible failure status
+ok 8 - sync failure preserves last good bundle and immutable raw bytes, records a visible failure status
+  ---
+  duration_ms: 111.892042
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 161.92475
+PASS travel search/CSV/PDF/state/XSS; 16 guides, 38 hash-bound highlighted sections; every current prescription item mapped.
+TAP version 13
+# Subtest: relay payload carries every source row, is inert and bound to the same query
+ok 1 - relay payload carries every source row, is inert and bound to the same query
+  ---
+  duration_ms: 179.67825
+  type: 'test'
+  ...
+# Subtest: strict query, fixed upstream and asset allowlist
+ok 2 - strict query, fixed upstream and asset allowlist
+  ---
+  duration_ms: 0.491667
+  type: 'test'
+  ...
+# Subtest: parse real table shape, retain date/region/source, fail closed
+ok 3 - parse real table shape, retain date/region/source, fail closed
+  ---
+  duration_ms: 91.058542
+  type: 'test'
+  ...
+# Subtest: relay keeps search UI, external links leave relay; query is escaped
+ok 4 - relay keeps search UI, external links leave relay; query is escaped
+  ---
+  duration_ms: 35.453209
+  type: 'test'
+  ...
+# Subtest: normal anonymous GET+POST session; no forwarded user credentials
+ok 5 - normal anonymous GET+POST session; no forwarded user credentials
+  ---
+  duration_ms: 9.218458
+  type: 'test'
+  ...
+# Subtest: upstream error is never an empty success
+ok 6 - upstream error is never an empty success
+  ---
+  duration_ms: 0.246
+  type: 'test'
+  ...
+# Subtest: official unobtrusive AJAX marker accepted; extra fields and duplicates denied
+ok 7 - official unobtrusive AJAX marker accepted; extra fields and duplicates denied
+  ---
+  duration_ms: 0.201375
+  type: 'test'
+  ...
+# Subtest: request origin cannot be changed through an authority-form path
+ok 8 - request origin cannot be changed through an authority-form path
+  ---
+  duration_ms: 0.1055
+  type: 'test'
+  ...
+# Subtest: public mode: host whitelist, https origin, and cookie-less session injection
+ok 9 - public mode: host whitelist, https origin, and cookie-less session injection
+  ---
+  duration_ms: 17.277542
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 795.106625
+PASS A/B trial: live source/PDF, race, failure, isolation, and no clinical data transmission.
+PASS global vaccine search, all 38 guide anchors, snapshot CSV, live provenance, multi-country/global separation, 329 rows, unknown diseases, XSS and stale state.
+PASS 11 shingles aliases, HSV separation, both card filters, original-card navigation, preserved patient state/counts/order and source highlights.
+PASS Shingrix original hash/16 pages, 13 source claims, cross-page indication, dose/conditions, age/pregnancy/immune/bleeding cases, all UI surfaces, condition labels and preview/click.
+PASS postinfection table: 8 rows, 13 quotes matched to glyph-anchored PDF quotes across 8 sources (S20, S21, S22, S23, S24, S25, S4, S8)
+PASS adverse effects: 47 tables, 364 rows, 384 percent cells verified against generated claims; every cell opens an original-page highlight.
+PASS allergy guidance: 11 rules, 21 claim marks, 30 anchored quotes; 53 labelled products, 187 bound allergen cells, 27 related-sentence cells; every 未載明 cell swept.
+PASS package allowlist: 22 referenced assets all packaged.

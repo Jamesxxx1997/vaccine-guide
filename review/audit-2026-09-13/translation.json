@@ -1,0 +1,2500 @@
+{
+  "checks": {
+    "products": 53,
+    "cells": 530,
+    "claims": 554,
+    "unknown": 343
+  },
+  "errors": [],
+  "notes": [
+    {
+      "source": "S20",
+      "table": "shingrix-notes",
+      "title": "仿單 8.1 續：主動通報與同時接種資料",
+      "population": "",
+      "label": "常見（表格續）",
+      "claim": "ae:shingrix-notes:0",
+      "summary": "常見：注射部位搔癢、不適。",
+      "text": "注射部位搔癢、不適",
+      "missingNumbers": []
+    },
+    {
+      "source": "S20",
+      "table": "shingrix-notes",
+      "title": "仿單 8.1 續：主動通報與同時接種資料",
+      "population": "",
+      "label": "與 23 價肺炎鏈球菌疫苗同時接種",
+      "claim": "ae:shingrix-notes:1",
+      "summary": "與 PPV23 同時接種時發燒與寒顫較常見（原件：同時施打 16% 與 21%，單獨施打各 7%）。",
+      "text": "肺炎鏈球菌多醣體疫苗和Shingrix同時接種時，較常發生發燒和寒顫的不良反應",
+      "missingNumbers": [
+        "23",
+        "16",
+        "21",
+        "7"
+      ]
+    },
+    {
+      "source": "S20",
+      "table": "shingrix-notes",
+      "title": "仿單 8.1 續：主動通報與同時接種資料",
+      "population": "",
+      "label": "同時接種發生率",
+      "claim": "ae:shingrix-notes:2",
+      "summary": "發燒 16%、寒顫 21%（同時施打）vs 各 7%（單獨施打）。",
+      "text": "(同時施打的發生率分別為16%和21%；單獨施打則各為7%)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S20",
+      "table": "shingrix-notes",
+      "title": "仿單 8.1 續：主動通報與同時接種資料",
+      "population": "",
+      "label": "年齡差異",
+      "claim": "ae:shingrix-notes:3",
+      "summary": "50–69 歲的局部與全身反應發生率高於 70 歲以上。",
+      "text": "50至69歲之受試者的注射部位疼痛與腫脹、疲倦、肌痛、頭痛、顫",
+      "missingNumbers": [
+        "70"
+      ]
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "疼痛（注射部位）· 第一劑",
+      "claim": "ae:hepa-vaqta-pct:0",
+      "summary": "疼痛：第一劑 6.4% (33/515)。",
+      "text": "6.4% (33/515)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "疼痛（注射部位）· 第二劑",
+      "claim": "ae:hepa-vaqta-pct:1",
+      "summary": "疼痛：第二劑 3.4% (16/475)。",
+      "text": "3.4% (16/475)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "疼痛（注射部位）· 安慰劑",
+      "claim": "ae:hepa-vaqta-pct:2",
+      "summary": "疼痛：安慰劑 6.3% (32/510)。",
+      "text": "6.3% (32/510)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "壓痛（注射部位）· 第一劑",
+      "claim": "ae:hepa-vaqta-pct:3",
+      "summary": "壓痛：第一劑 4.9% (25/515)。",
+      "text": "4.9% (25/515)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "壓痛（注射部位）· 第二劑",
+      "claim": "ae:hepa-vaqta-pct:4",
+      "summary": "壓痛：第二劑 1.7% (8/475)。",
+      "text": "1.7% (8/475)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "壓痛（注射部位）· 安慰劑",
+      "claim": "ae:hepa-vaqta-pct:5",
+      "summary": "壓痛：安慰劑 6.1% (31/510)。",
+      "text": "6.1% (31/510)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "紅斑（注射部位）· 第一劑",
+      "claim": "ae:hepa-vaqta-pct:6",
+      "summary": "紅斑：第一劑 1.9% (10/515)。",
+      "text": "1.9% (10/515)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "紅斑（注射部位）· 安慰劑",
+      "claim": "ae:hepa-vaqta-pct:7",
+      "summary": "紅斑：安慰劑 1.8% (9/510)。",
+      "text": "1.8% (9/510)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "腫脹（注射部位）· 第二劑",
+      "claim": "ae:hepa-vaqta-pct:8",
+      "summary": "腫脹：第二劑 1.5% (7/475)。",
+      "text": "1.5% (7/475)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "發熱（注射部位）· 第二劑",
+      "claim": "ae:hepa-vaqta-pct:9",
+      "summary": "發熱：第二劑 0.6% (3/475)。",
+      "text": "0.6% (3/475)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "腹部疼痛（全身性）· 第二劑",
+      "claim": "ae:hepa-vaqta-pct:10",
+      "summary": "腹部疼痛：第二劑 1.1% (5/475)。",
+      "text": "1.1% (5/475)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "咽炎（全身性）· 安慰劑",
+      "claim": "ae:hepa-vaqta-pct:11",
+      "summary": "咽炎：安慰劑 0.8% (4/518)。",
+      "text": "0.8% (4/518)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-pct",
+      "title": "Monroe 有效性研究中健康小孩與青少年局部和全身性之抱怨（≥1%；含 n/N，原表欄位為第一劑/第二劑/安慰劑）",
+      "population": "",
+      "label": "頭痛（全身性）· 第一劑",
+      "claim": "ae:hepa-vaqta-pct:12",
+      "summary": "頭痛：第一劑 0.4% (2/519)。",
+      "text": "0.4% (2/519)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S27",
+      "table": "hepa-vaqta-notes",
+      "title": "成人與兒童/青少年反應（原件以敘述句列出，未成表）",
+      "population": "",
+      "label": "成人（≥18 歲）注射部位局部反應",
+      "claim": "ae:hepa-vaqta-notes:0",
+      "summary": "成人最常見：觸痛 52.6%、疼痛 51.1%、熱感 17.3%、腫脹 13.6%、紅斑 12.9%。",
+      "text": "觸痛(Tenderness)(52.6%)，疼痛(51.1%)，熱感(17.3%)，腫脹(13.6%)，紅斑( 12.9%)，瘀血(1.5%)，疼痛/酸痛(1.2%)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-freq",
+      "title": "臨床試驗中依系統器官類別與發生頻率列出之不良反應（原件為多欄海報式排版，PDF文字層將表格切成區塊，逐區塊逐字列出）",
+      "population": "",
+      "label": "血液及淋巴系統 · 罕見",
+      "claim": "ae:hepb-engerix-freq:0",
+      "summary": "血液及淋巴系統：罕見－淋巴結病變。",
+      "text": "淋巴結病變",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-freq",
+      "title": "臨床試驗中依系統器官類別與發生頻率列出之不良反應（原件為多欄海報式排版，PDF文字層將表格切成區塊，逐區塊逐字列出）",
+      "population": "",
+      "label": "代謝及營養系統 · 常見",
+      "claim": "ae:hepb-engerix-freq:1",
+      "summary": "代謝及營養系統：常見－喪失食慾。",
+      "text": "喪失食慾",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-freq",
+      "title": "臨床試驗中依系統器官類別與發生頻率列出之不良反應（原件為多欄海報式排版，PDF文字層將表格切成區塊，逐區塊逐字列出）",
+      "population": "",
+      "label": "精神系統 · 極常見 ／ 神經系統 · 常見",
+      "claim": "ae:hepb-engerix-freq:2",
+      "summary": "精神系統：極常見－易怒。神經系統：常見－頭痛(極常見於10µg之處方)、睏倦。（原件兩列同區塊）",
+      "text": "易怒 頭痛(極常見於10 µg之處方)、睏倦",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-freq",
+      "title": "臨床試驗中依系統器官類別與發生頻率列出之不良反應（原件為多欄海報式排版，PDF文字層將表格切成區塊，逐區塊逐字列出）",
+      "population": "",
+      "label": "神經系統 · 不常見",
+      "claim": "ae:hepb-engerix-freq:3",
+      "summary": "神經系統：不常見－暈眩。",
+      "text": "暈眩",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-freq",
+      "title": "臨床試驗中依系統器官類別與發生頻率列出之不良反應（原件為多欄海報式排版，PDF文字層將表格切成區塊，逐區塊逐字列出）",
+      "population": "",
+      "label": "神經系統 · 罕見",
+      "claim": "ae:hepb-engerix-freq:4",
+      "summary": "神經系統：罕見－皮膚感覺異常。",
+      "text": "皮膚感覺異常",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-freq",
+      "title": "臨床試驗中依系統器官類別與發生頻率列出之不良反應（原件為多欄海報式排版，PDF文字層將表格切成區塊，逐區塊逐字列出）",
+      "population": "",
+      "label": "腸胃系統 · 常見",
+      "claim": "ae:hepb-engerix-freq:5",
+      "summary": "腸胃系統：常見－腸胃症狀(例如：噁心、嘔吐、腹瀉、腹痛)。",
+      "text": "腸胃症狀(例如：噁心、嘔吐、腹瀉、腹痛)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-freq",
+      "title": "臨床試驗中依系統器官類別與發生頻率列出之不良反應（原件為多欄海報式排版，PDF文字層將表格切成區塊，逐區塊逐字列出）",
+      "population": "",
+      "label": "皮膚及皮下組織系統 · 罕見",
+      "claim": "ae:hepb-engerix-freq:6",
+      "summary": "皮膚及皮下組織系統：罕見－皮疹、搔癢、蕁麻疹。",
+      "text": "皮疹、搔癢、蕁麻疹",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-freq",
+      "title": "臨床試驗中依系統器官類別與發生頻率列出之不良反應（原件為多欄海報式排版，PDF文字層將表格切成區塊，逐區塊逐字列出）",
+      "population": "",
+      "label": "肌肉與結締組織系統 · 不常見",
+      "claim": "ae:hepb-engerix-freq:7",
+      "summary": "肌肉與結締組織系統：不常見－肌痛。",
+      "text": "肌痛",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-freq",
+      "title": "臨床試驗中依系統器官類別與發生頻率列出之不良反應（原件為多欄海報式排版，PDF文字層將表格切成區塊，逐區塊逐字列出）",
+      "population": "",
+      "label": "肌肉與結締組織系統 · 罕見 ／ 全身及注射部位系統 · 極常見／常見／不常見",
+      "claim": "ae:hepb-engerix-freq:8",
+      "summary": "肌肉與結締組織系統：罕見－關節痛。全身及注射部位系統：極常見－注射部位疼痛及發紅、疲倦；常見－注射部位腫脹、不適、注射部位反應(例如硬塊)、發燒(≥37.5°C)；不常見－類流感症狀。（原件四列同區塊）",
+      "text": "關節痛 注射部位疼痛及發紅、疲倦 注射部位腫脹、不適、注射部位反應(例如 硬塊)、發燒(≥37.5°C) 類流感症狀",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-notes",
+      "title": "上市後監測不良反應（未列發生頻率，原件以系統器官類別分項敘述）",
+      "population": "",
+      "label": "感染及侵入性疾病",
+      "claim": "ae:hepb-engerix-notes:0",
+      "summary": "上市後監測：腦膜炎。",
+      "text": "感染及侵入性疾病腦膜炎",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-notes",
+      "title": "上市後監測不良反應（未列發生頻率，原件以系統器官類別分項敘述）",
+      "population": "",
+      "label": "血液及淋巴系統",
+      "claim": "ae:hepb-engerix-notes:1",
+      "summary": "上市後監測：血小板減少症。",
+      "text": "血液及淋巴系統 血小板減少症",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-notes",
+      "title": "上市後監測不良反應（未列發生頻率，原件以系統器官類別分項敘述）",
+      "population": "",
+      "label": "神經系統",
+      "claim": "ae:hepb-engerix-notes:2",
+      "summary": "上市後監測神經系統：癱瘓、抽搐、感覺遲鈍、腦炎、腦病變、神經病變、神經炎（續下行）。",
+      "text": "癱瘓、抽搐、感覺遲鈍、腦炎、腦病變、神經病變、",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-notes",
+      "title": "上市後監測不良反應（未列發生頻率，原件以系統器官類別分項敘述）",
+      "population": "",
+      "label": "血管疾病",
+      "claim": "ae:hepb-engerix-notes:3",
+      "summary": "上市後監測：低血壓、血管炎。",
+      "text": "低血壓、血管炎",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-notes",
+      "title": "上市後監測不良反應（未列發生頻率，原件以系統器官類別分項敘述）",
+      "population": "",
+      "label": "皮膚及皮下組織系統",
+      "claim": "ae:hepb-engerix-notes:4",
+      "summary": "上市後監測：血管神經性水腫、扁平苔癬、多形性紅斑。",
+      "text": "血管神經性水腫、扁平苔癬、多形性紅斑",
+      "missingNumbers": []
+    },
+    {
+      "source": "S28",
+      "table": "hepb-engerix-notes",
+      "title": "上市後監測不良反應（未列發生頻率，原件以系統器官類別分項敘述）",
+      "population": "",
+      "label": "肌肉與結締組織系統",
+      "claim": "ae:hepb-engerix-notes:5",
+      "summary": "上市後監測：關節炎、肌肉無力。",
+      "text": "關節炎、肌肉無力",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "發生率標準",
+      "claim": "ae:dtapipv-tetraxim-notes:0",
+      "summary": "仿單以極常見≥10%、常見≥1%~<10%、不常見≥0.1%~<1%、罕見≥0.01%~<0.1%、極罕見<0.01%（含單獨個案）分級。",
+      "text": "極常見：≥10% 常見：≥1%~<10% 不常見：≥0.1%~<1% 罕見：≥0.01%~<0.1% 極罕見：<0.01%，包括單獨個案。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "臨床試驗最常見反應",
+      "claim": "ae:dtapipv-tetraxim-notes:1",
+      "summary": "超過 8,400 劑基礎接種中，最常見反應為煩躁不安（20.2%）、注射部位發紅（9%）及硬塊>2cm（12%），多在接種後 48 小時內出現，可持續 48-72 小時，會自行消失不需特別治療。",
+      "text": "超 過 8,400 劑 的 一 系 列 基 礎 接 種 中 ， 最 常 見 的 反 應 包 括 ： 煩 躁 不 安 （ 20.2% ） 、 注 射 部 位 的 局 部 反 應 如 發 紅 （ 9% ） 及 硬 塊 （ >2cm ） （ 12% ） 。",
+      "missingNumbers": [
+        "48",
+        "48",
+        "72"
+      ]
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "煩躁不安比例",
+      "claim": "ae:dtapipv-tetraxim-notes:2",
+      "summary": "煩躁不安發生率 20.2%。",
+      "text": "（20.2%）",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "注射部位發紅／硬塊比例",
+      "claim": "ae:dtapipv-tetraxim-notes:3",
+      "summary": "注射部位局部反應：發紅 9%，硬塊(>2cm) 12%。",
+      "text": "、 注 射 部 位 的 局 部 反 應 如 發 紅 （ 9% ） 及 硬 塊 （ >2cm ） （ 12% ） 。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "神經系統異常（常見）",
+      "claim": "ae:dtapipv-tetraxim-notes:4",
+      "summary": "神經系統異常，常見：嗜眠。",
+      "text": "嗜眠",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "胃腸道異常（常見）",
+      "claim": "ae:dtapipv-tetraxim-notes:5",
+      "summary": "胃腸道異常，常見：腹瀉、嘔吐。",
+      "text": "腹瀉",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "代謝及營養方面異常（常見）",
+      "claim": "ae:dtapipv-tetraxim-notes:6",
+      "summary": "代謝及營養方面異常，常見：食慾減退。",
+      "text": "食慾減退",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "全身性不適及注射部位狀況（常見）",
+      "claim": "ae:dtapipv-tetraxim-notes:7",
+      "summary": "全身性不適及注射部位狀況，常見：注射部位出現紅斑、硬塊；發燒≥38°C。",
+      "text": "注射部位出現紅斑、硬塊",
+      "missingNumbers": [
+        "38"
+      ]
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "全身性不適及注射部位狀況（發燒≥38°C）",
+      "claim": "ae:dtapipv-tetraxim-notes:8",
+      "summary": "常見：發燒≥38°C。",
+      "text": "發燒≥ 38°C",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "全身性不適及注射部位狀況（不常見）",
+      "claim": "ae:dtapipv-tetraxim-notes:9",
+      "summary": "全身性不適及注射部位狀況，不常見：注射部位發紅及腫脹≥5cm；發燒≥39°C。",
+      "text": "注射部位發紅及腫脹≥ 5 cm",
+      "missingNumbers": [
+        "39"
+      ]
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes",
+      "title": "仿單 4.8 不良反應：臨床試驗數據與依系統器官類別之發生率",
+      "population": "",
+      "label": "全身性不適及注射部位狀況（罕見）",
+      "claim": "ae:dtapipv-tetraxim-notes:10",
+      "summary": "全身性不適及注射部位狀況，罕見：發燒>40°C。",
+      "text": "發燒> 40°C",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes-2",
+      "title": "仿單 4.8 不良反應（續）：Hib 併用下肢水腫反應與上市後經驗",
+      "population": "",
+      "label": "與 Hib 疫苗併用之下肢水腫反應",
+      "claim": "ae:dtapipv-tetraxim-notes-2:0",
+      "summary": "接種含b型嗜血桿菌疫苗（含與本疫苗同時接種）後，曾發生影響單側或兩側下肢的罕見水腫反應，多在初次注射後數小時內出現，症狀含青紫、發紅、暫時性紫斑與嚴重哭鬧，24小時內自行消退不留後遺症。",
+      "text": "接種含b型嗜血桿菌疫苗後，曾發生影響單側或兩側下肢的罕見水腫反",
+      "missingNumbers": [
+        "24"
+      ]
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes-2",
+      "title": "仿單 4.8 不良反應（續）：Hib 併用下肢水腫反應與上市後經驗",
+      "population": "",
+      "label": "精神異常（常見）",
+      "claim": "ae:dtapipv-tetraxim-notes-2:1",
+      "summary": "精神異常，常見：神經質、煩躁不安；失眠、睡眠障礙。",
+      "text": "神經質、煩躁不安",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes-2",
+      "title": "仿單 4.8 不良反應（續）：Hib 併用下肢水腫反應與上市後經驗",
+      "population": "",
+      "label": "精神異常（不常見）",
+      "claim": "ae:dtapipv-tetraxim-notes-2:2",
+      "summary": "精神異常，不常見：無法安撫的異常持續哭鬧。曾有接種含百日咳疫苗後出現低張力低反應發作之報告。",
+      "text": "無法安撫的異常持續哭鬧",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes-2",
+      "title": "仿單 4.8 不良反應（續）：Hib 併用下肢水腫反應與上市後經驗",
+      "population": "",
+      "label": "上市後經驗前言",
+      "claim": "ae:dtapipv-tetraxim-notes-2:3",
+      "summary": "以下為上市後自動回報之不良事件，極為罕見且無法精準算出確切發生率。",
+      "text": "根據自動回報的資料顯示，本疫苗在上市後曾出現以下不良事件。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes-2",
+      "title": "仿單 4.8 不良反應（續）：Hib 併用下肢水腫反應與上市後經驗",
+      "population": "",
+      "label": "上市後：神經系統異常",
+      "claim": "ae:dtapipv-tetraxim-notes-2:4",
+      "summary": "上市後神經系統異常：伴隨/或不伴隨發燒之痙攣；昏厥。",
+      "text": "伴隨/或不伴隨發燒之痙攣",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes-2",
+      "title": "仿單 4.8 不良反應（續）：Hib 併用下肢水腫反應與上市後經驗",
+      "population": "",
+      "label": "上市後：皮膚及皮下組織異常",
+      "claim": "ae:dtapipv-tetraxim-notes-2:5",
+      "summary": "上市後皮膚及皮下組織異常：皮疹、紅斑、蕁麻疹。",
+      "text": "皮疹、紅斑、蕁麻疹",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes-2",
+      "title": "仿單 4.8 不良反應（續）：Hib 併用下肢水腫反應與上市後經驗",
+      "population": "",
+      "label": "上市後：注射部位大範圍反應",
+      "claim": "ae:dtapipv-tetraxim-notes-2:6",
+      "summary": "上市後全身性不適及注射部位狀況：注射部位疼痛；大範圍注射部位反應(>50mm)，含廣泛性肢體腫脹（可延伸至1-2個關節），於接種後24-72小時內出現，3-5天內自行消退；風險與先前接種非細胞性百日咳疫苗次數有關，第4、5劑風險較高。",
+      "text": "大範圍的注射部位反應（> 50 mm），包括廣泛性的肢體腫脹，從注射",
+      "missingNumbers": [
+        "1",
+        "2",
+        "24",
+        "72",
+        "3",
+        "5",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes-2",
+      "title": "仿單 4.8 不良反應（續）：Hib 併用下肢水腫反應與上市後經驗",
+      "population": "",
+      "label": "上市後：免疫系統異常",
+      "claim": "ae:dtapipv-tetraxim-notes-2:7",
+      "summary": "上市後免疫系統異常：立即性過敏反應，例如臉部水腫、血管水腫、昆克水腫（Quincke's oedema）、全身性過敏性反應。",
+      "text": "立即性的過敏反應，例如臉部水腫、血管水腫、昆克水腫（Quincke’s",
+      "missingNumbers": []
+    },
+    {
+      "source": "S29",
+      "table": "dtapipv-tetraxim-notes-2",
+      "title": "仿單 4.8 不良反應（續）：Hib 併用下肢水腫反應與上市後經驗",
+      "population": "",
+      "label": "潛在不良事件：格林-巴利症候群",
+      "claim": "ae:dtapipv-tetraxim-notes-2:8",
+      "summary": "潛在不良事件（非直接來自本疫苗，而是含相同抗原成分之其他疫苗）：注射含破傷風類毒素疫苗後所引起的格林-巴利症候群及臂神經炎。",
+      "text": "注射含有破傷風類毒素疫苗後所引起的格林",
+      "missingNumbers": []
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "搔癢（注射部位）",
+      "claim": "ae:hpv-gardasil9-pct:0",
+      "summary": "搔癢：16-26歲 G9 5.5／GARDASIL 4.0；9-15歲 G9 4.0／GARDASIL 2.7。",
+      "text": "5.5 4.0 4.0 2.7 搔癢",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "瘀傷（注射部位）",
+      "claim": "ae:hpv-gardasil9-pct:1",
+      "summary": "瘀傷：16-26歲 G9 1.9／GARDASIL 1.9；9-15歲 G9 0／GARDASIL 0。",
+      "text": "1.9 1.9 0 0 瘀傷",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "血腫（注射部位）",
+      "claim": "ae:hpv-gardasil9-pct:2",
+      "summary": "血腫：16-26歲 G9 0.9／GARDASIL 0.6；9-15歲 G9 3.7／GARDASIL 4.7。",
+      "text": "0.9 0.6 3.7 4.7 血腫",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "腫塊（注射部位）",
+      "claim": "ae:hpv-gardasil9-pct:3",
+      "summary": "腫塊：16-26歲 G9 1.3／GARDASIL 0.6；9-15歲 G9 0／GARDASIL 0。",
+      "text": "1.3 0.6 0 0 腫塊",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "出血（注射部位）",
+      "claim": "ae:hpv-gardasil9-pct:4",
+      "summary": "出血：16-26歲 G9 1.0／GARDASIL 0.7；9-15歲 G9 1.0／GARDASIL 2.0。",
+      "text": "1.0 0.7 1.0 2.0 出血",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "硬塊（注射部位）",
+      "claim": "ae:hpv-gardasil9-pct:5",
+      "summary": "硬塊：16-26歲 G9 0.8／GARDASIL 0.2；9-15歲 G9 2.0／GARDASIL 1.0。",
+      "text": "0.8 0.2 2.0 1.0 硬塊",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "溫熱感（注射部位）",
+      "claim": "ae:hpv-gardasil9-pct:6",
+      "summary": "溫熱感：16-26歲 G9 0.8／GARDASIL 0.5；9-15歲 G9 0.7／GARDASIL 1.7。",
+      "text": "0.8 0.5 0.7 1.7 溫熱感",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "其他注射部位反應",
+      "claim": "ae:hpv-gardasil9-pct:7",
+      "summary": "其他注射部位反應：16-26歲 G9 0.6／GARDASIL 0.6；9-15歲 G9 0.3／GARDASIL 1.0。",
+      "text": "0.6 0.6 0.3 1.0 其他注射部位反應",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "頭痛（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:8",
+      "summary": "頭痛：16-26歲 G9 14.6／GARDASIL 13.7；9-15歲 G9 11.4／GARDASIL 11.3。",
+      "text": "14.6 13.7 11.4 11.3 頭痛",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "發燒（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:9",
+      "summary": "發燒：16-26歲 G9 5.0／GARDASIL 4.3；9-15歲 G9 5.0／GARDASIL 2.7。",
+      "text": "5.0 4.3 5.0 2.7 發燒",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "噁心（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:10",
+      "summary": "噁心：16-26歲 G9 4.4／GARDASIL 3.7；9-15歲 G9 3.0／GARDASIL 3.7。",
+      "text": "4.4 3.7 3.0 3.7 噁心",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "暈眩（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:11",
+      "summary": "暈眩：16-26歲 G9 3.0／GARDASIL 2.8；9-15歲 G9 0.7／GARDASIL 0.7。",
+      "text": "3.0 2.8 0.7 0.7 暈眩",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "疲倦（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:12",
+      "summary": "疲倦：16-26歲 G9 2.3／GARDASIL 2.1；9-15歲 G9 0／GARDASIL 2.7。",
+      "text": "2.3 2.1 0 2.7 疲倦",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "腹瀉（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:13",
+      "summary": "腹瀉：16-26歲 G9 1.2／GARDASIL 1.0；9-15歲 G9 0.3／GARDASIL 0。",
+      "text": "1.2 1.0 0.3 0 腹瀉",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "口咽疼痛（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:14",
+      "summary": "口咽疼痛：16-26歲 G9 1.0／GARDASIL 0.6；9-15歲 G9 2.7／GARDASIL 0.7。",
+      "text": "1.0 0.6 2.7 0.7 口咽疼痛",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "肌痛（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:15",
+      "summary": "肌痛：16-26歲 G9 1.0／GARDASIL 0.7；9-15歲 G9 0.7／GARDASIL 0.7。",
+      "text": "1.0 0.7 0.7 0.7 肌痛",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "上腹痛（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:16",
+      "summary": "上腹痛：16-26歲 G9 0.7／GARDASIL 0.8；9-15歲 G9 1.7／GARDASIL 1.3。",
+      "text": "0.7 0.8 1.7 1.3 上腹痛",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S30",
+      "table": "hpv-gardasil9-pct",
+      "title": "表2：接種任一劑GARDASIL 9後之發生頻率≥1.0%的非徵集而得之注射部位不良反應與全身性不良反應的發生率(%)，以及和GARDASIL比較的結果（研究1和3；欄位＝16-26歲女孩和女性 GARDASIL9(N=7071)／GARDASIL(N=7078)、9-15歲女孩 GARDASIL9(N=299)／GARDASIL(N=300)）",
+      "population": "",
+      "label": "上呼吸道感染（全身性）",
+      "claim": "ae:hpv-gardasil9-pct:17",
+      "summary": "上呼吸道感染：16-26歲 G9 0.1／GARDASIL 0.1；9-15歲 G9 0.3／GARDASIL 1.0。",
+      "text": "0.1 0.1 0.3 1.0 上呼吸道感染",
+      "missingNumbers": [
+        "16",
+        "26",
+        "9",
+        "9",
+        "15",
+        "9"
+      ]
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "一般發生",
+      "claim": "ae:mmr-mmrii-notes-p7:0",
+      "summary": "一般發生：注射部位短暫灼熱感／刺痛感。",
+      "text": "注射部位有短時間的灼熱感和∕或刺痛感。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "偶而發生 · 全身",
+      "claim": "ae:mmr-mmrii-notes-p7:1",
+      "summary": "偶而發生（全身）：發燒101°F(38.3°C)或更高。",
+      "text": "發燒(101ºF [38.3ºC]或更高)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "偶而發生 · 皮膚",
+      "claim": "ae:mmr-mmrii-notes-p7:2",
+      "summary": "偶而發生（皮膚）：發疹或似麻疹樣疹，通常小範圍，也可能全身性。",
+      "text": "發疹或似麻疹樣的疹，通常是小範圍，但也可能是全身性。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "偶而發生 · 時間點",
+      "claim": "ae:mmr-mmrii-notes-p7:3",
+      "summary": "發燒／發疹通常出現在接種後第5至12天之間。",
+      "text": "大體上，發燒、發疹，或二者出現在接種後第 5 天及第 12 天之間。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "很少發生 · 全身",
+      "claim": "ae:mmr-mmrii-notes-p7:4",
+      "summary": "很少發生（全身）：輕微局部反應（紅斑、硬塊、觸痛）、喉嚨痛、身體不適、異常麻疹、暈厥、暴躁。",
+      "text": "輕微局部反應如紅斑、硬塊及觸痛；喉嚨痛、身體不適、異常麻疹、暈厥、暴躁",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "很少發生 · 心血管",
+      "claim": "ae:mmr-mmrii-notes-p7:5",
+      "summary": "很少發生（心血管）：血管炎。",
+      "text": "血管炎",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "很少發生 · 消化方面",
+      "claim": "ae:mmr-mmrii-notes-p7:6",
+      "summary": "很少發生（消化）：腮腺炎、噁心、嘔吐、腹瀉。",
+      "text": "腮腺炎、噁心、嘔吐、腹瀉",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "很少發生 · 血液/淋巴系統",
+      "claim": "ae:mmr-mmrii-notes-p7:7",
+      "summary": "很少發生（血液/淋巴）：局部淋巴腺病變、血小板減少、紫斑。",
+      "text": "局部淋巴腺病變(lymphadenopathy)、血小板減少、紫斑(purpura)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "很少發生 · 過敏性",
+      "claim": "ae:mmr-mmrii-notes-p7:8",
+      "summary": "很少發生（過敏性）：過敏反應（注射部位風疹塊、紅腫）、過敏性/類過敏性反應、神經血管性水腫（末梢或臉部）等。",
+      "text": "過敏反應如注射部位出現風疹塊及紅腫 、 過敏性及類過敏性反應 、 相關的現象如神經血管性水腫（包括末梢或臉部水腫）",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p7",
+      "title": "副作用（依發生頻率：一般發生／偶而發生／很少發生，各系統器官逐項列出，p.7）",
+      "population": "",
+      "label": "很少發生 · 過敏性（續）",
+      "claim": "ae:mmr-mmrii-notes-p7:9",
+      "summary": "很少發生（過敏性續）：支氣管痙攣、蕁痲疹（不論有無過敏病史）。",
+      "text": "和支氣管的痙攣、蕁痲疹發生於不論是否有過敏病史的病人",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 肌肉骨骼方面",
+      "claim": "ae:mmr-mmrii-notes-p8:0",
+      "summary": "很少發生（肌肉骨骼）：關節痛及/或關節炎（通常暫時性）、肌肉痛。",
+      "text": "關節痛及∕或關節炎（通常為暫時性且很少為慢性[詳參下述]） 、肌肉痛",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 神經/精神方面(1)",
+      "claim": "ae:mmr-mmrii-notes-p8:1",
+      "summary": "很少發生（神經/精神）：小孩發燒性痙攣、非發燒性痙攣或癲癇發作、頭痛、頭昏、感覺異常、多發性神經炎/神經病變等（原句跨行，續下二則）。",
+      "text": "小孩發燒性痙攣、非發燒性痙攣或癲癇發作、頭痛、頭昏、感覺異常、多發性神經炎(polyneuritis)、多發性神經病變",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 神經/精神方面(2)",
+      "claim": "ae:mmr-mmrii-notes-p8:2",
+      "summary": "續上：Guillain-Barre症候群、運動失調、急性瀰散型腦脊髓炎(ADEM)。",
+      "text": "(polyneuropathy)、Guillain-Barre 症候群、運動失調、急性瀰散型腦脊髓炎(acute disseminated encephalomyelitis,",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 神經/精神方面(3)",
+      "claim": "ae:mmr-mmrii-notes-p8:3",
+      "summary": "續上：橫貫性脊髓炎、無菌性腦膜炎、麻疹包涵體腦炎、腦炎/腦病變。",
+      "text": "ADEM)、橫貫性脊髓炎(transverse myelitis)、無菌性腦膜炎[詳參下述]、麻疹包涵體腦炎[見禁忌症]、腦炎∕腦病變[詳參",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 呼吸系統",
+      "claim": "ae:mmr-mmrii-notes-p8:4",
+      "summary": "很少發生（呼吸系統）：感染性肺炎、肺炎、咳嗽、鼻炎。",
+      "text": "感染性肺炎、肺炎(見禁忌症)、咳嗽、鼻炎",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 皮膚(1)",
+      "claim": "ae:mmr-mmrii-notes-p8:5",
+      "summary": "很少發生（皮膚）：多形紅斑、Stevens-Johnson症候群、類過敏性紫斑症、嬰兒急性出血性水腫等（原句跨行，續下則）。",
+      "text": "多形紅斑(erythema multiforme)、Stevens-Johnson 症候群、類過敏性紫斑症(Henoch-Schönlein purpura)、嬰兒急性出",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 皮膚(2)",
+      "claim": "ae:mmr-mmrii-notes-p8:6",
+      "summary": "續上：注射部位發疱、腫脹、搔癢。",
+      "text": "血性水腫、注射部位發疱、腫脹、搔癢",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 特殊感覺(1)",
+      "claim": "ae:mmr-mmrii-notes-p8:7",
+      "summary": "很少發生（特殊感覺）：多種視神經炎、視神經乳頭炎、網膜炎、眼麻痺、中耳炎、神經性耳聾等（續下則）。",
+      "text": "多種視神經炎、包括眼球後神經炎(retrobulbar neuritis)、視神經乳頭炎(papillitis)及網膜炎；眼麻痺、中耳炎、神經性耳",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 特殊感覺(2)",
+      "claim": "ae:mmr-mmrii-notes-p8:8",
+      "summary": "續上：神經性耳聾、結膜炎。",
+      "text": "聾、結膜炎",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 泌尿生殖器",
+      "claim": "ae:mmr-mmrii-notes-p8:9",
+      "summary": "很少發生（泌尿生殖器）：副睪丸炎、睪丸炎。",
+      "text": "副睪丸炎(Epididymitis)、睪丸炎(orchitis)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S31",
+      "table": "mmr-mmrii-notes-p8",
+      "title": "副作用（依發生頻率：很少發生，續表，p.8）",
+      "population": "",
+      "label": "很少發生 · 其他（死亡）",
+      "claim": "ae:mmr-mmrii-notes-p8:10",
+      "summary": "極罕見因各種或不明原因死亡的通報，因果關係尚未充分明瞭（詳原文）。",
+      "text": "在接種麻疹、腮腺炎及德國麻疹疫苗後，極罕見因為各種原因或不明原因而導致的死亡。然而，在健康成人身上(參見",
+      "missingNumbers": []
+    },
+    {
+      "source": "S32",
+      "table": "pcv-prevenar13-notes-p11",
+      "title": "8.3 上市後經驗（發生頻率不明，依系統器官分項，p.11）",
+      "population": "",
+      "label": "血液與淋巴系統疾病",
+      "claim": "ae:pcv-prevenar13-notes-p11:0",
+      "summary": "上市後經驗（頻率不明）：淋巴結腫大（侷限於注射部位附近）。",
+      "text": "淋巴結腫大（侷限於注射部位附近）",
+      "missingNumbers": []
+    },
+    {
+      "source": "S32",
+      "table": "pcv-prevenar13-notes-p11",
+      "title": "8.3 上市後經驗（發生頻率不明，依系統器官分項，p.11）",
+      "population": "",
+      "label": "免疫系系統疾病",
+      "claim": "ae:pcv-prevenar13-notes-p11:1",
+      "summary": "上市後經驗（頻率不明）：過敏性/嚴重急性過敏性反應（包括休克）、血管水腫。",
+      "text": "過敏性/嚴重急性過敏性反應（包括休克）、血管水腫",
+      "missingNumbers": []
+    },
+    {
+      "source": "S32",
+      "table": "pcv-prevenar13-notes-p12",
+      "title": "8.3 上市後經驗（發生頻率不明，依系統器官分項，續，p.12）",
+      "population": "",
+      "label": "皮膚與皮下組織疾病",
+      "claim": "ae:pcv-prevenar13-notes-p12:0",
+      "summary": "上市後經驗（頻率不明）：多形性紅斑。",
+      "text": "多形性紅斑",
+      "missingNumbers": []
+    },
+    {
+      "source": "S32",
+      "table": "pcv-prevenar13-notes-p12",
+      "title": "8.3 上市後經驗（發生頻率不明，依系統器官分項，續，p.12）",
+      "population": "",
+      "label": "全身性疾病與注射部位的局部反應",
+      "claim": "ae:pcv-prevenar13-notes-p12:1",
+      "summary": "上市後經驗（頻率不明）：注射部位蕁麻疹、皮膚炎、搔癢；潮紅。",
+      "text": "注射部位蕁麻疹；注射部位皮膚炎；注射部位搔癢；潮紅",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "臨床試驗中最常見（注射部位）",
+      "claim": "ae:ppv23-pneumovax-notes:0",
+      "summary": "臨床試驗中最常見不良經驗：注射部位局部反應（酸痛、紅斑、溫熱感、結塊）。",
+      "text": "注射部位的局部反應包括酸痛、紅斑、溫熱感及結塊。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "臨床試驗中最常見（發燒）",
+      "claim": "ae:ppv23-pneumovax-notes:1",
+      "summary": "臨床試驗中最常見不良經驗：高燒≦38.9°C(102°F)。",
+      "text": "高燒≦38.9°C (102°F)。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "全身性異常及投藥部位狀態",
+      "claim": "ae:ppv23-pneumovax-notes:2",
+      "summary": "其他通報：全身性異常及投藥部位狀態—蜂窩性組織炎、衰弱、身體不適、發燒>38.9°C(102°F)、發冷、疼痛、四肢活動力降低、注射部位周圍腫脹。",
+      "text": "全身性的異常及投藥部位狀態：蜂窩性組織炎、衰弱、身體不適、發燒 〔＞38.9°C (102°F)〕、發冷、疼痛、四肢活動力降低、注射部位的肢體 周圍腫脹。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "消化系統",
+      "claim": "ae:ppv23-pneumovax-notes:3",
+      "summary": "其他通報：消化系統—噁心、嘔吐。",
+      "text": "消化系統：噁心、嘔吐。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "血液/淋巴系統",
+      "claim": "ae:ppv23-pneumovax-notes:4",
+      "summary": "其他通報：血液/淋巴系統—淋巴腺炎、淋巴腺病變、血小板減少症、溶血性貧血、白血球增生。",
+      "text": "血液∕淋巴系統：淋巴腺炎、淋巴腺病變、血小板減少症（發生於患有病 情穩定之自發性血小板減少性紫斑症之病人）、溶血性貧血（發生於患 有其他血液疾病的病人）、白血球增生。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "過敏反應",
+      "claim": "ae:ppv23-pneumovax-notes:5",
+      "summary": "其他通報：過敏反應—無防禦性過敏反應、血清病、血管神經性水腫。",
+      "text": "過敏反應包括：無防禦性過敏反應、血清病、血管神經性水腫。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "肌肉骨骼系統",
+      "claim": "ae:ppv23-pneumovax-notes:6",
+      "summary": "其他通報：肌肉骨骼系統—關節痛、關節炎、肌痛。",
+      "text": "肌肉骨骼系統：關節痛、關節炎、肌痛。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "神經系統",
+      "claim": "ae:ppv23-pneumovax-notes:7",
+      "summary": "其他通報：神經系統—頭痛、感覺異常、神經根部病變、Guillain-Barré氏症、熱痙攣。",
+      "text": "神經系統：頭痛、感覺異常、神經根部病變、Guillain- Barré 氏症、熱痙 攣。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "皮膚",
+      "claim": "ae:ppv23-pneumovax-notes:8",
+      "summary": "其他通報：皮膚—皮疹、蕁痲疹、多型性紅斑。",
+      "text": "皮膚：皮疹、蕁痲疹、多型性紅斑。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "調查研究",
+      "claim": "ae:ppv23-pneumovax-notes:9",
+      "summary": "其他通報：調查研究—血清C反應蛋白升高。",
+      "text": "調查研究：血清 C 反應蛋白升高。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S33",
+      "table": "ppv23-pneumovax-notes",
+      "title": "不良反應（原件為敘述句列出，未按百分比或發生頻率分級，依系統器官逐項）",
+      "population": "",
+      "label": "上市後經驗（類蜂窩組織炎）",
+      "claim": "ae:ppv23-pneumovax-notes:10",
+      "summary": "上市後監測：注射部位類蜂窩組織炎反應罕見（1989-2002年銷售4300萬劑，年報告率≤2/100,000劑）。",
+      "text": "上市後的經驗顯示，注射部位的類蜂窩組織炎反應的報告很少見，在 1989 至 2002 年間之銷售量將近 4 千 3 百萬劑，這段期間的 年報告率係每 100,000 劑小於或等於 2 個案例。",
+      "missingNumbers": [
+        "4300"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "疼痛",
+      "claim": "ae:tdap-adacel-notes-1:0",
+      "summary": "注射部位疼痛：兒童 4-6 歲 39.6%、青少年 11-17 歲 77.8%、成人 18-64 歲 65.7%、成人 ≥65 歲 43.0%。",
+      "text": "疼痛 39.6 77.8 65.7 43.0",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "腫脹",
+      "claim": "ae:tdap-adacel-notes-1:1",
+      "summary": "注射部位腫脹：兒童 4-6 歲 24.2%、青少年 11-17 歲 20.9%、成人 18-64 歲 21.0%、成人 ≥65 歲 18.1%。",
+      "text": "腫脹 24.2 20.9 21.0 18.1",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "皮膚發紅",
+      "claim": "ae:tdap-adacel-notes-1:2",
+      "summary": "注射部位皮膚發紅：兒童 4-6 歲 34.6%、青少年 11-17 歲 20.8%、成人 18-64 歲 24.7%、成人 ≥65 歲 24.3%。",
+      "text": "皮膚發紅 34.6 20.8 24.7 24.3",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "發燒（≥38℃）",
+      "claim": "ae:tdap-adacel-notes-1:3",
+      "summary": "發燒（≥38℃）：兒童 4-6 歲 8.7%、青少年 11-17 歲 5.0%、成人 18-64 歲 1.4%、成人 ≥65 歲 0.5%。",
+      "text": "發燒（≥38℃） 8.7 5.0 1.4 0.5",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "頭痛",
+      "claim": "ae:tdap-adacel-notes-1:4",
+      "summary": "頭痛：兒童 4-6 歲 16.4%、青少年 11-17 歲 43.7%、成人 18-64 歲 33.9%、成人 ≥65 歲 18.2%。",
+      "text": "頭痛 16.4 43.7 33.9 18.2",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "噁心",
+      "claim": "ae:tdap-adacel-notes-1:5",
+      "summary": "噁心：兒童 4-6 歲 9.4%、青少年 11-17 歲 13.3%、成人 18-64 歲 9.2%、成人 ≥65 歲 無資料（N.S.）。",
+      "text": "噁心 9.4 13.3 9.2 N.S.*",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "腹瀉",
+      "claim": "ae:tdap-adacel-notes-1:6",
+      "summary": "腹瀉：兒童 4-6 歲 14.4%、青少年 11-17 歲 10.3%、成人 18-64 歲 10.3%、成人 ≥65 歲 無資料（N.S.）。",
+      "text": "腹瀉 14.4 10.3 10.3 N.S.*",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "嘔吐",
+      "claim": "ae:tdap-adacel-notes-1:7",
+      "summary": "嘔吐：兒童 4-6 歲 8.1%、青少年 11-17 歲 4.6%、成人 18-64 歲 3.0%、成人 ≥65 歲 無資料（N.S.）。",
+      "text": "嘔吐 8.1 4.6 3.0 N.S.*",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "厭食",
+      "claim": "ae:tdap-adacel-notes-1:8",
+      "summary": "厭食：兒童 4-6 歲 21.5%、青少年 11-17 歲 無資料（N.S.）、成人 18-64 歲 無資料（N.S.）、成人 ≥65 歲 無資料（N.S.）。",
+      "text": "厭食 21.5 N.S* N.S* N.S.*",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "皮疹",
+      "claim": "ae:tdap-adacel-notes-1:9",
+      "summary": "皮疹：兒童 4-6 歲 8.4%、青少年 11-17 歲 2.7%、成人 18-64 歲 2.0%、成人 ≥65 歲 無資料（N.S.）。",
+      "text": "皮疹 8.4 2.7 2.0 N.S.*",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "身體疼痛或肌肉無力†/肌痛‡",
+      "claim": "ae:tdap-adacel-notes-1:10",
+      "summary": "身體疼痛或肌肉無力（兒童／青少年／18-64 歲成人）／肌痛（≥65 歲成人）：兒童 4-6 歲 6.4%、青少年 11-17 歲 30.4%、成人 18-64 歲 21.9%、成人 ≥65 歲 28.4%。",
+      "text": "身體疼痛或肌肉無力†/肌痛‡ 6.4 30.4 21.9 28.4",
+      "missingNumbers": [
+        "18",
+        "64",
+        "65",
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "關節酸痛或腫脹",
+      "claim": "ae:tdap-adacel-notes-1:11",
+      "summary": "關節酸痛或腫脹：兒童 4-6 歲 4.0%、青少年 11-17 歲 11.3%、成人 18-64 歲 9.1%、成人 ≥65 歲 無資料（N.S.）。",
+      "text": "關節酸痛或腫脹 4.0 11.3 9.1 N.S.*",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "疲倦§/全身無力**",
+      "claim": "ae:tdap-adacel-notes-1:12",
+      "summary": "疲倦（兒童／青少年／18-64 歲成人）／全身無力（≥65 歲成人）：兒童 4-6 歲 31.5%、青少年 11-17 歲 30.2%、成人 18-64 歲 24.3%、成人 ≥65 歲 17.2%。",
+      "text": "疲倦§/全身無力** 31.5 30.2 24.3 17.2",
+      "missingNumbers": [
+        "18",
+        "64",
+        "65",
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "寒顫",
+      "claim": "ae:tdap-adacel-notes-1:13",
+      "summary": "寒顫：兒童 4-6 歲 7.1%、青少年 11-17 歲 15.1%、成人 18-64 歲 8.1%、成人 ≥65 歲 無資料（N.S.）。",
+      "text": "寒顫 7.1 15.1 8.1 N.S.*",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-1",
+      "title": "表 1：臨床試驗中，兒童、青少年及成人接種 ADACEL 單一劑量後 0-14 天內，出現的不良反應發生率(%)（兒童4-6歲298名／青少年11-17歲1,184名／成人18-64歲1,752名／成人≥65歲1,153名；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，僅標示各欄相對高低與趨勢，實際數值請見原件表1）",
+      "population": "",
+      "label": "腋下淋巴結腫脹",
+      "claim": "ae:tdap-adacel-notes-1:14",
+      "summary": "腋下淋巴結腫脹：兒童 4-6 歲 5.4%、青少年 11-17 歲 6.6%、成人 18-64 歲 6.5%、成人 ≥65 歲 無資料（N.S.）。",
+      "text": "腋下淋巴結腫脹 5.4 6.6 6.5 N.S.*",
+      "missingNumbers": [
+        "4",
+        "6",
+        "11",
+        "17",
+        "18",
+        "64",
+        "65"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-2",
+      "title": "表 2：青少年及成人在 5 年後及 10 年後追加接種 ADACEL 的不良反應發生率(%)（青少年及成人16-69歲544名，5年後接種後0-14天；成人20-72歲361名，10年後接種後0-7天；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，實際數值請見原件表2）",
+      "population": "",
+      "label": "疼痛",
+      "claim": "ae:tdap-adacel-notes-2:0",
+      "summary": "注射部位疼痛：5 年後追加接種 87.6%、10 年後追加接種 87.8%。",
+      "text": "疼痛 87.6 87.8",
+      "missingNumbers": [
+        "5",
+        "10"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-2",
+      "title": "表 2：青少年及成人在 5 年後及 10 年後追加接種 ADACEL 的不良反應發生率(%)（青少年及成人16-69歲544名，5年後接種後0-14天；成人20-72歲361名，10年後接種後0-7天；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，實際數值請見原件表2）",
+      "population": "",
+      "label": "紅斑/發紅",
+      "claim": "ae:tdap-adacel-notes-2:1",
+      "summary": "注射部位紅斑／發紅：5 年後追加接種 28.6%、10 年後追加接種 23.1%。",
+      "text": "紅斑/發紅 28.6 23.1",
+      "missingNumbers": [
+        "5",
+        "10"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-2",
+      "title": "表 2：青少年及成人在 5 年後及 10 年後追加接種 ADACEL 的不良反應發生率(%)（青少年及成人16-69歲544名，5年後接種後0-14天；成人20-72歲361名，10年後接種後0-7天；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，實際數值請見原件表2）",
+      "population": "",
+      "label": "腫脹",
+      "claim": "ae:tdap-adacel-notes-2:2",
+      "summary": "注射部位腫脹：5 年後追加接種 25.6%、10 年後追加接種 20.5%。",
+      "text": "腫脹 25.6 20.5",
+      "missingNumbers": [
+        "5",
+        "10"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-2",
+      "title": "表 2：青少年及成人在 5 年後及 10 年後追加接種 ADACEL 的不良反應發生率(%)（青少年及成人16-69歲544名，5年後接種後0-14天；成人20-72歲361名，10年後接種後0-7天；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，實際數值請見原件表2）",
+      "population": "",
+      "label": "發燒",
+      "claim": "ae:tdap-adacel-notes-2:3",
+      "summary": "發燒：5 年後追加接種 6.5%、10 年後追加接種 4.2%。",
+      "text": "發燒 6.5 4.2",
+      "missingNumbers": [
+        "5",
+        "10"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-2",
+      "title": "表 2：青少年及成人在 5 年後及 10 年後追加接種 ADACEL 的不良反應發生率(%)（青少年及成人16-69歲544名，5年後接種後0-14天；成人20-72歲361名，10年後接種後0-7天；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，實際數值請見原件表2）",
+      "population": "",
+      "label": "頭痛",
+      "claim": "ae:tdap-adacel-notes-2:4",
+      "summary": "頭痛：5 年後追加接種 53.2%、10 年後追加接種 40.6%。",
+      "text": "頭痛 53.2 40.6",
+      "missingNumbers": [
+        "5",
+        "10"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-2",
+      "title": "表 2：青少年及成人在 5 年後及 10 年後追加接種 ADACEL 的不良反應發生率(%)（青少年及成人16-69歲544名，5年後接種後0-14天；成人20-72歲361名，10年後接種後0-7天；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，實際數值請見原件表2）",
+      "population": "",
+      "label": "肌痛",
+      "claim": "ae:tdap-adacel-notes-2:5",
+      "summary": "肌痛：5 年後追加接種 61.0%、10 年後追加接種 60.1%。",
+      "text": "肌痛 61.0 60.1",
+      "missingNumbers": [
+        "5",
+        "10"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-2",
+      "title": "表 2：青少年及成人在 5 年後及 10 年後追加接種 ADACEL 的不良反應發生率(%)（青少年及成人16-69歲544名，5年後接種後0-14天；成人20-72歲361名，10年後接種後0-7天；PDF 表格數值本身無 % 符號緊鄰、僅表頭標註(%)，故摘要不寫百分比數字，實際數值請見原件表2）",
+      "population": "",
+      "label": "全身無力",
+      "claim": "ae:tdap-adacel-notes-2:6",
+      "summary": "全身無力：5 年後追加接種 38.2%、10 年後追加接種 29.4%。",
+      "text": "全身無力 38.2 29.4",
+      "missingNumbers": [
+        "5",
+        "10"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-3",
+      "title": "上市後經驗之數據（自發性通報，因族群人數不確定，無法估計可靠發生率或因果關係）",
+      "population": "",
+      "label": "免疫系統疾患",
+      "claim": "ae:tdap-adacel-notes-3:0",
+      "summary": "免疫系統疾患：過敏（立即型過敏）反應，包括血管水腫、水腫、皮疹、低血壓。",
+      "text": "過敏（立即型過敏）反應（血管水腫、水腫、皮疹、低血壓）",
+      "missingNumbers": []
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-3",
+      "title": "上市後經驗之數據（自發性通報，因族群人數不確定，無法估計可靠發生率或因果關係）",
+      "population": "",
+      "label": "神經系統疾患",
+      "claim": "ae:tdap-adacel-notes-3:1",
+      "summary": "神經系統疾患：感覺異常、感覺遲鈍、Guillain-Barré 症候群、臂神經炎、臉部麻痺、痙攣、昏厥、脊髓炎。",
+      "text": "感覺異常、感覺遲鈍、Guillain-Barré 症候群、臂神經炎、臉部麻痺、痙攣、昏厥、脊髓炎",
+      "missingNumbers": []
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-3",
+      "title": "上市後經驗之數據（自發性通報，因族群人數不確定，無法估計可靠發生率或因果關係）",
+      "population": "",
+      "label": "心臟疾患",
+      "claim": "ae:tdap-adacel-notes-3:2",
+      "summary": "心臟疾患：心肌炎。",
+      "text": "心肌炎",
+      "missingNumbers": []
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-3",
+      "title": "上市後經驗之數據（自發性通報，因族群人數不確定，無法估計可靠發生率或因果關係）",
+      "population": "",
+      "label": "皮膚及皮下組織疾患",
+      "claim": "ae:tdap-adacel-notes-3:3",
+      "summary": "皮膚及皮下組織疾患：搔癢、蕁麻疹。",
+      "text": "搔癢、蕁麻疹",
+      "missingNumbers": []
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-3",
+      "title": "上市後經驗之數據（自發性通報，因族群人數不確定，無法估計可靠發生率或因果關係）",
+      "population": "",
+      "label": "肌肉骨骼及結締組織疾患",
+      "claim": "ae:tdap-adacel-notes-3:4",
+      "summary": "肌肉骨骼及結締組織疾患：肌炎、肌肉痙攣。",
+      "text": "肌炎、肌肉痙攣",
+      "missingNumbers": []
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-3",
+      "title": "上市後經驗之數據（自發性通報，因族群人數不確定，無法估計可靠發生率或因果關係）",
+      "population": "",
+      "label": "全身性不適及注射部位的狀況",
+      "claim": "ae:tdap-adacel-notes-3:5",
+      "summary": "青少年及成人接種後，注射部位可能出現大範圍不良反應（>50毫米）並擴及1-2關節範圍的腫脹，通常在接種後24-72小時內發生，多於3-5天內自動消失，風險與先前接種含非細胞型百日咳疫苗的次數有關。",
+      "text": "青少年及成人接種ADACEL®後，在注射部位曾出現大範圍的不良反應（>50毫米）及在四肢出現從注射部位擴及1-2關節範圍的腫脹",
+      "missingNumbers": [
+        "24",
+        "72",
+        "3",
+        "5"
+      ]
+    },
+    {
+      "source": "S36",
+      "table": "tdap-adacel-notes-3",
+      "title": "上市後經驗之數據（自發性通報，因族群人數不確定，無法估計可靠發生率或因果關係）",
+      "population": "",
+      "label": "注射部位其他反應",
+      "claim": "ae:tdap-adacel-notes-3:6",
+      "summary": "注射部位反應另含瘀青、無菌性膿瘍。",
+      "text": "注射部位出現瘀青、無菌性膿瘍",
+      "missingNumbers": []
+    },
+    {
+      "source": "S38",
+      "table": "hexa-hexaxim-notes",
+      "title": "4.8 c-特定不良反應之描述：廣泛性肢體腫脹",
+      "population": "",
+      "label": "廣泛性肢體腫脹",
+      "claim": "ae:hexa-hexaxim-notes:0",
+      "summary": "兒童偶見大範圍(>50mm)注射部位反應，可擴及1-2個關節處。",
+      "text": "兒童曾有大範圍注射部位反應( >50 mm)之報告，包括從注射部位擴及至1個或2個關",
+      "missingNumbers": []
+    },
+    {
+      "source": "S38",
+      "table": "hexa-hexaxim-notes",
+      "title": "4.8 c-特定不良反應之描述：廣泛性肢體腫脹",
+      "population": "",
+      "label": "廣泛性肢體腫脹（續）發生時序",
+      "claim": "ae:hexa-hexaxim-notes:1",
+      "summary": "反應可擴及關節處，接種後24-72小時內開始出現，可伴隨紅斑、溫熱感。",
+      "text": "節處的廣泛性肢體腫脹。這些反應在接種後24-72小時內會開始出現，可能伴隨注射部位紅斑、溫熱感、",
+      "missingNumbers": []
+    },
+    {
+      "source": "S38",
+      "table": "hexa-hexaxim-notes",
+      "title": "4.8 c-特定不良反應之描述：廣泛性肢體腫脹",
+      "population": "",
+      "label": "廣泛性肢體腫脹（續）消退與風險因子",
+      "claim": "ae:hexa-hexaxim-notes:2",
+      "summary": "壓痛或疼痛，3-5天內自動消失；風險與先前接種非細胞性百日咳疫苗次數有關。",
+      "text": "壓痛或疼痛且3-5天內會自動消失。此風險與先前注射含非細胞性百日咳疫苗的次數有關，第4劑接種後",
+      "missingNumbers": []
+    },
+    {
+      "source": "S38",
+      "table": "hexa-hexaxim-notes",
+      "title": "4.8 c-特定不良反應之描述：廣泛性肢體腫脹",
+      "population": "",
+      "label": "廣泛性肢體腫脹（續）第4劑風險較高",
+      "claim": "ae:hexa-hexaxim-notes:3",
+      "summary": "第4劑接種後發生的風險較高。",
+      "text": "發生的風險較高。",
+      "missingNumbers": [
+        "4"
+      ]
+    },
+    {
+      "source": "S39",
+      "table": "hexa-infanrixhexa-notes",
+      "title": "仿單不良反應：上市後監視資料首列（免疫系統疾患）",
+      "population": "",
+      "label": "免疫系統疾患／罕見",
+      "claim": "ae:hexa-infanrixhexa-notes:0",
+      "summary": "免疫系統疾患：罕見發生過敏反應(包括嚴重過敏反應與類過敏反應)。",
+      "text": "過敏反應(包括嚴重過敏反應與類過敏",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes",
+      "title": "8.2 臨床試驗經驗：成人曾通報且與 Fluarix Tetra 或 Fluarix 相關的不良反應（依發生頻率）",
+      "population": "",
+      "label": "注射部位疼痛：極常見",
+      "claim": "ae:flu-fluarixtetra-notes:0",
+      "summary": "注射部位疼痛：極常見（≥1/10）。",
+      "text": "注射部位疼痛",
+      "missingNumbers": [
+        "1",
+        "10"
+      ]
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes",
+      "title": "8.2 臨床試驗經驗：成人曾通報且與 Fluarix Tetra 或 Fluarix 相關的不良反應（依發生頻率）",
+      "population": "",
+      "label": "注射部位發紅／腫脹／硬化：常見",
+      "claim": "ae:flu-fluarixtetra-notes:1",
+      "summary": "注射部位發紅、注射部位腫脹、注射部位硬化：常見（≥1/100 至 <1/10）。",
+      "text": "注射部位發紅、注射部位腫脹、注射部位硬化1常見",
+      "missingNumbers": [
+        "100",
+        "10"
+      ]
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes",
+      "title": "8.2 臨床試驗經驗：成人曾通報且與 Fluarix Tetra 或 Fluarix 相關的不良反應（依發生頻率）",
+      "population": "",
+      "label": "注射部位血腫／搔癢：少見",
+      "claim": "ae:flu-fluarixtetra-notes:2",
+      "summary": "注射部位血腫、注射部位搔癢：少見（≥1/1,000 至 <1/100）。",
+      "text": "注射部位血腫2、注射部位搔癢2",
+      "missingNumbers": [
+        "1",
+        "1",
+        "000",
+        "1",
+        "100"
+      ]
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes",
+      "title": "8.2 臨床試驗經驗：成人曾通報且與 Fluarix Tetra 或 Fluarix 相關的不良反應（依發生頻率）",
+      "population": "",
+      "label": "肌肉疼痛：極常見",
+      "claim": "ae:flu-fluarixtetra-notes:3",
+      "summary": "肌肉疼痛：極常見。",
+      "text": "肌肉疼痛",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes",
+      "title": "8.2 臨床試驗經驗：成人曾通報且與 Fluarix Tetra 或 Fluarix 相關的不良反應（依發生頻率）",
+      "population": "",
+      "label": "頭痛：常見",
+      "claim": "ae:flu-fluarixtetra-notes:4",
+      "summary": "頭痛：常見。",
+      "text": "頭痛",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-2",
+      "title": "8.2 臨床試驗經驗：成人（續）與 6 個月大至 <18 歲兒童曾通報之不良反應",
+      "population": "",
+      "label": "關節痛：常見（成人）",
+      "claim": "ae:flu-fluarixtetra-notes-2:0",
+      "summary": "關節痛：常見（成人）。",
+      "text": "關節痛",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-2",
+      "title": "8.2 臨床試驗經驗：成人（續）與 6 個月大至 <18 歲兒童曾通報之不良反應",
+      "population": "",
+      "label": "暈眩：少見（成人）",
+      "claim": "ae:flu-fluarixtetra-notes-2:1",
+      "summary": "暈眩：少見（成人）。",
+      "text": "暈眩2",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-2",
+      "title": "8.2 臨床試驗經驗：成人（續）與 6 個月大至 <18 歲兒童曾通報之不良反應",
+      "population": "",
+      "label": "胃腸症狀：常見（成人）",
+      "claim": "ae:flu-fluarixtetra-notes-2:2",
+      "summary": "胃腸症狀（噁心、嘔吐、腹瀉及/或腹痛）：常見（成人）。",
+      "text": "胃腸症狀(包括噁心、嘔吐、腹瀉及/或腹痛)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-2",
+      "title": "8.2 臨床試驗經驗：成人（續）與 6 個月大至 <18 歲兒童曾通報之不良反應",
+      "population": "",
+      "label": "出汗：常見（成人）",
+      "claim": "ae:flu-fluarixtetra-notes-2:3",
+      "summary": "出汗：常見（成人）。",
+      "text": "出汗1",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-2",
+      "title": "8.2 臨床試驗經驗：成人（續）與 6 個月大至 <18 歲兒童曾通報之不良反應",
+      "population": "",
+      "label": "疲倦：極常見（成人）",
+      "claim": "ae:flu-fluarixtetra-notes-2:4",
+      "summary": "疲倦：極常見（成人）。",
+      "text": "疲倦",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-2",
+      "title": "8.2 臨床試驗經驗：成人（續）與 6 個月大至 <18 歲兒童曾通報之不良反應",
+      "population": "",
+      "label": "顫抖、發燒：常見（成人）",
+      "claim": "ae:flu-fluarixtetra-notes-2:5",
+      "summary": "顫抖、發燒(>37.5°C)：常見（成人）。",
+      "text": "顫抖、發燒(>37.5°C)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-2",
+      "title": "8.2 臨床試驗經驗：成人（續）與 6 個月大至 <18 歲兒童曾通報之不良反應",
+      "population": "",
+      "label": "注射部位疼痛：極常見（兒童各年齡層）",
+      "claim": "ae:flu-fluarixtetra-notes-2:6",
+      "summary": "注射部位疼痛：6至<36月、3至<6歲、6至<18歲皆為極常見。",
+      "text": "注射部位疼痛",
+      "missingNumbers": [
+        "6",
+        "36",
+        "3",
+        "6",
+        "6",
+        "18"
+      ]
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-2",
+      "title": "8.2 臨床試驗經驗：成人（續）與 6 個月大至 <18 歲兒童曾通報之不良反應",
+      "population": "",
+      "label": "注射部位發紅：極常見（兒童各年齡層）",
+      "claim": "ae:flu-fluarixtetra-notes-2:7",
+      "summary": "注射部位發紅：兒童各年齡層皆為極常見。",
+      "text": "注射部位發紅",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-3",
+      "title": "8.2（續）兒童不良反應與 8.3 上市後經驗（依發生頻率）",
+      "population": "",
+      "label": "發燒(≥38.0°C)：兒童各年齡層",
+      "claim": "ae:flu-fluarixtetra-notes-3:0",
+      "summary": "發燒(≥38.0°C)：6至<36月、3至<6歲、6至<18歲皆為常見。",
+      "text": "發燒(≥38.0°C)",
+      "missingNumbers": [
+        "6",
+        "36",
+        "3",
+        "6",
+        "6",
+        "18"
+      ]
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-3",
+      "title": "8.2（續）兒童不良反應與 8.3 上市後經驗（依發生頻率）",
+      "population": "",
+      "label": "上市後：暫時性淋巴結病變等，罕見",
+      "claim": "ae:flu-fluarixtetra-notes-3:1",
+      "summary": "上市後經驗：暫時性淋巴結病變、血小板減少症、過敏反應（包括嚴重過敏反應）等，發生頻率罕見。",
+      "text": "暫時性淋巴結病變、血小板減少症、過敏反應(包括嚴重過敏反應)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S43",
+      "table": "flu-fluarixtetra-notes-3",
+      "title": "8.2（續）兒童不良反應與 8.3 上市後經驗（依發生頻率）",
+      "population": "",
+      "label": "上市後：GBS 等，罕見",
+      "claim": "ae:flu-fluarixtetra-notes-3:2",
+      "summary": "上市後經驗：神經炎、急性瀰漫性腦脊髓炎、Guillain-Barré 症候群等，發生頻率罕見。",
+      "text": "、神經炎、急性瀰漫性腦脊髓炎、Guillain-Barré症候群(GBS)2",
+      "missingNumbers": []
+    },
+    {
+      "source": "S44",
+      "table": "flu-adimflus-qis-notes",
+      "title": "4.8 不良事件：上市前臨床試驗（18 歲以上成人，依發生頻率）",
+      "population": "",
+      "label": "神經系統症狀：頭痛，非常常見",
+      "claim": "ae:flu-adimflus-qis-notes:0",
+      "summary": "頭痛：非常常見（18 歲以上成人）。",
+      "text": "非常常見：頭痛",
+      "missingNumbers": [
+        "18"
+      ]
+    },
+    {
+      "source": "S44",
+      "table": "flu-adimflus-qis-notes",
+      "title": "4.8 不良事件：上市前臨床試驗（18 歲以上成人，依發生頻率）",
+      "population": "",
+      "label": "神經系統症狀：嗜眠，不常見",
+      "claim": "ae:flu-adimflus-qis-notes:1",
+      "summary": "嗜眠：不常見（18 歲以上成人）。",
+      "text": "不常見：嗜眠",
+      "missingNumbers": [
+        "18"
+      ]
+    },
+    {
+      "source": "S44",
+      "table": "flu-adimflus-qis-notes",
+      "title": "4.8 不良事件：上市前臨床試驗（18 歲以上成人，依發生頻率）",
+      "population": "",
+      "label": "胃腸道症狀：噁心、嘔吐，常見",
+      "claim": "ae:flu-adimflus-qis-notes:2",
+      "summary": "噁心、嘔吐：常見；腹瀉：不常見（18 歲以上成人）。",
+      "text": "胃腸道症狀 常見：噁心、嘔吐 不常見：腹瀉",
+      "missingNumbers": [
+        "18"
+      ]
+    },
+    {
+      "source": "S44",
+      "table": "flu-adimflus-qis-notes",
+      "title": "4.8 不良事件：上市前臨床試驗（18 歲以上成人，依發生頻率）",
+      "population": "",
+      "label": "肌肉骨骼：肌肉疼痛，非常常見",
+      "claim": "ae:flu-adimflus-qis-notes:3",
+      "summary": "肌肉疼痛：非常常見；背痛：不常見（18 歲以上成人）。",
+      "text": "肌肉骨骼及結締組織疾病 非常常見：肌肉疼痛 不常見：背痛",
+      "missingNumbers": [
+        "18"
+      ]
+    },
+    {
+      "source": "S44",
+      "table": "flu-adimflus-qis-notes",
+      "title": "4.8 不良事件：上市前臨床試驗（18 歲以上成人，依發生頻率）",
+      "population": "",
+      "label": "全身性症狀：注射部位疼痛/腫脹，非常常見；注射部位發紅等，常見",
+      "claim": "ae:flu-adimflus-qis-notes:4",
+      "summary": "注射部位疼痛/腫脹、全身不適：非常常見；注射部位發紅、注射部位瘀斑、手臂活動困難、發燒、胸悶、臉部水腫：常見（18 歲以上成人）。",
+      "text": "全身性症狀及注射部位症狀非常常見：注射部位疼痛/腫脹、全身不適(malaise) 常見：注射部位發紅、注射部位瘀斑、手臂活動困難、發燒、胸悶、臉部水腫",
+      "missingNumbers": [
+        "18"
+      ]
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "注射部位疼痛：成人/兒童/老年人",
+      "claim": "ae:flu-vaxigriptetra-notes:0",
+      "summary": "注射部位疼痛：成人及3-17歲兒童52.8–56.5%、6-35個月兒童26.8%、老年人25.8%（最常見不良反應）。",
+      "text": "52.8-56.5%，6-35個月兒童：26.8%，老年人：25.8%）。24個月以下之次族群兒童最常發生的不良",
+      "missingNumbers": [
+        "3",
+        "17"
+      ]
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "煩躁不安：24個月以下兒童",
+      "claim": "ae:flu-vaxigriptetra-notes:1",
+      "summary": "煩躁不安：24個月以下次族群兒童32.3%（最常見）。",
+      "text": "反應為煩躁不安(32.3%)。",
+      "missingNumbers": [
+        "24"
+      ]
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "全身無力：24-35個月兒童",
+      "claim": "ae:flu-vaxigriptetra-notes:2",
+      "summary": "全身無力：24-35個月次族群兒童26.8%（最常見）。",
+      "text": "24-35個月之次族群兒童的最常見不良反應為全身無力(26.8%)。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "成人：頭痛/肌痛/全身無力",
+      "claim": "ae:flu-vaxigriptetra-notes:3",
+      "summary": "成人：頭痛27.8%、肌痛23%、全身無力19.2%。",
+      "text": "成人：頭痛(27.8%)、肌痛(23%)及全身無力(19.2%)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "老年人：頭痛/肌痛",
+      "claim": "ae:flu-vaxigriptetra-notes:4",
+      "summary": "老年人：頭痛15.6%、肌痛13.9%。",
+      "text": "老年人：頭痛(15.6%)及肌痛(13.9%)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "9-17歲兒童：肌痛/頭痛/全身無力/注射部位腫脹",
+      "claim": "ae:flu-vaxigriptetra-notes:5",
+      "summary": "9-17歲兒童：肌痛29.1%、頭痛24.7%、全身無力20.3%、注射部位腫脹10.7%。",
+      "text": "9-17歲兒童：肌痛(29.1%)、頭痛(24.7%)、全身無力(20.3%)及注射部位腫脹(10.7%)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "3-8歲兒童：全身無力/肌痛/頭痛/注射部位腫脹/發紅",
+      "claim": "ae:flu-vaxigriptetra-notes:6",
+      "summary": "3-8歲兒童：全身無力30.7%、肌痛28.5%、頭痛25.7%、注射部位腫脹20.5%、注射部位發紅20.4%（續見下列）。",
+      "text": "3-8歲兒童：全身無力(30.7%)、肌痛(28.5%)、頭痛(25.7%)、注射部位腫脹(20.5%)、注射部位發",
+      "missingNumbers": [
+        "20.4"
+      ]
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "3-8歲兒童（續）：注射部位發紅/硬結/顫抖",
+      "claim": "ae:flu-vaxigriptetra-notes:7",
+      "summary": "3-8歲兒童（接續上列）：注射部位發紅20.4%、注射部位硬結16.4%、顫抖11.2%。",
+      "text": "紅(20.4%)、注射部位硬結(16.4%)、顫抖(11.2%)。",
+      "missingNumbers": [
+        "3",
+        "8"
+      ]
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "6-35個月兒童：發燒/注射部位發紅",
+      "claim": "ae:flu-vaxigriptetra-notes:8",
+      "summary": "6-35個月所有兒童：發燒20.4%、注射部位發紅17.2%。",
+      "text": "6-35個月的所有兒童：發燒(20.4%)及注射部位發紅(17.2%)。",
+      "missingNumbers": []
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "24個月以下兒童：無食慾/異常哭鬧/嘔吐/昏睡",
+      "claim": "ae:flu-vaxigriptetra-notes:9",
+      "summary": "24個月以下兒童：無食慾28.9%、異常哭鬧27.1%、嘔吐16.1%、昏睡13.9%。",
+      "text": "24個月以下的兒童：無食慾(28.9%)、異常哭鬧(27.1%)、嘔吐(16.1%)及昏睡(13.9%)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-notes",
+      "title": "4.8 不良反應：安全性摘要（各年齡層最常見不良反應，臨床試驗百分比）",
+      "population": "",
+      "label": "35個月的兒童：頭痛/肌痛",
+      "claim": "ae:flu-vaxigriptetra-notes:10",
+      "summary": "35個月的兒童：頭痛11.9%、肌痛11.6%。",
+      "text": "35個月的兒童：頭痛(11.9%)及肌痛(11.6%)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-freq",
+      "title": "4.8 不良反應表列（成人及老年人；依發生頻率）",
+      "population": "",
+      "label": "肌痛：極常見",
+      "claim": "ae:flu-vaxigriptetra-freq:0",
+      "summary": "肌痛：極常見（≥1/10）（成人及老年人）。",
+      "text": "肌痛",
+      "missingNumbers": [
+        "1",
+        "10"
+      ]
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-freq",
+      "title": "4.8 不良反應表列（成人及老年人；依發生頻率）",
+      "population": "",
+      "label": "全身無力、接種部位疼痛：極常見",
+      "claim": "ae:flu-vaxigriptetra-freq:1",
+      "summary": "全身無力、接種部位疼痛：極常見（成人及老年人）。",
+      "text": "全身無力(6)、接種部位疼痛",
+      "missingNumbers": []
+    },
+    {
+      "source": "S45",
+      "table": "flu-vaxigriptetra-freq",
+      "title": "4.8 不良反應表列（成人及老年人；依發生頻率）",
+      "population": "",
+      "label": "顫抖、發燒、接種部位發紅/腫脹/硬結：常見",
+      "claim": "ae:flu-vaxigriptetra-freq:2",
+      "summary": "顫抖、發燒、接種部位發紅、接種部位腫脹、接種部位硬結：常見（成人及老年人）。",
+      "text": "顫抖、發燒(2)、接種部位發紅、接種部位腫脹、接種部位硬結",
+      "missingNumbers": []
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-notes",
+      "title": "不良反應：嬰兒同時接種常規疫苗時之發燒發生率（臨床試驗）",
+      "population": "",
+      "label": "發燒發生率：Bexsero＋常規疫苗 vs 僅常規疫苗",
+      "claim": "ae:mcv4-bexsero-notes:0",
+      "summary": "Bexsero 與常規嬰兒疫苗同時接種：69%至79%受試者通報發燒(≥38°C)；僅接種常規疫苗：44%至59%。",
+      "text": "日咳、B型肝炎、去活性小兒麻痺及B型嗜血桿菌)同時投予時，有69%至79%的受試者通報出現發燒現象(≧38°C)，在僅接種常規疫苗的受試者中則有44%至59%",
+      "missingNumbers": []
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-notes",
+      "title": "不良反應：嬰兒同時接種常規疫苗時之發燒發生率（臨床試驗）",
+      "population": "",
+      "label": "發燒發生率：僅常規疫苗組",
+      "claim": "ae:mcv4-bexsero-notes:1",
+      "summary": "僅接種常規疫苗之受試者發燒(≥38°C)通報率44%至59%。",
+      "text": "受試者通報出現發燒現象(≧38°C)，在僅接種常規疫苗的受試者中則有44%至59%",
+      "missingNumbers": []
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（10 歲以下）",
+      "population": "",
+      "label": "飲食失調：極常見",
+      "claim": "ae:mcv4-bexsero-freq:0",
+      "summary": "飲食失調：極常見（≥1/10）（嬰兒與兒童10歲以下）。",
+      "text": "極常見：飲食失調",
+      "missingNumbers": [
+        "1",
+        "10",
+        "10"
+      ]
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（10 歲以下）",
+      "population": "",
+      "label": "嗜睡、異常啼哭、頭痛：極常見",
+      "claim": "ae:mcv4-bexsero-freq:1",
+      "summary": "嗜睡、異常啼哭、頭痛：極常見（嬰兒與兒童10歲以下）。",
+      "text": "極常見：嗜睡、異常啼哭、頭痛",
+      "missingNumbers": [
+        "10"
+      ]
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（10 歲以下）",
+      "population": "",
+      "label": "癲癇發作（含熱痙攣）：少見",
+      "claim": "ae:mcv4-bexsero-freq:2",
+      "summary": "癲癇發作（包括熱痙攣）：少見（≥1/1000至<1/100）（嬰兒與兒童10歲以下）。",
+      "text": "少見：癲癇發作(包括熱痙攣)",
+      "missingNumbers": [
+        "1",
+        "1000",
+        "1",
+        "100",
+        "10"
+      ]
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq-2",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（續）與青少年、成人",
+      "population": "",
+      "label": "皮疹（12-23個月幼童）：極常見",
+      "claim": "ae:mcv4-bexsero-freq-2:0",
+      "summary": "皮疹（12至23個月大幼童）：極常見；追加劑後少見。",
+      "text": "極常見：皮疹(12至23個月大的幼童)(少見於施打追加劑之後)",
+      "missingNumbers": []
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq-2",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（續）與青少年、成人",
+      "population": "",
+      "label": "關節痛：極常見（嬰幼兒）",
+      "claim": "ae:mcv4-bexsero-freq-2:1",
+      "summary": "關節痛：極常見（嬰兒與兒童10歲以下）。",
+      "text": "極常見：關節痛",
+      "missingNumbers": [
+        "10"
+      ]
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq-2",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（續）與青少年、成人",
+      "population": "",
+      "label": "發燒(≥38°C)等：極常見（嬰幼兒）",
+      "claim": "ae:mcv4-bexsero-freq-2:2",
+      "summary": "發燒(≥38°C)、注射部位觸痛（含嚴重觸痛）、注射部位發紅/腫脹/結節、躁動：極常見（嬰兒與兒童10歲以下）。",
+      "text": "極常見：發燒(≧38°C)、注射部位觸痛(包括嚴重注射部位觸痛，定義為注射肢移",
+      "missingNumbers": [
+        "10"
+      ]
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq-2",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（續）與青少年、成人",
+      "population": "",
+      "label": "發燒(≥40°C)：少見（嬰幼兒）",
+      "claim": "ae:mcv4-bexsero-freq-2:3",
+      "summary": "發燒(≥40°C)：少見（嬰兒與兒童10歲以下）。",
+      "text": "少見：發燒(≧40°C)",
+      "missingNumbers": [
+        "10"
+      ]
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq-2",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（續）與青少年、成人",
+      "population": "",
+      "label": "頭痛：極常見（青少年與成人）",
+      "claim": "ae:mcv4-bexsero-freq-2:4",
+      "summary": "頭痛：極常見（青少年11歲以上與成人）。",
+      "text": "極常見：頭痛",
+      "missingNumbers": [
+        "11"
+      ]
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq-2",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（續）與青少年、成人",
+      "population": "",
+      "label": "噁心：極常見（青少年與成人）",
+      "claim": "ae:mcv4-bexsero-freq-2:5",
+      "summary": "噁心：極常見（青少年與成人）。",
+      "text": "極常見：噁心",
+      "missingNumbers": []
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq-2",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（續）與青少年、成人",
+      "population": "",
+      "label": "肌痛、關節痛：極常見（青少年與成人）",
+      "claim": "ae:mcv4-bexsero-freq-2:6",
+      "summary": "肌痛、關節痛：極常見（青少年與成人）。",
+      "text": "極常見：肌痛、關節痛",
+      "missingNumbers": []
+    },
+    {
+      "source": "S46",
+      "table": "mcv4-bexsero-freq-2",
+      "title": "不良反應（依發生頻率）：嬰兒與兒童（續）與青少年、成人",
+      "population": "",
+      "label": "注射部位疼痛等：極常見（青少年與成人）",
+      "claim": "ae:mcv4-bexsero-freq-2:7",
+      "summary": "注射部位疼痛（含嚴重疼痛）、注射部位腫脹/結節/發紅、不適：極常見（青少年與成人）。",
+      "text": "極常見：注射部位疼痛(包括嚴重注射部位疼痛，定義為無法進行一般的日常活",
+      "missingNumbers": []
+    },
+    {
+      "source": "S48",
+      "table": "rota-rotateq-notes",
+      "title": "上市後報告（自發性通報，頻率無法可靠估計）",
+      "population": "",
+      "label": "免疫系統異常",
+      "claim": "ae:rota-rotateq-notes:0",
+      "summary": "上市後自發性通報：過敏性反應（頻率無法可靠估計，未建立因果關係）。",
+      "text": "免疫系統異常: 過敏性反應",
+      "missingNumbers": []
+    },
+    {
+      "source": "S48",
+      "table": "rota-rotateq-notes",
+      "title": "上市後報告（自發性通報，頻率無法可靠估計）",
+      "population": "",
+      "label": "皮膚或皮下組織異常",
+      "claim": "ae:rota-rotateq-notes:1",
+      "summary": "上市後自發性通報：蕁麻疹、血管性水腫。",
+      "text": "皮膚或皮下組織異常: 蕁麻疹、血管性水腫",
+      "missingNumbers": []
+    },
+    {
+      "source": "S48",
+      "table": "rota-rotateq-notes",
+      "title": "上市後報告（自發性通報，頻率無法可靠估計）",
+      "population": "",
+      "label": "胃腸道異常",
+      "claim": "ae:rota-rotateq-notes:2",
+      "summary": "上市後自發性通報：SCID 嬰兒接種後腸胃炎並排出疫苗病毒、腸套疊、血便。",
+      "text": "胃腸道異常: 嚴重複合型免疫缺乏症(SCID)的嬰兒有發生腸胃炎並排出疫苗病毒的現象、腸套疊、血便",
+      "missingNumbers": []
+    }
+  ]
+}

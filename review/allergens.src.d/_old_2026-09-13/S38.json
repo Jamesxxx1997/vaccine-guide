@@ -1,0 +1,29 @@
+{
+  "vaccine": "hexa",
+  "product": "Hexaxim(哈多星)",
+  "source": "S38",
+  "components": [
+    {"label": "微量殘留物（生產製程）", "page": 1, "quote": "此疫苗可能含有微量生產過程中使用的戊二醛(glutaraldehyde)、甲醛(formaldehyde)、新黴素(neomycin)、", "region": [54.0, 586.42, 544.06, 618.23]},
+    {"label": "鋁佐劑", "page": 1, "quote": "吸附於水合氫氧化鋁(aluminium hydroxide, hydrated)(0.6 mg Al )"},
+    {"label": "B型肝炎表面抗原生產宿主（酵母）", "page": 1, "quote": "使用DNA基因重組技術從多型漢遜(Hansenula polymorpha)酵母細胞中培養而得"},
+    {"label": "已知作用之賦形劑（苯丙胺酸）", "page": 1, "quote": "苯丙胺酸(phenylalanine)………………………85 g"},
+    {"label": "6.1 賦形劑", "page": 12, "quote": "磷酸氫二鈉(disodium hydrogen phosphate)"},
+    {"label": "6.1 賦形劑（續）", "page": 12, "quote": "磷酸二氫鉀(potassium dihydrogen phosphate)"},
+    {"label": "6.1 賦形劑（續）", "page": 12, "quote": "三羥甲基氨基甲烷(trometamol)"},
+    {"label": "6.1 賦形劑（續）", "page": 12, "quote": "蔗糖(saccharose)"},
+    {"label": "6.1 賦形劑（續，必需胺基酸含苯丙胺酸）", "page": 12, "quote": "包括L-苯丙胺酸(L-phenylalanine)在內的必需胺基酸"}
+  ],
+  "allergens": [
+    {"key": "neomycin", "status": "有", "page": 1, "quote": "此疫苗可能含有微量生產過程中使用的戊二醛(glutaraldehyde)、甲醛(formaldehyde)、新黴素(neomycin)、", "region": [54.0, 586.42, 544.06, 618.23]},
+    {"key": "other_antibiotics", "status": "有", "page": 1, "quote": "鏈黴素(streptomtcin)及多黏菌素B (polymyxin B) (見章節4.3)。"},
+    {"key": "yeast", "status": "有", "page": 1, "quote": "使用DNA基因重組技術從多型漢遜(Hansenula polymorpha)酵母細胞中培養而得"},
+    {"key": "formaldehyde", "status": "有", "page": 1, "quote": "此疫苗可能含有微量生產過程中使用的戊二醛(glutaraldehyde)、甲醛(formaldehyde)、新黴素(neomycin)、", "region": [54.0, 586.42, 544.06, 618.23]},
+    {"key": "aluminium", "status": "有", "page": 1, "quote": "吸附於水合氫氧化鋁(aluminium hydroxide, hydrated)(0.6 mg Al )"}
+  ],
+  "warnings": [
+    {"label": "禁忌：先前接種本疫苗後過敏性休克反應", "page": 2, "quote": "先前接種哈多星六合一疫苗後曾發生過敏性休克反應(anaphylactic reaction)。"},
+    {"label": "禁忌：對活性成分／賦形劑／微量殘留物過敏", "page": 2, "quote": "對活性成分、章節6.1所列的任何賦形劑、微量殘留物(glutaraldehyde、formaldehyde、neomycin、", "region": [54.0, 663.31, 541.4, 723.06]},
+    {"label": "禁忌：對活性成分／賦形劑／微量殘留物過敏（續）", "page": 2, "quote": "streptomycin及polymyxin B)、任何百日咳疫苗，或先前接種哈多星六合一疫苗或含有相同成分或組成的", "region": [54.0, 663.31, 541.4, 723.06]},
+    {"label": "禁忌：對活性成分／賦形劑／微量殘留物過敏（嚴重過敏反應）", "page": 2, "quote": "疫苗後曾發生嚴重過敏性反應。", "region": [54.0, 663.31, 541.4, 723.06]}
+  ]
+}

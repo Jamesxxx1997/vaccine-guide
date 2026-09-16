@@ -1,0 +1,451 @@
+[
+ {
+  "slug": "vstrip-flu-ab",
+  "category": "RIDT",
+  "device": "Vstrip Flu A&B Rapid Test（寶齡富錦／飛確）",
+  "maker": "寶齡富錦生技股份有限公司 (Panion & BF Biotech / PBF)",
+  "taiwanEvidence": [
+   {"kind":"廠商","url":"https://en.pbf.com.tw/product/vstrip-flu-ab-influenza-rapid-test/","note":"官網產品頁，標示 Ministry of Health Medical Device Manufacturing No. 005923 (TFDA Class II)"},
+   {"kind":"TFDA許可證","url":"https://www.vstriptech.com/product/download/20240315093301266.pdf","note":"產品DM/仿單標示衛部醫器製字第006728號，並列健保診療項目代碼 A型14065C/B型14066C 各150點"},
+   {"kind":"醫院網頁","url":"https://www.ylh.gov.tw","note":"台大雲林分院檢驗項目頁列出「流感病毒抗原A+B快速篩檢試驗」醫令代碼000PP306(健保)，屬同類 RIDT 給付代碼族群"}
+  ],
+  "ifu": {
+   "url": "https://www.vstriptech.com/product/download/20240315093301266.pdf",
+   "path": "sources/流感/檢驗/Vstrip_FluAB_IFU_中文.pdf",
+   "version": "20240313 FLU A&B V01（中文DM/仿單）",
+   "downloaded": "2026-09-16",
+   "sha256": "c70e7d621e6a54089e44d4c4b22a1b7a7651f51d63b640af132c1e4921eef661",
+   "pages": 2,
+   "words": 281,
+   "perfPages": [1,2],
+   "perf": {
+    "fluA": {"sens":"未列臨床敏感度；偵測極限 1.0x10^2 pfu/mL","spec":"未列"},
+    "fluB": {"sens":"未列臨床敏感度；偵測極限 1.0x10^3 pfu/mL","spec":"未列"},
+    "reference": "未標示",
+    "note": "此檔為行銷DM/簡式仿單，僅列偵測極限(LOD)與健保代碼，未附 PCR 對照之敏感度/特異度表；已另存英文版 IFU 供交叉核對"
+   },
+   "additionalFiles": [
+    {"path":"sources/流感/檢驗/Vstrip_FluAB_IFU_English.pdf","url":"https://www.vstriptech.com/product/download/20210415025022510.pdf","sha256":"15db393014db46be006c5f9b175e3d5ae0b6303888fe259276d5c058266b89d5","pages":1,"note":"英文版簡式說明，同樣未附完整臨床效能表"}
+   ]
+  },
+  "status": "台灣在用(有證據)"
+ },
+ {
+  "slug": "formosa-one-sure-flu-ab",
+  "category": "RIDT",
+  "device": "Formosa One Sure Flu A/B Rapid Test Kit（台塑生醫迅知）",
+  "maker": "台塑生醫科技股份有限公司 (Formosa Biomedical Technology Corp.)",
+  "taiwanEvidence": [
+   {"kind":"TFDA許可證","url":"https://data.zhupiter.com","note":"諸彼特開放資料轉錄TFDA醫療器材許可證資料集：英文品名 Formosa One Sure Flu A/B Rapid Test kit，許可證字號 衛部醫器製字第006720號，有效日期2030/06/29"},
+   {"kind":"期刊/實際臨床使用","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC7230963","note":"Hsu 2020 (critically ill influenza, Taiwan ICU study) 使用 Formosa One Sure Flu A/B Rapid Test Kit 作為 RIDT 對照方法"},
+   {"kind":"期刊/實際臨床使用","url":"https://www.sciencedirect.com/science/article/pii/","note":"Lee WC 2022 Taiwan bacterial co-infection 研究同樣使用此產品做流感快篩對照"},
+   {"kind":"廠商","url":"https://www.fda.gov.tw/tc/includes/getfile.ashx?id=f636816212330007629","note":"TFDA 2013年發表之流感快篩試劑品質調查論文中，列為台灣本土(domestic)七件產品之一（Table 1）"}
+  ],
+  "ifu": {
+   "url": "未取得原廠完整IFU(僅查到TFDA許可證資料與期刊引用)",
+   "path": "",
+   "version": "未確認",
+   "downloaded": "2026-09-16",
+   "sha256": "",
+   "pages": 0,
+   "words": 0,
+   "perfPages": [],
+   "perf": {"fluA":{"sens":"未確認","spec":"未確認"},"fluB":{"sens":"未確認","spec":"未確認"},"reference":"未確認","note":"官網（fbc.com.tw）目前主推新冠/新冠流感二合一試劑，單純Flu A/B IFU PDF未能於官網或第三方站點直接下載到；僅取得TFDA許可證字號與多篇期刊引用證明實際臨床使用"}
+  },
+  "status": "台灣在用(有證據，IFU未取得)"
+ },
+ {
+  "slug": "bd-veritor-flu-ab",
+  "category": "DIA",
+  "device": "BD Veritor System for Rapid Detection of Flu A+B",
+  "maker": "Becton, Dickinson and Company (BD)；台灣代理：新加坡商必帝股份有限公司台灣分公司",
+  "taiwanEvidence": [
+   {"kind":"TFDA許可證(轉錄)","url":"https://health.udn.com","note":"元氣網醫材資料庫：英文品名 BD Veritor System For Rapid Detection of Flu A+B (Non-Sterile)，申請商 新加坡商必帝股份有限公司台灣分公司，風險等級1(低風險)"},
+   {"kind":"醫院網頁/實習手冊","url":"https://exdep.edah.org.tw/00_C_st_v06_202007","note":"義大醫療財團法人義大醫院醫事檢驗實習手冊第六版：檢驗科實際使用 BD Veritor(TM) System 做流感A/B抗原免疫色層分析"},
+   {"kind":"學會文件","url":"https://www.labmed.org.tw","note":"台灣醫事檢驗學會研討會資料提及「BD Veritor(TM) Plus System在流感高峰期快篩檢測之應用效益」"}
+  ],
+  "ifu": {
+   "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/K180438.pdf",
+   "path": "sources/流感/檢驗/BDVeritor_FluAB_510k_K180438_FDA.pdf",
+   "version": "FDA 510(k) K180438 Special 510(k) Decision Summary（新增Table 1效能表版本，2018）",
+   "downloaded": "2026-09-16",
+   "sha256": "4a103bc856f2530bab9f124fe03061dfee702bcf68b616712d6d08c269631da7",
+   "pages": 8,
+   "words": 2558,
+   "perfPages": [2],
+   "perf": {
+    "fluA": {"sens":"PPA 83.6% (95%CI 76.1–89.1%)","spec":"NPA 97.5% (95%CI 95.7–98.5%)"},
+    "fluB": {"sens":"PPA 81.3% (95%CI 71.1–88.5%)","spec":"NPA 98.2% (95%CI 95.7–99.3%)"},
+    "reference": "PCR",
+    "note": "Table 1 (page 2 of PDF)：BD Veritor Flu A+B 對 PCR，全年齡層/全站別/全檢體型別彙總數據 (n=736)。此為2018年新增之彙整效能表，取代舊版單一研究數字；後續 K223016/K232434 僅為硬體/軟體修改案，效能表沿用本文件"
+   },
+   "additionalFiles": [
+    {"path":"sources/流感/檢驗/BDVeritor_FluAB_510k_K223016_FDA.pdf","url":"https://www.accessdata.fda.gov/cdrh_docs/reviews/K223016.pdf","sha256":"1e0a878f37184023d68885855b15af7505db2061319968f0728cb5e8546c70ec","pages":8,"note":"中間版本510(k)，效能表沿用K180438，僅留存版本鏈"},
+    {"path":"sources/流感/檢驗/BDVeritor_FluAB_510k_K232434_FDA.pdf","url":"https://www.accessdata.fda.gov/cdrh_docs/reviews/K232434.pdf","sha256":"4a48b5e470e5808242fcb216f8d65e7623ea23932e5b2895dd53944511ce4587","pages":10,"note":"最新版本510(k)(硬體/韌體修改)，效能表標示為Not applicable並引用K223016/K180438"}
+   ]
+  },
+  "status": "台灣在用(有證據)"
+ },
+ {
+  "slug": "quidel-sofia-flu-ab",
+  "category": "DIA",
+  "device": "Sofia / Sofia 2 Influenza A+B FIA（Quidel）",
+  "maker": "Quidel Corporation（現 QuidelOrtho）",
+  "taiwanEvidence": [
+   {"kind":"疾管署研究","url":"https://www.cdc.gov.tw/File/Get/R6mhXqFwI_5BX-AGfNXhmQ","note":"疾管署《疫情報導》2014年第30卷22期原著文章〈新上市流感快篩試劑之檢測效能評估〉，以73件台灣臨床檢體評估 Sofia FIA 對 real-time RT-PCR 之敏感度/特異度，屬疾管署自行執行之台灣本土評估研究"},
+   {"kind":"文獻回顧","url":"https://www.researchnester.com","note":"市場報告提及 Sofia 為新一代 DIA 技術代表產品之一，惟未見台灣醫院或診所具名採購/使用之直接證據"}
+  ],
+  "ifu": {
+   "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/K162438.pdf",
+   "path": "sources/流感/檢驗/Sofia2_InfluenzaAB_510k_K162438_FDA.pdf",
+   "version": "FDA 510(k) K162438 Decision Summary（Sofia Influenza A+B FIA on Sofia 2 analyzer，cleared 2017-04-14）",
+   "downloaded": "2026-09-16",
+   "sha256": "49134a8de048b6ba274bf993f171f475bf201b257766a5e55f370bf234239435",
+   "pages": 17,
+   "words": 4817,
+   "perfPages": [14,15],
+   "perf": {
+    "fluA": {"sens":"Sofia2 vs Sofia(舊機型)一致率 98% (304/311, 95%CI 95.4–98.9%)；非對PCR","spec":"Negative Agreement 97% (423/438, 95%CI 94.4–97.9%)"},
+    "fluB": {"sens":"Sofia2 vs Sofia 一致率 98% (154/157, 95%CI 94.5–99.4%)","spec":"Negative Agreement 99% (587/592, 95%CI 98.1–99.6%)"},
+    "reference": "本文件為method comparison(新機型Sofia2 vs 原機型Sofia)，非對PCR；對PCR之原始效能數字見K153012(未下載)",
+    "note": "本FDA文件(page14-15)僅為新舊分析儀一致性比較；台灣本土對PCR之敏感度數字改採疾管署2014年73件檢體研究：Flu A整體敏感度68.2%、Flu B 45.5%(Cp<30時可達85%以上)，特異度100%（見 CDC_TW_Sofia流感快篩效能評估_2014.pdf）"
+   }
+  },
+  "status": "台灣在用(有疾管署本土研究證據，商用通路未確認)"
+ },
+ {
+  "slug": "binaxnow-flu-ab-card2",
+  "category": "RIDT",
+  "device": "BinaxNOW Influenza A & B Card 2（含 Alere/DIGIVAL Reader 選配）",
+  "maker": "Abbott (原 Alere Scarborough, Inc.)",
+  "taiwanEvidence": [
+   {"kind":"TFDA許可證(轉錄)","url":"https://data.zhupiter.com","note":"諸彼特開放資料：英文品名 BinaxNOW Influenza A & B Card 2，用於A型和B型流感病毒感染之快速辨別診斷"},
+   {"kind":"期刊/實際臨床使用","url":"https://nics.org.tw","note":"台灣感染管制學會〈北部某醫學中心144例H1N1新型流感病例分析〉：流感抗原快速檢驗採用 BinaxNOW® Influenza A+B Test Kit"},
+   {"kind":"期刊/實際臨床使用","url":"https://www.labmed.org.tw","note":"台灣醫事檢驗學會論文〈新上市流感病毒核酸快速檢測系統之效能評估〉，收案標準即「經臨床醫師申請執行流感快篩(Alere BinaxNOW A&B型流感檢測卡)」，證明北部醫院已將其列為常規流感快篩試劑"}
+  ],
+  "ifu": {
+   "url": "https://ensur.invmed.com/ensur/contentAction.aspx?key=ensur.352421.S2R4E4A3.20180810.7555.4173048",
+   "path": "sources/流感/檢驗/BinaxNOW_FluAB_Card2_IFU_Abbott.pdf",
+   "version": "Abbott/Alere 原廠 Package Insert（含 DIGIVAL Reader 版本，2018-08-10）",
+   "downloaded": "2026-09-16",
+   "sha256": "33e4e61e0b9bbb20bef84ec61435ea8da425de8265bff398c59798ae95ea0684",
+   "pages": 21,
+   "words": 7906,
+   "perfPages": [10],
+   "perf": {
+    "fluA": {"sens":"84.3% (113/134, 95%CI 77.2–89.5%)","spec":"94.7% (408/431, 95%CI 92.1–96.4%)"},
+    "fluB": {"sens":"89.5% (51/57, 95%CI 78.9–95.1%)","spec":"99.4% (505/508, 95%CI 98.3–99.8%)"},
+    "reference": "RT-PCR",
+    "note": "page 10：搭配 DIGIVAL reader 判讀之臨床效能研究，多站前瞻性收案(有flu-like symptoms病人)，以RT-PCR為比較方法"
+   }
+  },
+  "status": "台灣在用(有證據)"
+ },
+ {
+  "slug": "asan-easy-test-flu-ab",
+  "category": "RIDT",
+  "device": "ASAN Easy Test Influenza A/B（聯新代理）",
+  "maker": "ASAN Pharm/ASAN Diagnostics（韓國）；台灣代理：聯新生物科技股份有限公司",
+  "taiwanEvidence": [
+   {"kind":"TFDA許可證(轉錄，已註銷)","url":"https://data.zhupiter.com","note":"諸彼特開放資料：許可證字號 衛部醫器輸壹字第019118號，有效日期2023/05/31，註銷狀態「已註銷」，註銷日期2025/09/09"}
+  ],
+  "ifu": {
+   "url": "未取得",
+   "path": "",
+   "version": "未確認",
+   "downloaded": "2026-09-16",
+   "sha256": "",
+   "pages": 0,
+   "words": 0,
+   "perfPages": [],
+   "perf": {"fluA":{"sens":"未確認","spec":"未確認"},"fluB":{"sens":"未確認","spec":"未確認"},"reference":"未確認","note":"許可證已於2025/09/09註銷，判斷目前已非台灣現役在用機型，未再花力氣尋找IFU"}
+  },
+  "status": "曾在台灣核准，許可證已註銷(2025/09/09)，非現行在用"
+ },
+ {
+  "slug": "roche-cobas-liat-flu-ab",
+  "category": "POC-NAAT",
+  "device": "cobas Liat Influenza A/B（及 cobas SARS-CoV-2 & Influenza A/B）",
+  "maker": "Roche Molecular Diagnostics",
+  "taiwanEvidence": [
+   {"kind":"醫院網頁","url":"https://www.vghtc.gov.tw","note":"臺中榮民總醫院檢驗服務項目頁面〈呼吸道融合病毒核酸檢測(快速)〉資料來源標註 ML-SIP-373「Cobas Liat Influenza AB & RSV 核酸定性試驗標準檢驗程序」，證明院內已建立標準作業程序並臨床使用"},
+   {"kind":"元氣網醫材資料庫","url":"https://health.udn.com","note":"「羅氏可霸斯A型/B型流感病毒核酸試驗」，載明本產品適用於cobas Liat系統，快速定性檢測鼻咽拭子中流感病毒"},
+   {"kind":"學會文件","url":"https://www.sem.org.tw","note":"台灣急診醫學會〈微生物學分子快速診斷對急診感染症診療之應用〉列 Roche cobas Liat 為急診分子快速診斷代表產品之一"},
+   {"kind":"學會文件","url":"https://nics.org.tw","note":"台灣感染管制學會〈呼吸道病毒感染之實驗診斷〉表三列 cobas Liat influenza A/B & RSV assay、cobas Liat influenza A/B & SARS-CoV-2 assay 為具台灣衛署許可證市售檢測試劑"}
+  ],
+  "ifu": {
+   "url": "https://www.accessdata.fda.gov/cdrh_docs/clia_waivers/CW220014.pdf",
+   "path": "sources/流感/檢驗/cobasLiat_InfluenzaAB_CLIA_CW220014_FDA.pdf",
+   "version": "FDA CLIA Waiver by Application CW220014（cobas SARS-CoV-2 & Influenza A/B nucleic acid test）",
+   "downloaded": "2026-09-16",
+   "sha256": "85c509efeee584731f4bf4936b3a3cc6e8e33e68f12ec8a3f1819ff991d1078c",
+   "pages": 26,
+   "words": 9382,
+   "perfPages": [15,16],
+   "perf": {
+    "fluA": {"sens":"前瞻性NPS PPA 94.7% (18/19)；回溯性NPS PPA 97.7% (43/44)","spec":"前瞻性NPA 99.7% (595/597)；回溯性NPA 99.2% (131/132)"},
+    "fluB": {"sens":"回溯性NPS PPA 100.0% (22/22)；前瞻性因無陽性檢體無法計算PPA","spec":"回溯性NPA 100.0% (151/151)；前瞻性NPA 100.0% (616/616)"},
+    "reference": "分子檢測比較方法(acceptable molecular assay for influenza)",
+    "note": "page15-16 Table 10-12：此為 cobas SARS-CoV-2 & Influenza A/B 組合試驗之數據；台大醫院醫師網路文獻亦引用同系列 cobas Liat 之獨立臨床效能研究(見NICS PDF文獻列表)"
+   }
+  },
+  "status": "台灣在用(有證據)"
+ },
+ {
+  "slug": "abbott-id-now-flu-ab2",
+  "category": "POC-NAAT",
+  "device": "ID NOW Influenza A & B 2",
+  "maker": "Abbott Diagnostics Scarborough, Inc.",
+  "taiwanEvidence": [
+   {"kind":"學會文件","url":"https://www.sem.org.tw","note":"台灣急診醫學會〈微生物學分子快速診斷對急診感染症診療之應用〉：「Abbott（亞培）ID NOW，可檢測流感、新冠、RSV、A群鏈球菌。是目前已知速度最快（13分鐘）的檢驗機台」"},
+   {"kind":"醫院網頁","url":"https://wd.vghtpe.gov.tw","note":"臺北榮民總醫院醫學工程部2025年上半年醫材警訊公告，具名列出「Abbott—ID NOW COVID-19 2.0、Influenza A/B 2 24T 以及RSV 24T 套件」，證明院內確有採購並臨床使用該機型（因ECRI會員醫院回報無效結果率偏高而列警訊）"},
+   {"kind":"學會文件","url":"https://nics.org.tw","note":"台灣感染管制學會〈呼吸道病毒感染之實驗診斷〉表三列 ID NOW influenza A & B 2 test為具台灣衛署許可證市售檢測試劑，Abbott isothermal nucleic acid amplification，<15分鐘，CLIA waived"}
+  ],
+  "ifu": {
+   "url": "https://dam.abbott.com/en-gb/panbio/ID-NOW-Influenza-A-B-2-Product-Sheet-EME-English.pdf",
+   "path": "sources/流感/檢驗/IDNOW_FluAB2_ProductSheet_Abbott.pdf",
+   "version": "Abbott 原廠 Product Sheet（EME英文版）",
+   "downloaded": "2026-09-16",
+   "sha256": "1b43bf0b113589d5542143e24437e2ba6b92b06eea8e8bace8859e02e4f8bc70",
+   "pages": 2,
+   "words": 424,
+   "perfPages": [2],
+   "perf": {
+    "fluA": {"sens":"Direct swab 96.3%；VTM(病毒運送介質) 92.8%","spec":"Direct swab 97.4%；VTM 98.5%"},
+    "fluB": {"sens":"Direct swab 100%；VTM 100%","spec":"Direct swab 97.1%；VTM 97.7%"},
+    "reference": "PCR",
+    "note": "page2：原廠Product Sheet圖表，分Direct Swab與VTM兩種檢體型式各列敏感度/特異度，對照方法為PCR。FDA 510(k) K191534(已下載)僅為演算法修改案，未含此效能表"
+   },
+   "additionalFiles": [
+    {"path":"sources/流感/檢驗/IDNOW_FluAB2_510k_K191534_FDA.pdf","url":"https://www.accessdata.fda.gov/cdrh_docs/reviews/K191534.pdf","sha256":"031705f8f05c8ce2a995ece822b48b431c43c44693f04363967c9b8fe6b6259b","pages":2,"note":"FDA Special 510(k)僅記錄演算法修改，供留存"}
+   ]
+  },
+  "status": "台灣在用(有證據，含醫材警訊佐證實際院內採購)"
+ },
+ {
+  "slug": "cepheid-xpert-xpress-flu-rsv",
+  "category": "POC-NAAT",
+  "device": "Xpert Xpress Flu/RSV（及 Xpert Xpress CoV-2/Flu/RSV plus）",
+  "maker": "Cepheid",
+  "taiwanEvidence": [
+   {"kind":"學會文件","url":"https://www.sem.org.tw","note":"台灣急診醫學會〈微生物學分子快速診斷對急診感染症診療之應用〉列代表產品：Roche cobas Liat、Cepheid Xpert(Xpress)"},
+   {"kind":"學會文件","url":"https://nics.org.tw","note":"台灣感染管制學會〈呼吸道病毒感染之實驗診斷〉表三列 Xpert xpress Flu/RSV/SARS-CoV-2，Cepheid real-time RT-PCR，Flu A/B/RSV，30分鐘，CLIA waived，為具台灣衛署許可證市售試劑"},
+   {"kind":"醫院網頁","url":"https://wd.vghtpe.gov.tw","note":"臺北榮民總醫院醫學工程部2024年度醫材警訊公告，具名列出「Cepheid — Xpert Xpress CoV-2/Flu/RSV plus 和 Xpert Xpress CoV-2 plus 測試」發生錯誤代碼問題，證明院內臨床使用"}
+  ],
+  "ifu": {
+   "url": "https://infomine.cepheid.com/sites/default/files/2023-02/Xpress%20Flu_RSV%20ENGLISH%20Instructions%20for%20Use%20301-6580%2C%20Rev.%20H.pdf",
+   "path": "sources/流感/檢驗/XpertXpress_FluRSV_IFU_Cepheid.pdf",
+   "version": "Cepheid 原廠 Instructions for Use 301-6580, Rev. H (2022-12)",
+   "downloaded": "2026-09-16",
+   "sha256": "a1d43f928a93942e92afdea3fcfc08f48acea1e71f6927e677755b589b06983f",
+   "pages": 41,
+   "words": 12615,
+   "perfPages": [27,28,29],
+   "perf": {
+    "fluA": {"sens":"NP swab合併 PPA 98.1% (95%CI 93.3–99.5%)；NS檢體 PPA 98.9%","spec":"NP swab合併 NPA 98.8% (95%CI 98.2–99.2%)；NS檢體 NPA 97.5%"},
+    "fluB": {"sens":"NP swab合併 PPA 100.0% (95%CI 95.3–100.0%)；NS檢體 PPA 98.4%","spec":"NP swab合併 NPA 99.1% (95%CI 98.6–99.4%)；NS檢體 NPA 99.3%"},
+    "reference": "FDA核准之分子對照檢測(comparator molecular assay)",
+    "note": "page27 為方法學敘述，page28 Table 9為NP swab(新鮮+冷凍合併n=2051)結果，page28-29 Table 10為NS檢體(n=1598)結果；同時分成人與兒童部分本份IFU未特別拆分年齡層"
+   }
+  },
+  "status": "台灣在用(有證據，含醫材警訊佐證實際院內採購)"
+ },
+ {
+  "slug": "biofire-filmarray-rp",
+  "category": "POC-NAAT",
+  "device": "BioFire FilmArray Respiratory Panel（RP／RP2／RP2.1，含Pneumonia Panel）",
+  "maker": "BioFire Diagnostics, LLC (bioMérieux)",
+  "taiwanEvidence": [
+   {"kind":"醫院網頁","url":"https://web.hosp.ncku.edu.tw","note":"成大醫院病理部檢驗項目頁明載「本檢驗項目使用『微晶多重呼吸道病原體檢測試劑』(FILMARRAY® Respiratory Panel)」，並列出可測病原含 Influenza"},
+   {"kind":"醫院網頁","url":"https://www1.cgmh.org.tw","note":"長庚醫療財團法人全球資訊網檢驗項目頁：FilmArray Pneumonia Panel（肺炎病原體多標的核酸檢測），檢驗代號L72-973A"},
+   {"kind":"新聞/研究計畫","url":"https://health.ettoday.net","note":"ETtoday報導台大醫院(侯重光醫師)在台榮研究計畫支持下，雙中心研究引進biofire FilmArray床旁快速呼吸道病毒分子診斷，1小時可測17種病毒"},
+   {"kind":"醫院網頁/研究","url":"https://wwwfs.vghks.gov.tw","note":"高雄榮民總醫院公開資料：「BioFire® FilmArray® 肺炎面板與傳統微生物檢驗方法於下呼吸道感染診斷中的比較：台灣雙和醫院回溯性研究」"},
+   {"kind":"教學簡報","url":"https://www.tsim.org.tw","note":"台灣內科醫學會〈流感臨床診斷與檢驗〉簡報(成大醫院感染科羅景霳，2025-07-26)，列出Filmarray respiratory panel可測病原含Influenza"},
+   {"kind":"學會文件","url":"https://nics.org.tw","note":"台灣感染管制學會〈呼吸道病毒感染之實驗診斷〉表三列 FilmArray Respiratory Panel / FilmArray Respiratory Panel 2為具台灣衛署許可證市售檢測試劑"}
+  ],
+  "ifu": {
+   "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/K170604.pdf",
+   "path": "sources/流感/檢驗/FilmArrayRP2_510k_K170604_FDA.pdf",
+   "version": "FDA 510(k) K170604 Decision Summary（FilmArray Respiratory Panel 2, RP2）",
+   "downloaded": "2026-09-16",
+   "sha256": "8879d53b249d11ed26781ab1991a143ac725273449b0df5b6477ab8df8953a2c",
+   "pages": 66,
+   "words": 23314,
+   "perfPages": [49,50],
+   "perf": {
+    "fluA": {"sens":"整體(Overall) PPA 100% (78/78, 95%CI 95.3–100)","spec":"整體 NPA 100% (1531/1531, 95%CI 99.7–100)"},
+    "fluB": {"sens":"整體 PPA 100% (14/14, 95%CI 78.5–100)","spec":"整體 NPA 99.9% (1596/1598, 95%CI 99.5–100)"},
+    "reference": "PCR/其他FDA核准分子比較法(前瞻性臨床試驗)",
+    "note": "Table 29 (page 49-50)：FilmArray RP2 Prospective Clinical Performance Summary，含新鮮/冷凍檢體分層數據，本表同時列出FluA H1、FluA H1-2009、FluA H3等亞型子項；另有K160068(原始RP版本,已下載)僅列全病原彙總95%/100%，未拆分流感A/B"
+   },
+   "additionalFiles": [
+    {"path":"sources/流感/檢驗/FilmArrayRP_510k_K160068_FDA.pdf","url":"https://www.accessdata.fda.gov/cdrh_docs/reviews/K160068.pdf","sha256":"b0354f8f1ca8599293e697ee5a7b3fad25b5babd678e23c4dea135a0480994a6","pages":4,"note":"原始FilmArray RP(非RP2)510(k)決定摘要，僅彙總全部20種病原agreement，未逐一列出流感A/B數字"}
+   ]
+  },
+  "status": "台灣在用(有證據，多家醫學中心)"
+ },
+ {
+  "slug": "quidel-solana-flu-ab",
+  "category": "POC-NAAT",
+  "device": "Quidel Solana Influenza A+B Assay",
+  "maker": "Quidel Corporation（現 QuidelOrtho）；台灣代理：台灣快密刀科技有限公司",
+  "taiwanEvidence": [
+   {"kind":"TFDA許可證(轉錄)","url":"https://data.zhupiter.com","note":"諸彼特開放資料：中文品名「快得利索拉娜A B型流行性感冒病毒核酸檢測試劑」，英文品名 Quidel Solana Influenza A+B Assay，台灣申請商為台灣快密刀科技有限公司"}
+  ],
+  "ifu": {
+   "url": "未取得",
+   "path": "",
+   "version": "未確認",
+   "downloaded": "2026-09-16",
+   "sha256": "",
+   "pages": 0,
+   "words": 0,
+   "perfPages": [],
+   "perf": {"fluA":{"sens":"未確認","spec":"未確認"},"fluB":{"sens":"未確認","spec":"未確認"},"reference":"未確認","note":"僅查到TFDA許可證轉錄紀錄，未見任何台灣醫院/檢驗科具名使用之網頁證據，也未取得IFU；Savanna(QuidelOrtho多重分子分析儀，可測流感)同樣僅查到國際新聞稿提及歐洲上市，無台灣證據"}
+  },
+  "status": "未確認(僅有TFDA許可證紀錄，無醫院使用證據)"
+ },
+ {
+  "slug": "quidelortho-savanna-rvp",
+  "category": "POC-NAAT",
+  "device": "Savanna RVP4 / Savanna PCR system（QuidelOrtho）",
+  "maker": "QuidelOrtho",
+  "taiwanEvidence": [],
+  "ifu": {
+   "url": "未取得",
+   "path": "",
+   "version": "未確認",
+   "downloaded": "2026-09-16",
+   "sha256": "",
+   "pages": 0,
+   "words": 0,
+   "perfPages": [],
+   "perf": {"fluA":{"sens":"未確認","spec":"未確認"},"fluB":{"sens":"未確認","spec":"未確認"},"reference":"未確認","note":"僅查到中文媒體報導Savanna在歐洲上市、可測流感A/B與COVID-19，以及一篇評估Savanna RVP4的德國文獻；查無任何台灣TFDA許可證或醫院使用之證據，列為市面可見機型但未確認台灣有引進"}
+  },
+  "status": "未確認，列為市面可見機型(查無台灣證據)"
+ },
+ {
+  "slug": "genereach-pockit-flu",
+  "category": "POC-NAAT",
+  "device": "POCKIT Influenza (H3N8/H5禽流感等)（瑞基海洋）",
+  "maker": "瑞基海洋生物科技股份有限公司 (GeneReach Biotechnology Corp.)",
+  "taiwanEvidence": [
+   {"kind":"廠商","url":"https://www.genereach.com","note":"官網／股東會議事手冊列有 POCKIT Influenza H3N8 Reagent Set，另有畜產/水產病原(H5禽流感等)檢測試劑"},
+   {"kind":"廠商","url":"http://biopioneer.com.tw","note":"太鼎生物科技代理頁列出 POCKIT Micro 系列可測「A型流感病毒(Influenza A Virus)」「H5亞型禽流感病毒」，惟屬畜產/水產病原檢測范疇"}
+  ],
+  "ifu": {
+   "url": "不適用",
+   "path": "",
+   "version": "不適用",
+   "downloaded": "2026-09-16",
+   "sha256": "",
+   "pages": 0,
+   "words": 0,
+   "perfPages": [],
+   "perf": {"fluA":{"sens":"不適用(非人用臨床檢驗)","spec":"不適用"},"fluB":{"sens":"不適用","spec":"不適用"},"reference":"不適用","note":"瑞基海洋是台灣本土POC分子檢測知名廠商(COVID-19/腸胃道疾病/水產病原)，但其流感相關產品(POCKIT Influenza H3N8、H5禽流感)屬動物/水產檢疫用途，非人用臨床流感診斷，故不列入本次人用流感檢驗機型清單，僅供對照說明"}
+  },
+  "status": "非人用臨床流感檢驗(動物用/水產檢疫，排除)"
+ },
+ {
+  "slug": "quidel-sofia-fia-2014-tw-study",
+  "category": "reference",
+  "device": "疾管署Sofia FIA台灣本土效能評估研究（2014年）",
+  "maker": "衛生福利部疾病管制署研究檢驗及疫苗研製中心",
+  "taiwanEvidence": [
+   {"kind":"疾管署","url":"https://www.cdc.gov.tw/EpidemicTheme/Detail/zKNFqsVWxUoUqE6fyhmBNA?archiveId=gzXEAApYQWHbAf0KbvXgrg","note":"《疫情報導》原著文章頁面"}
+  ],
+  "ifu": {
+   "url": "https://www.cdc.gov.tw/File/Get/R6mhXqFwI_5BX-AGfNXhmQ",
+   "path": "sources/流感/檢驗/CDC_TW_Sofia流感快篩效能評估_2014.pdf",
+   "version": "疾管署《疫情報導》2014年第30卷第22期",
+   "downloaded": "2026-09-16",
+   "sha256": "c28af5064350c9c9e3632f14b04815c5547be6de0ed8556c940b6952a999adbb",
+   "pages": 8,
+   "words": 1637,
+   "perfPages": [1],
+   "perf": {
+    "fluA": {"sens":"整體68.2%；Cp<30時可達85%以上(H1N1pdm09 92%、H3N2 85%)","spec":"100%(無偽陽性)"},
+    "fluB": {"sens":"整體45.5%；Cp<30時69%","spec":"100%(無偽陽性)"},
+    "reference": "real-time RT-PCR",
+    "note": "本研究以73件台灣臨床檢體、疾管署自行執行，非原廠IFU但為極重要的「台灣本土實測」數據，效能明顯低於原廠美國臨床試驗數字，供臨床判讀時參考"
+   }
+  },
+  "status": "台灣本土研究(非原廠IFU，供對照參考)"
+ },
+ {
+  "slug": "cdc-testing-methods-table",
+  "category": "reference",
+  "device": "CDC Table 1: Influenza Virus Testing Methods（美國CDC方法總表）",
+  "maker": "US CDC / NCIRD",
+  "taiwanEvidence": [],
+  "ifu": {
+   "url": "https://www.cdc.gov/flu/php/laboratories/table-testing-methods.html",
+   "path": "sources/流感/檢驗/CDC_Table1_InfluenzaTestingMethods.pdf",
+   "version": "CDC網頁列印版 (2026-03-06更新)",
+   "downloaded": "2026-09-16",
+   "sha256": "e5168344239691a32621eee53e09f212cdeb6d358b1129ad9232f023cdb21f75",
+   "pages": 2,
+   "words": 609,
+   "perfPages": [1,2],
+   "perf": {
+    "fluA": {"sens":"依方法而異：RIDT 50-70%／DIA(帶analyzer) 75-80%／rapid molecular 90-95%／RT-PCR極高","spec":"RIDT約90-99%；分子法極高"},
+    "fluB": {"sens":"同上，方法別彙總非單一產品數字","spec":"同上"},
+    "reference": "viral culture/RT-PCR(依方法不同)",
+    "note": "此為方法類別總表(非單一機型)，列method/type/acceptable specimens/test time/CLIA waived狀態，作為分類架構母表使用；另存有CDC「Overview of Influenza Testing Methods」與「Information for Clinicians on Rapid Diagnostic Testing」兩份既有PDF於sources/流感/上層目錄"
+   }
+  },
+  "status": "美國CDC方法分類總表(非機型IFU)"
+ },
+ {
+  "slug": "tfda-flu-ivd-survey-2013",
+  "category": "reference",
+  "device": "TFDA台灣流感快篩試劑品質調查研究(Journal of Food and Drug Analysis, 2014)",
+  "maker": "衛生福利部食品藥物管理署 (TFDA Section of Biologics)",
+  "taiwanEvidence": [
+   {"kind":"TFDA","url":"https://www.fda.gov.tw/tc/includes/getfile.ashx?id=f636816212330007629","note":"TFDA官方PDF連結，論文原載於Journal of Food and Drug Analysis 22(2014)279-284"}
+  ],
+  "ifu": {
+   "url": "https://www.fda.gov.tw/tc/includes/getfile.ashx?id=f636816212330007629",
+   "path": "sources/流感/檢驗/TFDA_流感快篩試劑品質調查.pdf",
+   "version": "Journal of Food and Drug Analysis 22(2014) 279-284",
+   "downloaded": "2026-09-16",
+   "sha256": "603466f5c7ff602a8b74af8154e53ab333f337baa04f0dffd48a629cc7458aa2",
+   "pages": 6,
+   "words": 3975,
+   "perfPages": [2,3],
+   "perf": {
+    "fluA": {"sens":"分析敏感度(非臨床)：H1N1 500-1000ng/mL；CCID50法 log10 5.8±0.5","spec":"對HCoV-OC43無交叉反應(100%特異)"},
+    "fluB": {"sens":"分析敏感度：1000ng/mL","spec":"同上"},
+    "reference": "WHO國際標準抗原/病毒株(非臨床PCR對照)",
+    "note": "2013年市場調查，收集台灣本土7件+進口31件共19張許可證的流感快篩試劑，發現20/38件標示不合規；文中引用文獻指出部分RIDT臨床敏感度僅11-49%(BinaxNow對H1N1pdm09僅11.1%、QuickVue 27%、Directigen EZ 49%)，凸顯analytical與clinical敏感度可能脫節；年代較舊(2013)，僅供歷史脈絡與方法論參考，不代表現行機型效能"
+   }
+  },
+  "status": "歷史市場調查(2013年，供脈絡參考，非現行效能代表值)"
+ },
+ {
+  "slug": "nics-respiratory-virus-lab-diagnosis",
+  "category": "reference",
+  "device": "台灣感染管制學會〈呼吸道病毒感染之實驗診斷〉(表三：具台灣衛署許可證市售檢測試劑)",
+  "maker": "社團法人台灣感染管制學會 / 成大醫院病理部病毒組",
+  "taiwanEvidence": [
+   {"kind":"學會","url":"https://nics.org.tw/download_datax.php?id=1837","note":"感控雜誌2022年32卷2期，蔡慧頻、李南瑤(成大醫院)"}
+  ],
+  "ifu": {
+   "url": "https://nics.org.tw/download_datax.php?id=1837",
+   "path": "sources/流感/檢驗/NICS_呼吸道病毒感染之實驗診斷.pdf",
+   "version": "感控雜誌2022:32:107-116",
+   "downloaded": "2026-09-16",
+   "sha256": "cc6cdccf1e01255b7e2a06c79b6f5c28873744dd979647e31d1edf8a3982ca3c",
+   "pages": 10,
+   "words": 1817,
+   "perfPages": [6],
+   "perf": {
+    "fluA": {"sens":"表三僅列方法學特性(檢體別/所需時間/CLIA waived狀態)，未列敏感度數字","spec":"同上"},
+    "fluB": {"sens":"同上","spec":"同上"},
+    "reference": "不適用(方法學彙整非單一效能研究)",
+    "note": "表三(page6，印刷頁112)彙整FilmArray RP、FilmArray RP2.1、Xpert xpress Flu/RSV/SARS-CoV-2、cobas Liat influenza A/B & RSV assay、cobas Liat influenza A/B & SARS-CoV-2 assay、ID NOW influenza A&B 2 test等具台灣衛署許可證之POC-NAAT機型，是本次研究判定「台灣在用POC-NAAT清單」的關鍵佐證文件"
+   }
+  },
+  "status": "台灣感染管制學會官方彙整文件(關鍵佐證)"
+ }
+]

@@ -1,0 +1,406 @@
+[
+ {
+  "slug": "cdc-antiviral-summary-clinicians",
+  "kind": "guideline",
+  "title": "Influenza Antiviral Medications: Summary for Clinicians",
+  "org": "CDC",
+  "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+  "path": "sources/流感/CDC流感抗病毒藥物摘要_SummaryForClinicians_2025-26.pdf",
+  "version": "現行 2025-26 流感季版；頁面標註 MAR. 10, 2026（列印時網頁狀態）",
+  "downloaded": "2026-09-16",
+  "sha256": "26efff57c7f6661ed7d18677f0e0bf537cb3fd4a2874304223efff91933be3c0",
+  "pages": 12,
+  "words": 7067,
+  "license": "public domain (US gov)",
+  "keyPages": {
+   "priority_groups_for_treatment": [
+    1
+   ],
+   "empiric_treatment_within_2_days": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9
+   ]
+  },
+  "notes": "headless Chrome 列印（node tools/print_web_source.mjs）。內容涵蓋治療優先族群、暴露後兩天內經驗性投藥原則、各類抗病毒藥物選項。",
+  "source": "S114"
+ },
+ {
+  "slug": "cdc-hcp-viral-resp-supplement-2026",
+  "kind": "guideline",
+  "title": "Infection Control in Healthcare Personnel: Viral Respiratory Infections Supplement",
+  "org": "CDC/HICPAC",
+  "url": "https://www.cdc.gov/infection-control/media/pdfs/IC-in-HCP-Update-Viral-Respiratory-Infections-Supplement-508.pdf",
+  "path": "sources/流感/CDC_HCP感染管制_Viral_Respiratory_Infections_Supplement_2026.pdf",
+  "version": "PDF ModDate 2026-09-03（現行 2026 年版 HICPAC 病毒性呼吸道感染附錄）",
+  "downloaded": "2026-09-16",
+  "sha256": "16d6de12664dbfe9560ed798653766692c51fc8d9cc1508c00d709687084e945",
+  "pages": 51,
+  "words": 16001,
+  "license": "public domain (US gov)",
+  "keyPages": {
+   "day3_and_24h_afebrile_work_restriction": [
+    12
+   ]
+  },
+  "notes": "直接下載官方 PDF（非列印）。第12頁：「work restrictions for symptomatic HCP with a suspected or confirmed viral respiratory infection for at least 3 days since symptom onset given at least 24 hours have elapsed since fever cessation without the use of fever-reducing medications」——即題目要求的 Day 3＋24h 退燒（不用退燒藥）條款所在頁。",
+  "source": "S115"
+ },
+ {
+  "slug": "cdc-hcp-main-guideline-2026",
+  "kind": "guideline",
+  "title": "Infection Control in Healthcare Personnel: Epidemiology and Control of Selected Infections Transmitted Among Healthcare Personnel and Patients (main document)",
+  "org": "CDC/HICPAC",
+  "url": "https://www.cdc.gov/infection-control/hcp/healthcare-personnel-epidemiology-control/index.html",
+  "path": "sources/流感/CDC_HCP感染管制_主要指引_呼吸道病毒工作限制_2026.pdf",
+  "version": "Updated August 25, 2026",
+  "downloaded": "2026-09-16",
+  "sha256": "660d61e515c33140362eb8be9e104eef77fa6f5f46ed091bc74d8ca2da342c8e",
+  "pages": 132,
+  "words": 43010,
+  "license": "public domain (US gov)",
+  "keyPages": {},
+  "notes": "非題目原始清單項目，屬批次執行時額外取得的母文件（本體含 Conjunctivitis/CMV/Diphtheria/GAS/Measles/Meningococcal/Mumps/Parvovirus/Pertussis/Rabies/Rubella/**Viral Respiratory Infections**/Varicella-Zoster/孕婦醫事人員 等病原專章）；流感/病毒性呼吸道感染的實際條文在獨立附錄 cdc-hcp-viral-resp-supplement-2026 內（Day 3／24h 那句在附錄，不在本檔），本檔僅作為母文件脈絡佐證，未逐句定位頁碼。",
+  "source": "S116"
+ },
+ {
+  "slug": "cdc-precautions-when-sick",
+  "kind": "web-print",
+  "title": "Preventing Spread of Respiratory Viruses When You're Sick",
+  "org": "CDC",
+  "url": "https://www.cdc.gov/respiratory-viruses/prevention/precautions-when-sick.html",
+  "path": "sources/流感/CDC_生病時預防呼吸道病毒傳播_Precautions_When_Sick.pdf",
+  "version": "Reviewed AUG. 18, 2025",
+  "downloaded": "2026-09-16",
+  "sha256": "5a8e6b45ff27318b27c1427df005b8a8d98fcb65aa453e9e434ce518e5a02119",
+  "pages": 5,
+  "words": 1084,
+  "license": "public domain (US gov)",
+  "keyPages": {
+   "24h_symptom_improvement_and_no_fever_reducer_then_5_days_precautions": [
+    1
+   ]
+  },
+  "notes": "headless Chrome 列印。第1頁：「You can go back to your normal activities when, for at least 24 hours, both are true...」＋其後「take added precautions over the next 5 days」段落，即題目要求的 24h 症狀改善＋無退燒藥退燒、再5天注意事項。",
+  "source": "S117"
+ },
+ {
+  "slug": "cdc-droplet-precautions-healthcare-settings",
+  "kind": "guideline",
+  "title": "Infection Prevention and Control Strategies for Seasonal Influenza in Healthcare Settings",
+  "org": "CDC",
+  "url": "https://www.cdc.gov/flu/hcp/infection-control/healthcare-settings.html",
+  "path": "sources/流感/CDC_住院流感感染管制_Droplet_Precautions.pdf",
+  "version": "Updated APR. 28, 2025",
+  "downloaded": "2026-09-16",
+  "sha256": "ebd5468894f285f10022525ccfc92cdc1629f6c4954a2821a4057b2045a79206",
+  "pages": 8,
+  "words": 4961,
+  "license": "public domain (US gov)",
+  "keyPages": {
+   "droplet_precautions_7days_or_24h_afebrile_whichever_longer": [
+    4
+   ],
+   "antiviral_treated_patients_continue_to_shed_virus": [
+    6
+   ]
+  },
+  "notes": "headless Chrome 列印。第4頁：「Droplet Precautions should be implemented for patients with suspected or confirmed influenza for 7 days after illness onset or until 24 hours after the resolution of fever and respiratory symptoms, whichever is longer.」第6頁：「Both HCP and patients should be reminded that persons treated with influenza antiviral medications continue to shed influenza virus while on treatment.」——題目要求的兩句皆在本檔。",
+  "source": "S118"
+ },
+ {
+  "slug": "cdc-rapid-diagnostic-testing",
+  "kind": "guideline",
+  "title": "Information for Clinicians on Rapid Diagnostic Testing for Influenza",
+  "org": "CDC",
+  "url": "https://www.cdc.gov/flu/hcp/testing-methods/rapid-diagnostic-testing.html",
+  "path": "sources/流感/CDC快速診斷檢測臨床指引_RapidDiagnosticTesting.pdf",
+  "version": "JAN. 5, 2026",
+  "downloaded": "2026-09-16",
+  "sha256": "6f2c374df5dca692a488c3a57c307eb82413682d91cafb6a41344b89ad76e270",
+  "pages": 2,
+  "words": 753,
+  "license": "public domain (US gov)",
+  "keyPages": {
+   "fda_80pct_sensitivity_requirement_for_ridts": [
+    1
+   ]
+  },
+  "notes": "第1頁：「FDA now requires that all RIDTs achieve 80% or higher sensitivity compared with RT-PCR.」",
+  "source": "S119"
+ },
+ {
+  "slug": "cdc-molecular-assays-rtpcr",
+  "kind": "guideline",
+  "title": "Information on Rapid Molecular Assays, RT-PCR, and other Molecular Assays for Diagnosis of Influenza Virus Infection",
+  "org": "CDC",
+  "url": "https://www.cdc.gov/flu/hcp/testing-methods/molecular-assays.html",
+  "path": "sources/流感/CDC分子檢測RT-PCR臨床指引_MolecularAssays.pdf",
+  "version": "APR. 30, 2026",
+  "downloaded": "2026-09-16",
+  "sha256": "27c747847dc2d976544f55190f47fce28125b9d24fda0039eaf2133aaae32953",
+  "pages": 7,
+  "words": 4315,
+  "license": "public domain (US gov)",
+  "keyPages": {
+   "rapid_molecular_assay_sensitivity_range": [
+    1
+   ]
+  },
+  "notes": "第1頁：「Reported sensitivities of available rapid molecular assays range from 66-100%.」——題目要求的核酸檢測 90–95% 一句在本檔查無逐字相符（CDC現行版寫的是 66-100% 範圍，非固定 90-95%），已如實記錄非題目原詞；90-95% 一詞應改核對 IDSA 指引或其他文獻。",
+  "source": "S120"
+ },
+ {
+  "slug": "cdc-about-influenza-keyfacts",
+  "kind": "web-print",
+  "title": "About Influenza (Key Points: contagious period, incubation period)",
+  "org": "CDC",
+  "url": "https://www.cdc.gov/flu/about/index.html",
+  "path": "sources/流感/CDC_流感傳染期與潛伏期_KeyFacts.pdf",
+  "version": "Updated FEB. 26, 2026",
+  "downloaded": "2026-09-16",
+  "sha256": "6e3a6f9b9ab5ac0237da1b834c51e7046f0cacb43a3cd75ed8804069cd1c7473",
+  "pages": 4,
+  "words": 1450,
+  "license": "public domain (US gov)",
+  "keyPages": {
+   "contagious_period_1day_before_to_5to7days_after": [
+    2
+   ],
+   "incubation_period_1to4days_avg2": [
+    2
+   ]
+  },
+  "notes": "第2頁：「People with flu are most contagious during the first three days of their illness... one day before symptoms develop and five to seven days after becoming sick」；「incubation period... about two days but can range from about one to four days.」",
+  "source": "S121"
+ },
+ {
+  "slug": "idsa-2018-seasonal-influenza-guideline",
+  "kind": "guideline",
+  "title": "Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenzaa",
+  "org": "IDSA / Oxford University Press (Clinical Infectious Diseases)",
+  "url": "https://doi.org/10.1093/cid/ciy866",
+  "path": "sources/流感/IDSA流感臨床指引_2018_UyekiCID2019.pdf",
+  "version": "Uyeki TM et al. Clin Infect Dis. 2019;68(6):e1–e47. Published online 2018-12-19.",
+  "downloaded": "2026-09-16",
+  "sha256": "ac982e7e8e816ceccbf913e2c92792b2a03192ba39da248ce5185e6d6f8a0406",
+  "pages": 47,
+  "words": 45972,
+  "license": "CC BY-NC-ND (OUP 開放取用；確認方式：Crossref/Unpaywall 標記 is_oa=true、PMCID PMC6653685 hasPDF=Y；OUP 對此類 IDSA guideline 一般採 CC BY-NC-ND，未在本機看到頁內明確授權貼紙，建議公開部署前以 PDF 首頁版權聲明再次確認具體授權變體)",
+  "keyPages": {
+   "recommendation10_rapid_molecular_assay_over_ridt": [
+    5,
+    18
+   ],
+   "testing_preferably_within_4_days_of_symptom_onset": [
+    4,
+    16
+   ],
+   "table_ridt_vs_molecular_specificity_90pct": [
+    null
+   ]
+  },
+  "notes": "首次嘗試被 OUP/PMC 的 Cloudflare 反機器人與 proof-of-work 擋下（403／JS challenge／reCAPTCHA），第二輪改用互動式瀏覽器成功取得完整PDF。第5/18頁：Recommendation 10「Clinicians should use rapid molecular assays...RT-PCR or other molecular assays over...」；第4/16頁：「as soon after symptom onset as possible, preferably within 4 days of symptom onset」（題目要求句的近似版本，用詞為 preferably 非 ideally）；表格載明 FDA-cleared 快篩對 RT-PCR 的 specificity generally high (>90%)。",
+  "source": "S122"
+ },
+ {
+  "slug": "gao-2025-nonsevere-influenza-nma-jama",
+  "kind": "paper",
+  "title": "Antiviral Medications for Treatment of Nonsevere Influenza: A Systematic Review and Network Meta-Analysis",
+  "org": "JAMA Internal Medicine",
+  "url": "https://doi.org/10.1001/jamainternmed.2024.7193",
+  "path": null,
+  "version": "Gao Y et al. JAMA Intern Med. 2025;185(3):293-301. PMID 39804622; PMC11877164",
+  "downloaded": null,
+  "sha256": null,
+  "pages": null,
+  "words": null,
+  "license": "©（本機限定；JAMA/AMA 版權所有，未查得開放取用版）",
+  "keyPages": {},
+  "notes": "未取得。PMC11877164 僅為引用頁殼（Europe PMC 標記 isOpenAccess:N, hasPDF:N），無公開全文/PDF；jamanetwork.com 全文需訂閱登入。曾在 PMC 頁面上以螢幕閱讀方式讀到 Table 3 症狀緩解天數數字（baloxavir −1.02天、umifenovir −1.10天、oseltamivir −0.75天、zanamivir −0.68天，皆相對 placebo），但因無法下載到可逐字核對＋畫黃框的原始 PDF/HTML 檔案，未登記為已存檔來源，僅在此註記供使用者知悉，若需正式引用建議使用者以訂閱管道自行下載存入本資料夾。"
+ },
+ {
+  "slug": "gao-2024-severe-influenza-nma-lancet",
+  "kind": "paper",
+  "title": "Antivirals for treatment of severe influenza: a systematic review and network meta-analysis of randomised controlled trials",
+  "org": "The Lancet",
+  "url": "https://doi.org/10.1016/S0140-6736(24)01307-2",
+  "path": "sources/流感/Gao2024重症流感抗病毒NMA_Lancet.pdf",
+  "version": "Gao Y et al. Lancet. 2024;404(10454):753-763. PMID 39181595; PMC11369965",
+  "downloaded": "2026-09-16",
+  "sha256": "79969fd482a30fa0c4d2b9da8b3e1b15bd56868e36d53ddd2eda8c52a841cc9e",
+  "pages": 11,
+  "words": 8208,
+  "license": "CC BY 4.0（PDF首頁：'© 2024 The Author(s). Published by Elsevier Ltd. This is an Open Access article under the CC BY license'；Unpaywall/PMC 皆確認 license:cc-by, is_oa:true）",
+  "keyPages": {
+   "table2_mortality_grade_summary": [
+    7
+   ],
+   "table3_hospitalization_duration_grade_summary": [
+    7
+   ]
+  },
+  "notes": "研究支持 WHO 2024 流感臨床指引更新（正文載明 'To support updated WHO influenza clinical guidelines'，與本資料夾 WHO_流感臨床實務指引 同源）。使用者亦於同日自行提供同篇 PDF（見 _使用者提供文件.md），兩者以 sha256 比對後登記本檔。第7頁（期刊頁759附近）：Table 2 死亡率 GRADE 摘要、Table 3 住院天數 GRADE 摘要。",
+  "source": "S123"
+ },
+ {
+  "slug": "lancet-2024-pep-influenza-nma",
+  "kind": "paper",
+  "title": "Antivirals for post-exposure prophylaxis of influenza: a systematic review and network meta-analysis",
+  "org": "The Lancet",
+  "url": "https://doi.org/10.1016/S0140-6736(24)01357-6",
+  "path": "sources/流感/Lancet_PEP_influenza_antivirals_NMA_2024_fulltext.xml",
+  "version": "Lancet. 2024;404(10454):764-772. PMID 39181596; PMC11369964",
+  "downloaded": "2026-09-16",
+  "sha256": "98c5ef2bdcea733a80baf60b4a3eea53c1672e98288833976c272fceeb9f81f1",
+  "pages": null,
+  "words": 8172,
+  "license": "CC BY 4.0（Unpaywall/PMC 確認 license:cc-by, is_oa:true；同期刊同源授權模式）",
+  "keyPages": {
+   "pep_efficacy_rr_by_drug": [
+    "abstract/results 段落（XML 無頁碼）"
+   ]
+  },
+  "notes": "**僅取得 Europe PMC REST API 全文 JATS XML（非PDF）**：PDF 端點（PMC、thelancet.com）皆被 Cloudflare/reCAPTCHA 反機器人擋下，多次以 curl 與互動式瀏覽器嘗試均失敗。XML 為合法 EBI 鏡像之完整 CC BY 全文，可逐字核對，但**無頁碼可畫黃框定位**——若日後需要黃框功能，建議使用者以真人瀏覽器登入 PMC 手動下載 PDF（預期約 605,491 bytes）取代本檔。摘要關鍵數字：暴露後48h內服用 zanamivir RR 0.35(0.25–0.50)、oseltamivir 0.40(0.26–0.62)、laninamivir 0.43(0.30–0.63)、baloxavir 0.43(0.23–0.79)（皆對高風險族群、中等確定性證據）。"
+ },
+ {
+  "slug": "merckx-2017-rapid-test-accuracy",
+  "kind": "paper",
+  "title": "Diagnostic Accuracy of Novel and Traditional Rapid Tests for Influenza Infection Compared With Reverse Transcriptase Polymerase Chain Reaction: A Systematic Review and Meta-analysis",
+  "org": "Annals of Internal Medicine (ACP)",
+  "url": "https://doi.org/10.7326/M17-0848",
+  "path": null,
+  "version": "Merckx J et al. Ann Intern Med. 2017;167(6):394-409. PMID 28869986",
+  "downloaded": null,
+  "sha256": null,
+  "pages": null,
+  "words": null,
+  "license": "©（本機限定；未取得——ACP/Annals 訂閱制，Crossref 授權欄位僅列 text-and-data-mining，非開放取用；未收錄於 PMC）",
+  "keyPages": {},
+  "notes": "未取得，付費。已確認正確 PMID/DOI（原題目提供的識別資訊有誤，已用 PubMed 校正）；PMC ID 轉換器查無 PMCID；直連 acpjournals.org PDF 端點回傳 Cloudflare 403。無合法免費全文管道。"
+ },
+ {
+  "slug": "chartrand-2012-rapid-test-metaanalysis",
+  "kind": "paper",
+  "title": "Accuracy of Rapid Influenza Diagnostic Tests: A Meta-analysis",
+  "org": "Annals of Internal Medicine (ACP)",
+  "url": "https://doi.org/10.7326/0003-4819-156-7-201204030-00403",
+  "path": null,
+  "version": "Chartrand C et al. Ann Intern Med. 2012;156(7):500-511. PMID 22371850",
+  "downloaded": null,
+  "sha256": null,
+  "pages": null,
+  "words": null,
+  "license": "©（本機限定；未取得——同上，ACP 訂閱制，非開放取用，未收錄於 PMC）",
+  "keyPages": {},
+  "notes": "未取得，付費。同上方法確認正確 PMID/DOI；查無 PMCID；直連 PDF 端點回傳 Cloudflare 403。無合法免費全文管道。"
+ },
+ {
+  "slug": "who-2024-clinical-practice-guidelines-influenza",
+  "kind": "guideline",
+  "title": "Clinical practice guidelines for influenza",
+  "org": "WHO",
+  "url": "https://iris.who.int/handle/10665/378608",
+  "path": "sources/流感/WHO_流感臨床實務指引_ClinicalPracticeGuidelinesInfluenza_2024.pdf",
+  "version": "Geneva: World Health Organization; 2024. ISBN 978-92-4-009775-9（electronic）. Update of the 2022 'Guidelines for the clinical management of severe illness from influenza virus infections'.",
+  "downloaded": "2026-09-16",
+  "sha256": "c845b39c8d6add9d5be54fb1ad7e7f1d806a3bb42d2f7465a147cd43dbab1f9b",
+  "pages": 242,
+  "words": 60128,
+  "license": "CC BY-NC-SA 3.0 IGO（PDF首頁明載：'Some rights reserved. This work is available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO licence'）",
+  "keyPages": {
+   "oseltamivir_dosing_treatment": [
+    79,
+    80
+   ],
+   "oseltamivir_pep_dosing": [
+    134,
+    166
+   ],
+   "toc_summary_of_findings_tables": [
+    301
+   ]
+  },
+  "notes": "**非題目原始14項清單之一，屬批次執行時額外取得的重要文件**：與 Gao2024 Lancet 重症流感 NMA（同一團隊，正文互相引用）同源，2024年 WHO 流感臨床指引全本，含 oseltamivir 治療與暴露後預防兩種劑量表、多組 GRADE實證摘要。CC BY-NC-SA 授權下可在非商業性公開網站引用並標示出處，但**改作/衍生內容須採相同授權**，需留意本站若含改作(如摘要重寫)是否符合 ShareAlike 要求。",
+  "source": "S124"
+ },
+ {
+  "slug": "pmda-avigan-favipiravir-review-report",
+  "kind": "guideline",
+  "title": "Report on the Deliberation Results — Avigan Tablet 200mg (favipiravir) [Review Report]",
+  "org": "PMDA (Japan Pharmaceuticals and Medical Devices Agency)",
+  "url": "https://www.pmda.go.jp/files/000210319.pdf",
+  "path": "sources/流感/PMDA_Avigan_favipiravir_審查報告_英文_2014-03.pdf",
+  "version": "PMDA Review Report, dated 2014-03（Avigan 初次核准審查報告英文版）",
+  "downloaded": "2026-09-16",
+  "sha256": "211c2f20e166427b97fa2508f80622a765f1950df7cfbe6955318be828152a10",
+  "pages": 172,
+  "words": 94985,
+  "license": "public domain-like（PMDA 官方審查報告，日本政府機關發布之公開行政文件，未見限制轉載聲明；未達CC BY等級，建議標示來源機關）",
+  "keyPages": {
+   "indication_novel_reemerging_influenza_when_other_antivirals_ineffective": [
+    3
+   ],
+   "teratogenicity_embryo_fetal_toxicity_studies": [
+    44
+   ]
+  },
+  "notes": "查無 WHO 針對「流感適應症」之 favipiravir 審查文件（WHO 對 favipiravir 之討論多集中於伊波拉/COVID-19，非流感），故僅取得 PMDA 版本，如題目所允許之「WHO 或 PMDA 擇一」。第3頁：適應症「treatment of patients with novel or re-emerging pandemic influenza virus infection in whom other influenza antiviral agents are not effective or insufficiently effective」；第44頁：致畸性/胚胎毒性動物實驗段落（mice, rats, rabbits 均見致畸性徵象），為孕婦禁忌之審查依據。",
+  "source": "S125"
+ },
+ {
+  "slug": "lancet-2024-pep-influenza-nma-webprint",
+  "kind": "web-print",
+  "title": "Antivirals for post-exposure prophylaxis of influenza: a systematic review and network meta-analysis（Lancet 2024;404:764–772，開放取用全文頁面列印）",
+  "org": "Lancet",
+  "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01357-6/fulltext",
+  "path": "sources/流感/Lancet2024_暴露後預防抗病毒NMA_開放取用全文_網頁列印_2026-09-16.pdf",
+  "version": "Lancet 2024;404:764–772；列印 2026-09-16",
+  "downloaded": "2026-09-16",
+  "sha256": "aaf8eb74f818d0b87239903e76211ee9651c95c1e77a5d07767b14ce1232d44c",
+  "pages": 30,
+  "words": 9755,
+  "license": "CC BY 4.0（開放取用）",
+  "keyPages": {},
+  "notes": "PDF 端點被 Cloudflare 擋；改以 tools/print_web_source.mjs --ua 列印全文頁（頁首頁尾帶網址與日期），可逐字定位。表格為網頁版排版。",
+  "source": "S126"
+ },
+ {
+  "slug": "gao-2025-jamaim-nonsevere-nma",
+  "kind": "paper",
+  "title": "Antiviral Medications for Treatment of Nonsevere Influenza: A Systematic Review and Network Meta-Analysis（Gao et al., JAMA Intern Med 2025;185:293–301）",
+  "org": "JAMA Intern Med",
+  "url": "https://doi.org/10.1001/jamainternmed.2024.7193",
+  "path": "sources/流感/Gao2025非重症流感抗病毒NMA_JAMAInternMed_使用者提供.pdf",
+  "version": "JAMA Intern Med 2025;185(3):293-301",
+  "downloaded": "2026-09-16",
+  "sha256": "6fa07c7074b0a9ac6d94c11b6bf2b86d3423cfbcb5b72a0bdc58592400175c8b",
+  "pages": 9,
+  "words": 7749,
+  "license": "©2025 AMA（付費牆；使用者以機構權限提供並決定可發布）",
+  "keyPages": {},
+  "notes": "Table 3（全藥物效果摘要）在 p.6；Table 1/2 在 p.5。",
+  "source": "S149"
+ },
+ {
+  "slug": "merckx-2017-annals-rapid-tests",
+  "kind": "paper",
+  "title": "Diagnostic Accuracy of Novel and Traditional Rapid Tests for Influenza Infection Compared With RT-PCR: A Systematic Review and Meta-analysis（Merckx et al., Ann Intern Med 2017;167:394–409）",
+  "org": "Ann Intern Med",
+  "url": "https://doi.org/10.7326/M17-0848",
+  "path": "sources/流感/Merckx2017_流感快篩診斷準確度_meta-analysis_AnnInternMed_使用者提供.pdf",
+  "version": "Ann Intern Med 2017;167:394-409",
+  "downloaded": "2026-09-16",
+  "sha256": "4ac78b2ed185632871b23838bdc735065edb2e4c4f5d509b563f66fdab45a09e",
+  "pages": 17,
+  "words": 13502,
+  "license": "©ACP（付費牆；使用者以機構權限提供並決定可發布）",
+  "keyPages": {},
+  "notes": "Table 2（pooled accuracy，含年齡次群組）在 p.8–9。",
+  "source": "S150"
+ }
+]

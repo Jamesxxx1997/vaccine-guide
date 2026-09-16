@@ -3,27 +3,28 @@
  "product": "Vaxigrip Tetra 菲流達四價流感疫苗",
  "source": "S45",
  "components": [
-  {"page": 1, "label": "組成", "quote": "VaxigripTetra可能含有微量雞蛋內容物，例如卵白蛋白(ovalbumin)以及在製程中使用的新黴素"},
-  {"page": 10, "label": "賦形劑（緩衝溶液）", "quote": "Sodium chloride"},
-  {"page": 10, "label": "賦形劑（緩衝溶液）", "quote": "Potassium chloride"},
-  {"page": 10, "label": "賦形劑（緩衝溶液）", "quote": "Disodium phosphate dihydrate"},
-  {"page": 10, "label": "賦形劑（緩衝溶液）", "quote": "Potassium dihydrogen phosphate"},
-  {"page": 11, "label": "賦形劑", "quote": "Water for injections"}
+  {"page": 3, "label": "組成（可能微量殘留）", "quote": "可能含有微量雞蛋內容物，例如卵白蛋白"},
+  {"page": 3, "label": "組成（製程微量殘留）", "quote": "的新黴素      、甲醛       和辛苯聚醇"},
+  {"page": 3, "label": "賦形劑（緩衝溶液）", "quote": "Sodium chloride"},
+  {"page": 3, "label": "賦形劑（緩衝溶液）", "quote": "Potassium chloride"},
+  {"page": 3, "label": "賦形劑（緩衝溶液）", "quote": "Disodium phosphate dihydrate"},
+  {"page": 3, "label": "賦形劑（緩衝溶液）", "quote": "Potassium dihydrogen phosphate"},
+  {"page": 3, "label": "賦形劑（緩衝溶液）", "quote": "Water for injections"}
  ],
  "allergens": [
-  {"key": "egg", "status": "有", "page": 1, "quote": "VaxigripTetra可能含有微量雞蛋內容物，例如卵白蛋白(ovalbumin)以及在製程中使用的新黴素"},
+  {"key": "egg", "status": "有", "page": 3, "quote": "可能含有微量雞蛋內容物，例如卵白蛋白"},
   {"key": "gelatin", "status": "未載明"},
-  {"key": "neomycin", "status": "有", "page": 1, "quote": "(neomycin)、甲醛(formaldehyde)和辛苯聚醇9 (octoxynol-9)(見4.3）"},
+  {"key": "neomycin", "status": "有", "page": 3, "quote": "的新黴素      、甲醛       和辛苯聚醇"},
   {"key": "other_antibiotics", "status": "未載明"},
   {"key": "yeast", "status": "未載明"},
-  {"key": "latex", "status": "未載明"},
+  {"key": "latex", "status": "未載明", "related": {"page": 16, "quote": "0.5 毫升懸浮液預填於附有接種針及柱塞（ elastomer chlorobutyl 或 bromobutyl 材質）\n               的接種針筒（第 I類玻璃）內，每盒 1支、 10支或 20支裝。", "note": "針筒柱塞為 chlorobutyl／bromobutyl 合成橡膠，仿單未提天然乳膠"}},
   {"key": "peg_polysorbate", "status": "未載明"},
-  {"key": "formaldehyde", "status": "有", "page": 1, "quote": "(neomycin)、甲醛(formaldehyde)和辛苯聚醇9 (octoxynol-9)(見4.3）"},
+  {"key": "formaldehyde", "status": "有", "page": 3, "quote": "的新黴素      、甲醛       和辛苯聚醇"},
   {"key": "thimerosal", "status": "未載明"},
   {"key": "aluminium", "status": "未載明"}
  ],
  "warnings": [
-  {"label": "過敏禁忌", "page": 2, "quote": "對本疫苗的內含成分，章節6.1所列的任何賦形劑，或任何殘存的微量成分，如新黴素(neomycin)、甲"},
-  {"label": "對蛋過敏警語", "page": 2, "quote": "已知對「蛋」之蛋白質有嚴重過敏者，由熟悉處理過敏症狀之醫護人員提供接種，並於接種後觀察30"}
+  {"label": "禁忌", "page": 4, "quote": "對本疫苗的內含成分，章節1.2所列的任何賦形劑，或任何殘存的微量成分，如新黴素\n           (neomycin)、甲醛(formaldehyde)和辛苯聚醇9 (octoxynol-9)等發生嚴重過敏反應，或接\n           種本疫苗曾經發生嚴重過敏反應者（例如：全身性過敏反應），請勿接種\n           VaxigripTetra。"},
+  {"label": "對蛋過敏警語", "page": 5, "quote": "已知對「蛋」之蛋白質有嚴重過敏者，由熟悉處理過敏症狀之醫護人員提供接種，並\n                於接種後觀察 30分鐘，無不適症狀再離開。"}
  ]
 }

@@ -135,3 +135,20 @@ npm test                                                                        
 - 12 個品項 TFDA 頁面只有網頁版仿單需使用者手動「匯出PDF」（Pentaxim、Vaxneuvance、Prevnar 20、公費三價流感 5 家、Flucelvax、Priorix、Varilrix、Arexvy、Abrysvo、Verorab）——其中多數已用國際仿單補上一列。
 - Flucelvax(S78/S79) thimerosal「有」是多劑量瓶才有，台灣用預充針筒；格子 note 已標明，矩陣不分劑型。
 - 副作用頁只收 TFDA 中文仿單＋疾管署原件，國際仿單這批只做成分／過敏原。
+
+---
+
+# 2026-09-16 追加批次（請一併檢查）
+
+## A. TFDA 仿單現行版更新（影響過敏原矩陣台灣列與副作用頁）
+- 發現：TFDA 查詢頁連結的 PDF 常是舊版，頁面「歷史仿單查詢」的最新版次與手風琴全文才是現行版。逐筆 curl 比對後 15 份過期、8 份「仿單無紙化」（PDF 只是外盒標籤表）。
+- 處理：17 份（S26、S30–S32、S34–S40、S42–S46、S48）改用 `tools/print_web_source.mjs --expand "全部展開" --ua` 列印頁面全文（`sources/仿單/現行版_2026-09-16/`，`_更新紀錄.md`），SRC 的 p:/v:、hashes、label-sources 已替換；舊分片移到 `review/*/_old_2026-09-13/`，四組 agent 重寫成分與副作用分片；三組 fresh-context verifier 分區核（結果：第一組全 PASS；第二組抓到 Hexaxim 禁忌句「1.2」在文字層是獨立連結區塊、卡介苗一列引句起點縮短理由寫錯，均已修正並註記；第三組抓到 Vaxigrip 缺乳膠相關句與註腳錯位、Bexsero 漏兩個罕見列、AdimFlu 漏一列、Fluarix 漏英譯，均已修正 0 FAIL）。
+- 實質內容變動（請抽查）：M-M-R II 硫柳汞 無→未載明；Boostrix 甲醛／polysorbate 殘留句消失→未載明、乳膠→無；Bexsero 乳膠但書消失→無；Fluarix 乳膠→無；Gardasil 9 補表 1；Hexaxim/Infanrix hexa 頁碼大幅位移。
+- 請 Codex 檢查：(1) `sources/仿單/現行版_2026-09-16/*.pdf` 每份頁首網址與日期存在、與 SRC `v:` 的版次一致；(2) 用 §6.2 數值法全量核對這 17 份的 claims；(3) 舊分片 vs 新分片的 status 差異表（有無「有」變「未載明」但新 PDF 其實仍有該句的情況）。
+
+## B. 疾病臨床 → 流感模組（新分頁）
+- 資料：`review/clinical.src.d/flu/{antiviral-labels,antiviral-policy,antiviral-rules,test,isolation,special,qa,vaccine,vaccine-premed}.json` → `tools/build_clinical.py` → `review/clinical-claims.json`（claim id `cl:flu:<item id>:<n>`）＋`review/clinical.js`；前端 `clinical.js`（六面板、抗病毒藥選擇器、關鍵字搜尋框）；index.html 分頁「疾病臨床」；`tools/test_clinical.cjs`。
+- 守門：每 item ≥1 ref；summary 數字必須出現在引句（西元年豁免）；rule 用 basedOn 借 refs；keywords 給站內不經 LLM 的關鍵字搜尋。
+- 來源 S94–S154（五藥仿單含紓伏效第 3 版、疾管署手冊與一覽表、CDC 2025-26／2026、WHO 2024、IDSA 2018、JAMA IM 2025、Lancet 2024×2、Merckx 2017、檢驗機型 IFU、疫苗銜接文件、premedication／anaphylaxis 文件）；ChatGPT 稿三份核對表在 `review/FLU_PLAN_2026-09-16.md` §11。
+- 已知判斷點請 Codex 挑戰：(1) 疾管署／CDC／WHO 三方不一致（WHO 對非重症 oseltamivir strong against）是否如實並列；(2) 選擇器規則（37 條）的 when 條件是否被 basedOn 原句支持；(3) 「7 天」條限保護環境照護者、傳染力用區間；(4) Merckx 2017 PDF 的 MediaBox 原點 (9,-9) 已在 `plumber_chars()` 校正——請確認其他 PDF 沒有被這個校正弄錯（bbox 原點為 0 的檔位移為 0）；(5) 易剋冒無文字層，用藥事實引克流感兩張許可證仿單（S112、S113），頁面標示；(6) premedication：不建議接種前 routine 抗組織胺（疾管署 2021 中文＋CDC 英文原句）、類固醇無任何來源建議、anaphylaxis 處置引 CDC 通則表與疾管署 2021。
+- 測試盲點：test_clinical 只驗「引句在原件裡」與「數字在引句裡」，抓不到整理句語意超出原句；verifier 已抽 labels 74／policy 117／isolation 32 全查。

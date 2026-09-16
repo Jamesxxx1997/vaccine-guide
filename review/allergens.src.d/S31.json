@@ -1,26 +1,26 @@
 {
   "vaccine": "mmr", "product": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗", "source": "S31",
   "components": [
-    {"page": 1, "label": "病毒株製程（雞胚胎細胞培養基）", "quote": "減毒 Edmonston 菌株並增殖於雞胚胎細胞培養基中；(2)MUMPSVAX ® (活性腮腺炎病毒疫苗，MSD)，為 Jeryl Lynn™(B 級)腮腺"},
-    {"page": 1, "label": "組成（山梨醇/蔗糖/水解膠）", "quote": "算含有 14.5 毫克的山梨醇(sorbitol)，磷酸鈉(sodium phosphate)，1.9 毫克的蔗糖(sucrose)，14.5 毫克的水解膠(hydrolyzed"},
-    {"page": 1, "label": "組成（新黴素，不含防腐劑）", "quote": "基成分及大約 25 微克的新黴素(neomycin)。此產品不含防腐劑。"},
-    {"page": 1, "label": "非活性成分表", "quote": "Porcine Hydrolyzed Gelatin、Medium 199 with Hank’s Salts、Minimum Essential Medium, Eagle、Monosodium L-Glutamate"}
+    {"page": 3, "label": "病毒株製程（雞胚胎細胞培養基）", "quote": "M‑M‑R Ⅱ為滅菌之凍晶乾燥劑，含有(1)毒性減弱之麻疹病毒，衍生自Enders氏之\n減毒Edmonston病毒株並增殖於雞胚胎細胞培養基中；(2)Jeryl Lynn(B級)腮腺炎\n病毒株，增殖於雞胚胎細胞培養基中；(3)減毒之活性德國麻疹病毒，衍生自\nWistar RA 27/3病毒株，並增殖於WI-38人類具雙套染色體的肺纖維組織母細胞\n(human diploid lung fibroblasts)培養基中。"},
+    {"page": 3, "label": "賦形劑表（1.2）", "quote": "Porcine Hydrolyzed Gelatin、Medium 199 with Hank’s Salts、Minimum\nEssential Medium Eagle、Monosodium L-Glutamate Monohydrate、\nNeomycin、Phenol Red、Potassium Phosphate Dibasic (Anhydrous)、\nPotassium Phosphate Monobasic、Sodium Bicarbonate、Sodium Phosphate\nDibasic (Anhydrous)、Sodium Phosphate Monobasic、Sorbitol、Sucrose。"},
+    {"page": 1, "label": "包裝瓶塞材質", "quote": "gray Chlorobutyl\nFlurotec on flange with B2-0\n4 coatingBromobutyl rubber"}
   ],
   "allergens": [
-    {"key": "egg", "status": "有", "page": 5, "quote": "活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、類過敏性反應或其它立即反應(如蕁痲疹、口"},
-    {"key": "gelatin", "status": "有", "page": 1, "quote": "14.5 毫克的水解膠(hydrolyzed"},
-    {"key": "neomycin", "status": "有", "page": 4, "quote": "對 neomycin 會產生過敏或類過敏反應者(稀釋後每劑量疫苗內約含 25 微克之 neomycin)。"},
+    {"key": "egg", "status": "有", "page": 9, "quote": "活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、\n類過敏性反應或其它立即反應(如蕁痲疹、口及喉嚨腫大、呼吸困難、低血壓或\n休克)的人，注射此含微量雞胚胎抗原的疫苗理論上有可能產生立即過敏反應的\n危險性。"},
+    {"key": "gelatin", "status": "有", "page": 6, "quote": "對此疫苗之任何成份包括動物膠有嚴重過敏者。"},
+    {"key": "neomycin", "status": "有", "page": 6, "quote": "對neomycin會產生過敏或類過敏(anaphylaxis)反應者(稀釋後每劑量疫苗內約含\n25微克之neomycin)。"},
     {"key": "other_antibiotics", "status": "未載明"},
     {"key": "yeast", "status": "未載明"},
-    {"key": "latex", "status": "未載明"},
+    {"key": "latex", "status": "未載明", "related": {"page": 1, "quote": "gray Chlorobutyl\nFlurotec on flange with B2-0\n4 coatingBromobutyl rubber", "note": "瓶塞材質為 Chlorobutyl／Bromobutyl 合成橡膠（丁基橡膠），非天然乳膠(latex)；仿單全文未出現「乳膠」或 latex 字樣"}},
     {"key": "peg_polysorbate", "status": "未載明"},
     {"key": "formaldehyde", "status": "未載明"},
-    {"key": "thimerosal", "status": "無", "page": 1, "quote": "基成分及大約 25 微克的新黴素(neomycin)。此產品不含防腐劑。"},
+    {"key": "thimerosal", "status": "未載明", "related": {"page": 4, "quote": "稀釋時，只使用與疫苗同時提供的稀釋液。因其不含防腐劑及其它會使疫苗失\n去活性的物質。", "note": "此句主語是「稀釋液」不含防腐劑（3.2 調製方式段），並非直接宣告成品疫苗本身不含硫柳汞／防腐劑；新版仿單已不見舊版 1.2 賦形劑段「此產品不含防腐劑」的整劑宣告句，故改列未載明並附此相關原句"}},
     {"key": "aluminium", "status": "未載明"}
   ],
+  "sweep": {"date": "2026-09-16", "dismissed": {"thimerosal": "p.3「Phenol」命中為 Phenol Red（賦形劑表內的pH指示劑，非硫柳汞/防腐劑）之子字串，非硫柳汞相關；防腐劑相關命中已改列 related"}},
   "warnings": [
-    {"label": "禁忌症（動物膠嚴重過敏）", "page": 4, "quote": "對此疫苗之任何成份包括動物膠有嚴重過敏者。"},
-    {"label": "禁忌症（neomycin過敏）", "page": 4, "quote": "對 neomycin 會產生過敏或類過敏反應者(稀釋後每劑量疫苗內約含 25 微克之 neomycin)。"},
-    {"label": "對蛋過敏警語", "page": 5, "quote": "活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、類過敏性反應或其它立即反應(如蕁痲疹、口"}
+    {"label": "禁忌症（動物膠嚴重過敏）", "page": 6, "quote": "對此疫苗之任何成份包括動物膠有嚴重過敏者。"},
+    {"label": "禁忌症（neomycin過敏）", "page": 6, "quote": "對neomycin會產生過敏或類過敏(anaphylaxis)反應者(稀釋後每劑量疫苗內約含\n25微克之neomycin)。"},
+    {"label": "對蛋過敏警語", "page": 9, "quote": "衛生福利部傳染病防治諮詢會預防接種組建議已知對「蛋」之蛋白質有嚴重過\n敏者，可在門/住診由熟悉處理過敏症狀之醫事人員提供接種，並於接種後留觀\n30分鐘。\n活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、\n類過敏性反應或其它立即反應(如蕁痲疹、口及喉嚨腫大、呼吸困難、低血壓或\n休克)的人，注射此含微量雞胚胎抗原的疫苗理論上有可能產生立即過敏反應的\n危險性。在此情況下，預防注射的危險及益處應被仔細衡量以決定是否接種。\n注射此疫苗於此類接種者須極度小心，一旦過敏反應發生，應立即做適當的處\n理。"}
   ]
 }

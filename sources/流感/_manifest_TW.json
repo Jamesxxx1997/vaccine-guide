@@ -1,0 +1,493 @@
+[
+ {
+  "slug": "tamiflu-tfda",
+  "kind": "label",
+  "title": "克流感膠囊75毫克 Tamiflu Capsules 75mg（羅氏）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E7%BD%B2%E8%97%A5%E8%BC%B8%E5%AD%97%E7%AC%AC023253%E8%99%9F",
+  "path": "sources/流感/克流感膠囊75毫克_Tamiflu_TFDA_2023-10-06.pdf",
+  "version": "CDS 16.0；許可證衛署藥輸字第023253號；仿單檔案上傳日期112-10-06(2023-10-06)",
+  "downloaded": "2026-09-16",
+  "sha256": "3835bdf46b0d87b76ff6cbd1849c094c06a7ccac168edafbb438f1aac172736a",
+  "pages": 1,
+  "words": 2229,
+  "sections": {
+   "indication": [
+    "2.1"
+   ],
+   "dosage": [
+    "2.2",
+    "2.2.1"
+   ],
+   "renal": [
+    "2.5.6"
+   ],
+   "pediatric": [
+    "2.5.4"
+   ],
+   "contraindication": [
+    "2.3"
+   ],
+   "pregnancy": [
+    "2.5.2",
+    "2.5.3(授乳)"
+   ],
+   "interaction": [
+    "2.8"
+   ],
+   "prophylaxis": [
+    "2.1(適應症內含預防用法段)"
+   ]
+  },
+  "notes": "本檔為單一巨幅印刷版下版（35.4x18.9吋摺盒仿單原稿，非常規多頁PDF），故用內文章節編號(2.1/2.2/2.3...)取代頁碼定位；pdftotext可完整抽取文字(2229字)，經grep核對含適應症/禁忌/2.5.4小兒/2.5.6腎功能不全/2.8交互作用等段落。同一許可證下另有025285號(法國廠)、025771號(義大利廠)兩張製造地不同之平行許可證，仿單CDS版本相同(16.0)，僅包裝廠址不同，未逐一下載。台灣未查得Tamiflu口服懸液用粉劑之現行許可證（TFDA開放資料集37/5.json搜尋「懸液」無此品項），僅膠囊劑型現行；如臨床需要懸液劑型，公費另有易剋冒（無懸液劑型）。",
+  "source": "S94"
+ },
+ {
+  "slug": "eraflu-tfda",
+  "kind": "label",
+  "title": "\"永信\"易剋冒膠囊75毫克 Eraflu Capsule 75mg \"Yung Shin\"（公費採購學名藥）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E9%83%A8%E8%97%A5%E8%A3%BD%E5%AD%97%E7%AC%AC059653%E8%99%9F",
+  "path": "sources/流感/易剋冒膠囊75毫克_Eraflu_TFDA_2025-08-11.pdf",
+  "version": "許可證衛部藥製字第059653號；仿單檔案上傳日期2025-08-11(廠商自行上傳)",
+  "downloaded": "2026-09-16",
+  "sha256": "d90cbaf2acf540cf9274b1c186404fb549d9d3f11bd888abbd66ef10dcb5d6b5",
+  "pages": 2,
+  "words": 0,
+  "sections": {
+   "indication": [
+    "p1(左欄【適應症】)"
+   ],
+   "dosage": [
+    "p1(左欄【用法用量】，含腎功能調整劑量表、成人/兒童/依體重懸液劑量換算表)",
+    "p2(左欄詳細腎功能不全劑量表)"
+   ],
+   "renal": [
+    "p1",
+    "p2"
+   ],
+   "pediatric": [
+    "p1(依體重mg/kg劑量表)",
+    "p2(懸液調配容量表)"
+   ],
+   "contraindication": [
+    "p1(右欄【禁忌】)"
+   ],
+   "pregnancy": [
+    "p1(右欄「生育力、懷孕與哺乳」段)"
+   ],
+   "interaction": [
+    "p2(右下角段落，含probenecid/cimetidine)"
+   ],
+   "prophylaxis": [
+    "p1(左欄「預防用法」段，含「本藥用於預防使用」相關敘述)"
+   ]
+  },
+  "notes": "本檔為Adobe Illustrator印刷版美工稿（無內嵌字型/文字層，pdftotext抽出0字），非缺頁或抓錯——已用pdftoppm轉圖並目視核對，兩頁內容完整含中央健保署核准之完整仿單全文（含2646/1943例安全性數據表、腎功能4級劑量表、依年齡體重之懸液劑量換算表共兩頁）。此為疾管署公費配置之兩款藥劑之一（另一為克流感），2026-08-24起擴大公費對象通函（見_下載紀錄_TW.md）明文列出「配置藥劑包括克流感及易剋冒」。 ｜2026-09-16：使用者再自 TFDA 匯出，得到同一檔（sha256 相同，Illustrator 美工稿、無文字層）；TFDA 頁面也無全文段落。tesseract 繁中 OCR 試過（每頁約 4–5 千詞但錯字與亂碼多，「適應症」都抓不到）不能當逐字來源。決定：易剋冒視為 oseltamivir 75 mg 同成分公費學名藥，用藥事實引克流感仿單（S112／S113），頁面標明「易剋冒仿單為圖檔，內容以克流感仿單為準」。",
+  "source": "S95"
+ },
+ {
+  "slug": "relenza-tfda",
+  "kind": "label",
+  "title": "瑞樂沙旋達碟 Relenza Rotadisks（GSK）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E7%BD%B2%E8%97%A5%E8%BC%B8%E5%AD%97%E7%AC%AC023336%E8%99%9F",
+  "path": "sources/流感/瑞樂沙旋達碟_Relenza_TFDA_2018-10-12.pdf",
+  "version": "許可證衛署藥輸字第023336號；PDF建立日期2018-10-12（原始檔020233360001pdf-107-12-17.pdf，即107年12月17日上傳）",
+  "downloaded": "2026-09-16",
+  "sha256": "528cf1d514d5d694e39e96304d0bf03606c94bdb282a61703bb15535b8b235b7",
+  "pages": 1,
+  "words": 0,
+  "sections": {
+   "indication": [
+    "p1(左欄上方【適應症】：治療性/預防性適應症)"
+   ],
+   "dosage": [
+    "p1(左欄【用法用量】：成人5mg吸入劑量、每日2次共5天；預防每日1次共10天)"
+   ],
+   "renal": [
+    "p1(左欄「腎功能不全者」：不須調整劑量)"
+   ],
+   "pediatric": [
+    "p1(左欄「兒童」：適用5歲以上，未列出5歲以下資料)"
+   ],
+   "contraindication": [
+    "p1(左欄【禁忌】：對任一成分過敏者)"
+   ],
+   "pregnancy": [
+    "p1(左欄「孕婦」「哺乳者」：均無足夠資料)"
+   ],
+   "interaction": [
+    "p1(未見獨立交互作用章節；【藥物交互作用】段落標示「無已知具臨床意義之交互作用」)"
+   ],
+   "prophylaxis": [
+    "p1(左欄【用法用量】「預防用法」：密切接觸者每日1次×10天)"
+   ]
+  },
+  "notes": "本檔為Adobe Illustrator印刷版美工稿（無文字層，pdftotext 0字），已用pdftoppm轉圖目視核對：完整中文仿單全一頁（A2大小圖文排版），含定性定量組成、臨床特性、警語注意事項、DISKHALER使用圖解教學。全部內容經目視確認完整可讀，僅缺文字層無法用Ctrl-F/grep逐字搜尋——供本模組「原句畫黃框」用途時，需以人工框選圖片座標而非文字座標。",
+  "source": "S96"
+ },
+ {
+  "slug": "rapiacta-tfda",
+  "kind": "label",
+  "title": "瑞貝塔點滴靜脈注射液 Rapiacta for Intravenous Drip Infusion 300mg（塩野義）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E9%83%A8%E8%97%A5%E8%BC%B8%E5%AD%97%E7%AC%AC026649%E8%99%9F",
+  "path": "sources/流感/瑞貝塔點滴靜脈注射液_Rapiacta_TFDA_2025-03.pdf",
+  "version": "許可證衛部藥輸字第026649號；仿單版本2025年3月（檔案上傳日期2025-08-27，廠商自行上傳）",
+  "downloaded": "2026-09-16",
+  "sha256": "08f3822dccf093b1aac0eb924ec1274136a570e232c25f61c6d13a6bc4317310",
+  "pages": 6,
+  "words": 1518,
+  "sections": {
+   "indication": [
+    "p1",
+    "p2",
+    "p3",
+    "p5"
+   ],
+   "dosage": [
+    "p1(2.1急性流感之劑量：成人300mg/兒童10mg/kg)",
+    "p3"
+   ],
+   "renal": [
+    "p1(2.3腎功能不全病人之劑量，表1肌酐酸清除率調整)",
+    "p2",
+    "p3",
+    "p4",
+    "p5"
+   ],
+   "pediatric": [
+    "p1(適應症：1個月大以上兒童；2歲以下臨床資料較缺乏)",
+    "p3",
+    "p5"
+   ],
+   "contraindication": [
+    "p1(4.禁忌)"
+   ],
+   "pregnancy": [
+    "p1(8.1懷孕：利益大於風險時使用；8.3哺乳期婦女：應避免哺乳)",
+    "p2"
+   ],
+   "interaction": [
+    "p1(7.藥物交互作用：不誘導/抑制CYP450)",
+    "p5"
+   ],
+   "prophylaxis": [
+    "p1(適應症使用限制：「本藥用於預防使用之有效性及安全性尚未確立」——未核准預防適應症)"
+   ]
+  },
+  "notes": "美規式完整仿單格式(Highlights+Full Prescribing Information)，pdftotext可正常抽取。適應症為「治療成人及一個月大以上兒童之A型及B型流感病毒急性感染」；明文排除預防用途。腎功能調整表(表1)在p1-p2。",
+  "source": "S97"
+ },
+ {
+  "slug": "xofluza-tfda",
+  "kind": "label",
+  "title": "紓伏效膜衣錠20毫克 Xofluza Tablets 20mg（塩野義）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E9%83%A8%E8%97%A5%E8%BC%B8%E5%AD%97%E7%AC%AC027693%E8%99%9F",
+  "path": "sources/流感/紓伏效膜衣錠20毫克_Xofluza_TFDA_2020-11-25.pdf",
+  "version": "許可證衛部藥輸字第027693號；核定日期2020年11月25日",
+  "downloaded": "2026-09-16",
+  "sha256": "86b794fad51a39a130b0fa712330384b717eb1cb12a4d9bbe47a3ec7f2c70415",
+  "pages": 6,
+  "words": 1236,
+  "sections": {
+   "indication": [
+    "p1"
+   ],
+   "dosage": [
+    "p1(體重40-80kg：單次40mg；≥80kg：單次80mg，皆為12歲以上兒童及成人)"
+   ],
+   "renal": [
+    "未見獨立腎功能不全劑量調整段（原廠仿單未列腎功能分層劑量）"
+   ],
+   "pediatric": [
+    "p1(適應症：成人及12歲以上兒童；未滿12歲療效安全性未確立)"
+   ],
+   "contraindication": [
+    "p1"
+   ],
+   "pregnancy": [
+    "p2(孕婦、產婦、哺乳婦的投與)"
+   ],
+   "interaction": [
+    "p3(與多價陽離子Polyvalent Cations之潛在交互作用：鈣、鐵、鎂、硒或鋅、抗酸劑)",
+    "p5"
+   ],
+   "prophylaxis": [
+    "p1(適應症：密切接觸流感病人後預防流行性感冒，單次投藥)"
+   ]
+  },
+  "notes": "★★年齡/體重適應症句原文：「適用於治療成人及12歲以上兒童之A型及B型流行性感冒病毒急性感染」——本版為以「12歲以上」為切點，並非按體重（無「≥5歲且≥20kg」之句），與部分國際仿單版本不同，用藥前應留意實際適用之版本用語。交互作用段明確列出「應避免和乳製品、高鈣飲品、含多價陽離子緩瀉劑、抗酸劑或口服補充劑(例如：鈣、鐵、鎂、硒或鋅)併服」。 ｜2026-09-16 判定：此 PDF 為 2020 舊版（12 歲以上），TFDA 頁面現行第 3 版（113/04/12）為 5 歲以上且 20 公斤以上，請改用 xofluza-tfda-webprint-v3。",
+  "source": "S98"
+ },
+ {
+  "slug": "cdc-flu-manual-2026",
+  "kind": "guideline",
+  "title": "季節性流感防治工作手冊（2026年3月版，含2026.03.13新A採檢補充修正）",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/File/Get/4IJouPVVctcyzcYh2LEVYg → https://www.cdc.gov.tw/Uploads/8945f860-0aa5-4352-a08d-e25dc0f27dfe.pdf",
+  "path": "sources/流感/季節性流感防治工作手冊_2026年3月版.pdf",
+  "version": "2026年3月版（PDF CreationDate 2026-03-13）",
+  "downloaded": "2026-09-16",
+  "sha256": "d2a978dcdbaf16ea418940bbc8c441f336a604cd882755478e999168ad1dc16e",
+  "pages": 90,
+  "words": 6135,
+  "sections": {},
+  "notes": "來自疾管署「傳染病防治工作手冊」分類頁(/Category/DiseaseManual/...)之「流感併發重症」列項，實際連結內容即為本工作手冊全文（非個案定義，另見流感併發重症_通報病例定義.pdf）。90頁，涵蓋流行病學、通報、檢驗、抗病毒藥劑使用等全套內容，尚未逐頁標註章節頁碼（篇幅大，供後續模組建置時再細分）。",
+  "source": "S99"
+ },
+ {
+  "slug": "cdc-flu-severe-case-definition",
+  "kind": "guideline",
+  "title": "流感併發重症 傳染病病例定義及檢體送驗（通報定義）",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/File/Get/OX_YLUZbUHKMkZCidu32jA → https://www.cdc.gov.tw/Uploads/6a528cce-ef9d-47ef-9cf8-902bc83cbcd0.pdf",
+  "path": "sources/流感/流感併發重症_通報病例定義.pdf",
+  "version": "檔案ModDate 2016-02-17（內容未見獨立版本日期字樣；為疾管署「傳染病病例定義及檢體送驗」現行公告連結，2026-09-16查證仍為該分類頁下唯一連結版本）",
+  "downloaded": "2026-09-16",
+  "sha256": "a4ebec53f01cedab551b446a5e7e78288e2b43b195c829b98ffac52355b98b9f",
+  "pages": 2,
+  "words": 99,
+  "sections": {
+   "prophylaxis": [],
+   "indication": [
+    "p1(一、臨床條件；四、通報定義；五、疾病分類：可能/極可能/確定病例)"
+   ]
+  },
+  "notes": "臨床條件：出現類流感症狀後兩週內因併發症(肺部/神經系統併發症/侵襲性細菌感染/心肌炎或心包膜炎等)需加護病房治療或死亡者。通報定義=符合臨床條件即通報。文件僅99字、2頁，為官方公告的精簡版個案定義表，非缺頁——已核對疾管署「傳染病病例定義及檢體送驗」分類頁(/Category/DiseaseDefine/...)目前僅此一版連結，未查得更新版本。",
+  "source": "S100"
+ },
+ {
+  "slug": "cdc-antiviral-usage-list-20260824",
+  "kind": "guideline",
+  "title": "公費流感抗病毒藥劑使用對象一覽表（自115年8月24日起，擴大使用對象至9月30日止）",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/Page/fHHHNV-HWyYD00tnKeXsLA",
+  "path": "sources/流感/公費流感抗病毒藥劑使用對象一覽表_自115年8月24日起.pdf",
+  "version": "自115年(2026)8月24日起適用；官方頁面最後更新日期2026/8/24",
+  "downloaded": "2026-09-16",
+  "sha256": "153ed600a5773e0dfebcc4889db6e9415fdbf02cff6e6d2297dfb0685f4da8f3",
+  "pages": 2,
+  "words": 347,
+  "sections": {
+   "indication": [
+    "p1-p2(7類高傳播族群名單：醫事防疫相關人員、長照受照顧者及工作人員、幼兒園托育人員、國小至高職五專前3年學生、與流感重症高風險族群同住或照顧者、禽畜/動物園/動物防疫人員、其他人口密集機構人員)"
+   ]
+  },
+  "notes": "同一檔案亦附於疾病管制署致醫界通函第613號(2026-08-18發布，url: https://www.cdc.gov.tw/Bulletin/Detail/KIhbnuQlku7dyr341a-pzw?typeid=48)，兩來源PDF經sha256比對為同一檔案。通函內文明載：因應第32週類流感就診數上升，自2026-08-24至2026-09-30擴大公費藥劑使用條件；公費藥劑配置於全國約4千家合約醫療機構，配置藥劑包括克流感及易剋冒。此為「擴大期間」名單，非全年常態版本；疾管署官方分類頁目前僅公告此一版本連結。",
+  "source": "S101"
+ },
+ {
+  "slug": "cdc-hcp-flu-infection-control-2017",
+  "kind": "guideline",
+  "title": "醫療照護機構季節性流感感染管制措施指引",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/ListContent/NO6oWHDwvVfwb2sbWzvHWQ?uaid=d-urGfcm1hQdeuAQNU2tYg → https://www.cdc.gov.tw/Uploads/files/201706/50dc3967-6924-43d1-83a0-5291c5517ce6.pdf",
+  "path": "sources/流感/醫療照護機構季節性流感感染管制措施指引_20170615.pdf",
+  "version": "20170615版（檔名與PDF CreationDate皆為2017-06-15/16）",
+  "downloaded": "2026-09-16",
+  "sha256": "8e10e13984fdc9960dcb448d95ddf044a45eb0bb8f95cd19af355b44fed59fff",
+  "pages": 14,
+  "words": 455,
+  "sections": {
+   "indication": [
+    "p266行「建議停止工作至退燒後至少24小時」原文出現於文字行266、345-347行(pdftotext -layout輸出行號，換算約於p.5-6區間，因原文為條列項目分散兩處)",
+    "p176/288/331行「7天內或症狀緩解前」照顧免疫低下者相關段落"
+   ]
+  },
+  "notes": "★★逐字核對「建議停止工作至退燒後至少24小時（指未使用如acetaminophen等退燒藥）」與「7天內或症狀緩解前（以時間較長者為主）...因為這些環境中的病人嚴重免疫功能」兩段皆逐字命中，即使用者描述的「停止工作至退燒後至少24小時」「照顧免疫低下者7天」內容來源。此為疾管署「醫療機構感染管制」分類下現行公告版本(2017年)，目前分類頁未見更新版本連結。",
+  "source": "S102"
+ },
+ {
+  "slug": "cdc-ltc-flu-infection-control-2017",
+  "kind": "guideline",
+  "title": "長期照護機構季節性流感(Seasonal Influenza)感染管制措施指引",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/ListContent/FR9BZ-4u-p4jZvbt_q6IXw?uaid=LhIwqm1Gn3QhbBwk-xR85g → https://www.cdc.gov.tw/Uploads/files/201710/f71f2b1b-92d2-42d0-893f-37cebb1feeb2.pdf",
+  "path": "sources/流感/長期照護機構季節性流感感染管制措施指引_1061013.pdf",
+  "version": "1061013版（民國106年10月13日＝2017-10-13；PDF CreationDate 2017-10-16）",
+  "downloaded": "2026-09-16",
+  "sha256": "c86d2286cdf169a7fd768ed01435f30f24a0cd0b955afe9c3fb8507e6a1a2fc3",
+  "pages": 17,
+  "words": 751,
+  "sections": {
+   "indication": []
+  },
+  "notes": "長照機構版之感染管制指引，與醫療照護機構版(20170615)並列於同一「重要指引及教材」分類頁下之不同子連結。未逐段核對「24小時／7天」句是否同樣出現於此版（本模組主要對照醫療照護機構版）。",
+  "source": "S103"
+ },
+ {
+  "slug": "cdc-flu-disease-intro",
+  "kind": "web-print",
+  "title": "疾病介紹－流感（潛伏期、可傳染期、感受性及免疫力、臨床症狀）",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/Page/HMC9qDI4FA-gDrbcnFlXgg",
+  "path": "sources/流感/疾病介紹_流感_網頁列印.pdf",
+  "version": "網頁最後更新日期 2023/12/26",
+  "downloaded": "2026-09-16",
+  "sha256": "79ff048c752582d6c9d9b770cb8e23eea79868cea42b2519a6007bffdbc37c7d",
+  "pages": 4,
+  "words": 189,
+  "sections": {
+   "indication": [
+    "p1-p2(潛伏期：通常約1-4天，平均2天；可傳染期：症狀出現後3-4天內傳染力最強，成人發病前24-48小時即開始排毒，量較低，高峰為發病後24-72小時至第5天；免疫不全者可達數週至數月；兒童最長可達21天)"
+   ]
+  },
+  "notes": "★user記憶中「症狀前約24小時至發病後約5天」與現行網頁文字略有出入——現行原文為「症狀出現後3-4天內傳染力最強...成年感染者在發病前24-48小時便開始排放病毒，但量較低，病毒排放高峰是發病後24-72小時，直至發病後第5天」，語意相近但非逐字同句，請以本頁原文為準，不要直接沿用user記憶中的簡化句。網頁字數少(189字)，因原頁面本身內容精簡，非列印失敗——已核對PDF為4頁完整版面(含頁首URL/日期戳)。",
+  "source": "S104"
+ },
+ {
+  "slug": "cdc-flu-school-outbreak-guide",
+  "kind": "guideline",
+  "title": "學校/幼兒園/補習班/兒童課後照顧服務班與中心流感群聚防治指引",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/File/Get/n27z1VMooTgwiZE35wykJQ → https://www.cdc.gov.tw/Uploads/c09dee6e-b116-4da6-8905-7603fe63b015.pdf",
+  "path": "sources/流感/學校幼兒園補習班流感群聚防治指引_108.2.pdf",
+  "version": "108.2版（民國108年2月＝2019-02；PDF CreationDate 2019-08-01）",
+  "downloaded": "2026-09-16",
+  "sha256": "b6490710abcd8e1e90a764909597ac8feac71045468eaf4d0b9af887d2bf19e3",
+  "pages": 4,
+  "words": 210,
+  "sections": {
+   "indication": []
+  },
+  "notes": "同分類頁另附「附表一/附表二」查檢確認表(odt/pdf)、「附錄五疫調報告」「附錄六預防性公費藥劑使用申請流程」「群聚事件預防性投藥公費藥劑使用評估申請表(115)」等行政表單，因非本次「原句黃框」所需之臨床內容主體，僅記錄不逐一下載：詳見_下載紀錄_TW.md。指引本身208字偏簡短，內容為原則性條列(停課建議門檻、機構通報流程)，非逐字截斷。",
+  "source": "S105"
+ },
+ {
+  "slug": "cdc-flu-vaccine-program-115",
+  "kind": "guideline",
+  "title": "115年度（2026-27流感季）流感疫苗接種計畫－全文",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/File/Get/vtqbmLpBSkjJdWKZ3-8BAw → https://www.cdc.gov.tw/Uploads/55597085-7805-4e92-80a9-cfeb4bc0c6fa.pdf",
+  "path": "sources/流感/115年度流感疫苗接種計畫_全文.pdf",
+  "version": "115年度（PDF CreationDate 2026-07-16）",
+  "downloaded": "2026-09-16",
+  "sha256": "51648bddcf953e35643497bb914d07dae597ebd826085d559fc28fd916dc4a7a",
+  "pages": 27,
+  "words": 2130,
+  "sections": {},
+  "notes": "疾管署以民國年度(115=西元2026)命名之年度計畫，涵蓋2026-27流感季公費對象與接種期程。另有同分類頁之「115年度流感疫苗政策綜論.pdf」(47頁，CreationDate 2026-09-07，較本檔更新)一併下載供對照。",
+  "source": "S106"
+ },
+ {
+  "slug": "cdc-flu-vaccine-policy-115",
+  "kind": "guideline",
+  "title": "115年度流感疫苗政策綜論",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/File/Get/O0YCUBa4UWlBUyZs8_PJcw → https://www.cdc.gov.tw/Uploads/f1f112bd-0139-4db0-beda-caf43e8fb0c6.pdf",
+  "path": "sources/流感/115年度流感疫苗政策綜論.pdf",
+  "version": "115年度（PDF CreationDate 2026-09-07，為此系列中最新版本）",
+  "downloaded": "2026-09-16",
+  "sha256": "acc0e6a3eb3dc8a4af93cd5a6ba2b8351bb2845631019513d84405d2d2266318",
+  "pages": 47,
+  "words": 1916,
+  "sections": {},
+  "notes": "與「115年度流感疫苗接種計畫_全文.pdf」同分類頁，內容為政策說明簡報版，非本次「流感臨床」抗病毒藥/隔離返班模組主軸，因與接種計畫同源且抓取成本低而一併下載存查。",
+  "source": "S107"
+ },
+ {
+  "slug": "cdc-qa-seasonal-flu",
+  "kind": "web-print",
+  "title": "Q&A－季節性流感防治",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/QAPage/DQWXG19u2cXMH1jwGKXHug",
+  "path": "sources/流感/QA_季節性流感防治.pdf",
+  "version": "網頁最後更新日期 2026/7/30",
+  "downloaded": "2026-09-16",
+  "sha256": "7c8e7062e4e88456b0cb70e734f8cb183167da482d28eb62c4ec95a5e47c569e",
+  "pages": 6,
+  "words": 302,
+  "sections": {
+   "indication": [
+    "p1(「什麼是流感?主要症狀是什麼?」「流感的特徵?」「流感與一般感冒有什麼不一樣?」等題)"
+   ]
+  },
+  "notes": "已用--expand \"全部展開\"觸發手風琴全展開後列印，確認PDF內容含「全部收合」字樣(代表已展開狀態)，非收合空殼。",
+  "source": "S108"
+ },
+ {
+  "slug": "cdc-qa-antiviral",
+  "kind": "web-print",
+  "title": "Q&A－流感抗病毒藥劑",
+  "org": "疾管署",
+  "url": "https://www.cdc.gov.tw/Category/QAPage/YgeC_ca-wDJqW2fnH6CLdg",
+  "path": "sources/流感/QA_流感抗病毒藥劑.pdf",
+  "version": "網頁列印，未見獨立最後更新日期戳",
+  "downloaded": "2026-09-16",
+  "sha256": "4b209797044064960da15ebd9dc4523538363dae3f441f970e1c9a19216c0a43",
+  "pages": 6,
+  "words": 348,
+  "sections": {
+   "indication": []
+  },
+  "notes": "已用--expand \"全部展開\"觸發手風琴全展開。內容未見「退燒後隔離/返班」相關Q&A（該主題內容位於醫療照護機構感染管制指引，非本頁）。",
+  "source": "S109"
+ },
+ {
+  "slug": "relenza-tfda-webprint",
+  "kind": "web-print",
+  "title": "瑞樂沙 Relenza 旋達碟 — TFDA 藥品仿單查詢平台頁面全文（全部展開後列印）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E7%BD%B2%E8%97%A5%E8%BC%B8%E5%AD%97%E7%AC%AC023336%E8%99%9F",
+  "path": "sources/流感/瑞樂沙旋達碟_Relenza_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "version": "頁面內版本編號 GDS20/IPI09 (US safety)，版本日期 13 October 2017；列印 2026-09-16",
+  "downloaded": "2026-09-16",
+  "sha256": "ebdf092fe286a85d34966d023bd8c0805a312010ffc2213cec4051357017a400",
+  "pages": 13,
+  "words": 719,
+  "sections": {},
+  "notes": "原 TFDA 仿單 PDF 為向量美工稿無文字層；本檔為同一許可證頁面的仿單全文（TFDA 手風琴內容），用 tools/print_web_source.mjs --expand 全部展開 --ua 列印，可逐字定位。",
+  "source": "S110"
+ },
+ {
+  "slug": "xofluza-tfda-webprint-v3",
+  "kind": "web-print",
+  "title": "紓伏效 Xofluza 膜衣錠 20 毫克 — TFDA 仿單查詢頁全文（第 3 版，仿單更新時間 113/04/12）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E9%83%A8%E8%97%A5%E8%BC%B8%E5%AD%97%E7%AC%AC027693%E8%99%9F",
+  "path": "sources/流感/紓伏效膜衣錠20毫克_Xofluza_TFDA仿單全文第3版_2024-04-12_網頁列印_2026-09-16.pdf",
+  "version": "第 3 版，仿單更新時間 113/04/12（2024-04-12）；列印 2026-09-16",
+  "downloaded": "2026-09-16",
+  "sha256": "b56fe2730e6da248118329c88f3a2e9b699692e2053295497ebdabeefa58842f",
+  "pages": 26,
+  "words": 1812,
+  "sections": {},
+  "notes": "現行版：適應症「5 歲以上且體重 20 公斤以上」治療與暴露後預防。頁面連結的 PDF（XOFLUZA-INS-091223-109-12-29，2020 版，12 歲以上）已過期，`紓伏效膜衣錠20毫克_Xofluza_TFDA_2020-11-25.pdf` 僅留存不使用。",
+  "source": "S111"
+ },
+ {
+  "slug": "tamiflu-tfda-webprint",
+  "kind": "web-print",
+  "title": "克流感 Tamiflu 膠囊 75 毫克 — TFDA 仿單查詢頁全文",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E7%BD%B2%E8%97%A5%E8%BC%B8%E5%AD%97%E7%AC%AC023253%E8%99%9F",
+  "path": "sources/流感/克流感膠囊75毫克_Tamiflu_TFDA仿單全文_網頁列印_2026-09-16.pdf",
+  "version": "頁面全文（CDS 版本見內文）；列印 2026-09-16",
+  "downloaded": "2026-09-16",
+  "sha256": "845cb616b6d519ddd5de7bd77838b079d0670767192c066dbeda6f426d56a8ae",
+  "pages": 20,
+  "words": 3480,
+  "sections": {},
+  "notes": "與單頁巨幅 PDF 內容對照用；分頁後定位較穩定。",
+  "source": "S112"
+ },
+ {
+  "slug": "tamiflu-fr-025285-tfda-export",
+  "kind": "label",
+  "title": "克流感膠囊 75 毫克（法國廠）Tamiflu Capsules 75 mg — TFDA 匯出 PDF（版本日期 2024-10-11）",
+  "org": "TFDA",
+  "url": "https://mcp.fda.gov.tw/im_detail_1/%E8%A1%9B%E7%BD%B2%E8%97%A5%E8%BC%B8%E5%AD%97%E7%AC%AC025285%E8%99%9F",
+  "path": "sources/流感/克流感膠囊75毫克_法國廠_Tamiflu_衛署藥輸字第025285號_TFDA匯出_版本2024-10-11.pdf",
+  "version": "版本日期 2024-10-11；許可證 衛署藥輸字第025285號（法國廠，與 023253 為不同許可證）",
+  "downloaded": "2026-09-16",
+  "sha256": "96e42642967ea4b6ab40a136de59f2d6e2f603222ce9f4759a014ae471a0db00",
+  "pages": 26,
+  "words": 2051,
+  "sections": {},
+  "notes": "使用者 2026-09-16 自 TFDA「匯出PDF」取得（檔名誤標為易剋冒，實為 Tamiflu 法國廠許可證）。ChatGPT 稿所稱「Tamiflu 2024-10-11 版」對應此許可證。易剋冒（衛部藥製字第059653號）文字版仍未取得。",
+  "source": "S113"
+ }
+]

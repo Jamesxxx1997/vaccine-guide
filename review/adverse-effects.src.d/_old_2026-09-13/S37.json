@@ -1,0 +1,58 @@
+{
+  "tables": [
+    {
+      "id": "tdap-boostrix-freq-4to9", "vaccine": "tdap", "product": "Boostrix", "kind": "freq",
+      "source": "S37", "page": 1, "anchor": "9 歲的兒童",
+      "title": "Boostrix 用於 4 到 9 歲兒童臨床試驗之不良反應（依發生頻率）",
+      "population": "4 到 9 歲的兒童",
+      "rows": [
+        {"label": "少見", "text": "上呼吸道感染"},
+        {"label": "常見", "text": "厭食"},
+        {"label": "極常見", "text": "易怒"},
+        {"label": "極常見", "text": "嗜睡"},
+        {"label": "常見", "text": "頭痛"},
+        {"label": "少見", "text": "注意力障礙"},
+        {"label": "少見", "text": "結膜炎"},
+        {"label": "常見", "text": "腹瀉、嘔吐、腸胃道疾患"},
+        {"label": "少見", "text": "皮疹"},
+        {"label": "極常見", "text": "注射部位反應（包括疼痛、發紅、腫脹）、疲勞"},
+        {"label": "常見", "text": "發燒 ≥ 37.5°C（包括> 39°C 的高燒）"},
+        {"label": "少見", "text": "其他注射部位反應（如硬塊）、疼痛", "extraLines": 0}
+      ]
+    },
+    {
+      "id": "tdap-boostrix-freq-adult", "vaccine": "tdap", "product": "Boostrix", "kind": "freq",
+      "source": "S37", "page": 1, "anchor": "成人、青少年與",
+      "title": "Boostrix 用於成人、青少年與 10 歲（含）以上兒童臨床試驗之不良反應（依發生頻率）",
+      "population": "成人、青少年與 10 歲（含）以上的兒童",
+      "rows": [
+        {"label": "少見", "text": "上呼吸道感染、咽喉炎"},
+        {"label": "少見", "text": "淋巴結病變"},
+        {"label": "極常見", "text": "頭痛"},
+        {"label": "常見", "text": "頭暈"},
+        {"label": "少見", "text": "昏厥"},
+        {"label": "少見", "text": "咳嗽"},
+        {"label": "常見", "text": "噁心、腸胃道疾患"},
+        {"label": "少見", "text": "腹瀉、嘔吐"},
+        {"label": "少見", "text": "多汗、搔癢、皮疹"},
+        {"label": "少見", "text": "關節痛、肌痛、關節僵硬、肌肉骨骼僵硬"},
+        {"label": "極常見", "text": "注射部位反應（包括疼痛、發紅、腫脹）、疲勞、不適"},
+        {"label": "常見", "text": "發燒 ≥ 37.5°C、注射部位反應（如注射部位硬塊及注射部位無菌性膿瘍）"},
+        {"label": "少見", "text": "發燒 > 39°C、類流感症狀、疼痛", "extraLines": 0}
+      ]
+    },
+    {
+      "id": "tdap-boostrix-freq-postmarket", "vaccine": "tdap", "product": "Boostrix", "kind": "freq",
+      "source": "S37", "page": 1, "anchor": "[上市後的資料]",
+      "title": "Boostrix 上市後監測資料之不良反應（依發生頻率）",
+      "rows": [
+        {"label": "罕見", "text": "血管性水腫"},
+        {"label": "極罕見", "text": "過敏反應，包括過敏及類過敏性反應。"},
+        {"label": "罕見", "text": "痙攣（伴隨或未伴隨發燒）"},
+        {"label": "罕見", "text": "蕁麻疹"},
+        {"label": "罕見", "text": "接種肢體的擴張性腫脹、無力", "extraLines": 0}
+      ],
+      "caveat": "上市後通報資料非臨床試驗頻率分母計算，僅依通報頻率分級。"
+    }
+  ]
+}

@@ -3,23 +3,30 @@
  "product": "Fluarix Tetra 伏適流四價流感疫苗",
  "source": "S43",
  "components": [
-  {"page": 1, "label": "有效成分", "quote": "Fluarix Tetra是⼀個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造⽽來的抗原，含有下列流"},
-  {"page": 1, "label": "賦形劑", "quote": "磷酸鹽緩衝鹽溶液，其組成包括：聚⼭梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯"},
-  {"page": 1, "label": "製造流程殘留物", "quote": "每⼀個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵⽩蛋⽩、甲醛與"}
+  {"page": 3, "label": "有效成分", "quote": "Fluarix Tetra是一個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造而來的抗原，含有下列流感病毒株抗原："},
+  {"page": 3, "label": "賦形劑", "quote": "磷酸鹽緩衝鹽溶液，其組成包括：聚山梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯化鈉、十二水磷酸氫二鈉、磷酸二氫鉀、氯化鉀、六水氯化鎂、以及注射用水。"},
+  {"page": 3, "label": "製造流程殘留物", "quote": "每一個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵白蛋白、甲醛與sodium deoxycholate。"},
+  {"page": 15, "label": "包裝材質", "quote": "裝有0.5毫升懸浮液的預充填注射針筒（第I型玻璃），附有一推桿活塞（丁基橡膠）及一個橡膠前蓋。"},
+  {"page": 15, "label": "包裝材質（乳膠聲明）", "quote": "預充填注射針筒的前蓋及橡膠推桿活塞皆非天然橡膠乳膠製成。"}
  ],
  "allergens": [
-  {"key": "egg", "status": "有", "page": 1, "quote": "Fluarix Tetra是⼀個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造⽽來的抗原，含有下列流"},
+  {"key": "egg", "status": "有", "page": 3, "quote": "Fluarix Tetra是一個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造而來的抗原，含有下列流感病毒株抗原：", "note": "抗原繁殖於雞蛋胚胎；賦形劑段另載明每劑可能含製造流程殘留之卵白蛋白"},
   {"key": "gelatin", "status": "未載明"},
   {"key": "neomycin", "status": "未載明"},
-  {"key": "other_antibiotics", "status": "有", "page": 1, "quote": "每⼀個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵⽩蛋⽩、甲醛與", "note": "gentamicin sulphate 製造流程殘留"},
+  {"key": "other_antibiotics", "status": "有", "page": 3, "quote": "每一個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵白蛋白、甲醛與sodium deoxycholate。", "note": "gentamicin sulphate 為製造流程殘留（氨基糖苷類抗生素）；同句亦含 hydrocortisone（皮質類固醇，非抗生素，未另立欄位）"},
   {"key": "yeast", "status": "未載明"},
-  {"key": "latex", "status": "未載明"},
-  {"key": "peg_polysorbate", "status": "有", "page": 1, "quote": "磷酸鹽緩衝鹽溶液，其組成包括：聚⼭梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯", "note": "聚山梨醇80（polysorbate 80）"},
-  {"key": "formaldehyde", "status": "有", "page": 1, "quote": "每⼀個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵⽩蛋⽩、甲醛與", "note": "甲醛製造流程殘留"},
+  {"key": "latex", "status": "無", "page": 15, "quote": "預充填注射針筒的前蓋及橡膠推桿活塞皆非天然橡膠乳膠製成。"},
+  {"key": "peg_polysorbate", "status": "有", "page": 3, "quote": "磷酸鹽緩衝鹽溶液，其組成包括：聚山梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯化鈉、十二水磷酸氫二鈉、磷酸二氫鉀、氯化鉀、六水氯化鎂、以及注射用水。", "note": "聚山梨醇80（polysorbate 80）列為賦形劑"},
+  {"key": "formaldehyde", "status": "有", "page": 3, "quote": "每一個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵白蛋白、甲醛與sodium deoxycholate。", "note": "甲醛為製造流程殘留"},
   {"key": "thimerosal", "status": "未載明"},
   {"key": "aluminium", "status": "未載明"}
  ],
+ "sweep": {
+  "dismissed": {
+   "aluminium": "掃描命中的「佐劑」句出自 7.交互作用段落，講的是與另一支『含佐劑之帶狀疱疹疫苗』(Shingrix) 同時接種，並非 Fluarix Tetra 本身含鋁佐劑；全文未見 Fluarix Tetra 本身佐劑或鋁的敘述"
+  }
+ },
  "warnings": [
-  {"label": "過敏禁忌", "page": 2, "quote": "Fluarix Tetra不可用於已知先前曾在施打Fluarix Tetra或流感疫苗後發生嚴重過敏反應或對本疫"}
+  {"label": "禁忌", "page": 4, "quote": "不可用於已知先前曾在施打Fluarix Tetra或流感疫苗後發生嚴重過敏反應或對本疫苗中之任何成分嚴重過敏者。賦形劑請參見1.2賦形劑。"}
  ]
 }

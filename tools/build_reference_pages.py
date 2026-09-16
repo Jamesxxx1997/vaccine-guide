@@ -27,6 +27,13 @@ def normalize(text):
     return re.sub(r'[^a-z0-9\u3400-\u9fff]', '', unicodedata.normalize('NFKC', text).lower())
 
 
+def plumber_chars(page):
+    """pdfplumber 的字元座標是 PDF 使用者空間，MediaBox 原點不在 (0,0) 時（例：Merckx 2017 是 (9,-9)）會與 pdftotext -bbox 的
+    「相對於頁面左上角」座標差一個 bbox 位移；統一減掉 page.bbox[0]／bbox[1]，兩邊才能對齊。"""
+    ox, oy = float(page.bbox[0]), float(page.bbox[1])
+    return [[round(c['x0'] - ox, 2), round(c['top'] - oy, 2), round(c['x1'] - ox, 2), round(c['bottom'] - oy, 2), c['text']]
+            for c in page.chars if c['text'].strip()]
+
 def word_positions(page, word, glyph_rows=False):
     """Map actual glyphs, never split a tall word box into estimated letters.
 
@@ -152,7 +159,7 @@ def build():
         ['node', str(ROOT / 'tools/export_reference_inputs.mjs')], text=True))
     spec = json.loads((ROOT / 'review/reference-claims.json').read_text())
     # 產生器輸出的 claims（副作用表 ae:、之後的過敏成分表）放在獨立檔案，這裡合併；key 不得與手寫 claims 重複。
-    for extra in ('review/label-claims.json', 'review/adverse-claims.json', 'review/allergen-claims.json'):
+    for extra in ('review/label-claims.json', 'review/adverse-claims.json', 'review/allergen-claims.json', 'review/clinical-claims.json'):
         path = ROOT / extra
         if path.is_file():
             more = json.loads(path.read_text())
@@ -222,8 +229,7 @@ def build():
                                      h=float(page.attrib['height']), iw=iw, ih=ih,
                                      img=str(target.relative_to(ROOT)), lines=lines, words=words))
             if glyph_pdf:
-                doc['pages'][-1]['chars'] = [[round(c[a],2) for a in ('x0','top','x1','bottom')]+[c['text']]
-                                            for c in glyph_pdf.pages[number-1].chars if c['text'].strip()]
+                doc['pages'][-1]['chars'] = plumber_chars(glyph_pdf.pages[number-1])
         if glyph_pdf:
             glyph_pdf.close()
         print(key, len(pages), file, flush=True)

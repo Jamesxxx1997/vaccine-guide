@@ -1,0 +1,8275 @@
+{
+  "summary": {
+    "claims": 918,
+    "rects": 53537,
+    "pages": 179,
+    "pdfs": 55,
+    "hashes": 67,
+    "hashErrors": [],
+    "failures": []
+  },
+  "results": [
+    {
+      "claim": "ae:covid-mnexspike-pct:0",
+      "source": "S12",
+      "page": 3,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-pct:1",
+      "source": "S12",
+      "page": 3,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-pct:2",
+      "source": "S12",
+      "page": 3,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-pct:3",
+      "source": "S12",
+      "page": 3,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-pct:4",
+      "source": "S12",
+      "page": 3,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-pct:5",
+      "source": "S12",
+      "page": 3,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-pct:6",
+      "source": "S12",
+      "page": 3,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-pct:7",
+      "source": "S12",
+      "page": 3,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-pct:8",
+      "source": "S12",
+      "page": 3,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-freq:0",
+      "source": "S12",
+      "page": 3,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-freq:1",
+      "source": "S12",
+      "page": 3,
+      "rects": 19,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-freq:2",
+      "source": "S12",
+      "page": 3,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-freq:3",
+      "source": "S12",
+      "page": 3,
+      "rects": 36,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-mnexspike-freq:4",
+      "source": "S12",
+      "page": 3,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:0",
+      "source": "S12",
+      "page": 4,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:1",
+      "source": "S12",
+      "page": 4,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:2",
+      "source": "S12",
+      "page": 4,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:3",
+      "source": "S12",
+      "page": 4,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:4",
+      "source": "S12",
+      "page": 4,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:5",
+      "source": "S12",
+      "page": 4,
+      "rects": 19,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:6",
+      "source": "S12",
+      "page": 4,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:7",
+      "source": "S12",
+      "page": 4,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:8",
+      "source": "S12",
+      "page": 4,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:9",
+      "source": "S12",
+      "page": 4,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:10",
+      "source": "S12",
+      "page": 4,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:11",
+      "source": "S12",
+      "page": 4,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:12",
+      "source": "S12",
+      "page": 4,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-pct:13",
+      "source": "S12",
+      "page": 4,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-freq:0",
+      "source": "S12",
+      "page": 4,
+      "rects": 55,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-freq:1",
+      "source": "S12",
+      "page": 4,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-freq:2",
+      "source": "S12",
+      "page": 4,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-freq:3",
+      "source": "S12",
+      "page": 4,
+      "rects": 35,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-spikevax-freq:4",
+      "source": "S12",
+      "page": 4,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-pct:0",
+      "source": "S12N",
+      "page": 2,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-pct:1",
+      "source": "S12N",
+      "page": 2,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-pct:2",
+      "source": "S12N",
+      "page": 2,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-pct:3",
+      "source": "S12N",
+      "page": 2,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-pct:4",
+      "source": "S12N",
+      "page": 2,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-pct:5",
+      "source": "S12N",
+      "page": 2,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-pct:6",
+      "source": "S12N",
+      "page": 2,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-pct:7",
+      "source": "S12N",
+      "page": 2,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-pct:8",
+      "source": "S12N",
+      "page": 2,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-freq:0",
+      "source": "S12N",
+      "page": 2,
+      "rects": 31,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-freq:1",
+      "source": "S12N",
+      "page": 2,
+      "rects": 38,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:covid-novavax-freq:2",
+      "source": "S12N",
+      "page": 2,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:0",
+      "source": "S20",
+      "page": 1,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:1",
+      "source": "S20",
+      "page": 1,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:2",
+      "source": "S20",
+      "page": 1,
+      "rects": 34,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:3",
+      "source": "S20",
+      "page": 1,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:4",
+      "source": "S20",
+      "page": 1,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:5",
+      "source": "S20",
+      "page": 1,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:6",
+      "source": "S20",
+      "page": 1,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:7",
+      "source": "S20",
+      "page": 1,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:8",
+      "source": "S20",
+      "page": 1,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:comp:9",
+      "source": "S20",
+      "page": 1,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:peg_polysorbate",
+      "source": "S20",
+      "page": 1,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:aluminium:related",
+      "source": "S20",
+      "page": 1,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:warn:0",
+      "source": "S20",
+      "page": 2,
+      "rects": 31,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-freq:0",
+      "source": "S20",
+      "page": 4,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-freq:1",
+      "source": "S20",
+      "page": 4,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-freq:2",
+      "source": "S20",
+      "page": 4,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-freq:3",
+      "source": "S20",
+      "page": 4,
+      "rects": 31,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-freq:4",
+      "source": "S20",
+      "page": 4,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-freq:5",
+      "source": "S20",
+      "page": 4,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-freq:6",
+      "source": "S20",
+      "page": 4,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-freq:7",
+      "source": "S20",
+      "page": 4,
+      "rects": 33,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-notes:0",
+      "source": "S20",
+      "page": 5,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-notes:1",
+      "source": "S20",
+      "page": 5,
+      "rects": 38,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-notes:2",
+      "source": "S20",
+      "page": 5,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:shingrix-notes:3",
+      "source": "S20",
+      "page": 5,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S20:latex:related",
+      "source": "S20",
+      "page": 15,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S27:comp:0",
+      "source": "S27",
+      "page": 1,
+      "rects": 393,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S27:neomycin",
+      "source": "S27",
+      "page": 1,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S27:formaldehyde",
+      "source": "S27",
+      "page": 1,
+      "rects": 47,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S27:thimerosal:related",
+      "source": "S27",
+      "page": 1,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S27:aluminium",
+      "source": "S27",
+      "page": 1,
+      "rects": 66,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S27:warn:0",
+      "source": "S27",
+      "page": 7,
+      "rects": 58,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S27:latex",
+      "source": "S27",
+      "page": 8,
+      "rects": 45,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S27:warn:1",
+      "source": "S27",
+      "page": 8,
+      "rects": 45,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:0",
+      "source": "S27",
+      "page": 10,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:1",
+      "source": "S27",
+      "page": 10,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:2",
+      "source": "S27",
+      "page": 10,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:3",
+      "source": "S27",
+      "page": 10,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:4",
+      "source": "S27",
+      "page": 10,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:5",
+      "source": "S27",
+      "page": 10,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:6",
+      "source": "S27",
+      "page": 10,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:7",
+      "source": "S27",
+      "page": 10,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:8",
+      "source": "S27",
+      "page": 10,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:9",
+      "source": "S27",
+      "page": 10,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:10",
+      "source": "S27",
+      "page": 10,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:11",
+      "source": "S27",
+      "page": 10,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-pct:12",
+      "source": "S27",
+      "page": 10,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepa-vaqta-notes:0",
+      "source": "S27",
+      "page": 13,
+      "rects": 45,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-freq:0",
+      "source": "S28",
+      "page": 1,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-freq:1",
+      "source": "S28",
+      "page": 1,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-freq:2",
+      "source": "S28",
+      "page": 1,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-freq:3",
+      "source": "S28",
+      "page": 1,
+      "rects": 2,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-freq:4",
+      "source": "S28",
+      "page": 1,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-freq:5",
+      "source": "S28",
+      "page": 1,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-freq:6",
+      "source": "S28",
+      "page": 1,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-freq:7",
+      "source": "S28",
+      "page": 1,
+      "rects": 2,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-freq:8",
+      "source": "S28",
+      "page": 1,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-notes:0",
+      "source": "S28",
+      "page": 1,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-notes:1",
+      "source": "S28",
+      "page": 1,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-notes:2",
+      "source": "S28",
+      "page": 1,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-notes:3",
+      "source": "S28",
+      "page": 1,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-notes:4",
+      "source": "S28",
+      "page": 1,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hepb-engerix-notes:5",
+      "source": "S28",
+      "page": 1,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S28:comp:0",
+      "source": "S28",
+      "page": 1,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S28:comp:1",
+      "source": "S28",
+      "page": 1,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S28:comp:2",
+      "source": "S28",
+      "page": 1,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S28:comp:3",
+      "source": "S28",
+      "page": 1,
+      "rects": 105,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S28:yeast",
+      "source": "S28",
+      "page": 1,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S28:peg_polysorbate",
+      "source": "S28",
+      "page": 1,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S28:aluminium",
+      "source": "S28",
+      "page": 1,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S28:warn:0",
+      "source": "S28",
+      "page": 1,
+      "rects": 52,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:0",
+      "source": "S29",
+      "page": 1,
+      "rects": 35,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:1",
+      "source": "S29",
+      "page": 1,
+      "rects": 52,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:2",
+      "source": "S29",
+      "page": 1,
+      "rects": 3,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:3",
+      "source": "S29",
+      "page": 1,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:4",
+      "source": "S29",
+      "page": 1,
+      "rects": 2,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:5",
+      "source": "S29",
+      "page": 1,
+      "rects": 2,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:6",
+      "source": "S29",
+      "page": 1,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:7",
+      "source": "S29",
+      "page": 1,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:8",
+      "source": "S29",
+      "page": 1,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:9",
+      "source": "S29",
+      "page": 1,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes:10",
+      "source": "S29",
+      "page": 1,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:comp:0",
+      "source": "S29",
+      "page": 1,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:comp:1",
+      "source": "S29",
+      "page": 1,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:comp:2",
+      "source": "S29",
+      "page": 1,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:comp:3",
+      "source": "S29",
+      "page": 1,
+      "rects": 35,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:comp:4",
+      "source": "S29",
+      "page": 1,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:comp:5",
+      "source": "S29",
+      "page": 1,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:comp:6",
+      "source": "S29",
+      "page": 1,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:comp:7",
+      "source": "S29",
+      "page": 1,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:neomycin",
+      "source": "S29",
+      "page": 1,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:other_antibiotics",
+      "source": "S29",
+      "page": 1,
+      "rects": 37,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:aluminium",
+      "source": "S29",
+      "page": 1,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:warn:0",
+      "source": "S29",
+      "page": 1,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:warn:1",
+      "source": "S29",
+      "page": 1,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:warn:2",
+      "source": "S29",
+      "page": 1,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:warn:3",
+      "source": "S29",
+      "page": 1,
+      "rects": 19,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes-2:0",
+      "source": "S29",
+      "page": 2,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes-2:1",
+      "source": "S29",
+      "page": 2,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes-2:2",
+      "source": "S29",
+      "page": 2,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes-2:3",
+      "source": "S29",
+      "page": 2,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes-2:4",
+      "source": "S29",
+      "page": 2,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes-2:5",
+      "source": "S29",
+      "page": 2,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes-2:6",
+      "source": "S29",
+      "page": 2,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes-2:7",
+      "source": "S29",
+      "page": 2,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:dtapipv-tetraxim-notes-2:8",
+      "source": "S29",
+      "page": 2,
+      "rects": 19,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:comp:8",
+      "source": "S29",
+      "page": 2,
+      "rects": 53,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:formaldehyde",
+      "source": "S29",
+      "page": 2,
+      "rects": 53,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S29:thimerosal:related",
+      "source": "S29",
+      "page": 2,
+      "rects": 53,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S30:yeast",
+      "source": "S30",
+      "page": 3,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S30:warn:0",
+      "source": "S30",
+      "page": 3,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:0",
+      "source": "S30",
+      "page": 5,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:1",
+      "source": "S30",
+      "page": 5,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:2",
+      "source": "S30",
+      "page": 5,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:3",
+      "source": "S30",
+      "page": 5,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:4",
+      "source": "S30",
+      "page": 5,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:5",
+      "source": "S30",
+      "page": 5,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:6",
+      "source": "S30",
+      "page": 5,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:7",
+      "source": "S30",
+      "page": 5,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:8",
+      "source": "S30",
+      "page": 5,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:9",
+      "source": "S30",
+      "page": 5,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:10",
+      "source": "S30",
+      "page": 5,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:11",
+      "source": "S30",
+      "page": 5,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:12",
+      "source": "S30",
+      "page": 5,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:13",
+      "source": "S30",
+      "page": 5,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:14",
+      "source": "S30",
+      "page": 5,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:15",
+      "source": "S30",
+      "page": 5,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:16",
+      "source": "S30",
+      "page": 5,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hpv-gardasil9-pct:17",
+      "source": "S30",
+      "page": 5,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S30:comp:0",
+      "source": "S30",
+      "page": 10,
+      "rects": 56,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S30:comp:1",
+      "source": "S30",
+      "page": 11,
+      "rects": 82,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S30:neomycin",
+      "source": "S30",
+      "page": 11,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S30:other_antibiotics",
+      "source": "S30",
+      "page": 11,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S30:peg_polysorbate",
+      "source": "S30",
+      "page": 11,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S30:thimerosal",
+      "source": "S30",
+      "page": 11,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S30:aluminium",
+      "source": "S30",
+      "page": 11,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:comp:0",
+      "source": "S31",
+      "page": 1,
+      "rects": 62,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:comp:1",
+      "source": "S31",
+      "page": 1,
+      "rects": 71,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:comp:2",
+      "source": "S31",
+      "page": 1,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:comp:3",
+      "source": "S31",
+      "page": 1,
+      "rects": 94,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:gelatin",
+      "source": "S31",
+      "page": 1,
+      "rects": 19,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:thimerosal",
+      "source": "S31",
+      "page": 1,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:neomycin",
+      "source": "S31",
+      "page": 4,
+      "rects": 45,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:warn:0",
+      "source": "S31",
+      "page": 4,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:warn:1",
+      "source": "S31",
+      "page": 4,
+      "rects": 45,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:egg",
+      "source": "S31",
+      "page": 5,
+      "rects": 50,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S31:warn:2",
+      "source": "S31",
+      "page": 5,
+      "rects": 50,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:0",
+      "source": "S31",
+      "page": 7,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:1",
+      "source": "S31",
+      "page": 7,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:2",
+      "source": "S31",
+      "page": 7,
+      "rects": 23,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:3",
+      "source": "S31",
+      "page": 7,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:4",
+      "source": "S31",
+      "page": 7,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:5",
+      "source": "S31",
+      "page": 7,
+      "rects": 3,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:6",
+      "source": "S31",
+      "page": 7,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:7",
+      "source": "S31",
+      "page": 7,
+      "rects": 36,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:8",
+      "source": "S31",
+      "page": 7,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p7:9",
+      "source": "S31",
+      "page": 7,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:0",
+      "source": "S31",
+      "page": 8,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:1",
+      "source": "S31",
+      "page": 8,
+      "rects": 51,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:2",
+      "source": "S31",
+      "page": 8,
+      "rects": 77,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:3",
+      "source": "S31",
+      "page": 8,
+      "rects": 56,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:4",
+      "source": "S31",
+      "page": 8,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:5",
+      "source": "S31",
+      "page": 8,
+      "rects": 72,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:6",
+      "source": "S31",
+      "page": 8,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:7",
+      "source": "S31",
+      "page": 8,
+      "rects": 63,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:8",
+      "source": "S31",
+      "page": 8,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:9",
+      "source": "S31",
+      "page": 8,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mmr-mmrii-notes-p8:10",
+      "source": "S31",
+      "page": 8,
+      "rects": 47,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S32:comp:0",
+      "source": "S32",
+      "page": 1,
+      "rects": 118,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S32:comp:1",
+      "source": "S32",
+      "page": 1,
+      "rects": 56,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S32:peg_polysorbate",
+      "source": "S32",
+      "page": 1,
+      "rects": 56,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S32:aluminium",
+      "source": "S32",
+      "page": 1,
+      "rects": 31,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S32:warn:0",
+      "source": "S32",
+      "page": 5,
+      "rects": 56,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:0",
+      "source": "S32",
+      "page": 11,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:1",
+      "source": "S32",
+      "page": 11,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:2",
+      "source": "S32",
+      "page": 11,
+      "rects": 45,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:3",
+      "source": "S32",
+      "page": 11,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:4",
+      "source": "S32",
+      "page": 11,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:5",
+      "source": "S32",
+      "page": 11,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:6",
+      "source": "S32",
+      "page": 11,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:7",
+      "source": "S32",
+      "page": 11,
+      "rects": 71,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:8",
+      "source": "S32",
+      "page": 11,
+      "rects": 58,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-freq:9",
+      "source": "S32",
+      "page": 11,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-notes-p11:0",
+      "source": "S32",
+      "page": 11,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-notes-p11:1",
+      "source": "S32",
+      "page": 11,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-notes-p12:0",
+      "source": "S32",
+      "page": 12,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:pcv-prevenar13-notes-p12:1",
+      "source": "S32",
+      "page": 12,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S32:comp:2",
+      "source": "S32",
+      "page": 35,
+      "rects": 55,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S32:latex",
+      "source": "S32",
+      "page": 35,
+      "rects": 55,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S33:comp:0",
+      "source": "S33",
+      "page": 1,
+      "rects": 84,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S33:thimerosal:related",
+      "source": "S33",
+      "page": 1,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S33:warn:1",
+      "source": "S33",
+      "page": 1,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S33:warn:0",
+      "source": "S33",
+      "page": 2,
+      "rects": 44,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:0",
+      "source": "S33",
+      "page": 3,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:1",
+      "source": "S33",
+      "page": 3,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:2",
+      "source": "S33",
+      "page": 3,
+      "rects": 57,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:3",
+      "source": "S33",
+      "page": 3,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:4",
+      "source": "S33",
+      "page": 3,
+      "rects": 70,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:5",
+      "source": "S33",
+      "page": 3,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:6",
+      "source": "S33",
+      "page": 3,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:7",
+      "source": "S33",
+      "page": 3,
+      "rects": 33,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:8",
+      "source": "S33",
+      "page": 3,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:9",
+      "source": "S33",
+      "page": 3,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:ppv23-pneumovax-notes:10",
+      "source": "S33",
+      "page": 3,
+      "rects": 78,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:0",
+      "source": "S36",
+      "page": 1,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:1",
+      "source": "S36",
+      "page": 1,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:2",
+      "source": "S36",
+      "page": 1,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:3",
+      "source": "S36",
+      "page": 1,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:4",
+      "source": "S36",
+      "page": 1,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:5",
+      "source": "S36",
+      "page": 1,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:6",
+      "source": "S36",
+      "page": 1,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:7",
+      "source": "S36",
+      "page": 1,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:8",
+      "source": "S36",
+      "page": 1,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:9",
+      "source": "S36",
+      "page": 1,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:10",
+      "source": "S36",
+      "page": 1,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:11",
+      "source": "S36",
+      "page": 1,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:12",
+      "source": "S36",
+      "page": 1,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:13",
+      "source": "S36",
+      "page": 1,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-1:14",
+      "source": "S36",
+      "page": 1,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S36:comp:0",
+      "source": "S36",
+      "page": 1,
+      "rects": 23,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S36:comp:1",
+      "source": "S36",
+      "page": 1,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S36:comp:2",
+      "source": "S36",
+      "page": 1,
+      "rects": 37,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S36:aluminium",
+      "source": "S36",
+      "page": 1,
+      "rects": 23,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S36:formaldehyde",
+      "source": "S36",
+      "page": 1,
+      "rects": 37,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S36:thimerosal:related",
+      "source": "S36",
+      "page": 1,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S36:warn:0",
+      "source": "S36",
+      "page": 1,
+      "rects": 138,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-2:0",
+      "source": "S36",
+      "page": 2,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-2:1",
+      "source": "S36",
+      "page": 2,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-2:2",
+      "source": "S36",
+      "page": 2,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-2:3",
+      "source": "S36",
+      "page": 2,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-2:4",
+      "source": "S36",
+      "page": 2,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-2:5",
+      "source": "S36",
+      "page": 2,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-2:6",
+      "source": "S36",
+      "page": 2,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-3:0",
+      "source": "S36",
+      "page": 2,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-3:1",
+      "source": "S36",
+      "page": 2,
+      "rects": 38,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-3:2",
+      "source": "S36",
+      "page": 2,
+      "rects": 3,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-3:3",
+      "source": "S36",
+      "page": 2,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-3:4",
+      "source": "S36",
+      "page": 2,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-3:5",
+      "source": "S36",
+      "page": 2,
+      "rects": 57,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-adacel-notes-3:6",
+      "source": "S36",
+      "page": 2,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S36:latex",
+      "source": "S36",
+      "page": 2,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:0",
+      "source": "S37",
+      "page": 1,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:1",
+      "source": "S37",
+      "page": 1,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:2",
+      "source": "S37",
+      "page": 1,
+      "rects": 19,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:3",
+      "source": "S37",
+      "page": 1,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:4",
+      "source": "S37",
+      "page": 1,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:5",
+      "source": "S37",
+      "page": 1,
+      "rects": 32,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:6",
+      "source": "S37",
+      "page": 1,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:7",
+      "source": "S37",
+      "page": 1,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:8",
+      "source": "S37",
+      "page": 1,
+      "rects": 37,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:9",
+      "source": "S37",
+      "page": 1,
+      "rects": 33,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:10",
+      "source": "S37",
+      "page": 1,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-4to9:11",
+      "source": "S37",
+      "page": 1,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:0",
+      "source": "S37",
+      "page": 1,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:1",
+      "source": "S37",
+      "page": 1,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:2",
+      "source": "S37",
+      "page": 1,
+      "rects": 45,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:3",
+      "source": "S37",
+      "page": 1,
+      "rects": 46,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:4",
+      "source": "S37",
+      "page": 1,
+      "rects": 38,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:5",
+      "source": "S37",
+      "page": 1,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:6",
+      "source": "S37",
+      "page": 1,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:7",
+      "source": "S37",
+      "page": 1,
+      "rects": 110,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:8",
+      "source": "S37",
+      "page": 1,
+      "rects": 65,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:9",
+      "source": "S37",
+      "page": 1,
+      "rects": 120,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:10",
+      "source": "S37",
+      "page": 1,
+      "rects": 66,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:11",
+      "source": "S37",
+      "page": 1,
+      "rects": 81,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-adult:12",
+      "source": "S37",
+      "page": 1,
+      "rects": 35,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-postmarket:0",
+      "source": "S37",
+      "page": 1,
+      "rects": 84,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-postmarket:1",
+      "source": "S37",
+      "page": 1,
+      "rects": 70,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-postmarket:2",
+      "source": "S37",
+      "page": 1,
+      "rects": 67,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-postmarket:3",
+      "source": "S37",
+      "page": 1,
+      "rects": 78,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:tdap-boostrix-freq-postmarket:4",
+      "source": "S37",
+      "page": 1,
+      "rects": 44,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:0",
+      "source": "S37",
+      "page": 1,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:1",
+      "source": "S37",
+      "page": 1,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:2",
+      "source": "S37",
+      "page": 1,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:3",
+      "source": "S37",
+      "page": 1,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:4",
+      "source": "S37",
+      "page": 1,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:5",
+      "source": "S37",
+      "page": 1,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:6",
+      "source": "S37",
+      "page": 1,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:7",
+      "source": "S37",
+      "page": 1,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:8",
+      "source": "S37",
+      "page": 1,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:aluminium",
+      "source": "S37",
+      "page": 1,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:warn:0",
+      "source": "S37",
+      "page": 1,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:warn:1",
+      "source": "S37",
+      "page": 1,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:9",
+      "source": "S37",
+      "page": 2,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:comp:10",
+      "source": "S37",
+      "page": 2,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:peg_polysorbate",
+      "source": "S37",
+      "page": 2,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S37:formaldehyde",
+      "source": "S37",
+      "page": 2,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:comp:0",
+      "source": "S38",
+      "page": 1,
+      "rects": 59,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:comp:1",
+      "source": "S38",
+      "page": 1,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:comp:2",
+      "source": "S38",
+      "page": 1,
+      "rects": 44,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:comp:3",
+      "source": "S38",
+      "page": 1,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:neomycin",
+      "source": "S38",
+      "page": 1,
+      "rects": 59,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:other_antibiotics",
+      "source": "S38",
+      "page": 1,
+      "rects": 36,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:yeast",
+      "source": "S38",
+      "page": 1,
+      "rects": 44,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:formaldehyde",
+      "source": "S38",
+      "page": 1,
+      "rects": 59,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:aluminium",
+      "source": "S38",
+      "page": 1,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:warn:0",
+      "source": "S38",
+      "page": 2,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:warn:1",
+      "source": "S38",
+      "page": 2,
+      "rects": 56,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:warn:2",
+      "source": "S38",
+      "page": 2,
+      "rects": 54,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:warn:3",
+      "source": "S38",
+      "page": 2,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:0",
+      "source": "S38",
+      "page": 6,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:1",
+      "source": "S38",
+      "page": 6,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:2",
+      "source": "S38",
+      "page": 6,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:3",
+      "source": "S38",
+      "page": 6,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:4",
+      "source": "S38",
+      "page": 6,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:5",
+      "source": "S38",
+      "page": 6,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:6",
+      "source": "S38",
+      "page": 6,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:7",
+      "source": "S38",
+      "page": 6,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:8",
+      "source": "S38",
+      "page": 6,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:9",
+      "source": "S38",
+      "page": 6,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:10",
+      "source": "S38",
+      "page": 6,
+      "rects": 45,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:11",
+      "source": "S38",
+      "page": 6,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:12",
+      "source": "S38",
+      "page": 6,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-freq:13",
+      "source": "S38",
+      "page": 6,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-notes:0",
+      "source": "S38",
+      "page": 6,
+      "rects": 36,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-notes:1",
+      "source": "S38",
+      "page": 6,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-notes:2",
+      "source": "S38",
+      "page": 6,
+      "rects": 44,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-hexaxim-notes:3",
+      "source": "S38",
+      "page": 6,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:comp:4",
+      "source": "S38",
+      "page": 12,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:comp:5",
+      "source": "S38",
+      "page": 12,
+      "rects": 33,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:comp:6",
+      "source": "S38",
+      "page": 12,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:comp:7",
+      "source": "S38",
+      "page": 12,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S38:comp:8",
+      "source": "S38",
+      "page": 12,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:comp:0",
+      "source": "S39",
+      "page": 1,
+      "rects": 39,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:comp:1",
+      "source": "S39",
+      "page": 1,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:comp:2",
+      "source": "S39",
+      "page": 1,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:yeast",
+      "source": "S39",
+      "page": 1,
+      "rects": 39,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:aluminium",
+      "source": "S39",
+      "page": 1,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:warn:0",
+      "source": "S39",
+      "page": 2,
+      "rects": 31,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:warn:1",
+      "source": "S39",
+      "page": 2,
+      "rects": 36,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:0",
+      "source": "S39",
+      "page": 6,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:1",
+      "source": "S39",
+      "page": 6,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:2",
+      "source": "S39",
+      "page": 6,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:3",
+      "source": "S39",
+      "page": 6,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:4",
+      "source": "S39",
+      "page": 6,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:5",
+      "source": "S39",
+      "page": 6,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:6",
+      "source": "S39",
+      "page": 6,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:7",
+      "source": "S39",
+      "page": 6,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:8",
+      "source": "S39",
+      "page": 6,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:9",
+      "source": "S39",
+      "page": 6,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:10",
+      "source": "S39",
+      "page": 6,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:11",
+      "source": "S39",
+      "page": 6,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:12",
+      "source": "S39",
+      "page": 6,
+      "rects": 37,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:13",
+      "source": "S39",
+      "page": 6,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq:14",
+      "source": "S39",
+      "page": 6,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq-2:0",
+      "source": "S39",
+      "page": 7,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq-2:1",
+      "source": "S39",
+      "page": 7,
+      "rects": 50,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq-2:2",
+      "source": "S39",
+      "page": 7,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-freq-2:3",
+      "source": "S39",
+      "page": 7,
+      "rects": 35,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:hexa-infanrixhexa-notes:0",
+      "source": "S39",
+      "page": 7,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:comp:3",
+      "source": "S39",
+      "page": 11,
+      "rects": 53,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:neomycin",
+      "source": "S39",
+      "page": 11,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:other_antibiotics",
+      "source": "S39",
+      "page": 11,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:peg_polysorbate",
+      "source": "S39",
+      "page": 11,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S39:formaldehyde",
+      "source": "S39",
+      "page": 11,
+      "rects": 2,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:warn:0",
+      "source": "S41",
+      "page": 2,
+      "rects": 72,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct:0",
+      "source": "S41",
+      "page": 5,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct:1",
+      "source": "S41",
+      "page": 5,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct:2",
+      "source": "S41",
+      "page": 5,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-2:0",
+      "source": "S41",
+      "page": 6,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-2:1",
+      "source": "S41",
+      "page": 6,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-2:2",
+      "source": "S41",
+      "page": 6,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-2:3",
+      "source": "S41",
+      "page": 6,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-2:4",
+      "source": "S41",
+      "page": 6,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-2:5",
+      "source": "S41",
+      "page": 6,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-2:6",
+      "source": "S41",
+      "page": 6,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-2:7",
+      "source": "S41",
+      "page": 6,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-2:8",
+      "source": "S41",
+      "page": 6,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:0",
+      "source": "S41",
+      "page": 6,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:1",
+      "source": "S41",
+      "page": 6,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:2",
+      "source": "S41",
+      "page": 6,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:3",
+      "source": "S41",
+      "page": 6,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:4",
+      "source": "S41",
+      "page": 6,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:5",
+      "source": "S41",
+      "page": 6,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:6",
+      "source": "S41",
+      "page": 6,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:7",
+      "source": "S41",
+      "page": 6,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:8",
+      "source": "S41",
+      "page": 6,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:9",
+      "source": "S41",
+      "page": 6,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:10",
+      "source": "S41",
+      "page": 6,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:jelive-imojev-pct-3:11",
+      "source": "S41",
+      "page": 6,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:comp:0",
+      "source": "S41",
+      "page": 10,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:comp:1",
+      "source": "S41",
+      "page": 10,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:comp:2",
+      "source": "S41",
+      "page": 10,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:comp:3",
+      "source": "S41",
+      "page": 10,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:comp:4",
+      "source": "S41",
+      "page": 10,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:comp:5",
+      "source": "S41",
+      "page": 10,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:comp:6",
+      "source": "S41",
+      "page": 10,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:comp:7",
+      "source": "S41",
+      "page": 10,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:thimerosal",
+      "source": "S41",
+      "page": 10,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:aluminium",
+      "source": "S41",
+      "page": 10,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S41:latex:related",
+      "source": "S41",
+      "page": 11,
+      "rects": 38,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S43:comp:0",
+      "source": "S43",
+      "page": 1,
+      "rects": 47,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S43:comp:1",
+      "source": "S43",
+      "page": 1,
+      "rects": 58,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S43:comp:2",
+      "source": "S43",
+      "page": 1,
+      "rects": 55,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S43:egg",
+      "source": "S43",
+      "page": 1,
+      "rects": 47,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S43:other_antibiotics",
+      "source": "S43",
+      "page": 1,
+      "rects": 55,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S43:peg_polysorbate",
+      "source": "S43",
+      "page": 1,
+      "rects": 58,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S43:formaldehyde",
+      "source": "S43",
+      "page": 1,
+      "rects": 55,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S43:warn:0",
+      "source": "S43",
+      "page": 2,
+      "rects": 54,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes:0",
+      "source": "S43",
+      "page": 3,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes:1",
+      "source": "S43",
+      "page": 3,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes:2",
+      "source": "S43",
+      "page": 3,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes:3",
+      "source": "S43",
+      "page": 3,
+      "rects": 4,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes:4",
+      "source": "S43",
+      "page": 3,
+      "rects": 2,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-2:0",
+      "source": "S43",
+      "page": 4,
+      "rects": 3,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-2:1",
+      "source": "S43",
+      "page": 4,
+      "rects": 3,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-2:2",
+      "source": "S43",
+      "page": 4,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-2:3",
+      "source": "S43",
+      "page": 4,
+      "rects": 3,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-2:4",
+      "source": "S43",
+      "page": 4,
+      "rects": 2,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-2:5",
+      "source": "S43",
+      "page": 4,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-2:6",
+      "source": "S43",
+      "page": 4,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-2:7",
+      "source": "S43",
+      "page": 4,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-3:0",
+      "source": "S43",
+      "page": 5,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-3:1",
+      "source": "S43",
+      "page": 5,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-fluarixtetra-notes-3:2",
+      "source": "S43",
+      "page": 5,
+      "rects": 31,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-notes:0",
+      "source": "S44",
+      "page": 1,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-notes:1",
+      "source": "S44",
+      "page": 1,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-notes:2",
+      "source": "S44",
+      "page": 1,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-notes:3",
+      "source": "S44",
+      "page": 1,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-notes:4",
+      "source": "S44",
+      "page": 1,
+      "rects": 63,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S44:comp:0",
+      "source": "S44",
+      "page": 1,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S44:comp:1",
+      "source": "S44",
+      "page": 1,
+      "rects": 63,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S44:egg",
+      "source": "S44",
+      "page": 1,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S44:peg_polysorbate",
+      "source": "S44",
+      "page": 1,
+      "rects": 63,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S44:formaldehyde",
+      "source": "S44",
+      "page": 1,
+      "rects": 63,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S44:warn:0",
+      "source": "S44",
+      "page": 1,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:0",
+      "source": "S44",
+      "page": 2,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:1",
+      "source": "S44",
+      "page": 2,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:2",
+      "source": "S44",
+      "page": 2,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:3",
+      "source": "S44",
+      "page": 2,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:4",
+      "source": "S44",
+      "page": 2,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:5",
+      "source": "S44",
+      "page": 2,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:6",
+      "source": "S44",
+      "page": 2,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:7",
+      "source": "S44",
+      "page": 2,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:8",
+      "source": "S44",
+      "page": 2,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:9",
+      "source": "S44",
+      "page": 2,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:10",
+      "source": "S44",
+      "page": 2,
+      "rects": 23,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:11",
+      "source": "S44",
+      "page": 2,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:12",
+      "source": "S44",
+      "page": 2,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:13",
+      "source": "S44",
+      "page": 2,
+      "rects": 27,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:14",
+      "source": "S44",
+      "page": 2,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:15",
+      "source": "S44",
+      "page": 2,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:16",
+      "source": "S44",
+      "page": 2,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-adimflus-qis-pct:17",
+      "source": "S44",
+      "page": 2,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S44:comp:2",
+      "source": "S44",
+      "page": 2,
+      "rects": 81,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:comp:0",
+      "source": "S45",
+      "page": 1,
+      "rects": 51,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:egg",
+      "source": "S45",
+      "page": 1,
+      "rects": 51,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:neomycin",
+      "source": "S45",
+      "page": 1,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:formaldehyde",
+      "source": "S45",
+      "page": 1,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:warn:0",
+      "source": "S45",
+      "page": 2,
+      "rects": 44,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:warn:1",
+      "source": "S45",
+      "page": 2,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:0",
+      "source": "S45",
+      "page": 4,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:1",
+      "source": "S45",
+      "page": 4,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:2",
+      "source": "S45",
+      "page": 4,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:3",
+      "source": "S45",
+      "page": 4,
+      "rects": 19,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:4",
+      "source": "S45",
+      "page": 4,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:5",
+      "source": "S45",
+      "page": 4,
+      "rects": 33,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:6",
+      "source": "S45",
+      "page": 4,
+      "rects": 36,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:7",
+      "source": "S45",
+      "page": 4,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:8",
+      "source": "S45",
+      "page": 4,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:9",
+      "source": "S45",
+      "page": 4,
+      "rects": 33,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-notes:10",
+      "source": "S45",
+      "page": 4,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-freq:0",
+      "source": "S45",
+      "page": 5,
+      "rects": 2,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-freq:1",
+      "source": "S45",
+      "page": 5,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:flu-vaxigriptetra-freq:2",
+      "source": "S45",
+      "page": 5,
+      "rects": 23,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:comp:1",
+      "source": "S45",
+      "page": 10,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:comp:2",
+      "source": "S45",
+      "page": 10,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:comp:3",
+      "source": "S45",
+      "page": 10,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:comp:4",
+      "source": "S45",
+      "page": 10,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S45:comp:5",
+      "source": "S45",
+      "page": 11,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S46:comp:0",
+      "source": "S46",
+      "page": 1,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S46:comp:1",
+      "source": "S46",
+      "page": 1,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S46:comp:2",
+      "source": "S46",
+      "page": 1,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S46:other_antibiotics",
+      "source": "S46",
+      "page": 1,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S46:aluminium",
+      "source": "S46",
+      "page": 1,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S46:warn:0",
+      "source": "S46",
+      "page": 3,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S46:latex",
+      "source": "S46",
+      "page": 4,
+      "rects": 38,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S46:warn:1",
+      "source": "S46",
+      "page": 4,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-notes:0",
+      "source": "S46",
+      "page": 6,
+      "rects": 66,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-notes:1",
+      "source": "S46",
+      "page": 6,
+      "rects": 34,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq:0",
+      "source": "S46",
+      "page": 6,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq:1",
+      "source": "S46",
+      "page": 6,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq:2",
+      "source": "S46",
+      "page": 6,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq-2:0",
+      "source": "S46",
+      "page": 7,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq-2:1",
+      "source": "S46",
+      "page": 7,
+      "rects": 6,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq-2:2",
+      "source": "S46",
+      "page": 7,
+      "rects": 31,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq-2:3",
+      "source": "S46",
+      "page": 7,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq-2:4",
+      "source": "S46",
+      "page": 7,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq-2:5",
+      "source": "S46",
+      "page": 7,
+      "rects": 5,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq-2:6",
+      "source": "S46",
+      "page": 7,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:mcv4-bexsero-freq-2:7",
+      "source": "S46",
+      "page": 7,
+      "rects": 32,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S48:comp:0",
+      "source": "S48",
+      "page": 1,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S48:comp:1",
+      "source": "S48",
+      "page": 1,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S48:comp:2",
+      "source": "S48",
+      "page": 1,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S48:peg_polysorbate",
+      "source": "S48",
+      "page": 1,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S48:thimerosal",
+      "source": "S48",
+      "page": 1,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S48:warn:0",
+      "source": "S48",
+      "page": 8,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S48:warn:1",
+      "source": "S48",
+      "page": 8,
+      "rects": 34,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:rota-rotateq-pct:0",
+      "source": "S48",
+      "page": 11,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:rota-rotateq-pct:1",
+      "source": "S48",
+      "page": 11,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:rota-rotateq-pct:2",
+      "source": "S48",
+      "page": 11,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:rota-rotateq-pct:3",
+      "source": "S48",
+      "page": 11,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:rota-rotateq-notes:0",
+      "source": "S48",
+      "page": 12,
+      "rects": 11,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:rota-rotateq-notes:1",
+      "source": "S48",
+      "page": 12,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "ae:rota-rotateq-notes:2",
+      "source": "S48",
+      "page": 12,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S48:latex",
+      "source": "S48",
+      "page": 12,
+      "rects": 53,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:warn:0",
+      "source": "S58",
+      "page": 5,
+      "rects": 153,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:comp:0",
+      "source": "S58",
+      "page": 16,
+      "rects": 162,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:comp:1",
+      "source": "S58",
+      "page": 16,
+      "rects": 178,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:other_antibiotics",
+      "source": "S58",
+      "page": 16,
+      "rects": 178,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:aluminium:related",
+      "source": "S58",
+      "page": 16,
+      "rects": 178,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:comp:2",
+      "source": "S58",
+      "page": 17,
+      "rects": 87,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:latex",
+      "source": "S58",
+      "page": 17,
+      "rects": 75,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:peg_polysorbate",
+      "source": "S58",
+      "page": 17,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:thimerosal",
+      "source": "S58",
+      "page": 17,
+      "rects": 35,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S58:warn:1",
+      "source": "S58",
+      "page": 17,
+      "rects": 97,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:warn:0",
+      "source": "S59",
+      "page": 3,
+      "rects": 256,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:latex",
+      "source": "S59",
+      "page": 4,
+      "rects": 168,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:warn:1",
+      "source": "S59",
+      "page": 4,
+      "rects": 168,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:comp:0",
+      "source": "S59",
+      "page": 12,
+      "rects": 110,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:comp:1",
+      "source": "S59",
+      "page": 12,
+      "rects": 222,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:comp:2",
+      "source": "S59",
+      "page": 12,
+      "rects": 175,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:neomycin",
+      "source": "S59",
+      "page": 12,
+      "rects": 77,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:formaldehyde",
+      "source": "S59",
+      "page": 12,
+      "rects": 175,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:thimerosal",
+      "source": "S59",
+      "page": 12,
+      "rects": 121,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S59:aluminium",
+      "source": "S59",
+      "page": 12,
+      "rects": 199,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S60:warn:0",
+      "source": "S60",
+      "page": 4,
+      "rects": 186,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S60:comp:0",
+      "source": "S60",
+      "page": 9,
+      "rects": 105,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S60:comp:1",
+      "source": "S60",
+      "page": 9,
+      "rects": 161,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S60:comp:2",
+      "source": "S60",
+      "page": 9,
+      "rects": 131,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S60:yeast",
+      "source": "S60",
+      "page": 9,
+      "rects": 89,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S60:latex",
+      "source": "S60",
+      "page": 9,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S60:aluminium",
+      "source": "S60",
+      "page": 9,
+      "rects": 77,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S60:warn:1",
+      "source": "S60",
+      "page": 9,
+      "rects": 47,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S60:thimerosal",
+      "source": "S60",
+      "page": 10,
+      "rects": 40,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S61:warn:0",
+      "source": "S61",
+      "page": 4,
+      "rects": 129,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S61:comp:0",
+      "source": "S61",
+      "page": 13,
+      "rects": 194,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S61:comp:1",
+      "source": "S61",
+      "page": 13,
+      "rects": 110,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S61:comp:2",
+      "source": "S61",
+      "page": 13,
+      "rects": 109,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S61:other_antibiotics",
+      "source": "S61",
+      "page": 13,
+      "rects": 50,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S61:yeast",
+      "source": "S61",
+      "page": 13,
+      "rects": 192,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S61:peg_polysorbate",
+      "source": "S61",
+      "page": 13,
+      "rects": 192,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S61:thimerosal",
+      "source": "S61",
+      "page": 13,
+      "rects": 50,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S61:aluminium",
+      "source": "S61",
+      "page": 13,
+      "rects": 192,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S62:warn:0",
+      "source": "S62",
+      "page": 4,
+      "rects": 259,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S62:warn:1",
+      "source": "S62",
+      "page": 4,
+      "rects": 257,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S62:comp:0",
+      "source": "S62",
+      "page": 8,
+      "rects": 390,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S62:comp:1",
+      "source": "S62",
+      "page": 8,
+      "rects": 183,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S62:egg",
+      "source": "S62",
+      "page": 8,
+      "rects": 172,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S62:gelatin",
+      "source": "S62",
+      "page": 8,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S62:neomycin",
+      "source": "S62",
+      "page": 8,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S62:thimerosal",
+      "source": "S62",
+      "page": 8,
+      "rects": 32,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S63:warn:0",
+      "source": "S63",
+      "page": 5,
+      "rects": 114,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S63:comp:0",
+      "source": "S63",
+      "page": 24,
+      "rects": 236,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S63:comp:1",
+      "source": "S63",
+      "page": 25,
+      "rects": 147,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S63:comp:2",
+      "source": "S63",
+      "page": 25,
+      "rects": 255,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S63:yeast:related",
+      "source": "S63",
+      "page": 25,
+      "rects": 147,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S63:latex",
+      "source": "S63",
+      "page": 25,
+      "rects": 78,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S63:peg_polysorbate",
+      "source": "S63",
+      "page": 25,
+      "rects": 255,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S63:aluminium",
+      "source": "S63",
+      "page": 25,
+      "rects": 255,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S63:warn:1",
+      "source": "S63",
+      "page": 25,
+      "rects": 78,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S64:warn:0",
+      "source": "S64",
+      "page": 3,
+      "rects": 144,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S64:comp:0",
+      "source": "S64",
+      "page": 9,
+      "rects": 202,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S64:comp:1",
+      "source": "S64",
+      "page": 9,
+      "rects": 123,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S64:latex",
+      "source": "S64",
+      "page": 9,
+      "rects": 84,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S64:thimerosal:related",
+      "source": "S64",
+      "page": 9,
+      "rects": 123,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S64:warn:1",
+      "source": "S64",
+      "page": 9,
+      "rects": 84,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S65:warn:0",
+      "source": "S65",
+      "page": 3,
+      "rects": 191,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S65:comp:0",
+      "source": "S65",
+      "page": 13,
+      "rects": 139,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S65:comp:1",
+      "source": "S65",
+      "page": 13,
+      "rects": 175,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S65:formaldehyde",
+      "source": "S65",
+      "page": 13,
+      "rects": 24,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S65:thimerosal",
+      "source": "S65",
+      "page": 13,
+      "rects": 33,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S65:aluminium",
+      "source": "S65",
+      "page": 13,
+      "rects": 47,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S65:latex",
+      "source": "S65",
+      "page": 23,
+      "rects": 72,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S65:warn:1",
+      "source": "S65",
+      "page": 23,
+      "rects": 73,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:warn:0",
+      "source": "S66",
+      "page": 4,
+      "rects": 205,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:comp:0",
+      "source": "S66",
+      "page": 18,
+      "rects": 142,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:comp:1",
+      "source": "S66",
+      "page": 19,
+      "rects": 101,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:comp:2",
+      "source": "S66",
+      "page": 19,
+      "rects": 79,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:latex",
+      "source": "S66",
+      "page": 19,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:peg_polysorbate",
+      "source": "S66",
+      "page": 19,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:formaldehyde",
+      "source": "S66",
+      "page": 19,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:thimerosal",
+      "source": "S66",
+      "page": 19,
+      "rects": 40,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:aluminium",
+      "source": "S66",
+      "page": 19,
+      "rects": 78,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S66:warn:1",
+      "source": "S66",
+      "page": 19,
+      "rects": 47,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:warn:0",
+      "source": "S67",
+      "page": 4,
+      "rects": 192,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:comp:0",
+      "source": "S67",
+      "page": 17,
+      "rects": 83,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:comp:1",
+      "source": "S67",
+      "page": 17,
+      "rects": 207,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:comp:2",
+      "source": "S67",
+      "page": 17,
+      "rects": 169,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:egg",
+      "source": "S67",
+      "page": 17,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:other_antibiotics",
+      "source": "S67",
+      "page": 17,
+      "rects": 23,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:latex",
+      "source": "S67",
+      "page": 17,
+      "rects": 96,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:peg_polysorbate",
+      "source": "S67",
+      "page": 17,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:formaldehyde",
+      "source": "S67",
+      "page": 17,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:thimerosal",
+      "source": "S67",
+      "page": 17,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S67:warn:1",
+      "source": "S67",
+      "page": 17,
+      "rects": 96,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S68:warn:0",
+      "source": "S68",
+      "page": 3,
+      "rects": 137,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S68:comp:0",
+      "source": "S68",
+      "page": 9,
+      "rects": 97,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S68:comp:1",
+      "source": "S68",
+      "page": 9,
+      "rects": 240,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S68:aluminium",
+      "source": "S68",
+      "page": 9,
+      "rects": 32,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S68:comp:2",
+      "source": "S68",
+      "page": 10,
+      "rects": 52,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S68:other_antibiotics",
+      "source": "S68",
+      "page": 10,
+      "rects": 52,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S68:latex",
+      "source": "S68",
+      "page": 10,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S68:warn:1",
+      "source": "S68",
+      "page": 15,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S69:warn:0",
+      "source": "S69",
+      "page": 5,
+      "rects": 101,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S69:comp:0",
+      "source": "S69",
+      "page": 10,
+      "rects": 75,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S69:comp:1",
+      "source": "S69",
+      "page": 11,
+      "rects": 185,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S69:latex",
+      "source": "S69",
+      "page": 11,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S69:peg_polysorbate",
+      "source": "S69",
+      "page": 11,
+      "rects": 13,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S69:thimerosal",
+      "source": "S69",
+      "page": 11,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S69:warn:1",
+      "source": "S69",
+      "page": 14,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:warn:0",
+      "source": "S70",
+      "page": 3,
+      "rects": 169,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:comp:0",
+      "source": "S70",
+      "page": 9,
+      "rects": 90,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:comp:1",
+      "source": "S70",
+      "page": 9,
+      "rects": 97,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:comp:2",
+      "source": "S70",
+      "page": 9,
+      "rects": 320,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:neomycin",
+      "source": "S70",
+      "page": 9,
+      "rects": 32,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:latex",
+      "source": "S70",
+      "page": 9,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:peg_polysorbate",
+      "source": "S70",
+      "page": 9,
+      "rects": 20,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:formaldehyde",
+      "source": "S70",
+      "page": 9,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:thimerosal",
+      "source": "S70",
+      "page": 9,
+      "rects": 38,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:aluminium",
+      "source": "S70",
+      "page": 9,
+      "rects": 33,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S70:warn:1",
+      "source": "S70",
+      "page": 9,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S71:warn:0",
+      "source": "S71",
+      "page": 5,
+      "rects": 184,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S71:comp:0",
+      "source": "S71",
+      "page": 13,
+      "rects": 126,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S71:comp:1",
+      "source": "S71",
+      "page": 13,
+      "rects": 221,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S71:gelatin",
+      "source": "S71",
+      "page": 13,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S71:comp:2",
+      "source": "S71",
+      "page": 14,
+      "rects": 117,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S71:neomycin",
+      "source": "S71",
+      "page": 14,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S71:thimerosal",
+      "source": "S71",
+      "page": 14,
+      "rects": 32,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:warn:0",
+      "source": "S72",
+      "page": 5,
+      "rects": 169,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:comp:0",
+      "source": "S72",
+      "page": 25,
+      "rects": 100,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:comp:1",
+      "source": "S72",
+      "page": 25,
+      "rects": 76,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:comp:2",
+      "source": "S72",
+      "page": 25,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:comp:3",
+      "source": "S72",
+      "page": 25,
+      "rects": 59,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:comp:4",
+      "source": "S72",
+      "page": 25,
+      "rects": 75,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:yeast:related",
+      "source": "S72",
+      "page": 25,
+      "rects": 76,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:latex",
+      "source": "S72",
+      "page": 25,
+      "rects": 75,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:formaldehyde",
+      "source": "S72",
+      "page": 25,
+      "rects": 100,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:thimerosal",
+      "source": "S72",
+      "page": 25,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S72:aluminium",
+      "source": "S72",
+      "page": 25,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:warn:0",
+      "source": "S73",
+      "page": 4,
+      "rects": 126,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:comp:0",
+      "source": "S73",
+      "page": 17,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:comp:1",
+      "source": "S73",
+      "page": 17,
+      "rects": 152,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:comp:2",
+      "source": "S73",
+      "page": 17,
+      "rects": 257,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:comp:3",
+      "source": "S73",
+      "page": 17,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:comp:4",
+      "source": "S73",
+      "page": 17,
+      "rects": 79,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:yeast:related",
+      "source": "S73",
+      "page": 17,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:latex",
+      "source": "S73",
+      "page": 17,
+      "rects": 79,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:peg_polysorbate",
+      "source": "S73",
+      "page": 17,
+      "rects": 257,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:thimerosal",
+      "source": "S73",
+      "page": 17,
+      "rects": 41,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S73:aluminium",
+      "source": "S73",
+      "page": 17,
+      "rects": 152,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S74:warn:0",
+      "source": "S74",
+      "page": 5,
+      "rects": 138,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S74:comp:0",
+      "source": "S74",
+      "page": 19,
+      "rects": 36,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S74:comp:1",
+      "source": "S74",
+      "page": 19,
+      "rects": 175,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S74:comp:2",
+      "source": "S74",
+      "page": 19,
+      "rects": 280,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S74:yeast:related",
+      "source": "S74",
+      "page": 19,
+      "rects": 175,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S74:peg_polysorbate",
+      "source": "S74",
+      "page": 19,
+      "rects": 280,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S74:aluminium",
+      "source": "S74",
+      "page": 19,
+      "rects": 280,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S74:comp:3",
+      "source": "S74",
+      "page": 32,
+      "rects": 79,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S74:latex",
+      "source": "S74",
+      "page": 32,
+      "rects": 79,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:warn:0",
+      "source": "S75",
+      "page": 5,
+      "rects": 196,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:comp:0",
+      "source": "S75",
+      "page": 12,
+      "rects": 299,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:comp:1",
+      "source": "S75",
+      "page": 13,
+      "rects": 125,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:comp:2",
+      "source": "S75",
+      "page": 13,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:comp:3",
+      "source": "S75",
+      "page": 13,
+      "rects": 186,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:egg",
+      "source": "S75",
+      "page": 13,
+      "rects": 125,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:neomycin",
+      "source": "S75",
+      "page": 13,
+      "rects": 125,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:other_antibiotics:related",
+      "source": "S75",
+      "page": 13,
+      "rects": 34,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:latex",
+      "source": "S75",
+      "page": 13,
+      "rects": 186,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S75:thimerosal",
+      "source": "S75",
+      "page": 13,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:warn:0",
+      "source": "S76",
+      "page": 5,
+      "rects": 117,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:comp:0",
+      "source": "S76",
+      "page": 18,
+      "rects": 138,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:comp:1",
+      "source": "S76",
+      "page": 18,
+      "rects": 177,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:comp:2",
+      "source": "S76",
+      "page": 18,
+      "rects": 344,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:other_antibiotics",
+      "source": "S76",
+      "page": 18,
+      "rects": 138,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:peg_polysorbate",
+      "source": "S76",
+      "page": 18,
+      "rects": 344,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:aluminium:related",
+      "source": "S76",
+      "page": 18,
+      "rects": 177,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:comp:3",
+      "source": "S76",
+      "page": 19,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:comp:4",
+      "source": "S76",
+      "page": 19,
+      "rects": 204,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:latex",
+      "source": "S76",
+      "page": 19,
+      "rects": 204,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S76:thimerosal",
+      "source": "S76",
+      "page": 19,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S77:warn:0",
+      "source": "S77",
+      "page": 6,
+      "rects": 124,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S77:comp:0",
+      "source": "S77",
+      "page": 22,
+      "rects": 198,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S77:comp:1",
+      "source": "S77",
+      "page": 22,
+      "rects": 301,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S77:comp:2",
+      "source": "S77",
+      "page": 22,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S77:comp:3",
+      "source": "S77",
+      "page": 22,
+      "rects": 109,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S77:other_antibiotics",
+      "source": "S77",
+      "page": 22,
+      "rects": 198,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S77:latex",
+      "source": "S77",
+      "page": 22,
+      "rects": 109,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S77:peg_polysorbate",
+      "source": "S77",
+      "page": 22,
+      "rects": 301,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S77:thimerosal",
+      "source": "S77",
+      "page": 22,
+      "rects": 30,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S78:warn:0",
+      "source": "S78",
+      "page": 3,
+      "rects": 135,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S78:comp:0",
+      "source": "S78",
+      "page": 12,
+      "rects": 186,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S78:yeast:related",
+      "source": "S78",
+      "page": 12,
+      "rects": 186,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S78:comp:1",
+      "source": "S78",
+      "page": 13,
+      "rects": 230,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S78:egg",
+      "source": "S78",
+      "page": 13,
+      "rects": 54,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S78:other_antibiotics",
+      "source": "S78",
+      "page": 13,
+      "rects": 54,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S78:latex",
+      "source": "S78",
+      "page": 13,
+      "rects": 101,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S78:peg_polysorbate",
+      "source": "S78",
+      "page": 13,
+      "rects": 230,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S78:thimerosal",
+      "source": "S78",
+      "page": 13,
+      "rects": 93,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S79:warn:0",
+      "source": "S79",
+      "page": 3,
+      "rects": 124,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S79:comp:0",
+      "source": "S79",
+      "page": 13,
+      "rects": 183,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S79:yeast:related",
+      "source": "S79",
+      "page": 13,
+      "rects": 183,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S79:comp:1",
+      "source": "S79",
+      "page": 14,
+      "rects": 219,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S79:egg",
+      "source": "S79",
+      "page": 14,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S79:other_antibiotics",
+      "source": "S79",
+      "page": 14,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S79:latex",
+      "source": "S79",
+      "page": 14,
+      "rects": 101,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S79:peg_polysorbate",
+      "source": "S79",
+      "page": 14,
+      "rects": 219,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S79:thimerosal",
+      "source": "S79",
+      "page": 14,
+      "rects": 81,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S80:comp:0",
+      "source": "S80",
+      "page": 1,
+      "rects": 206,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S80:comp:1",
+      "source": "S80",
+      "page": 1,
+      "rects": 80,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S80:comp:2",
+      "source": "S80",
+      "page": 1,
+      "rects": 111,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S80:comp:3",
+      "source": "S80",
+      "page": 1,
+      "rects": 106,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S80:latex",
+      "source": "S80",
+      "page": 1,
+      "rects": 78,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S80:formaldehyde",
+      "source": "S80",
+      "page": 1,
+      "rects": 111,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S80:thimerosal:related",
+      "source": "S80",
+      "page": 1,
+      "rects": 106,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S80:warn:0",
+      "source": "S80",
+      "page": 5,
+      "rects": 99,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S81:warn:0",
+      "source": "S81",
+      "page": 4,
+      "rects": 175,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S81:comp:0",
+      "source": "S81",
+      "page": 12,
+      "rects": 356,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S81:egg:related",
+      "source": "S81",
+      "page": 12,
+      "rects": 234,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S81:comp:1",
+      "source": "S81",
+      "page": 13,
+      "rects": 116,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S81:other_antibiotics",
+      "source": "S81",
+      "page": 13,
+      "rects": 116,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S81:latex",
+      "source": "S81",
+      "page": 13,
+      "rects": 86,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S81:thimerosal",
+      "source": "S81",
+      "page": 13,
+      "rects": 86,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S82:warn:0",
+      "source": "S82",
+      "page": 6,
+      "rects": 233,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S82:comp:0",
+      "source": "S82",
+      "page": 51,
+      "rects": 90,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S82:comp:1",
+      "source": "S82",
+      "page": 51,
+      "rects": 447,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S82:latex",
+      "source": "S82",
+      "page": 51,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S82:peg_polysorbate",
+      "source": "S82",
+      "page": 51,
+      "rects": 279,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S82:thimerosal",
+      "source": "S82",
+      "page": 51,
+      "rects": 35,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S83:warn:0",
+      "source": "S83",
+      "page": 3,
+      "rects": 290,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S83:comp:0",
+      "source": "S83",
+      "page": 19,
+      "rects": 91,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S83:comp:1",
+      "source": "S83",
+      "page": 19,
+      "rects": 434,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S83:latex",
+      "source": "S83",
+      "page": 19,
+      "rects": 85,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S83:peg_polysorbate",
+      "source": "S83",
+      "page": 19,
+      "rects": 234,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S83:thimerosal",
+      "source": "S83",
+      "page": 19,
+      "rects": 36,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:warn:0",
+      "source": "S84",
+      "page": 3,
+      "rects": 244,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:comp:0",
+      "source": "S84",
+      "page": 32,
+      "rects": 150,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:comp:1",
+      "source": "S84",
+      "page": 32,
+      "rects": 262,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:comp:2",
+      "source": "S84",
+      "page": 32,
+      "rects": 150,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:yeast:related",
+      "source": "S84",
+      "page": 32,
+      "rects": 150,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:aluminium:related",
+      "source": "S84",
+      "page": 32,
+      "rects": 262,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:comp:3",
+      "source": "S84",
+      "page": 33,
+      "rects": 65,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:latex",
+      "source": "S84",
+      "page": 33,
+      "rects": 65,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:peg_polysorbate",
+      "source": "S84",
+      "page": 33,
+      "rects": 65,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S84:thimerosal",
+      "source": "S84",
+      "page": 33,
+      "rects": 36,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:0",
+      "source": "S85",
+      "page": 2,
+      "rects": 77,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:1",
+      "source": "S85",
+      "page": 2,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:2",
+      "source": "S85",
+      "page": 2,
+      "rects": 65,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:neomycin",
+      "source": "S85",
+      "page": 2,
+      "rects": 77,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:other_antibiotics",
+      "source": "S85",
+      "page": 2,
+      "rects": 77,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:yeast",
+      "source": "S85",
+      "page": 2,
+      "rects": 65,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:formaldehyde",
+      "source": "S85",
+      "page": 2,
+      "rects": 77,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:aluminium",
+      "source": "S85",
+      "page": 2,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:warn:0",
+      "source": "S85",
+      "page": 4,
+      "rects": 67,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:warn:1",
+      "source": "S85",
+      "page": 4,
+      "rects": 81,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:3",
+      "source": "S85",
+      "page": 16,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:4",
+      "source": "S85",
+      "page": 16,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:5",
+      "source": "S85",
+      "page": 16,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:6",
+      "source": "S85",
+      "page": 16,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:7",
+      "source": "S85",
+      "page": 16,
+      "rects": 42,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:8",
+      "source": "S85",
+      "page": 16,
+      "rects": 58,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:comp:9",
+      "source": "S85",
+      "page": 16,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S85:latex:related",
+      "source": "S85",
+      "page": 17,
+      "rects": 80,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:comp:0",
+      "source": "S86",
+      "page": 2,
+      "rects": 29,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:comp:1",
+      "source": "S86",
+      "page": 2,
+      "rects": 56,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:comp:2",
+      "source": "S86",
+      "page": 2,
+      "rects": 69,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:comp:3",
+      "source": "S86",
+      "page": 2,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:comp:4",
+      "source": "S86",
+      "page": 2,
+      "rects": 113,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:neomycin",
+      "source": "S86",
+      "page": 2,
+      "rects": 113,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:other_antibiotics",
+      "source": "S86",
+      "page": 2,
+      "rects": 113,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:yeast",
+      "source": "S86",
+      "page": 2,
+      "rects": 69,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:formaldehyde",
+      "source": "S86",
+      "page": 2,
+      "rects": 113,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:aluminium",
+      "source": "S86",
+      "page": 2,
+      "rects": 56,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:warn:0",
+      "source": "S86",
+      "page": 4,
+      "rects": 110,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:warn:1",
+      "source": "S86",
+      "page": 4,
+      "rects": 176,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:comp:5",
+      "source": "S86",
+      "page": 14,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:comp:6",
+      "source": "S86",
+      "page": 14,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:comp:7",
+      "source": "S86",
+      "page": 14,
+      "rects": 157,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:comp:8",
+      "source": "S86",
+      "page": 14,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S86:latex:related",
+      "source": "S86",
+      "page": 15,
+      "rects": 101,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:0",
+      "source": "S87",
+      "page": 1,
+      "rects": 60,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:1",
+      "source": "S87",
+      "page": 1,
+      "rects": 21,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:warn:0",
+      "source": "S87",
+      "page": 3,
+      "rects": 191,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:warn:1",
+      "source": "S87",
+      "page": 3,
+      "rects": 168,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:warn:2",
+      "source": "S87",
+      "page": 3,
+      "rects": 98,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:2",
+      "source": "S87",
+      "page": 19,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:3",
+      "source": "S87",
+      "page": 19,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:4",
+      "source": "S87",
+      "page": 19,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:5",
+      "source": "S87",
+      "page": 19,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:6",
+      "source": "S87",
+      "page": 19,
+      "rects": 9,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:7",
+      "source": "S87",
+      "page": 20,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:8",
+      "source": "S87",
+      "page": 20,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:9",
+      "source": "S87",
+      "page": 20,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:comp:10",
+      "source": "S87",
+      "page": 20,
+      "rects": 44,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:thimerosal",
+      "source": "S87",
+      "page": 20,
+      "rects": 44,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S87:aluminium",
+      "source": "S87",
+      "page": 20,
+      "rects": 44,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:comp:0",
+      "source": "S88",
+      "page": 1,
+      "rects": 178,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:comp:1",
+      "source": "S88",
+      "page": 1,
+      "rects": 54,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:egg",
+      "source": "S88",
+      "page": 1,
+      "rects": 178,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:neomycin",
+      "source": "S88",
+      "page": 1,
+      "rects": 178,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:formaldehyde",
+      "source": "S88",
+      "page": 1,
+      "rects": 178,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:warn:0",
+      "source": "S88",
+      "page": 2,
+      "rects": 181,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:thimerosal:related",
+      "source": "S88",
+      "page": 9,
+      "rects": 133,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:comp:2",
+      "source": "S88",
+      "page": 14,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:comp:3",
+      "source": "S88",
+      "page": 14,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:comp:4",
+      "source": "S88",
+      "page": 14,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:comp:5",
+      "source": "S88",
+      "page": 14,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S88:comp:6",
+      "source": "S88",
+      "page": 14,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:0",
+      "source": "S89",
+      "page": 1,
+      "rects": 60,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:1",
+      "source": "S89",
+      "page": 1,
+      "rects": 43,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:2",
+      "source": "S89",
+      "page": 1,
+      "rects": 56,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:egg",
+      "source": "S89",
+      "page": 4,
+      "rects": 100,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:warn:0",
+      "source": "S89",
+      "page": 4,
+      "rects": 100,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:latex",
+      "source": "S89",
+      "page": 7,
+      "rects": 125,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:warn:1",
+      "source": "S89",
+      "page": 7,
+      "rects": 125,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:3",
+      "source": "S89",
+      "page": 13,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:4",
+      "source": "S89",
+      "page": 13,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:5",
+      "source": "S89",
+      "page": 13,
+      "rects": 23,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:6",
+      "source": "S89",
+      "page": 13,
+      "rects": 8,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:7",
+      "source": "S89",
+      "page": 13,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:8",
+      "source": "S89",
+      "page": 13,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:9",
+      "source": "S89",
+      "page": 13,
+      "rects": 26,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:10",
+      "source": "S89",
+      "page": 13,
+      "rects": 28,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:11",
+      "source": "S89",
+      "page": 13,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:12",
+      "source": "S89",
+      "page": 13,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:13",
+      "source": "S89",
+      "page": 13,
+      "rects": 32,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:14",
+      "source": "S89",
+      "page": 13,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:comp:15",
+      "source": "S89",
+      "page": 14,
+      "rects": 216,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S89:aluminium:related",
+      "source": "S89",
+      "page": 14,
+      "rects": 216,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:comp:0",
+      "source": "S90",
+      "page": 1,
+      "rects": 59,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:comp:1",
+      "source": "S90",
+      "page": 1,
+      "rects": 25,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:comp:2",
+      "source": "S90",
+      "page": 1,
+      "rects": 99,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:neomycin",
+      "source": "S90",
+      "page": 1,
+      "rects": 99,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:other_antibiotics",
+      "source": "S90",
+      "page": 5,
+      "rects": 209,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:warn:0",
+      "source": "S90",
+      "page": 5,
+      "rects": 209,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:warn:1",
+      "source": "S90",
+      "page": 5,
+      "rects": 134,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:latex",
+      "source": "S90",
+      "page": 6,
+      "rects": 152,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:warn:2",
+      "source": "S90",
+      "page": 6,
+      "rects": 152,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:warn:4",
+      "source": "S90",
+      "page": 6,
+      "rects": 239,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:comp:3",
+      "source": "S90",
+      "page": 13,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:comp:4",
+      "source": "S90",
+      "page": 13,
+      "rects": 22,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:comp:5",
+      "source": "S90",
+      "page": 13,
+      "rects": 107,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:comp:6",
+      "source": "S90",
+      "page": 13,
+      "rects": 49,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:comp:7",
+      "source": "S90",
+      "page": 13,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S90:warn:3",
+      "source": "S90",
+      "page": 14,
+      "rects": 89,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:comp:0",
+      "source": "S91",
+      "page": 1,
+      "rects": 57,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:comp:1",
+      "source": "S91",
+      "page": 1,
+      "rects": 53,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:comp:2",
+      "source": "S91",
+      "page": 1,
+      "rects": 38,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:comp:3",
+      "source": "S91",
+      "page": 1,
+      "rects": 65,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:neomycin",
+      "source": "S91",
+      "page": 1,
+      "rects": 53,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:warn:0",
+      "source": "S91",
+      "page": 3,
+      "rects": 153,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:warn:1",
+      "source": "S91",
+      "page": 3,
+      "rects": 120,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:comp:4",
+      "source": "S91",
+      "page": 12,
+      "rects": 33,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:comp:5",
+      "source": "S91",
+      "page": 12,
+      "rects": 16,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:comp:6",
+      "source": "S91",
+      "page": 12,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:comp:7",
+      "source": "S91",
+      "page": 12,
+      "rects": 12,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:comp:8",
+      "source": "S91",
+      "page": 12,
+      "rects": 18,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S91:latex:related",
+      "source": "S91",
+      "page": 13,
+      "rects": 66,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:comp:0",
+      "source": "S92",
+      "page": 1,
+      "rects": 65,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:comp:1",
+      "source": "S92",
+      "page": 1,
+      "rects": 69,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:egg",
+      "source": "S92",
+      "page": 1,
+      "rects": 65,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:neomycin",
+      "source": "S92",
+      "page": 1,
+      "rects": 69,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:other_antibiotics",
+      "source": "S92",
+      "page": 1,
+      "rects": 69,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:warn:0",
+      "source": "S92",
+      "page": 5,
+      "rects": 70,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:warn:1",
+      "source": "S92",
+      "page": 5,
+      "rects": 57,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:comp:2",
+      "source": "S92",
+      "page": 10,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:comp:3",
+      "source": "S92",
+      "page": 10,
+      "rects": 14,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:comp:4",
+      "source": "S92",
+      "page": 10,
+      "rects": 15,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:comp:5",
+      "source": "S92",
+      "page": 10,
+      "rects": 19,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:comp:6",
+      "source": "S92",
+      "page": 10,
+      "rects": 10,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:comp:7",
+      "source": "S92",
+      "page": 10,
+      "rects": 7,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:comp:8",
+      "source": "S92",
+      "page": 10,
+      "rects": 17,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    },
+    {
+      "claim": "al:S92:latex:related",
+      "source": "S92",
+      "page": 11,
+      "rects": 69,
+      "textEqual": true,
+      "badGlyphs": [],
+      "bboxMisses": []
+    }
+  ]
+}

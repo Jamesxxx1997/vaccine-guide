@@ -182,6 +182,129 @@
     }
    ]
   },
+  "al:S26:comp:0": {
+   "items": [
+    {
+     "source": "S26",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "每劑(1.0毫升)成人用Havrix 1440含有：\nA型肝炎病毒(去活化)\n在人類雙套染色體(MRC-5)細胞中製成\n吸附於水合氫氧化鋁上\n每劑(0.5毫升)孩童用Havrix 720含有：\nA型肝炎病毒(去活化)\n在人類雙套染色體(MRC-5)細胞中製成\n吸附於水合氫氧化鋁上"
+     ],
+     "label": "Havrix 新赫寶克A型肝炎疫苗 · 定性與定量組成"
+    }
+   ]
+  },
+  "al:S26:comp:1": {
+   "items": [
+    {
+     "source": "S26",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Aluminium hydroxide, amino acids for injections, disodium phosphate,\nmonopotassium phosphate, polysorbate 20, potassium chloride, sodium\nchloride, water for injections."
+     ],
+     "label": "Havrix 新赫寶克A型肝炎疫苗 · 賦形劑"
+    }
+   ]
+  },
+  "al:S26:comp:2": {
+   "items": [
+    {
+     "source": "S26",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "*Neomycin sulphate"
+     ],
+     "label": "Havrix 新赫寶克A型肝炎疫苗 · 賦形劑 · 新黴素殘餘物註記"
+    }
+   ]
+  },
+  "al:S26:neomycin": {
+   "items": [
+    {
+     "source": "S26",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "*Neomycin sulphate"
+     ],
+     "label": "Havrix 新赫寶克A型肝炎疫苗 · Neomycin：有"
+    }
+   ]
+  },
+  "al:S26:latex": {
+   "items": [
+    {
+     "source": "S26",
+     "page": 10,
+     "glyphRows": true,
+     "quotes": [
+      "預充填型注射器的前蓋及橡膠推桿活塞和小瓶之瓶塞皆非天然橡膠乳膠製成。"
+     ],
+     "label": "Havrix 新赫寶克A型肝炎疫苗 · 乳膠（針筒／瓶塞）：無"
+    }
+   ]
+  },
+  "al:S26:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S26",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "monopotassium phosphate, polysorbate 20, potassium chloride, sodium"
+     ],
+     "label": "Havrix 新赫寶克A型肝炎疫苗 · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S26:aluminium": {
+   "items": [
+    {
+     "source": "S26",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "吸附於水合氫氧化鋁上"
+     ],
+     "label": "Havrix 新赫寶克A型肝炎疫苗 · 鋁佐劑：有",
+     "region": [
+      62,
+      32,
+      572,
+      156
+     ]
+    }
+   ]
+  },
+  "al:S26:warn:0": {
+   "items": [
+    {
+     "source": "S26",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "如對Havrix中的任何一成份過敏者或前次注射Havrix後產生過敏現象的人，均不\n可使用Havrix (見定性與定量組成及賦形劑)。"
+     ],
+     "label": "Havrix 新赫寶克A型肝炎疫苗 · 禁忌"
+    }
+   ]
+  },
+  "al:S26:warn:1": {
+   "items": [
+    {
+     "source": "S26",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "Havrix含微量新黴素，因此將本疫苗使用於對此類抗生素過敏者，應格外小\n心。"
+     ],
+     "label": "Havrix 新赫寶克A型肝炎疫苗 · 新黴素過敏警語"
+    }
+   ]
+  },
   "al:S27:comp:0": {
    "items": [
     {
@@ -670,12 +793,12 @@
    "items": [
     {
      "source": "S30",
-     "page": 10,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "予以純化後製備而得。L1蛋白係利用基因重組酵母菌Saccharomyces cerevisiae經分離發酵的步驟製得，"
+      "型人類乳突病毒(HPV)之主要外鞘蛋白所形成的類病毒微粒予以純化後製備而得。L1蛋白係利用基因重組酵母菌"
      ],
-     "label": "Gardasil 9 嘉喜9 · 抗原製程（酵母菌）"
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · 抗原製程（酵母菌，1）"
     }
    ]
   },
@@ -683,18 +806,38 @@
    "items": [
     {
      "source": "S30",
-     "page": 11,
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "經分離發酵的步驟製得，並且會自我聚集成VLPs。發酵的過程主要是在化學性確定的發酵培養基中培養"
+     ],
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · 抗原製程（酵母菌，2）"
+    }
+   ]
+  },
+  "al:S30:comp:2": {
+   "items": [
+    {
+     "source": "S30",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "，此培養基中含有維生素、胺基酸、礦物鹽和碳水化合物。利用細胞崩解技術讓VLPs自酵母菌細胞中釋出，並透過一系列的物理及化學步驟將其純化。再將純化後的VLPs吸附於預先製備的含鋁佐劑[非晶形羥基磷酸鋁硫酸鹽(Amorphous Aluminum Hydroxyphosphate Sulfate)或AAHS]上。"
+     ],
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · 抗原製程（酵母菌，3）"
+    }
+   ]
+  },
+  "al:S30:comp:3": {
+   "items": [
+    {
+     "source": "S30",
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "每0.5毫升劑量的疫苗中也含有約500微克的鋁(AAHS)、9.56毫克的氯化鈉、0.78毫克的L-組胺酸、50微克的聚山梨醇酯80、35微克的硼酸鈉以及注射用水。本品不含防腐劑或抗生素。"
      ],
-     "label": "Gardasil 9 嘉喜9 · 佐劑與賦形劑",
-     "region": [
-      0,
-      235,
-      570,
-      268
-     ]
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · 賦形劑（1.2）"
     }
    ]
   },
@@ -702,18 +845,12 @@
    "items": [
     {
      "source": "S30",
-     "page": 11,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "本品不含防腐劑或抗生素。"
      ],
-     "label": "Gardasil 9 嘉喜9 · Neomycin：無",
-     "region": [
-      0,
-      235,
-      570,
-      268
-     ]
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · Neomycin：無"
     }
    ]
   },
@@ -721,18 +858,12 @@
    "items": [
     {
      "source": "S30",
-     "page": 11,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "本品不含防腐劑或抗生素。"
      ],
-     "label": "Gardasil 9 嘉喜9 · 其他抗生素（kanamycin、polymyxin、gentamicin…）：無",
-     "region": [
-      0,
-      235,
-      570,
-      268
-     ]
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · 其他抗生素（kanamycin、polymyxin、gentamicin…）：無"
     }
    ]
   },
@@ -740,12 +871,12 @@
    "items": [
     {
      "source": "S30",
-     "page": 3,
+     "page": 5,
      "glyphRows": true,
      "quotes": [
-      "過敏反應，包括對酵母菌(疫苗組成之一)嚴重過敏反應，或先前曾於接種一劑GARDASIL 9或GARDASIL"
+      "過敏反應，包括對酵母菌(疫苗組成之一)嚴重過敏反應，或先前曾於接種GARDASIL 9\n或GARDASIL之後出現嚴重過敏反應"
      ],
-     "label": "Gardasil 9 嘉喜9 · 酵母：有"
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · 酵母：有"
     }
    ]
   },
@@ -753,18 +884,12 @@
    "items": [
     {
      "source": "S30",
-     "page": 11,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "50微克的聚山梨醇酯80"
      ],
-     "label": "Gardasil 9 嘉喜9 · PEG／polysorbate 80：有",
-     "region": [
-      0,
-      235,
-      570,
-      268
-     ]
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · PEG／polysorbate 80：有"
     }
    ]
   },
@@ -772,18 +897,12 @@
    "items": [
     {
      "source": "S30",
-     "page": 11,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "本品不含防腐劑或抗生素。"
      ],
-     "label": "Gardasil 9 嘉喜9 · 硫柳汞：無",
-     "region": [
-      0,
-      235,
-      570,
-      268
-     ]
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · 硫柳汞：無"
     }
    ]
   },
@@ -791,18 +910,12 @@
    "items": [
     {
      "source": "S30",
-     "page": 11,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "也含有約500微克的鋁(AAHS)"
      ],
-     "label": "Gardasil 9 嘉喜9 · 鋁佐劑：有",
-     "region": [
-      0,
-      235,
-      570,
-      268
-     ]
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · 鋁佐劑：有"
     }
    ]
   },
@@ -810,12 +923,12 @@
    "items": [
     {
      "source": "S30",
-     "page": 3,
+     "page": 5,
      "glyphRows": true,
      "quotes": [
-      "過敏反應，包括對酵母菌(疫苗組成之一)嚴重過敏反應，或先前曾於接種一劑GARDASIL 9或GARDASIL"
+      "過敏反應，包括對酵母菌(疫苗組成之一)嚴重過敏反應，或先前曾於接種GARDASIL 9\n或GARDASIL之後出現嚴重過敏反應[參見性狀(1, 1.1, 1.2)]。"
      ],
-     "label": "Gardasil 9 嘉喜9 · 禁忌（酵母過敏）"
+     "label": "嘉喜9 [九價人類乳突病毒(第6, 11, 16, 18, 31, 33, 45, 52, 58型)基因重組疫苗]（Gardasil 9） · 禁忌（酵母過敏）"
     }
    ]
   },
@@ -823,10 +936,10 @@
    "items": [
     {
      "source": "S31",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "減毒 Edmonston 菌株並增殖於雞胚胎細胞培養基中；(2)MUMPSVAX ® (活性腮腺炎病毒疫苗，MSD)，為 Jeryl Lynn™(B 級)腮腺"
+      "M‑M‑R Ⅱ為滅菌之凍晶乾燥劑，含有(1)毒性減弱之麻疹病毒，衍生自Enders氏之\n減毒Edmonston病毒株並增殖於雞胚胎細胞培養基中；(2)Jeryl Lynn(B級)腮腺炎\n病毒株，增殖於雞胚胎細胞培養基中；(3)減毒之活性德國麻疹病毒，衍生自\nWistar RA 27/3病毒株，並增殖於WI-38人類具雙套染色體的肺纖維組織母細胞\n(human diploid lung fibroblasts)培養基中。"
      ],
      "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 病毒株製程（雞胚胎細胞培養基）"
     }
@@ -836,12 +949,12 @@
    "items": [
     {
      "source": "S31",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "算含有 14.5 毫克的山梨醇(sorbitol)，磷酸鈉(sodium phosphate)，1.9 毫克的蔗糖(sucrose)，14.5 毫克的水解膠(hydrolyzed"
+      "Porcine Hydrolyzed Gelatin、Medium 199 with Hank’s Salts、Minimum\nEssential Medium Eagle、Monosodium L-Glutamate Monohydrate、\nNeomycin、Phenol Red、Potassium Phosphate Dibasic (Anhydrous)、\nPotassium Phosphate Monobasic、Sodium Bicarbonate、Sodium Phosphate\nDibasic (Anhydrous)、Sodium Phosphate Monobasic、Sorbitol、Sucrose。"
      ],
-     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 組成（山梨醇/蔗糖/水解膠）"
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 賦形劑表（1.2）"
     }
    ]
   },
@@ -852,22 +965,9 @@
      "page": 1,
      "glyphRows": true,
      "quotes": [
-      "基成分及大約 25 微克的新黴素(neomycin)。此產品不含防腐劑。"
+      "gray Chlorobutyl\nFlurotec on flange with B2-0\n4 coatingBromobutyl rubber"
      ],
-     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 組成（新黴素，不含防腐劑）"
-    }
-   ]
-  },
-  "al:S31:comp:3": {
-   "items": [
-    {
-     "source": "S31",
-     "page": 1,
-     "glyphRows": true,
-     "quotes": [
-      "Porcine Hydrolyzed Gelatin、Medium 199 with Hank’s Salts、Minimum Essential Medium, Eagle、Monosodium L-Glutamate"
-     ],
-     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 非活性成分表"
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 包裝瓶塞材質"
     }
    ]
   },
@@ -875,10 +975,10 @@
    "items": [
     {
      "source": "S31",
-     "page": 5,
+     "page": 9,
      "glyphRows": true,
      "quotes": [
-      "活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、類過敏性反應或其它立即反應(如蕁痲疹、口"
+      "活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、\n類過敏性反應或其它立即反應(如蕁痲疹、口及喉嚨腫大、呼吸困難、低血壓或\n休克)的人，注射此含微量雞胚胎抗原的疫苗理論上有可能產生立即過敏反應的\n危險性。"
      ],
      "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 蛋（卵白蛋白／雞胚）：有"
     }
@@ -888,10 +988,10 @@
    "items": [
     {
      "source": "S31",
-     "page": 1,
+     "page": 6,
      "glyphRows": true,
      "quotes": [
-      "14.5 毫克的水解膠(hydrolyzed"
+      "對此疫苗之任何成份包括動物膠有嚴重過敏者。"
      ],
      "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 明膠：有"
     }
@@ -901,25 +1001,38 @@
    "items": [
     {
      "source": "S31",
-     "page": 4,
+     "page": 6,
      "glyphRows": true,
      "quotes": [
-      "對 neomycin 會產生過敏或類過敏反應者(稀釋後每劑量疫苗內約含 25 微克之 neomycin)。"
+      "對neomycin會產生過敏或類過敏(anaphylaxis)反應者(稀釋後每劑量疫苗內約含\n25微克之neomycin)。"
      ],
      "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · Neomycin：有"
     }
    ]
   },
-  "al:S31:thimerosal": {
+  "al:S31:latex:related": {
    "items": [
     {
      "source": "S31",
      "page": 1,
      "glyphRows": true,
      "quotes": [
-      "基成分及大約 25 微克的新黴素(neomycin)。此產品不含防腐劑。"
+      "gray Chlorobutyl\nFlurotec on flange with B2-0\n4 coatingBromobutyl rubber"
      ],
-     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 硫柳汞：無"
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 乳膠（針筒／瓶塞）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S31:thimerosal:related": {
+   "items": [
+    {
+     "source": "S31",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "稀釋時，只使用與疫苗同時提供的稀釋液。因其不含防腐劑及其它會使疫苗失\n去活性的物質。"
+     ],
+     "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 硫柳汞：未載明（相關原句）"
     }
    ]
   },
@@ -927,7 +1040,7 @@
    "items": [
     {
      "source": "S31",
-     "page": 4,
+     "page": 6,
      "glyphRows": true,
      "quotes": [
       "對此疫苗之任何成份包括動物膠有嚴重過敏者。"
@@ -940,10 +1053,10 @@
    "items": [
     {
      "source": "S31",
-     "page": 4,
+     "page": 6,
      "glyphRows": true,
      "quotes": [
-      "對 neomycin 會產生過敏或類過敏反應者(稀釋後每劑量疫苗內約含 25 微克之 neomycin)。"
+      "對neomycin會產生過敏或類過敏(anaphylaxis)反應者(稀釋後每劑量疫苗內約含\n25微克之neomycin)。"
      ],
      "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 禁忌症（neomycin過敏）"
     }
@@ -953,10 +1066,10 @@
    "items": [
     {
      "source": "S31",
-     "page": 5,
+     "page": 9,
      "glyphRows": true,
      "quotes": [
-      "活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、類過敏性反應或其它立即反應(如蕁痲疹、口"
+      "衛生福利部傳染病防治諮詢會預防接種組建議已知對「蛋」之蛋白質有嚴重過\n敏者，可在門/住診由熟悉處理過敏症狀之醫事人員提供接種，並於接種後留觀\n30分鐘。\n活性麻疹及腮腺炎疫苗是於雞胚胎細胞培養基中製得。曾因吃蛋產生過敏性、\n類過敏性反應或其它立即反應(如蕁痲疹、口及喉嚨腫大、呼吸困難、低血壓或\n休克)的人，注射此含微量雞胚胎抗原的疫苗理論上有可能產生立即過敏反應的\n危險性。在此情況下，預防注射的危險及益處應被仔細衡量以決定是否接種。\n注射此疫苗於此類接種者須極度小心，一旦過敏反應發生，應立即做適當的處\n理。"
      ],
      "label": "M-M-R II 麻疹腮腺炎德國麻疹混合疫苗 · 對蛋過敏警語"
     }
@@ -966,12 +1079,12 @@
    "items": [
     {
      "source": "S32",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "每 0.5 mL 的沛兒肺炎鏈球菌十三價結合型疫苗中，含有： 血清型 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F 與 23F 之肺炎鏈球菌的莢膜多醣體 各 2.2μg 血清型 6B 的肺炎鏈球菌莢膜多醣體 4.4μg 這些莢膜多醣體均與白喉 CRM 197 蛋白質載體接合，吸附於磷酸鋁上。"
+      "每0.5 mL的沛兒肺炎鏈球菌十三價結合型疫苗中，含有：\n血清型1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F與23F之肺炎鏈球菌的莢膜多醣\n體各2.2 μg。\n血清型6B的肺炎鏈球菌莢膜多醣體4.4 μg。\n這些莢膜多醣體均與白喉CRM 蛋白質載體接合，吸附於磷酸鋁上。"
      ],
-     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 有效成分（莢膜多醣體＋鋁佐劑）"
+     "label": "沛兒肺炎鏈球菌十三價結合型疫苗 · 有效成分（莢膜多醣體＋鋁佐劑）"
     }
    ]
   },
@@ -979,12 +1092,12 @@
    "items": [
     {
      "source": "S32",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "Sodium Chloride Succinic Acid Polysorbate 80 Water for Injection"
+      "Sodium Chloride\n         Succinic Acid\n         Polysorbate 80\n         Water for Injection"
      ],
-     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 賦形劑"
+     "label": "沛兒肺炎鏈球菌十三價結合型疫苗 · 賦形劑"
     }
    ]
   },
@@ -992,12 +1105,12 @@
    "items": [
     {
      "source": "S32",
-     "page": 35,
+     "page": 33,
      "glyphRows": true,
      "quotes": [
-      "每支注射劑含有 0.5 mL 懸浮注射液，預先充填於附有注射推管（不含乳膠成分 的氯丁基橡膠）的注射針筒（Type I glass）內。"
+      "每支注射劑含有0.5 mL懸浮注射液，預先充填於附有注射推管（不含乳膠成分\n           的氯丁基橡膠）的注射針筒（Type I glass）內。"
      ],
-     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 包裝（不含乳膠）"
+     "label": "沛兒肺炎鏈球菌十三價結合型疫苗 · 包裝（不含乳膠）"
     }
    ]
   },
@@ -1005,12 +1118,12 @@
    "items": [
     {
      "source": "S32",
-     "page": 35,
+     "page": 33,
      "glyphRows": true,
      "quotes": [
-      "每支注射劑含有 0.5 mL 懸浮注射液，預先充填於附有注射推管（不含乳膠成分 的氯丁基橡膠）的注射針筒（Type I glass）內。"
+      "每支注射劑含有0.5 mL懸浮注射液，預先充填於附有注射推管（不含乳膠成分\n           的氯丁基橡膠）的注射針筒（Type I glass）內。"
      ],
-     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 乳膠（針筒／瓶塞）：無"
+     "label": "沛兒肺炎鏈球菌十三價結合型疫苗 · 乳膠（針筒／瓶塞）：無"
     }
    ]
   },
@@ -1018,12 +1131,12 @@
    "items": [
     {
      "source": "S32",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "Sodium Chloride Succinic Acid Polysorbate 80 Water for Injection"
+      "Sodium Chloride\n         Succinic Acid\n         Polysorbate 80\n         Water for Injection"
      ],
-     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · PEG／polysorbate 80：有"
+     "label": "沛兒肺炎鏈球菌十三價結合型疫苗 · PEG／polysorbate 80：有"
     }
    ]
   },
@@ -1031,12 +1144,12 @@
    "items": [
     {
      "source": "S32",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "這些莢膜多醣體均與白喉 CRM 197 蛋白質載體接合，吸附於磷酸鋁上。"
+      "這些莢膜多醣體均與白喉CRM 蛋白質載體接合，吸附於磷酸鋁上。"
      ],
-     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 鋁佐劑：有"
+     "label": "沛兒肺炎鏈球菌十三價結合型疫苗 · 鋁佐劑：有"
     }
    ]
   },
@@ -1044,12 +1157,25 @@
    "items": [
     {
      "source": "S32",
-     "page": 5,
+     "page": 7,
      "glyphRows": true,
      "quotes": [
-      "對此疫苗任一成分或賦形劑過敏或對白喉類毒素過敏的人，均禁止使用沛兒肺炎 鏈球菌十三價結合型疫苗。(賦形劑成分參見第 1.2 節)"
+      "對此疫苗任一成分或賦形劑過敏或對白喉類毒素過敏的人，均禁止使用沛兒肺炎\n           鏈球菌十三價結合型疫苗(賦形劑成分參見第1.2節)。"
      ],
-     "label": "Prevenar 13 沛兒肺炎鏈球菌十三價結合型疫苗 · 禁忌"
+     "label": "沛兒肺炎鏈球菌十三價結合型疫苗 · 禁忌"
+    }
+   ]
+  },
+  "al:S32:warn:1": {
+   "items": [
+    {
+     "source": "S32",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "本藥品含有polysorbate 80 (參見第1.2節)。Polysorbate 80可能會造成過敏反\n                    應。"
+     ],
+     "label": "沛兒肺炎鏈球菌十三價結合型疫苗 · 賦形劑警語（Polysorbate 80）"
     }
    ]
   },
@@ -1105,16 +1231,367 @@
     }
    ]
   },
+  "al:S34:comp:0": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "（RSV 抗原）"
+     ],
+     "label": "Abrysvo · 有效成分及含量"
+    }
+   ]
+  },
+  "al:S34:comp:1": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "利用重組 DNA 技術在中國倉鼠卵巢細胞中製造生產"
+     ],
+     "label": "Abrysvo · 有效成分及含量"
+    }
+   ]
+  },
+  "al:S34:comp:2": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "氨丁三醇（Trometamol）"
+     ],
+     "label": "Abrysvo · 賦形劑"
+    }
+   ]
+  },
+  "al:S34:comp:3": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "三羥甲基胺基甲烷（Trometamol hydrochloride）"
+     ],
+     "label": "Abrysvo · 賦形劑"
+    }
+   ]
+  },
+  "al:S34:comp:4": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "蔗糖（Sucrose）"
+     ],
+     "label": "Abrysvo · 賦形劑"
+    }
+   ]
+  },
+  "al:S34:comp:5": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "甘露醇（Mannitol）"
+     ],
+     "label": "Abrysvo · 賦形劑"
+    }
+   ]
+  },
+  "al:S34:comp:6": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "聚山梨醇酯 80（Polysorbate 80）"
+     ],
+     "label": "Abrysvo · 賦形劑"
+    }
+   ]
+  },
+  "al:S34:comp:7": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "氯化鈉"
+     ],
+     "label": "Abrysvo · 賦形劑"
+    }
+   ]
+  },
+  "al:S34:comp:8": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "鹽酸（用於調整 pH 值）"
+     ],
+     "label": "Abrysvo · 賦形劑"
+    }
+   ]
+  },
+  "al:S34:comp:9": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "注射用水"
+     ],
+     "label": "Abrysvo · 賦形劑（溶劑）"
+    }
+   ]
+  },
+  "al:S34:latex:related": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 18,
+     "glyphRows": true,
+     "quotes": [
+      "1 劑粉末裝在小瓶（第 1 型玻璃或同等產品）中，帶有塞子（合成氯化丁基橡"
+     ],
+     "label": "Abrysvo · 乳膠（針筒／瓶塞）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S34:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "聚山梨醇酯 80（Polysorbate 80）"
+     ],
+     "label": "Abrysvo · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S34:aluminium:related": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "（RSV 抗原）"
+     ],
+     "label": "Abrysvo · 鋁佐劑：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S34:warn:0": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 6,
+     "glyphRows": true,
+     "quotes": [
+      "對活性成分或任何列於第 1.2 節之賦形劑嚴重過敏。"
+     ],
+     "label": "Abrysvo · 過敏禁忌"
+    }
+   ]
+  },
+  "al:S34:warn:1": {
+   "items": [
+    {
+     "source": "S34",
+     "page": 7,
+     "glyphRows": true,
+     "quotes": [
+      "Abrysvo 含有聚山梨醇酯 80 (Polysorbate 80)。聚山梨醇酯 80 可能會造成過敏"
+     ],
+     "label": "Abrysvo · PEG／polysorbate 過敏警語"
+    }
+   ]
+  },
+  "al:S35:comp:0": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "泡製之後，1劑(0.5毫升)含有120微克RSVPreF3 抗原(使用AS01 佐劑 )。"
+     ],
+     "label": "Arexvy · 有效成分及含量"
+    }
+   ]
+  },
+  "al:S35:comp:1": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "F(RSVPreF3)乃是利用DNA重組技術在中國倉鼠卵巢(CHO)細胞中製造而得。"
+     ],
+     "label": "Arexvy · 有效成分及含量"
+    }
+   ]
+  },
+  "al:S35:comp:2": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "葛蘭素史克公司的專利AS01 佐劑系統係由植物萃取物Quillaja saponaria"
+     ],
+     "label": "Arexvy · 有效成分及含量"
+    }
+   ]
+  },
+  "al:S35:comp:3": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "Molina的fraction 21 (QS-21) (25微克)與Salmonella minnesota的3-O-desacyl-4'monophosphoryl lipid A (MPL) (25微克)所組成。"
+     ],
+     "label": "Arexvy · 有效成分及含量"
+    }
+   ]
+  },
+  "al:S35:comp:4": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "粉劑(RSVPreF3抗原)："
+     ],
+     "label": "Arexvy · 賦形劑（粉劑）"
+    }
+   ]
+  },
+  "al:S35:comp:5": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "二水海藻糖、聚山梨醇酯80、磷酸二氫鉀、磷酸氫二鉀"
+     ],
+     "label": "Arexvy · 賦形劑（粉劑）"
+    }
+   ]
+  },
+  "al:S35:comp:6": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "懸浮液(AS01 佐劑系統)："
+     ],
+     "label": "Arexvy · 賦形劑（懸浮液/AS01佐劑系統）"
+    }
+   ]
+  },
+  "al:S35:comp:7": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "二油醯基磷脂醯膽鹼、膽固醇、氯化鈉、無水磷酸氫二鈉、磷酸二氫鉀、注射"
+     ],
+     "label": "Arexvy · 賦形劑（懸浮液/AS01佐劑系統）"
+    }
+   ]
+  },
+  "al:S35:latex:related": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 18,
+     "glyphRows": true,
+     "quotes": [
+      "1 劑粉劑，盛裝於附有瓶塞 ( 丁基橡膠 ) 的小瓶 ( 第 I 型玻璃 ) 中"
+     ],
+     "label": "Arexvy · 乳膠（針筒／瓶塞）：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S35:peg_polysorbate": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "二水海藻糖、聚山梨醇酯80、磷酸二氫鉀、磷酸氫二鉀"
+     ],
+     "label": "Arexvy · PEG／polysorbate 80：有"
+    }
+   ]
+  },
+  "al:S35:aluminium:related": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "泡製之後，1劑(0.5毫升)含有120微克RSVPreF3 抗原(使用AS01 佐劑 )。"
+     ],
+     "label": "Arexvy · 鋁佐劑：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S35:warn:0": {
+   "items": [
+    {
+     "source": "S35",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "對本疫苗的活性成分或任何組成嚴重過敏 (參見有效成分及含量與賦形劑 )。"
+     ],
+     "label": "Arexvy · 過敏禁忌"
+    }
+   ]
+  },
   "al:S36:comp:0": {
    "items": [
     {
      "source": "S36",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "磷酸鋁(aluminium phosphate)（佐劑）"
+      "磷酸鋁(aluminium phosphate)（佐劑） 1.5 毫克"
      ],
-     "label": "Adacel(安打星三合一補追疫苗) · 佐劑"
+     "label": "Adacel(安打星三合一補追疫苗) · 賦形劑"
     }
    ]
   },
@@ -1122,10 +1599,10 @@
    "items": [
     {
      "source": "S36",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "二苯氧基乙醇(2-phenoxyethanol)"
+      "二苯氧基乙醇(2-phenoxyethanol) 0.6%（v/v）"
      ],
      "label": "Adacel(安打星三合一補追疫苗) · 賦形劑"
     }
@@ -1135,7 +1612,7 @@
    "items": [
     {
      "source": "S36",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "甲醛(formaldehyde)及戊二醛(glutaraldehyde)有微量存在。"
@@ -1144,16 +1621,16 @@
     }
    ]
   },
-  "al:S36:aluminium": {
+  "al:S36:latex": {
    "items": [
     {
      "source": "S36",
-     "page": 1,
+     "page": 17,
      "glyphRows": true,
      "quotes": [
-      "磷酸鋁(aluminium phosphate)（佐劑）"
+      "玻璃小瓶和預充填注射器為第1類玻璃所製造。ADACEL 容器密封物不含膠乳"
      ],
-     "label": "Adacel(安打星三合一補追疫苗) · 鋁佐劑：有"
+     "label": "Adacel(安打星三合一補追疫苗) · 乳膠（針筒／瓶塞）：無"
     }
    ]
   },
@@ -1161,7 +1638,7 @@
    "items": [
     {
      "source": "S36",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "甲醛(formaldehyde)及戊二醛(glutaraldehyde)有微量存在。"
@@ -1170,29 +1647,29 @@
     }
    ]
   },
-  "al:S36:latex": {
-   "items": [
-    {
-     "source": "S36",
-     "page": 2,
-     "glyphRows": true,
-     "quotes": [
-      "ADACEL®容器密封物不含膠乳(latex)（天然橡膠）。"
-     ],
-     "label": "Adacel(安打星三合一補追疫苗) · 乳膠（針筒／瓶塞）：無"
-    }
-   ]
-  },
   "al:S36:thimerosal:related": {
    "items": [
     {
      "source": "S36",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "二苯氧基乙醇(2-phenoxyethanol)"
+      "二苯氧基乙醇(2-phenoxyethanol) 0.6%（v/v）"
      ],
      "label": "Adacel(安打星三合一補追疫苗) · 硫柳汞：未載明（相關原句）"
+    }
+   ]
+  },
+  "al:S36:aluminium": {
+   "items": [
+    {
+     "source": "S36",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "磷酸鋁(aluminium phosphate)（佐劑） 1.5 毫克"
+     ],
+     "label": "Adacel(安打星三合一補追疫苗) · 鋁佐劑：有"
     }
    ]
   },
@@ -1200,10 +1677,10 @@
    "items": [
     {
      "source": "S36",
-     "page": 1,
+     "page": 6,
      "glyphRows": true,
      "quotes": [
-      "已知對 ADACEL 的任何成分有全身性過敏反應者，或先前接種本疫苗或接種含有與本疫苗相同的一種或多種成分之某種疫苗後曾出現威脅生命反應者（參閱劑型、組成及包裝），禁止接種 ADACEL®。若不確定是疫苗中的那種成分引起過敏，則任何成分都不應注射。若仍考慮給予這類病人接種疫苗，應請過敏專科醫師進行評估。"
+      "已知對ADACEL® 的任何成分有全身性過敏反應者，或先前接種本疫苗或接種含有"
      ],
      "label": "Adacel(安打星三合一補追疫苗) · 過敏禁忌"
     }
@@ -1213,12 +1690,12 @@
    "items": [
     {
      "source": "S37",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "白喉類毒素、破傷風類毒素、非細胞性百日咳混合疫苗"
+      "吸附於氫氧化鋁水合物"
      ],
-     "label": "Boostrix · 定性與定量組成"
+     "label": "Boostrix · 有效成分及含量"
     }
    ]
   },
@@ -1226,12 +1703,12 @@
    "items": [
     {
      "source": "S37",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "一劑 (0.5 mL) 含有："
+      "及磷酸鋁"
      ],
-     "label": "Boostrix · 定性與定量組成"
+     "label": "Boostrix · 有效成分及含量"
     }
    ]
   },
@@ -1239,12 +1716,12 @@
    "items": [
     {
      "source": "S37",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "白喉類毒素 1\n(2.5Lf)"
+      "Sodium chloride"
      ],
-     "label": "Boostrix · 定性與定量組成"
+     "label": "Boostrix · 賦形劑"
     }
    ]
   },
@@ -1252,129 +1729,25 @@
    "items": [
     {
      "source": "S37",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "破傷風類毒素 1"
-     ],
-     "label": "Boostrix · 定性與定量組成"
-    }
-   ]
-  },
-  "al:S37:comp:4": {
-   "items": [
-    {
-     "source": "S37",
-     "page": 1,
-     "glyphRows": true,
-     "quotes": [
-      "百日咳球桿菌抗原"
-     ],
-     "label": "Boostrix · 定性與定量組成"
-    }
-   ]
-  },
-  "al:S37:comp:5": {
-   "items": [
-    {
-     "source": "S37",
-     "page": 1,
-     "glyphRows": true,
-     "quotes": [
-      "百日咳類毒素 1\n絲狀血凝素 1"
-     ],
-     "label": "Boostrix · 定性與定量組成"
-    }
-   ]
-  },
-  "al:S37:comp:6": {
-   "items": [
-    {
-     "source": "S37",
-     "page": 1,
-     "glyphRows": true,
-     "quotes": [
-      "絲狀血凝素 1\nPertactin1"
-     ],
-     "label": "Boostrix · 定性與定量組成"
-    }
-   ]
-  },
-  "al:S37:comp:7": {
-   "items": [
-    {
-     "source": "S37",
-     "page": 1,
-     "glyphRows": true,
-     "quotes": [
-      "吸附於氫氧化鋁水合物"
-     ],
-     "label": "Boostrix · 定性與定量組成"
-    }
-   ]
-  },
-  "al:S37:comp:8": {
-   "items": [
-    {
-     "source": "S37",
-     "page": 1,
-     "glyphRows": true,
-     "quotes": [
-      "及磷酸鋁"
-     ],
-     "label": "Boostrix · 定性與定量組成"
-    }
-   ]
-  },
-  "al:S37:comp:9": {
-   "items": [
-    {
-     "source": "S37",
-     "page": 2,
-     "glyphRows": true,
-     "quotes": [
-      "Sodium chloride、注射用水。"
+      "、注射用水。"
      ],
      "label": "Boostrix · 賦形劑"
     }
    ]
   },
-  "al:S37:comp:10": {
+  "al:S37:latex": {
    "items": [
     {
      "source": "S37",
-     "page": 2,
+     "page": 14,
      "glyphRows": true,
      "quotes": [
-      "Formaldehyde、polysorbate 80、glycine 是製造過程的殘餘物。"
+      "預充填注射針筒的前蓋及橡膠推桿活塞和小瓶之瓶塞皆非天然橡膠乳膠製成。"
      ],
-     "label": "Boostrix · 賦形劑"
-    }
-   ]
-  },
-  "al:S37:peg_polysorbate": {
-   "items": [
-    {
-     "source": "S37",
-     "page": 2,
-     "glyphRows": true,
-     "quotes": [
-      "Formaldehyde、polysorbate 80、glycine 是製造過程的殘餘物。"
-     ],
-     "label": "Boostrix · PEG／polysorbate 80：有"
-    }
-   ]
-  },
-  "al:S37:formaldehyde": {
-   "items": [
-    {
-     "source": "S37",
-     "page": 2,
-     "glyphRows": true,
-     "quotes": [
-      "Formaldehyde、polysorbate 80、glycine 是製造過程的殘餘物。"
-     ],
-     "label": "Boostrix · 福馬林／甲醛殘留：有"
+     "label": "Boostrix · 乳膠（針筒／瓶塞）：無"
     }
    ]
   },
@@ -1382,7 +1755,7 @@
    "items": [
     {
      "source": "S37",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "吸附於氫氧化鋁水合物"
@@ -1395,10 +1768,10 @@
    "items": [
     {
      "source": "S37",
-     "page": 1,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
-      "Boostrix 不應用於已知對此疫苗任何成分嚴重過敏者（請參閱定性與定量組成及賦形劑），或先前曾於接種白"
+      "不應用於已知對此疫苗任何成分嚴重過敏者（請參閱1.1 有效成分及含"
      ],
      "label": "Boostrix · 過敏禁忌"
     }
@@ -1408,10 +1781,10 @@
    "items": [
     {
      "source": "S37",
-     "page": 1,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
-      "喉、破傷風或百日咳疫苗之後出現嚴重過敏徵兆者。"
+      "量 及 賦形劑 ），或先前曾於接種白喉、破傷風或百日咳疫苗之後出現嚴重過敏"
      ],
      "label": "Boostrix · 先前接種相關疫苗嚴重過敏史"
     }
@@ -1421,17 +1794,17 @@
    "items": [
     {
      "source": "S38",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "此疫苗可能含有微量生產過程中使用的戊二醛(glutaraldehyde)、甲醛(formaldehyde)、新黴素(neomycin)、"
+      "此疫苗可能含有微量生產過程中使用的戊二醛、甲醛、新黴素、鏈黴素"
      ],
      "label": "Hexaxim(哈多星) · 微量殘留物（生產製程）",
      "region": [
       54.0,
-      586.42,
-      544.06,
-      618.23
+      654.85,
+      570.0,
+      726.95
      ]
     }
    ]
@@ -1440,12 +1813,18 @@
    "items": [
     {
      "source": "S38",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "吸附於水合氫氧化鋁(aluminium hydroxide, hydrated)(0.6 mg Al )"
+      "吸附於水合氫氧化鋁(aluminiumhydroxide,hydrated)(0.6mgAl"
      ],
-     "label": "Hexaxim(哈多星) · 鋁佐劑"
+     "label": "Hexaxim(哈多星) · 鋁佐劑",
+     "region": [
+      93.0,
+      490.0,
+      570.0,
+      515.0
+     ]
     }
    ]
   },
@@ -1453,12 +1832,18 @@
    "items": [
     {
      "source": "S38",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "使用DNA基因重組技術從多型漢遜(Hansenula polymorpha)酵母細胞中培養而得"
+      "使用基因重組技術從多型漢遜酵母細胞中培養而得"
      ],
-     "label": "Hexaxim(哈多星) · B型肝炎表面抗原生產宿主（酵母）"
+     "label": "Hexaxim(哈多星) · B型肝炎表面抗原生產宿主（酵母）",
+     "region": [
+      54.0,
+      610.0,
+      570.0,
+      658.5
+     ]
     }
    ]
   },
@@ -1466,10 +1851,10 @@
    "items": [
     {
      "source": "S38",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "苯丙胺酸(phenylalanine)………………………85 g"
+      "苯丙胺酸(phenylalanine)………………………85µg(見章節5.1)"
      ],
      "label": "Hexaxim(哈多星) · 已知作用之賦形劑（苯丙胺酸）"
     }
@@ -1479,12 +1864,12 @@
    "items": [
     {
      "source": "S38",
-     "page": 12,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
-      "磷酸氫二鈉(disodium hydrogen phosphate)"
+      "磷酸氫二鈉(disodiumhydrogenphosphate)"
      ],
-     "label": "Hexaxim(哈多星) · 6.1 賦形劑"
+     "label": "Hexaxim(哈多星) · 1.2 賦形劑"
     }
    ]
   },
@@ -1492,12 +1877,12 @@
    "items": [
     {
      "source": "S38",
-     "page": 12,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
-      "磷酸二氫鉀(potassium dihydrogen phosphate)"
+      "磷酸二氫鉀(potassiumdihydrogenphosphate)"
      ],
-     "label": "Hexaxim(哈多星) · 6.1 賦形劑（續）"
+     "label": "Hexaxim(哈多星) · 1.2 賦形劑（續）"
     }
    ]
   },
@@ -1505,12 +1890,12 @@
    "items": [
     {
      "source": "S38",
-     "page": 12,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
       "三羥甲基氨基甲烷(trometamol)"
      ],
-     "label": "Hexaxim(哈多星) · 6.1 賦形劑（續）"
+     "label": "Hexaxim(哈多星) · 1.2 賦形劑（續）"
     }
    ]
   },
@@ -1518,12 +1903,12 @@
    "items": [
     {
      "source": "S38",
-     "page": 12,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
-      "蔗糖(saccharose)"
+      "蔗糖(Sucrose)"
      ],
-     "label": "Hexaxim(哈多星) · 6.1 賦形劑（續）"
+     "label": "Hexaxim(哈多星) · 1.2 賦形劑（續）"
     }
    ]
   },
@@ -1531,12 +1916,12 @@
    "items": [
     {
      "source": "S38",
-     "page": 12,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
       "包括L-苯丙胺酸(L-phenylalanine)在內的必需胺基酸"
      ],
-     "label": "Hexaxim(哈多星) · 6.1 賦形劑（續，必需胺基酸含苯丙胺酸）"
+     "label": "Hexaxim(哈多星) · 1.2 賦形劑（續，必需胺基酸含苯丙胺酸）"
     }
    ]
   },
@@ -1544,17 +1929,17 @@
    "items": [
     {
      "source": "S38",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "此疫苗可能含有微量生產過程中使用的戊二醛(glutaraldehyde)、甲醛(formaldehyde)、新黴素(neomycin)、"
+      "新黴素、鏈黴素"
      ],
      "label": "Hexaxim(哈多星) · Neomycin：有",
      "region": [
       54.0,
-      586.42,
-      544.06,
-      618.23
+      654.85,
+      570.0,
+      726.95
      ]
     }
    ]
@@ -1563,12 +1948,18 @@
    "items": [
     {
      "source": "S38",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "鏈黴素(streptomtcin)及多黏菌素B (polymyxin B) (見章節4.3)。"
+      "鏈黴素"
      ],
-     "label": "Hexaxim(哈多星) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+     "label": "Hexaxim(哈多星) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有",
+     "region": [
+      54.0,
+      654.85,
+      570.0,
+      726.95
+     ]
     }
    ]
   },
@@ -1576,12 +1967,18 @@
    "items": [
     {
      "source": "S38",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "使用DNA基因重組技術從多型漢遜(Hansenula polymorpha)酵母細胞中培養而得"
+      "使用基因重組技術從多型漢遜酵母細胞中培養而得"
      ],
-     "label": "Hexaxim(哈多星) · 酵母：有"
+     "label": "Hexaxim(哈多星) · 酵母：有",
+     "region": [
+      54.0,
+      610.0,
+      570.0,
+      658.5
+     ]
     }
    ]
   },
@@ -1589,17 +1986,17 @@
    "items": [
     {
      "source": "S38",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "此疫苗可能含有微量生產過程中使用的戊二醛(glutaraldehyde)、甲醛(formaldehyde)、新黴素(neomycin)、"
+      "此疫苗可能含有微量生產過程中使用的戊二醛、甲醛"
      ],
      "label": "Hexaxim(哈多星) · 福馬林／甲醛殘留：有",
      "region": [
       54.0,
-      586.42,
-      544.06,
-      618.23
+      654.85,
+      570.0,
+      726.95
      ]
     }
    ]
@@ -1608,12 +2005,18 @@
    "items": [
     {
      "source": "S38",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "吸附於水合氫氧化鋁(aluminium hydroxide, hydrated)(0.6 mg Al )"
+      "吸附於水合氫氧化鋁(aluminiumhydroxide,hydrated)(0.6mgAl"
      ],
-     "label": "Hexaxim(哈多星) · 鋁佐劑：有"
+     "label": "Hexaxim(哈多星) · 鋁佐劑：有",
+     "region": [
+      93.0,
+      490.0,
+      570.0,
+      515.0
+     ]
     }
    ]
   },
@@ -1621,12 +2024,18 @@
    "items": [
     {
      "source": "S38",
-     "page": 2,
+     "page": 7,
      "glyphRows": true,
      "quotes": [
-      "先前接種哈多星六合一疫苗後曾發生過敏性休克反應(anaphylactic reaction)。"
+      "先前接種哈多星六合一疫苗後曾發生過敏性休克反應"
      ],
-     "label": "Hexaxim(哈多星) · 禁忌：先前接種本疫苗後過敏性休克反應"
+     "label": "Hexaxim(哈多星) · 禁忌：先前接種本疫苗後過敏性休克反應",
+     "region": [
+      54.0,
+      74.0,
+      570.0,
+      113.0
+     ]
     }
    ]
   },
@@ -1634,17 +2043,17 @@
    "items": [
     {
      "source": "S38",
-     "page": 2,
+     "page": 7,
      "glyphRows": true,
      "quotes": [
-      "對活性成分、章節6.1所列的任何賦形劑、微量殘留物(glutaraldehyde、formaldehyde、neomycin、"
+      "對活性成分、章節所列的任何賦形劑、微量殘留物"
      ],
      "label": "Hexaxim(哈多星) · 禁忌：對活性成分／賦形劑／微量殘留物過敏",
      "region": [
       54.0,
-      663.31,
-      541.4,
-      723.06
+      100.0,
+      570.0,
+      120.0
      ]
     }
    ]
@@ -1653,17 +2062,17 @@
    "items": [
     {
      "source": "S38",
-     "page": 2,
+     "page": 7,
      "glyphRows": true,
      "quotes": [
-      "streptomycin及polymyxin B)、任何百日咳疫苗，或先前接種哈多星六合一疫苗或含有相同成分或組成的"
+      "及任何百日咳疫苗，或"
      ],
-     "label": "Hexaxim(哈多星) · 禁忌：對活性成分／賦形劑／微量殘留物過敏（續）",
+     "label": "Hexaxim(哈多星) · 禁忌：微量殘留物與任何百日咳疫苗過敏（續）",
      "region": [
       54.0,
-      663.31,
-      541.4,
-      723.06
+      120.0,
+      570.0,
+      140.0
      ]
     }
    ]
@@ -1672,17 +2081,17 @@
    "items": [
     {
      "source": "S38",
-     "page": 2,
+     "page": 7,
      "glyphRows": true,
      "quotes": [
-      "疫苗後曾發生嚴重過敏性反應。"
+      "先前接種哈多星六合一疫苗或含有相同成分或組成的疫苗後曾發生嚴重過敏性反"
      ],
      "label": "Hexaxim(哈多星) · 禁忌：對活性成分／賦形劑／微量殘留物過敏（嚴重過敏反應）",
      "region": [
       54.0,
-      663.31,
-      541.4,
-      723.06
+      140.0,
+      570.0,
+      163.0
      ]
     }
    ]
@@ -1691,10 +2100,10 @@
    "items": [
     {
      "source": "S39",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "藉由重組 DNA 技術在酵母菌(Saccharomyces cerevisiae)內生產"
+      "藉由重組DNA技術在酵母菌(Saccharomyces cerevisiae)內生產"
      ],
      "label": "Infanrix hexa(嬰護寧) · 成分（B 型肝炎表面抗原製法）"
     }
@@ -1704,10 +2113,10 @@
    "items": [
     {
      "source": "S39",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "吸附於氫氧化鋁水合物(Al(OH) 3 )"
+      "吸附於氫氧化鋁水合物(Al(OH) )"
      ],
      "label": "Infanrix hexa(嬰護寧) · 成分（佐劑）"
     }
@@ -1717,10 +2126,10 @@
    "items": [
     {
      "source": "S39",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "吸附於磷酸鋁(AlPO 4 )"
+      "吸附於磷酸鋁(AlPO )"
      ],
      "label": "Infanrix hexa(嬰護寧) · 成分（佐劑）"
     }
@@ -1730,10 +2139,36 @@
    "items": [
     {
      "source": "S39",
-     "page": 11,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "氯化鉀、雙鈉磷酸鹽、單鉀磷酸鹽、聚山梨醇脂 20 及 80、甘胺酸、甲醛、新黴素硫酸鹽、\n多粘菌素硫酸鹽都是製造過程中的殘留物質。"
+      "在VERO細胞內繁殖"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 成分（IPV 製法）"
+    }
+   ]
+  },
+  "al:S39:comp:4": {
+   "items": [
+    {
+     "source": "S39",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "疫苗製造過程中使用甲醛、新黴素和多粘菌素，因此可能含有這些殘留物質"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 成分（製程殘留物）"
+    }
+   ]
+  },
+  "al:S39:comp:5": {
+   "items": [
+    {
+     "source": "S39",
+     "page": 4,
+     "glyphRows": true,
+     "quotes": [
+      "Hib粉末： 乳糖 DTPa-HBV-IPV懸液： 氯化鈉 (NaCl) Medium 199〔作為穩定劑之用，包含胺基酸(苯丙胺酸)、礦物鹽(鈉及鉀)、維他 命(對胺基苯甲酸)和其他物質〕 注射用水"
      ],
      "label": "Infanrix hexa(嬰護寧) · 賦形劑"
     }
@@ -1743,10 +2178,10 @@
    "items": [
     {
      "source": "S39",
-     "page": 11,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "新黴素硫酸鹽"
+      "疫苗製造過程中使用甲醛、新黴素和多粘菌素，因此可能含有這些殘留物質"
      ],
      "label": "Infanrix hexa(嬰護寧) · Neomycin：有"
     }
@@ -1756,10 +2191,10 @@
    "items": [
     {
      "source": "S39",
-     "page": 11,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "多粘菌素硫酸鹽"
+      "疫苗製造過程中使用甲醛、新黴素和多粘菌素，因此可能含有這些殘留物質"
      ],
      "label": "Infanrix hexa(嬰護寧) · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
     }
@@ -1769,25 +2204,25 @@
    "items": [
     {
      "source": "S39",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "藉由重組 DNA 技術在酵母菌(Saccharomyces cerevisiae)內生產"
+      "藉由重組DNA技術在酵母菌(Saccharomyces cerevisiae)內生產"
      ],
      "label": "Infanrix hexa(嬰護寧) · 酵母：有"
     }
    ]
   },
-  "al:S39:peg_polysorbate": {
+  "al:S39:latex": {
    "items": [
     {
      "source": "S39",
-     "page": 11,
+     "page": 17,
      "glyphRows": true,
      "quotes": [
-      "聚山梨醇脂 20 及 80"
+      "預充填注射針筒的前蓋及橡膠推桿活塞和小瓶之瓶塞皆非天然橡膠乳膠製成。"
      ],
-     "label": "Infanrix hexa(嬰護寧) · PEG／polysorbate 80：有"
+     "label": "Infanrix hexa(嬰護寧) · 乳膠（針筒／瓶塞）：無"
     }
    ]
   },
@@ -1795,10 +2230,10 @@
    "items": [
     {
      "source": "S39",
-     "page": 11,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "甲醛"
+      "疫苗製造過程中使用甲醛、新黴素和多粘菌素，因此可能含有這些殘留物質"
      ],
      "label": "Infanrix hexa(嬰護寧) · 福馬林／甲醛殘留：有"
     }
@@ -1808,10 +2243,10 @@
    "items": [
     {
      "source": "S39",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "吸附於氫氧化鋁水合物(Al(OH) 3 )"
+      "吸附於氫氧化鋁水合物(Al(OH) )"
      ],
      "label": "Infanrix hexa(嬰護寧) · 鋁佐劑：有"
     }
@@ -1821,10 +2256,10 @@
    "items": [
     {
      "source": "S39",
-     "page": 2,
+     "page": 5,
      "glyphRows": true,
      "quotes": [
-      "對疫苗有效成分、或其賦形劑、殘餘物質過敏者(見定性與定量組成及賦形劑)。"
+      "對疫苗有效成分、或其賦形劑、殘餘物質過敏者(見1.1 有效成分及含量及 1.2 賦 形劑 )。"
      ],
      "label": "Infanrix hexa(嬰護寧) · 禁忌（對成分過敏）"
     }
@@ -1834,12 +2269,155 @@
    "items": [
     {
      "source": "S39",
-     "page": 2,
+     "page": 5,
      "glyphRows": true,
      "quotes": [
-      "先前於接種白喉/破傷風/百日咳疫苗、B 型肝炎疫苗、小兒麻痺疫苗或 Hib 疫苗過敏者。"
+      "先前於接種白喉/破傷風/百日咳疫苗、B型肝炎疫苗、小兒麻痺疫苗或Hib疫苗過 敏者。"
      ],
      "label": "Infanrix hexa(嬰護寧) · 禁忌（曾對相關疫苗過敏）"
+    }
+   ]
+  },
+  "al:S39:warn:2": {
+   "items": [
+    {
+     "source": "S39",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "如果兒童曾經在接種含有百日咳成分之疫苗後的七天之內發生病因不明之腦病 變，則應禁用Infanrix hexa。在此情況下，應停止接種百日咳疫苗，並繼續接種 白喉-破傷風類毒素、B型肝炎疫苗、去活性小兒麻痺疫苗及"
+     ],
+     "label": "Infanrix hexa(嬰護寧) · 禁忌（不明原因腦病變）"
+    }
+   ]
+  },
+  "al:S40:comp:0": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "本品含牛型結核分枝桿菌。"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 1.1 有效成分及含量"
+    }
+   ]
+  },
+  "al:S40:comp:1": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "賦形劑為麩胺酸鈉，不含保存劑。"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 1.2 賦形劑"
+    }
+   ]
+  },
+  "al:S40:comp:2": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "本品為牛型結核分枝桿菌（Mycobacterium tuberculosis var. Bovis）菌種 Tokyo"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 1.4 藥品外觀"
+    }
+   ]
+  },
+  "al:S40:comp:3": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 8,
+     "glyphRows": true,
+     "quotes": [
+      "稀釋液為生理食鹽水。"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 15.2 稀釋液"
+    }
+   ]
+  },
+  "al:S40:thimerosal": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "賦形劑為麩胺酸鈉，不含保存劑。"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S40:warn:0": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "接種本疫苗或對本疫苗任何成分曾發生嚴重過敏反應者。"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 禁忌：對本疫苗成分嚴重過敏"
+    }
+   ]
+  },
+  "al:S40:warn:1": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "嚴重濕疹與有明顯皮膚缺損的皮膚病。"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 禁忌：嚴重濕疹"
+    }
+   ]
+  },
+  "al:S40:warn:2": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "免疫功能不全或因治療可能產生免疫不全者。"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 禁忌：免疫功能不全"
+    }
+   ]
+  },
+  "al:S40:warn:3": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "人類免疫缺乏病毒感染者，無論是否有症狀。"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 禁忌：HIV 感染"
+    }
+   ]
+  },
+  "al:S40:warn:4": {
+   "items": [
+    {
+     "source": "S40",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "孕婦。"
+     ],
+     "label": "凍結乾燥卡介苗 FREEZE-DRIED BCG VACCINE · 禁忌：孕婦"
     }
    ]
   },
@@ -1999,14 +2577,144 @@
     }
    ]
   },
+  "al:S42:comp:0": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 2,
+     "glyphRows": true,
+     "quotes": [
+      "本活性減毒的\n水痘疫苗是用冷凍乾燥法製成，內含有sucrose、phosphate、glutamate，以及\n加工過的gelatin和urea做為安定劑。"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · 性狀"
+    }
+   ]
+  },
+  "al:S42:comp:1": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "大約每0.5mL的注射液在室溫保存30分鐘以內，至少含有1350 PFU(plaque"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · 1.1 有效成分及含量"
+    }
+   ]
+  },
+  "al:S42:comp:2": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "每劑包含sucrose、水解gelatin、urea、sodium chloride、monosodium L-\nglutamate、sodium phosphate dibasic、potassium phosphate monobasic、\npotassium chloride。本品亦含MRC-5細胞的殘餘物質，如DNA及蛋白質，以及\n極少量殘存自MRC-5培養基的neomycin、牛胚胎血清。本疫苗不含任何防腐\n劑。"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · 1.2 賦形劑"
+    }
+   ]
+  },
+  "al:S42:gelatin": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "每劑包含sucrose、水解gelatin、urea"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · 明膠：有"
+    }
+   ]
+  },
+  "al:S42:neomycin": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "極少量殘存自MRC-5培養基的neomycin、牛胚胎血清"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · Neomycin：有"
+    }
+   ]
+  },
+  "al:S42:thimerosal": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "本疫苗不含任何防腐\n劑。"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · 硫柳汞：無"
+    }
+   ]
+  },
+  "al:S42:warn:0": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "曾對本疫苗所含之任何成份、包括gelatin發生嚴重過敏的人。"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · 禁忌"
+    }
+   ]
+  },
+  "al:S42:warn:1": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "有對neomycin有嚴重過敏病史的人(每劑疫苗均含微量的neomycin)。"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · 禁忌"
+    }
+   ]
+  },
+  "al:S42:warn:2": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "有先天或後天免疫不全的人，包含因罹患愛滋病(AIDS)或其它具臨床意義的\n人類免疫缺乏病毒感染，細胞性免疫缺乏，免疫球蛋白過低或缺乏的免疫抑\n制病人。"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · 禁忌"
+    }
+   ]
+  },
+  "al:S42:warn:3": {
+   "items": [
+    {
+     "source": "S42",
+     "page": 5,
+     "glyphRows": true,
+     "quotes": [
+      "懷孕。注射疫苗對胎兒發展的可能影響目前不得而知。但已知的是野生型水\n痘有時會對胎兒造成傷害。成年婦女在接受疫苗注射後四週內要避免懷孕\n(請參閱警語及注意事項 , 懷孕 ) 。"
+     ],
+     "label": "Varivax 伏痘敏活性水痘疫苗 · 禁忌"
+    }
+   ]
+  },
   "al:S43:comp:0": {
    "items": [
     {
      "source": "S43",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "Fluarix Tetra是⼀個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造⽽來的抗原，含有下列流"
+      "Fluarix Tetra是一個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造而來的抗原，含有下列流感病毒株抗原："
      ],
      "label": "Fluarix Tetra 伏適流四價流感疫苗 · 有效成分"
     }
@@ -2016,10 +2724,10 @@
    "items": [
     {
      "source": "S43",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "磷酸鹽緩衝鹽溶液，其組成包括：聚⼭梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯"
+      "磷酸鹽緩衝鹽溶液，其組成包括：聚山梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯化鈉、十二水磷酸氫二鈉、磷酸二氫鉀、氯化鉀、六水氯化鎂、以及注射用水。"
      ],
      "label": "Fluarix Tetra 伏適流四價流感疫苗 · 賦形劑"
     }
@@ -2029,12 +2737,38 @@
    "items": [
     {
      "source": "S43",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "每⼀個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵⽩蛋⽩、甲醛與"
+      "每一個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵白蛋白、甲醛與sodium deoxycholate。"
      ],
      "label": "Fluarix Tetra 伏適流四價流感疫苗 · 製造流程殘留物"
+    }
+   ]
+  },
+  "al:S43:comp:3": {
+   "items": [
+    {
+     "source": "S43",
+     "page": 15,
+     "glyphRows": true,
+     "quotes": [
+      "裝有0.5毫升懸浮液的預充填注射針筒（第I型玻璃），附有一推桿活塞（丁基橡膠）及一個橡膠前蓋。"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 包裝材質"
+    }
+   ]
+  },
+  "al:S43:comp:4": {
+   "items": [
+    {
+     "source": "S43",
+     "page": 15,
+     "glyphRows": true,
+     "quotes": [
+      "預充填注射針筒的前蓋及橡膠推桿活塞皆非天然橡膠乳膠製成。"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 包裝材質（乳膠聲明）"
     }
    ]
   },
@@ -2042,10 +2776,10 @@
    "items": [
     {
      "source": "S43",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "Fluarix Tetra是⼀個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造⽽來的抗原，含有下列流"
+      "Fluarix Tetra是一個去活化流感病毒疫苗，含有由雞蛋胚胎中所繁殖製造而來的抗原，含有下列流感病毒株抗原："
      ],
      "label": "Fluarix Tetra 伏適流四價流感疫苗 · 蛋（卵白蛋白／雞胚）：有"
     }
@@ -2055,12 +2789,25 @@
    "items": [
     {
      "source": "S43",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "每⼀個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵⽩蛋⽩、甲醛與"
+      "每一個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵白蛋白、甲醛與sodium deoxycholate。"
      ],
      "label": "Fluarix Tetra 伏適流四價流感疫苗 · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
+    }
+   ]
+  },
+  "al:S43:latex": {
+   "items": [
+    {
+     "source": "S43",
+     "page": 15,
+     "glyphRows": true,
+     "quotes": [
+      "預充填注射針筒的前蓋及橡膠推桿活塞皆非天然橡膠乳膠製成。"
+     ],
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 乳膠（針筒／瓶塞）：無"
     }
    ]
   },
@@ -2068,10 +2815,10 @@
    "items": [
     {
      "source": "S43",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "磷酸鹽緩衝鹽溶液，其組成包括：聚⼭梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯"
+      "磷酸鹽緩衝鹽溶液，其組成包括：聚山梨醇80、octoxinol 10、α-tocopheryl hydrogen succinate、氯化鈉、十二水磷酸氫二鈉、磷酸二氫鉀、氯化鉀、六水氯化鎂、以及注射用水。"
      ],
      "label": "Fluarix Tetra 伏適流四價流感疫苗 · PEG／polysorbate 80：有"
     }
@@ -2081,10 +2828,10 @@
    "items": [
     {
      "source": "S43",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "每⼀個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵⽩蛋⽩、甲醛與"
+      "每一個劑量可能包含製造流程殘留之hydrocortisone、gentamicin sulphate、卵白蛋白、甲醛與sodium deoxycholate。"
      ],
      "label": "Fluarix Tetra 伏適流四價流感疫苗 · 福馬林／甲醛殘留：有"
     }
@@ -2094,12 +2841,12 @@
    "items": [
     {
      "source": "S43",
-     "page": 2,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
-      "Fluarix Tetra不可用於已知先前曾在施打Fluarix Tetra或流感疫苗後發生嚴重過敏反應或對本疫"
+      "不可用於已知先前曾在施打Fluarix Tetra或流感疫苗後發生嚴重過敏反應或對本疫苗中之任何成分嚴重過敏者。賦形劑請參見1.2賦形劑。"
      ],
-     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 過敏禁忌"
+     "label": "Fluarix Tetra 伏適流四價流感疫苗 · 禁忌"
     }
    ]
   },
@@ -2107,10 +2854,10 @@
    "items": [
     {
      "source": "S44",
-     "page": 1,
+     "page": 2,
      "glyphRows": true,
      "quotes": [
-      "本疫苗係將流感病毒株接種於發育中的雞蛋尿膜腔內，培養後，抽出含病毒之尿膜腔液，經蔗糖密度梯度離心法將病毒"
+      "本疫苗係將流感病毒株接種於發育中的雞蛋尿膜腔內，培養後，抽出含病毒之尿膜腔液，經蔗糖密"
      ],
      "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 製程說明"
     }
@@ -2120,10 +2867,10 @@
    "items": [
     {
      "source": "S44",
-     "page": 1,
+     "page": 2,
      "glyphRows": true,
      "quotes": [
-      "本疫苗含有微量甲醛(Formaldehyde)和聚山梨醇酯 80 (Polysorbate 80)等在製程中會使用到的成分。其他賦形劑請見 6.1。"
+      "本疫苗含有微量甲醛(Formaldehyde)和聚山梨醇酯 80 (Polysorbate 80)等在製程中會使用到的成"
      ],
      "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 製程中使用之成分"
     }
@@ -2136,7 +2883,7 @@
      "page": 2,
      "glyphRows": true,
      "quotes": [
-      "氯化鈉 (sodium chloride)、磷酸氫二鈉（Disodium hydrogen phosphate）、磷酸二氫鉀（Potassium dihydrogen phosphate）及"
+      "氯化鈉 (sodium chloride)、磷酸氫二鈉（Disodium hydrogen phosphate）、磷酸二氫鉀"
      ],
      "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 賦形劑"
     }
@@ -2146,10 +2893,10 @@
    "items": [
     {
      "source": "S44",
-     "page": 1,
+     "page": 2,
      "glyphRows": true,
      "quotes": [
-      "本疫苗係將流感病毒株接種於發育中的雞蛋尿膜腔內，培養後，抽出含病毒之尿膜腔液，經蔗糖密度梯度離心法將病毒"
+      "本疫苗係將流感病毒株接種於發育中的雞蛋尿膜腔內，培養後，抽出含病毒之尿膜腔液，經蔗糖密"
      ],
      "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 蛋（卵白蛋白／雞胚）：有"
     }
@@ -2159,10 +2906,10 @@
    "items": [
     {
      "source": "S44",
-     "page": 1,
+     "page": 2,
      "glyphRows": true,
      "quotes": [
-      "本疫苗含有微量甲醛(Formaldehyde)和聚山梨醇酯 80 (Polysorbate 80)等在製程中會使用到的成分。其他賦形劑請見 6.1。"
+      "本疫苗含有微量甲醛(Formaldehyde)和聚山梨醇酯 80 (Polysorbate 80)等在製程中會使用到的成"
      ],
      "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · PEG／polysorbate 80：有"
     }
@@ -2172,10 +2919,10 @@
    "items": [
     {
      "source": "S44",
-     "page": 1,
+     "page": 2,
      "glyphRows": true,
      "quotes": [
-      "本疫苗含有微量甲醛(Formaldehyde)和聚山梨醇酯 80 (Polysorbate 80)等在製程中會使用到的成分。其他賦形劑請見 6.1。"
+      "本疫苗含有微量甲醛(Formaldehyde)和聚山梨醇酯 80 (Polysorbate 80)等在製程中會使用到的成"
      ],
      "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 福馬林／甲醛殘留：有"
     }
@@ -2185,10 +2932,10 @@
    "items": [
     {
      "source": "S44",
-     "page": 1,
+     "page": 2,
      "glyphRows": true,
      "quotes": [
-      "曾對於本疫苗中任何成分發生嚴重過敏反應(例如：全身性過敏反應)，或過去曾在注射任何流感疫苗後發生嚴重過敏反"
+      "曾對於本疫苗中任何成分發生嚴重過敏反應(例如：全身性過敏反應)，或過去曾在注射任何流感疫苗"
      ],
      "label": "AdimFlu-S (QIS) 安定伏裂解型四價流感疫苗 · 過敏禁忌"
     }
@@ -2198,12 +2945,12 @@
    "items": [
     {
      "source": "S45",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "VaxigripTetra可能含有微量雞蛋內容物，例如卵白蛋白(ovalbumin)以及在製程中使用的新黴素"
+      "可能含有微量雞蛋內容物，例如卵白蛋白"
      ],
-     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 組成"
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 組成（可能微量殘留）"
     }
    ]
   },
@@ -2211,12 +2958,12 @@
    "items": [
     {
      "source": "S45",
-     "page": 10,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "Sodium chloride"
+      "的新黴素      、甲醛       和辛苯聚醇"
      ],
-     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 賦形劑（緩衝溶液）"
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 組成（製程微量殘留）"
     }
    ]
   },
@@ -2224,10 +2971,10 @@
    "items": [
     {
      "source": "S45",
-     "page": 10,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "Potassium chloride"
+      "Sodium chloride"
      ],
      "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 賦形劑（緩衝溶液）"
     }
@@ -2237,10 +2984,10 @@
    "items": [
     {
      "source": "S45",
-     "page": 10,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "Disodium phosphate dihydrate"
+      "Potassium chloride"
      ],
      "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 賦形劑（緩衝溶液）"
     }
@@ -2250,10 +2997,10 @@
    "items": [
     {
      "source": "S45",
-     "page": 10,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "Potassium dihydrogen phosphate"
+      "Disodium phosphate dihydrate"
      ],
      "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 賦形劑（緩衝溶液）"
     }
@@ -2263,12 +3010,25 @@
    "items": [
     {
      "source": "S45",
-     "page": 11,
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "Potassium dihydrogen phosphate"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 賦形劑（緩衝溶液）"
+    }
+   ]
+  },
+  "al:S45:comp:6": {
+   "items": [
+    {
+     "source": "S45",
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "Water for injections"
      ],
-     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 賦形劑"
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 賦形劑（緩衝溶液）"
     }
    ]
   },
@@ -2276,10 +3036,10 @@
    "items": [
     {
      "source": "S45",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "VaxigripTetra可能含有微量雞蛋內容物，例如卵白蛋白(ovalbumin)以及在製程中使用的新黴素"
+      "可能含有微量雞蛋內容物，例如卵白蛋白"
      ],
      "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 蛋（卵白蛋白／雞胚）：有"
     }
@@ -2289,12 +3049,25 @@
    "items": [
     {
      "source": "S45",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "(neomycin)、甲醛(formaldehyde)和辛苯聚醇9 (octoxynol-9)(見4.3）"
+      "的新黴素      、甲醛       和辛苯聚醇"
      ],
      "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · Neomycin：有"
+    }
+   ]
+  },
+  "al:S45:latex:related": {
+   "items": [
+    {
+     "source": "S45",
+     "page": 16,
+     "glyphRows": true,
+     "quotes": [
+      "0.5 毫升懸浮液預填於附有接種針及柱塞（ elastomer chlorobutyl 或 bromobutyl 材質）\n               的接種針筒（第 I類玻璃）內，每盒 1支、 10支或 20支裝。"
+     ],
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 乳膠（針筒／瓶塞）：未載明（相關原句）"
     }
    ]
   },
@@ -2302,10 +3075,10 @@
    "items": [
     {
      "source": "S45",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "(neomycin)、甲醛(formaldehyde)和辛苯聚醇9 (octoxynol-9)(見4.3）"
+      "的新黴素      、甲醛       和辛苯聚醇"
      ],
      "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 福馬林／甲醛殘留：有"
     }
@@ -2315,12 +3088,12 @@
    "items": [
     {
      "source": "S45",
-     "page": 2,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
-      "對本疫苗的內含成分，章節6.1所列的任何賦形劑，或任何殘存的微量成分，如新黴素(neomycin)、甲"
+      "對本疫苗的內含成分，章節1.2所列的任何賦形劑，或任何殘存的微量成分，如新黴素\n           (neomycin)、甲醛(formaldehyde)和辛苯聚醇9 (octoxynol-9)等發生嚴重過敏反應，或接\n           種本疫苗曾經發生嚴重過敏反應者（例如：全身性過敏反應），請勿接種\n           VaxigripTetra。"
      ],
-     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 過敏禁忌"
+     "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 禁忌"
     }
    ]
   },
@@ -2328,10 +3101,10 @@
    "items": [
     {
      "source": "S45",
-     "page": 2,
+     "page": 5,
      "glyphRows": true,
      "quotes": [
-      "已知對「蛋」之蛋白質有嚴重過敏者，由熟悉處理過敏症狀之醫護人員提供接種，並於接種後觀察30"
+      "已知對「蛋」之蛋白質有嚴重過敏者，由熟悉處理過敏症狀之醫護人員提供接種，並\n                於接種後觀察 30分鐘，無不適症狀再離開。"
      ],
      "label": "Vaxigrip Tetra 菲流達四價流感疫苗 · 對蛋過敏警語"
     }
@@ -2341,10 +3114,10 @@
    "items": [
     {
      "source": "S46",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "吸附於氫氧化鋁(0.5毫克Al3+)"
+      "吸附於氫氧化鋁(0.5毫克Al)"
      ],
      "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 組成（佐劑）"
     }
@@ -2354,7 +3127,7 @@
    "items": [
     {
      "source": "S46",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "氯化鈉、組胺酸、蔗糖、注射用水"
@@ -2367,10 +3140,10 @@
    "items": [
     {
      "source": "S46",
-     "page": 1,
+     "page": 6,
      "glyphRows": true,
      "quotes": [
-      "Kanamycin (製程初期會使用 kanamycin，但在製程後期便會去除。如果還有殘留，"
+      "製程初期會使用 kanamycin ，但在製程後期便會去除。如果還有殘留，"
      ],
      "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 殘留物質"
     }
@@ -2380,10 +3153,10 @@
    "items": [
     {
      "source": "S46",
-     "page": 1,
+     "page": 6,
      "glyphRows": true,
      "quotes": [
-      "Kanamycin (製程初期會使用 kanamycin，但在製程後期便會去除。如果還有殘留，"
+      "製程初期會使用 kanamycin ，但在製程後期便會去除。如果還有殘留，"
      ],
      "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 其他抗生素（kanamycin、polymyxin、gentamicin…）：有"
     }
@@ -2393,10 +3166,10 @@
    "items": [
     {
      "source": "S46",
-     "page": 4,
+     "page": 26,
      "glyphRows": true,
      "quotes": [
-      "雖然在針筒頂蓋中並未檢出任何天然橡膠乳膠成分，但 Bexsero 用於乳膠敏感者的"
+      "預充填注射針筒的前蓋及橡膠推桿活塞皆非天然橡膠乳膠製成。"
      ],
      "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 乳膠（針筒／瓶塞）：無"
     }
@@ -2406,10 +3179,10 @@
    "items": [
     {
      "source": "S46",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "吸附於氫氧化鋁(0.5毫克Al3+)"
+      "吸附於氫氧化鋁(0.5毫克Al)"
      ],
      "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 鋁佐劑：有"
     }
@@ -2419,10 +3192,10 @@
    "items": [
     {
      "source": "S46",
-     "page": 3,
+     "page": 5,
      "glyphRows": true,
      "quotes": [
-      "對「配方與含量」及「賦形劑」段落中所列的活性成分或任何賦形劑過敏者。"
+      "對1.1有效成分及含量及1.2賦形劑段落中所列的活性成分或任何賦形劑過敏者。"
      ],
      "label": "Bexsero B 型腦膜炎雙球菌疫苗 · 過敏禁忌"
     }
@@ -2432,10 +3205,10 @@
    "items": [
     {
      "source": "S46",
-     "page": 4,
+     "page": 6,
      "glyphRows": true,
      "quotes": [
-      "在疫苗成品中的含量也不會超過每劑 0.01 微克。Bexsero 用於 Kanamycin 敏感者"
+      "kanamycin 在疫苗成品中的含量也不會超過每劑 0.01 微克。 Bexsero 用於"
      ],
      "label": "Bexsero B 型腦膜炎雙球菌疫苗 · Kanamycin 敏感者警語"
     }
@@ -2445,33 +3218,7 @@
    "items": [
     {
      "source": "S48",
-     "page": 1,
-     "glyphRows": true,
-     "quotes": [
-      "這些基因重組株成分係懸浮於經過緩衝的安定劑溶液中。每劑疫苗均含有蔗糖、檸檬酸鈉、單水合磷酸二氫鈉、氫氧化鈉、"
-     ],
-     "label": "RotaTeq(輪達停) · 成分（安定劑溶液，1/2）"
-    }
-   ]
-  },
-  "al:S48:comp:1": {
-   "items": [
-    {
-     "source": "S48",
-     "page": 1,
-     "glyphRows": true,
-     "quotes": [
-      "聚山梨醇酯80、細胞培養基以及微量的牛胚胎血清。本疫苗不含任何防腐劑或thimerosal。"
-     ],
-     "label": "RotaTeq(輪達停) · 成分（安定劑溶液，2/2）"
-    }
-   ]
-  },
-  "al:S48:comp:2": {
-   "items": [
-    {
-     "source": "S48",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
       "這些基因重組株是在未添加抗黴菌劑的情況下，利用標準細胞培養技術，於Vero細胞中繁殖而得。"
@@ -2480,14 +3227,40 @@
     }
    ]
   },
+  "al:S48:comp:1": {
+   "items": [
+    {
+     "source": "S48",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "這些基因重組株成分係懸浮於經過緩衝的安定劑溶液中。"
+     ],
+     "label": "RotaTeq(輪達停) · 成分（安定劑溶液）"
+    }
+   ]
+  },
+  "al:S48:comp:2": {
+   "items": [
+    {
+     "source": "S48",
+     "page": 3,
+     "glyphRows": true,
+     "quotes": [
+      "每劑疫苗均含有蔗糖、檸檬酸鈉、單水合磷酸二氫鈉、氫氧化鈉、聚山梨醇酯80、細胞培養基以及微量的牛胚胎血清。本疫苗不含任何防腐劑或thimerosal。"
+     ],
+     "label": "RotaTeq(輪達停) · 賦形劑"
+    }
+   ]
+  },
   "al:S48:latex": {
    "items": [
     {
      "source": "S48",
-     "page": 12,
+     "page": 4,
      "glyphRows": true,
      "quotes": [
-      "每劑疫苗都以一個不含乳膠成分(latex)之塑膠製的可擠壓投藥軟管供應，該軟管頂端並附有一個可轉下的帽蓋，可直接口"
+      "每劑疫苗都以一個不含乳膠成分(latex)之塑膠製的可擠壓投藥軟管供應，該軟管"
      ],
      "label": "RotaTeq(輪達停) · 乳膠（針筒／瓶塞）：無"
     }
@@ -2497,10 +3270,10 @@
    "items": [
     {
      "source": "S48",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "聚山梨醇酯80、細胞培養基以及微量的牛胚胎血清。"
+      "每劑疫苗均含有蔗糖、檸檬酸鈉、單水合磷酸二氫鈉、氫氧化鈉、聚山梨醇酯80、細胞培養基以及微量的牛胚胎血清。本疫苗不含任何防腐劑或thimerosal。"
      ],
      "label": "RotaTeq(輪達停) · PEG／polysorbate 80：有"
     }
@@ -2510,10 +3283,10 @@
    "items": [
     {
      "source": "S48",
-     "page": 1,
+     "page": 3,
      "glyphRows": true,
      "quotes": [
-      "本疫苗不含任何防腐劑或thimerosal。"
+      "每劑疫苗均含有蔗糖、檸檬酸鈉、單水合磷酸二氫鈉、氫氧化鈉、聚山梨醇酯80、細胞培養基以及微量的牛胚胎血清。本疫苗不含任何防腐劑或thimerosal。"
      ],
      "label": "RotaTeq(輪達停) · 硫柳汞：無"
     }
@@ -2523,7 +3296,7 @@
    "items": [
     {
      "source": "S48",
-     "page": 8,
+     "page": 5,
      "glyphRows": true,
      "quotes": [
       "已知對此疫苗之任何成分有過敏病史者。"
@@ -2536,7 +3309,7 @@
    "items": [
     {
      "source": "S48",
-     "page": 8,
+     "page": 5,
      "glyphRows": true,
      "quotes": [
       "於接種一劑RotaTeq後出現過敏症狀的嬰兒，不應再接種RotaTeq。"

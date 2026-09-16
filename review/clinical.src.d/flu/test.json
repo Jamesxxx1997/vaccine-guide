@@ -1,0 +1,871 @@
+{
+ "disease": "flu",
+ "panel": "test",
+ "items": [
+  {
+   "id": "flu-test-merckx-abstract-sens-a",
+   "type": "fact",
+   "label": "Merckx 2017 摘要：A 型流感 pooled sensitivity（RIDT／DIA／NAAT）",
+   "summary": "統合 162 篇研究（130 篇 RIDT、19 篇 DIA、13 篇 NAAT），偵測 A 型流感的 pooled sensitivity：RIDT 54.4%（CrI 48.9–59.8%）、DIA 80.0%（CrI 73.4–85.6%）、NAAT 91.6%（CrI 84.9–95.9%）。",
+   "refs": [
+    {
+     "source": "S150",
+     "page": 1,
+     "quote": "Data Synthesis: 162 studies were included (130 of RIDTs, 19 of DIAs, and 13 of NAATs)."
+    },
+    {
+     "source": "S150",
+     "page": 1,
+     "quote": "Pooled sensitivities for detecting inﬂuenza A from Bayesian bivariate random-effects models were 54.4% (95% credible interval [CrI], 48.9% to 59.8%) for RIDTs, 80.0% (CrI, 73.4% to 85.6%) for DIAs, and 91.6% (CrI, 84.9% to 95.9%) for NAATs."
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "overview"},
+   "authority": "paper",
+   "keywords": ["快篩準不準", "快篩vsPCR", "統合分析", "敏感度比較", "哪種檢驗比較準", "RIDT DIA NAAT"]
+  },
+  {
+   "id": "flu-test-merckx-abstract-sens-b",
+   "type": "fact",
+   "label": "Merckx 2017 摘要：B 型流感 pooled sensitivity（RIDT／DIA／NAAT）",
+   "summary": "偵測 B 型流感的 pooled sensitivity：RIDT 53.2%（CrI 41.7–64.4%）、DIA 76.8%（CrI 65.4–85.4%）、NAAT 95.4%（CrI 87.3–98.7%）。",
+   "refs": [
+    {
+     "source": "S150",
+     "page": 1,
+     "quote": "Those for detecting inﬂuenza B were 53.2%"
+    },
+    {
+     "source": "S150",
+     "page": 1,
+     "quote": "(CrI, 41.7% to 64.4%) for RIDTs, 76.8% (CrI, 65.4% to 85.4%) for DIAs, and 95.4% (CrI, 87.3% to 98.7%) for NAATs."
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "overview"},
+   "authority": "paper",
+   "keywords": ["快篩準不準", "B型流感快篩", "統合分析", "敏感度比較", "哪種檢驗比較準"]
+  },
+  {
+   "id": "flu-test-merckx-abstract-specificity",
+   "type": "fact",
+   "label": "Merckx 2017 摘要：三類檢驗的 pooled specificity 均一致偏高（>98%）",
+   "summary": "無論 RIDT、DIA 或 NAAT，pooled specificity 均一致偏高，皆大於 98%。",
+   "refs": [
+    {
+     "source": "S150",
+     "page": 1,
+     "quote": "Pooled spec- iﬁcities were uniformly high (>98%)."
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "overview"},
+   "authority": "paper",
+   "keywords": ["快篩特異度", "快篩會不會驗錯", "偽陽性", "特異度高不高", "誤判"]
+  },
+  {
+   "id": "flu-test-merckx-abstract-children-vs-adults",
+   "type": "fact",
+   "label": "Merckx 2017 摘要：兒童 pooled sensitivity 普遍高於成人",
+   "summary": "兒童的 pooled sensitivity 普遍比成人高 12.1 至 31.8 個百分點，唯獨 rapid NAAT 偵測 A 型流感例外（僅高 2.7 個百分點）。",
+   "refs": [
+    {
+     "source": "S150",
+     "page": 1,
+     "quote": "Pooled sensitivities were higher in children by 12.1 to 31.8 per- centage points, except for inﬂuenza A by rapid NAATs (2.7 per- centage points)."
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "overview", "subgroup": "adults-vs-children"},
+   "authority": "paper",
+   "keywords": ["小孩快篩比較準", "兒童快篩敏感度", "大人小孩差異", "快篩準不準"]
+  },
+  {
+   "id": "flu-test-merckx-table2-ridt-overall",
+   "type": "table-row",
+   "label": "Merckx 2017 Table 2：Traditional RIDT 整體 pooled sensitivity／specificity",
+   "summary": "Traditional RIDT（94 篇 A 型、30 篇 B 型研究）：A 型 pooled sensitivity 54.4%（CrI 48.9–59.8）、specificity 99.4%（99.1–99.7）；B 型 sensitivity 53.2%（41.7–64.4）、specificity 99.8%（99.7–99.9）。",
+   "refs": [
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "Traditional RIDTs (94 inﬂuenza A studies; 30 inﬂuenza B studies)",
+     "note": "Table 2, Overall 列標籤（label 欄，同一 block 內連續）"
+    },
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "54.4 (48.9 to 59.8) 99.4 (99.1 to 99.7) 53.2 (41.7 to 64.4) 99.8 (99.7 to 99.9)",
+     "region": [50, 143, 540, 154],
+     "note": "Table 2, Overall／Traditional RIDTs 數字列（4 個獨立欄位 block，需用 region 框住整列）"
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "RIDT", "subgroup": "overall"},
+   "authority": "paper",
+   "keywords": ["傳統快篩準不準", "肉眼判讀快篩", "RIDT敏感度", "快篩特異度"]
+  },
+  {
+   "id": "flu-test-merckx-table2-dia-overall",
+   "type": "table-row",
+   "label": "Merckx 2017 Table 2：DIA 整體 pooled sensitivity／specificity",
+   "summary": "DIA（18 篇 A 型、17 篇 B 型研究）：A 型 sensitivity 80.0%（CrI 73.4–85.6）、specificity 98.3%（97.4–98.9）；B 型 sensitivity 76.8%（65.4–85.4）、specificity 98.7%（97.5–99.4）。",
+   "refs": [
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "DIAs (18 inﬂuenza A studies; 17 inﬂuenza B studies)",
+     "note": "Table 2, Overall 列標籤（label 欄，同一 block 內連續）"
+    },
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "80.0 (73.4 to 85.6) 98.3 (97.4 to 98.9) 76.8 (65.4 to 85.4) 98.7 (97.5 to 99.4)",
+     "region": [50, 161, 540, 172],
+     "note": "Table 2, Overall／DIAs 數字列（4 個獨立欄位 block，需用 region 框住整列）"
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "DIA", "subgroup": "overall"},
+   "authority": "paper",
+   "keywords": ["電子判讀快篩", "數位快篩準不準", "DIA敏感度", "快篩機器判讀"]
+  },
+  {
+   "id": "flu-test-merckx-table2-naat-overall",
+   "type": "table-row",
+   "label": "Merckx 2017 Table 2：Rapid NAAT 整體 pooled sensitivity／specificity",
+   "summary": "Rapid NAAT（12 篇 A 型、12 篇 B 型研究）：A 型 sensitivity 91.6%（CrI 84.9–95.9）、specificity 99.2%（98.6–99.7）；B 型 sensitivity 95.4%（87.3–98.7）、specificity 99.4%（98.9–99.8）。",
+   "refs": [
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "Rapid NAATs (12 inﬂuenza A studies; 12 inﬂuenza B studies)",
+     "note": "Table 2, Overall 列標籤（label 欄，同一 block 內連續）"
+    },
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "91.6 (84.9 to 95.9) 99.2 (98.6 to 99.7) 95.4 (87.3 to 98.7) 99.4 (98.9 to 99.8)",
+     "region": [50, 179, 540, 190],
+     "note": "Table 2, Overall／Rapid NAATs 數字列（4 個獨立欄位 block，需用 region 框住整列）"
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "rapid-NAAT", "subgroup": "overall"},
+   "authority": "paper",
+   "keywords": ["分子快篩準不準", "核酸檢測敏感度", "NAAT快篩", "快速核酸檢測"]
+  },
+  {
+   "id": "flu-test-merckx-table2-ridt-age-children",
+   "type": "table-row",
+   "label": "Merckx 2017 Table 2：Traditional RIDT 兒童次群組 pooled sensitivity",
+   "summary": "Traditional RIDT 兒童族群（31 篇 A 型、9 篇 B 型研究）：A 型 sensitivity 61.2%（CrI 55.0–67.2）、specificity 99.2%（98.5–99.7）；B 型 sensitivity 65.7%（45.3–80.5）、specificity 99.6%（99.2–99.8）。",
+   "refs": [
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "Children (31 inﬂuenza A studies; 9 inﬂuenza B studies)",
+     "note": "Table 2, Subgroup analyses → Study population (age) → Traditional RIDTs → Children 列標籤"
+    },
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "61.2 (55.0 to 67.2) 99.2 (98.5 to 99.7) 65.7 (45.3 to 80.5) 99.6 (99.2 to 99.8)",
+     "region": [50, 269, 540, 280],
+     "note": "同列數字（4 個獨立欄位 block，需用 region 框住整列）"
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "RIDT", "subgroup": "children"},
+   "authority": "paper",
+   "keywords": ["小孩快篩比較準", "兒童快篩敏感度", "傳統快篩兒童"]
+  },
+  {
+   "id": "flu-test-merckx-table2-ridt-age-adults",
+   "type": "table-row",
+   "label": "Merckx 2017 Table 2：Traditional RIDT 成人次群組 pooled sensitivity",
+   "summary": "Traditional RIDT 成人族群（23 篇 A 型、5 篇 B 型研究）：A 型 sensitivity 42.6%（CrI 34.8–50.9）、specificity 99.5%（98.6–99.8）；B 型 sensitivity 33.2%（19.9–50.7）、specificity 99.9%（99.4–100）；兒童與成人 RIDT 敏感度差異 A 型 18.5（8.4–28.3）、B 型 31.8（6.1–52.6）。",
+   "refs": [
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "Adults (23 inﬂuenza A studies; 5 inﬂuenza B studies)",
+     "note": "Table 2, Traditional RIDTs → Adults 列標籤"
+    },
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "42.6 (34.8 to 50.9) 99.5 (98.6 to 99.8) 33.2 (19.9 to 50.7) 99.9 (99.4 to 100)",
+     "region": [50, 286, 540, 297],
+     "note": "Adults 列數字（4 個獨立欄位 block，需用 region 框住整列）"
+    },
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "Difference in RIDT sensitivity: children",
+     "note": "兒童 vs 成人差異列標籤（跨行第一行，同一 block）"
+    },
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "18.5 (8.4 to 28.3)",
+     "region": [200, 300, 340, 311],
+     "note": "兒童 vs 成人 RIDT 敏感度差異，A 型欄"
+    },
+    {
+     "source": "S150",
+     "page": 8,
+     "quote": "31.8 (6.1 to 52.6)",
+     "region": [380, 300, 520, 311],
+     "note": "兒童 vs 成人 RIDT 敏感度差異，B 型欄"
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "RIDT", "subgroup": "adults-vs-children"},
+   "authority": "paper",
+   "keywords": ["成人快篩比較不準", "大人小孩快篩差異", "傳統快篩成人"]
+  },
+  {
+   "id": "flu-test-idsa-rapid-molecular-sens",
+   "type": "fact",
+   "label": "IDSA 轉引 [111]：rapid molecular assay 對 A／B 型流感的統合敏感度／特異度",
+   "summary": "一篇 rapid molecular assay 統合分析報告偵測 A 型流感 pooled sensitivity 92%、B 型 95%，pooled specificity 皆為 99%。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 15,
+     "quote": "a meta-analysis of rapid molecular assays reported pooled sensitivities of 92% and 95% for detection of influenza A and B viruses, respectively, and pooled specificities of 99%"
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "rapid-molecular"},
+   "authority": "IDSA",
+   "keywords": ["快篩準不準", "分子檢測", "核酸檢測", "準確度", "敏感度", "PCR", "驗得出來嗎"]
+  },
+  {
+   "id": "flu-test-idsa-ridt-analyzer-sens",
+   "type": "fact",
+   "label": "IDSA 轉引 [111]：搭配 analyzer 的 DIA 敏感度優於傳統 RIDT",
+   "summary": "使用 analyzer 裝置的快速流感抗原檢測（DIA）對 RT-PCR 有中高度的統合敏感度（80% 與 77%），優於傳統肉眼判讀 RIDT。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 15,
+     "quote": "Use of an analyzer device for rapid influenza diagnostic tests to detect influenza viral antigens (immunoassay or immunoflu- orescence assay) had moderately high pooled sensitivity (80% and 77%) compared with RT-PCR [111]."
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "DIA"},
+   "authority": "IDSA",
+   "keywords": ["快篩機器判讀", "電子判讀快篩", "數位快篩", "準確度", "敏感度", "肉眼判讀快篩"]
+  },
+  {
+   "id": "flu-test-idsa-ridt-pooled-sens-old",
+   "type": "fact",
+   "label": "IDSA 轉引 [110]：傳統 RIDT 統合敏感度 54%／53%（另一篇較舊統合分析，非 Merckx 2017）",
+   "summary": "IDSA 引用另一篇（非 Merckx 2017）統合分析報告傳統快速抗原檢測（RIDT）偵測 A 型流感的 pooled sensitivity 為 54%、B 型為 53%，pooled specificity 為 99%，並指出快速抗原檢測在成人（約 54%）低於兒童（約 67%），對 B 型流感的偵測低於 A 型流感。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 15,
+     "quote": "An updated meta-analysis of observational studies of rapid influ- enza antigen tests reported pooled sensitivities of 54% and 53% to detect influenza A and influenza B virus antigens, respec- tively, and pooled specificities of 99%, compared with RT-PCR"
+    },
+    {
+     "source": "S122",
+     "page": 15,
+     "quote": "Sensitivity of rapid influenza antigen tests was lower in adults (approximately 54%) than children (approximately 67%), and lower for detection of influenza B viruses than for influenza A viruses [110]."
+    }
+   ],
+   "tags": {"group": "檢驗類別與敏感度（統合分析）", "test": "RIDT", "subgroup": "adults-vs-children"},
+   "authority": "IDSA",
+   "keywords": ["快篩準不準", "快篩陰性", "偽陰性", "大人小孩快篩差異", "小孩快篩比較準", "驗不出來"]
+  },
+  {
+   "id": "flu-test-idsa-outpatient-molecular-over-ridt",
+   "type": "rule",
+   "label": "IDSA 建議 10：門診病人優先用 rapid molecular assay 而非 RIDT",
+   "summary": "門診病人應優先使用 rapid molecular assay（核酸擴增檢測）而非 RIDT，以提升流感病毒偵測率（證據等級 A-II）。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 5,
+     "quote": "Clinicians should use rapid molecular assays (ie, nucleic acid amplification tests) over rapid influenza diagnostic tests (RIDTs) in outpatients to improve detection of influ- enza virus infection (A-II) (see Table 6)."
+    }
+   ],
+   "tags": {"group": "指引建議（IDSA／CDC／疾管署）", "population": "outpatient"},
+   "authority": "IDSA",
+   "keywords": ["門診驗流感", "要驗哪一種", "分子檢測比較準", "快篩還是PCR", "核酸檢測"]
+  },
+  {
+   "id": "flu-test-idsa-hospitalized-rtpcr",
+   "type": "rule",
+   "label": "IDSA 建議 11：住院病人優先用 RT-PCR 或其他分子檢測",
+   "summary": "住院病人應優先使用 RT-PCR 或其他分子檢測而非其他流感檢驗方法，以提升流感病毒偵測率（證據等級 A-II）。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 5,
+     "quote": "Clinicians should use reverse-transcription polymerase chain reaction (RT-PCR) or other molecular assays over other influenza tests in hospitalized patients to improve detection of influenza virus infection (A-II) (see Table 6)."
+    }
+   ],
+   "tags": {"group": "指引建議（IDSA／CDC／疾管署）", "population": "hospitalized"},
+   "authority": "IDSA",
+   "keywords": ["住院驗流感", "住院要做哪種檢查", "PCR", "核酸檢測", "分子檢測"]
+  },
+  {
+   "id": "flu-test-idsa-ridt-48-72h",
+   "type": "fact",
+   "label": "IDSA：RIDT 於發病 48–72 小時內採檢敏感度較高",
+   "summary": "流感篩檢檢驗（如 RIDT）的敏感度在發病 48–72 小時內採集的呼吸道檢體較高，因病毒排放量在此之後降低；RT-PCR 在病程較後期仍較可能呈陽性。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 15,
+     "quote": "The sensitivity of influenza screening assays such as rapid diagnostic tests is somewhat higher when respiratory specimens are collected within 48–72 hours of illness onset due to reduction in influenza viral shed- ding after this period"
+    }
+   ],
+   "tags": {"group": "採檢時機與檢體", "test": "RIDT"},
+   "authority": "IDSA",
+   "keywords": ["幾天內驗最準", "發燒幾天驗", "快篩時機", "太晚驗會不準", "驗不出來"]
+  },
+  {
+   "id": "flu-test-idsa-lower-resp-critically-ill",
+   "type": "rule",
+   "label": "IDSA 建議 7：呼吸衰竭插管病人應採下呼吸道檢體",
+   "summary": "住院且因呼吸衰竭接受機械通氣的病人，應採集下呼吸道檢體（endotracheal aspirate 或 bronchoalveolar lavage fluid）進行流感檢驗，包含上呼吸道檢體已呈陰性者（證據等級 A-II）。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 4,
+     "quote": "Clinicians should collect endotracheal aspirate or bronchoal- veolar lavage fluid specimens from hospitalized patients with respiratory failure receiving mechanical ventilation, includ- ing patients with negative influenza testing results on upper respiratory tract specimens, for influenza testing as soon as possible (A-II)."
+    }
+   ],
+   "tags": {"group": "採檢時機與檢體", "population": "critically-ill"},
+   "authority": "IDSA",
+   "keywords": ["插管驗流感", "呼吸衰竭檢體", "痰液採檢", "下呼吸道採檢", "重症流感檢查"]
+  },
+  {
+   "id": "flu-test-idsa-4days-onset",
+   "type": "fact",
+   "label": "IDSA：建議儘量於發病 4 天內採檢",
+   "summary": "上呼吸道檢體建議儘可能於發病後 4 天內採集。",
+   "refs": [
+    {
+     "source": "S122",
+     "page": 4,
+     "quote": "onset as possible, preferably within 4 days of symptom onset (A-II)."
+    }
+   ],
+   "tags": {"group": "採檢時機與檢體"},
+   "authority": "IDSA",
+   "keywords": ["發病幾天驗", "什麼時候驗最準", "採檢時機", "太晚驗"]
+  },
+  {
+   "id": "flu-test-cdc-ridt-sens-spec",
+   "type": "fact",
+   "label": "CDC：RIDT 敏感度 50–70%、特異度 95–99%",
+   "summary": "RIDT 敏感度低到中等，約 50–70%，偽陰性常見；特異度約 95–99%，偽陽性少見（與病毒培養或 RT-PCR 比較）；FDA 現要求所有 RIDT 對 RT-PCR 的敏感度須達 80% 以上。",
+   "refs": [
+    {
+     "source": "S119",
+     "page": 1,
+     "quote": "Sensitivities of rapid influenza diagnostic tests are low to moderate – approximately 50-70%, which means that false negative results are common (particularly during periods of high influenza activity in the community), and specificities of rapid diagnostic tests for influenza are approximately 95-99%, which means that false positive results are uncommon, when compared with viral culture or reverse transcription polymerase chain reaction (RT-PCR). FDA now requires that all RIDTs achieve 80% or higher sensitivity compared with RT-PCR."
+    }
+   ],
+   "tags": {"group": "指引建議（IDSA／CDC／疾管署）", "test": "RIDT"},
+   "authority": "CDC",
+   "keywords": ["快篩準不準", "快篩陰性", "偽陰性", "快篩偽陽性", "特異度", "敏感度", "快篩驗不出來"]
+  },
+  {
+   "id": "flu-test-cdc-ridt-3-4days",
+   "type": "fact",
+   "label": "CDC：RIDT 最準確的採檢時機為發病 3–4 天內",
+   "summary": "RIDT 在發病 3–4 天內採集的呼吸道檢體最準確。",
+   "refs": [
+    {
+     "source": "S119",
+     "page": 1,
+     "quote": "RIDTs detect influenza viral antigens in respiratory tract specimens and are most accurate when used to test respiratory specimens collected within 3-4 days of symptom onset."
+    }
+   ],
+   "tags": {"group": "採檢時機與檢體", "test": "RIDT"},
+   "authority": "CDC",
+   "keywords": ["快篩什麼時候驗最準", "發病幾天內快篩", "快篩時機"]
+  },
+  {
+   "id": "flu-test-cdc-rtpcr-confirm-ridt",
+   "type": "rule",
+   "label": "CDC：社區流感活動度低時陽性 RIDT 或高活動度時陰性 RIDT 建議送 RT-PCR 確認",
+   "summary": "當社區流感活動度低且 RIDT 結果為陽性、或流感活動度高但 RIDT 結果為陰性時，建議另送呼吸道檢體做 RT-PCR 確認；分子快速檢測（rapid influenza molecular assays）可在 30 分鐘內出結果，敏感度遠高於 RIDT。",
+   "refs": [
+    {
+     "source": "S119",
+     "page": 2,
+     "quote": "Consider sending respiratory specimens for RT-PCR to confirm results of rapid influenza diagnostic tests especially when community influenza activity is low and the rapid influenza diagnostic test result is positive or when the rapid influenza diagnostic test result is negative but influenza activity in the community is high."
+    },
+    {
+     "source": "S119",
+     "page": 2,
+     "quote": "Note that rapid influenza molecular assays that can produce results within 30 minutes with much higher sensitivity than RIDTs are available in some clinical settings."
+    }
+   ],
+   "tags": {"group": "指引建議（IDSA／CDC／疾管署）", "test": "RIDT"},
+   "authority": "CDC",
+   "keywords": ["快篩陰性要不要再驗", "快篩結果不確定", "要不要複驗", "PCR確認", "假陰性假陽性"]
+  },
+  {
+   "id": "flu-test-cdc-molecular-sens-66-100",
+   "type": "fact",
+   "label": "CDC：rapid molecular assay 敏感度範圍 66–100%",
+   "summary": "現行 rapid molecular assay 的敏感度範圍為 66–100%。",
+   "refs": [
+    {
+     "source": "S120",
+     "page": 1,
+     "quote": "Reported sensitivities of available rapid molecular assays range from 66-100%."
+    }
+   ],
+   "tags": {"group": "指引建議（IDSA／CDC／疾管署）", "test": "rapid-molecular"},
+   "authority": "CDC",
+   "keywords": ["分子檢測準不準", "快速核酸檢測", "敏感度範圍", "準確度"]
+  },
+  {
+   "id": "flu-test-cdc-molecular-4days",
+   "type": "fact",
+   "label": "CDC：分子檢測建議儘量於發病 4 天內採檢，且較 RIDT 更晚仍可測到病毒",
+   "summary": "呼吸道檢體宜儘早採集，理想上於發病後不到 4 天內（病毒排放量最高時）採檢；分子檢測比其他檢測方法能在更晚（例如發病 72 小時後）仍偵測到流感病毒核酸。",
+   "refs": [
+    {
+     "source": "S120",
+     "page": 3,
+     "quote": "Respiratory specimens should ideally be collected as early as possible (ideally less than 4 days after illness onset when influenza viral shedding is highest) in persons without lower respiratory tract disease and tested as soon as possible. Molecular assays may be able to detect influenza viral RNA or nucleic acids in respiratory tract specimens longer than other tests can detect influenza viruses (e.g., after 72 hours from illness onset)."
+    }
+   ],
+   "tags": {"group": "採檢時機與檢體", "test": "molecular"},
+   "authority": "CDC",
+   "keywords": ["發病幾天內驗", "PCR什麼時候驗", "太晚驗還驗得到嗎", "核酸檢測時機"]
+  },
+  {
+   "id": "flu-test-cdc-molecular-lower-resp",
+   "type": "rule",
+   "label": "CDC：下呼吸道疾病住院病人應採下呼吸道檢體",
+   "summary": "有下呼吸道疾病的住院病人可能有較久的下呼吸道流感病毒複製；若臨床懷疑流感而上呼吸道檢體檢驗陰性，應採集並檢驗下呼吸道檢體。",
+   "refs": [
+    {
+     "source": "S120",
+     "page": 3,
+     "quote": "Hospitalized patients with lower respiratory tract disease may have prolonged lower respiratory tract influenza viral replication compared to the upper respiratory tract. In patients with lower respiratory tract disease, lower respiratory tract specimens should be collected and tested if influenza is clinically suspected and testing of upper respiratory tract specimens is negative."
+    }
+   ],
+   "tags": {"group": "採檢時機與檢體", "population": "hospitalized"},
+   "authority": "CDC",
+   "keywords": ["肺炎驗流感", "下呼吸道檢體", "上呼吸道驗不到", "住院驗流感陰性"]
+  },
+  {
+   "id": "flu-test-cdc-idnow-liat-xpert-molecular-table",
+   "type": "fact",
+   "label": "CDC 分子檢測表：ID NOW、cobas Liat、Xpert Xpress 均歸類為分子檢測",
+   "summary": "CDC「FDA-cleared or FDA-authorized RT-PCR Assays and Other Molecular Assays for Influenza Viruses」表中，ID NOW™ INFLUENZA A&B2（Abbott）、Xpert Xpress Flu（Cepheid）、cobas® liat SARS-CoV-2, Influenza A/B & RSV Assay（Roche Diagnostics）均列於此分子檢測表內，偵測 Influenza A and B。",
+   "refs": [
+    {
+     "source": "S120",
+     "page": 5,
+     "quote": "ID NOW™ INFLUENZA Abbott Influenza A None None Nasal Swab Direct or in VTM [4] 0.25 h/ A & B 2 and B Waived",
+     "region": [25, 188, 460, 208],
+     "note": "Table: FDA-cleared or FDA-authorized RT-PCR Assays and Other Molecular Assays for Influenza Viruses，ID NOW 列（跨兩行，實際閱讀序為先第一行後第二行殘句，用 region 框住整列）"
+    },
+    {
+     "source": "S120",
+     "page": 5,
+     "quote": "Xpert Xpress Flu Cepheid Influenza A A/2009 H1 None Nasal or Nasopharyngeal swabs 0.67 h/ and B in VTM [4] or UTM [4] Moderate",
+     "region": [25, 212, 460, 231],
+     "note": "同表 Xpert Xpress Flu 列（跨兩行，實際閱讀序為先第一行後第二行殘句，用 region 框住整列）"
+    },
+    {
+     "source": "S120",
+     "page": 5,
+     "quote": "cobas® liat SARS-CoV- Roche Influenza A None SARS-CoV-2 and Respiratory Syncytial Anterior nasal swab or NPS 0.33 h/ 2, Influenza A/B & RSV Diagnostics and B Virus Assay (EUA)",
+     "region": [25, 582, 460, 610],
+     "note": "同表 cobas® liat SARS-CoV-2, Influenza A/B & RSV Assay 列（跨三行，實際閱讀序為先第一行後續行殘句，用 region 框住整列）"
+    }
+   ],
+   "tags": {"group": "指引建議（IDSA／CDC／疾管署）", "test": "molecular"},
+   "authority": "CDC",
+   "keywords": ["ID NOW是分子檢測嗎", "cobas Liat是PCR嗎", "Xpert是快篩還是PCR", "機型分類"]
+  },
+  {
+   "id": "flu-test-tw-manual-specimen-types",
+   "type": "fact",
+   "label": "疾管署手冊：流感檢體種類（上／下呼吸道）",
+   "summary": "一般建議使用的檢體包括鼻腔拭子、鼻咽拭子、鼻腔沖洗液、鼻腔抽取液、咽喉拭子，以及其他下呼吸道檢體（Transtracheal aspirate、Bronchoalveolar lavage fluid、Sputum、Lung biopsy 及 Post-mortem lung or Tracheal tissue）。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 37,
+     "quote": "1. 鼻腔拭子(Nasal swab) 2. 鼻咽拭子(Nasopharyngeal swab) 3. 鼻腔沖洗液(Nasal wash fluid) 4. 鼻腔抽取液 (Nasopharyngeal aspirate) 5. 咽喉拭子(Throat swab) 6. 其他下呼吸道的檢體： 包 括 Transtracheal aspirate 、 Bronchoalveolar lavage fluid 、 Sputum、Lung biopsy 及 Post-mortem lung or Tracheal tissue 等。",
+     "region": [65, 253, 528, 437],
+     "note": "檢體種類 1–6 項，跨多行、多 block，需用 region 框住整段"
+    }
+   ],
+   "tags": {"group": "採檢時機與檢體"},
+   "authority": "疾管署",
+   "keywords": ["驗流感要採什麼檢體", "鼻咽拭子", "鼻腔拭子", "喉嚨拭子", "痰液驗流感"]
+  },
+  {
+   "id": "flu-test-tw-manual-specimen-timing",
+   "type": "fact",
+   "label": "疾管署手冊：最佳採檢時機為發病 3 日內",
+   "summary": "流感病毒檢驗的最佳檢體是距發病日起 3 日內的鼻腔抽取液，但目前臨床檢體仍以咽喉拭子為主。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 37,
+     "quote": "品質良好的檢體，可以幫助提供正確的檢測結果，以利臨床 醫師判斷。流感病毒檢驗的最佳檢體是距發病日起3日內的鼻腔 抽取液，但目前臨床檢體仍以咽喉拭子為主。",
+     "region": [65, 565, 528, 629],
+     "note": "採檢時機段落，跨三行、多 block，需用 region 框住整段"
+    }
+   ],
+   "tags": {"group": "採檢時機與檢體"},
+   "authority": "疾管署",
+   "keywords": ["發病幾天內驗最準", "什麼時候驗流感", "採檢時機"]
+  },
+  {
+   "id": "flu-test-tw-manual-rtpcr-gold-standard",
+   "type": "fact",
+   "label": "疾管署手冊：病毒核酸檢測（RT-PCR）為目前流感實驗室診斷黃金標準",
+   "summary": "病毒核酸檢測（RT-PCR 或 Real-time RT-PCR）是目前流感實驗室診斷黃金標準，具有高敏感性與高特異性，可準確偵測 A 型與 B 型流感病毒。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 40,
+     "quote": "病毒核酸檢測(RT-PCR 或 Real-time RT-PCR)是目前流感實 驗室診斷黃金標準，具有高敏感性與高特異性，可準確偵測 A 型與 B 型流感病毒，並可進一步支援病毒分型、監測與流行病學分析",
+     "region": [95, 293, 528, 367],
+     "note": "跨三行、多 block，需用 region 框住整段"
+    }
+   ],
+   "tags": {"group": "指引建議（IDSA／CDC／疾管署）", "test": "RT-PCR"},
+   "authority": "疾管署",
+   "keywords": ["PCR是最準的嗎", "黃金標準", "核酸檢測準不準", "哪種檢驗最準"]
+  },
+  {
+   "id": "flu-test-tw-manual-ridt-not-primary",
+   "type": "rule",
+   "label": "疾管署手冊：不建議將快篩作為主要診斷依據",
+   "summary": "快速抗原檢測（快篩）檢驗敏感性較低，結果為陰性時尚無法排除流感病毒感染，因此不建議將快篩作為主要診斷依據，容易出現偽陰性結果，可能導致延誤診斷與治療、低估疫情規模及影響感染管制與防疫決策，快篩結果僅作為輔助資訊，須結合臨床判斷、流行病學背景及核酸檢測結果綜合評估。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 38,
+     "quote": "快速檢測試劑有些約在15-30分鐘之內便可獲得初步檢驗結 果，因其檢驗敏感性較低，當結果為陰性時，尚無法排除流感病 毒感染。因此不建議將快速抗原檢測(又稱快篩)作為主要診斷依 據，容易出現偽陰性結果，可能導致延誤診斷與治療、低估疫情 規模及影響感染管制與防疫決策，快篩結果僅作為輔助資訊，並 須結合臨床判斷、流行病學背景及核酸檢測結果綜合評估(16)。",
+     "region": [125, 588, 528, 723],
+     "note": "跨七行、多 block，需用 region 框住整段"
+    }
+   ],
+   "tags": {"group": "指引建議（IDSA／CDC／疾管署）", "test": "RIDT"},
+   "authority": "疾管署",
+   "keywords": ["快篩準不準", "快篩陰性可以排除嗎", "快篩可以確診嗎", "偽陰性", "快篩沒驗到"]
+  },
+  {
+   "id": "flu-test-tw-manual-no-wait-confirm",
+   "type": "rule",
+   "label": "疾管署手冊：不需等檢驗確診即可投藥，也不應僅憑快篩結果用藥",
+   "summary": "抗病毒藥物應儘可能於發病後 48 小時內投予效果最好，不需等到實驗室檢驗確診為流感才給藥，也不應以流感快速檢驗結果作為用藥之唯一依據。",
+   "refs": [
+    {
+     "source": "S99",
+     "page": 42,
+     "quote": "抗病毒藥 物應儘可能於發病後48小時內投予效果最好，不需等到實驗室檢驗確診 為流感才給藥，也不應以流感快速檢驗結果作為用藥之唯一依據。",
+     "region": [65, 158, 528, 220],
+     "note": "跨三行、多 block，需用 region 框住整段"
+    }
+   ],
+   "tags": {"group": "指引建議（IDSA／CDC／疾管署）", "test": "RIDT"},
+   "authority": "疾管署",
+   "keywords": ["快篩陰性可以吃藥嗎", "要不要等驗出來才吃藥", "克流感什麼時候吃", "不用等檢驗"]
+  },
+  {
+   "id": "flu-test-tw-vstrip-perf",
+   "type": "table-row",
+   "label": "Vstrip Flu A&B（寶齡富錦）：台灣 132 例臨床效能（對 FDA 許可快篩比較）",
+   "summary": "Vstrip 與美國 FDA 許可上市產品於鼻咽檢體比較（台灣 132 例疑似 A、B 型流感病人）：A 型 PPA 94.7%（95%CI 82.3–99.4%）、NPA 97.9%（92.5–99.7%）、OPA 97.0%（92.4–99.2%）；B 型 PPA 91.3%（72.0–98.9%）、NPA 100.0%（96.7–100.0%）、OPA 98.5%（94.6–99.8%）。",
+   "refs": [
+    {
+     "source": "S137",
+     "page": 1,
+     "quote": "本產品與美國FDA許可上市產品於鼻咽檢體比較結果，於台灣進行132例疑似A型和B型流感病毒患者臨床試驗。"
+    },
+    {
+     "source": "S137",
+     "page": 1,
+     "quote": "PPA (36/38) NPA(92/94) OPA(128/132) PPA (21/23) NPA(109/109) OPA(130/132) 94.7 % 97.9 % 97.0 % 91.3 % 100.0 % 98.5 % 95%CI 82.3% - 99.4% 95%CI 92.5% - 99.7% 95%CI 92.4% - 99.2% 95%CI 72.0% - 98.9% 95%CI 96.7% - 100.0% 95%CI 94.6% - 99.8%",
+     "region": [55, 700, 560, 760],
+     "note": "PPA=陽性一致率、NPA=陰性一致率、OPA=整體一致率；比較方法為 FDA 許可快篩，非 PCR；版面實際閱讀序為「標籤列→百分比列→95%CI 列」三行，需用 region 框住整段並依此順序引用"
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "Vstrip", "category": "RIDT"},
+   "authority": "廠商",
+   "keywords": ["Vstrip準不準", "寶齡富錦快篩", "飛確快篩", "健保快篩"],
+   "note": "台灣在用證據見 _研究紀錄_TEST.md（TFDA 衛部醫器製字第006728號、健保診療項目代碼）"
+  },
+  {
+   "id": "flu-test-tw-bdveritor-perf",
+   "type": "table-row",
+   "label": "BD Veritor Flu A+B：510(k) Table 1 全年齡層彙總效能（對 PCR）",
+   "summary": "BD Veritor System for Rapid Detection of Flu A+B 對 PCR（全年齡層、全站別彙總）：Flu A PPA 83.6%（76.1–89.1%）、NPA 97.5%（95.7–98.5%）；Flu B PPA 81.3%（71.1–88.5%）、NPA 98.2%（95.7–99.3%）。",
+   "refs": [
+    {
+     "source": "S138",
+     "page": 2,
+     "quote": "PPA: 83.6% (76.1%, 89.1%)"
+    },
+    {
+     "source": "S138",
+     "page": 2,
+     "quote": "NPA: 97.5% (95.7%, 98.5%)"
+    },
+    {
+     "source": "S138",
+     "page": 2,
+     "quote": "PPA: 81.3% (71.1%, 88.5%)"
+    },
+    {
+     "source": "S138",
+     "page": 2,
+     "quote": "NPA: 98.2% (95.7%, 99.3%)"
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "BD Veritor", "category": "DIA"},
+   "authority": "廠商",
+   "keywords": ["BD Veritor準不準", "必帝快篩", "電子判讀快篩"],
+   "note": "台灣在用證據見 _研究紀錄_TEST.md（義大醫院檢驗實習手冊等）"
+  },
+  {
+   "id": "flu-test-tw-sofia-agreement",
+   "type": "table-row",
+   "label": "Sofia 2 對 Sofia：方法一致性研究（非對 PCR）",
+   "summary": "FDA 決定摘要文件為新一代 Sofia 分析儀與原機型 Sofia 的方法一致性比較（非對 PCR）：Flu A 一致率 98%（304/311、95.4–98.9%）；Flu B 一致率 98%（154/157、94.5–99.4%）。",
+   "refs": [
+    {
+     "source": "S139",
+     "page": 14,
+     "quote": "304/311=98% (95.4-98.9%)",
+     "note": "Table 10，Sofia2 vs Sofia Influenza A Positive Agreement"
+    },
+    {
+     "source": "S139",
+     "page": 14,
+     "quote": "154/157=98% (94.5-99.4%)",
+     "note": "Table 12，Sofia2 vs Sofia Influenza B Positive Agreement"
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "Sofia/Sofia 2", "category": "DIA"},
+   "authority": "廠商",
+   "keywords": ["Sofia快篩準不準", "Quidel快篩", "電子判讀快篩"],
+   "note": "本 FDA 文件僅為新舊分析儀一致性比較，非對 PCR；台灣本土對 PCR 之效能見 flu-test-tw-sofia-cdc-study 項；台灣在用證據見 _研究紀錄_TEST.md"
+  },
+  {
+   "id": "flu-test-tw-sofia-cdc-study",
+   "type": "fact",
+   "label": "疾管署 2014 年台灣本土研究：Sofia FIA 對 real-time RT-PCR 效能（73 件檢體）",
+   "summary": "疾管署以 73 件台灣臨床檢體評估 Sofia FIA，與 real-time RT-PCR 相比，A 型流感整體檢測靈敏度為 68.2%、B 型為 45.5%；A 型陽性且 Cp 值小於 30 時靈敏度可達 85% 以上（H1N1pdm09 為 92%、H3N2 為 85%），B 型陽性且 Cp 值小於 30 時靈敏度為 69%；特異性評估結果為 100%，並無偽陽性。",
+   "refs": [
+    {
+     "source": "S145",
+     "page": 1,
+     "quote": "本研究以 73 件臨床檢體，針對目前新上市流感快篩試劑 Sofia FIA 之檢測靈敏度及特 異性進行評估，並與 real-time RT-PCR 的檢驗結果比較。"
+    },
+    {
+     "source": "S145",
+     "page": 1,
+     "quote": "評估結果顯示，與 real-time RT-PCR 相比，Sofia 快篩試劑對 A 型流感的整體檢測靈敏度為 68.2%；對 B 型流感則 為 45.5%。當檢體為 A 型流感陽性且 real-time RT-PCR 之檢測 Cp 值小於 30 時，Sofia FIA 的檢測靈敏度可達 85%以上 (對 H1N1pdm09 病毒為 92%；對 H3N2 病毒為 85%)；B 型流感陽性且 Cp 值小於 30 時，Sofia 檢測靈敏度則為 69%。特異性評估結果則為 100%， 並無偽陽性現象產生。"
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "Sofia FIA", "category": "DIA"},
+   "authority": "疾管署",
+   "keywords": ["Sofia快篩台灣實測", "快篩本土研究", "快篩準不準", "Cp值", "快篩比原廠差"],
+   "note": "本研究非原廠 IFU，為疾管署自行執行之台灣本土實測，效能明顯低於原廠美國臨床試驗數字，供臨床判讀參考"
+  },
+  {
+   "id": "flu-test-tw-binaxnow-perf",
+   "type": "table-row",
+   "label": "BinaxNOW Influenza A&B Card 2（含 DIGIVAL）：多站前瞻性臨床效能（對 RT-PCR）",
+   "summary": "BinaxNOW Influenza A & B Card 2 搭配 DIGIVAL reader 之多站前瞻性臨床研究（對 RT-PCR）：Flu A sensitivity 84.3%（113/134、95%CI 77.2–89.5%）、specificity 94.7%（408/431、95%CI 92.1–96.4%）；Flu B sensitivity 89.5%（51/57、95%CI 78.9–95.1%）、specificity 99.4%（505/508、95%CI 98.3–99.8%）。",
+   "refs": [
+    {
+     "source": "S140",
+     "page": 11,
+     "quote": "Sensitivity: 84.3% (113/134), 95%CI: (77.2%-89.5%)"
+    },
+    {
+     "source": "S140",
+     "page": 11,
+     "quote": "Specificity: 94.7% (408/431), 95%CI: (92.1%-96.4%)"
+    },
+    {
+     "source": "S140",
+     "page": 11,
+     "quote": "Sensitivity: 89.5% (51/57), 95%CI: (78.9%-95.1%)"
+    },
+    {
+     "source": "S140",
+     "page": 11,
+     "quote": "Specificity: 99.4% (505/508), 95%CI: (98.3%-99.8%)"
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "BinaxNOW", "category": "RIDT"},
+   "authority": "廠商",
+   "keywords": ["BinaxNOW準不準", "亞培快篩", "Abbott快篩"],
+   "note": "台灣在用證據見 _研究紀錄_TEST.md（原始效能表位於原廠 IFU 第 11 頁，非 _manifest_TEST.json 標示之第 10 頁）"
+  },
+  {
+   "id": "flu-test-tw-cobasliat-perf-prospective",
+   "type": "table-row",
+   "label": "cobas Liat（cobas SARS-CoV-2 & Influenza A/B）：前瞻性 NPS 臨床效能",
+   "summary": "cobas Liat 系統之核酸檢測（含新冠與流感 A/B 組合試驗）前瞻性症狀個案 NPS 檢體：Flu A PPA 94.7%（18/19、95% score CI 75.4–99.1%）、NPA 99.7%（595/597、95% score CI 98.8–99.9%）。",
+   "refs": [
+    {
+     "source": "S141",
+     "page": 15,
+     "quote": "the results of the clinical performance evaluation using NPS specimens from prospective symptomatic subjects demonstrated 94.7% PPA (18/19; 95% score CI: 75.4% - 99.1%) and 99.7% NPA (595/597; 95% score CI: 98.8% – 99.9%) as compared to the comparator method."
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "cobas Liat", "category": "POC-NAAT"},
+   "authority": "廠商",
+   "keywords": ["cobas Liat準不準", "羅氏PCR快篩", "分子快篩儀器"],
+   "note": "台灣在用證據見 _研究紀錄_TEST.md（台中榮總標準作業程序 ML-SIP-373 等）"
+  },
+  {
+   "id": "flu-test-tw-cobasliat-perf-retrospective",
+   "type": "table-row",
+   "label": "cobas Liat（cobas SARS-CoV-2 & Influenza A/B）：回溯性 NPS 臨床效能",
+   "summary": "回溯性 NPS 檢體：Flu A PPA 97.7%（43/44、95% score CI 88.2–99.6%）、NPA 99.2%（131/132、95% score CI 95.8–99.9%）；Flu B PPA 100.0%（22/22、95% score CI 85.1–100.0%）、NPA 100.0%（151/151、95% score CI 97.5–100.0%）。",
+   "refs": [
+    {
+     "source": "S141",
+     "page": 15,
+     "quote": "the results of the clinical performance evaluation for influenza A demonstrated 97.7% PPA (43/44; 95% score CI: 88.2% - 99.6%) and 99.2% NPA (131/132; 95% score CI: 95.8% – 99.9%) as compared to the comparator method."
+    },
+    {
+     "source": "S141",
+     "page": 16,
+     "quote": "the results of the clinical performance evaluation for influenza B demonstrated 100.0% PPA (22/22; 95% score CI: 85.1% - 100.0%) and 100.0% NPA (151/151; 95% score CI: 97.5% - 100.0%) as compared to the comparator method."
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "cobas Liat", "category": "POC-NAAT"},
+   "authority": "廠商",
+   "keywords": ["cobas Liat準不準", "羅氏PCR快篩", "分子快篩儀器"],
+   "note": "台灣在用證據見 _研究紀錄_TEST.md"
+  },
+  {
+   "id": "flu-test-tw-idnow-perf",
+   "type": "table-row",
+   "label": "ID NOW Influenza A & B 2：Direct Swab／VTM 對 PCR 效能",
+   "summary": "ID NOW Influenza A & B 2 原廠 Product Sheet（對 PCR）：Direct Swab Flu A sensitivity 96.3%、specificity 97.4%；Flu B sensitivity 100%、specificity 97.1%。VTM Flu A sensitivity 92.8%、specificity 98.5%；Flu B sensitivity 100%、specificity 97.7%。",
+   "refs": [
+    {
+     "source": "S142",
+     "page": 2,
+     "quote": "ID NOW INFLUENZA A & B 2 VS. PCR",
+     "region": [388, 400, 556, 410]
+    },
+    {
+     "source": "S142",
+     "page": 2,
+     "quote": "Flu A 96.3% 97.4%",
+     "region": [388, 433, 556, 443]
+    },
+    {
+     "source": "S142",
+     "page": 2,
+     "quote": "Flu B 100% 97.1%",
+     "region": [388, 454, 556, 464]
+    },
+    {
+     "source": "S142",
+     "page": 2,
+     "quote": "Flu A 92.8% 98.5%",
+     "region": [388, 495, 556, 505]
+    },
+    {
+     "source": "S142",
+     "page": 2,
+     "quote": "Flu B 100% 97.7%",
+     "region": [388, 516, 556, 526]
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "ID NOW", "category": "POC-NAAT"},
+   "authority": "廠商",
+   "keywords": ["ID NOW準不準", "亞培分子快篩", "13分鐘快篩", "等溫核酸放大"],
+   "note": "台灣在用證據見 _研究紀錄_TEST.md（北榮醫材警訊公告具名列出採購）"
+  },
+  {
+   "id": "flu-test-tw-xpert-npswab-perf",
+   "type": "fact",
+   "label": "Xpert Xpress Flu/RSV：NP swab 合併資料集對 PCR 效能",
+   "summary": "Xpert Xpress Flu/RSV 對分子比較法（NP swab 合併資料集，n=2051）：Flu A PPA 98.1%、NPA 98.8%；Flu B PPA 100%、NPA 99.1%。",
+   "refs": [
+    {
+     "source": "S143",
+     "page": 27,
+     "quote": "A total of 2051 NP swab specimens were tested for influenza A, influenza B and RSV by the Xpert Xpress Flu/RSV test and the comparator assay."
+    },
+    {
+     "source": "S143",
+     "page": 27,
+     "quote": "For the combined dataset, the Xpert Xpress Flu/RSV test demonstrated a PPA and NPA of 98.1% and 98.8% for the detection of influenza A, respectively; 100% and 99.1% for influenza B respectively; and 98.4% and 99.3% for RSV, respectively, relative to the comparator assay (Table 9)."
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "Xpert Xpress Flu/RSV", "category": "POC-NAAT"},
+   "authority": "廠商",
+   "keywords": ["Xpert準不準", "賽沛快篩", "Cepheid分子檢測"],
+   "note": "台灣在用證據見 _研究紀錄_TEST.md（北榮醫材警訊公告具名列出採購）"
+  },
+  {
+   "id": "flu-test-tw-xpert-nsswab-perf",
+   "type": "fact",
+   "label": "Xpert Xpress Flu/RSV：NS 檢體對 PCR 效能",
+   "summary": "Xpert Xpress Flu/RSV 對分子比較法（NS 檢體，n=1598）：Flu A PPA 98.9%、NPA 97.5%；Flu B PPA 98.4%、NPA 99.3%。",
+   "refs": [
+    {
+     "source": "S143",
+     "page": 28,
+     "quote": "A total of 1598 NS specimens were tested for influenza A and influenza B by the Xpert Xpress Flu/RSV test and the comparator assay."
+    },
+    {
+     "source": "S143",
+     "page": 28,
+     "quote": "The Xpert Xpress Flu/RSV test demonstrated a PPA and NPA relative to the comparator method of 98.9% and 97.5%, for detection of Flu A, respectively; 98.4% and 99.3% for Flu B, respectively; and 98.2% and 99.1%, for detection of RSV, respectively (Table 10)."
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "Xpert Xpress Flu/RSV", "category": "POC-NAAT"},
+   "authority": "廠商",
+   "keywords": ["Xpert準不準", "賽沛快篩", "Cepheid分子檢測"],
+   "note": "台灣在用證據見 _研究紀錄_TEST.md"
+  },
+  {
+   "id": "flu-test-tw-filmarray-flua-perf",
+   "type": "table-row",
+   "label": "FilmArray RP2：Influenza A 前瞻性臨床效能",
+   "summary": "FilmArray 新一代呼吸道病原套組前瞻性臨床試驗（對 PCR／其他 FDA 核准分子比較法）：Influenza A 整體 PPA 100%（78/78、95.3–100）、NPA 100%（1531/1531、99.7–100）。",
+   "refs": [
+    {
+     "source": "S144",
+     "page": 49,
+     "quote": "78/78 100 95.3-100 1531/1531 100 99.7-100",
+     "region": [45, 481, 540, 492]
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "FilmArray RP2", "category": "POC-NAAT"},
+   "authority": "廠商",
+   "keywords": ["FilmArray準不準", "多重病原套組", "呼吸道病原套組", "一次驗多種病毒"],
+   "note": "Table 29 (page 49) Overall 列；台灣在用證據見 _研究紀錄_TEST.md（成大醫院、長庚醫院等多家醫學中心）"
+  },
+  {
+   "id": "flu-test-tw-filmarray-flub-perf",
+   "type": "table-row",
+   "label": "FilmArray RP2：Influenza B 前瞻性臨床效能",
+   "summary": "FilmArray 新一代呼吸道病原套組前瞻性臨床試驗：Influenza B 整體 PPA 100%（14/14、78.5–100）、NPA 99.9%（1596/1598、99.5–100）。",
+   "refs": [
+    {
+     "source": "S144",
+     "page": 49,
+     "quote": "14/14 100 78.5-100 1596/1598 99.9 99.5-100",
+     "region": [45, 652, 540, 663]
+    }
+   ],
+   "tags": {"group": "台灣常見機型效能（原廠說明書）", "device": "FilmArray RP2", "category": "POC-NAAT"},
+   "authority": "廠商",
+   "keywords": ["FilmArray準不準", "多重病原套組", "呼吸道病原套組", "一次驗多種病毒"],
+   "note": "Table 29 (page 49) Overall 列；台灣在用證據見 _研究紀錄_TEST.md"
+  }
+ ]
+}
