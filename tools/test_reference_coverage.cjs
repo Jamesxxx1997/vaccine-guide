@@ -59,7 +59,8 @@ function checkPDFGeometry(items){for(const {view:v} of items){if(!v)continue;for
   for(const row of doc.querySelectorAll('#srcTbl tr')){
     const key=row.cells[0].textContent.trim();if(!documents[key]?.pages)continue;
     // pagesOnly:"claims" 的來源（仿單／指引原件）只渲染被引用頁，可能沒有第 1 頁：標題無法定位屬預期，只要求不拋錯
-    if(!documents[key].pages.some(p=>p.page===1)){evidence(row.cells[0]);continue;}
+    // 同理，pagesOnly:"claims" 的來源不再輸出逐字 glyph（chars），標題在瀏覽器端無法即時定位，只要求不拋錯（claim 本身用預先算好的 rects）
+    if(!documents[key].pages.some(p=>p.page===1)||documents[key].pagesOnly==='claims'){evidence(row.cells[0]);continue;}
     assert(evidence(row.cells[0])[0].view.rects.length,'Source title not located '+key);
   }
   console.log('PASS initial clinical fields, classifications, 50 minimum-age cells and source titles');
