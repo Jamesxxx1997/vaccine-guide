@@ -8,9 +8,11 @@
     {"id":"flu-av-oseltamivir-dose-adult",           ← 全站唯一
      "type":"fact|rule|table-row|qa",
      "label":"Oseltamivir 成人治療劑量",
-     "summary":"75 mg 每日兩次，共 5 天。",          ← 中文整理句；裡面的每個數字都必須出現在某條引句
+     "summary":"75 mg 每日兩次，共 5 天[[1]]；腎功能不全需調整[[2]]。",   ← 中文整理句；[[n]]＝緊接子句的句中引註（n 是本 item 第 n 個 ref）；每個數字都必須出現在某條引句
      "refs":[{"source":"S94","page":3,"quote":"逐字…","region":[x0,y0,x1,y1]（可選）,"note":"（可選）"}, …],
      "tags":{"drug":"oseltamivir","population":"adult","purpose":"treatment"},   ← 選擇器／篩選用，自由鍵值
+             "topic":"議題名（同議題的 item 合成一張卡）",
+             "row":{"次族群":"整體","流感 A 敏感度":"54.4%（48.9–59.8）[[1]]", …}   ← 估計值表：同議題每個 item 都有 row 就渲染成表（一列＝一工具×次族群），每格自帶 [[n]]；格內數字也受引句檢查
      "authority":"TFDA|疾管署|CDC|WHO|IDSA|ACIP|paper|廠商",
      "keywords":["快篩陰性","克流感","要不要吃"],          ← 寫死的搜尋關鍵字（民眾用語／同義詞），給站內關鍵字搜尋用，不經 LLM
      "question":"（type=qa 時）民眾問法",
@@ -43,6 +45,7 @@ def norm(s: str) -> str:
 
 def numbers_ok(summary: str, quotes: list[str]) -> list[str]:
     """回傳 summary 裡沒有出現在任何引句的數字（去空白、全形化後比對）。"""
+    summary = re.sub(r'\[\[\d+\]\]', '', summary)  # 句中引註標記本身的數字（如 [[2]]）不是臨床數字，掃描前先剝除
     hay = norm(' '.join(quotes))
     missing = []
     for n in NUM.findall(norm(summary)):
@@ -115,7 +118,21 @@ def main():
                     item['region'] = [float(v) for v in r['region']]
                 claims[cid] = dict(note=it.get('note', ''), items=[item])
                 out_refs.append(dict(claim=cid, source=r['source'], page=int(r['page']), quote=r['quote'], note=r.get('note', '')))
-            missing = numbers_ok(it['summary'] + ' ' + (it.get('answer') or ''), [r['quote'] for r in it['refs']])
+            # 句中引註：summary／answer 可寫 [[n]]（n＝該 item 第 n 個 ref，從 1 起），渲染成緊接子句的 [n]；沒被句中引用的 ref 會排在句尾
+            for m_ in re.finditer(r'\[\[(\d+)\]\]', it['summary'] + ' ' + (it.get('answer') or '')):
+                if not (1 <= int(m_.group(1)) <= len(it['refs'])):
+                    raise SystemExit(f'✗ {path.name}：{it["id"]} 句中引註 [[{m_.group(1)}]] 超出 refs 數（{len(it["refs"])}）')
+            # tags.row：估計值表的一列（{欄名:格文字}；格內可寫 [[n]]），同一議題每個 item 都有 row 才會渲染成表；格內數字同樣必須出現在引句
+            row = (it.get('tags') or {}).get('row')
+            row_text = ''
+            if row is not None:
+                if not isinstance(row, dict) or not row:
+                    raise SystemExit(f'✗ {path.name}：{it["id"]} tags.row 必須是非空物件')
+                row_text = ' '.join(str(v) for v in row.values())
+                for m_ in re.finditer(r'\[\[(\d+)\]\]', row_text):
+                    if not (1 <= int(m_.group(1)) <= len(it['refs'])):
+                        raise SystemExit(f'✗ {path.name}：{it["id"]} tags.row 句中引註 [[{m_.group(1)}]] 超出 refs 數（{len(it["refs"])}）')
+            missing = numbers_ok(it['summary'] + ' ' + (it.get('answer') or '') + ' ' + row_text, [r['quote'] for r in it['refs']])
             if missing:
                 raise SystemExit(f'✗ {path.name}：{it["id"]} 整理句含未引用原句的數字 {missing}——請補引句或刪掉數字')
             panel.append(dict(id=it['id'], type=it['type'], label=it['label'], summary=it['summary'], refs=out_refs, basedOn=it.get('basedOn', []),

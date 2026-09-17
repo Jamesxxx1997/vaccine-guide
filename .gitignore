@@ -12,3 +12,4 @@ HANDOFF_CODEX.md
 # Personal textbook extracts are not used by the website and are not republished.
 sources/_text/handbook/
 tmp/
+review/.check-cl-*.json

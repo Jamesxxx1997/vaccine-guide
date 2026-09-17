@@ -6,7 +6,7 @@
    "id": "flu-av-oseltamivir-indication",
    "type": "fact",
    "label": "Oseltamivir（克流感）適應症",
-   "summary": "治療：成人和兒童（包含足月新生兒）之流感。預防：成人及 1 歲以上兒童。",
+   "summary": "治療：成人和兒童（包含足月新生兒）之流感[[1]][[2]]。預防：成人及 1 歲以上兒童[[1]]。",
    "refs": [
     {
      "source": "S112",
@@ -103,7 +103,7 @@
    "id": "flu-av-oseltamivir-dose-child-23-40",
    "type": "table-row",
    "label": "Oseltamivir 1 歲以上兒童治療劑量（體重 >23–40 公斤）",
-   "summary": "體重 >23–40 公斤：60 mg 每天 2 次。",
+   "summary": "體重 >23–40 公斤[[1]]：60 mg 每天 2 次[[2]]。",
    "refs": [
     {
      "source": "S112",
@@ -641,7 +641,7 @@
    "id": "flu-av-oseltamivir-neuropsychiatric-warning",
    "type": "fact",
    "label": "Oseltamivir 神經精神事件警語",
-   "summary": "服用期間曾有癲癇和類似精神錯亂之神經精神事件報告，多數為小孩和青少年；須嚴密監測流感病人（特別是小孩和青少年）之不尋常行為徵兆。",
+   "summary": "服用期間曾有癲癇和類似精神錯亂之神經精神事件報告，多數為小孩和青少年[[1]]；須嚴密監測流感病人（特別是小孩和青少年）之不尋常行為徵兆[[2]][[3]]。",
    "refs": [
     {
      "source": "S112",
@@ -678,7 +678,7 @@
    "id": "flu-av-oseltamivir-neuropsychiatric-taiwan-cases",
    "type": "fact",
    "label": "Oseltamivir 神經精神事件我國案例",
-   "summary": "我國曾有 10 歲以上之未成年人病人，於服用本藥後發生行為及感覺異常、幻覺、嗜睡或意識障礙等情況，在日本亦有類似案例，甚至有墜樓等事故報告。",
+   "summary": "我國曾有 10 歲以上之未成年人病人，於服用本藥後發生行為及感覺異常、幻覺、嗜睡或意識障礙等情況[[1]][[2]]，在日本亦有類似案例，甚至有墜樓等事故報告[[1]]。",
    "refs": [
     {
      "source": "S112",
@@ -1061,7 +1061,7 @@
    "id": "flu-av-zanamivir-dose-treatment",
    "type": "fact",
    "label": "Zanamivir 治療劑量與時機",
-   "summary": "成人治療劑量：連續 5 天，每天兩次，每次吸入兩劑（2×5 mg），每天總吸入劑量 20 mg；症狀出現後應盡快開始治療（最好在兩天之內）。",
+   "summary": "成人治療劑量：連續 5 天，每天兩次，每次吸入兩劑（2×5 mg），每天總吸入劑量 20 mg[[1]]；症狀出現後應盡快開始治療（最好在兩天之內）[[2]]。",
    "refs": [
     {
      "source": "S110",
@@ -1093,7 +1093,7 @@
    "id": "flu-av-zanamivir-dose-prevention",
    "type": "fact",
    "label": "Zanamivir 預防劑量與療程",
-   "summary": "預防性治療劑量：連續 10 天，每天一次吸入兩劑（2×5 mg），每天總吸入劑量 10 mg；接觸風險超過 10 天可延長療程，最多延長至 1 個月。",
+   "summary": "預防性治療劑量：連續 10 天，每天一次吸入兩劑（2×5 mg），每天總吸入劑量 10 mg[[1]]；接觸風險超過 10 天可延長療程，最多延長至 1 個月[[2]]。",
    "refs": [
     {
      "source": "S110",
@@ -1153,7 +1153,7 @@
    "id": "flu-av-zanamivir-contraindication",
    "type": "fact",
    "label": "Zanamivir 禁忌",
-   "summary": "對本製劑中之任何成分過敏者禁用；禁用於對乳蛋白嚴重過敏者。",
+   "summary": "對本製劑中之任何成分過敏者禁用[[1]]；禁用於對乳蛋白嚴重過敏者[[2]]。",
    "refs": [
     {
      "source": "S110",
@@ -1264,7 +1264,7 @@
    "id": "flu-av-peramivir-indication",
    "type": "fact",
    "label": "Peramivir（瑞貝塔）適應症",
-   "summary": "治療成人及一個月大以上兒童之 A 型及 B 型流感病毒急性感染；本藥用於預防使用之有效性及安全性尚未確立。",
+   "summary": "治療成人及一個月大以上兒童之 A 型及 B 型流感病毒急性感染[[1]]；本藥用於預防使用之有效性及安全性尚未確立[[2]]。",
    "refs": [
     {
      "source": "S97",

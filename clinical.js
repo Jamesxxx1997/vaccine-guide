@@ -15,6 +15,41 @@
     refs.forEach((r,i)=>{const a=node('a','['+(offset+i+1)+']','ref-mark');a.href='#';a.title=(srcName(r.source)||r.source)+' 第 '+r.page+' 頁'+(r.note?' · '+r.note:'');a.onclick=e=>e.preventDefault();bind(a,r.claim,r.quote);wrap.append(a,' ');});
     return wrap;
   }
+  // 整理句渲染：[[n]] → 緊接子句的 [offset+n] 標記；沒在句中引用的 ref 補在句尾（像論文那樣每個子句各標自己的來源）
+  // 表格格：只渲染 [[n]] 句中引註（不補句尾）；回傳 fragment 並把用到的 ref 索引加進 used
+  function cellWithMarks(text,refs,offset,used){
+    const frag=document.createDocumentFragment();const re=/\[\[(\d+)\]\]/g;let last=0,m;
+    while((m=re.exec(text))){const n=parseInt(m[1],10);frag.append(text.slice(last,m.index));const r=refs[n-1];if(r){used.add(n-1);frag.append(marks([r],offset+n-1));}last=re.lastIndex;}
+    frag.append(text.slice(last));return frag;
+  }
+  // 估計值表：同一議題的每個 item 都帶 tags.row（{欄名:格文字}）時，以表格呈現（一列＝一個工具×次族群的 pooled estimate＋95% CI），每格各自帶 [n]；欄序＝首次出現順序
+  function estimateTable(items,orderedRefs){
+    const cols=[];for(const it of items)for(const k of Object.keys(it.tags.row))if(!cols.includes(k))cols.push(k);
+    // 每列的 [n] 依「格內首次出現」順序編號（左→右），沒被格引用的 ref 排最後（來源欄）；原句清單照同一順序列
+    const orderOf=it=>{const seen=[];for(const k of cols){const v=it.tags.row[k];if(v===undefined||v===null)continue;for(const m of String(v).matchAll(/\[\[(\d+)\]\]/g)){const i=parseInt(m[1],10)-1;if(it.refs[i]&&!seen.includes(i))seen.push(i);}}for(let i=0;i<it.refs.length;i++)if(!seen.includes(i))seen.push(i);return seen;};
+    const wrap=node('div',undefined,'table-wrap');const table=node('table',undefined,'clinical-est');const thead=node('thead');const hr=node('tr');
+    for(const k of cols)hr.append(node('th',k));hr.append(node('th','來源'));thead.append(hr);table.append(thead);
+    const tbody=node('tbody');let offset=0;
+    for(const it of items){
+      const tr=node('tr');tr.dataset.clinicalItem=it.id;const used=new Set();const order=orderOf(it);const pos=i=>order.indexOf(i);
+      const cell=(text)=>{const frag=document.createDocumentFragment();const re=/\[\[(\d+)\]\]/g;let last=0,m;while((m=re.exec(text))){const i=parseInt(m[1],10)-1;frag.append(text.slice(last,m.index));const r=it.refs[i];if(r){used.add(i);frag.append(marks([r],offset+pos(i)));}last=re.lastIndex;}frag.append(text.slice(last));return frag;};
+      for(const k of cols){const td=node('td');const v=it.tags.row[k];if(v===undefined||v===null||v==='')td.append('—');else td.append(cell(String(v)));tr.append(td);}
+      const src=node('td');src.append(node('span',AUTH_LABEL[it.authority]||it.authority||'來源','origin-badge'));
+      const rest=order.filter(i=>!used.has(i));
+      if(rest.length){src.append(' ');const w=node('span',undefined,'ref-marks');for(const i of rest)w.append(marks([it.refs[i]],offset+pos(i)));src.append(w);}
+      tr.append(src);tbody.append(tr);offset+=it.refs.length;if(orderedRefs)orderedRefs.push(...order.map(i=>it.refs[i]));
+    }
+    table.append(tbody);wrap.append(table);return wrap;
+  }
+  function summaryWithMarks(text,refs,offset=0){
+    const frag=document.createDocumentFragment();const used=new Set();
+    const re=/\[\[(\d+)\]\]/g;let last=0,m;
+    while((m=re.exec(text))){const n=parseInt(m[1],10);frag.append(text.slice(last,m.index));const r=refs[n-1];if(r){used.add(n-1);frag.append(marks([r],offset+n-1));}last=re.lastIndex;}
+    frag.append(text.slice(last));
+    const rest=refs.map((r,i)=>[r,i]).filter(([,i])=>!used.has(i));
+    if(rest.length){frag.append(' ');const wrap=node('span',undefined,'ref-marks');for(const [r,i] of rest)wrap.append(marks([r],offset+i));frag.append(wrap);}
+    return frag;
+  }
   function quoteLines(refs,offset=0){
     const frag=document.createDocumentFragment();
     refs.forEach((r,i)=>{const q=node('q',r.quote,'adverse-quote');bind(q,r.claim,r.quote);const line=node('p');line.append(node('b','['+(offset+i+1)+'] '),q,' ',node('small','— '+(srcName(r.source)||r.source)+'，第 '+r.page+' 頁'+(r.note?'（'+r.note+'）':''),'sub'));frag.append(line);});
@@ -25,9 +60,14 @@
     const card=node('section',undefined,'card clinical-item clinical-topic');card.dataset.clinicalTopic=topic;card.dataset.clinicalItem=items[0].id;card.dataset.refUi='';
     card.append(node('h4',topic));
     let offset=0;const allRefs=[];
+    if(items.every(it=>it.tags&&it.tags.row&&typeof it.tags.row==='object')){
+      card.append(estimateTable(items,allRefs));
+      const det=node('details',undefined,'clinical-quotes');det.append(node('summary','原句（'+allRefs.length+'）'));det.append(quoteLines(allRefs));card.append(det);
+      return card;
+    }
     for(const it of items){
       const line=node('p',undefined,'clinical-summary');line.dataset.clinicalItem=it.id;
-      line.append(node('span',AUTH_LABEL[it.authority]||it.authority||'來源','origin-badge'),' ',it.answer||it.summary,' ',marks(it.refs,offset));
+      line.append(node('span',AUTH_LABEL[it.authority]||it.authority||'來源','origin-badge'),' ',summaryWithMarks(it.answer||it.summary,it.refs,offset));
       card.append(line);offset+=it.refs.length;allRefs.push(...it.refs);
     }
     const det=node('details',undefined,'clinical-quotes');det.append(node('summary','原句（'+allRefs.length+'）'));det.append(quoteLines(allRefs));card.append(det);
@@ -39,7 +79,7 @@
     const h=node('h4');h.append(it.type==='qa'&&it.question?it.question:it.label);
     if(it.authority)h.append(' ',node('span',AUTH_LABEL[it.authority]||it.authority,'origin-badge'));
     card.append(h);
-    const p=node('p',undefined,'clinical-summary');p.append(it.answer||it.summary,' ',marks(it.refs));card.append(p);
+    const p=node('p',undefined,'clinical-summary');p.append(summaryWithMarks(it.answer||it.summary,it.refs));card.append(p);
     const det=node('details',undefined,'clinical-quotes');det.append(node('summary','原句（'+it.refs.length+'）'));det.append(quoteLines(it.refs));
     card.append(det);
     return card;
@@ -89,7 +129,7 @@
         const top=hits.map(r=>r.tags.verdict).sort((a,b)=>order.indexOf(a)-order.indexOf(b))[0]||'無對應規則';
         const h=node('h4');h.append(name+'：',node('span',top,'allergy-verdict '+(VERDICT_CLASS[top]||'')));card.append(h);
         if(!hits.length)card.append(node('p','此條件沒有規則命中；請看下方仿單事實。','sub'));
-        for(const r of hits){const line=node('p');line.append(node('b',r.tags.verdict+'：'),r.summary,' ',marks(r.refs));card.append(line);}
+        for(const r of hits){const line=node('p');line.append(node('b',r.tags.verdict+'：'),summaryWithMarks(r.summary,r.refs));card.append(line);}
         out.append(card);
       }
     });
@@ -111,7 +151,7 @@
       let heading=false;
       for(const it of list){
         const t=it.tags&&it.tags.topic;
-        if(t&&byTopic.get(t).length>1){if(done.has(t))continue;done.add(t);if(g&&!heading){wrap.append(node('h3',g));heading=true;}wrap.append(topicCard(t,byTopic.get(t)));}
+        if(t&&(byTopic.get(t).length>1||(it.tags&&it.tags.row))){/* 多條同議題，或單列估計值表，都用議題卡 */if(done.has(t))continue;done.add(t);if(g&&!heading){wrap.append(node('h3',g));heading=true;}wrap.append(topicCard(t,byTopic.get(t)));}
         else{if(g&&!heading){wrap.append(node('h3',g));heading=true;}wrap.append(itemCard(it));}
       }
     }
@@ -126,7 +166,7 @@
     const out=[];
     for(const [pid,list] of Object.entries(disease.panels)){
       for(const it of list){
-        const fields=[['q',normQ(it.question)],['k',(it.keywords||[]).map(normQ).join('\u0001')],['l',normQ(it.label)],['s',normQ((it.answer||it.summary))],['g',normQ((it.tags&&it.tags.group)||'')],['t',Object.values(it.tags||{}).filter(v=>typeof v==='string').map(normQ).join('\u0001')]];
+        const fields=[['q',normQ(it.question)],['k',(it.keywords||[]).map(normQ).join('\u0001')],['l',normQ(it.label)],['s',normQ(String(it.answer||it.summary).replace(/\[\[\d+\]\]/g,''))],['g',normQ((it.tags&&it.tags.group)||'')],['r',normQ(Object.values((it.tags&&it.tags.row)||{}).join(' ').replace(/\[\[\d+\]\]/g,''))],['t',Object.values(it.tags||{}).filter(v=>typeof v==='string').map(normQ).join('\u0001')]];
         let score=0,hit=[];
         for(const term of terms){let best=0;for(const [f,txt] of fields){if(txt&&txt.includes(term)){const w={q:5,k:5,l:3,g:2,t:2,s:1}[f];if(w>best)best=w;}}if(best){score+=best*term.length;hit.push(term);}}
         if(hit.length===terms.length||(hit.length&&hit.length>=Math.ceil(terms.length*0.6)))out.push({item:it,panel:pid,score:score+hit.length*4,hit});

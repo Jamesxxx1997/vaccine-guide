@@ -6,7 +6,7 @@
    "id": "flu-rule-oselt-treat",
    "type": "rule",
    "label": "Oseltamivir 治療適用",
-   "summary": "治療適應症涵蓋成人與兒童（含足月新生兒）；應在出現症狀的第一或第二天內開始。",
+   "summary": "治療適應症涵蓋成人與兒童（含足月新生兒）[[1]][[2]]；應在出現症狀的第一或第二天內開始[[3]][[4]]。",
    "refs": [],
    "basedOn": [
     "flu-av-oseltamivir-indication",
@@ -26,7 +26,7 @@
    "id": "flu-rule-oselt-pep",
    "type": "rule",
    "label": "Oseltamivir 暴露後預防適用",
-   "summary": "預防適應症為成人及 1 歲以上兒童；密切接觸後 75 mg 每天一次服用 10 天，須在接觸後兩天內開始。",
+   "summary": "預防適應症為成人及 1 歲以上兒童[[1]][[2]]；密切接觸後 75 mg 每天一次服用 10 天，須在接觸後兩天內開始[[3]][[4]]。",
    "refs": [],
    "basedOn": [
     "flu-av-oseltamivir-indication",
@@ -190,7 +190,7 @@
    "id": "flu-rule-oselt-inpatient",
    "type": "rule",
    "label": "Oseltamivir 住院／重症首選（CDC）",
-   "summary": "CDC：住院或病程惡化者應儘快以口服或腸道給予 oseltamivir；即使超過 48 小時仍可能有效。",
+   "summary": "CDC：住院或病程惡化者應儘快以口服或腸道給予 oseltamivir[[1]][[2]][[3]][[4]][[5]]；即使超過 48 小時仍可能有效[[6]]。",
    "refs": [],
    "basedOn": [
     "flu-rec-cdc-hosp-oseltamivir-first",
@@ -210,7 +210,7 @@
    "id": "flu-rule-oselt-who-nonsevere",
    "type": "rule",
    "label": "Oseltamivir 非重症：WHO 立場不同",
-   "summary": "WHO 2024 對非重症流感強烈建議不要用 oseltamivir；疾管署與美國 CDC 未排除門診使用，三方並列供判斷。",
+   "summary": "WHO 2024 對非重症流感強烈建議不要用 oseltamivir[[1]][[2]][[3]][[4]][[5]]；疾管署與美國 CDC 未排除門診使用，三方並列供判斷。",
    "refs": [],
    "basedOn": [
     "flu-rec-who-oseltamivir-nonsevere-against",
@@ -230,7 +230,7 @@
    "id": "flu-rule-oselt-late",
    "type": "rule",
    "label": "Oseltamivir 門診超過 48 小時",
-   "summary": "仿單：須在症狀第一或第二天內開始；疾管署：發病後 48 小時內投予效果最好，不需等檢驗確診。",
+   "summary": "仿單：須在症狀第一或第二天內開始[[1]][[2]]；疾管署：發病後 48 小時內投予效果最好，不需等檢驗確診[[3]][[4]]。",
    "refs": [],
    "basedOn": [
     "flu-av-oseltamivir-timing",
@@ -251,7 +251,7 @@
    "id": "flu-rule-oselt-neuro",
    "type": "rule",
    "label": "Oseltamivir 神經精神事件警語",
-   "summary": "小孩與青少年須嚴密監測不尋常行為；我國曾有 10 歲以上未成年人案例。",
+   "summary": "小孩與青少年須嚴密監測不尋常行為[[1]][[2]][[3]]；我國曾有 10 歲以上未成年人案例[[4]][[5]]。",
    "refs": [],
    "basedOn": [
     "flu-av-oseltamivir-neuropsychiatric-warning",
@@ -290,7 +290,7 @@
    "id": "flu-rule-zana-treat",
    "type": "rule",
    "label": "Zanamivir 治療適用",
-   "summary": "5 歲以上：連續 5 天每天兩次，每次吸入 2×5 mg；症狀出現後盡快開始。",
+   "summary": "5 歲以上：連續 5 天每天兩次，每次吸入 2×5 mg[[1]][[2]]；症狀出現後盡快開始[[3]]。",
    "refs": [],
    "basedOn": [
     "flu-av-zanamivir-indication",
@@ -426,7 +426,7 @@
    "id": "flu-rule-pera-treat",
    "type": "rule",
    "label": "Peramivir 治療適用",
-   "summary": "成人及一個月以上兒童：成人 300 mg 單次靜脈點滴，兒童 10 mg/kg，每次最多 600 mg；宜於症狀後 48 小時內。",
+   "summary": "成人及一個月以上兒童[[1]][[2]]：成人 300 mg 單次靜脈點滴[[3]]，兒童 10 mg/kg，每次最多 600 mg[[4]]；宜於症狀後 48 小時內[[5]]。",
    "refs": [],
    "basedOn": [
     "flu-av-peramivir-indication",
@@ -468,7 +468,7 @@
    "id": "flu-rule-pera-inpatient",
    "type": "rule",
    "label": "Peramivir 住院重症有效性未確立",
-   "summary": "仿單：對需住院之嚴重流感病人有效性尚未確立；CDC：僅無法口服或腸道吸收時才考慮靜脈 peramivir，非常規。",
+   "summary": "仿單：對需住院之嚴重流感病人有效性尚未確立[[1]][[2]]；CDC：僅無法口服或腸道吸收時才考慮靜脈 peramivir，非常規[[3]]。",
    "refs": [],
    "basedOn": [
     "flu-av-peramivir-hospitalized-severe-not-established",
@@ -545,7 +545,7 @@
    "id": "flu-rule-balo-treat-lt80",
    "type": "rule",
    "label": "Baloxavir 治療劑量（20–80 公斤）",
-   "summary": "體重 20 公斤以上未滿 80 公斤：單次口服 40 mg；症狀後 48 小時內。",
+   "summary": "體重 20 公斤以上未滿 80 公斤：單次口服 40 mg[[2]]；症狀後 48 小時內[[3]]。",
    "refs": [],
    "basedOn": [
     "flu-av-baloxavir-indication-treatment",
@@ -569,7 +569,7 @@
    "id": "flu-rule-balo-treat-ge80",
    "type": "rule",
    "label": "Baloxavir 治療劑量（≥80 公斤）",
-   "summary": "體重 80 公斤以上：單次口服 80 mg；症狀後 48 小時內。",
+   "summary": "體重 80 公斤以上：單次口服 80 mg[[2]]；症狀後 48 小時內[[3]]。",
    "refs": [],
    "basedOn": [
     "flu-av-baloxavir-indication-treatment",
@@ -592,7 +592,7 @@
    "id": "flu-rule-balo-pep",
    "type": "rule",
    "label": "Baloxavir 暴露後預防適用",
-   "summary": "5 歲以上且 20 公斤以上，密切接觸後 48 小時內單次使用。",
+   "summary": "5 歲以上且 20 公斤以上[[1]]，密切接觸後 48 小時內單次使用[[2]]。",
    "refs": [],
    "basedOn": [
     "flu-av-baloxavir-indication-prevention",
@@ -633,7 +633,7 @@
    "id": "flu-rule-balo-pregnant",
    "type": "rule",
    "label": "Baloxavir 懷孕與哺乳",
-   "summary": "孕期投藥安全性未確立，須判斷有益性高於危險性；哺乳婦投藥療程中避免哺餵。",
+   "summary": "孕期投藥安全性未確立，須判斷有益性高於危險性[[1]]；哺乳婦投藥療程中避免哺餵[[2]]。",
    "refs": [],
    "basedOn": [
     "flu-av-baloxavir-pregnancy",
@@ -689,7 +689,7 @@
    "id": "flu-rule-balo-highrisk-evidence",
    "type": "rule",
    "label": "Baloxavir 非重症高風險：WHO 與證據",
-   "summary": "WHO 2024 對非重症高風險族群條件性建議支持 baloxavir；JAMA IM 2025 顯示症狀緩解較快、高風險住院可能減少（低確定性）、治療後可能出現抗藥性。",
+   "summary": "WHO 2024 對非重症高風險族群條件性建議支持 baloxavir[[1]][[2]][[3]][[4]][[5]]；JAMA IM 2025 顯示症狀緩解較快[[6]]、高風險住院可能減少（低確定性）[[7]]、治療後可能出現抗藥性[[8]]。",
    "refs": [],
    "basedOn": [
     "flu-rec-who-baloxavir-nonsevere-for",
@@ -712,7 +712,7 @@
    "id": "flu-rule-favi-reserve",
    "type": "rule",
    "label": "Favipiravir 為儲備藥，非季節性流感常規用藥",
-   "summary": "PMDA 核准適應症限新型或再現大流行流感且其他抗流感藥無效或效果不足；季節性流感療效未獲確認；WHO 2024 對非重症強烈建議不要使用。",
+   "summary": "PMDA 核准適應症限新型或再現大流行流感且其他抗流感藥無效或效果不足[[1]]；季節性流感療效未獲確認[[2]]；WHO 2024 對非重症強烈建議不要使用[[3]][[4]][[5]][[6]][[7]]。",
    "refs": [],
    "basedOn": [
     "flu-av-favipiravir-indication-limitation",

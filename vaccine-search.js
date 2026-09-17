@@ -133,7 +133,7 @@
       const dname=DN[d.id]||d.id;
       for(const [pid,list] of Object.entries(d.panels||{})){
         for(const it of list){
-          const sections=it.refs.length?[{label:it.label,text:(it.answer||it.summary)+' '+it.refs.map(r=>r.quote).join(' '),ref:{claim:it.refs[0].claim}}]:[];
+          const sections=it.refs.length?[{label:it.label,text:String(it.answer||it.summary).replace(/\[\[\d+\]\]/g,'')+' '+it.refs.map(r=>r.quote).join(' '),ref:{claim:it.refs[0].claim}}]:[];
           const tagWords=Object.values(it.tags||{}).filter(v=>typeof v==='string');
           entries.push({id:'clinical:'+it.id,clinical:it,disease:d.id,panel:pid,title:(it.question||it.label)+'（'+dname+'）',category:'疾病臨床（'+dname+'）',
             aliases:[dname,dname+'疫苗',it.question||'',...(it.keywords||[]),...tagWords,...(it.tags&&it.tags.group?[it.tags.group]:[]),...CLINICAL_GENERIC].filter(Boolean),sections});
