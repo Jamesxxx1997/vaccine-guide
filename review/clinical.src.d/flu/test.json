@@ -2193,13 +2193,13 @@
   {
    "id": "flu-test-specimen-idsa",
    "type": "fact",
-   "label": "下呼吸道檢體（IDSA 2018）",
-   "summary": "住院且因呼吸衰竭接受機械通氣的病人，應儘速採集氣管內抽吸液或支氣管肺泡沖洗液進行流感檢驗，包含上呼吸道檢體已呈陰性者（A-II）[[1]]。",
+   "label": "下呼吸道檢體（IDSA 2018 建議 7）",
+   "summary": "IDSA 建議 7：住院且因呼吸衰竭接受機械通氣的病人，應儘速採集氣管內抽吸液或支氣管肺泡沖洗液進行流感檢驗，包含上呼吸道檢體已呈陰性者（A-II）[[1]]。",
    "refs": [
     {
      "source": "S122",
      "page": 4,
-     "quote": "Clinicians should collect endotracheal aspirate or bronchoal- veolar lavage fluid specimens from hospitalized patients with respiratory failure receiving mechanical ventilation, includ- ing patients with negative influenza testing results on upper respiratory tract specimens, for influenza testing as soon as possible (A-II)."
+     "quote": "7. Clinicians should collect endotracheal aspirate or bronchoal- veolar lavage fluid specimens from hospitalized patients with respiratory failure receiving mechanical ventilation, includ- ing patients with negative influenza testing results on upper respiratory tract specimens, for influenza testing as soon as possible (A-II)."
     }
    ],
    "tags": {
@@ -2257,18 +2257,18 @@
   {
    "id": "flu-test-which-test-idsa",
    "type": "rule",
-   "label": "門診／住院首選檢驗（IDSA 2018）",
-   "summary": "門診病人應優先使用 rapid molecular assay（核酸擴增檢測）而非 RIDT，以提升流感病毒偵測率（A-II）[[1]]；住院病人應優先使用 RT-PCR 或其他分子檢測而非其他流感檢驗方法（A-II）[[2]]。",
+   "label": "門診／住院首選檢驗（IDSA 2018 建議 10、11）",
+   "summary": "IDSA 建議 10：門診病人應優先使用 rapid molecular assay（核酸擴增檢測）而非 RIDT，以提升流感病毒偵測率（A-II）[[1]]；建議 11：住院病人應優先使用 RT-PCR 或其他分子檢測而非其他流感檢驗方法（A-II）[[2]]。",
    "refs": [
     {
      "source": "S122",
      "page": 5,
-     "quote": "Clinicians should use rapid molecular assays (ie, nucleic acid amplification tests) over rapid influenza diagnostic tests (RIDTs) in outpatients to improve detection of influ- enza virus infection (A-II) (see Table 6)."
+     "quote": "10. Clinicians should use rapid molecular assays (ie, nucleic acid amplification tests) over rapid influenza diagnostic tests (RIDTs) in outpatients to improve detection of influ- enza virus infection (A-II) (see Table 6)."
     },
     {
      "source": "S122",
      "page": 5,
-     "quote": "Clinicians should use reverse-transcription polymerase chain reaction (RT-PCR) or other molecular assays over other influenza tests in hospitalized patients to improve detection of influenza virus infection (A-II) (see Table 6)."
+     "quote": "11. Clinicians should use reverse-transcription polymerase chain reaction (RT-PCR) or other molecular assays over other influenza tests in hospitalized patients to improve detection of influenza virus infection (A-II) (see Table 6)."
     }
    ],
    "tags": {

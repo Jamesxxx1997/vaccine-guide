@@ -8150,9 +8150,9 @@
      "page": 4,
      "glyphRows": true,
      "quotes": [
-      "Clinicians should collect endotracheal aspirate or bronchoal- veolar lavage fluid specimens from hospitalized patients with respiratory failure receiving mechanical ventilation, includ- ing patients with negative influenza testing results on upper respiratory tract specimens, for influenza testing as soon as possible (A-II)."
+      "7. Clinicians should collect endotracheal aspirate or bronchoal- veolar lavage fluid specimens from hospitalized patients with respiratory failure receiving mechanical ventilation, includ- ing patients with negative influenza testing results on upper respiratory tract specimens, for influenza testing as soon as possible (A-II)."
      ],
-     "label": "下呼吸道檢體（IDSA 2018） [1]"
+     "label": "下呼吸道檢體（IDSA 2018 建議 7） [1]"
     }
    ]
   },
@@ -8178,9 +8178,9 @@
      "page": 5,
      "glyphRows": true,
      "quotes": [
-      "Clinicians should use rapid molecular assays (ie, nucleic acid amplification tests) over rapid influenza diagnostic tests (RIDTs) in outpatients to improve detection of influ- enza virus infection (A-II) (see Table 6)."
+      "10. Clinicians should use rapid molecular assays (ie, nucleic acid amplification tests) over rapid influenza diagnostic tests (RIDTs) in outpatients to improve detection of influ- enza virus infection (A-II) (see Table 6)."
      ],
-     "label": "門診／住院首選檢驗（IDSA 2018） [1]"
+     "label": "門診／住院首選檢驗（IDSA 2018 建議 10、11） [1]"
     }
    ]
   },
@@ -8192,9 +8192,9 @@
      "page": 5,
      "glyphRows": true,
      "quotes": [
-      "Clinicians should use reverse-transcription polymerase chain reaction (RT-PCR) or other molecular assays over other influenza tests in hospitalized patients to improve detection of influenza virus infection (A-II) (see Table 6)."
+      "11. Clinicians should use reverse-transcription polymerase chain reaction (RT-PCR) or other molecular assays over other influenza tests in hospitalized patients to improve detection of influenza virus infection (A-II) (see Table 6)."
      ],
-     "label": "門診／住院首選檢驗（IDSA 2018） [2]"
+     "label": "門診／住院首選檢驗（IDSA 2018 建議 10、11） [2]"
     }
    ]
   },
