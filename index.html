@@ -230,6 +230,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 @media(max-width:760px){#expanel{width:94vw}}
 </style>
 <link rel="stylesheet" href="reference-ui.css">
+<link rel="stylesheet" href="human-verify.css">
 </head>
 <body>
 
@@ -286,7 +287,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
   <h2>我國現行兒童預防接種時程</h2>
   <p class="sub" style="margin-top:-6px">來源：疾管署《我國現行兒童預防接種時程》<span class="ver">114年1月版</span></p>
 
-  <div class="note" style="border-left-color:var(--go);background:var(--go-soft)">
+  <div class="note" style="border-left-color:var(--go);background:var(--go-soft)" data-verify-unit="alert:rotavirus-2027-public">
     <strong>📅 即將生效：輪狀病毒疫苗 2027-01-01 起納入幼兒公費接種</strong><br>
     衛福部 115-06-30 公告，併同提供 2 劑型及 3 劑型疫苗。<br>
     <strong>接種年齡：</strong>「最小為出生滿 6 週，最大不得超過 8 個月」<br>
@@ -294,7 +295,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
     <span class="src">來源：衛生福利部新聞稿（建檔 115-06-30）　下表為 114 年 1 月版時程，尚未納入此項</span>
   </div>
   <div class="scroller">
-    <table>
+    <table id="childScheduleTbl" data-verify-table="child-schedule">
       <thead><tr><th>疫苗</th><th>接種時程</th></tr></thead>
       <tbody id="childTbl"></tbody>
     </table>
@@ -315,7 +316,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
   <h2>成人預防接種建議時程</h2>
   <p data-ref-ui><a href="#travelSearch">↓ 直接前往旅遊目的地／疫苗查詢</a></p>
   <p class="sub" style="margin-top:-6px">來源：<a href="https://www.cdc.gov.tw/Category/Page/MoZgDU5xEilvKbL54nUTEg" target="_blank" rel="noopener">疾管署《成人預防接種建議時程表》</a> <span class="ver">115 年 5 月版</span>　·　點任一列展開完整說明</p>
-  <div class="note">
+  <div class="note" data-verify-unit="alert:adult-serology-merged">
     抗體判讀（B 肝 anti-HBs、麻疹／德國麻疹免疫力）已併入對應疫苗列，展開 <strong>B 型肝炎疫苗</strong> 或 <strong>MMR</strong> 即可查看。
   </div>
   <div id="adultList"></div>
@@ -454,7 +455,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
   <details class="fold" id="supplementalClasses">
     <summary data-ref-claim="classification-summary">📋 補充製劑分類與官方依據——霍亂須區分品牌／製劑</summary>
     <div class="fold-body">
-      <table style="min-width:0">
+      <table id="supplementalClassTbl" data-verify-table="supplemental-class">
         <thead><tr><th>疫苗／製劑</th><th>分類</th><th>官方依據（點字／停留查原文）</th></tr></thead>
         <tbody>
           <tr data-ref-claim="class-shingrix"><td>帶狀疱疹疫苗（Shingrix 欣剋疹）</td><td>非活性・重組蛋白</td><td>疾管署成人時程表明列「<strong>非活性基因重組帶狀疱疹疫苗</strong>」。〔S4，PDF 第 5 頁〕</td></tr>
@@ -476,7 +477,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
   <h2>間隔通則</h2>
   <p class="sub" style="margin-top:-6px">來源：疾管署《各項預防接種間隔時間一覽表》<span class="ver">115.05 版</span></p>
   <div class="scroller">
-    <table>
+    <table id="intervalGeneralTbl" data-verify-table="interval-general">
       <thead><tr><th style="min-width:150px">組合</th><th>最短間隔時間</th></tr></thead>
       <tbody>
         <tr><td><strong>不活化 ＋ 不活化</strong></td><td>可同時（分開不同部位接種）或間隔任何時間接種。</td></tr>
@@ -493,7 +494,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
   <h2>感染後（含一般感冒）多久可以接種</h2>
   <p class="sub" style="margin-top:-6px">民眾最常問的一題。「中文整理」為本站彙整；「原句摘錄」逐字取自出處原件（官方 PDF，或官方網頁的列印 PDF）；點任一格可開右側面板看原件裁圖與黃框高亮（tools/test_postinfection_quotes.cjs 逐句比對）。</p>
   <div class="scroller">
-    <table id="postinfTbl">
+    <table id="postinfTbl" data-verify-table="postinfection">
       <thead><tr><th style="min-width:150px">情境</th><th style="min-width:240px">中文整理</th><th style="min-width:280px">原句摘錄（逐字）</th><th style="min-width:110px">出處</th></tr></thead>
       <tbody>
         <tr data-ref-claim="postinf-general-cdc"><td><strong>通則：任何感染／感冒之後</strong></td><td>中重度急性病（不論是否發燒）是<strong>所有疫苗</strong>的「注意事項」：延後到急性病改善就可接種。輕症（如一般感冒）接種的安全性與效力已有文獻證實，不必延後。<strong>官方沒有任何「感染後須等 N 天」的通用天數。</strong></td><td><q>The presence of a moderate or severe acute illness with or without a fever is a precaution to administration of all vaccines</q><q>The safety and efficacy of vaccinating persons who have mild illnesses have been documented</q><q>persons with moderate or severe acute illness should be vaccinated as soon as the acute illness has improved</q></td><td>S23（CDC 通則；原 PDF 第 52 頁同段）</td></tr>
@@ -509,9 +510,9 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
   </div>
 
   <h2>血液製劑與活性減毒疫苗的間隔</h2>
-  <div class="note">下列間隔<strong>只適用於 MMR、水痘、JE 等活性減毒疫苗</strong>；不活化疫苗不受血液製劑影響。</div>
+  <div class="note" data-verify-unit="alert:blood-product-live-only">下列間隔<strong>只適用於 MMR、水痘、JE 等活性減毒疫苗</strong>；不活化疫苗不受血液製劑影響。</div>
   <div class="scroller">
-    <table>
+    <table id="bloodProductTbl" data-verify-table="blood-product">
       <thead><tr><th style="min-width:210px">曾接受的血液製劑</th><th>之後應間隔</th></tr></thead>
       <tbody>
         <tr><td>一般肌肉注射免疫球蛋白、HBIG</td><td><strong>3 個月</strong></td></tr>
@@ -527,12 +528,12 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 
   <h2>最小接種年齡與同種疫苗劑次間隔</h2>
   <p class="sub" style="margin-top:-6px">來源：疾管署《各項常規疫苗最小接種年齡與最短接種間隔》<span class="ver">114.4 版</span></p>
-  <div class="note">
+  <div class="note" data-verify-unit="alert:four-day-grace">
     <strong>4 天寬限期：</strong>同種類疫苗（<strong>水痘、MMR、JE 活性減毒除外</strong>）各劑次間，因特殊情況可容許最短接種間隔或最小接種年齡<strong>再提前 4 天</strong>；<strong>提前 5 天（含）以上接種者，該劑視同無效</strong>，須依規範重新安排接種。<br>
     計算基準：<code>1 週 = 7 天</code>　<code>1 個月 = 30 天</code>　<code>1 年 = 365 天</code>
   </div>
   <div class="scroller">
-    <table>
+    <table id="minAgeTable" data-verify-table="min-age">
       <thead><tr><th style="min-width:180px">疫苗</th><th>第 1 劑最小年齡</th><th>1→2 劑</th><th>2→3 劑</th><th>3→4 劑</th></tr></thead>
       <tbody id="minAgeTbl"></tbody>
     </table>
@@ -554,19 +555,19 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 <section class="panel" id="p-contra" role="tabpanel">
   <h2>各項常規疫苗接種禁忌與注意事項</h2>
   <p class="sub" style="margin-top:-6px">來源：疾管署《各項常規疫苗接種禁忌與注意事項》<span class="ver">112.09 版</span></p>
-  <div class="note">
+  <div class="note" data-verify-unit="alert:contra-scope-selfpay">
     <strong>疾管署此表僅涵蓋公費常規疫苗。</strong>帶狀疱疹、RSV、輪狀病毒、六合一、腦膜炎雙球菌已另行查證 <strong>TFDA 中文仿單</strong>補入（下表以「仿單」標示，並附許可證字號）。COVID-19、Mpox、狂犬病、黃熱病仍未取得仿單，禁忌症請自行查閱。<br>
     <strong>高劑量類固醇定義：</strong>體重 &lt;10 公斤者每天使用 ≧2 mg/kg prednisolone；體重 ≧10 公斤者每天使用 20 mg prednisolone。
   </div>
 
-  <div class="note" style="border-left-color:var(--stop);background:var(--stop-soft)">
+  <div class="note" style="border-left-color:var(--stop);background:var(--stop-soft)" data-verify-unit="alert:abrysvo-pregnancy-weeks">
     <strong>⚠️ 兩份官方文件不一致 — Abrysvo 孕婦接種週數</strong><br>
     疾管署《成人預防接種建議時程表》115 年 5 月版：孕婦「<strong>懷孕 28–36 週</strong>」<br>
     Abrysvo 中文仿單（衛部菌疫輸字第 001267 號）：「<strong>懷孕第 24 週至第 36 週</strong>之間」<br>
     起始週數相差 4 週。本頁兩個數字都保留並標明各自出處，依循何者由臨床自行判斷。
   </div>
   <div class="scroller">
-    <table>
+    <table id="contraTable" data-verify-table="contra">
       <thead><tr><th style="min-width:160px">疫苗</th><th style="min-width:230px">接種禁忌</th><th>注意事項</th></tr></thead>
       <tbody id="contraTbl"></tbody>
     </table>
@@ -597,7 +598,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
 
   <h2>間隔符號對照（原表備註 1）</h2>
   <div class="scroller">
-    <table>
+    <table id="catchupSymbolTbl" data-verify-table="catchup-symbol">
       <thead><tr><th>原表符號</th><th>代表間隔</th></tr></thead>
       <tbody>
         <tr><td>⌐→</td><td>間隔 2 週</td></tr>
@@ -608,7 +609,7 @@ footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line); colo
       </tbody>
     </table>
   </div>
-  <div class="note">本工具已把上列符號還原成文字，不需自行對照。原始 PDF 的符號辨識係以 300dpi 放大逐列核對。</div>
+  <div class="note" data-verify-unit="alert:catchup-symbol-decoded">本工具已把上列符號還原成文字，不需自行對照。原始 PDF 的符號辨識係以 300dpi 放大逐列核對。</div>
 
   <h2>其他備註（原文）</h2>
   <div class="card" style="font-size:13.5px;color:var(--ink-2)">
@@ -1733,7 +1734,7 @@ document.getElementById("adultList").innerHTML=ADULT.map((v,i)=>{
     body+=`<span class="src">來源：${cite(v.sero.s)}</span></div>`;
   }
   body+=`<span class="src" style="margin-top:8px">來源：${cite(v.s)}</span>`;
-  return `<div class="vax" id="vaxAdult${i}">
+  return `<div class="vax" id="vaxAdult${i}" data-verify-unit="adult:${(v.en||v.n).replace(/[^A-Za-z0-9-]+/g,'').toLowerCase()||'vax'+i}">
     <div class="vax-head">
       <span class="vax-name">${v.n}<small>${v.en}</small></span>
       <span class="adv-brief">${v.brief}</span>
@@ -1753,7 +1754,7 @@ document.getElementById("contraTbl").innerHTML=VAX.map(vx=>{
   const stop=vx.rules.filter(r=>r.lv==="stop");
   const note=vx.rules.filter(r=>r.lv==="warn"||r.lv==="info");
   const selfpay=vx.rules.some(r=>["S9","S20"].includes(r.s));
-  return `<tr>
+  return `<tr data-verify-vaccine="${vx.id}">
     <td style="font-weight:600">${vx.n}<br><small style="color:var(--ink-3);font-weight:400">${vx.en}</small>
         <br><span class="pill ${vx.type==='live'?'live':''}" ${['shingrix','rsv','covid'].includes(vx.id)?`data-ref-claim="class-${vx.id}"`:''}>${vx.type==='live'?'活性減毒':['shingrix','rsv','covid'].includes(vx.id)?'非活性':'不活化'}</span>
         ${selfpay?`<br><span class="pill" style="background:var(--accent-soft);color:var(--accent);border-color:transparent">仿單</span>`:""}</td>
@@ -2299,5 +2300,6 @@ render();
 <script src="review/clinical.js"></script>
 <script src="clinical.js"></script>
 <script src="vaccine-search.js"></script>
+<script src="human-verify.js"></script>
 </body>
 </html>

@@ -1,0 +1,93 @@
+/* 人工覆核打勾的樣式。深淺色都用 index.html 既有的 CSS 變數，不另定顏色常數。
+   控制放在單位左下角，且不能擋到 [n]／📖：故用 block 佔自己的一行、靠左、字級小、與上文留 4px。 */
+
+.hv-ctl{
+  display:flex; align-items:center; gap:6px; flex-wrap:wrap;
+  margin:4px 0 0; padding:0; line-height:1.4;
+}
+tr > td > .hv-ctl, tr > th > .hv-ctl{ margin-top:6px }
+
+.hv-btn{
+  font:inherit; font-size:11.5px; line-height:1.3;
+  padding:2px 7px; border-radius:999px; cursor:pointer;
+  border:1px solid var(--line); background:var(--surface-2); color:var(--ink-3);
+  white-space:nowrap;
+}
+.hv-btn:hover{ color:var(--ink); border-color:var(--ink-3) }
+.hv-btn:focus-visible{ outline:2px solid var(--accent); outline-offset:1px }
+
+.hv-ctl[data-hv-state="checked"] .hv-btn{
+  background:var(--go-soft); color:var(--go); border-color:transparent; font-weight:600;
+}
+.hv-ctl[data-hv-state="stale"] .hv-btn{
+  background:var(--warn-soft); color:var(--warn); border-color:transparent; font-weight:600;
+}
+.hv-recheck{
+  font:inherit; font-size:11px; padding:2px 6px; border-radius:6px; cursor:pointer;
+  border:1px solid var(--warn); background:transparent; color:var(--warn);
+}
+.hv-recheck:hover{ background:var(--warn-soft) }
+
+/* 已覆核的列／卡片左緣一條細綠線，掃一眼就知道哪些對過了 */
+tr[data-hv-state="checked"] > td:first-child, tr[data-hv-state="checked"] > th:first-child{
+  box-shadow:inset 3px 0 0 var(--go);
+}
+tr[data-hv-state="stale"] > td:first-child, tr[data-hv-state="stale"] > th:first-child{
+  box-shadow:inset 3px 0 0 var(--warn);
+}
+section[data-hv-state="checked"], div[data-hv-state="checked"]{ border-left:3px solid var(--go) }
+section[data-hv-state="stale"],   div[data-hv-state="stale"]{   border-left:3px solid var(--warn) }
+
+/* 篩選只淡化，不 display:none —— tr 被隱藏會讓表格欄寬跳掉（gotchas D） */
+.hv-dim{ opacity:.28; filter:grayscale(.6) }
+.hv-dim:hover{ opacity:.75 }
+
+/* ── 每個 panel 頂端的狀態列 ── */
+.hv-bar{
+  display:flex; align-items:center; gap:8px; flex-wrap:wrap;
+  margin:0 0 14px; padding:7px 11px;
+  background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  font-size:12.5px; color:var(--ink-2);
+}
+.hv-bar .hv-label{ font-weight:600; color:var(--ink) }
+.hv-bar .hv-stat{ color:var(--ink); font-variant-numeric:tabular-nums }
+.hv-bar .hv-filter{
+  font:inherit; font-size:12px; padding:2px 6px; border-radius:6px;
+  background:var(--surface-2); color:var(--ink); border:1px solid var(--line);
+}
+.hv-bar .hv-sync{ margin-left:auto; color:var(--ink-3) }
+.hv-bar .hv-sync[data-hv-sync="synced"]{ color:var(--go) }
+.hv-bar .hv-sync[data-hv-sync="offline"], .hv-bar .hv-sync[data-hv-sync="pending"]{ color:var(--warn) }
+.hv-bar .hv-sync[data-hv-sync="error"]{ color:var(--stop) }
+.hv-mini{
+  font:inherit; font-size:12px; padding:3px 8px; border-radius:6px; cursor:pointer;
+  border:1px solid var(--line); background:var(--surface-2); color:var(--ink-2);
+}
+.hv-mini:hover{ color:var(--ink); border-color:var(--ink-3) }
+
+/* ── 設定對話框 ── */
+.hv-dialog{
+  position:fixed; inset:0; z-index:90;
+  background:rgba(0,0,0,.42);
+  display:flex; align-items:center; justify-content:center; padding:20px;
+}
+.hv-dialog-card{
+  background:var(--surface); color:var(--ink);
+  border:1px solid var(--line); border-radius:var(--radius);
+  padding:18px 20px; max-width:520px; width:100%;
+  box-shadow:0 12px 40px rgba(0,0,0,.28);
+}
+.hv-dialog-card h3{ margin:0 0 8px; color:var(--ink); font-size:15px }
+.hv-dialog-card .sub{ color:var(--ink-3) }
+.hv-dialog-card .hv-warn{
+  background:var(--warn-soft); border-left:3px solid var(--warn);
+  color:var(--ink-2); font-size:12.5px; padding:8px 10px; border-radius:6px; margin:10px 0;
+}
+.hv-token-input{
+  width:100%; font:inherit; font-size:13px; padding:7px 9px; border-radius:6px;
+  background:var(--surface-2); color:var(--ink); border:1px solid var(--line);
+}
+.hv-dialog-row{ display:flex; gap:8px; margin-top:12px; flex-wrap:wrap }
+
+/* ── 總覽表 ── */
+#hvOverview .hv-total td{ font-weight:600; border-top:2px solid var(--line) }

@@ -524,7 +524,9 @@
       section.querySelector('[data-ref-full]').hidden=true;
     });
   }
-  const targetOf=e=>e.target instanceof Element?e.target.closest('.ref-target'):null;
+  // 人工覆核的打勾控制（.hv-ctl）雖然長在 .ref-target 的子樹裡，但不是引用目標：
+  // 下面的 capture 監聽會 stopImmediatePropagation，不排除就會把打勾的 click 吃掉（改開原件面板）。
+  const targetOf=e=>e.target instanceof Element?(e.target.closest('.hv-ctl')?null:e.target.closest('.ref-target')):null;
   document.addEventListener('mouseover', e=>{
     const target=targetOf(e);if(!target||target.contains(e.relatedTarget))return;
     if(target.closest('.exq'))e.stopImmediatePropagation();
