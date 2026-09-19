@@ -82,6 +82,8 @@
   const getToken=()=>safeLS.get(LS_TOKEN)||'';
 
   // 合併規則：同一個 unitId 以 at 較新者為準（取消勾也是一筆帶新 at 的 checked:false，所以能同步刪除）。
+  // 單位集合的正規化字串（key 排序），用來判斷本機與遠端是否完全相同
+  function canonUnits(u){const keys=Object.keys(u||{}).sort();return JSON.stringify(keys.map(k=>[k,u[k]]));}
   function mergeStores(a,b){
     const out={version:1,updatedAt:nowISO(),units:{}};
     for(const src of [a,b]){
@@ -386,6 +388,10 @@
         // 每次嘗試都先取遠端合併（第一次也取，避免蓋掉別台裝置的勾）
         const remote=await fetchRemote();
         if(remote)store=mergeStores(remote,store);
+        // 合併後與遠端內容相同（例如剛存 token、或別台裝置已經推過同樣的勾）→ 不推空 commit
+        if(remote&&remote.units&&canonUnits(remote.units)===canonUnits(store.units)){
+          pending.clear();saveLocal();const t=nowISO();safeLS.set(LS_SYNC,t);setSync('synced','已同步 '+t.slice(11,16));redrawAll();return true;
+        }
         const payload=JSON.stringify({version:1,updatedAt:nowISO(),units:store.units},null,1);
         const body={message:`human-verified: ${pending.size} unit(s) @ ${nowISO()}`,content:b64encode(payload),branch:BRANCH};
         if(remoteSha)body.sha=remoteSha;
@@ -514,6 +520,15 @@
     clr.onclick=()=>{safeLS.del(LS_TOKEN);input.value='';setSync('local','本機（未設定 token）');};
     const close=node('button','關閉','hv-mini');close.type='button';close.onclick=()=>dlg.remove();
     row.append(save,clr,close);card.append(row);
+    // 其他裝置：不用再去 GitHub，複製一條帶 token 的設定連結，傳到那台打開即可（連結等同密碼，別公開貼）
+    const linkBox=node('div',undefined,'hv-linkbox');
+    linkBox.append(node('p','其他裝置要打勾：按下面按鈕複製「設定連結」，用 AirDrop／備忘錄／私訊傳到那台裝置打開，token 會自動存好並從網址消失。連結裡就是 token，視同密碼，不要公開貼。','sub'));
+    const copy=node('button','複製設定連結','hv-mini');copy.type='button';
+    const out=node('input');out.type='text';out.readOnly=true;out.className='hv-token-input';out.placeholder='（先儲存 token 再產生）';out.hidden=true;
+    copy.onclick=async()=>{const v=input.value.trim();if(v&&v!==getToken())safeLS.set(LS_TOKEN,v);const link=settingsLink();if(!link){out.hidden=false;out.value='';out.placeholder='先在上面貼 token 並儲存';return;}
+      out.hidden=false;out.value=link;out.select();
+      try{await navigator.clipboard.writeText(link);copy.textContent='已複製，傳到另一台打開';}catch(e){copy.textContent='請手動全選複製下面的連結';}};
+    linkBox.append(copy,out);card.append(linkBox);
     dlg.append(card);
     document.body.appendChild(dlg);
     return dlg;
@@ -611,7 +626,19 @@
   const isOurs=n=>n&&n.nodeType===1&&(n.classList&&(n.classList.contains('hv-ctl')||n.classList.contains('hv-bar')));
 
   // ── 啟動 ──────────────────────────────────────────────────────────
+  // 設定連結：另一台裝置打開 index.html#hv-token=<token> 就把 token 存進本機並從網址拿掉（不留在網址列／歷史）
+  function importTokenFromHash(){
+    const h=location.hash||'';const m=/(?:^#|[&#])hv-token=([^&]+)/.exec(h);
+    if(!m)return false;
+    const tok=decodeURIComponent(m[1]).trim();
+    if(tok)safeLS.set(LS_TOKEN,tok);
+    const rest=h.replace(/(?:^#|[&#])hv-token=[^&]+/,'').replace(/^#?&/,'#');
+    try{history.replaceState(null,'',location.pathname+location.search+(rest&&rest!=='#'?rest:''));}catch(e){}
+    return !!tok;
+  }
+  function settingsLink(){const t=getToken();return t?(location.origin+location.pathname+'#hv-token='+encodeURIComponent(t)):'';}
   async function boot(){
+    if(importTokenFromHash())setSync('pending','已從設定連結取得 token，同步中…');
     refresh(document);                                   // 先用本機快取畫
     setSync(getToken()?'pending':'local',getToken()?'同步中…':'本機（未設定 token）');
     const remote=await fetchRemote();
@@ -647,6 +674,8 @@
     mergeStores,
     pushRemote,
     fetchRemote,
+    importTokenFromHash,
+    hasSettingsLink:()=>!!settingsLink(),
     openSettings,
     get store(){return store;},
     get pending(){return [...pending];},

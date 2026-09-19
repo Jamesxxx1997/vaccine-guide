@@ -94,3 +94,5 @@ section[data-hv-state="stale"],   div[data-hv-state="stale"]{   border-left:3px 
 
 /* ── 總覽表 ── */
 #hvOverview .hv-total td{ font-weight:600; border-top:2px solid var(--line) }
+.hv-linkbox{ margin-top:10px; padding-top:8px; border-top:1px dashed var(--line) }
+.hv-linkbox .hv-token-input{ margin-top:6px }

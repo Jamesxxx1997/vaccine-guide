@@ -256,6 +256,39 @@ assert(sameFp===ids.length,'全部單位 fp 一致');
 }
 
 // ════════════════════════════════════════════════════════════════════
+// 4b. 設定連結：#hv-token=… 開頁即存 token 並從網址拿掉；沒有 token 時不產生連結
+{
+  const e=makeEnv();sweep(e);
+  assert.equal(e.win.HumanVerify.hasSettingsLink(),false,'沒 token 沒連結');
+  e.win.location.hash='#hv-token='+encodeURIComponent('ghp_LINK_TOKEN_TEST')+'&x=1';
+  assert.equal(e.win.HumanVerify.importTokenFromHash(),true,'從連結匯入 token');
+  assert.equal(e.ls['hv:token'],'ghp_LINK_TOKEN_TEST','token 存進 localStorage');
+  assert(!/hv-token/.test(e.win.location.hash+e.win.location.href),'網址已不含 token：'+e.win.location.href);
+  assert.equal(e.win.HumanVerify.hasSettingsLink(),true,'有 token 就能產生設定連結');
+  const exp=e.win.HumanVerify.exportObject();assert(!JSON.stringify(exp).includes('ghp_LINK_TOKEN_TEST'),'匯出物不含 token');
+  console.log('PASS 設定連結：token 由 #hv-token 匯入並從網址移除');
+}
+// 4c. 沒變動不推：遠端已經有同樣的勾 → 0 次 PUT，狀態仍為已同步
+{
+  let putCount=0;
+  const b64=s=>Buffer.from(s,'utf8').toString('base64');
+  let remoteDoc=null;
+  const e=makeEnv({
+    seedToken:'ghp_FAKE_TOKEN_FOR_TEST_ONLY',
+    respond(rec){
+      if(rec.method==='GET'&&rec.url.startsWith('https://api.github.com/'))return ok({sha:'sha-1',content:b64(JSON.stringify(remoteDoc||{version:1,updatedAt:'2026-09-18T00:00:00.000Z',units:{}})),encoding:'base64'});
+      if(rec.method==='PUT'){putCount++;return ok({content:{sha:'sha-2'}});}
+      return null;
+    }
+  });
+  const H=sweep(e);
+  // 讓遠端與本機完全相同：先勾一個，把本機 store 當成遠端文件
+  H.toggle('alert:abrysvo-pregnancy-weeks');
+  remoteDoc={version:1,updatedAt:'2026-09-18T00:00:00.000Z',units:JSON.parse(JSON.stringify(e.win.HumanVerify.store.units))};
+  await e.win.HumanVerify.pushRemote();
+  assert.equal(putCount,0,'遠端已相同 → 不 PUT（不推空 commit）：'+putCount);
+  console.log('PASS 沒變動不推：遠端相同時 0 次 PUT');
+}
 // 5. 同步：無 token 不 PUT；有假 token 時 PUT 帶 sha 與 branch；409 後重 GET 再 PUT
 // ════════════════════════════════════════════════════════════════════
 {
