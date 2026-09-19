@@ -212,7 +212,8 @@
     if(window.ReferenceUI)ReferenceUI.clear();
     if(searchWrap.dataset.disease!==diseaseId){searchWrap.replaceChildren(searchBox(d));searchWrap.dataset.disease=diseaseId;}
     body.replaceChildren(renderPanel(d,panelId));
-    try{history.replaceState(null,'','#clinical/'+diseaseId+'/'+panelId);}catch(e){}
+    // 只在網址沒有片段、或片段本來就是 #clinical/… 時寫回；別的片段（例：人工覆核的設定連結 #hv-token=…）不能被抹掉
+    try{if(!location.hash||/^#clinical\//.test(location.hash))history.replaceState(null,'','#clinical/'+diseaseId+'/'+panelId);}catch(e){}
   }
   for(const d of diseases){const b=node('button',DISEASE_NAMES[d.id]||d.id);b.type='button';b.dataset.disease=d.id;b.setAttribute('aria-pressed','false');b.onclick=()=>show(d.id,'antiviral');nav.append(b);}
   root.append(nav,searchWrap,tabs,body);

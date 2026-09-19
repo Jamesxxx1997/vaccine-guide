@@ -417,7 +417,9 @@
       return false;
     } finally { pushing=false; }
   }
-  function setSync(mode,text){syncState={mode,text,at:nowISO()};renderBars(true);}
+  function setSync(mode,text){
+    // 狀態列提示：沒 token → 告訴使用者去哪裡設；有 token → 告訴使用者其他裝置怎麼加
+    for(const h of document.querySelectorAll('[data-hv-hint]')){h.textContent=getToken()?'其他裝置要打勾：設定 → 複製設定連結':'這台要打勾並同步：設定 → 貼 token（或用別台的設定連結打開本頁）';}syncState={mode,text,at:nowISO()};renderBars(true);}
 
   // ── 狀態列（每個 panel 頂端一條）────────────────────────────────
   const bars=new Map();   // panelId → {el, filter}
@@ -438,7 +440,9 @@
     const settings=node('button','設定','hv-mini');settings.type='button';settings.onclick=openSettings;
     const exp=node('button','匯出 JSON','hv-mini');exp.type='button';exp.onclick=exportJSON;
     const imp=node('button','匯入 JSON','hv-mini');imp.type='button';imp.onclick=importJSON;
-    el.append(node('span','人工覆核','hv-label'),stat,filter,sync,settings,exp,imp);
+    settings.title='同步設定：貼 token、或複製「設定連結」給其他裝置';
+    const hint=node('span',undefined,'hv-hint');hint.dataset.hvHint='';
+    el.append(node('span','人工覆核','hv-label'),stat,filter,sync,hint,settings,exp,imp);
     panel.insertBefore(el,panel.firstChild);
     bar={el,stat,filter,sync};
     bars.set(panelId,bar);
@@ -508,6 +512,9 @@
     dlg=node('div',undefined,'hv-dialog');dlg.id='hvSettings';
     const card=node('div',undefined,'hv-dialog-card');
     card.append(node('h3','人工覆核・同步設定'));
+    const how=node('ol',undefined,'hv-howto');
+    for(const t of ['第一台：到 GitHub 建 fine-grained token（只給 vaccine-guide 這個 repo、Contents 讀寫），貼進下面欄位 → 儲存。','其他裝置：在已設定的裝置按「複製設定連結」，傳到那台打開本頁，token 自動存好、從網址消失。','只看不勾的裝置什麼都不用設；勾選記錄存在 GitHub 分支 human-verified，任何裝置打開都看得到。'])how.append(node('li',t));
+    card.append(how);
     card.append(node('p','跨裝置同步需要一個 GitHub fine-grained personal access token，只授權本 repo（jamesxxx1997/vaccine-guide）的 Contents 讀寫即可。沒有 token 也能用，只是勾選只存在這台瀏覽器。','sub'));
     const warn=node('p','⚠️ token 只存在這個瀏覽器的 localStorage，不會送到本站以外的任何伺服器（只送 api.github.com）。github.io 上你自己帳號的其他站台與本站共用同一個 origin，會讀得到這個 token——只在你自己的站台安裝。','hv-warn');
     card.append(warn);

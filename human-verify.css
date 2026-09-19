@@ -96,3 +96,6 @@ section[data-hv-state="stale"],   div[data-hv-state="stale"]{   border-left:3px 
 #hvOverview .hv-total td{ font-weight:600; border-top:2px solid var(--line) }
 .hv-linkbox{ margin-top:10px; padding-top:8px; border-top:1px dashed var(--line) }
 .hv-linkbox .hv-token-input{ margin-top:6px }
+.hv-hint{ font-size:11.5px; color:var(--ink-3); margin-left:auto }
+.hv-howto{ margin:6px 0 10px; padding-left:20px; font-size:13px; color:var(--ink-2) }
+.hv-howto li{ margin:2px 0 }

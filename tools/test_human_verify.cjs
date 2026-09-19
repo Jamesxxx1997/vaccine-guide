@@ -9,7 +9,7 @@ const setup=require('./reference_test_env.cjs');
 function makeEnv(opts={}){
   const calls=[];                 // [{url, method, body}]
   const ls={};
-  const env=setup({beforeScripts(w){
+  const env=setup({url:opts.url,beforeScripts(w){
     w.scrollTo=()=>{};
     // jsdom 已經有一個真的 localStorage，直接指派會被忽略（human-verify.js 取到的還是原來那個），
     // 必須用 defineProperty 覆蓋才攔得到。
@@ -288,6 +288,21 @@ assert(sameFp===ids.length,'全部單位 fp 一致');
   await e.win.HumanVerify.pushRemote();
   assert.equal(putCount,0,'遠端已相同 → 不 PUT（不推空 commit）：'+putCount);
   console.log('PASS 沒變動不推：遠端相同時 0 次 PUT');
+}
+// 4d. 真實載入路徑：頁面帶 #hv-token=… 打開（其他腳本先跑，含 clinical.js 的初始 show）→ token 仍要存到、網址要清掉；
+//     clinical 深連結 #clinical/flu/test 照常運作（verifier 曾抓到 clinical.js 無條件改寫 hash 把 token 抹掉）
+{
+  const e=makeEnv({url:'http://localhost:8899/index.html#hv-token='+encodeURIComponent('ghp_REAL_LOAD_TOKEN')});
+  assert(/hv-token/.test(e.win.location.href),'其他腳本跑完後 hash 仍保留（clinical.js 不得抹掉）：'+e.win.location.href);
+  // 測試環境 readyState 停在 loading，且在 jsdom 內跑完整 start()（observer＋boot）會卡住；這裡直接呼叫 boot 第一步的 importTokenFromHash，
+  // 關鍵回歸點是「其他腳本跑完後 hash 還在」（上一行已驗）。
+  assert.equal(e.win.HumanVerify.importTokenFromHash(),true,'真實載入後仍能從 hash 匯入');
+  assert.equal(e.ls['hv:token'],'ghp_REAL_LOAD_TOKEN','真實載入：token 存進 localStorage');
+  assert(!/hv-token/.test(e.win.location.href),'真實載入：網址已不含 token：'+e.win.location.href);
+  const e2=makeEnv({url:'http://localhost:8899/index.html#clinical/flu/test'});
+  assert.equal(e2.win.Clinical.current.panel,'test','clinical 深連結仍能開到指定面板');
+  assert.equal(e2.win.location.hash,'#clinical/flu/test','clinical 深連結 hash 保留');
+  console.log('PASS 真實載入：#hv-token 不被其他腳本抹掉；clinical 深連結不受影響');
 }
 // 5. 同步：無 token 不 PUT；有假 token 時 PUT 帶 sha 與 branch；409 後重 GET 再 PUT
 // ════════════════════════════════════════════════════════════════════
