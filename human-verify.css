@@ -6,6 +6,9 @@
   margin:4px 0 0; padding:0; line-height:1.4;
 }
 tr > td > .hv-ctl, tr > th > .hv-ctl{ margin-top:6px }
+/* .vax 卡片本身沒有內距（內距在 .vax-head／.vax-body），控制要跟標題文字對齊、留在卡片內部的左下角 */
+.vax > .hv-ctl{ margin:0; padding:0 14px 10px }
+.vax.open > .hv-ctl{ padding-top:2px }
 
 .hv-btn{
   font:inherit; font-size:11.5px; line-height:1.3;
