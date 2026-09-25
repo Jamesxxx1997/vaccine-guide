@@ -6,9 +6,12 @@ result is NOT a verified quotation. Yellow marks identify only actual matching
 fragments; whole-claim verification is a separate grade.
 Original sources and the 124 verified-rule records are not modified.
 """
+import argparse
 import hashlib
 import json
+import os
 import re
+import sys
 from pathlib import Path
 import subprocess
 import tempfile
@@ -21,6 +24,16 @@ import pdfplumber
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'review' / 'pages'
 NS = {'h': 'http://www.w3.org/1999/xhtml'}
+
+# pdf-source-index integration: use the pre-built page index (glyph coords,
+# already validated ±0.5pt against pdftotext/pdfplumber) instead of
+# re-parsing a PDF, when an index for that exact sha256 exists.
+# --index-root / PDF_INDEX_ROOT lets a source PDF fall back to the old
+# pdftotext+pdfplumber path when it has no index yet.
+sys.path.insert(0, str(Path.home() / '.claude/skills/pdf-source-index/scripts'))
+from index_pages_adapter import pages_for as index_pages_for  # noqa: E402
+
+DEFAULT_INDEX_ROOT = Path(os.environ.get('PDF_INDEX_ROOT', str(Path.home() / 'pdf-index-lab/index')))
 
 
 def normalize(text):
@@ -154,7 +167,8 @@ def build_claims(sources, spec):
     return result
 
 
-def build():
+def build(index_root=None):
+    index_root = Path(index_root) if index_root else DEFAULT_INDEX_ROOT
     sources = json.loads(subprocess.check_output(
         ['node', str(ROOT / 'tools/export_reference_inputs.mjs')], text=True))
     spec = json.loads((ROOT / 'review/reference-claims.json').read_text())
@@ -188,19 +202,14 @@ def build():
     for file, key in files.items():
         doc = sources[key]
         doc['sha256'] = hashlib.sha256((ROOT / file).read_bytes()).hexdigest()
-        xml = subprocess.check_output(['pdftotext', '-bbox-layout', str(ROOT / file), '-']).decode('utf-8', errors='replace')
-        # quote-review/anchor_engine.py's XML-control-character safeguard.
-        xml = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', xml)
-        pages = ET.fromstring(xml).findall('.//h:page', NS)
-        glyph_pdf = pdfplumber.open(ROOT / file)
-        doc['pages'] = []
         # pagesOnly:"claims"：大部頭仿單／指引只渲染被 claim 引用的頁（reference-ui 依實際頁碼查頁，頁序可不連續）
         wanted = sorted(glyph_pages.get(key, set())) if doc.get('pagesOnly') == 'claims' else None
-        for number, page in enumerate(pages, 1):
-            if wanted is not None and number not in wanted:
-                continue
+
+        def render(number, file=file, key=key, doc=doc):
+            """Render (or reuse) review/pages/<key>-<sha10>-<n>.jpg; return (relpath, iw, ih).
+            Same output path/format regardless of index vs. pdftotext path, so
+            existing HTML/CSS references and cached jpgs are unaffected."""
             target = OUT / f'{key}-{doc["sha256"][:10]}-{number}.jpg'
-            # Render once; different excerpt windows reuse this image in CSS.
             if not target.exists():
                 with tempfile.TemporaryDirectory(prefix='vax-page-') as tmp:
                     prefix = str(Path(tmp) / 'page')
@@ -211,30 +220,58 @@ def build():
                     target.write_bytes(Path(prefix + '.jpg').read_bytes())
             with Image.open(target) as image:
                 iw, ih = image.size
-            lines, words = [], []
-            for block_id, block in enumerate(page.findall('.//h:block', NS)):
-                for line in block.findall('.//h:line', NS):
-                    line_words = line.findall('h:word', NS)
-                    text = ' '.join(''.join(w.itertext()) for w in line_words)
-                    if not text.strip():
-                        continue
-                    line_id = len(lines)
-                    lines.append([round(float(line.attrib[a]), 2) for a in
-                                  ('xMin', 'yMin', 'xMax', 'yMax')] + [text, block_id])
-                    for word in line_words:
-                        words.append([round(float(word.attrib[a]), 2) for a in
-                                      ('xMin', 'yMin', 'xMax', 'yMax')] +
-                                     [''.join(word.itertext()), line_id])
-            doc['pages'].append(dict(page=number, w=float(page.attrib['width']),
-                                     h=float(page.attrib['height']), iw=iw, ih=ih,
-                                     img=str(target.relative_to(ROOT)), lines=lines, words=words))
-            # 逐字 glyph 框（chars）只有舊摘錄系統在瀏覽器端即時算框才需要；pagesOnly:"claims" 的來源全部走預先算好的 rects，
-            # 不輸出 chars（2026-09-16：chars 佔 reference-pages.js 45.8 MB 中的 36.3 MB，拖慢 CI 測試與使用者下載）
+            return str(target.relative_to(ROOT)), iw, ih
+
+        idx_dir = index_root / doc['sha256'][:12]
+        idx_meta_path = idx_dir / 'index.json'
+        used_index = False
+        total_pages = None
+        if idx_meta_path.exists():
+            idx_meta = json.loads(idx_meta_path.read_text())
+            if idx_meta.get('sha256') == doc['sha256']:
+                # index_pages_for treats an empty wanted_pages list as "no filter" (falsy),
+                # but here wanted==[] means pagesOnly:"claims" with zero claims on this
+                # source -> render nothing, matching the original `wanted is not None`
+                # semantics below. Handle that case here rather than in the adapter.
+                doc['pages'] = [] if wanted == [] else index_pages_for(idx_dir, wanted, with_chars=True, img=render)
+                used_index = True
+                total_pages = idx_meta['page_count']
+        if not used_index:
+            xml = subprocess.check_output(['pdftotext', '-bbox-layout', str(ROOT / file), '-']).decode('utf-8', errors='replace')
+            # quote-review/anchor_engine.py's XML-control-character safeguard.
+            xml = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', xml)
+            pages = ET.fromstring(xml).findall('.//h:page', NS)
+            glyph_pdf = pdfplumber.open(ROOT / file)
+            doc['pages'] = []
+            total_pages = len(pages)
+            for number, page in enumerate(pages, 1):
+                if wanted is not None and number not in wanted:
+                    continue
+                path, iw, ih = render(number)
+                lines, words = [], []
+                for block_id, block in enumerate(page.findall('.//h:block', NS)):
+                    for line in block.findall('.//h:line', NS):
+                        line_words = line.findall('h:word', NS)
+                        text = ' '.join(''.join(w.itertext()) for w in line_words)
+                        if not text.strip():
+                            continue
+                        line_id = len(lines)
+                        lines.append([round(float(line.attrib[a]), 2) for a in
+                                      ('xMin', 'yMin', 'xMax', 'yMax')] + [text, block_id])
+                        for word in line_words:
+                            words.append([round(float(word.attrib[a]), 2) for a in
+                                          ('xMin', 'yMin', 'xMax', 'yMax')] +
+                                         [''.join(word.itertext()), line_id])
+                doc['pages'].append(dict(page=number, w=float(page.attrib['width']),
+                                         h=float(page.attrib['height']), iw=iw, ih=ih,
+                                         img=path, lines=lines, words=words))
+                # 逐字 glyph 框（chars）只有舊摘錄系統在瀏覽器端即時算框才需要；pagesOnly:"claims" 的來源全部走預先算好的 rects，
+                # 不輸出 chars（2026-09-16：chars 佔 reference-pages.js 45.8 MB 中的 36.3 MB，拖慢 CI 測試與使用者下載）
+                if glyph_pdf:
+                    doc['pages'][-1]['chars'] = plumber_chars(glyph_pdf.pages[number-1])   # 定位（glyphRows）需要；輸出前再視來源剝掉
             if glyph_pdf:
-                doc['pages'][-1]['chars'] = plumber_chars(glyph_pdf.pages[number-1])   # 定位（glyphRows）需要；輸出前再視來源剝掉
-        if glyph_pdf:
-            glyph_pdf.close()
-        print(key, len(pages), file, flush=True)
+                glyph_pdf.close()
+        print(key, total_pages, file, 'index' if used_index else 'pdftotext', flush=True)
     sources['S9']['text'] = (ROOT / sources['S9']['p']).read_text()
     # Short source extract checked against the original MOHW announcement.
     sources['S10']['text'] = (
@@ -266,4 +303,8 @@ def build():
 
 
 if __name__ == '__main__':
-    build()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--index-root', default=None,
+                        help='pdf-source-index root (default: $PDF_INDEX_ROOT or ~/pdf-index-lab/index)')
+    args = parser.parse_args()
+    build(args.index_root)
